@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
-        {/* --- 1. Google Global Tag (基礎代碼) 開始 --- */}
+        {/* --- 1. Google Global Tag (基礎代碼) 放在這裡 --- */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-356014880"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -25,13 +25,11 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* --- Google Global Tag 結束 --- */}
+        {/* --- 結束 --- */}
 
-        {/* 載入 Tailwind 和 FontAwesome */}
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
         
-        {/* 原本的自定義 CSS */}
         <style dangerouslySetInnerHTML={{__html: `
           body { margin: 0; font-family: system-ui, -apple-system, sans-serif; background-color: #f3f4f6; color: #1f2937; }
           .hero-section { position: relative; height: 400px; background-color: transparent; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
@@ -44,8 +42,8 @@ export default function RootLayout({
           .animate-marquee { animation: marquee 30s linear infinite; }
           .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
           .faq-item.active .faq-answer { max-height: 500px; padding-bottom: 16px; }
-          .faq-icon { transition: transform 0.3s; }
           .faq-item.active .faq-icon { transform: rotate(180deg); }
+          .faq-icon { transition: transform 0.3s; }
         `}} />
       </head>
       <body>{children}</body>
