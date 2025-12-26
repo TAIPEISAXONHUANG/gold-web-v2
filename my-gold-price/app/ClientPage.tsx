@@ -32,7 +32,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   // 資料解構
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  // --- Helper Functions (從 Vue 搬過來的) ---
+  // --- Helper Functions ---
   
   // 圖片優化
   const getOptimizedUrl = (originalUrl: string, width = 800) => {
@@ -94,7 +94,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const bookNow = () => {
     const unitText = calcUnit === 'qian' ? '台錢' : '公克';
     const msg = `你好，我剛剛在官網試算 ${calcMetal} ${calcWeight}${unitText}，預估價格 $${calculateTotal()}，想預約時間賣出。`;
-    // 簡單處理：直接開 LINE
     window.open("https://lin.ee/SDN6jpk", "_blank");
   };
 
@@ -267,7 +266,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                              </div>
 
                              <div id="calculator-section-mobile" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i class="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
                                         <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/3 outline-none"><option value="24K">24K</option><option value="18K">18K</option><option value="Pt">鉑金</option></select>
