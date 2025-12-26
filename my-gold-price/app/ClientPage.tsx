@@ -8,7 +8,7 @@ import {
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend);
 
-// 為了讓 TypeScript 認識 gtag，加這段宣告
+// 讓 TypeScript 認識 Google Tag
 declare global {
   interface Window {
     gtag: (...args: any[]) => void;
@@ -16,7 +16,6 @@ declare global {
 }
 
 export default function ClientPage({ initialData }: { initialData: any }) {
-  // --- 狀態設定 ---
   const [view, setView] = useState('home');
   const [unit, setUnit] = useState<'qian' | 'gram'>('qian');
   const [showHistory, setShowHistory] = useState(false);
@@ -30,19 +29,20 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  // --- 2. Google 轉換追蹤函數 (這裡填入你第二張圖的 ID) ---
+  // ★★★ 這裡就是你剛剛貼的那個轉換程式碼 ★★★
+  // 我們把它改成 React 函數，當按鈕被按下去時執行
   const reportConversion = () => {
     if (typeof window !== 'undefined' && window.gtag) {
-      console.log('Sending Google Ads Conversion...');
+      console.log('Google Ads Conversion Triggered');
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-356014880/uq7hCLPD3NcbEKC24akB',
+        'send_to': 'AW-356014880/uq7hCLPD3NcbEKC24akB', // 這是你提供的轉換 ID
         'value': 1.0,
         'currency': 'TWD'
       });
     }
   };
 
-  // --- Helper Functions ---
+  // Helper Functions
   const getOptimizedUrl = (originalUrl: string, width = 800) => {
     if (!originalUrl) return "https://via.placeholder.com/600x400?text=No+Image";
     if (originalUrl.includes('wsrv.nl')) return originalUrl;
@@ -92,17 +92,17 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     }
   };
 
-  // 預約按鈕 (綁定轉換追蹤)
+  // 綁定按鈕：預約賣出 (按下時會先通知 Google 再開 LINE)
   const bookNow = () => {
-    reportConversion(); // ★★★ 觸發 Google 轉換 ★★★
+    reportConversion(); 
     const unitText = calcUnit === 'qian' ? '台錢' : '公克';
     const msg = `你好，我剛剛在官網試算 ${calcMetal} ${calcWeight}${unitText}，預估價格 $${calculateTotal()}，想預約時間賣出。`;
     window.open("https://lin.ee/SDN6jpk", "_blank");
   };
 
-  // 聯絡按鈕點擊 (綁定轉換追蹤)
+  // 綁定按鈕：聯絡連結 (按下時會先通知 Google 再跳轉)
   const handleContactClick = (url: string) => {
-    reportConversion(); // ★★★ 觸發 Google 轉換 ★★★
+    reportConversion();
     window.open(url, "_blank");
   }
 
