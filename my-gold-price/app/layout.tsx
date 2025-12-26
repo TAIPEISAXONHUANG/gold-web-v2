@@ -13,6 +13,20 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
+        {/* --- Google Tag (gtag.js) 開始 --- */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-356014880"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-356014880');
+            `,
+          }}
+        />
+        {/* --- Google Tag 結束 --- */}
+
         {/* 載入 Tailwind 和 FontAwesome */}
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
