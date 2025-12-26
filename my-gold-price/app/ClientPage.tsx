@@ -8,33 +8,41 @@ import {
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend);
 
+// 為了讓 TypeScript 認識 gtag，加這段宣告
+declare global {
+  interface Window {
+    gtag: (...args: any[]) => void;
+  }
+}
+
 export default function ClientPage({ initialData }: { initialData: any }) {
   // --- 狀態設定 ---
-  const [view, setView] = useState('home'); // 控制首頁或文章頁
+  const [view, setView] = useState('home');
   const [unit, setUnit] = useState<'qian' | 'gram'>('qian');
   const [showHistory, setShowHistory] = useState(false);
-  
-  // 試算機
   const [calcMetal, setCalcMetal] = useState('24K');
   const [calcWeight, setCalcWeight] = useState('');
   const [calcUnit, setCalcUnit] = useState<'qian' | 'gram'>('qian');
-  
-  // 列表顯示控制
   const [visibleQuoteCount, setVisibleQuoteCount] = useState(20);
   const [visibleArticleCount, setVisibleArticleCount] = useState(4);
-  
-  // 文章閱讀
   const [currentArticle, setCurrentArticle] = useState<any>(null);
-
-  // FAQ
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
-  // 資料解構
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
+  // --- 2. Google 轉換追蹤函數 (這裡填入你第二張圖的 ID) ---
+  const reportConversion = () => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      console.log('Sending Google Ads Conversion...');
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-356014880/uq7hCLPD3NcbEKC24akB',
+        'value': 1.0,
+        'currency': 'TWD'
+      });
+    }
+  };
+
   // --- Helper Functions ---
-  
-  // 圖片優化
   const getOptimizedUrl = (originalUrl: string, width = 800) => {
     if (!originalUrl) return "https://via.placeholder.com/600x400?text=No+Image";
     if (originalUrl.includes('wsrv.nl')) return originalUrl;
@@ -48,41 +56,35 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     return originalUrl;
   };
 
-  // 格式化價格
   const formatPrice = (v: number) => {
     if (!v) return "0";
     const val = unit === 'qian' ? v : v / 3.75;
     return Math.floor(val).toLocaleString();
   };
   
-  // 格式化白銀
   const formatSilver = (v: number) => {
     if (!v) return "0";
     let val = parseFloat(v.toString());
     return unit === 'qian' ? Math.floor(val).toLocaleString() : (val / 1000).toFixed(2);
   };
 
-  // 漲跌箭頭
   const renderDiff = (diff: number, isTable = false) => {
     if (!diff) return isTable ? null : <span className="text-gray-400 text-xs">-</span>;
     const unitDiff = unit === 'qian' ? diff : diff / 3.75;
     const absVal = Math.floor(Math.abs(unitDiff)).toLocaleString();
     const color = diff > 0 ? 'text-red-600' : 'text-green-600';
     const arrow = diff > 0 ? '▲' : '▼';
-    
     if (isTable) {
         return <span className={`ml-1 ${color} text-xs`}>{arrow}{absVal}</span>;
     }
     return <span className={`${color} text-xs font-bold`}>{arrow} {absVal}</span>;
   };
 
-  // 試算邏輯
   const calculateTotal = () => {
     if (!calcWeight) return "0";
     const weight = parseFloat(calcWeight);
     let rawPrice = 0;
     if (rates && rates[calcMetal]) rawPrice = rates[calcMetal].buy;
-    
     if (calcUnit === 'qian') {
         return Math.floor(weight * rawPrice).toLocaleString();
     } else {
@@ -90,19 +92,22 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     }
   };
 
-  // 預約
+  // 預約按鈕 (綁定轉換追蹤)
   const bookNow = () => {
+    reportConversion(); // ★★★ 觸發 Google 轉換 ★★★
     const unitText = calcUnit === 'qian' ? '台錢' : '公克';
     const msg = `你好，我剛剛在官網試算 ${calcMetal} ${calcWeight}${unitText}，預估價格 $${calculateTotal()}，想預約時間賣出。`;
     window.open("https://lin.ee/SDN6jpk", "_blank");
   };
 
-  // 切換文章
+  // 聯絡按鈕點擊 (綁定轉換追蹤)
+  const handleContactClick = (url: string) => {
+    reportConversion(); // ★★★ 觸發 Google 轉換 ★★★
+    window.open(url, "_blank");
+  }
+
   const openArticle = (article: any) => {
-    setCurrentArticle({
-        ...article,
-        image: getOptimizedUrl(article.image, 800)
-    });
+    setCurrentArticle({ ...article, image: getOptimizedUrl(article.image, 800) });
     setView('article');
     window.scrollTo(0, 0);
   };
@@ -113,34 +118,28 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     window.scrollTo(0, 0);
   };
 
-  // 滾動定位
   const scrollToId = (id: string) => {
     if (view !== 'home') {
         setView('home');
-        setTimeout(() => {
-            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+        setTimeout(() => { document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); }, 100);
     } else {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
-  // 延遲動畫
   useEffect(() => {
     const timer = setTimeout(() => setShowHistory(true), 1500);
     return () => clearTimeout(timer);
   }, []);
 
-  // --- Render ---
-
   return (
     <div>
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
-            <a href="https://lin.ee/SDN6jpk" target="_blank" className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-line text-xl lg:text-2xl"></i></a>
-            <a href="https://www.facebook.com/QPJEWELRY.OFFICIAL" target="_blank" className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-facebook-f text-lg lg:text-xl"></i></a>
-            <a href="https://www.instagram.com/qiaopin.jewelry/" target="_blank" className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-instagram text-xl lg:text-2xl"></i></a>
-            <a href="https://www.tiktok.com/@qpdiamond666" target="_blank" className="flex items-center justify-center text-white shadow-md bg-black w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-tiktok text-lg lg:text-xl"></i></a>
+            <button onClick={() => handleContactClick("https://lin.ee/SDN6jpk")} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-line text-xl lg:text-2xl"></i></button>
+            <button onClick={() => handleContactClick("https://www.facebook.com/QPJEWELRY.OFFICIAL")} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-facebook-f text-lg lg:text-xl"></i></button>
+            <button onClick={() => handleContactClick("https://www.instagram.com/qiaopin.jewelry/")} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-instagram text-xl lg:text-2xl"></i></button>
+            <button onClick={() => handleContactClick("https://www.tiktok.com/@qpdiamond666")} className="flex items-center justify-center text-white shadow-md bg-black w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-tiktok text-lg lg:text-xl"></i></button>
             <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fas fa-arrow-up text-lg lg:text-xl"></i></button>
         </div>
 
@@ -155,7 +154,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                     <button onClick={() => scrollToId('rates-desktop')} className="font-medium hover:text-red-800 hidden md:block">今日金價</button>
                     <button onClick={() => scrollToId('blog-section')} className="font-medium hover:text-red-800 hidden md:block">知識專欄</button>
                     <div className="flex flex-col items-end">
-                        <a href="tel:0986821626" className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
+                        <a href="tel:0986821626" onClick={reportConversion} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
                             <i className="fas fa-phone-alt text-red-800 text-xs"></i><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
                         </a>
                         <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-500 hover:text-red-800 transition text-[10px] md:text-xs">
@@ -359,7 +358,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="space-y-4 text-sm text-gray-700">
                                     <div className="flex items-start gap-3"><i className="fas fa-clock text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
                                     <div className="flex items-start gap-3"><i className="fas fa-map-marker-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
-                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
+                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={reportConversion} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
                                 </div>
                             </div>
                         </div>
