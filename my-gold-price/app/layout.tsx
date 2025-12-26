@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import './globals.css'
 
 export const metadata: Metadata = {
   title: '巧品珠寶 | 今日金價查詢',
@@ -16,4 +15,5 @@ export default function RootLayout({
       <body style={{ margin: 0, padding: 0, background: '#f3f4f6' }}>{children}</body>
     </html>
   )
+
 }
