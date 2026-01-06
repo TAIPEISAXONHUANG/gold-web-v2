@@ -28,7 +28,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  // 轉換追蹤
   const gtag_report_conversion = (url?: string) => {
     const callback = () => {
       if (typeof url !== 'undefined') {
@@ -50,7 +49,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     return false;
   };
 
-  // Helper Functions
   const getOptimizedUrl = (originalUrl: string, width = 800) => {
     if (!originalUrl) return "https://via.placeholder.com/600x400?text=No+Image";
     if (originalUrl.includes('wsrv.nl')) return originalUrl;
@@ -92,13 +90,9 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     if (!calcWeight) return "0";
     const weight = parseFloat(calcWeight);
     let rawPrice = 0;
-    
-    // 從 rates 抓取對應價格
     if (rates && rates[calcMetal]) {
         rawPrice = rates[calcMetal].buy;
     }
-    
-    // 計算總價
     if (calcUnit === 'qian') {
         return Math.floor(weight * rawPrice).toLocaleString();
     } else {
@@ -107,7 +101,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   };
 
   const bookNow = () => {
-    const unitText = calcUnit === 'qian' ? '台錢' : '公克';
     gtag_report_conversion("https://lin.ee/SDN6jpk");
   };
 
@@ -141,18 +134,17 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     return () => clearTimeout(timer);
   }, []);
 
-  // 定義下拉選單的選項 (抽出共用)
   const MetalOptions = () => (
     <>
       <optgroup label="黃金/K金">
-        <option value="24K">黃金 (24K)</option>
+        <option value="24K">999黃金 (24K)</option>
         <option value="22K">K金 (22K)</option>
         <option value="18K">K金 (18K)</option>
         <option value="14K">K金 (14K)</option>
         <option value="10K">K金 (10K)</option>
       </optgroup>
       <optgroup label="其他貴金屬">
-        <option value="Pt">鉑金 (Pt950)</option>
+        <option value="Pt">鉑金 (Pt1000)</option>
         <option value="S999">純銀 (999)</option>
         <option value="S925">飾銀 (925)</option>
       </optgroup>
@@ -275,7 +267,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             )}
                         </section>
 
-                        {/* 手機版：今日牌價 & 試算機 */}
+                        {/* 手機版：今日牌價 & 試算機 (已修正寬度) */}
                         <div className="lg:hidden space-y-6 mb-8">
                              <div id="rates-mobile" className="bg-white rounded-2xl shadow-xl border-t-4 border-red-800">
                                 <div className="p-5 bg-gradient-to-b from-gray-50 to-white border-b flex justify-between items-start">
@@ -292,13 +284,15 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                              </div>
 
                              <div id="calculator-section-mobile" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i class="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/3 outline-none">
+                                        {/* 修改寬度：w-1/3 -> w-5/12 */}
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="w-full bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
+                                        {/* 修改寬度：w-full -> flex-1 */}
+                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
                                     <button onClick={bookNow} className="w-full bg-green-500 text-white font-bold py-3 rounded text-base hover:bg-green-600 shadow-lg flex items-center justify-center gap-2">用此價格預約賣出</button>
@@ -374,10 +368,11 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/3 outline-none">
+                                        {/* 修改寬度 */}
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="w-full bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
+                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
                                     <button onClick={bookNow} className="w-full bg-green-500 text-white font-bold py-3 rounded text-base hover:bg-green-600 shadow-lg flex items-center justify-center gap-2">用此價格預約賣出</button>
