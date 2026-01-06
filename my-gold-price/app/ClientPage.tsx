@@ -137,16 +137,16 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const MetalOptions = () => (
     <>
       <optgroup label="黃金/K金">
-        <option value="24K">999黃金 (24K)</option>
-        <option value="22K">K金 (22K)</option>
-        <option value="18K">K金 (18K)</option>
-        <option value="14K">K金 (14K)</option>
-        <option value="10K">K金 (10K)</option>
+        <option value="24K">999黃金/錢 (24K)</option>
+        <option value="22K">K金/錢 (22K)</option>
+        <option value="18K">K金/錢 (18K)</option>
+        <option value="14K">K金/錢 (14K)</option>
+        <option value="10K">K金/錢 (10K)</option>
       </optgroup>
       <optgroup label="其他貴金屬">
-        <option value="Pt">鉑金 (Pt1000)</option>
-        <option value="S999">純銀 (999)</option>
-        <option value="S925">飾銀 (925)</option>
+        <option value="Pt">鉑金/錢 (Pt1000)</option>
+        <option value="S999">純銀/公斤 (999)</option>
+        <option value="S925">飾銀/公斤 (925)</option>
       </optgroup>
     </>
   );
@@ -426,3 +426,4 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
+
