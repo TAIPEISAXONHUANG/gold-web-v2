@@ -28,25 +28,16 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  const gtag_report_conversion = (url?: string) => {
-    const callback = () => {
-      if (typeof url !== 'undefined') {
-        window.open(url, "_blank"); 
-      }
-    };
-
+  // --- Google 廣告追蹤 (只負責送訊號，不負責跳轉) ---
+  const sendConversionSignal = () => {
     if (typeof window !== 'undefined' && window.gtag) {
-      console.log('觸發 Google 廣告轉換事件...');
+      console.log('Sending Conversion Signal...');
       window.gtag('event', 'conversion', {
         'send_to': 'AW-356014880/uq7hCLPD3NcbEKC24akB',
         'value': 1.0,
-        'currency': 'TWD',
-        'event_callback': callback
+        'currency': 'TWD'
       });
-    } else {
-      if(url) window.open(url, "_blank");
     }
-    return false;
   };
 
   const getOptimizedUrl = (originalUrl: string, width = 800) => {
@@ -101,12 +92,10 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   };
 
   const bookNow = () => {
-    gtag_report_conversion("https://lin.ee/SDN6jpk");
+    sendConversionSignal(); // 先送訊號
+    // 試算預約可以用 window.open，因為這是使用者明確點擊後的動作，通常不會被擋
+    window.open("https://lin.ee/SDN6jpk", "_blank");
   };
-
-  const handleContactClick = (url: string) => {
-    gtag_report_conversion(url);
-  }
 
   const openArticle = (article: any) => {
     setCurrentArticle({ ...article, image: getOptimizedUrl(article.image, 800) });
@@ -153,13 +142,30 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   return (
     <div>
-        {/* 手機版底部浮動按鈕 */}
+        {/* --- 手機版底部浮動按鈕 (重點修改區) --- */}
+        {/* 改成使用 <a> 標籤，保證手機可點擊，同時加上 onClick 觸發追蹤 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
-            <button onClick={() => handleContactClick("https://lin.ee/SDN6jpk")} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-line text-xl lg:text-2xl"></i></button>
-            <button onClick={() => handleContactClick("https://www.facebook.com/QPJEWELRY.OFFICIAL")} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-facebook-f text-lg lg:text-xl"></i></button>
-            <button onClick={() => handleContactClick("https://www.instagram.com/qiaopin.jewelry/")} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-instagram text-xl lg:text-2xl"></i></button>
-            <button onClick={() => handleContactClick("https://www.tiktok.com/@qpdiamond666")} className="flex items-center justify-center text-white shadow-md bg-black w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fab fa-tiktok text-lg lg:text-xl"></i></button>
-            <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14"><i className="fas fa-arrow-up text-lg lg:text-xl"></i></button>
+            
+            <a href="https://lin.ee/SDN6jpk" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+                <i className="fab fa-line text-xl lg:text-2xl"></i>
+            </a>
+            
+            <a href="https://www.facebook.com/QPJEWELRY.OFFICIAL" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+                <i className="fab fa-facebook-f text-lg lg:text-xl"></i>
+            </a>
+            
+            <a href="https://www.instagram.com/qiaopin.jewelry/" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+                <i className="fab fa-instagram text-xl lg:text-2xl"></i>
+            </a>
+            
+            <a href="https://www.tiktok.com/@qpdiamond666" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-black w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+                <i className="fab fa-tiktok text-lg lg:text-xl"></i>
+            </a>
+            
+            {/* 回到頂部按鈕不需要 href，維持 button 即可 */}
+            <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+                <i className="fas fa-arrow-up text-lg lg:text-xl"></i>
+            </button>
         </div>
 
         {/* 導航列 */}
@@ -173,7 +179,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                     <button onClick={() => scrollToId('rates-desktop')} className="font-medium hover:text-red-800 hidden md:block">今日金價</button>
                     <button onClick={() => scrollToId('blog-section')} className="font-medium hover:text-red-800 hidden md:block">知識專欄</button>
                     <div className="flex flex-col items-end">
-                        <a href="tel:0986821626" onClick={() => gtag_report_conversion("tel:0986821626")} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
+                        {/* 這裡也改成 <a> 確保可點擊 */}
+                        <a href="tel:0986821626" onClick={sendConversionSignal} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
                             <i className="fas fa-phone-alt text-red-800 text-xs"></i><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
                         </a>
                         <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-500 hover:text-red-800 transition text-[10px] md:text-xs">
@@ -287,11 +294,10 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        {/* 修改寬度：w-5/12 -> w-1/2 (50%) 確保字不被切到 */}
+                                        {/* 修改寬度：w-1/2 (50%) 確保字不被切到 */}
                                         <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        {/* 修改寬度：flex-1 (佔用剩餘空間) */}
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
@@ -368,8 +374,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        {/* 修改寬度：w-5/12 -> w-1/2 (50%) */}
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
                                             <MetalOptions />
                                         </select>
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
