@@ -137,16 +137,16 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const MetalOptions = () => (
     <>
       <optgroup label="黃金/K金">
-        <option value="24K">999黃金/錢 (24K)</option>
-        <option value="22K">K金/錢 (22K)</option>
-        <option value="18K">K金/錢 (18K)</option>
-        <option value="14K">K金/錢 (14K)</option>
-        <option value="10K">K金/錢 (10K)</option>
+        <option value="24K">999黃金 (24K)</option>
+        <option value="22K">K金 (22K)</option>
+        <option value="18K">K金 (18K)</option>
+        <option value="14K">K金 (14K)</option>
+        <option value="10K">K金 (10K)</option>
       </optgroup>
       <optgroup label="其他貴金屬">
-        <option value="Pt">鉑金/錢 (Pt1000)</option>
-        <option value="S999">純銀/公斤 (999)</option>
-        <option value="S925">飾銀/公斤 (925)</option>
+        <option value="Pt">鉑金 (Pt950)</option>
+        <option value="S999">純銀 (999)</option>
+        <option value="S925">飾銀 (925)</option>
       </optgroup>
     </>
   );
@@ -287,11 +287,11 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        {/* 修改寬度：w-1/3 -> w-5/12 */}
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
+                                        {/* 修改寬度：w-5/12 -> w-1/2 (50%) 確保字不被切到 */}
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        {/* 修改寬度：w-full -> flex-1 */}
+                                        {/* 修改寬度：flex-1 (佔用剩餘空間) */}
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
@@ -368,8 +368,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        {/* 修改寬度 */}
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
+                                        {/* 修改寬度：w-5/12 -> w-1/2 (50%) */}
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
                                             <MetalOptions />
                                         </select>
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
@@ -426,4 +426,3 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
-
