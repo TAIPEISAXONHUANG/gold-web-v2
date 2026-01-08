@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="zh-TW">
       <head>
         {/* ★★★ 請把你在 Google 複製的那行貼在這裡 ★★★ */}
-        <meta name="google-site-verification" content="這裡填入你的驗證碼" />
+        <meta name="<meta name="google-site-verification" content="f58q0x4tISebwnlueE41NMQNMfL4Ck4T2HO8ZoZvwys" />" />
 
         {/* Google 全域代碼 (原本的) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-356014880"></script>
@@ -93,4 +93,5 @@ export default function RootLayout({
     </html>
   )
 }
+
 
