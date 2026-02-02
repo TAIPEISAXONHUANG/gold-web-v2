@@ -390,7 +390,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="space-y-4 text-sm text-gray-700">
                                     <div className="flex items-start gap-3"><i className="fas fa-clock text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
                                     <div className="flex items-start gap-3"><i className="fas fa-map-marker-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
-                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={() => gtag_report_conversion("tel:0986821626")} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
+                                    {/* 修正這裡：使用 sendConversionSignal */}
+                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={sendConversionSignal} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
                                 </div>
                             </div>
                         </div>
