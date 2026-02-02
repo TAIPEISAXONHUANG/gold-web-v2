@@ -138,7 +138,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         <option value="8K">8K (333)</option> {/* 新增 8K 選項 */}
       </optgroup>
       <optgroup label="其他貴金屬">
-        <option value="Pt">鉑金 (Pt950)</option>
+        <option value="Pt">鉑金 (Pt)</option>
         <option value="S999">純銀 (999)</option>
         <option value="S925">飾銀 (925)</option>
       </optgroup>
@@ -434,3 +434,4 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
+
