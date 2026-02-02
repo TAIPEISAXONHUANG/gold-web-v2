@@ -135,6 +135,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         <option value="18K">18K (750)</option>
         <option value="14K">14K (585)</option>
         <option value="10K">10K (417)</option>
+        <option value="8K">8K (333)</option> {/* 新增 8K 選項 */}
       </optgroup>
       <optgroup label="其他貴金屬">
         <option value="Pt">鉑金 (Pt950)</option>
@@ -299,6 +300,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                         <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
                                             <MetalOptions />
                                         </select>
+                                        {/* 修改寬度：flex-1 */}
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
@@ -375,10 +377,10 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
-                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/3 outline-none">
+                                        <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-5/12 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="w-full bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
+                                        <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
                                     <button onClick={bookNow} className="w-full bg-green-500 text-white font-bold py-3 rounded text-base hover:bg-green-600 shadow-lg flex items-center justify-center gap-2">用此價格預約賣出</button>
@@ -390,8 +392,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="space-y-4 text-sm text-gray-700">
                                     <div className="flex items-start gap-3"><i className="fas fa-clock text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
                                     <div className="flex items-start gap-3"><i className="fas fa-map-marker-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
-                                    {/* 修正這裡：使用 sendConversionSignal */}
-                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={sendConversionSignal} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
+                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={() => sendConversionSignal()} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
                                 </div>
                             </div>
                         </div>
