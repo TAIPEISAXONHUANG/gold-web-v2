@@ -139,7 +139,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     <>
       <optgroup label="黃金/K金">
         <option value="24K">999黃金 (24K)</option>
-        <option value="22K">K金 (22K)</option>
+        <option value="22K">K金 (22K+)</option>
         <option value="18K">K金 (18K)</option>
         <option value="14K">K金 (14K)</option>
         <option value="10K">K金 (10K)</option>
@@ -427,4 +427,5 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
+
 
