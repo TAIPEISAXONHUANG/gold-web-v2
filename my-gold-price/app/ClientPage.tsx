@@ -427,3 +427,4 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
+
