@@ -1,15 +1,3 @@
-這份是**最完整、最穩定**的版本。
-
-我幫你做了以下整合與修正：
-
-1. **修正 K 金數值**：將 22K 改為國際標準的 **916**，10K 改為 **417**（原本是 915/415）。
-2. **手機版按鈕優化**：社群按鈕改用 `<a>` 連結（保證 100% 可點擊，不會被手機擋住），並保留 Google 追蹤。
-3. **右下角按鈕行為**：點擊後會直接 **滑動到「今日牌價」** (rates-mobile)。
-4. **變數名稱統一**：全部統一使用 `sendConversionSignal`，解決之前變數找不到的紅字錯誤。
-
-請直接**全選複製**下面的程式碼，覆蓋 `app/ClientPage.tsx`：
-
-```tsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -40,7 +28,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  // --- Google 廣告轉換追蹤訊號發送 ---
+  // --- Google 廣告轉換追蹤 ---
   const sendConversionSignal = () => {
     if (typeof window !== 'undefined' && window.gtag) {
       console.log('Sending Conversion Signal...');
@@ -52,7 +40,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     }
   };
 
-  // 處理非連結類的點擊 (如按鈕)
   const handleContactClick = (url: string) => {
     sendConversionSignal();
     window.open(url, "_blank");
@@ -144,7 +131,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     <>
       <optgroup label="黃金/K金">
         <option value="24K">24K (999)</option>
-        {/* 修正 K 金數值顯示：22K 為 916，10K 為 417 */}
         <option value="22K">22K (916)</option>
         <option value="18K">18K (750)</option>
         <option value="14K">14K (585)</option>
@@ -160,7 +146,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   return (
     <div>
-        {/* 手機版底部浮動按鈕 (使用 <a> 標籤確保手機點擊順暢) */}
+        {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
             <a href="https://lin.ee/SDN6jpk" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
@@ -179,7 +165,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                 <i className="fab fa-tiktok text-lg lg:text-xl"></i>
             </a>
             
-            {/* 右下角按鈕：滑動到牌價區塊 */}
             <button onClick={() => scrollToId('rates-mobile')} className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fas fa-arrow-up text-lg lg:text-xl"></i>
             </button>
@@ -314,7 +299,6 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                         <select value={calcMetal} onChange={(e) => setCalcMetal(e.target.value)} className="bg-gray-800 border-gray-700 rounded p-3 text-base w-1/2 outline-none">
                                             <MetalOptions />
                                         </select>
-                                        {/* 修改寬度：flex-1 */}
                                         <input type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
                                     <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
@@ -448,5 +432,3 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     </div>
   );
 }
-
-```
