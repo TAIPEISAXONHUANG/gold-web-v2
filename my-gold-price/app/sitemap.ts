@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-    // SEO Blog Articles
+    // SEO Blog Articles - 原始5篇
     {
       url: `${baseUrl}/blog/factors-affecting-gold-price`,
       lastModified: new Date(),
@@ -66,6 +66,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/blog/gold-price-forecast-2026`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    // 新增文章
+    {
+      url: `${baseUrl}/blog/taipei-gold-recovery`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/karat-gold-price`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/gold-recycling-precautions`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
   ];
