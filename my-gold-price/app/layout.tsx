@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '巧品珠寶 | 台北高價黃金回收．K金白金買賣．即時報價查詢',
-  description: '台北大安區實體店面，專營黃金回收、白金、K金、鑽石買賣。提供每日最新即時金價查詢與線上試算。',
+  description: '台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣。提供每日最新即時金價查詢與線上試算。',
 }
 
 export default function RootLayout({
@@ -63,7 +63,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "JewelryStore",
               "name": "巧品珠寶",
-              "description": "台北大安區實體店面，專營黃金回收、白金、K金、鑽石買賣",
+              "description": "台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣",
               "url": "https://www.gold-tw.com",
               "telephone": "+886-986821626",
               "address": {
@@ -92,6 +92,108 @@ export default function RootLayout({
                 "ratingValue": "4.8",
                 "reviewCount": "86"
               }
+            })
+          }}
+        />
+
+        {/* 6. Schema.org FAQPage JSON-LD */}
+        <scriptPage JSON-LD
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "黃金回收價格怎麼計算？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "黃金回收價格 = 當日牌價 × 重量 × 純度。我們採用公開透明的計價方式，不扣耗損，當日現金支付。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "賣黃金需要帶什麼證件？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "請攜帶身份證正本，我們需要進行實名制登記，這是政府規定的法定程序。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "你們的回收價格比別家好嗎？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "我們提供市場頂端回收價，不扣秤、不扣耗損公開透明。建議您多方比價後再決定。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "K金、18K金可以回收嗎？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "當然可以！我們回收各種K金：18K、14K、10K、9K等，依據純度比例計算價格。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "黃金純度怎麼辨識？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "我們現場有專業儀器檢測，同時提供水測、火燒等多重檢驗方式，讓您安心見證。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "可以線上估價嗎？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "可以透過LINE（@QPD888）傳送物品照片，我們會先提供初步估價參考。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "你們是合法的嗎？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "我們是合法立案的珠寶銀樓，擁有政府核發的相關許可證照。"
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "檢測會不會傷害物品？",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "我們有無損檢測也有破壞性檢測，可供您選擇，為保護您的價值，建議兩者兼具檢測。"
+                  }
+                }
+              ]
+            })
+          }}
+        />
+
+        {/* 7. Schema.org Review JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "JewelryStore",
+                "name": "巧品珠寶"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.8",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Organization",
+                "name": "Google 評論"
+              },
+              "reviewBody": "誠信經營，價格透明，服務專業。推薦！"
             })
           }}
         />
