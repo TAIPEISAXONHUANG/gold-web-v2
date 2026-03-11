@@ -10,12 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
-    {
-      url: `${baseUrl}/my-gold-price`,
-      lastModified: new Date(),
-      changeFrequency: 'hourly',
-      priority: 0.9,
-    },
     // SEO Blog Articles
     {
       url: `${baseUrl}/blog/factors-affecting-gold-price`,
