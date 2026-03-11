@@ -38,7 +38,7 @@ export default function FaqPage() {
     },
     {
       q: '可以線上估價嗎？',
-      a: '可以透過LINE（@SDN6jpk）傳送物品照片，我們會先提供初步估價參考。'
+      a: '可以透過LINE（@QPD888）傳送物品照片，我們會先提供初步估價參考。'
     },
     {
       q: '你們是合法的嗎？',
