@@ -54,6 +54,47 @@ export default function RootLayout({
           .faq-item.active .faq-icon { transform: rotate(180deg); }
           .faq-icon { transition: transform 0.3s; }
         `}} />
+
+        {/* 5. Schema.org LocalBusiness JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "JewelryStore",
+              "name": "巧品珠寶",
+              "description": "台北大安區實體店面，專營黃金回收、白金、K金、鑽石買賣",
+              "url": "https://www.gold-tw.com",
+              "telephone": "+886-986821626",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "濟南路三段62-1號1樓",
+                "addressLocality": "大安區",
+                "addressRegion": "台北市",
+                "postalCode": "106",
+                "addressCountry": "TW"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.046",
+                "longitude": "121.537"
+              },
+              "openingHours": ["Mo-Su 11:00-03:30"],
+              "priceRange": "$$",
+              "image": "https://www.gold-tw.com/images/logo.png",
+              "sameAs": [
+                "https://www.facebook.com/QPJEWELRY.OFFICIAL",
+                "https://www.instagram.com/qiaopin.jewelry/",
+                "https://www.youtube.com/channel/UCz9j9M8vmULxloH0-NKYkXw"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "86"
+              }
+            })
+          }}
+        />
       </head>
       <body>{children}</body>
     </html>
