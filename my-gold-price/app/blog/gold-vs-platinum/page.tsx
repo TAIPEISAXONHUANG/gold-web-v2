@@ -55,7 +55,7 @@ export default function Page() {
 
       <h2>各類珠寶回收</h2>
       <p>巧品珠寶回收所有黃金、K金、白金飾品，無論是斷掉的、舊款都能收！</p>
-      <a href="/my-gold-price" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
+      <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
         → 查詢今日報價
       </a>
     </main>

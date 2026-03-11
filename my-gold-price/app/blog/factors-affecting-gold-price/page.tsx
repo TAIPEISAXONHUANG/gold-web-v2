@@ -33,7 +33,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢今日報價</h2>
-      <a href="/my-gold-price" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
+      <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
         → 前往報價頁面
       </a>
     </main>

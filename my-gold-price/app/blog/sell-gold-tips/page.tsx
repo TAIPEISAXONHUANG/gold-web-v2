@@ -30,7 +30,7 @@ export default function Page() {
 
       <h2>台北黃金回收推薦</h2>
       <p>歡迎聯繫 <strong>0986-821-626</strong> 免費估價</p>
-      <a href="/my-gold-price" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
+      <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
         → 查詢今日報價
       </a>
     </main>
