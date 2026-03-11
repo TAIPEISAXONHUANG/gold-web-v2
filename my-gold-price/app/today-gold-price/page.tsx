@@ -1,0 +1,83 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '今日金價｜2026年3月黃金一錢多少｜台北黃金回收',
+  description: '今日金價查詢！2026年3月黃金回收價格一錢多少？立即查詢當日黃金、白金、K金回收報價。',
+  keywords: '今日金價,黃金一錢多少,現在金價,黃金價格,金價查詢',
+};
+
+export default function TodayGoldPrice() {
+  return (
+    <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <h1>📊 今日金價｜黃金一錢多少錢</h1>
+      <p style={{ color: '#666' }}>最後更新：2026年3月11日</p>
+      
+      <div style={{ background: '#fff8e1', padding: '1.5rem', borderRadius: '10px', marginBottom: '2rem' }}>
+        <h2 style={{ marginTop: 0 }}>💰 黃金回收價格（台錢）</h2>
+        <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+          <tr style={{ background: '#f5f5f5' }}>
+            <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>項目</th>
+            <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>價格</th>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金回收（24K）</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 'bold', color: '#B8860B' }}>約 $19,770/錢</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金賣出</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $20,180/錢</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>📈 黃金一錢多少？</h2>
+      <p>根據2026年3月11日最新行情：</p>
+      <ul>
+        <li><strong>1 錢</strong> = 3.75 公克</li>
+        <li><strong>1 兩</strong> = 10 錢 = 37.5 公克</li>
+        <li><strong>1 盎司</strong> = 8.294 錢</li>
+      </ul>
+
+      <h2>💡 黃金回收計算方式</h2>
+      <div style={{ background: '#f0f0f0', padding: '1rem', borderRadius: '8px', fontFamily: 'monospace' }}>
+        <p>回收金額 = 重量（錢）× 當日牌價 × 純度</p>
+        <p>例如：5錢 × $19,770 × 100% = <strong>$98,850</strong></p>
+      </div>
+
+      <h2>📊 其他金屬參考</h2>
+      <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+        <tr style={{ background: '#f5f5f5' }}>
+          <th style={{ padding: '10px', border: '1px solid #ddd' }}>金屬</th>
+          <th style={{ padding: '10px', border: '1px solid #ddd' }}>回收價格</th>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>18K金（75%）</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $14,800/錢</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>14K金（58.5%）</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $11,500/錢</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>白金（鉑金）</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $8,150/錢</td>
+        </tr>
+      </table>
+
+      <h2>⚠️ 提醒</h2>
+      <ul>
+        <li>金價每日浮動，以到店時報價為準</li>
+        <li>建議先電話詢問當日行情</li>
+        <li>我們不扣秤、不扣耗損</li>
+      </ul>
+
+      <h2>📞 立即詢問當日行情</h2>
+      <p>📞 電話：0986-821-626</p>
+      <p>💬 LINE：@SDN6jpk</p>
+
+      <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
+        → 前往官網查詢更多
+      </a>
+    </main>
+  );
+}

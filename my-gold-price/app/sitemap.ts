@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
-    // FAQ 頁面
+    // FAQ
     {
       url: `${baseUrl}/faq`,
       lastModified: new Date(),
@@ -37,7 +37,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-    // SEO Blog Articles - 原始5篇
+    // 黃金產業關鍵字頁面（比價族群）
+    {
+      url: `${baseUrl}/today-gold-price`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gold-recycling-price`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/sell-gold-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gold-price-compare`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    // SEO Blog Articles
     {
       url: `${baseUrl}/blog/factors-affecting-gold-price`,
       lastModified: new Date(),
@@ -68,7 +93,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
-    // 新增文章
     {
       url: `${baseUrl}/blog/taipei-gold-recovery`,
       lastModified: new Date(),
