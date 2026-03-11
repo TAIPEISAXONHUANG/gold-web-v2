@@ -214,6 +214,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <button onClick={() => scrollToId('rates-desktop')} className="bg-amber-500 text-slate-900 font-bold py-3 px-10 rounded-full shadow-lg hover:bg-amber-400 transition border-2 border-amber-600">查看今日金價</button>
                             <button onClick={() => scrollToId('calculator-section-desktop')} className="bg-green-600 text-white font-bold py-3 px-10 rounded-full shadow-lg hover:bg-green-500 transition border-2 border-green-700">舊金回收試算</button>
+                            <a href="/faq" className="bg-blue-600 text-white font-bold py-3 px-10 rounded-full shadow-lg hover:bg-blue-500 transition border-2 border-blue-700">常見問題</a>
+                            <a href="/district/da-an" className="bg-purple-600 text-white font-bold py-3 px-10 rounded-full shadow-lg hover:bg-purple-500 transition border-2 border-purple-700">黃金回收</a>
                         </div>
                     </div>
                 </header>
