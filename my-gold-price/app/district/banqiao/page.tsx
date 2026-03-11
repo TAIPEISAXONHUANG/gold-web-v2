@@ -43,7 +43,7 @@ export default function Page() {
 
       <h2>立即聯繫</h2>
       <p>📞 電話：0986-821-626</p>
-      <p>💬 LINE：@SDN6jpk</p>
+      <p>💬 LINE：@QPD888</p>
       <p>📍 地址：台北市大安區濟南路三段62-1號1樓</p>
 
       <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem' }}>

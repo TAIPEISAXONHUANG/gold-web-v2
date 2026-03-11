@@ -98,7 +98,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const bookNow = () => {
     sendConversionSignal();
-    window.open("https://lin.ee/SDN6jpk", "_blank");
+    window.open("https://lin.ee/QPD888", "_blank");
   };
 
   const openArticle = (article: any) => {
@@ -150,7 +150,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
-            <a href="https://lin.ee/SDN6jpk" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <a href="https://lin.ee/QPD888" target="_blank" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fab fa-line text-xl lg:text-2xl"></i>
             </a>
             

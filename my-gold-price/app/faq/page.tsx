@@ -74,7 +74,7 @@ export default function FaqPage() {
         <p>歡迎透過以下方式聯繫我們：</p>
         <ul>
           <li>📞 電話：0986-821-626</li>
-          <li>💬 LINE：@SDN6jpk</li>
+          <li>💬 LINE：@QPD888</li>
           <li>📍 地址：台北市大安區濟南路三段62-1號1樓</li>
         </ul>
         <a href="/" style={{ color: '#B8860B', fontSize: '1.2rem', fontWeight: 'bold' }}>
