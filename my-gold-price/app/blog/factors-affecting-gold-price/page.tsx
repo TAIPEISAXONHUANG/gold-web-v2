@@ -1,0 +1,41 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '影響黃金回收價格的關鍵因素｜台北黃金回收必看',
+  description: '想知道黃金回收價格怎麼算？了解影響黃金價格的5大因素，包括國際金價、純度、重量、市場趨勢等！',
+  keywords: '黃金回收,黃金價格,影響黃金價格因素,台北黃金回收',
+};
+
+export default function Page() {
+  return (
+    <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <h1>影響黃金回收價格的關鍵因素</h1>
+      
+      <h2>1. 國際金價走勢</h2>
+      <p>黃金回收價格與國際金價直接相關，每日隨市場波動。建議先上網查詢當日牌價。</p>
+
+      <h2>2. 黃金純度</h2>
+      <ul>
+        <li><strong>9999純金（24K）</strong> = 最高價</li>
+        <li><strong>18K</strong> = 75%純度</li>
+        <li><strong>14K</strong> = 58.5%純度</li>
+      </ul>
+
+      <h2>3. 重量計算</h2>
+      <p>以「錢」為單位，1錢=3.75克。現場秤重時務必親眼看見數字。</p>
+
+      <h2>4. 市場供需</h2>
+      <p>農曆年前、結婚旺季需求較高，價格相對較好。</p>
+
+      <h2>5. 回收商報價</h2>
+      <p>不同店家報價不同，建議多方比價，選擇誠信店家。</p>
+
+      <hr style={{ margin: '2rem 0' }} />
+
+      <h2>立即查詢今日報價</h2>
+      <a href="/my-gold-price" style={{ color: '#B8860B', fontSize: '1.2rem' }}>
+        → 前往報價頁面
+      </a>
+    </main>
+  );
+}
