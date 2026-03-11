@@ -97,7 +97,7 @@ export default function RootLayout({
         />
 
         {/* 6. Schema.org FAQPage JSON-LD */}
-        <scriptPage JSON-LD
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
