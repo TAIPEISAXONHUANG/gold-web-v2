@@ -1,0 +1,40 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '黃金回收注意事項｜賣黃金不被坑｜巧品珠寶',
+  description: '賣黃金不被坑！黃金回收常見話術與陷阱，讓您賣黃金不吃虧。',
+  keywords: '黃金回收注意,賣黃金不被坑,黃金回收陷阱',
+};
+
+export default function Page() {
+  return (
+    <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <h1>黃金回收注意事項｜賣黃金必看攻略</h1>
+      
+      <h2>結論：記住這5點，賣黃金不吃虧！</h2>
+      <p>市場上有許多回收話術，本文帶您了解常見陷阱與應對方法。</p>
+
+      <h2>黃金回收常見話術</h2>
+      <ul>
+        <li>❌ 「扣耗損」- 其實不用扣</li>
+        <li>❌ 「扣秤」- 正常的秤應該精準</li>
+        <li>❌ 「行情不好」- 實際行情可查詢</li>
+      </ul>
+
+      <h2>自保方法</h2>
+      <ul>
+        <li>✅ 先查當日金價</li>
+        <li>✅ 選擇誠信店家</li>
+        <li>✅ 現場秤重確認</li>
+        <li>✅ 拒絕不合理扣款</li>
+      </ul>
+
+      <hr style={{ margin: '2rem 0' }} />
+
+      <h2>立即聯繫</h2>
+      <p>📞 電話：0986-821-626</p>
+      <p>💬 LINE：@QPD888</p>
+      <p>🌐 官網：https://www.gold-tw.com/</p>
+    </main>
+  );
+}
