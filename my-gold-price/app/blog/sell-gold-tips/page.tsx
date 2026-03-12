@@ -9,6 +9,28 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      {/* Schema.org Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "賣黃金前必看的5個技巧",
+            "author": {
+              "@type": "Organization",
+              "name": "巧品珠寶"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "巧品珠寶"
+            },
+            "datePublished": "2026-03-12",
+            "description": "第一次賣黃金要注意什麼？5大重點讓你不上當！"
+          })
+        }}
+      />
+      
       <h1>賣黃金前必知的5件事</h1>
 
       <h2>1. 先了解當日金價</h2>
