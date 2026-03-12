@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '金牌回收｜墜子變現',
-  description: '黃金金牌、墜子回收服務',
-  keywords: '金牌回收,黃金墜子,金牌變現',
+  title: '黃金店家挑選｜技巧',
+  description: '如何挑選黃金回收店家',
+  keywords: '店家挑選,回收技巧,黃金店家',
 };
 
 export default function Page() {
@@ -15,16 +15,16 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "金牌回收｜墜子變現",
+            "headline": "黃金店家挑選｜技巧",
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-13",
-            "description": "黃金金牌、墜子回收服務"
+            "description": "如何挑選黃金回收店家"
           })
         }
       />
       
-      <h1>金牌回收｜墜子變現</h1>
+      <h1>黃金店家挑選｜技巧</h1>
       <p>歡迎來到巧品珠寶黃金回收專業服務。本文將為您詳細介紹相關資訊，幫助您了解黃金回收的最新動態與注意事項。</p>
 
       <h2>為什麼選擇我們？</h2>
