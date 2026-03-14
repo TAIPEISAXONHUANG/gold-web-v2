@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import fs from 'fs';
+import path from 'path';
 
 export const metadata: Metadata = {
   title: '黃金回收知識專欄｜台北巧品珠寶',
@@ -6,77 +8,61 @@ export const metadata: Metadata = {
   keywords: '黃金回收知識,黃金保養,K金回收,金價走勢',
 };
 
-// 部落格文章列表數據
-const articles = [
-  {
-    slug: 'sell-gold-tips',
-    title: '賣黃金前必看！5個你必須知道的事',
-    summary: '了解當日金價、攜帶證件、現秤重確認等賣黃金前要注意的5件事。',
-    date: '2026-03-11',
-    category: '知識專欄'
-  },
-  {
-    slug: 'factors-affecting-gold-price',
-    title: '影響黃金價格的關鍵因素',
-    summary: '國際政治局勢、美元匯率、通膨壓力等因素如何影響黃金價格？',
-    date: '2026-03-10',
-    category: '金價分析'
-  },
-  {
-    slug: 'gold-price-forecast-2026',
-    title: '2026年黃金價格走勢預測',
-    summary: '專家分析2026年黃金價格趨勢，買賣時機建議。',
-    date: '2026-03-09',
-    category: '金價分析'
-  },
-  {
-    slug: 'karat-gold-recovery',
-    title: 'K金回收必看！18K、14K多少錢？',
-    summary: 'K金回收行情解析，18K、14K、10K回收價格一次看懂。',
-    date: '2026-03-08',
-    category: 'K金回收'
-  },
-  {
-    slug: 'karat-gold-price',
-    title: 'K金價格怎麼算？一篇搞懂K金行情',
-    summary: 'K金與純金的差別，K金價格計算方式與回收須知。',
-    date: '2026-03-07',
-    category: 'K金回收'
-  },
-  {
-    slug: 'gold-vs-platinum',
-    title: '黃金、白金（鉑金）哪個更值錢？',
-    summary: '黃金與白金的差別在哪裡？哪種更值得投資？',
-    date: '2026-03-06',
-    category: '知識專欄'
-  },
-  {
-    slug: 'taipei-gold-recovery',
-    title: '台北黃金回收推薦｜哪裡回收最划算？',
-    summary: '台北市各區黃金回收推薦，選擇誠信店家的注意事項。',
-    date: '2026-03-05',
-    category: '回收推薦'
-  },
-  {
-    slug: 'gold-recycling-precautions',
-    title: '黃金回收注意事項｜避免被坑指南',
-    summary: '賣黃金時常見的話術與陷阱，教你如何保護自己的權益。',
-    date: '2026-03-04',
-    category: '知識專欄'
-  }
-];
+// 自動讀取所有文章
+function getArticles() {
+  const blogDir = path.join(process.cwd(), 'app', 'blog');
+  const dirs = fs.readdirSync(blogDir).filter(f => {
+    const stat = fs.statSync(path.join(blogDir, f));
+    return stat.isDirectory();
+  });
+  
+  const articles = dirs.map(dir => {
+    const pagePath = path.join(blogDir, dir, 'page.tsx');
+    if (fs.existsSync(pagePath)) {
+      const content = fs.readFileSync(pagePath, 'utf-8');
+      
+      // 從 metadata 抓標題
+      const titleMatch = content.match(/title:\s*['"]([^'"]+)['"]/);
+      const descMatch = content.match(/description:\s*['"]([^'"]+)['"]/);
+      
+      return {
+        slug: dir,
+        title: titleMatch ? titleMatch[1] : dir,
+        summary: descMatch ? descMatch[1] : '',
+        date: new Date().toISOString().split('T')[0],
+        category: '知識專欄'
+      };
+    }
+    return null;
+  }).filter(Boolean);
+  
+  return articles;
+}
 
 export default function BlogPage() {
+  const articles = getArticles();
+
   return (
     <main style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
-      <h1>黃金回收知識專欄</h1>
+      <a href="/" style={{ 
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '8px',
+        color: '#666',
+        textDecoration: 'none',
+        marginBottom: '1rem',
+        fontWeight: 'bold'
+      }}>
+        ← 返回首頁
+      </a>
       
+      <h1>黃金回收知識專欄</h1>
       <p style={{ marginBottom: '2rem', color: '#666', fontSize: '1.1rem' }}>
-        了解黃金回收最新資訊、K金行情、價格走勢等專業知識。
+        了解黃金回收最新資訊、K金行情、價格走勢等專業知識。（共 {articles.length} 篇文章）
       </p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
-        {articles.map((article) => (
+        {articles.map((article: any) => (
           <a 
             key={article.slug}
             href={`/blog/${article.slug}`}
