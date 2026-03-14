@@ -182,6 +182,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                     <button onClick={() => scrollToId('rates-desktop')} className="font-medium hover:text-red-800 hidden md:block">今日金價</button>
                     <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">知識專欄</a>
                     <a href="/faq" className="font-medium hover:text-red-800 hidden md:block">常見問題</a>
+                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">部落格</a>
                     <a href="/district/da-an" className="font-medium hover:text-red-800 hidden md:block">黃金回收</a>
                     <div className="flex flex-col items-end">
                         <a href="tel:0986821626" onClick={sendConversionSignal} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
