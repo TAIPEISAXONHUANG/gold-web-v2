@@ -180,7 +180,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                 </div>
                 <div className="flex items-center space-x-4">
                     <button onClick={() => scrollToId('rates-desktop')} className="font-medium hover:text-red-800 hidden md:block">今日金價</button>
-                    <button onClick={() => scrollToId('blog-section')} className="font-medium hover:text-red-800 hidden md:block">知識專欄</button>
+                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">知識專欄</a>
                     <a href="/faq" className="font-medium hover:text-red-800 hidden md:block">常見問題</a>
                     <a href="/district/da-an" className="font-medium hover:text-red-800 hidden md:block">黃金回收</a>
                     <div className="flex flex-col items-end">
