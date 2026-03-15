@@ -80,6 +80,38 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+
+        {/* 5. LocalBusiness 結構化資料 (JSON-LD) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "巧品珠寶",
+                "description": "台北高價黃金回收，K金、白金、鑽石買賣。每日最新金價查詢。",
+                "image": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "濟南路三段62-1號",
+                  "addressLocality": "台北市",
+                  "addressRegion": "大安區",
+                  "postalCode": "106",
+                  "addressCountry": "TW"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "25.0469",
+                  "longitude": "121.5354"
+                },
+                "telephone": "+886-986-821-626",
+                "priceRange": "$$",
+                "openingHours": ["Mo-Fr 11:00-21:30", "Sa 11:00-21:30"],
+                "url": "https://www.gold-tw.com"
+              }
+            `,
+          }}
+        />
         
         {/* 4. 樣式庫 (Tailwind & FontAwesome) */}
         <script src="https://cdn.tailwindcss.com"></script>
