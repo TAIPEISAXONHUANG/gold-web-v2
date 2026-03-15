@@ -112,6 +112,36 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* 6. Product 結構化資料 - 黃金回收價格 (JSON-LD) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "Product",
+                "name": "黃金回收 (24K)",
+                "description": "高價黃金回收服務，即時報價。2026年3月回收價格：每錢 $19,370起",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "巧品珠寶"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "name": "黃金回收 24K",
+                  "price": "19370",
+                  "priceCurrency": "TWD",
+                  "priceValidUntil": "2026-03-16",
+                  "availability": "https://schema.org/InStock",
+                  "seller": {
+                    "@type": "Organization",
+                    "name": "巧品珠寶"
+                  }
+                }
+              }
+            `,
+          }}
+        />
         
         {/* 4. 樣式庫 (Tailwind & FontAwesome) */}
         <script src="https://cdn.tailwindcss.com"></script>
