@@ -42,17 +42,18 @@ function getArticles() {
   return articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export default function BlogPage({
+export default async function BlogPage({
   searchParams,
 }: {
-  searchParams: { page?: string }
+  searchParams: Promise<{ page?: string }>
 }) {
+  const params = await searchParams;
   const articles = getArticles();
   
   // 分頁設定
   const itemsPerPage = 12;
   const totalPages = Math.ceil(articles.length / itemsPerPage);
-  const currentPage = parseInt(searchParams.page || '1', 10);
+  const currentPage = parseInt(params.page || '1', 10);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedArticles = articles.slice(startIndex, startIndex + itemsPerPage);
 
