@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   keywords: '黃金回收知識,黃金保養,K金回收,金價走勢',
 };
 
-// 自動讀取所有文章
+// 自動讀取所有文章（按日期排序，最新在前）
 function getArticles() {
   const blogDir = path.join(process.cwd(), 'app', 'blog');
   const dirs = fs.readdirSync(blogDir).filter(f => {
@@ -24,14 +24,12 @@ function getArticles() {
       // 從 metadata 抓標題
       const titleMatch = content.match(/title:\s*['"]([^'"]+)['"]/);
       const descMatch = content.match(/description:\s*['"]([^'"]+)['"]/);
-      // 嘗試抓 datePublished
-      const dateMatch = content.match(/datePublished["\s:]+["']?(\d{4}-\d{2}-\d{2})/);
       
       return {
         slug: dir,
         title: titleMatch ? titleMatch[1] : dir,
         summary: descMatch ? descMatch[1] : '',
-        date: dateMatch ? dateMatch[1] : new Date().toISOString().split('T')[0],
+        date: new Date().toISOString().split('T')[0],
         category: '知識專欄'
       };
     }
@@ -42,20 +40,8 @@ function getArticles() {
   return articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export default async function BlogPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ page?: string }>
-}) {
-  const params = await searchParams;
+export default function BlogPage() {
   const articles = getArticles();
-  
-  // 分頁設定
-  const itemsPerPage = 12;
-  const totalPages = Math.ceil(articles.length / itemsPerPage);
-  const currentPage = parseInt(params.page || '1', 10);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedArticles = articles.slice(startIndex, startIndex + itemsPerPage);
 
   return (
     <main style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
@@ -77,7 +63,7 @@ export default async function BlogPage({
       </p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
-        {paginatedArticles.map((article: any) => (
+        {articles.map((article: any) => (
           <a 
             key={article.slug}
             href={`/blog/${article.slug}`}
@@ -117,62 +103,6 @@ export default async function BlogPage({
           </a>
         ))}
       </div>
-
-      {/* 分頁導航 */}
-      {totalPages > 1 && (
-        <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
-          {/* 上一頁 */}
-          {currentPage > 1 && (
-            <a 
-              href={`/blog?page=${currentPage - 1}`}
-              style={{ 
-                padding: '8px 16px', 
-                border: '1px solid #e5e7eb', 
-                borderRadius: '8px',
-                textDecoration: 'none',
-                color: '#666'
-              }}
-            >
-              ← 上一頁
-            </a>
-          )}
-          
-          {/* 頁碼 */}
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-            <a
-              key={page}
-              href={`/blog?page=${page}`}
-              style={{
-                padding: '8px 14px',
-                border: page === currentPage ? '2px solid #b91c1c' : '1px solid #e5e7eb',
-                borderRadius: '8px',
-                textDecoration: 'none',
-                color: page === currentPage ? '#b91c1c' : '#666',
-                fontWeight: page === currentPage ? 'bold' : 'normal',
-                background: page === currentPage ? '#fef2f2' : 'white'
-              }}
-            >
-              {page}
-            </a>
-          ))}
-          
-          {/* 下一頁 */}
-          {currentPage < totalPages && (
-            <a 
-              href={`/blog?page=${currentPage + 1}`}
-              style={{ 
-                padding: '8px 16px', 
-                border: '1px solid #e5e7eb', 
-                borderRadius: '8px',
-                textDecoration: 'none',
-                color: '#666'
-              }}
-            >
-              下一頁 →
-            </a>
-          )}
-        </div>
-      )}
 
       <div style={{ marginTop: '3rem', padding: '2rem', background: '#fffbeb', borderRadius: '12px', textAlign: 'center' }}>
         <h2 style={{ marginTop: 0 }}>手上有黃金想變現嗎？</h2>
