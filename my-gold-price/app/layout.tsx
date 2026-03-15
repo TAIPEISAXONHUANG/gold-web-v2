@@ -3,6 +3,28 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '巧品珠寶 | 台北高價黃金回收．K金白金買賣．即時報價查詢',
   description: '台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣。提供每日最新即時金價查詢與線上試算。',
+  openGraph: {
+    title: '巧品珠寶 | 台北高價黃金回收',
+    description: '台北大安區實體店面，專營黃金回收、白金、K金買賣。每日最新金價，歡迎來電詢問！',
+    url: 'https://www.gold-tw.com',
+    siteName: '巧品珠寶',
+    images: [
+      {
+        url: 'https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80',
+        width: 1200,
+        height: 630,
+        alt: '巧品珠寶 - 台北黃金回收',
+      },
+    ],
+    locale: 'zh_TW',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '巧品珠寶 | 台北高價黃金回收',
+    description: '台北大安區實體店面，專營黃金回收、白金、K金買賣。每日最新金價！',
+    images: ['https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80'],
+  },
 }
 
 export default function RootLayout({
