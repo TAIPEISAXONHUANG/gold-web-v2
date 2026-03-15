@@ -51,6 +51,13 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Meta Pixel Noscript (for users without JS) */}
+        <noscript>
+          <img height="1" width="1" style={{display:'none'}}
+            src="https://www.facebook.com/tr?id=1509088996230503&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         
         {/* 4. 樣式庫 (Tailwind & FontAwesome) */}
         <script src="https://cdn.tailwindcss.com"></script>
