@@ -28,15 +28,21 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
 
-  // --- Google 廣告轉換追蹤 ---
+  // --- Google & Meta 轉換追蹤 ---
   const sendConversionSignal = () => {
+    // Google Ads 轉換
     if (typeof window !== 'undefined' && window.gtag) {
-      console.log('Sending Conversion Signal...');
+      console.log('Sending Google Conversion...');
       window.gtag('event', 'conversion', {
         'send_to': 'AW-356014880/uq7hCLPD3NcbEKC24akB',
         'value': 1.0,
         'currency': 'TWD'
       });
+    }
+    // Meta Pixel 追蹤 (Lead = 潛在客戶)
+    if (typeof window !== 'undefined' && window.fbq) {
+      console.log('Sending Meta Lead...');
+      window.fbq('track', 'Lead');
     }
   };
 
