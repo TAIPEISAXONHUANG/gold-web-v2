@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
+import Pagination from './Pagination';
 
 export const metadata: Metadata = {
   title: '黃金回收知識專欄｜台北巧品珠寶',
@@ -42,8 +43,16 @@ function getArticles() {
   return articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export default function BlogPage() {
+export default function BlogPage({
+  searchParams,
+}: {
+  searchParams: { page?: string }
+}) {
   const articles = getArticles();
+  const itemsPerPage = 12;
+  const currentPage = parseInt(searchParams.page || '1', 10);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedArticles = articles.slice(startIndex, startIndex + itemsPerPage);
 
   return (
     <main style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
@@ -65,7 +74,7 @@ export default function BlogPage() {
       </p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
-        {articles.map((article: any) => (
+        {paginatedArticles.map((article: any) => (
           <a 
             key={article.slug}
             href={`/blog/${article.slug}`}
@@ -106,11 +115,8 @@ export default function BlogPage() {
         ))}
       </div>
 
-      {/* 簡單分頁導航 */}
-      <div style={{ marginTop: '2rem', textAlign: 'center', color: '#666' }}>
-        <p>📄 共 {articles.length} 篇文章</p>
-        <p style={{ fontSize: '0.9rem' }}>文章較多，請使用瀏覽器搜尋功能（Ctrl+F）找標題</p>
-      </div>
+      {/* 分頁導航 */}
+      <Pagination totalItems={articles.length} itemsPerPage={itemsPerPage} />
 
       <div style={{ marginTop: '3rem', padding: '2rem', background: '#fffbeb', borderRadius: '12px', textAlign: 'center' }}>
         <h2 style={{ marginTop: 0 }}>手上有黃金想變現嗎？</h2>
