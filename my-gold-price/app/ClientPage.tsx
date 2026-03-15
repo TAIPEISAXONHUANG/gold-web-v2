@@ -11,6 +11,7 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 declare global {
   interface Window {
     gtag: (...args: any[]) => void;
+    fbq: (...args: any[]) => void;
   }
 }
 
