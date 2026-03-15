@@ -24,12 +24,14 @@ function getArticles() {
       // 從 metadata 抓標題
       const titleMatch = content.match(/title:\s*['"]([^'"]+)['"]/);
       const descMatch = content.match(/description:\s*['"]([^'"]+)['"]/);
+      // 從 JSON-LD 抓 datePublished
+      const dateMatch = content.match(/"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})"/);
       
       return {
         slug: dir,
         title: titleMatch ? titleMatch[1] : dir,
         summary: descMatch ? descMatch[1] : '',
-        date: new Date().toISOString().split('T')[0],
+        date: dateMatch ? dateMatch[1] : new Date().toISOString().split('T')[0],
         category: '知識專欄'
       };
     }
