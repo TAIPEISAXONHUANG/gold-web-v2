@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-14",
+              "dateModified": "2026-03-16",
             "description": "賣黃金最怕秤重被動手腳！專業教你如何判斷秤是否準確"
           })
         }}

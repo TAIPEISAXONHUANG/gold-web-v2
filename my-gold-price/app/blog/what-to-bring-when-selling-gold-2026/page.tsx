@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
+              "dateModified": "2026-03-16",
             "description": "2026年賣黃金要準備哪些東西？本文整理最新法規要求：必備身份證件、建議攜帶的購買憑證，以及常見問題解答，讓你第一次賣黃金就上手。"
           })
         }}

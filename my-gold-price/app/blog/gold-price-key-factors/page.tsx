@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
+              "dateModified": "2026-03-16",
             "description": "為什麼黃金價格每天都在變？本文深入解析影響金價的5大關鍵因素：美元匯率、通貨膨脹、地緣政治、央行購金與市場供需，幫你掌握買賣黃金的最佳時機。"
           })
         }}

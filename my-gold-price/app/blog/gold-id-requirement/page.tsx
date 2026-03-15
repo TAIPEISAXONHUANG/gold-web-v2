@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-15",
+              "dateModified": "2026-03-16",
             "description": "賣黃金要帶什麼證件？實名制登記是什麼？一篇讓你搞懂"
           })
         }}

@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
+              "dateModified": "2026-03-16",
             "description": "K金、黃金、白金有何不同？一篇讓你搞懂貴金屬！"
           })
         }}

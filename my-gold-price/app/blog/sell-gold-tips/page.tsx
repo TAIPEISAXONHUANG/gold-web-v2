@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
+              "dateModified": "2026-03-16",
             "description": "第一次賣黃金要注意什麼？5大重點讓你不上當！"
           })
         }}

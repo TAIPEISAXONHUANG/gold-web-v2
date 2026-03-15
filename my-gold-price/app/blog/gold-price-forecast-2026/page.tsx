@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
+              "dateModified": "2026-03-16",
             "description": "2026年金價走勢專家分析，現在該不該賣黃金？"
           })
         }}

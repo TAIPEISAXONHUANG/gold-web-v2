@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-14",
+              "dateModified": "2026-03-16",
             "description": "賣黃金前必看！5個常見陷阱讓你不上當。專業黃金回收10年經驗分享"
           })
         }}

@@ -19,6 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-15",
+              "dateModified": "2026-03-16",
             "description": "黃金和白金的差別在哪？哪個更值得投資？10年經驗老師傅分析給你聽"
           })
         }}
