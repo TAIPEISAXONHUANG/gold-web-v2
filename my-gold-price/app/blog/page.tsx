@@ -106,6 +106,12 @@ export default function BlogPage() {
         ))}
       </div>
 
+      {/* 簡單分頁導航 */}
+      <div style={{ marginTop: '2rem', textAlign: 'center', color: '#666' }}>
+        <p>📄 共 {articles.length} 篇文章</p>
+        <p style={{ fontSize: '0.9rem' }}>文章較多，請使用瀏覽器搜尋功能（Ctrl+F）找標題</p>
+      </div>
+
       <div style={{ marginTop: '3rem', padding: '2rem', background: '#fffbeb', borderRadius: '12px', textAlign: 'center' }}>
         <h2 style={{ marginTop: 0 }}>手上有黃金想變現嗎？</h2>
         <p>立即聯繫巧品珠寶，獲得最新回收報價！</p>
