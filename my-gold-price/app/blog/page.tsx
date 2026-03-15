@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
-import Pagination from './Pagination';
 
 export const metadata: Metadata = {
   title: '黃金回收知識專欄｜台北巧品珠寶',
@@ -43,16 +42,8 @@ function getArticles() {
   return articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export default function BlogPage({
-  searchParams,
-}: {
-  searchParams: { page?: string }
-}) {
+export default function BlogPage() {
   const articles = getArticles();
-  const itemsPerPage = 12;
-  const currentPage = parseInt(searchParams.page || '1', 10);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedArticles = articles.slice(startIndex, startIndex + itemsPerPage);
 
   return (
     <main style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
@@ -74,7 +65,7 @@ export default function BlogPage({
       </p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
-        {paginatedArticles.map((article: any) => (
+        {articles.map((article: any) => (
           <a 
             key={article.slug}
             href={`/blog/${article.slug}`}
@@ -114,9 +105,6 @@ export default function BlogPage({
           </a>
         ))}
       </div>
-
-      {/* 分頁導航 */}
-      <Pagination totalItems={articles.length} itemsPerPage={itemsPerPage} />
 
       <div style={{ marginTop: '3rem', padding: '2rem', background: '#fffbeb', borderRadius: '12px', textAlign: 'center' }}>
         <h2 style={{ marginTop: 0 }}>手上有黃金想變現嗎？</h2>
