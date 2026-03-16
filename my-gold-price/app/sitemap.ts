@@ -22,6 +22,7 @@ const blogSlugs = [
   'sell-gold-tips', 'taichung-gold-recovery', 'taipei-gold-recovery',
   'wedding-gold-recovery', 'what-to-bring-when-selling-gold-2026',
   'why-some-get-better-gold-price',
+  'gold-price-guide-2026', 'gold-vs-platinum-guide', 'sell-gold-checklist-2026',
 ];
 
 const districtSlugs = [
