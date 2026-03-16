@@ -45,6 +45,16 @@ export default function Page() {
         <li><strong>健保卡</strong> - 輔助驗證身份</li>
       </ul>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/before-selling-gold" style={{ color: "#B8860B" }}>賣黃金前準備</a></li>
+        <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼</a></li>
+        <li><a href="/blog/gold-should-know" style={{ color: "#B8860B" }}>賣黃金必知事項</a></li>
+        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>📋 證件要求說明</h2>

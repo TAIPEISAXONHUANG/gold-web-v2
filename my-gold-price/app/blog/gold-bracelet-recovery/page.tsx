@@ -57,6 +57,16 @@ export default function Page() {
       <h3>Q：變形或裂掉的手鐲可以回收嗎？</h3>
       <p>A：完全可以，我們以重量和純度計價，外觀不影響回收價格。</p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-necklace-recovery" style={{ color: "#B8860B" }}>黃金項鍊回收</a></li>
+        <li><a href="/blog/gold-ring-recovery" style={{ color: "#B8860B" }}>黃金戒指回收</a></li>
+        <li><a href="/blog/karat-gold-recovery" style={{ color: "#B8860B" }}>K金回收指南</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>

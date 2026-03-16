@@ -78,6 +78,16 @@ export default function Page() {
         <li><strong>定期關注</strong>：每週或每月查看金價趨勢</li>
       </ul>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-price-2026" style={{ color: "#B8860B" }}>2026黃金行情分析</a></li>
+        <li><a href="/blog/factors-affecting-gold-price" style={{ color: "#B8860B" }}>影響黃金價格因素</a></li>
+        <li><a href="/blog/gold-coin-invest" style={{ color: "#B8860B" }}>黃金硬幣投資</a></li>
+        <li><a href="/blog/gold-vs-platinum-investment" style={{ color: "#B8860B" }}>黃金vs白金投資</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢今日金價</h2>

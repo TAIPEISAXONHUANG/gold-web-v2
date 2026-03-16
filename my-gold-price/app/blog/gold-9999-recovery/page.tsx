@@ -55,6 +55,16 @@ export default function Page() {
       <h3>Q：需要原始購買憑證嗎？</h3>
       <p>A：不需要，但有的話可以加快流程。</p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/karat-gold-recovery" style={{ color: "#B8860B" }}>K金回收指南</a></li>
+        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
+        <li><a href="/blog/gold-bar-recovery" style={{ color: "#B8860B" }}>黃金條塊回收</a></li>
+        <li><a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs K金vs白金</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>

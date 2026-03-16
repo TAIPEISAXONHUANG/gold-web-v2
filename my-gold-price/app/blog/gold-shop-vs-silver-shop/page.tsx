@@ -47,6 +47,16 @@ export default function Page() {
         <li><strong>手續費較高</strong> - 經營成本較高</li>
       </ul>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-shop-vs-recycling-shop" style={{ color: "#B8860B" }}>銀樓vs回收商</a></li>
+        <li><a href="/blog/how-to-choose-gold-shop" style={{ color: "#B8860B" }}>如何選黃金回收店</a></li>
+        <li><a href="/blog/gold-shop-recommend" style={{ color: "#B8860B" }}>台北黃金回收推薦</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>📊 比較表</h2>

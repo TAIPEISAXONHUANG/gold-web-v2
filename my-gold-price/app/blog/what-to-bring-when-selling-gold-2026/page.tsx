@@ -103,6 +103,16 @@ export default function Page() {
       <h3>未成年人</h3>
       <p>未滿18歲者無法獨自進行黃金交易，需由法定代理人（父母）陪同，並攜帶雙方身份證件。</p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-id-requirement" style={{ color: "#B8860B" }}>賣黃金要帶什麼證件</a></li>
+        <li><a href="/blog/before-selling-gold" style={{ color: "#B8860B" }}>賣黃金前準備</a></li>
+        <li><a href="/blog/gold-should-know" style={{ color: "#B8860B" }}>賣黃金必知事項</a></li>
+        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>免費預約估價，今日就能結清</h2>

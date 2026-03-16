@@ -52,6 +52,16 @@ export default function Page() {
       <p>A：完全可以，黃金保值性高，待孩子長大後可以視需求決定。</p>
       <h3>Q：三金應該買哪種純度？</h3>
       <p>A：傳統偏好9999純金，現代也有選擇18K款式，依個人喜好。</p>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-birthday-gift" style={{ color: "#B8860B" }}>黃金生日禮物</a></li>
+        <li><a href="/blog/gold-culture" style={{ color: "#B8860B" }}>黃金文化歷史</a></li>
+        <li><a href="/blog/gold-family" style={{ color: "#B8860B" }}>家傳黃金變現</a></li>
+        <li><a href="/blog/gold-weight" style={{ color: "#B8860B" }}>黃金重量換算</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
 

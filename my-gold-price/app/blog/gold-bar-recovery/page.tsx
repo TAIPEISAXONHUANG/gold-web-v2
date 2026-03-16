@@ -45,6 +45,16 @@ export default function Page() {
         <li>專業檢測儀器</li>
       </ul>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-9999-recovery" style={{ color: "#B8860B" }}>9999純金回收</a></li>
+        <li><a href="/blog/gold-coin-invest" style={{ color: "#B8860B" }}>黃金硬幣投資</a></li>
+        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
+        <li><a href="/blog/gold-liquid" style={{ color: "#B8860B" }}>黃金變現指南</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即聯繫</h2>

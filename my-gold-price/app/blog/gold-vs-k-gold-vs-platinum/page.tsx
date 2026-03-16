@@ -130,6 +130,16 @@ export default function Page() {
       <h3>Q3: 哪種最值得投資？</h3>
       <p>若論投資價值，<strong>純黃金（9999）</strong>的回收價值最高，也是最被廣泛接受的投資標的。</p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs白金比較</a></li>
+        <li><a href="/blog/platinum-recovery" style={{ color: "#B8860B" }}>白金回收指南</a></li>
+        <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金完整指南</a></li>
+        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢貴金屬回收報價</h2>

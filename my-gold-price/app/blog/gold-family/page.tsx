@@ -44,6 +44,16 @@ export default function Page() {
       <p>A: Absolutely. We appraise on-site, no proof of purchase needed.</p>
       <h3>Q: Can I get a free estimate without committing to sell?</h3>
       <p>A: Yes, appraisal is always free with no obligation.</p>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/inheritance-gold" style={{ color: "#B8860B" }}>繼承黃金處理</a></li>
+        <li><a href="/blog/wedding-gold-recovery" style={{ color: "#B8860B" }}>嫁妝黃金回收</a></li>
+        <li><a href="/blog/gold-antique" style={{ color: "#B8860B" }}>古早黃金回收</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>Contact Us</h2>
       <p>Phone: <a href="tel:0986821626">0986-821-626</a></p>

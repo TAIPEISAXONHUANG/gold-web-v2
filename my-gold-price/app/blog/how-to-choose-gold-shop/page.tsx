@@ -52,6 +52,16 @@ export default function Page() {
       <p><strong>好的店家：</strong>專業解說，讓你充分了解後再決定<br />
       我們的做法：<strong>詳細解說、不催促，給你充足的考慮時間</strong></p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-shop-recommend" style={{ color: "#B8860B" }}>台北黃金回收推薦</a></li>
+        <li><a href="/blog/gold-shop-vs-recycling-shop" style={{ color: "#B8860B" }}>銀樓vs回收商</a></li>
+        <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金詐騙防範</a></li>
+        <li><a href="/blog/gold-safety" style={{ color: "#B8860B" }}>黃金交易安全</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>📊 10年經驗比較表</h2>

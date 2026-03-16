@@ -35,6 +35,16 @@ export default function Page() {
         <li>不扣耗</li>
         <li>當日現金</li>
       </ul>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-antique" style={{ color: "#B8860B" }}>古早黃金回收</a></li>
+        <li><a href="/blog/broken-gold-recovery" style={{ color: "#B8860B" }}>斷裂黃金回收</a></li>
+        <li><a href="/blog/inheritance-gold" style={{ color: "#B8860B" }}>繼承黃金處理</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>

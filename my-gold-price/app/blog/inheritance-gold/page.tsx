@@ -45,6 +45,16 @@ export default function Page() {
         <li>專業儀器檢測</li>
       </ul>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/wedding-gold-recovery" style={{ color: "#B8860B" }}>嫁妝黃金回收</a></li>
+        <li><a href="/blog/gold-family" style={{ color: "#B8860B" }}>家傳黃金變現</a></li>
+        <li><a href="/blog/gold-antique" style={{ color: "#B8860B" }}>古早黃金回收</a></li>
+        <li><a href="/blog/gold-tax" style={{ color: "#B8860B" }}>黃金稅務說明</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>

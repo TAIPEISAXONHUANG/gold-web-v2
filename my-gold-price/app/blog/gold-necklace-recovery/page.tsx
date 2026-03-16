@@ -45,6 +45,16 @@ export default function Page() {
       <p>A: No, we price by weight so broken necklaces get the same price.</p>
       <h3>Q: My necklace has a pendant - how is it priced?</h3>
       <p>A: Gold chain and pendant are weighed together; gemstones estimated separately.</p>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-ring-recovery" style={{ color: "#B8860B" }}>黃金戒指回收</a></li>
+        <li><a href="/blog/gold-bracelet-recovery" style={{ color: "#B8860B" }}>黃金手鍊回收</a></li>
+        <li><a href="/blog/gold-pendant-recovery" style={{ color: "#B8860B" }}>黃金吊墜回收</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>Contact Us</h2>
       <p>Phone: <a href="tel:0986821626">0986-821-626</a></p>

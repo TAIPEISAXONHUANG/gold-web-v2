@@ -42,6 +42,16 @@ export default function Page() {
         <li>了解重量</li>
         <li>選擇店家</li>
       </ul>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-should-know" style={{ color: "#B8860B" }}>賣黃金必知事項</a></li>
+        <li><a href="/blog/gold-id-requirement" style={{ color: "#B8860B" }}>賣黃金要帶什麼證件</a></li>
+        <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼</a></li>
+        <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金詐騙防範</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>

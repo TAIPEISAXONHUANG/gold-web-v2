@@ -55,6 +55,16 @@ export default function Page() {
       <p>A：這是個人信仰的選擇，我們尊重客戶的決定。</p>
       <h3>Q：金牌很薄，有沒有最低重量限制？</h3>
       <p>A：沒有，任何重量的黃金我們都回收。</p>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-culture" style={{ color: "#B8860B" }}>黃金文化歷史</a></li>
+        <li><a href="/blog/gold-tradition" style={{ color: "#B8860B" }}>黃金傳統文化</a></li>
+        <li><a href="/blog/gold-antique" style={{ color: "#B8860B" }}>古早黃金回收</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
 

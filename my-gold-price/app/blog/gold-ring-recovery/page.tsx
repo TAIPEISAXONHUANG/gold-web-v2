@@ -45,6 +45,16 @@ export default function Page() {
       <p>A: Not at all. Get a free estimate first, decide at your own pace.</p>
       <h3>Q: The ring has a gemstone - how is the gold part calculated?</h3>
       <p>A: We separate metal and gemstone with full transparent breakdown.</p>
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-necklace-recovery" style={{ color: "#B8860B" }}>黃金項鍊回收</a></li>
+        <li><a href="/blog/gold-bracelet-recovery" style={{ color: "#B8860B" }}>黃金手鍊回收</a></li>
+        <li><a href="/blog/karat-gold-recovery" style={{ color: "#B8860B" }}>K金回收指南</a></li>
+        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>Contact Us</h2>
       <p>Phone: <a href="tel:0986821626">0986-821-626</a></p>

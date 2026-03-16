@@ -53,6 +53,16 @@ export default function Page() {
       <h3>Q：有紀念意義的金飾還是可以回收嗎？</h3>
       <p>A：當然可以，情感價值與金錢價值可以並存，由您決定。</p>
 
+      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+        <strong>相關文章：</strong>
+        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <li><a href="/blog/gold-tradition" style={{ color: "#B8860B" }}>黃金傳統文化</a></li>
+        <li><a href="/blog/gold-weight" style={{ color: "#B8860B" }}>黃金重量換算</a></li>
+        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
+        <li><a href="/blog/lion-head-gold" style={{ color: "#B8860B" }}>獅頭金飾回收</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
