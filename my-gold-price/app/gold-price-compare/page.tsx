@@ -1,9 +1,12 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '黃金回收價格比較｜哪裡收購價格最高｜台北黃金回收',
-  description: '黃金回收價格比較！想知道哪裡回收價格最高？一篇搞懂選擇店家的關鍵要点！',
-  keywords: '黃金回收比較,黃金回收哪家高,哪裡收黃金,黃金收購推薦',
+  title: '黃金回收比價2026｜台北各家黃金回收價格比較｜巧品珠寶',
+  description: '台北黃金回收比價！銀樓 vs 回收商 vs 當舖，哪家價格最高？巧品珠寶不扣耗損，每台錢多拿500-1000元。電話 0986-821-626',
+  keywords: '黃金回收比價,台北黃金回收比較,黃金哪裡賣最划算,黃金回收推薦台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/gold-price-compare',
+  },
 };
 
 export default function GoldPriceCompare() {

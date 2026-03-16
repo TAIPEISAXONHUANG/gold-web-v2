@@ -1,9 +1,12 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '賣黃金前必看｜5個不得不知道的事｜黃金回收攻略',
-  description: '賣黃金前一定要知道這5件事！了解行情、選擇店家、避免被坑，讓您黃金變現最高價！',
-  keywords: '賣黃金,黃金回收攻略,賣黃金注意,黃金變現',
+  title: '賣黃金攻略2026｜賣黃金前必看7件事｜巧品珠寶',
+  description: '賣黃金前必看！如何選店、避免被扣耗損、當場秤重確認重量。台北大安區巧品珠寶，老闆親自鑑定，電話 0986-821-626',
+  keywords: '賣黃金,賣黃金注意事項,賣黃金推薦,黃金回收攻略,台北賣黃金',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/sell-gold-guide',
+  },
 };
 
 export default function SellGoldGuide() {
