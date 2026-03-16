@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'FAQ｜黃金回收常見問題｜台北黃金回收',
   description: '黃金回收FAQ：哪裡可以賣黃金？黃金回收怎麼算？一篇解答所有問題！',
   keywords: '黃金回收FAQ,黃金問題,賣黃金問題,黃金回收常見問題',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/faq-structured',
+  },
 };
 
 export default function FaqStructuredPage() {
@@ -22,6 +25,24 @@ export default function FaqStructuredPage() {
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "黃金回收結構化FAQ｜巧品珠寶",
+            "description": "黃金回收常見問題結構化整理，快速找到答案。台北大安區巧品珠寶。",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/faq-structured" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
+            "datePublished": "2026-03-15T00:00:00+08:00",
+            "dateModified": "2026-03-17T00:00:00+08:00"
+          })
+        }}
+      />
+
       <h1>❓ 黃金回收常見問題 FAQ</h1>
       <p>以下是AI最常引用的黃金回收問題解答：</p>
 

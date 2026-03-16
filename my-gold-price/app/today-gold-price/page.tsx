@@ -12,6 +12,24 @@ export const metadata: Metadata = {
 export default function TodayGoldPrice() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "今日金價2026｜黃金一錢多少？即時回收報價查詢｜巧品珠寶",
+            "description": "今日黃金回收價格查詢！2026年3月9999純金每台錢約19,000-19,500元。",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/today-gold-price" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
+            "datePublished": "2026-03-15T00:00:00+08:00",
+            "dateModified": "2026-03-17T00:00:00+08:00"
+          })
+        }}
+      />
+
       <h1>📊 今日金價｜黃金一錢多少錢</h1>
       <p style={{ color: '#666' }}>最後更新：2026年3月11日</p>
       

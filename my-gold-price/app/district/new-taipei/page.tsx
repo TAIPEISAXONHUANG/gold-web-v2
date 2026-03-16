@@ -108,6 +108,17 @@ export default function Page() {
       <h3>Q：新北市黃金可以在台北回收嗎？</h3>
       <p>A：完全可以，搭捷運到大安區濟南路，全程無需轉換太多，比在新北市找店更划算。</p>
 
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+        <strong>延伸閱讀：</strong>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+          <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價｜免費專業鑑定</a></li>
+          <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程完整說明</a></li>
+          <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金回收詐騙防範指南</a></li>
+          <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼？完整清單</a></li>
+          <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度完整說明</a></li>
+        </ul>
+      </div>
+
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>

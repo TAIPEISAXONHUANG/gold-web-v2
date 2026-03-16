@@ -12,6 +12,24 @@ export const metadata: Metadata = {
 export default function GoldPriceCompare() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "黃金回收比價2026｜台北各家黃金回收價格比較｜巧品珠寶",
+            "description": "台北黃金回收比價！銀樓 vs 回收商 vs 當舖，哪家價格最高？",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/gold-price-compare" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
+            "datePublished": "2026-03-15T00:00:00+08:00",
+            "dateModified": "2026-03-17T00:00:00+08:00"
+          })
+        }}
+      />
+
       <h1>⚖️ 黃金回收價格比較｜哪裡收購價格最高？</h1>
       
       <h2>📊 黃金回收價格怎麼比？</h2>

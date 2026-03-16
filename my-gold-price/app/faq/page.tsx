@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收常見問題 FAQ｜台北巧品珠寶',
   description: '黃金回收、K金回收常見問題：怎麼計算價格？流程是什麼？需要什麼證件？一篇解答所有疑問！',
   keywords: '黃金回收FAQ,K金回收問題,珠寶回收問答',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/faq',
+  },
 };
 
 export default function FaqPage() {
@@ -52,6 +55,24 @@ export default function FaqPage() {
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "黃金回收常見問題FAQ｜台北巧品珠寶",
+            "description": "黃金回收、K金回收常見問題：怎麼計算價格？流程是什麼？需要什麼證件？一篇解答所有疑問！",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/faq" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
+            "datePublished": "2026-03-15T00:00:00+08:00",
+            "dateModified": "2026-03-17T00:00:00+08:00"
+          })
+        }}
+      />
+
       <h1>黃金回收常見問題 FAQ</h1>
       
       <p style={{ marginBottom: '2rem', color: '#666' }}>
