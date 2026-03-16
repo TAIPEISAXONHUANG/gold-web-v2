@@ -50,14 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
-    lastModified: new Date('2026-03-16'),
+    lastModified: new Date('2026-03-17'),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
   const districtPages: MetadataRoute.Sitemap = districtSlugs.map(slug => ({
     url: `${baseUrl}/district/${slug}`,
-    lastModified: new Date('2026-03-16'),
+    lastModified: new Date('2026-03-17'),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
