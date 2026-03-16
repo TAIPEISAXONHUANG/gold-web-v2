@@ -1,22 +1,51 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '黃金墜子回收｜吊墜變現｜巧品珠寶',
-  description: '黃金墜子回收推薦！吊墜變現。',
-  keywords: '黃金墜子,吊墜,墜子回收',
+  title: '黃金墜子回收｜金吊墜高價變現｜巧品珠寶',
+  description: '黃金墜子回收推薦！各式金墜、神明吊墜、鑲嵌寶石金墜皆可收購，台北巧品珠寶專業估價。',
+  keywords: '黃金墜子回收,金吊墜變現,金墜回收台北',
 };
 
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <h1>黃金墜子回收</h1>
-      <h2>結論：墜子變現輕鬆！</h2>
-      <p>各種黃金墜子、吊墜皆可回收。</p>
-      <ul><li>✅ 墜子</li><li>✅ 吊墜</li><li>✅ 項鍊墜</li></ul>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "黃金墜子回收｜金吊墜高價變現｜巧品珠寶",
+            "description": "黃金墜子回收推薦！各式金墜、神明吊墜、鑲嵌寶石金墜皆可收購，台北巧品珠寶專業估價。",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-pendant-recovery" },
+            "author": { "@type": "Organization", "name": "巧品珠寶" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/images/og-image.jpg" },
+            "datePublished": "2026-03-15",
+            "dateModified": "2026-03-16"
+          })
+        }}
+      />
+      <h1>黃金墜子回收｜金吊墜高價變現</h1>
+      <h2>Conclusion: All gold pendant styles accepted, purity and weight determine value</h2>
+      <p>From religious pendants to modern designs, we accept all gold pendant types at fair market prices.</p>
+      <h2>Types we accept</h2>
+      <ul>
+        <li>Religious pendants (Guanyin, Buddha, Pixiu)</li>
+        <li>Diamond-set gold pendants</li>
+        <li>Geometric and modern designs</li>
+        <li>All K-gold pendant types</li>
+      </ul>
+      <h2>FAQ</h2>
+      <h3>Q: Can religious pendants be sold?</h3>
+      <p>A: Yes, this is entirely your personal choice.</p>
+      <h3>Q: My pendant has small diamonds - how are they priced?</h3>
+      <p>A: Gold and diamonds are appraised separately with full transparency.</p>
       <hr style={{ margin: '2rem 0' }} />
-      <p>📞 電話：0986-821-626</p>
-      <p>💬 LINE：@QPD888</p>
-      <p>🌐 官網：https://www.gold-tw.com/</p>
+      <h2>Contact Us</h2>
+      <p>Phone: <a href="tel:0986821626">0986-821-626</a></p>
+      <p>LINE: @QPD888</p>
+      <p>Address: Taipei Da-An District, Ji-Nan Rd Sec3, 62-1</p>
     </main>
   );
 }

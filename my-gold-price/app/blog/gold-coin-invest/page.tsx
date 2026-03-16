@@ -1,22 +1,71 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '黃金投資｜金幣投資｜巧品珠寶',
-  description: '黃金投資入門！金幣投資建議。',
-  keywords: '黃金投資,金幣投資,黃金理財',
+  title: '黃金投資｜金幣金條買賣入門｜巧品珠寶',
+  description: '黃金投資入門指南！金幣、金條、黃金ETF比較分析，台北實體黃金買賣推薦。',
+  keywords: '黃金投資,金幣投資,金條買賣,黃金理財',
 };
 
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <h1>黃金投資｜金幣理財</h1>
-      <h2>結論：黃金是避險首選！</h2>
-      <p>黃金投資是很好的避險選擇。</p>
-      <ul><li>✅ 黃金條塊</li><li>✅ 金幣</li><li>✅ 黃金ETF</li></ul>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "黃金投資｜金幣金條買賣入門｜巧品珠寶",
+            "description": "黃金投資入門指南！金幣、金條、黃金ETF比較分析。",
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-coin-invest" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/images/og-image.jpg" },
+            "datePublished": "2026-03-15",
+            "dateModified": "2026-03-16"
+          })
+        }}
+      />
+      <h1>黃金投資｜金幣金條入門完整指南</h1>
+
+      <h2>結論：實體黃金是最穩健的避險投資</h2>
+      <p>在通膨、地緣政治風險、貨幣貶值的當下，實體黃金一直是最受信賴的避險資產。本文帶你了解黃金投資的各種方式和注意事項。</p>
+
+      <h2>黃金投資方式比較</h2>
+      <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
+        <thead>
+          <tr style={{ background: '#fef3c7' }}>
+            <th style={{ padding: '10px', border: '1px solid #ddd' }}>方式</th>
+            <th style={{ padding: '10px', border: '1px solid #ddd' }}>優點</th>
+            <th style={{ padding: '10px', border: '1px solid #ddd' }}>缺點</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>實體金條/金幣</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>真實持有、可隨時變現</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>需要保管</td></tr>
+          <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>黃金ETF</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>方便交易</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>有管理費、無實體</td></tr>
+          <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>銀行黃金存摺</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>方便、可零買</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>買賣價差大</td></tr>
+        </tbody>
+      </table>
+
+      <h2>實體黃金投資建議</h2>
+      <ul>
+        <li>選擇9999純金（純度最高，最易變現）</li>
+        <li>保留購買憑證</li>
+        <li>選擇知名銀行或有信譽的銀樓購買</li>
+        <li>分批買入，降低均價風險</li>
+      </ul>
+
+      <h2>常見問題 FAQ</h2>
+      <h3>Q：現在是買黃金的好時機嗎？</h3>
+      <p>A：金價長期看漲，分批購入是穩健策略。</p>
+      <h3>Q：買來的金幣之後可以回收嗎？</h3>
+      <p>A：可以，我們依當日牌價高價收購。</p>
+
       <hr style={{ margin: '2rem 0' }} />
-      <p>📞 電話：0986-821-626</p>
-      <p>💬 LINE：@QPD888</p>
-      <p>🌐 官網：https://www.gold-tw.com/</p>
+      <h2>立即諮詢</h2>
+      <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );
 }
