@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '巧品珠寶 | 台北高價黃金回收．K金白金買賣．即時報價查詢',
-  description: '台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣。提供每日最新即時金價查詢與線上試算。',
+  title: '巧品珠寶｜台北黃金回收推薦・K金白金鑽石高價收購・即時金價查詢',
+  description: '台北大安區實體店，專營黃金回收・K金・白金・鑽石收購。免費估價、當場秤重、現金付款，不扣耗損。捷運忠孝新生站步行5分鐘。電話 0986-821-626，歡迎比價！',
   alternates: {
     canonical: 'https://www.gold-tw.com',
   },
