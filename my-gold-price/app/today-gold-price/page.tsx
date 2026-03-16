@@ -31,7 +31,7 @@ export default function TodayGoldPrice() {
       />
 
       <h1>📊 今日金價｜黃金一錢多少錢</h1>
-      <p style={{ color: '#666' }}>最後更新：2026年3月11日</p>
+      <p style={{ color: '#666' }}>最後更新：2026年3月17日</p>
       
       <div style={{ background: '#fff8e1', padding: '1.5rem', borderRadius: '10px', marginBottom: '2rem' }}>
         <h2 style={{ marginTop: 0 }}>💰 黃金回收價格（台錢）</h2>
@@ -42,11 +42,11 @@ export default function TodayGoldPrice() {
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金回收（24K）</td>
-            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 'bold', color: '#B8860B' }}>約 $19,770/錢</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 'bold', color: '#B8860B' }}>約 $19,260/錢</td>
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金賣出</td>
-            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $20,180/錢</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $19,720/錢</td>
           </tr>
         </table>
       </div>
@@ -62,7 +62,7 @@ export default function TodayGoldPrice() {
       <h2>💡 黃金回收計算方式</h2>
       <div style={{ background: '#f0f0f0', padding: '1rem', borderRadius: '8px', fontFamily: 'monospace' }}>
         <p>回收金額 = 重量（錢）× 當日牌價 × 純度</p>
-        <p>例如：5錢 × $19,770 × 100% = <strong>$98,850</strong></p>
+        <p>例如：5錢 × $19,260 × 100% = <strong>$96,300</strong></p>
       </div>
 
       <h2>📊 其他金屬參考</h2>
@@ -73,15 +73,15 @@ export default function TodayGoldPrice() {
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>18K金（75%）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $14,800/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $10,600/錢</td>
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>14K金（58.5%）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $11,500/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $7,572/錢</td>
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>白金（鉑金）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $8,150/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $7,010/錢</td>
         </tr>
       </table>
 
