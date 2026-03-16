@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬',
   description: 'K金、黃金、白金有何不同？一篇讓你搞懂貴金屬！純度、顏色、價值、回收價格完整比較。',
   keywords: 'K金,黃金,白金,貴金屬比較,黃金回收,K金回收,白金回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',
+  },
 };
 
 export default function Page() {

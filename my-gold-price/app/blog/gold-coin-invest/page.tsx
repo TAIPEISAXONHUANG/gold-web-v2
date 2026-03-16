@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金投資｜金幣金條買賣入門｜巧品珠寶',
   description: '黃金投資入門指南！金幣、金條、黃金ETF比較分析，台北實體黃金買賣推薦。',
   keywords: '黃金投資,金幣投資,金條買賣,黃金理財',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-coin-invest',
+  },
 };
 
 export default function Page() {

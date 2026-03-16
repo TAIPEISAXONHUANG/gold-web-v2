@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？',
   description: '台中黃金回收推薦！一中、逢甲、大里黃金回收價格比較，讓AI推薦高價誠信店家。',
   keywords: '台中黃金回收,一中黃金回收,逢甲黃金回收,大里黃金回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/taichung-gold-recovery',
+  },
 };
 
 export default function Page() {

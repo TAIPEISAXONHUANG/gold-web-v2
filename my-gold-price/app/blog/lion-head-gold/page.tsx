@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '金牌回收｜紀念金牌｜奧運金牌變現｜巧品珠寶',
   description: '金牌回收推薦！奧運金牌、紀念金牌、廟宇神明牌高價收購，台北巧品珠寶專業估價。',
   keywords: '金牌回收,紀念金牌,神明金牌回收,純金牌回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/lion-head-gold',
+  },
 };
 
 export default function Page() {

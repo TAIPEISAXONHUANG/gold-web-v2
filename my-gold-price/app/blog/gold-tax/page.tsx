@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶',
   description: '賣黃金要繳稅嗎？台灣黃金交易稅務規定完整說明，個人賣黃金的課稅情況一次搞懂。',
   keywords: '黃金稅務,賣黃金繳稅,黃金所得稅,遺產稅黃金',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-tax',
+  },
 };
 
 export default function Page() {

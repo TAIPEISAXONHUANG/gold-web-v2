@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'K金回收｜18K/14K回收價格一篇搞懂',
   description: 'K金回收價格怎麼算？18K/14K分別值多少？完整攻略讓你賣黃金不吃虧。',
   keywords: 'K金回收,18K回收,14K回收,珠寶回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/karat-gold-recovery',
+  },
 };
 
 export default function Page() {

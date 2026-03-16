@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金手鐲回收｜金手鐲高價變現｜巧品珠寶',
   description: '黃金手鐲回收推薦！台北高價收購金手鐲、玉手鐲金邊，不扣耗損當場付款。',
   keywords: '黃金手鐲回收,金手鐲變現,手鐲回收台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-bracelet-recovery',
+  },
 };
 
 export default function Page() {

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '2026年黃金價格走勢｜黃金會漲嗎｜巧品珠寶',
   description: '2026年黃金價格走勢分析，專家預測黃金後市行情走勢。',
   keywords: '2026黃金走勢,黃金會漲嗎,金價預測',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-price-2026',
+  },
 };
 
 export default function Page() {

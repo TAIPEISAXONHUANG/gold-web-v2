@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金拍賣｜黃金買賣市場行情｜巧品珠寶',
   description: '了解黃金拍賣與買賣市場！台北黃金交易行情，直接找銀樓回收比拍賣平台更划算。',
   keywords: '黃金拍賣,黃金買賣,黃金市場,黃金交易台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-auction',
+  },
 };
 
 export default function Page() {

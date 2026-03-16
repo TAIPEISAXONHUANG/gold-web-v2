@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金戒指回收｜結婚戒指變現｜巧品珠寶',
   description: '黃金戒指回收推薦！結婚戒指、各式K金戒指高價收購，不扣耗損台北當場付款。',
   keywords: '黃金戒指回收,結婚戒指變現,金戒指回收台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-ring-recovery',
+  },
 };
 
 export default function Page() {

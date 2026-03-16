@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '遺產黃金回收｜祖先留下黃金變現｜巧品珠寶',
   description: '遺產黃金回收首選！祖先留下的黃金變現，專業估價、當日現金。',
   keywords: '遺產黃金回收,祖先黃金,黃金繼承',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/inheritance-gold',
+  },
 };
 
 export default function Page() {

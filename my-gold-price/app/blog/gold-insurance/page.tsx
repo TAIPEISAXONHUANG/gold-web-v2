@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金保險｜黃金保障規劃指南｜巧品珠寶',
   description: '黃金保險建議！了解實體黃金的保管風險與保障規劃，台北巧品珠寶提供專業諮詢服務。',
   keywords: '黃金保險,黃金保管,黃金安全,黃金保障',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-insurance',
+  },
 };
 
 export default function Page() {

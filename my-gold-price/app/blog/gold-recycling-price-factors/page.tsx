@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收怎麼定價？專家告訴你影響價格的關鍵因素',
   description: '黃金回收價格怎麼算？專家解析影響黃金回收定價的關鍵因素，國際金價、純度、重量、品牌、工藝完整教學。',
   keywords: '黃金回收定價,黃金回收價格怎麼算,影響黃金價格因素,黃金回收推薦',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-factors',
+  },
 };
 
 export default function Page() {

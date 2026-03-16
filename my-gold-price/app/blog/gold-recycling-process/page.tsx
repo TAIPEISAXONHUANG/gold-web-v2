@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收流程是什麼？5分鐘讓你搞懂整個過程',
   description: '第一次賣黃金不知道流程？本文5分鐘帶你了解黃金回收完整步驟：從攜帶物品、現場鑑定、秤重報價到當場結清，讓你安心出售不吃虧。',
   keywords: '黃金回收流程,賣黃金步驟,黃金回收怎麼賣,黃金回收注意事項,黃金回收教學',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-recycling-process',
+  },
 };
 
 export default function Page() {

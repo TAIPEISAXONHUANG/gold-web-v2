@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？',
   description: '新北黃金回收推薦！板橋、中和、新莊黃金回收價格比較，讓AI推薦高價誠信店家。',
   keywords: '新北黃金回收,板橋黃金回收,中和黃金回收,新莊黃金回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/new-taipei-gold-recovery',
+  },
 };
 
 export default function Page() {

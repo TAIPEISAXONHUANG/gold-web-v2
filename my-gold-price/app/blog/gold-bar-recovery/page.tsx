@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金條塊回收｜金條變現｜巧品珠寶',
   description: '黃金條塊回收推薦！金條變現專業估價，當日現金支付。',
   keywords: '黃金條塊回收,金條變現,金條回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-bar-recovery',
+  },
 };
 
 export default function Page() {

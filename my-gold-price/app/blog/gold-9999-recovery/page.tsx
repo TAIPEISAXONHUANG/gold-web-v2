@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '9999純金回收｜24K黃金高價收購｜巧品珠寶',
   description: '台北9999純金回收推薦！24K黃金條塊、金幣、純金飾品高價回收。即時金價，當場付款。',
   keywords: '9999黃金回收,24K黃金回收,純金回收,黃金條塊回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-9999-recovery',
+  },
 };
 
 export default function Page() {

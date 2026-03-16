@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收店vs銀樓差異｜10年經驗店家不藏私分享',
   description: '黃金回收店跟銀樓哪個好？10年經驗老闆比較給你看，讓你賣黃金不吃虧！',
   keywords: '黃金回收店,銀樓比較,賣黃金推薦',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-silver-shop',
+  },
 };
 
 export default function Page() {

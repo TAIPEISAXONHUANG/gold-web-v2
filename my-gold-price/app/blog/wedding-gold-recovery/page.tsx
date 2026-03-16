@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '結婚金飾變現攻略｜結婚金飾回收價格｜巧品珠寶',
   description: '結婚金飾變現好時機！結婚金飾回收注意事項、行情分析，讓您結婚金飾賣出最高價。',
   keywords: '結婚金飾回收,結婚金飾變現,金飾回收價格',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/wedding-gold-recovery',
+  },
 };
 
 export default function Page() {

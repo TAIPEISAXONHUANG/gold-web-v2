@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收推薦｜誠信店家｜巧品珠寶',
   description: '黃金回收推薦首選！誠信經營，價格透明。',
   keywords: '黃金回收推薦,誠信黃金,可信賴店家',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-shop-recommend',
+  },
 };
 
 export default function Page() {

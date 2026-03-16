@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金傳統習俗｜台灣黃金文化習俗｜巧品珠寶',
   description: '台灣黃金傳統習俗完整介紹！嫁妝金飾、彌月禮金、神明金牌等黃金文化習俗說明。',
   keywords: '黃金傳統,黃金習俗,嫁妝金飾,彌月黃金',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-tradition',
+  },
 };
 
 export default function Page() {

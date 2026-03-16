@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金墜子回收｜金吊墜高價變現｜巧品珠寶',
   description: '黃金墜子回收推薦！各式金墜、神明吊墜、鑲嵌寶石金墜皆可收購，台北巧品珠寶專業估價。',
   keywords: '黃金墜子回收,金吊墜變現,金墜回收台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-pendant-recovery',
+  },
 };
 
 export default function Page() {

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶',
   description: '台北專業鑽石珠寶收購！GIA鑽石、彩鑽、珠寶首飾高價回收。10年經驗，當場估價現金付款。',
   keywords: '鑽石收購,珠寶收購,GIA鑽石,鑽石回收台北',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/diamond-jewelry',
+  },
 };
 
 export default function Page() {

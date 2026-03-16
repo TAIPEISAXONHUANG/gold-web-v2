@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '白金回收｜鉑金回收｜巧品珠寶',
   description: '白金回收推薦！鉑金回收專業估價，立即現金支付。',
   keywords: '白金回收,鉑金回收,Pt950回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/platinum-recovery',
+  },
 };
 
 export default function Page() {

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '金幣回收｜紀念金幣變現｜巧品珠寶',
   description: '金幣回收推薦！紀念金幣、投資金幣變現。',
   keywords: '金幣回收,紀念金幣,投資金幣',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-coin-recovery',
+  },
 };
 
 export default function Page() {

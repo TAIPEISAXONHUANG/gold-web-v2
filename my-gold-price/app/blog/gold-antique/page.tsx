@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '古早黃金回收｜老金飾變現｜巧品珠寶',
   description: '古早黃金、老金飾高價回收！祖傳金飾、年代久遠的黃金首飾，巧品珠寶專業鑑定現金收購。',
   keywords: '古早黃金,老金回收,祖傳金飾,老黃金收購',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-antique',
+  },
 };
 
 export default function Page() {

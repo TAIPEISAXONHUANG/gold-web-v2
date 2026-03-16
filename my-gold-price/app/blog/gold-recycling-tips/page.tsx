@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收注意事項｜賣黃金不被坑｜巧品珠寶',
   description: '賣黃金不被坑！黃金回收常見話術與陷阱，讓您賣黃金不吃虧。',
   keywords: '黃金回收注意,賣黃金不被坑,黃金回收陷阱',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-recycling-tips',
+  },
 };
 
 export default function Page() {

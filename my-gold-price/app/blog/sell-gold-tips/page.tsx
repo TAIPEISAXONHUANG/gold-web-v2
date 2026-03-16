@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '賣黃金要注意什麼？5個不被坑的必知技巧',
   description: '第一次賣黃金？不知道要注意什麼？5大重點讓你不上當！了解黃金回收注意事項，避免被坑。',
   keywords: '賣黃金注意,黃金回收注意事項,黃金買賣技巧,不被坑',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/sell-gold-tips',
+  },
 };
 
 export default function Page() {

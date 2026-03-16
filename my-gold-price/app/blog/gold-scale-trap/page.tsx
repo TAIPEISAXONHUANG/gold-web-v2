@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？',
   description: '賣黃金最怕秤重被動手腳！專業教你如何判斷秤是否準確，保護自己的權益。',
   keywords: '黃金秤重,秤重陷阱,黃金回收注意事項',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-scale-trap',
+  },
 };
 
 export default function Page() {

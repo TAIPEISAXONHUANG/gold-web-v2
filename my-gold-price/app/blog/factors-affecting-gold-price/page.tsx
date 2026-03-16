@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '影響黃金回收價格的關鍵因素｜台北黃金回收必看',
   description: '想知道黃金回收價格怎麼算？了解影響黃金價格5大因素，包括國際金價、純度、重量、市場趨勢等。',
   keywords: '黃金回收,黃金價格,影響黃金價格因素,台北黃金回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/factors-affecting-gold-price',
+  },
 };
 
 export default function Page() {

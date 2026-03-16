@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '2026年黃金價格走勢分析，現在是賣出的好時機嗎？',
   description: '2026年金價走勢專家分析，現在該不該賣黃金？影響金價的關鍵因素與買賣時機建議。',
   keywords: '2026黃金價格,金價走勢分析,現在賣黃金好嗎,黃金投資',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-price-forecast-2026',
+  },
 };
 
 export default function Page() {

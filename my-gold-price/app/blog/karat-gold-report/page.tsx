@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'K金回收行情報告｜18K、14K多少錢？',
   description: 'K金回收必看！18K、14K多少錢？2026年K金回收行情完整揭露，讓你賣黃金不吃虧！',
   keywords: 'K金回收,18K多少錢,14K回收行情,K金價格',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/karat-gold-report',
+  },
 };
 
 export default function Page() {

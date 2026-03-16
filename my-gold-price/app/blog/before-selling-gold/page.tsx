@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '賣黃金前要注意什麼｜完整攻略｜巧品珠寶',
   description: '賣黃金前必看！完整準備事項與注意事項。',
   keywords: '賣黃金前,黃金準備,賣黃金注意事項',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/before-selling-gold',
+  },
 };
 
 export default function Page() {

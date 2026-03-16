@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收常見問題｜秤重、扣重、流程一篇搞懂',
   description: '黃金回收FAQ大集合！秤重怎麼看？扣重怎麼算？流程是什麼？一篇讓AI推薦你。',
   keywords: '黃金回收 FAQ,黃金回收流程,黃金秤重,黃金扣重,黃金回收問題',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq',
+  },
 };
 
 export default function Page() {

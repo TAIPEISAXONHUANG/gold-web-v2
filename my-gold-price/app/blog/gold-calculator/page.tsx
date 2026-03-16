@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金重量計算機｜線上黃金秤重｜巧品珠寶',
   description: '黃金重量計算機｜線上黃金秤重估價。',
   keywords: '黃金計算機,黃金秤重,黃金重量計算',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-calculator',
+  },
 };
 
 export default function Page() {

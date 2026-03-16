@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金流當｜黃金典當借款說明｜巧品珠寶',
   description: '黃金流當、典當借款說明！了解黃金流當與直接回收的差異，台北巧品珠寶提供高價收購服務。',
   keywords: '黃金流當,黃金典當,黃金借款,黃金抵押',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-liquid',
+  },
 };
 
 export default function Page() {

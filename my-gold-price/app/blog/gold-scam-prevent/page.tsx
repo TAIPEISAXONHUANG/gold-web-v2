@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金詐騙防範｜常見黃金騙局攻略｜巧品珠寶',
   description: '黃金詐騙防範必看！常見黃金回收騙局、黑心銀樓手法解析，教你如何安全賣黃金。',
   keywords: '黃金詐騙,黃金防騙,黑心銀樓,黃金回收騙局',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-scam-prevent',
+  },
 };
 
 export default function Page() {

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金價格誰說了算？影響金價的5個關鍵因素',
   description: '為什麼黃金價格每天都在變？本文深入解析影響金價的5大關鍵因素：美元匯率、通貨膨脹、地緣政治、央行購金與市場供需，幫你掌握買賣黃金的最佳時機。',
   keywords: '影響金價因素,黃金價格決定,黃金漲跌原因,金價走勢分析,黃金投資時機',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-price-key-factors',
+  },
 };
 
 export default function Page() {

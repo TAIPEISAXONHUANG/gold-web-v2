@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '黃金回收必知｜新手必看｜巧品珠寶',
   description: '黃金回收新手必看！第一次賣黃金要注意什麼。',
   keywords: '黃金回收必知,第一次賣黃金,黃金新手',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-should-know',
+  },
 };
 
 export default function Page() {

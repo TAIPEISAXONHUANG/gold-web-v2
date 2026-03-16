@@ -3,6 +3,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '巧品珠寶 | 台北高價黃金回收．K金白金買賣．即時報價查詢',
   description: '台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣。提供每日最新即時金價查詢與線上試算。',
+  alternates: {
+    canonical: 'https://www.gold-tw.com',
+  },
   openGraph: {
     title: '巧品珠寶 | 台北高價黃金回收',
     description: '台北大安區實體店面，專營黃金回收、白金、K金買賣。每日最新金價，歡迎來電詢問！',

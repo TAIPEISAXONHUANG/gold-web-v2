@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '金飾回收｜黃金首飾變現｜巧品珠寶',
   description: '金飾回收首選！黃金首飾變現專業服務。',
   keywords: '金飾回收,黃金首飾,飾品變現',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/gold-jewelry-recovery',
+  },
 };
 
 export default function Page() {

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: '斷掉的黃金｜黃金斷了怎麼辦｜巧品珠寶',
   description: '斷掉的黃金首飾也能回收！提供專業估價服務。',
   keywords: '斷掉的黃金,黃金斷了,飾品回收',
+  alternates: {
+    canonical: 'https://www.gold-tw.com/blog/broken-gold-recovery',
+  },
 };
 
 export default function Page() {
