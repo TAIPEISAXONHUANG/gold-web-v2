@@ -111,6 +111,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "JewelryStore",
+              "@id": "https://www.gold-tw.com/#business",
               "name": "巧品珠寶",
               "description": "台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣",
               "url": "https://www.gold-tw.com",
@@ -230,8 +231,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Review",
               "itemReviewed": {
-                "@type": "JewelryStore",
-                "name": "巧品珠寶"
+                "@id": "https://www.gold-tw.com/#business"
               },
               "reviewRating": {
                 "@type": "Rating",
