@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收｜18K/14K回收價格一篇搞懂',
-  description: 'K金回收價格怎麼算？18K/14K分別值多少？完整攻略讓你賣黃金不吃虧。',
+  description: 'K金回收完整指南！18K/14K/10K各成色計價方式，台北巧品珠寶公開透明報價，不扣耗損，當場現金，電話 0986-821-626。',
   keywords: 'K金回收,18K回收,14K回收,珠寶回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-recovery',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '舊金回收｜老舊黃金變現｜巧品珠寶',
-  description: '舊金回收首選！老舊黃金飾品變現，專業估價。',
+  description: '舊金、老金飾高價回收！不論年代、款式均可，按實際含金量計價不打折。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '舊金回收,老舊黃金,黃金變現',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/old-gold-recovery',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金重量計算機｜線上黃金秤重｜巧品珠寶',
-  description: '黃金重量計算機｜線上黃金秤重估價。',
+  description: '黃金回收價格計算教學：重量（台錢）× 當日牌價 = 你能拿到的金額。巧品珠寶按公開金價報價，絕不偷斤減兩。',
   keywords: '黃金計算機,黃金秤重,黃金重量計算',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-calculator',

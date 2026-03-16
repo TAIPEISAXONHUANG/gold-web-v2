@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金怎麼看真假｜黃金辨識｜巧品珠寶',
-  description: '黃金真假辨識教學！教你用簡單方法辨識黃金純度。',
+  description: '黃金真偽鑑定完整指南！教你用磁石、比重、酸液測試辨識真假黃金，了解K金成色標記，避免買到假貨或被低估。',
   keywords: '黃金真假,黃金辨識,黃金純度檢測',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-identification',

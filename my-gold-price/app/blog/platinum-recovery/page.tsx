@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '白金回收｜鉑金回收｜巧品珠寶',
-  description: '白金回收推薦！鉑金回收專業估價，立即現金支付。',
+  description: '白金、鉑金高價回收！Pt950、Pt900各純度均可，按重量現金付款。台北大安區巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '白金回收,鉑金回收,Pt950回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-recovery',

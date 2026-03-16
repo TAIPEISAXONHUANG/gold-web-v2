@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜哪家價格最高？大安區巧品珠寶',
-  description: '台北黃金回收推薦！免費估價、當場秤重、現金付款。不扣耗損、不扣手續費。大安區實體店，捷運忠孝新生站步行5分鐘。電話 0986-821-626',
+  description: '台北黃金回收推薦！大安區巧品珠寶，老闆親自鑑定，不扣耗損，當場現金。捷運忠孝新生站步行5分鐘，電話 0986-821-626。',
   keywords: '台北黃金回收,台北黃金回收推薦,大安區黃金回收,台北賣黃金,台北黃金估價,黃金回收台北推薦2026',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery',

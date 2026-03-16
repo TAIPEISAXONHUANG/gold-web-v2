@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金保存安全指南｜如何安全存放黃金｜巧品珠寶',
-  description: '黃金保存安全完整指南！實體黃金存放方式、防盜竊風險，以及何時考慮變現的建議。',
+  description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。',
   keywords: '黃金保存,黃金安全存放,黃金保管方法',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-safety',

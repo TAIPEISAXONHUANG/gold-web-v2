@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '結婚金飾變現攻略｜結婚金飾回收價格｜巧品珠寶',
-  description: '結婚金飾變現好時機！結婚金飾回收注意事項、行情分析，讓您結婚金飾賣出最高價。',
+  description: '嫁妝黃金回收推薦！婚戒、金飾、長輩贈金均可，按實際重量計價不打折。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '結婚金飾回收,結婚金飾變現,金飾回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-recovery',

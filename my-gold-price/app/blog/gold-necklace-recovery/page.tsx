@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金項鍊回收｜金鍊高價變現｜巧品珠寶',
-  description: '黃金項鍊回收推薦！台北高價收購各式金項鍊，斷鍊、舊款皆可，不扣耗損當場付款。',
+  description: '黃金項鍊高價回收！各款式K金項鍊均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。',
   keywords: '黃金項鍊回收,金鍊變現,項鍊回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-necklace-recovery',

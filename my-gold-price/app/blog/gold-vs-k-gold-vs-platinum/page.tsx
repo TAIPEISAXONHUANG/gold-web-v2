@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬',
-  description: 'K金、黃金、白金有何不同？一篇讓你搞懂貴金屬！純度、顏色、價值、回收價格完整比較。',
+  description: '黃金、K金、白金有什麼不同？一篇比較三者的成分、顏色、價值、回收行情，幫你分清楚手上的首飾是哪種材質。',
   keywords: 'K金,黃金,白金,貴金屬比較,黃金回收,K金回收,白金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',

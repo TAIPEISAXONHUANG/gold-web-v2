@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金估價｜免費專業鑑定｜巧品珠寶台北',
-  description: '台北黃金免費估價！專業儀器鑑定純度，當場秤重報價。黃金、K金、白金皆可估價，不賣也沒關係。',
+  description: '台北黃金免費估價！專業儀器鑑定K金、白金、鑽石，老闆親自操作，公開透明。估完不賣可直接帶走，電話 0986-821-626。',
   keywords: '黃金估價,黃金鑑定,黃金免費估價,黃金秤重',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-appraise',

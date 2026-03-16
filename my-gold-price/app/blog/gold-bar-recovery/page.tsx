@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金條塊回收｜金條變現｜巧品珠寶',
-  description: '黃金條塊回收推薦！金條變現專業估價，當日現金支付。',
+  description: '黃金條塊、金幣高價回收！9999純金、銀行金條均可，按重量現金付款。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '黃金條塊回收,金條變現,金條回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-bar-recovery',

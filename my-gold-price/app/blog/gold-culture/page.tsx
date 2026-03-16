@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金文化｜黃金的象徵意義與歷史｜巧品珠寶',
-  description: '探索黃金文化！黃金在台灣與華人文化中的象徵意義、習俗與傳統，了解黃金回收的文化背景。',
+  description: '探索黃金在台灣的文化意義！從嫁妝、長壽禮到年節禮俗，了解黃金在台灣社會中的重要地位，讀懂黃金背後的文化故事。',
   keywords: '黃金文化,黃金意義,黃金習俗,黃金傳統文化',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-culture',

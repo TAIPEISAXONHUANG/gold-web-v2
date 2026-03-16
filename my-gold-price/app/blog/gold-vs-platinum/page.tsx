@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金、白金、K金有何不同？一篇搞懂',
-  description: '黃金、白金、K金到底差在哪？回收價格怎麼算？完整比較讓你一目了然！',
+  description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。',
   keywords: '黃金vs白金,K金是什麼,珠寶材質比較',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum',

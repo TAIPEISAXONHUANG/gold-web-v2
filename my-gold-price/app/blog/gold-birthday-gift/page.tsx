@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金生日禮物｜送黃金首飾攻略｜巧品珠寶',
-  description: '黃金是最有意義的生日禮物！金項鍊、金手鍊、金飾推薦，台北巧品珠寶專業選購建議。',
+  description: '黃金生日禮物回收推薦！長輩送的金飾不想留，可高價回收變現。台北大安區巧品珠寶免費估價，不扣耗損，當場現金。',
   keywords: '黃金生日禮物,送黃金,金飾禮物,黃金首飾推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-birthday-gift',

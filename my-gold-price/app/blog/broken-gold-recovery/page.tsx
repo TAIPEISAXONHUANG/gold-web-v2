@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '斷掉的黃金｜黃金斷了怎麼辦｜巧品珠寶',
-  description: '斷掉的黃金首飾也能回收！提供專業估價服務。',
+  description: '斷裂、損毀的黃金一樣可以回收！巧品珠寶按實際重量計價，不扣耗損，當場現金付款。台北大安區免費估價，電話 0986-821-626。',
   keywords: '斷掉的黃金,黃金斷了,飾品回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/broken-gold-recovery',

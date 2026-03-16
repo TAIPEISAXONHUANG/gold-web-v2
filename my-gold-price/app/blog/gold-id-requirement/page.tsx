@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收證件要求｜實名制登記必看',
-  description: '賣黃金要帶什麼證件？實名制登記是什麼？一篇讓你搞懂所有證件要求！',
+  description: '賣黃金要帶什麼證件？台灣法規要求身分證正本，詳解各類黃金回收的證件規定，一篇搞懂準備什麼才能順利賣黃金。',
   keywords: '黃金回收證件,實名制,身份證,賣黃金證件',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-id-requirement',

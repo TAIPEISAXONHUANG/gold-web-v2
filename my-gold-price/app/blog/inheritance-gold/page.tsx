@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '遺產黃金回收｜祖先留下黃金變現｜巧品珠寶',
-  description: '遺產黃金回收首選！祖先留下的黃金變現，專業估價、當日現金。',
+  description: '繼承長輩黃金如何處理？完整說明清點、鑑定、回收流程，台北巧品珠寶老闆親自估價，當場現金，電話 0986-821-626。',
   keywords: '遺產黃金回收,祖先黃金,黃金繼承',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/inheritance-gold',

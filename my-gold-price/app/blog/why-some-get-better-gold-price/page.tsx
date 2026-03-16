@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '為什麼有些人賣黃金比較值錢？原來是這個原因',
-  description: '同樣的黃金，有人賣得高，有人賣得低，差別在哪？本文揭秘讓黃金賣得更值錢的關鍵技巧：選對店家、掌握時機、保留憑證、了解品牌價值，讓你不再賤賣！',
+  description: '為什麼同樣的黃金，有人拿到高價、有人拿到低價？揭秘3大關鍵因素：選店技巧、時機、談判方式，讓你拿到最高回收價。',
   keywords: '賣黃金技巧,黃金回收更值錢,黃金賣高價方法,黃金回收選哪家,黃金回收注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/why-some-get-better-gold-price',

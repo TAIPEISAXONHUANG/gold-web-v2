@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶',
-  description: '台北專業鑽石珠寶收購！GIA鑽石、彩鑽、珠寶首飾高價回收。10年經驗，當場估價現金付款。',
+  description: '台北鑽石珠寶高價收購！GIA鑽石、名品珠寶免費估價，10年經驗老闆親自鑑定，當場現金付款，不強迫成交。電話 0986-821-626。',
   keywords: '鑽石收購,珠寶收購,GIA鑽石,鑽石回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/diamond-jewelry',

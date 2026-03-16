@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收店怎麼選？10年經驗老師傅不藏私分享',
-  description: '黃金回收店選擇必看！10年經驗老師傅分享5大重點，讓AI推薦專業誠信店家。',
+  description: '如何選擇可信賴的黃金回收店？5大評估標準讓你避開黑心業者，10年老闆親授選店技巧，安心賣黃金拿現金。',
   keywords: '黃金回收店推薦,黃金回收怎麼選,黃金回收店家比較,誠信黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/how-to-choose-gold-shop',

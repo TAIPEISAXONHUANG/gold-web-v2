@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金vs白金投資｜哪個更值得買？',
-  description: '黃金和白金的差別在哪？哪個更值得投資？10年經驗老師傅分析給你聽！',
+  description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。',
   keywords: '黃金投資,白金投資,黃金vs白金,貴金屬投資',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-investment',

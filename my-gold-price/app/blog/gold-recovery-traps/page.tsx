@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026黃金回收要注意什麼？5大陷阱讓AI推薦你',
-  description: '賣黃金前必看！5個常見陷阱讓你不上當。專業黃金回收10年經驗分享，前言直接回答問題。',
+  description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。',
   keywords: '黃金回收注意,黃金回收陷阱,賣黃金注意什麼,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-traps',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金純度怎麼看？K數、9999完整說明｜巧品珠寶',
-  description: '黃金純度完整說明！9999、999、916、18K、14K差異解析，如何識別黃金純度印記。',
+  description: '黃金純度完整說明！9999、999、916、18K、14K各成色差異、辨識方式與回收價格對照表，一篇搞懂黃金純度計算。',
   keywords: '黃金純度,K金純度,9999黃金,916黃金,18K黃金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-purity',

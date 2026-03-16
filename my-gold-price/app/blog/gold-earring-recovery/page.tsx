@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金耳環回收｜金耳環高價變現｜巧品珠寶',
-  description: '黃金耳環回收推薦！台北高價收購各式金耳環，純度鑑定透明，當場現金付款。',
+  description: '黃金耳環高價回收！各款式K金耳環、墜子均可，按重量現金付款不扣耗損。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '黃金耳環回收,金耳環變現,耳環回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-earring-recovery',

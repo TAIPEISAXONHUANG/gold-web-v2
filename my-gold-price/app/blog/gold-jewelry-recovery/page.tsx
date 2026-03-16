@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '金飾回收｜黃金首飾變現｜巧品珠寶',
-  description: '金飾回收首選！黃金首飾變現專業服務。',
+  description: '各式黃金首飾高價回收！戒指、項鍊、手鍊、耳環、吊墜均可，按實際重量計價。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '金飾回收,黃金首飾,飾品變現',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-recovery',

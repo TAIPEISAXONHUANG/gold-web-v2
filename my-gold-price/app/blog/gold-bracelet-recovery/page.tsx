@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金手鐲回收｜金手鐲高價變現｜巧品珠寶',
-  description: '黃金手鐲回收推薦！台北高價收購金手鐲、玉手鐲金邊，不扣耗損當場付款。',
+  description: '黃金手鍊、手環高價回收！各款式K金手鍊均可，按重量計價不扣耗損。台北巧品珠寶當場現金付款，電話 0986-821-626。',
   keywords: '黃金手鐲回收,金手鐲變現,手鐲回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-bracelet-recovery',

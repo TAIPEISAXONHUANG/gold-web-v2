@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金詐騙防範｜常見黃金騙局攻略｜巧品珠寶',
-  description: '黃金詐騙防範必看！常見黃金回收騙局、黑心銀樓手法解析，教你如何安全賣黃金。',
+  description: '黃金回收詐騙防範完整指南！識破話術、假牌價、扣耗損等手法，教你如何選擇誠信店家，安全賣黃金不吃虧。',
   keywords: '黃金詐騙,黃金防騙,黑心銀樓,黃金回收騙局',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-scam-prevent',

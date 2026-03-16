@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收價格怎麼算？2026年K金回收行情｜巧品珠寶',
-  description: 'K金回收價格怎麼算？一篇搞懂18K/14K/10K回收計算方式，附2026年最新K金回收行情參考！',
+  description: 'K金回收行情2026！18K/14K/10K每台錢值多少？完整計算方式、當日行情查詢，巧品珠寶按市場金價報價，電話 0986-821-626。',
   keywords: 'K金回收價格,K金回收計算,18K回收多少錢,14K回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-price',

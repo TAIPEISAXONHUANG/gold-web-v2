@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？',
-  description: '賣黃金最怕秤重被動手腳！專業教你如何判斷秤是否準確，保護自己的權益。',
+  description: '賣黃金最常見的秤重陷阱！揭露業者如何在秤重上動手腳，教你如何現場確認重量，避免被少算黃金重量而損失金錢。',
   keywords: '黃金秤重,秤重陷阱,黃金回收注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-scale-trap',

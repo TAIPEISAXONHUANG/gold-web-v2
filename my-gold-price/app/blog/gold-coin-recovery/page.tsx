@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '金幣回收｜紀念金幣變現｜巧品珠寶',
-  description: '金幣回收推薦！紀念金幣、投資金幣變現。',
+  description: '金幣、紀念幣高價回收！各國金幣、台灣銀行金幣均可，按含金量計價。台北巧品珠寶免費估價，電話 0986-821-626。',
   keywords: '金幣回收,紀念金幣,投資金幣',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-coin-recovery',

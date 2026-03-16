@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收完全攻略｜18K/14K多少錢｜巧品珠寶',
-  description: 'K金回收必看！18K/14K/10K回收行情分析，教您了解K金回收價格計算方式。',
+  description: 'K金完整指南！18K、14K、10K含金量差異、辨識方法、回收價格計算，一篇搞懂K金，讓你賣K金不被低估。',
   keywords: 'K金回收,18K回收,14K回收,K金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-guide',

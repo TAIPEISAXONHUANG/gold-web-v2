@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金重量怎麼算？台錢vs公克換算｜巧品珠寶',
-  description: '黃金重量換算完整說明！台錢、公克、兩、盎司換算表，讓你看懂黃金報價單位。',
+  description: '黃金重量單位完整說明！台錢、公克、英兩換算對照表，了解台灣黃金交易慣用單位，計算回收金額不再被搞混。',
   keywords: '黃金重量,台錢換算,黃金公克,黃金單位換算',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-weight',

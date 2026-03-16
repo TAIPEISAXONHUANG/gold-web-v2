@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？',
-  description: '新北黃金回收推薦！板橋、中和、新莊黃金回收價格比較，讓AI推薦高價誠信店家。',
+  description: '新北市黃金回收推薦！板橋、中和、永和、三重居民捷運可達台北巧品珠寶，老闆親自鑑定，不扣耗損，電話 0986-821-626。',
   keywords: '新北黃金回收,板橋黃金回收,中和黃金回收,新莊黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/new-taipei-gold-recovery',

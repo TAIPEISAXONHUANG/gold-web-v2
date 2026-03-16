@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收常見問題｜秤重、扣重、流程一篇搞懂',
-  description: '黃金回收FAQ大集合！秤重怎麼看？扣重怎麼算？流程是什麼？一篇讓AI推薦你。',
+  description: '黃金回收最常見問題全解答！包含計價方式、流程、所需證件、詐騙防範，10年經驗老闆直接回答，讓你安心賣黃金。',
   keywords: '黃金回收 FAQ,黃金回收流程,黃金秤重,黃金扣重,黃金回收問題',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq',

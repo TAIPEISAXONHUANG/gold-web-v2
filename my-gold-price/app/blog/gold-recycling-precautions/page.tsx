@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收注意事項｜必看防騙指南｜巧品珠寶',
-  description: '黃金回收要注意什麼？一篇告訴你防騙技巧、回收流程注意事項，避免被坑殺！',
+  description: '黃金回收注意事項完整指南！避免秤重造假、耗損詐騙、低報價話術，選對店家讓你每台錢多拿 500-1000 元。',
   keywords: '黃金回收注意,黃金回收防騙,賣黃金注意事項,黃金回收指南',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions',

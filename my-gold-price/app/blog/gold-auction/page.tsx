@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金拍賣｜黃金買賣市場行情｜巧品珠寶',
-  description: '了解黃金拍賣與買賣市場！台北黃金交易行情，直接找銀樓回收比拍賣平台更划算。',
+  description: '黃金拍賣 vs 直接回收，哪個更划算？台北巧品珠寶比較兩種變現方式的優缺點，幫你選出最適合的黃金處理方式。',
   keywords: '黃金拍賣,黃金買賣,黃金市場,黃金交易台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-auction',

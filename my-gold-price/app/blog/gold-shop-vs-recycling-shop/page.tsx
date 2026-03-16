@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '銀樓與黃金回收店差異｜賣金前必看攻略',
-  description: '銀樓好還是黃金回收店好？一篇讓你了解兩者差異，選擇最適合的黃金變現管道，獲得最佳報價！',
+  description: '銀樓 vs 黃金回收商哪個價格更高？一篇比較兩者差異，分析服務、報價、流程，幫你選出最適合自己的黃金變現管道。',
   keywords: '銀樓黃金回收,黃金變現,賣黃金,銀樓回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-recycling-shop',

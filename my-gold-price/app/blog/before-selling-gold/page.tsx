@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金前要注意什麼｜完整攻略｜巧品珠寶',
-  description: '賣黃金前必看！完整準備事項與注意事項。',
+  description: '賣黃金前必看！避免被扣耗損、秤重造假的完整指南。台北巧品珠寶10年經驗，老闆親自鑑定，免費估價，電話 0986-821-626。',
   keywords: '賣黃金前,黃金準備,賣黃金注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/before-selling-gold',

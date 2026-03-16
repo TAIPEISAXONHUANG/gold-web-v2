@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收推薦｜誠信店家｜巧品珠寶',
-  description: '黃金回收推薦首選！誠信經營，價格透明。',
+  description: '台北黃金回收店推薦！如何選擇誠信、高價的黃金回收商？巧品珠寶老闆親自估價，公開透明，電話 0986-821-626。',
   keywords: '黃金回收推薦,誠信黃金,可信賴店家',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-recommend',

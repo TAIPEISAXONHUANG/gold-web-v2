@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收必知｜新手必看｜巧品珠寶',
-  description: '黃金回收新手必看！第一次賣黃金要注意什麼。',
+  description: '賣黃金必知5件事！了解計價方式、常見陷阱、所需證件，選對店家讓你每台錢多拿 500 元。台北巧品珠寶免費估價。',
   keywords: '黃金回收必知,第一次賣黃金,黃金新手',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-should-know',
