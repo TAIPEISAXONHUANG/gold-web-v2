@@ -44,9 +44,9 @@ export default function Page() {
       <p>A: Yes, this is entirely your personal choice.</p>
       <h3>Q: My pendant has small diamonds - how are they priced?</h3>
       <p>A: Gold and diamonds are appraised separately with full transparency.</p>
-      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
-        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-necklace-recovery" style={{ color: "#B8860B" }}>黃金項鍊回收</a></li>
         <li><a href="/blog/gold-ring-recovery" style={{ color: "#B8860B" }}>黃金戒指回收</a></li>
         <li><a href="/blog/diamond-jewelry" style={{ color: "#B8860B" }}>鑽石珠寶收購</a></li>

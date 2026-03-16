@@ -63,9 +63,9 @@ export default function Page() {
       <p>A：3.75 公克，大概是一枚1元硬幣的重量。</p>
       <h3>Q：珠寶店說的「分」是什麼單位？</h3>
       <p>A：1分 = 0.1台錢 = 0.375公克，常用於小件首飾。</p>
-      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
-        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
         <li><a href="/blog/gold-calculator" style={{ color: "#B8860B" }}>黃金回收計算</a></li>
         <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金完整指南</a></li>

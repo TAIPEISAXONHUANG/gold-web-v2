@@ -48,9 +48,9 @@ export default function Page() {
       <h2>FAQ</h2>
       <h3>Q: Does gold tarnish or corrode?</h3>
       <p>A: Pure 24K gold almost never oxidizes. K-gold may slightly discolor due to alloy content, but this doesn't affect recovery value.</p>
-      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
-        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金詐騙防範</a></li>
         <li><a href="/blog/gold-insurance" style={{ color: "#B8860B" }}>黃金保險說明</a></li>
         <li><a href="/blog/gold-recovery-traps" style={{ color: "#B8860B" }}>黃金回收陷阱</a></li>

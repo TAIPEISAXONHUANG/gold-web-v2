@@ -53,9 +53,9 @@ export default function Page() {
       <h3>Q：斷掉或變形的古早金飾可以收嗎？</h3>
       <p>A：可以，我們以純度和重量計價，外觀不影響回收價格。</p>
 
-      <div style={{{{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}}}>
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
-        <ul style={{{{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}}}>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/inheritance-gold" style={{ color: "#B8860B" }}>繼承黃金處理</a></li>
         <li><a href="/blog/gold-family" style={{ color: "#B8860B" }}>家傳黃金變現</a></li>
         <li><a href="/blog/old-gold-recovery" style={{ color: "#B8860B" }}>舊金回收指南</a></li>
