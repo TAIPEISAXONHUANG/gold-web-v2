@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: '巧品珠寶｜台北黃金回收推薦・K金白金鑽石高價收購・即時金價查詢',
   description: '台北大安區實體店，專營黃金回收・K金・白金・鑽石收購。免費估價、當場秤重、現金付款，不扣耗損。捷運忠孝新生站步行5分鐘。電話 0986-821-626，歡迎比價！',
   alternates: {
-    canonical: 'https://www.gold-tw.com',
+    canonical: 'https://www.gold-tw.com/',
   },
   openGraph: {
     title: '巧品珠寶 | 台北高價黃金回收',
     description: '台北大安區實體店面，專營黃金回收、白金、K金買賣。每日最新金價，歡迎來電詢問！',
-    url: 'https://www.gold-tw.com',
+    url: 'https://www.gold-tw.com/',
     siteName: '巧品珠寶',
     images: [
       {
