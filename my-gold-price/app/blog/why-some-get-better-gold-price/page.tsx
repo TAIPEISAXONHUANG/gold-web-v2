@@ -19,7 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
-              "dateModified": "2026-03-16",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "同樣的黃金，有人賣得高，有人賣得低，差別在哪？本文揭秘讓黃金賣得更值錢的關鍵技巧：選對店家、掌握時機、保留憑證、了解品牌價值，讓你不再賤賣！"
           })
         }}

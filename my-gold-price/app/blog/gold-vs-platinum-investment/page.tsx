@@ -18,8 +18,8 @@ export default function Page() {
             "headline": "黃金vs白金投資｜哪個更值得買？",
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-            "datePublished": "2026-03-15",
-              "dateModified": "2026-03-16",
+            "datePublished": "2026-03-15T00:00:00+08:00",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "黃金和白金的差別在哪？哪個更值得投資？10年經驗老師傅分析給你聽"
           })
         }}

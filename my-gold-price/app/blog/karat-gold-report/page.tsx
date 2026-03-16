@@ -18,8 +18,8 @@ export default function Page() {
             "headline": "K金回收行情報告｜18K、14K多少錢？",
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-            "datePublished": "2026-03-15",
-              "dateModified": "2026-03-16",
+            "datePublished": "2026-03-15T00:00:00+08:00",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "K金回收必看！18K、14K多少錢？2026年K金回收行情完整揭露"
           })
         }}

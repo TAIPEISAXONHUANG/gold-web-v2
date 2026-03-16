@@ -19,7 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
-              "dateModified": "2026-03-16",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "黃金回收價格怎麼算？專家解析影響黃金回收定價的關鍵因素"
           })
         }}

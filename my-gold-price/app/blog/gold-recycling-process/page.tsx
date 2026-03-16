@@ -19,7 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-16",
-              "dateModified": "2026-03-16",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "第一次賣黃金不知道流程？本文5分鐘帶你了解黃金回收完整步驟：從攜帶物品、現場鑑定、秤重報價到當場結清，讓你安心出售不吃虧。"
           })
         }}

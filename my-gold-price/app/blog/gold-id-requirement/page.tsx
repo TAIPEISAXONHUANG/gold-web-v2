@@ -18,8 +18,8 @@ export default function Page() {
             "headline": "黃金回收證件要求｜實名制登記必看",
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-            "datePublished": "2026-03-15",
-              "dateModified": "2026-03-16",
+            "datePublished": "2026-03-15T00:00:00+08:00",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "賣黃金要帶什麼證件？實名制登記是什麼？一篇讓你搞懂"
           })
         }}

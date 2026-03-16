@@ -21,8 +21,8 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/images/og-image.jpg", "width": 1200, "height": 630 },
-            "datePublished": "2026-03-15",
-            "dateModified": "2026-03-16"
+            "datePublished": "2026-03-15T00:00:00+08:00",
+            "dateModified": "2026-03-16T00:00:00+08:00"
           })
         }}
       />

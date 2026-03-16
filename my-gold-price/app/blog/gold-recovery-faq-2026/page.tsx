@@ -19,7 +19,7 @@ export default function Page() {
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
             "datePublished": "2026-03-14",
-              "dateModified": "2026-03-16",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "黃金回收常見問題大集合！秤重、扣重、證件、流程一篇搞懂"
           })
         }}

@@ -25,7 +25,7 @@ export default function Page() {
               "name": "巧品珠寶"
             },
             "datePublished": "2026-03-12",
-              "dateModified": "2026-03-16",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "了解影響黃金回收價格的5大關鍵因素"
           })
         }}

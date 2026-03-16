@@ -18,8 +18,8 @@ export default function Page() {
             "headline": "台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？",
             "author": { "@type": "Organization", "name": "巧品珠寶" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-            "datePublished": "2026-03-15",
-              "dateModified": "2026-03-16",
+            "datePublished": "2026-03-15T00:00:00+08:00",
+              "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "台中黃金回收推薦！一中、逢甲、大里黃金回收價格比較"
           })
         }}
