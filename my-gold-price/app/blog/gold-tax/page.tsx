@@ -20,7 +20,7 @@ export default function Page() {
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-tax" },
             "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
-            "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/images/og-image.jpg", "width": 1200, "height": 630 },
+            "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80", "width": 1200, "height": 630 },
             "datePublished": "2026-03-15T00:00:00+08:00",
             "dateModified": "2026-03-16T00:00:00+08:00"
           })
