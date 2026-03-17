@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+/* 自定義樣式 */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.hero-section {
+  position: relative;
+  height: 400px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 1;
+}
+
+.hero-text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.nav-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  height: 84px;
+}
+
+.table-header {
+  background-color: #fef2f2 !important;
+  color: #7f1d1d;
+  font-weight: bold;
+  padding: 12px 8px;
+  border-bottom: 1px solid #fecaca;
+  text-align: center;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 20;
+}
+
+.table-cell {
+  padding: 12px 8px;
+  border-bottom: 1px solid #f3f4f6;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 500px;
+  padding-bottom: 16px;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-icon {
+  transition: transform 0.3s;
+}

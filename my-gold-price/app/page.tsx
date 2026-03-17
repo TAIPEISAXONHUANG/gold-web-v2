@@ -38,10 +38,6 @@ export default async function Page() {
 
   return (
      <main>
-       {/* 載入 Tailwind 和 FontAwesome */}
-       <script src="https://cdn.tailwindcss.com"></script>
-       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-       
        <ClientPage initialData={data} />
      </main>
   );

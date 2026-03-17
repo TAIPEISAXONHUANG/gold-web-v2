@@ -1,4 +1,10 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+import './globals.css'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   title: '巧品珠寶｜台北黃金回收推薦・K金白金鑽石高價收購・即時金價查詢',
@@ -41,7 +47,12 @@ export default function RootLayout({
         {/* 1. Google Search Console 驗證 */}
         <meta name="google-site-verification" content="f58q0x4tISebwnlueE41NMQNMfL4Ck4T2HO8ZoZvwys" />
 
-        {/* 2. Google Global Tag (同時設定 Analytics 和 Ads) */}
+        {/* 2. Preconnect 加速外部資源載入 */}
+        <link rel="preconnect" href="https://wsrv.nl" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+        {/* 3. Google Global Tag (同時設定 Analytics 和 Ads) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -49,17 +60,13 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-
-              // 設定 Google Analytics (分析) - 解決 "未收到資料"
               gtag('config', 'G-LDD35TNS69'); 
-              
-              // 設定 Google Ads (廣告) - 解決 "轉換追蹤"
               gtag('config', 'AW-356014880');
             `,
           }}
         />
 
-        {/* 3. Meta Pixel (Facebook) */}
+        {/* 4. Meta Pixel (Facebook) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -76,7 +83,6 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Meta Pixel Noscript (for users without JS) */}
         <noscript>
           <img height="1" width="1" style={{display:'none'}}
             src="https://www.facebook.com/tr?id=1509088996230503&ev=PageView&noscript=1"
@@ -84,30 +90,10 @@ export default function RootLayout({
           />
         </noscript>
 
-
-        
-        {/* 4. 樣式庫 (Tailwind & FontAwesome) */}
-        <script src="https://cdn.tailwindcss.com"></script>
+        {/* 5. FontAwesome (圖示庫) */}
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-        
-        {/* 4. 自定義 CSS (跑馬燈、導航列等) */}
-        <style dangerouslySetInnerHTML={{__html: `
-          body { margin: 0; font-family: system-ui, -apple-system, sans-serif; background-color: #f3f4f6; color: #1f2937; }
-          .hero-section { position: relative; height: 400px; background-color: transparent; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
-          .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 1; }
-          .hero-text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.7); }
-          .nav-sticky { position: sticky; top: 0; z-index: 40; background: white; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); height: 84px; }
-          .table-header { background-color: #FEF2F2 !important; color: #7F1D1D; font-weight: bold; padding: 12px 8px; border-bottom: 1px solid #FECACA; text-align: center; font-size: 0.9rem; white-space: nowrap; z-index: 20; }
-          .table-cell { padding: 12px 8px; border-bottom: 1px solid #F3F4F6; text-align: center; font-family: 'Segoe UI', sans-serif; font-size: 0.95rem; }
-          @keyframes marquee { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
-          .animate-marquee { animation: marquee 30s linear infinite; }
-          .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
-          .faq-item.active .faq-answer { max-height: 500px; padding-bottom: 16px; }
-          .faq-item.active .faq-icon { transform: rotate(180deg); }
-          .faq-icon { transition: transform 0.3s; }
-        `}} />
 
-        {/* 5. Schema.org LocalBusiness JSON-LD */}
+        {/* 6. Schema.org LocalBusiness JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -149,7 +135,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* 6. Schema.org FAQPage JSON-LD */}
+        {/* 7. Schema.org FAQPage JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -226,7 +212,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* 7. Schema.org Review JSON-LD */}
+        {/* 8. Schema.org Review JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
