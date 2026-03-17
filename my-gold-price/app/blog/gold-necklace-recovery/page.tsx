@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金項鍊回收｜金鍊高價變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金項鍊回收｜金鍊高價變現</h1>
       <h2>Conclusion: Gold necklaces are the most common recovery item - fast and simple</h2>
       <p>Whether 9999 pure gold, 18K, or broken chains, we offer top market prices for all gold necklaces.</p>

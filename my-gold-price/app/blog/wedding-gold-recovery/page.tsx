@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"結婚金飾變現攻略｜結婚金飾回收價格｜巧品珠寶"}]})
+        }}
+      />
       <h1>結婚金飾變現攻略｜結婚金飾回收必看</h1>
       
       <h2>結論：結婚金飾變現這樣做最划算</h2>

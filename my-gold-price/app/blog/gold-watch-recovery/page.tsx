@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金手錶回收｜勞力士等名錶收購｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金手錶回收｜名錶黃金材質高價收購</h1>
 
       <h2>結論：黃金手錶的黃金部分可以高價回收</h2>

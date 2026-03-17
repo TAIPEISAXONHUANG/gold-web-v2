@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金投資｜金幣金條買賣入門｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金投資｜金幣金條入門完整指南</h1>
 
       <h2>結論：實體黃金是最穩健的避險投資</h2>

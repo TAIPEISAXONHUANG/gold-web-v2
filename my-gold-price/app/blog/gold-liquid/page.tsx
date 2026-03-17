@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金流當｜黃金典當借款說明｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金流當｜典當與直接回收的選擇</h1>
       <h2>Conclusion: Direct recovery usually beats pawning</h2>
       <p>Pawning gold gives you only 70-80% of market value plus monthly interest. Direct recovery at market price with no fees is often more profitable.</p>

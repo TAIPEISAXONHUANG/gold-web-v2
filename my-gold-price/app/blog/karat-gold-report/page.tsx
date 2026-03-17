@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"K金回收行情報告｜18K、14K多少錢？"}]})
+        }}
+      />
       <h1>K金回收行情報告｜18K、14K多少錢？</h1>
       
       <h2>結論：K金回收價格根據純度計算，本文完整揭露2026年最新行情！</h2>

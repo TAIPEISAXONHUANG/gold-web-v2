@@ -33,6 +33,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金條塊回收｜金條變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金條塊回收｜金條變現首選</h1>
       
       <h2>結論：黃金條塊回收這樣做最划算</h2>

@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"金幣回收｜紀念金幣變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>金幣回收｜紀念金幣變現</h1>
       <h2>結論：金幣收藏也能變現！</h2>
       <p>各種紀念金幣、投資金幣都可以回收。</p>

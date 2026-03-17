@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？"}]})
+        }}
+      />
       <h1>黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？</h1>
       
       <h2>結論：秤重是黃金回收最關鍵的環節，本文教你如何保護自己的權益！</h2>

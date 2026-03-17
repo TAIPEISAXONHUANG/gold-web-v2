@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶"}]})
+        }}
+      />
       <h1>賣黃金要繳稅嗎？黃金稅務完整說明</h1>
 
       <h2>結論：一般個人賣黃金通常不需繳所得稅</h2>

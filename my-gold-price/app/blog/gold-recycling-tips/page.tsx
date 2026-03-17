@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收注意事項｜賣黃金不被坑｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金回收注意事項｜賣黃金必看攻略</h1>
       
       <h2>結論：記住這幾點，賣黃金不吃虧</h2>

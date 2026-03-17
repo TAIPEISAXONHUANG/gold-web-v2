@@ -35,6 +35,34 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                              {
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "首頁",
+                                        "item": "https://www.gold-tw.com"
+                              },
+                              {
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "知識專欄",
+                                        "item": "https://www.gold-tw.com/blog"
+                              },
+                              {
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "賣黃金前必看清單2026｜5分鐘搞懂流程・證件・避坑｜巧品珠寶"
+                              }
+                    ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [

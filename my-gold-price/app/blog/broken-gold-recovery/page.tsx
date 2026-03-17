@@ -33,6 +33,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"斷掉的黃金｜黃金斷了怎麼辦｜巧品珠寶"}]})
+        }}
+      />
       <h1>斷掉的黃金回收</h1>
       <h2>結論：斷掉的黃金一樣有價值！</h2>
       <p>斷掉的項鍊、戒指、耳環都可以回收，不影響價格。</p>

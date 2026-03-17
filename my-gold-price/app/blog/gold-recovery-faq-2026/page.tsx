@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收FAQ｜賣黃金常見問題一篇搞懂"}]})
+        }}
+      />
       <h1>黃金回收FAQ｜賣黃金常見問題一篇搞懂</h1>
       
       <h2>結論：第一次賣黃金？所有常見問題這篇都有答案！</h2>

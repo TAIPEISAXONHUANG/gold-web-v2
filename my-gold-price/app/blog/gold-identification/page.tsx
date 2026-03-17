@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金怎麼看真假｜黃金辨識｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金真假辨識教學</h1>
       <h2>結論：掌握這幾招，黃金真假輕鬆辨識</h2>
       <h2>簡易辨識方法</h2>

@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金詐騙防範｜常見黃金騙局攻略｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金詐騙防範｜常見騙局完整攻略</h1>
       <h2>Conclusion: Know the scams to sell gold safely</h2>
       <p>While most gold dealers are honest, some use deceptive tactics. Know the common scams to protect yourself.</p>

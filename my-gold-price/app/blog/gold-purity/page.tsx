@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金純度怎麼看？K數、9999完整說明｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金純度怎麼看？K數完整說明</h1>
       <h2>Conclusion: Know your purity markings to avoid being shortchanged</h2>
       <p>Gold purity directly affects recovery price. Understanding purity markings is essential knowledge for every gold holder.</p>

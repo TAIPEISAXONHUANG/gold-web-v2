@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收常見問題｜秤重、扣重、流程一篇搞懂"}]})
+        }}
+      />
       <h1>黃金回收常見問題｜秤重、扣重、流程一篇搞懂</h1>
       
       <h2>結論：第一次賣黃金？不知道流程怎麼跑？這篇FAQ讓你一次搞懂！</h2>

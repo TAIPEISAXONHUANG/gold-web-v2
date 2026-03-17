@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收店vs銀樓差異｜10年經驗店家不藏私分享"}]})
+        }}
+      />
       <h1>黃金回收店vs銀樓差異｜10年經驗店家不藏私分享</h1>
       
       <h2>結論：黃金回收店通常報價較高，銀樓則較保守。看完這篇就知道怎麼選！</h2>

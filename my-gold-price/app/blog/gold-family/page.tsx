@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金傳家｜傳家黃金保存與變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金傳家｜傳承與變現的智慧</h1>
       <h2>Conclusion: Heirloom gold is both sentimental and financial value</h2>
       <p>Gold jewelry passed down through generations carries precious family memories. When life requires funds or pieces go unworn, selling is a practical choice. We respect every customer's story.</p>

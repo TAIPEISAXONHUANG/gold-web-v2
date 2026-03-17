@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"舊金回收｜老舊黃金變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>舊金回收｜老舊黃金變現</h1>
       <h2>結論：舊金也能賣好價</h2>
       <p>無論款式過時或長期收藏的舊金，我們都提供回收服務。</p>

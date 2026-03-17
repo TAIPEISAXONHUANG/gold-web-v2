@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"2026年黃金價格走勢分析，現在是賣出的好時機嗎？"}]})
+        }}
+      />
       <h1>2026年黃金價格走勢分析</h1>
       <h2>現在是賣出的好時機嗎？專家告訴你</h2>
 

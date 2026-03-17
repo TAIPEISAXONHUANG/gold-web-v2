@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"銀樓與黃金回收店差異｜賣金前必看攻略"}]})
+        }}
+      />
       <h1>銀樓與黃金回收店差異｜賣金前必看攻略</h1>
       
       <p>想要變賣黃金，但不知道該找銀樓還是黃金回收店？本文帶您深入了解兩者差異，幫您做出最有利的選擇。</p>

@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金耳環回收｜金耳環高價變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金耳環回收｜金耳環高價變現</h1>
       <h2>Results: Even small gold earrings are worth recovering</h2>
       <p>Many people think earrings are too small to bother recovering. But a pair of 18K gold earrings weighing 1-2 grams can still be worth hundreds. We accept all types of gold earrings, even single pieces.</p>

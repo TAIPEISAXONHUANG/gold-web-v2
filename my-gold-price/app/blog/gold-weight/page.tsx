@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金重量怎麼算？台錢vs公克換算｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金重量怎麼算？台錢公克換算完整說明</h1>
 
       <h2>結論：搞懂重量單位，讓你不被坑</h2>

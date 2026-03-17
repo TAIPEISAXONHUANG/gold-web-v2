@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"9999純金回收｜24K黃金高價收購｜巧品珠寶"}]})
+        }}
+      />
       <h1>9999純金回收｜24K黃金高價收購</h1>
 
       <h2>結論：9999純金是最好變現的貴金屬</h2>

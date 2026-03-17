@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金、白金、K金有何不同？一篇搞懂"}]})
+        }}
+      />
       <h1>黃金、白金、K金差異比較</h1>
 
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>

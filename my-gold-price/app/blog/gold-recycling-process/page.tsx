@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收流程是什麼？5分鐘讓你搞懂整個過程"}]})
+        }}
+      />
       <h1>黃金回收流程是什麼？5分鐘讓你搞懂整個過程</h1>
 
       <p>很多人手邊有黃金想變現，但從來沒賣過，不知道「黃金回收」到底是怎麼一回事。其實整個流程非常簡單，本文帶你從頭到尾走一遍，看完就懂！</p>

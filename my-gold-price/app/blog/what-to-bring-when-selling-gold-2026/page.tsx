@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要帶什麼？2026年最新規定告訴你"}]})
+        }}
+      />
       <h1>賣黃金要帶什麼？2026年最新規定告訴你</h1>
 
       <p>很多人拿著黃金準備去賣，才到門口發現忘了帶身份證，白跑一趟！為了讓你一次搞定，本文整理 2026 年最新規定，告訴你賣黃金必帶、建議帶、以及可加分的物品清單。</p>

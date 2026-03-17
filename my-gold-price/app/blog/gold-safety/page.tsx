@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金保存安全指南｜如何安全存放黃金｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金保存安全指南｜如何妥善存放黃金</h1>
       <h2>Conclusion: Physical gold storage requires careful planning</h2>
       <p>Physical gold ownership is great, but improper storage risks loss or theft. Here are practical storage recommendations.</p>

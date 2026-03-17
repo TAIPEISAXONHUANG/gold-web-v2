@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶"}]})
+        }}
+      />
       <h1>鑽石珠寶收購｜GIA鑽石高價回收</h1>
 
       <h2>結論：鑽石珠寶也能高價變現，關鍵在選對店家</h2>

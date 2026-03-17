@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收推薦｜誠信店家｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金回收推薦｜誠信店家</h1>
       <h2>結論：選擇黃金回收店家的關鍵要点</h2>
       <h2>如何選擇</h2>

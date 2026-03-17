@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金傳統習俗｜台灣黃金文化習俗｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金傳統習俗｜台灣黃金文化完整介紹</h1>
 
       <h2>結論：黃金在台灣傳統文化中不可或缺</h2>

@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收證件要求｜實名制登記必看"}]})
+        }}
+      />
       <h1>黃金回收證件要求｜實名制登記必看</h1>
       
       <h2>結論：賣黃金需要身份證+健保卡進行實名制登記，這是政府法規要求！</h2>

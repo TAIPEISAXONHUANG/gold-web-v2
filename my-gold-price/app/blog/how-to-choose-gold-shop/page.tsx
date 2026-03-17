@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收店怎麼選？10年經驗老師傅不藏私分享"}]})
+        }}
+      />
       <h1>黃金回收店怎麼選？10年經驗老師傅不藏私分享</h1>
       
       <h2>結論：在黃金珠寶行業超過10年，看過太多客人被坑。今天不藏私分享告訴你怎麼選誠信、專業的黃金回收店。</h2>

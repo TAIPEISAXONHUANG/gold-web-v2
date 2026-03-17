@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金文化｜黃金的象徵意義與歷史｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金文化｜黃金的象徵意義與歷史</h1>
 
       <h2>結論：黃金在華人文化中代表財富、祝福與傳承</h2>

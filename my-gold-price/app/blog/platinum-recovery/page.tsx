@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"白金回收｜鉑金回收｜巧品珠寶"}]})
+        }}
+      />
       <h1>白金回收｜鉑金回收首選</h1>
       <h2>結論：白金回收選對管道很重要</h2>
       <p>白金（鉑金）是貴金屬之一，回收價值高。</p>

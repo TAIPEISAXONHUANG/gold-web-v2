@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"為什麼有些人賣黃金比較值錢？原來是這個原因"}]})
+        }}
+      />
       <h1>為什麼有些人賣黃金比較值錢？原來是這個原因</h1>
 
       <p>「同樣一條金鍊，我賣2萬，朋友卻賣了2萬5！」你是否也聽過這樣的故事？其實黃金的回收價格並不是固定的，懂得技巧的人確實可以賣得比別人高。本文告訴你原因。</p>

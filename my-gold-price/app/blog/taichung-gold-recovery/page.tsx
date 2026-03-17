@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？"}]})
+        }}
+      />
       <h1>台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？</h1>
       
       <h2>結論：台中黃金回收要找哪家？本文告訴你哪裡價格最高、最誠信！</h2>

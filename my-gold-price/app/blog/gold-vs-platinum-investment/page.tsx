@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金vs白金投資｜哪個更值得買？"}]})
+        }}
+      />
       <h1>黃金vs白金投資｜哪個更值得買？</h1>
       
       <h2>結論：黃金是避險首選，白金則有工業需求。根據10年經驗，黃金保值性較高！</h2>

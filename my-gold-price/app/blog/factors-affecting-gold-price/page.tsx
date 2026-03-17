@@ -33,6 +33,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"影響黃金回收價格的關鍵因素｜台北黃金回收必看"}]})
+        }}
+      />
       <h1>影響黃金回收價格的關鍵因素</h1>
       
       <h2>結論：5大因素決定黃金回收價格</h2>

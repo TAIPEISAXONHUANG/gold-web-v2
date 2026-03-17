@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"金飾回收｜黃金首飾變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>金飾回收｜黃金首飾變現</h1>
       <h2>結論：金飾回收選對店家很重要</h2>
       <p>各種黃金首飾、戒指、項鍊、手鐲皆可回收。</p>

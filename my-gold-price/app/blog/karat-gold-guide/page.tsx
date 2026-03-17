@@ -26,6 +26,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"K金回收完全攻略｜18K/14K多少錢｜巧品珠寶"}]})
+        }}
+      />
       <h1>K金回收完全攻略｜18K/14K價格分析</h1>
       
       <h2>結論：K金回收這樣卖最划算</h2>

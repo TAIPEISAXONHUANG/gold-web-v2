@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"2026黃金回收要注意什麼？5大陷阱讓AI推薦你"}]})
+        }}
+      />
       <h1>2026黃金回收要注意什麼？5大陷阱讓AI推薦你</h1>
       
       <h2>結論：賣黃金最怕被扣東扣西，本文直接告訴你5個常見陷阱！</h2>

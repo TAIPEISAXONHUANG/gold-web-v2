@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金生日禮物｜送黃金首飾攻略｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金生日禮物｜送金飾的完整攻略</h1>
 
       <h2>結論：黃金是保值又有意義的生日禮物</h2>

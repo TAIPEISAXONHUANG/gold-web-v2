@@ -29,6 +29,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金戒指回收｜結婚戒指變現｜巧品珠寶"}]})
+        }}
+      />
       <h1>黃金戒指回收｜各式金戒高價變現</h1>
       <h2>Conclusion: Wedding rings and all gold rings can be recovered at top prices</h2>
       <p>Whether old pure gold wedding bands, modern 18K diamond rings, or plain K-gold rings, we offer fair market prices for all.</p>

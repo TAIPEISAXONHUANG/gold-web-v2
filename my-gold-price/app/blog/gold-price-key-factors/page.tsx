@@ -27,6 +27,12 @@ export default function Page() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金價格誰說了算？影響金價的5個關鍵因素"}]})
+        }}
+      />
       <h1>黃金價格誰說了算？影響金價的5個關鍵因素</h1>
 
       <p>你有沒有納悶過：今天黃金價格和上週差那麼多，到底是誰在控制金價？其實黃金的定價機制非常透明，主要由幾個全球性因素共同決定。本文帶你搞懂這 5 個關鍵因素，讓你在買賣黃金時不再霧煞煞。</p>
