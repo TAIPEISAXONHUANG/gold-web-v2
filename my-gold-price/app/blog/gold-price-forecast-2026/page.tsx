@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>2026年黃金價格走勢分析</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026年金價預測：多數機構看好黃金長線走勢，主要因全球央行持續增持黃金、地緣政治不確定性升高。
+      </div>
       <h2>現在是賣出的好時機嗎？專家告訴你</h2>
 
       <h2>結論：取決於您的需求與風險承受度</h2>
@@ -85,6 +89,9 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `資料參考：<a href="https://www.gold.org/goldhub/research" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會研究報告</a>、各大投行（高盛、摩根大通）年度金價展望`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-price-2026" style={{ color: "#B8860B" }}>2026黃金行情分析</a></li>

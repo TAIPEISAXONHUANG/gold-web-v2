@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>遺產黃金回收｜祖先黃金變現攻略</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 繼承的黃金飾品可以直接回收，不需要原購買證明。攜帶身份證到店即可，依當日牌價×純度×重量計算回收價。
+      </div>
       
       <h2>結論：遺產黃金變現這樣做最安全</h2>
       <p>祖先留下的黃金變現需要特別注意，本文帶您了解完整流程與注意事項。</p>

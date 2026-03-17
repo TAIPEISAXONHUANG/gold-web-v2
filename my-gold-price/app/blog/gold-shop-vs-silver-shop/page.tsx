@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收店vs銀樓差異｜10年經驗店家不藏私分享</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 金店與銀樓的差別：金店專營黃金買賣，銀樓涵蓋金銀珠寶。回收黃金兩者都可以，重點是比較報價和服務透明度。
+      </div>
       
       <h2>結論：黃金回收店通常報價較高，銀樓則較保守。看完這篇就知道怎麼選！</h2>
 

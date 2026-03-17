@@ -32,7 +32,18 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金怎麼看真假｜黃金辨識｜巧品珠寶"}]})
         }}
       />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"黃金真偽辨識方法教學","description":"4種辨識黃金真偽的方法，從簡易到專業一次學會。","step":[{"@type":"HowToStep","position":1,"name":"檢查印記標示","text":"正規金飾會刻有純度標示如「999」「750」「585」等，這是最基本的辨識方式。"},{"@type":"HowToStep","position":2,"name":"磁鐵測試","text":"純金不會被磁鐵吸附。如果金飾被磁鐵吸住，代表含有鐵、鎳等金屬，並非純金。"},{"@type":"HowToStep","position":3,"name":"比重測試（水測法）","text":"將金飾放入水中，純金比重約19.3，透過排水量與重量可推算純度。"},{"@type":"HowToStep","position":4,"name":"XRF螢光分析儀檢測","text":"最精確的方法。專業儀器可在不損傷物品的情況下，測出各金屬成分的精確百分比。"}]})
+        }}
+      />
       <h1>黃金真假辨識教學</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 辨識黃金真偽的方法：看印記標示、磁鐵測試、比重測試（水測法）、XRF螢光分析。建議到專業店家使用儀器鑑定最準確。
+      </div>
       <h2>結論：掌握這幾招，黃金真假輕鬆辨識</h2>
       <h2>簡易辨識方法</h2>
       <ul>

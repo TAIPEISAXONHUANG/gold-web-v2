@@ -85,6 +85,10 @@ export default function Page() {
       />
 
       <h1>2026年台灣黃金回收完整指南</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026年金價完整指南：了解國際金價換算台灣牌價的方法、影響金價的五大因素，以及最佳買賣時機判斷。
+      </div>
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年經驗整理</p>
 
       <div style={{ background: '#FEF3C7', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0' }}>
@@ -241,6 +245,9 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a></p>
       <p>📍 台北市大安區濟南路三段62-1號1樓</p>
-    </main>
+    
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `金價換算參考：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">台灣銀行黃金牌價</a>（每日更新）、<a href="https://www.kitco.com" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">Kitco</a>國際金價即時報價`}} />
+      </div></main>
   );
 }

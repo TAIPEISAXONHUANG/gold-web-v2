@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>9999純金回收｜24K黃金高價收購</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 9999純金（24K）回收價最高，因純度達99.99%。回收時以當日國際金價×重量計算，巧品珠寶不扣耗損、不扣秤。
+      </div>
+
       <h2>結論：9999純金是最好變現的貴金屬</h2>
       <p>9999純金（24K金）純度高達99.99%，是貴金屬中最保值、最容易變現的品項。巧品珠寶依當日國際金價即時報價，不扣耗損、不扣手續費，當場現金付款。</p>
 

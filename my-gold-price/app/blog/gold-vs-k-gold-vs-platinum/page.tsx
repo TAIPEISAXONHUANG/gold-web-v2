@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>K金、黃金、白金有什麼不同？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金純度100%保值性最高、K金含金量75%以下硬度較好適合飾品、白金（鉑金）稀有但回收價低於黃金。三者回收價差異大。
+      </div>
       <h2>一篇讓你搞懂貴金屬的完整指南</h2>
 
       <h2>結論：一分鐘搞懂三種貴金屬</h2>

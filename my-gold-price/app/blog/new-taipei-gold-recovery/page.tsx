@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 新北市黃金回收推薦巧品珠寶，位於台北大安區，鄰近新北各區。不扣耗損、現場現金支付，歡迎新北市民來電詢價。
+      </div>
       
       <h2>結論：新北黃金回收要找哪家？本文告訴你哪裡價格最高、最誠信！</h2>
 

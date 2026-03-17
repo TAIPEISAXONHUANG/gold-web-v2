@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>2026年黃金價格走勢分析</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026年金價持續受美聯儲政策、地緣政治及通膨影響。根據台灣銀行牌價，黃金回收價維持在歷史高檔區間。
+      </div>
       
       <h2>結論：2026年黃金操作建議</h2>
       <p>根據目前國際局勢與經濟環境，黃金仍是避險首選。</p>
@@ -53,6 +57,9 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `根據<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">台灣銀行每日黃金牌價</a>及<a href="https://www.gold.org" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會（WGC）</a>數據`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-price-forecast-2026" style={{ color: "#B8860B" }}>2026黃金價格預測</a></li>

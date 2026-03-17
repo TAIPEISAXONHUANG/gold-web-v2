@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金投資｜金幣金條入門完整指南</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金金幣兼具投資與收藏價值。投資型金幣（如楓葉幣、袋鼠幣）流通性高，回收價接近國際金價。
+      </div>
+
       <h2>結論：實體黃金是最穩健的避險投資</h2>
       <p>在通膨、地緣政治風險、貨幣貶值的當下，實體黃金一直是最受信賴的避險資產。本文帶你了解黃金投資的各種方式和注意事項。</p>
 

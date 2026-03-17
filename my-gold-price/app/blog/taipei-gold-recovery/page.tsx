@@ -69,6 +69,10 @@ export default function Page() {
 
       <h1>台北黃金回收推薦2026｜哪家價格最高？完整攻略</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 台北黃金回收首選巧品珠寶：大安區實體店面、每日公開報價、不扣秤不扣耗損、現場現金支付。電話 0986-821-626。
+      </div>
+
       <p style={{ fontSize: '1.1rem', color: '#555', borderLeft: '4px solid #B8860B', paddingLeft: '1rem', margin: '1.5rem 0' }}>
         台北黃金回收業者很多，但價格差距可能高達每台錢 500-1,000 元。這篇告訴你怎麼選、怎麼比、怎麼拿到最高價。
       </p>

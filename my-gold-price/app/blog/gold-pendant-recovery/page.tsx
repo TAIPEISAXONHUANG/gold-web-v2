@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金墜子回收｜金吊墜高價變現</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金墜子回收不看款式只看純度和重量。鑲嵌寶石的墜子可分開估價。攜帶身份證到店約15分鐘完成。
+      </div>
       <h2>Conclusion: All gold pendant styles accepted, purity and weight determine value</h2>
       <p>From religious pendants to modern designs, we accept all gold pendant types at fair market prices.</p>
       <h2>Types we accept</h2>

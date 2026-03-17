@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>銀樓與黃金回收店差異｜賣金前必看攻略</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 銀樓 vs 回收店比較：銀樓兼營買賣價格較穩定，專門回收店速度快但需注意報價透明度。建議選有實體店面的銀樓。
+      </div>
       
       <p>想要變賣黃金，但不知道該找銀樓還是黃金回收店？本文帶您深入了解兩者差異，幫您做出最有利的選擇。</p>
 

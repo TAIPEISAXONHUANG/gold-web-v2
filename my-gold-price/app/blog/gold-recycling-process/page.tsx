@@ -33,7 +33,18 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收流程是什麼？5分鐘讓你搞懂整個過程"}]})
         }}
       />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"黃金回收完整流程教學","description":"從攜帶物品到拿到現金，只需15分鐘完成黃金回收。","step":[{"@type":"HowToStep","position":1,"name":"準備要出售的黃金","text":"整理家中黃金飾品（戒指、項鍊、手鍊、金條、金幣等），不論新舊、斷裂都可以回收。"},{"@type":"HowToStep","position":2,"name":"攜帶身份證件","text":"依洗錢防制法規定，需攜帶身份證正本進行實名制登記。有購買憑證可一併帶去。"},{"@type":"HowToStep","position":3,"name":"到店鑑定純度","text":"工作人員以XRF螢光分析儀檢測黃金純度，全程公開透明，約5分鐘完成。"},{"@type":"HowToStep","position":4,"name":"電子秤精密秤重","text":"使用國家認證電子秤秤出重量（以台錢為單位），秤重過程顧客可親眼確認。"},{"@type":"HowToStep","position":5,"name":"依牌價報價","text":"以當日國際金價為基準，乘以純度與重量，計算出回收金額。不扣秤、不扣耗損。"},{"@type":"HowToStep","position":6,"name":"現場現金支付","text":"確認金額後，當場以現金支付。全程約15分鐘完成，並出具交易明細收據。"}]})
+        }}
+      />
       <h1>黃金回收流程是什麼？5分鐘讓你搞懂整個過程</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金回收流程只需15分鐘：攜帶金飾+身份證→專業儀器鑑定純度→電子秤秤重→依當日牌價報價→現場現金支付。
+      </div>
 
       <p>很多人手邊有黃金想變現，但從來沒賣過，不知道「黃金回收」到底是怎麼一回事。其實整個流程非常簡單，本文帶你從頭到尾走一遍，看完就懂！</p>
 

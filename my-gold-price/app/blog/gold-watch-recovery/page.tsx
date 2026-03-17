@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金手錶回收｜名錶黃金材質高價收購</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金手錶回收需分開估價：錶殼貴金屬部分按純度重量計算，機芯品牌另計。名牌金錶（如勞力士）可能有品牌溢價。
+      </div>
+
       <h2>結論：黃金手錶的黃金部分可以高價回收</h2>
       <p>名牌黃金手錶不只是計時工具，更是貴重資產。無論是整支黃金錶、黃金錶殼還是黃金錶帶，巧品珠寶都提供專業的黃金材質回收服務。</p>
 

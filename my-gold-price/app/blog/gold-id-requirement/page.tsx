@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收證件要求｜實名制登記必看</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 賣黃金必須攜帶身份證正本，這是洗錢防制法規定的法定程序。未滿18歲需法定代理人陪同。
+      </div>
       
       <h2>結論：賣黃金需要身份證+健保卡進行實名制登記，這是政府法規要求！</h2>
 
@@ -52,6 +56,9 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `法規依據：<a href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">洗錢防制法</a>及<a href="https://www.fsc.gov.tw" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">金融監督管理委員會</a>相關規定`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/before-selling-gold" style={{ color: "#B8860B" }}>賣黃金前準備</a></li>

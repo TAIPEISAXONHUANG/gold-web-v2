@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金重量怎麼算？台錢公克換算完整說明</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金重量單位換算：1台錢=3.75公克、1兩=10台錢=37.5公克、1盎司=31.1公克。回收報價通常以「台錢」為單位。
+      </div>
+
       <h2>結論：搞懂重量單位，讓你不被坑</h2>
       <p>黃金報價使用的重量單位有好幾種，台灣常用「台錢」，國際則用「公克」或「盎司」。搞清楚換算關係，才能正確計算你的黃金值多少錢。</p>
 

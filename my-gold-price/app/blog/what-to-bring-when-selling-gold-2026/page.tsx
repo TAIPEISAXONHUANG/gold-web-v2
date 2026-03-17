@@ -33,7 +33,18 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要帶什麼？2026年最新規定告訴你"}]})
         }}
       />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"2026年賣黃金必帶物品清單","description":"賣黃金需要準備的證件和物品，一次整理清楚。","step":[{"@type":"HowToStep","position":1,"name":"攜帶身份證正本","text":"這是法規規定的必備文件，影本或健保卡無法替代。未滿18歲需法定代理人陪同。"},{"@type":"HowToStep","position":2,"name":"帶齊要出售的金飾","text":"整理所有要賣的黃金（戒指、項鍊、手鍊、金條等），不同K數可以一起帶。"},{"@type":"HowToStep","position":3,"name":"準備購買證明（加分項）","text":"保證書、發票或鑑定報告可提升信任度、加快鑑定流程，但並非必備。"}]})
+        }}
+      />
       <h1>賣黃金要帶什麼？2026年最新規定告訴你</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026年賣黃金必帶：①身份證正本（必備）②要出售的金飾 ③購買證明/保證書（加分項）。未滿18歲需家長陪同。
+      </div>
 
       <p>很多人拿著黃金準備去賣，才到門口發現忘了帶身份證，白跑一趟！為了讓你一次搞定，本文整理 2026 年最新規定，告訴你賣黃金必帶、建議帶、以及可加分的物品清單。</p>
 

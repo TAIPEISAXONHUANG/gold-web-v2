@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>K金回收價格怎麼算？2026年最新行情</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> K金回收價計算：當日黃金牌價 × K金含金比例 × 重量。例如18K：牌價×75%×重量。巧品珠寶各種K數都回收。
+      </div>
       
       <h2>K金回收計算公式</h2>
       <p><strong>K金回收價格 = 當日純金牌價 × 重量 × K金純度</strong></p>

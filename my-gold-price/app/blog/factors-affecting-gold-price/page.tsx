@@ -40,6 +40,10 @@ export default function Page() {
         }}
       />
       <h1>影響黃金回收價格的關鍵因素</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 影響金價的主要因素：國際美元走勢、聯準會利率政策、地緣政治風險、通膨數據及市場供需。了解這些能幫你抓準賣金時機。
+      </div>
       
       <h2>結論：5大因素決定黃金回收價格</h2>
       
@@ -63,6 +67,9 @@ export default function Page() {
       <p>不同店家報價不同，建議多方比價，選擇誠信店家。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `分析數據來源：<a href="https://www.gold.org" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會</a>季度需求趨勢報告、美元指數（DXY）、<a href="https://www.federalreserve.gov" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">美聯儲</a>FOMC會議紀要`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-price-2026" style={{ color: "#B8860B" }}>2026黃金行情分析</a></li>

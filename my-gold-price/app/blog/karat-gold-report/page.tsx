@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>K金回收行情報告｜18K、14K多少錢？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> K金鑑定報告說明：XRF螢光分析可精確測出含金比例，報告會標示各金屬成分百分比，作為回收計價依據。
+      </div>
       
       <h2>結論：K金回收價格根據純度計算，本文完整揭露2026年最新行情！</h2>
 

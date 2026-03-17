@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 台中黃金回收資訊：台中地區也有許多合法回收店家。建議選擇有實體店面、公開報價的店家，或聯繫巧品珠寶遠距估價。
+      </div>
       
       <h2>結論：台中黃金回收要找哪家？本文告訴你哪裡價格最高、最誠信！</h2>
 

@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收必知｜新手必看</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 買賣黃金必知：了解純度標示、學會看當日牌價、知道台錢與公克換算（1台錢=3.75公克）、攜帶身份證、多家比價。
+      </div>
       <h2>結論：第一次賣黃金要注意這幾點！</h2>
       <h2>新手教學</h2>
       <ul>

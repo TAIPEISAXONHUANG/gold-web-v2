@@ -34,6 +34,10 @@ export default function Page() {
       />
       <h1>黃金、白金、K金差異比較</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金vs白金：黃金回收價較高且流通性強，白金硬度高適合鑲嵌鑽石但回收價較低。投資保值選黃金，飾品佩戴看需求。
+      </div>
+
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>

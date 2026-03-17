@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金詐騙防範｜常見騙局完整攻略</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 防範黃金詐騙：不接受低於牌價的報價、拒絕私下交易、確認店家營業登記、要求出具交易明細。選擇實體店面最安全。
+      </div>
       <h2>Conclusion: Know the scams to sell gold safely</h2>
       <p>While most gold dealers are honest, some use deceptive tactics. Know the common scams to protect yourself.</p>
       <h2>Common gold recovery scams</h2>

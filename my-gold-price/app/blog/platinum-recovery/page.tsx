@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>白金回收｜鉑金回收首選</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 白金（鉑金）回收價依國際鉑金價×純度×重量計算。Pt950純度95%、Pt900純度90%。目前鉑金回收價約為黃金的一半。
+      </div>
       <h2>結論：白金回收選對管道很重要</h2>
       <p>白金（鉑金）是貴金屬之一，回收價值高。</p>
       <h2>我們的服務</h2>

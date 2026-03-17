@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金保存安全指南｜如何妥善存放黃金</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 存放黃金的安全建議：家用保險箱、銀行保管箱、投保黃金險。避免放在容易被發現的地方，大量黃金建議分散存放。
+      </div>
       <h2>Conclusion: Physical gold storage requires careful planning</h2>
       <p>Physical gold ownership is great, but improper storage risks loss or theft. Here are practical storage recommendations.</p>
       <h2>Storage options compared</h2>

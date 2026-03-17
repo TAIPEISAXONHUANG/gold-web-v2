@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收常見問題｜秤重、扣重、流程一篇搞懂</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金回收常見問題：需帶身份證、不限品牌款式、當場現金支付、K金也能回收。巧品珠寶免費估價不強迫交易。
+      </div>
       
       <h2>結論：第一次賣黃金？不知道流程怎麼跑？這篇FAQ讓你一次搞懂！</h2>
 

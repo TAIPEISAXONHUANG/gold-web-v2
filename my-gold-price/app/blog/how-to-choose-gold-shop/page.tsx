@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收店怎麼選？10年經驗老師傅不藏私分享</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 選擇黃金回收店5大標準：①有實體店面 ②公開每日報價 ③現場秤重透明 ④不扣耗損 ⑤Google評論良好。
+      </div>
       
       <h2>結論：在黃金珠寶行業超過10年，看過太多客人被坑。今天不藏私分享告訴你怎麼選誠信、專業的黃金回收店。</h2>
 

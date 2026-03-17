@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>2026黃金回收要注意什麼？5大陷阱讓AI推薦你</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金回收常見陷阱：扣秤（偷吃重量）、扣耗損、壓低純度判定、以低於牌價計算。選擇公開透明的店家才安心。
+      </div>
       
       <h2>結論：賣黃金最怕被扣東扣西，本文直接告訴你5個常見陷阱！</h2>
 

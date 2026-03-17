@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金純度怎麼看？K數完整說明</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金純度標示：24K=99.9%、22K=91.6%、18K=75%、14K=58.5%。純度越高回收價越好。以XRF螢光分析儀檢測最精確。
+      </div>
       <h2>Conclusion: Know your purity markings to avoid being shortchanged</h2>
       <p>Gold purity directly affects recovery price. Understanding purity markings is essential knowledge for every gold holder.</p>
       <h2>Common gold purity reference</h2>
@@ -52,6 +56,9 @@ export default function Page() {
       <h3>Q: Does higher purity mean higher recovery price?</h3>
       <p>A: Yes, 9999 pure gold commands the highest unit price; K-gold is calculated proportionally.</p>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `純度標準參考：<a href="https://www.cnsonline.com.tw" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">CNS國家標準</a>及ISO 9202國際貴金屬純度標準`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-identification" style={{ color: "#B8860B" }}>黃金鑑定方法</a></li>

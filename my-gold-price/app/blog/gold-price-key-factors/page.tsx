@@ -35,6 +35,10 @@ export default function Page() {
       />
       <h1>黃金價格誰說了算？影響金價的5個關鍵因素</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 影響金價的關鍵因素：美元指數、聯準會利率、全球通膨率、地緣政治風險、央行購金量。掌握這五點就能判斷金價走勢。
+      </div>
+
       <p>你有沒有納悶過：今天黃金價格和上週差那麼多，到底是誰在控制金價？其實黃金的定價機制非常透明，主要由幾個全球性因素共同決定。本文帶你搞懂這 5 個關鍵因素，讓你在買賣黃金時不再霧煞煞。</p>
 
       <h2>黃金定價的基礎：倫敦金銀市場協會（LBMA）</h2>
@@ -131,6 +135,9 @@ export default function Page() {
       <p>隨時掌握最新金價，就能在最佳時機出手！</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `數據來源：<a href="https://www.federalreserve.gov" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">美國聯邦準備理事會</a>利率決策、美元指數（DXY）即時報價`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/factors-affecting-gold-price" style={{ color: "#B8860B" }}>影響黃金價格因素</a></li>

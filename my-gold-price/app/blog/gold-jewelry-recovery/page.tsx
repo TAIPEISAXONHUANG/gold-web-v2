@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>金飾回收｜黃金首飾變現</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 各類金飾（戒指、項鍊、手鍊、耳環）都可回收。回收價＝當日牌價×重量×純度，巧品珠寶不扣秤不扣耗損。
+      </div>
       <h2>結論：金飾回收選對店家很重要</h2>
       <p>各種黃金首飾、戒指、項鍊、手鐲皆可回收。</p>
       <h2>回收項目</h2>

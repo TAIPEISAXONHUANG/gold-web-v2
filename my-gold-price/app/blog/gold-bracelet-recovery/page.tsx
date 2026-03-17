@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金手鐲回收｜金手鐲高價變現</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金手鍊回收依純度×重量計價。K金手鍊依含金比例換算。攜帶身份證到店，約15分鐘完成鑑定與付款。
+      </div>
+
       <h2>結論：黃金手鐲回收，重量就是你的錢</h2>
       <p>黃金手鐲是許多家庭的傳家之寶，也是最常見的黃金首飾之一。無論是嫁妝手鐲、長輩贈送的金鐲，或是自己購買的投資型手鐲，都可以在巧品珠寶以最高市場價回收變現。</p>
 

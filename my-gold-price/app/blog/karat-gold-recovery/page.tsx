@@ -34,6 +34,10 @@ export default function Page() {
       />
       <h1>K金回收價格一篇搞懂</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> K金回收不限K數：18K、14K、10K、9K、8K都可以回收。價格依含金比例計算，不因品牌或款式打折。
+      </div>
+
       <h2>什麼是K金？</h2>
       <p>K金是指黃金與其他金屬的合金，用「K」表示純度：</p>
       <ul>

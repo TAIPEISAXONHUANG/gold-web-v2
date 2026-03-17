@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金戒指回收｜各式金戒高價變現</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金戒指回收依純度與重量計價，不論款式新舊、有無刻字。K金戒指按含金比例換算，鑲鑽戒指可分開估價。
+      </div>
       <h2>Conclusion: Wedding rings and all gold rings can be recovered at top prices</h2>
       <p>Whether old pure gold wedding bands, modern 18K diamond rings, or plain K-gold rings, we offer fair market prices for all.</p>
       <h2>Types we accept</h2>

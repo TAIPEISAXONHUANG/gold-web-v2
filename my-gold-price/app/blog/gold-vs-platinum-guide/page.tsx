@@ -85,6 +85,10 @@ export default function Page() {
       />
 
       <h1>黃金 vs 白金 vs K金：2026年完整比較指南</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金與白金完整比較指南：從價格、保值性、硬度、用途到回收行情，幫你做出最適合的選擇。
+      </div>
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年鑑定經驗整理</p>
 
       <h2>一、成分與基本差異</h2>

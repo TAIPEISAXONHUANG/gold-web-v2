@@ -40,6 +40,10 @@ export default function Page() {
         }}
       />
       <h1>斷掉的黃金回收</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 斷裂、變形的金飾一樣可以回收！回收價依純度和重量計算，不因外觀損壞而扣價。巧品珠寶專業鑑定，公平計價。
+      </div>
       <h2>結論：斷掉的黃金一樣有價值！</h2>
       <p>斷掉的項鍊、戒指、耳環都可以回收，不影響價格。</p>
       <h2>回收項目</h2>

@@ -87,6 +87,10 @@ export default function Page() {
       />
 
       <h1>賣黃金前必看清單2026｜5分鐘搞懂流程、證件、避坑</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026賣金檢查清單：✓確認當日金價 ✓攜帶身份證 ✓整理所有金飾 ✓比較至少3家報價 ✓確認不扣耗損 ✓索取收據。
+      </div>
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜適用台北、新北地區</p>
 
       <div style={{ background: '#d4edda', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0', border: '1px solid #c3e6cb' }}>

@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 秤重陷阱辨別：注意電子秤是否歸零、單位是台錢還是公克、是否有國家計量認證標籤。正規店家會讓你親眼確認秤重過程。
+      </div>
       
       <h2>結論：秤重是黃金回收最關鍵的環節，本文教你如何保護自己的權益！</h2>
 

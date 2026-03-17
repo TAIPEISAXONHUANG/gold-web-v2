@@ -35,7 +35,18 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金估價｜免費專業鑑定｜巧品珠寶台北"}]})
         }}
       />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"黃金估價流程說明","description":"專業黃金估價的完整步驟，全程約10分鐘。","step":[{"@type":"HowToStep","position":1,"name":"目視檢查","text":"先確認金飾外觀、印記標示（K數、品牌）和整體狀況。"},{"@type":"HowToStep","position":2,"name":"XRF儀器檢測純度","text":"使用X射線螢光分析儀精確測量黃金純度，非破壞性檢測不會傷害物品。"},{"@type":"HowToStep","position":3,"name":"電子秤精密秤重","text":"以國家認證電子秤秤出淨重（扣除非金屬部分如寶石、繩鏈）。"},{"@type":"HowToStep","position":4,"name":"依當日牌價計算報價","text":"回收價 = 當日牌價 × 純度 × 重量。現場計算讓客戶確認，公開透明。"}]})
+        }}
+      />
       <h1>黃金估價｜台北免費專業鑑定</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金估價流程：目視檢查→XRF螢光分析儀測純度→電子秤精密秤重→依當日牌價報價。全程約10分鐘，公開透明。
+      </div>
 
       <h2>結論：估價完全免費，不賣也沒關係</h2>
       <p>很多人想知道自己的黃金值多少錢，但擔心去估價就要被迫賣出。巧品珠寶提供完全免費的黃金估價服務，估完不滿意可以直接帶回，絕不強迫銷售。</p>

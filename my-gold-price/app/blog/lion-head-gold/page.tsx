@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>金牌回收｜各式金牌高價變現</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 獅頭金飾是台灣傳統婚嫁必備品項。回收時依純度（通常為24K或22K）和重量計價，保留原盒與證書可增加信任度。
+      </div>
+
       <h2>結論：金牌也是黃金，一樣可以高價回收</h2>
       <p>無論是廟宇的神明金牌、體育競賽的金牌，還是各種紀念用純金牌，只要是真金製成，都能在巧品珠寶以當日市價收購。</p>
 

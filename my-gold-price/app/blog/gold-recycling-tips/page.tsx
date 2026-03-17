@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收注意事項｜賣黃金必看攻略</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 賣黃金小技巧：趁金價高點出售、多家比價、選擇不扣耗損的店家、確認秤重單位（台錢vs公克）、保留交易收據。
+      </div>
       
       <h2>結論：記住這幾點，賣黃金不吃虧</h2>
       <p>市場上有許多回收話術，本文帶您了解常見陷阱與應對方法。</p>

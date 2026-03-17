@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收注意事項｜必看防騙指南</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 賣黃金注意事項：確認當日牌價、要求現場秤重、注意純度判定方式、索取交易明細。多比價是最好的保障。
+      </div>
       
       <h2>選擇回收商要注意</h2>
       <ul>

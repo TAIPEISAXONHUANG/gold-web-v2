@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金vs白金投資｜哪個更值得買？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 投資角度比較：黃金流通性高、國際認可度強；白金產量少但工業需求波動大。長期保值建議以黃金為主。
+      </div>
       
       <h2>結論：黃金是避險首選，白金則有工業需求。根據10年經驗，黃金保值性較高！</h2>
 
@@ -54,6 +58,9 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `歷史價格數據：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">台灣銀行</a>歷年黃金/白金牌價、<a href="https://www.gold.org" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會</a>投資統計數據`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs白金比較</a></li>

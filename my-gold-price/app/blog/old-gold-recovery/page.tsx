@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>舊金回收｜老舊黃金變現</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 舊金飾回收不看新舊，只看純度和重量。祖傳金飾、變色氧化的金飾都能回收，巧品珠寶專業鑑定讓舊金發揮最大價值。
+      </div>
       <h2>結論：舊金也能賣好價</h2>
       <p>無論款式過時或長期收藏的舊金，我們都提供回收服務。</p>
       <h2>舊金回收優點</h2>

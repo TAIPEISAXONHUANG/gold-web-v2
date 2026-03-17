@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>鑽石珠寶收購｜GIA鑽石高價回收</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 鑽石飾品回收需評估鑽石4C（克拉、淨度、顏色、切工）與金屬部分。巧品珠寶提供鑽石+貴金屬一站式回收服務。
+      </div>
+
       <h2>結論：鑽石珠寶也能高價變現，關鍵在選對店家</h2>
       <p>很多人不知道，鑽石和珠寶首飾也可以高價回收變現。巧品珠寶提供專業的鑽石珠寶收購服務，無論是 GIA 裸鑽、彩鑽、鑽戒還是各種珠寶首飾，我們都能給出市場上最合理的價格。</p>
 

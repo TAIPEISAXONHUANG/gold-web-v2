@@ -35,6 +35,10 @@ export default function Page() {
       />
       <h1>黃金回收怎麼定價？專家告訴你影響價格的關鍵因素</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 影響黃金回收價格的因素：國際金價、純度、重量、店家利潤。同一天不同店家報價可能差數百元，建議比價。
+      </div>
+
       <h2>結論：回收定價主要看這5個因素</h2>
       <p>許多民眾想知道「我的黃金能賣多少？」其實黃金回收價格有固定的計算方式，本文帶您一次搞懂！</p>
 
@@ -91,6 +95,9 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `國際金價即時數據：<a href="https://www.kitco.com" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">Kitco貴金屬</a>、<a href="https://www.lbma.org.uk" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">倫敦金銀市場協會（LBMA）</a>每日定盤價`}} />
+      </div>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/factors-affecting-gold-price" style={{ color: "#B8860B" }}>影響黃金價格因素</a></li>

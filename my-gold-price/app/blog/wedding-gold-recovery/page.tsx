@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>結婚金飾變現攻略｜結婚金飾回收必看</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 婚嫁金飾回收完全可以！結婚金項鍊、金手鍊、金戒指等都依純度重量計價。款式或刻字不影響回收價格。
+      </div>
       
       <h2>結論：結婚金飾變現這樣做最划算</h2>
       <p>結婚時購買的金飾除了具有紀念價值外，若有變現需求，透過正確管道可獲得最優價格。</p>

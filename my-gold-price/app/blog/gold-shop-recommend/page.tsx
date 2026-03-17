@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收推薦｜誠信店家</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 選擇黃金回收店推薦標準：有實體店面、公開每日牌價、不扣耗損、現場秤重透明、Google評論4.5星以上。
+      </div>
       <h2>結論：選擇黃金回收店家的關鍵要点</h2>
       <h2>如何選擇</h2>
       <ul>

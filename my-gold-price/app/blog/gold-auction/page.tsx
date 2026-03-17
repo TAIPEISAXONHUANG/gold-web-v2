@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金拍賣｜買賣市場行情完整指南</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金拍賣適合大量或特殊金品，但一般小額金飾建議直接找信譽良好的回收店，手續簡單、當天拿現金。
+      </div>
+
       <h2>結論：直接找銀樓回收比拍賣平台更划算</h2>
       <p>許多人想透過拍賣平台賣黃金，但往往要扣除5-15%平台手續費、等待時間長、還要擔心詐騙。相較之下，直接找專業銀樓回收，當天現金、零手續費，才是最實惠的選擇。</p>
 

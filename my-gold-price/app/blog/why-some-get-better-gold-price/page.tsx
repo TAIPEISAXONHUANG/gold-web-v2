@@ -35,6 +35,10 @@ export default function Page() {
       />
       <h1>為什麼有些人賣黃金比較值錢？原來是這個原因</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 為什麼別人賣金價格比你高？關鍵差異：選對時機（金價高點）、選對店家（不扣耗損）、多家比價、了解純度差異。
+      </div>
+
       <p>「同樣一條金鍊，我賣2萬，朋友卻賣了2萬5！」你是否也聽過這樣的故事？其實黃金的回收價格並不是固定的，懂得技巧的人確實可以賣得比別人高。本文告訴你原因。</p>
 
       <h2>原因一：選對了回收店家</h2>

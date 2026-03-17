@@ -124,6 +124,26 @@ export default function Page() {
       <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626（點此加入）</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>
       <p style={{ color: '#B8860B', fontWeight: 'bold' }}>估完不賣完全沒關係，歡迎比較後再決定。</p>
+    
+      <section style={{marginTop:'3rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginBottom:'1rem'}}>🗺️ 鄰近地區黃金回收</h2>
+        <h3 style={{fontSize:'1rem', color:'#6b7280', marginBottom:'0.5rem'}}>新北市其他地區</h3>
+        <ul style={{listStyle:'none', padding:0, marginBottom:'1.5rem'}}>
+        <li style={{marginBottom:'8px'}}><a href="/district/banqiao" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>板橋區黃金回收</a></li>
+        <li style={{marginBottom:'8px'}}><a href="/district/xinzhuang" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>新莊區黃金回收</a></li>
+        <li style={{marginBottom:'8px'}}><a href="/district/sanchong" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>三重區黃金回收</a></li>
+        <li style={{marginBottom:'8px'}}><a href="/district/xindian" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>新店區黃金回收</a></li>
+        <li style={{marginBottom:'8px'}}><a href="/district/yonghe" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>永和區黃金回收</a></li>
+        </ul>
+        <h3 style={{fontSize:'1rem', color:'#6b7280', marginBottom:'0.5rem'}}>台北市</h3>
+        <ul style={{listStyle:'none', padding:0}}>
+        <li style={{marginBottom:'8px'}}><a href="/district/da-an" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>大安區黃金回收</a></li>
+        <li style={{marginBottom:'8px'}}><a href="/district/xin-yi" style={{color:'#991b1b', textDecoration:'none', fontWeight:'bold'}}>信義區黃金回收</a></li>
+        </ul>
+        <p style={{marginTop:'1rem', fontSize:'0.9rem', color:'#6b7280'}}>
+          📞 不限地區，歡迎來電詢價：<a href="tel:0986821626" style={{color:'#991b1b', fontWeight:'bold'}}>0986-821-626</a>
+        </p>
+      </section>
     </main>
   );
 }

@@ -33,6 +33,10 @@ export default function Page() {
         }}
       />
       <h1>K金回收完全攻略｜18K/14K價格分析</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> K金完整指南：18K含金75%、14K含金58.5%、10K含金41.7%。K金回收價按含金比例計算，款式不影響價格。
+      </div>
       
       <h2>結論：K金回收這樣卖最划算</h2>
       <p>K金的回收價格根據純度計算，不同K數對應不同回收比例，本文完整說明。</p>

@@ -33,7 +33,18 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要注意什麼？5個不被坑的必知技巧"}]})
         }}
       />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"賣黃金五大技巧","description":"掌握這5個技巧，讓你賣黃金拿到最好的價格。","step":[{"@type":"HowToStep","position":1,"name":"觀察金價走勢選高點","text":"關注國際金價趨勢，金價上漲時出售可獲得更好價格。可參考台灣銀行每日牌價。"},{"@type":"HowToStep","position":2,"name":"多家比價","text":"同一天不同店家報價可能差數百元，至少比較3家以上。"},{"@type":"HowToStep","position":3,"name":"選不扣耗損的店家","text":"部分店家會扣1-3%耗損，選擇明確標示「不扣耗損」的回收店。"},{"@type":"HowToStep","position":4,"name":"親眼確認秤重過程","text":"要求在你面前秤重，確認電子秤歸零、單位正確（台錢或公克）。"},{"@type":"HowToStep","position":5,"name":"保留交易明細","text":"索取正式交易明細或收據，記錄重量、純度、單價和總金額。"}]})
+        }}
+      />
       <h1>賣黃金要注意什麼？</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 賣黃金五大技巧：①觀察金價走勢選高點 ②多家比價 ③選不扣耗損的店 ④確認秤重過程 ⑤保留交易明細。
+      </div>
       <h2>5個不被坑的必知技巧</h2>
 
       <h2>結論：記住這5點，賣黃金不吃虧</h2>

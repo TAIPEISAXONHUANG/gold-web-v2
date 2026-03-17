@@ -34,6 +34,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收FAQ｜賣黃金常見問題一篇搞懂</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 2026年黃金回收最新FAQ：目前回收價行情、需要什麼證件、K金怎麼計價、哪裡回收最划算，一次解答。
+      </div>
       
       <h2>結論：第一次賣黃金？所有常見問題這篇都有答案！</h2>
 

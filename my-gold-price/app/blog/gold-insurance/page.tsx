@@ -36,6 +36,10 @@ export default function Page() {
         }}
       />
       <h1>黃金保險｜實體黃金保障完整指南</h1>
+
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金保險主要保障金飾遺失與竊盜風險。高價金飾建議投保，理賠時需提供購買證明與鑑定報告。
+      </div>
       <h2>Conclusion: Physical gold needs proper storage and protection</h2>
       <p>Owning physical gold is great, but poor storage can lead to loss or theft. Learn how to protect your gold properly.</p>
       <h2>Storage options</h2>

@@ -37,6 +37,10 @@ export default function Page() {
       />
       <h1>黃金生日禮物｜送金飾的完整攻略</h1>
 
+      <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
+        <strong>📌 重點摘要：</strong> 黃金生日禮物（金飾、金幣、金條）日後都可回收變現。選購時注意純度標示，保留購買憑證可提升回收信任度。
+      </div>
+
       <h2>結論：黃金是保值又有意義的生日禮物</h2>
       <p>生日送黃金，不只是送一件首飾，更是送一份保值的資產。黃金不退流行、不過時，而且隨時可以變現，是最實用又有心意的禮物選擇。</p>
 
