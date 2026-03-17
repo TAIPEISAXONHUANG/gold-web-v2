@@ -61,6 +61,27 @@ export default function Page() {
       <h2>FAQ</h2>
       <h3>Q: How do I verify the weight is accurate?</h3>
       <p>A: Demand on-the-spot weighing with you watching - we guarantee full transparency.</p>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金回收有什麼常見詐騙？","acceptedAnswer":{"@type":"Answer","text":"常見手法：偷扣秤重、壓低純度判定、報價後額外扣耗損、以低於牌價的價格計算。"}},{"@type":"Question","name":"怎麼避免被黃金回收店騙？","acceptedAnswer":{"@type":"Answer","text":"選有實體店面的店家、要求現場秤重、確認純度檢測方式、比較多家報價、索取交易明細。"}},{"@type":"Question","name":"網路上的黃金回收可信嗎？","acceptedAnswer":{"@type":"Answer","text":"風險較高。建議選擇有實體店面、Google評論良好的店家，避免寄送黃金給不明對象。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收有什麼常見詐騙？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 常見手法：偷扣秤重、壓低純度判定、報價後額外扣耗損、以低於牌價的價格計算。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼避免被黃金回收店騙？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 選有實體店面的店家、要求現場秤重、確認純度檢測方式、比較多家報價、索取交易明細。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 網路上的黃金回收可信嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 風險較高。建議選擇有實體店面、Google評論良好的店家，避免寄送黃金給不明對象。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

@@ -55,6 +55,27 @@ export default function Page() {
         <li>1分 = 0.375克</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金回收怎麼算價錢？","acceptedAnswer":{"@type":"Answer","text":"公式：當日牌價 × 重量（台錢）× 純度。例如24K金5錢 = 牌價 × 5 × 100%。"}},{"@type":"Question","name":"台錢和公克怎麼換算？","acceptedAnswer":{"@type":"Answer","text":"1台錢 = 3.75公克、1兩 = 10台錢 = 37.5公克、1盎司 = 31.1公克 ≈ 8.294台錢。"}},{"@type":"Question","name":"K金怎麼算回收價？","acceptedAnswer":{"@type":"Answer","text":"18K按75%計算、14K按58.5%、10K按41.7%。例如18K金3錢 = 牌價 × 3 × 75%。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收怎麼算價錢？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 公式：當日牌價 × 重量（台錢）× 純度。例如24K金5錢 = 牌價 × 5 × 100%。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 台錢和公克怎麼換算？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 1台錢 = 3.75公克、1兩 = 10台錢 = 37.5公克、1盎司 = 31.1公克 ≈ 8.294台錢。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金怎麼算回收價？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 18K按75%計算、14K按58.5%、10K按41.7%。例如18K金3錢 = 牌價 × 3 × 75%。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

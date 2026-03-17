@@ -53,6 +53,27 @@ export default function Page() {
       </ul>
       <h2>專業檢測</h2>
       <p>我們提供專業儀器檢測，確保準確。</p>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"怎麼辨別黃金真假？","acceptedAnswer":{"@type":"Answer","text":"四種方法：看印記標示、磁鐵測試（純金不會被吸）、水測比重法、XRF儀器檢測（最準確）。"}},{"@type":"Question","name":"假金飾很常見嗎？","acceptedAnswer":{"@type":"Answer","text":"市面上確實有鍍金、包金等仿品。建議到有專業儀器的店家鑑定，不要只靠肉眼判斷。"}},{"@type":"Question","name":"鑑定黃金要收費嗎？","acceptedAnswer":{"@type":"Answer","text":"巧品珠寶提供免費鑑定估價服務，不強迫交易，鑑定後不賣也沒關係。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼辨別黃金真假？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 四種方法：看印記標示、磁鐵測試（純金不會被吸）、水測比重法、XRF儀器檢測（最準確）。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 假金飾很常見嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 市面上確實有鍍金、包金等仿品。建議到有專業儀器的店家鑑定，不要只靠肉眼判斷。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 鑑定黃金要收費嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 巧品珠寶提供免費鑑定估價服務，不強迫交易，鑑定後不賣也沒關係。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

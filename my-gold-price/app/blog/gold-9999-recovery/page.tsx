@@ -65,6 +65,27 @@ export default function Page() {
       <h3>Q：需要原始購買憑證嗎？</h3>
       <p>A：不需要，但有的話可以加快流程。</p>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"9999純金回收價最高嗎？","acceptedAnswer":{"@type":"Answer","text":"是的。9999代表99.99%純度，是最高等級的黃金，回收價按100%計算。"}},{"@type":"Question","name":"怎麼確認是不是9999純金？","acceptedAnswer":{"@type":"Answer","text":"正規金飾會刻有999或9999標示，店家也會用XRF螢光分析儀精確檢測。"}},{"@type":"Question","name":"9999和999有差別嗎？","acceptedAnswer":{"@type":"Answer","text":"實務上差異極小。999代表99.9%純度，9999代表99.99%，回收價格通常一樣。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 9999純金回收價最高嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 是的。9999代表99.99%純度，是最高等級的黃金，回收價按100%計算。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼確認是不是9999純金？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規金飾會刻有999或9999標示，店家也會用XRF螢光分析儀精確檢測。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 9999和999有差別嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 實務上差異極小。999代表99.9%純度，9999代表99.99%，回收價格通常一樣。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

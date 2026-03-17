@@ -30,6 +30,13 @@ export default function TodayGoldPrice() {
         }}
       />
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收服務 - 今日金價","description":"台北巧品珠寶黃金回收服務，9999純金、K金、白金高價收購。每日更新即時金價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"AggregateOffer","priceCurrency":"TWD","lowPrice":"7000","highPrice":"19500","offerCount":"6","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"86"}})
+        }}
+      />
       <h1>📊 今日金價｜黃金一錢多少錢</h1>
       <p style={{ color: '#666' }}>最後更新：2026年3月17日</p>
       

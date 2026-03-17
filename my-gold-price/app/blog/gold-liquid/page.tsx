@@ -52,6 +52,27 @@ export default function Page() {
       <p>A: Yes, pawning is the only option if you want to reclaim. Direct recovery is better if you're sure you want to sell.</p>
       <h3>Q: Do you offer pawn services?</h3>
       <p>A: We specialize in direct recovery. For pawning, please inquire at a local pawn shop.</p>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金變現最快的方式是什麼？","acceptedAnswer":{"@type":"Answer","text":"到銀樓或回收店，當場鑑定、秤重、報價、付現，全程約15分鐘，是最快的變現管道。"}},{"@type":"Question","name":"黃金可以去當鋪嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。當鋪可典當（可贖回）或直接賣斷。但當鋪報價通常低於銀樓回收價。"}},{"@type":"Question","name":"線上賣黃金安全嗎？","acceptedAnswer":{"@type":"Answer","text":"風險較高。需要寄送實體黃金，若遇到不良業者可能被壓價或詐騙。建議選實體店面交易。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金變現最快的方式是什麼？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 到銀樓或回收店，當場鑑定、秤重、報價、付現，全程約15分鐘，是最快的變現管道。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金可以去當鋪嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。當鋪可典當（可贖回）或直接賣斷。但當鋪報價通常低於銀樓回收價。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 線上賣黃金安全嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 風險較高。需要寄送實體黃金，若遇到不良業者可能被壓價或詐騙。建議選實體店面交易。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

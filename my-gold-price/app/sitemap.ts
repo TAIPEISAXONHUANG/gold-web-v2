@@ -47,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/gold-recycling-price`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/sell-gold-guide`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/gold-price-compare`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/gold-recovery-guide`, lastModified: now, changeFrequency: 'weekly', priority: 1 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map(slug => ({

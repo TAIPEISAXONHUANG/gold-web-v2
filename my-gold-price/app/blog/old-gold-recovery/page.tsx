@@ -45,6 +45,27 @@ export default function Page() {
         <li>不扣耗</li>
         <li>當日現金</li>
       </ul>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"祖傳的舊金飾值多少？","acceptedAnswer":{"@type":"Answer","text":"舊金飾回收只看純度和重量，跟新舊無關。早期的台灣金飾通常純度很高（22K-24K），回收價不錯。"}},{"@type":"Question","name":"變黑的金飾是假的嗎？","acceptedAnswer":{"@type":"Answer","text":"不一定。K金含其他金屬可能氧化變色，但黃金部分的價值不變。到店鑑定就能確認。"}},{"@type":"Question","name":"沒有保證書的舊金飾能賣嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。店家會現場以儀器檢測純度和重量，不需要購買證明。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 祖傳的舊金飾值多少？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 舊金飾回收只看純度和重量，跟新舊無關。早期的台灣金飾通常純度很高（22K-24K），回收價不錯。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 變黑的金飾是假的嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不一定。K金含其他金屬可能氧化變色，但黃金部分的價值不變。到店鑑定就能確認。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 沒有保證書的舊金飾能賣嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。店家會現場以儀器檢測純度和重量，不需要購買證明。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

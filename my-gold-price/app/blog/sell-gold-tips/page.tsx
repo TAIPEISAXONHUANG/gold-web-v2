@@ -104,6 +104,27 @@ export default function Page() {
         <li><strong>「只能給這個價」</strong> → 多比幾家再決定</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什麼時候賣黃金最划算？","acceptedAnswer":{"@type":"Answer","text":"金價上漲趨勢時出售最好。可以關注國際局勢、美元走勢和聯準會政策來判斷時機。"}},{"@type":"Question","name":"賣黃金一定要到店嗎？","acceptedAnswer":{"@type":"Answer","text":"建議到店交易最安全。可以先電話或LINE詢價，確認價格後再到店完成交易。"}},{"@type":"Question","name":"耗損費合理嗎？","acceptedAnswer":{"@type":"Answer","text":"不一定。部分店家會扣1-3%耗損，但正規銀樓（如巧品珠寶）不扣耗損，建議選擇透明計價的店家。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 什麼時候賣黃金最划算？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 金價上漲趨勢時出售最好。可以關注國際局勢、美元走勢和聯準會政策來判斷時機。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金一定要到店嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 建議到店交易最安全。可以先電話或LINE詢價，確認價格後再到店完成交易。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 耗損費合理嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不一定。部分店家會扣1-3%耗損，但正規銀樓（如巧品珠寶）不扣耗損，建議選擇透明計價的店家。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

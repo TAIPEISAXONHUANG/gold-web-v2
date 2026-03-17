@@ -56,6 +56,27 @@ export default function Page() {
       <h2>陷阱五：態度催促成交</h2>
       <p>專業店家會詳細解說，讓你充分了解後再決定，不會催促。</p>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金回收最常見的陷阱？","acceptedAnswer":{"@type":"Answer","text":"四大陷阱：偷扣秤重、壓低純度判定、報價後再扣耗損、以低於牌價的價格計算。"}},{"@type":"Question","name":"怎麼保護自己不被騙？","acceptedAnswer":{"@type":"Answer","text":"多家比價、要求現場透明秤重、確認計價方式、選Google評價好的店家、索取交易明細。"}},{"@type":"Question","name":"被回收店坑了怎麼辦？","acceptedAnswer":{"@type":"Answer","text":"保留交易明細向消保會申訴，或向當地商業處檢舉。選擇正規店家交易可避免糾紛。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收最常見的陷阱？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 四大陷阱：偷扣秤重、壓低純度判定、報價後再扣耗損、以低於牌價的價格計算。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼保護自己不被騙？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 多家比價、要求現場透明秤重、確認計價方式、選Google評價好的店家、索取交易明細。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 被回收店坑了怎麼辦？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 保留交易明細向消保會申訴，或向當地商業處檢舉。選擇正規店家交易可避免糾紛。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

@@ -58,6 +58,27 @@ export default function Page() {
       <h2>FAQ</h2>
       <h3>Q: Does gold tarnish or corrode?</h3>
       <p>A: Pure 24K gold almost never oxidizes. K-gold may slightly discolor due to alloy content, but this doesn't affect recovery value.</p>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金放家裡安全嗎？","acceptedAnswer":{"@type":"Answer","text":"少量可以放家用保險箱。大量黃金建議租銀行保管箱或投保黃金險，分散風險。"}},{"@type":"Question","name":"黃金會生鏽或變色嗎？","acceptedAnswer":{"@type":"Answer","text":"純金不會生鏽。但K金因含其他金屬可能輕微變色，用軟布擦拭即可恢復光澤。"}},{"@type":"Question","name":"存放黃金要注意什麼？","acceptedAnswer":{"@type":"Answer","text":"避免與硬物碰撞、遠離化學品（香水、清潔劑）、分開存放避免刮傷、保持乾燥。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金放家裡安全嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 少量可以放家用保險箱。大量黃金建議租銀行保管箱或投保黃金險，分散風險。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金會生鏽或變色嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 純金不會生鏽。但K金因含其他金屬可能輕微變色，用軟布擦拭即可恢復光澤。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 存放黃金要注意什麼？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 避免與硬物碰撞、遠離化學品（香水、清潔劑）、分開存放避免刮傷、保持乾燥。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

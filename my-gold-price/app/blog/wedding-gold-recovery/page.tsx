@@ -52,6 +52,27 @@ export default function Page() {
         <li>不扣耗損</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"結婚金飾可以回收嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。結婚金項鍊、手鍊、戒指等都能回收，依純度和重量計價，款式和刻字不影響價格。"}},{"@type":"Question","name":"婚嫁金飾通常是幾K？","acceptedAnswer":{"@type":"Answer","text":"台灣傳統婚嫁金飾通常是24K（9999純金）或22K（916），回收價值很高。"}},{"@type":"Question","name":"四金一定要留著嗎？","acceptedAnswer":{"@type":"Answer","text":"這是個人選擇。如果需要資金周轉，回收變現也是合理的選擇。金飾的價值在於能用的時候。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 結婚金飾可以回收嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。結婚金項鍊、手鍊、戒指等都能回收，依純度和重量計價，款式和刻字不影響價格。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 婚嫁金飾通常是幾K？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 台灣傳統婚嫁金飾通常是24K（9999純金）或22K（916），回收價值很高。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 四金一定要留著嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 這是個人選擇。如果需要資金周轉，回收變現也是合理的選擇。金飾的價值在於能用的時候。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

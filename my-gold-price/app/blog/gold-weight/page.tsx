@@ -73,6 +73,27 @@ export default function Page() {
       <p>A：3.75 公克，大概是一枚1元硬幣的重量。</p>
       <h3>Q：珠寶店說的「分」是什麼單位？</h3>
       <p>A：1分 = 0.1台錢 = 0.375公克，常用於小件首飾。</p>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金的「錢」跟「克」怎麼換算？","acceptedAnswer":{"@type":"Answer","text":"1台錢 = 3.75公克。1兩 = 10台錢 = 37.5公克。1盎司 = 31.1公克 ≈ 8.294台錢。"}},{"@type":"Question","name":"回收時用台錢還是公克計算？","acceptedAnswer":{"@type":"Answer","text":"台灣多數回收店以「台錢」為計價單位。若店家以公克報價，要注意換算後的實際金額是否合理。"}},{"@type":"Question","name":"秤重有標準嗎？","acceptedAnswer":{"@type":"Answer","text":"正規店家使用經過國家計量認證的電子秤，精確度到小數點後兩位。秤重前應確認歸零。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金的「錢」跟「克」怎麼換算？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 1台錢 = 3.75公克。1兩 = 10台錢 = 37.5公克。1盎司 = 31.1公克 ≈ 8.294台錢。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 回收時用台錢還是公克計算？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 台灣多數回收店以「台錢」為計價單位。若店家以公克報價，要注意換算後的實際金額是否合理。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 秤重有標準嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家使用經過國家計量認證的電子秤，精確度到小數點後兩位。秤重前應確認歸零。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

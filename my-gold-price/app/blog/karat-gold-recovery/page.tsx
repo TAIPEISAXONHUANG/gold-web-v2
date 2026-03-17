@@ -55,6 +55,27 @@ export default function Page() {
         <li>當日付款快速</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"K金回收價怎麼算？","acceptedAnswer":{"@type":"Answer","text":"公式：當日24K牌價 × K金含金比例 × 重量。例如18K = 牌價 × 75%、14K = 牌價 × 58.5%。"}},{"@type":"Question","name":"什麼K數的金飾都收嗎？","acceptedAnswer":{"@type":"Answer","text":"是的。18K、14K、10K、9K、8K都可以回收，依含金比例計價。"}},{"@type":"Question","name":"K金顏色不同價格會不同嗎？","acceptedAnswer":{"@type":"Answer","text":"不會。玫瑰金、白K金、黃K金只是合金配方不同，同K數的含金量一樣，回收價也一樣。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金回收價怎麼算？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 公式：當日24K牌價 × K金含金比例 × 重量。例如18K = 牌價 × 75%、14K = 牌價 × 58.5%。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 什麼K數的金飾都收嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 是的。18K、14K、10K、9K、8K都可以回收，依含金比例計價。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金顏色不同價格會不同嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不會。玫瑰金、白K金、黃K金只是合金配方不同，同K數的含金量一樣，回收價也一樣。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

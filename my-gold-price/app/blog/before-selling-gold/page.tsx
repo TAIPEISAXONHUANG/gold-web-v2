@@ -59,6 +59,27 @@ export default function Page() {
         <li>了解重量</li>
         <li>選擇店家</li>
       </ul>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"賣黃金前要準備什麼？","acceptedAnswer":{"@type":"Answer","text":"需要攜帶身份證正本、整理好要出售的金飾，建議先查詢當日金價並比較多家報價。"}},{"@type":"Question","name":"沒有購買證明可以賣嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。沒有購買證明一樣能回收，店家會以現場鑑定的純度和重量為準計價。"}},{"@type":"Question","name":"賣黃金要預約嗎？","acceptedAnswer":{"@type":"Answer","text":"不需要預約，直接到店即可。但建議先來電確認當日金價行情。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金前要準備什麼？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 需要攜帶身份證正本、整理好要出售的金飾，建議先查詢當日金價並比較多家報價。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 沒有購買證明可以賣嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。沒有購買證明一樣能回收，店家會以現場鑑定的純度和重量為準計價。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金要預約嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不需要預約，直接到店即可。但建議先來電確認當日金價行情。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

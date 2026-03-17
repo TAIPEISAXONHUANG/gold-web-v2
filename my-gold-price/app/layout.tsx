@@ -235,6 +235,71 @@ export default function RootLayout({
             })
           }}
         />
+        {/* 9. Schema.org WebSite + SearchAction (Sitelinks搜尋框) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "巧品珠寶",
+              "url": "https://www.gold-tw.com",
+              "description": "台北大安區實體銀樓，專營黃金回收、K金、白金、鑽石高價收購",
+              "publisher": { "@id": "https://www.gold-tw.com/#business" },
+              "inLanguage": "zh-TW",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.gold-tw.com/blog?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+
+        {/* 10. Schema.org SiteNavigationElement */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SiteNavigationElement",
+              "name": ["今日金價", "知識專欄", "常見問題", "黃金回收", "賣金指南", "金價比較"],
+              "url": [
+                "https://www.gold-tw.com/today-gold-price",
+                "https://www.gold-tw.com/blog",
+                "https://www.gold-tw.com/faq",
+                "https://www.gold-tw.com/district/da-an",
+                "https://www.gold-tw.com/sell-gold-guide",
+                "https://www.gold-tw.com/gold-price-compare"
+              ]
+            })
+          }}
+        />
+
+        {/* 11. Speakable Schema (語音搜尋優化) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "巧品珠寶 - 台北黃金回收推薦",
+              "url": "https://www.gold-tw.com",
+              "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": ["h1", ".hero-text-shadow", "#rates-desktop"]
+              },
+              "about": [
+                { "@type": "Thing", "name": "黃金回收", "sameAs": "https://zh.wikipedia.org/wiki/黃金" },
+                { "@type": "Thing", "name": "金價", "sameAs": "https://zh.wikipedia.org/wiki/金價" },
+                { "@type": "Thing", "name": "K金", "sameAs": "https://zh.wikipedia.org/wiki/克拉_(純度)" }
+              ]
+            })
+          }}
+        />
       </head>
       <body>{children}</body>
     </html>

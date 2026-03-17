@@ -45,6 +45,27 @@ export default function Page() {
         <li>專業檢測</li>
         <li>當日付款</li>
       </ul>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"白金和K白金一樣嗎？","acceptedAnswer":{"@type":"Answer","text":"不一樣。白金=鉑金（Pt），K白金=白色K金（含黃金+其他金屬）。兩者成分和價格完全不同。"}},{"@type":"Question","name":"白金回收價比黃金低嗎？","acceptedAnswer":{"@type":"Answer","text":"目前是的。白金（鉑金）回收價約為黃金的50-60%，但仍有相當價值。"}},{"@type":"Question","name":"怎麼辨別白金和銀？","acceptedAnswer":{"@type":"Answer","text":"白金會刻有Pt標示（如Pt950、Pt900），銀飾則刻S925。白金比銀重很多，手感明顯不同。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 白金和K白金一樣嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不一樣。白金=鉑金（Pt），K白金=白色K金（含黃金+其他金屬）。兩者成分和價格完全不同。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 白金回收價比黃金低嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 目前是的。白金（鉑金）回收價約為黃金的50-60%，但仍有相當價值。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼辨別白金和銀？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 白金會刻有Pt標示（如Pt950、Pt900），銀飾則刻S925。白金比銀重很多，手感明顯不同。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

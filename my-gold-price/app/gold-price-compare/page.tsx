@@ -30,6 +30,13 @@ export default function GoldPriceCompare() {
         }}
       />
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收比價服務","description":"台北各大銀樓黃金回收價格比較，巧品珠寶提供市場最高回收價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"Offer","priceCurrency":"TWD","price":"19260","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}}})
+        }}
+      />
       <h1>⚖️ 黃金回收價格比較｜哪裡收購價格最高？</h1>
       
       <h2>📊 黃金回收價格怎麼比？</h2>

@@ -65,6 +65,27 @@ export default function Page() {
         <li><strong>現場付款</strong> - 立即現金</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"秤重會被動手腳嗎？","acceptedAnswer":{"@type":"Answer","text":"不肖業者可能用未校準的秤、不歸零就秤重、或用不同單位混淆。選擇有認證秤具的店家最安全。"}},{"@type":"Question","name":"怎麼確認秤重是正確的？","acceptedAnswer":{"@type":"Answer","text":"要求在你面前秤重、確認秤先歸零、注意單位是台錢還是公克、可以自備秤比對。"}},{"@type":"Question","name":"台錢和公克的秤會不一樣嗎？","acceptedAnswer":{"@type":"Answer","text":"秤是一樣的，只是顯示單位不同。1台錢=3.75公克，換算後金額應該一致。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 秤重會被動手腳嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不肖業者可能用未校準的秤、不歸零就秤重、或用不同單位混淆。選擇有認證秤具的店家最安全。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼確認秤重是正確的？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 要求在你面前秤重、確認秤先歸零、注意單位是台錢還是公克、可以自備秤比對。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 台錢和公克的秤會不一樣嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 秤是一樣的，只是顯示單位不同。1台錢=3.75公克，換算後金額應該一致。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>

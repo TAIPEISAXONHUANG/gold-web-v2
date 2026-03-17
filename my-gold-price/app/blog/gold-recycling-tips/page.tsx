@@ -56,6 +56,27 @@ export default function Page() {
         <li>拒絕不合理扣款</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"賣黃金可以議價嗎？","acceptedAnswer":{"@type":"Answer","text":"正規店家以當日牌價計算，通常不議價。但大量交易（10兩以上）部分店家可能給優惠價。"}},{"@type":"Question","name":"要一次全部賣掉嗎？","acceptedAnswer":{"@type":"Answer","text":"不用。可以分批出售，也可以只賣部分。沒有最低重量限制。"}},{"@type":"Question","name":"賣完後悔可以買回嗎？","acceptedAnswer":{"@type":"Answer","text":"已完成的交易無法逆轉。如果猶豫，建議先只詢價不交易，考慮清楚再決定。"}}]})
+        }}
+      />
+      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金可以議價嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家以當日牌價計算，通常不議價。但大量交易（10兩以上）部分店家可能給優惠價。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 要一次全部賣掉嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不用。可以分批出售，也可以只賣部分。沒有最低重量限制。</p>
+        </div>
+        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
+          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣完後悔可以買回嗎？</h3>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 已完成的交易無法逆轉。如果猶豫，建議先只詢價不交易，考慮清楚再決定。</p>
+        </div>
+      </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
