@@ -19,8 +19,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "黃金價格誰說了算？影響金價的5個關鍵因素",
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "為什麼黃金價格每天都在變？本文深入解析影響金價的5大關鍵因素：美元匯率、通貨膨脹、地緣政治、央行購金與市場供需，幫你掌握買賣黃金的最佳時機。"

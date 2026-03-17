@@ -19,8 +19,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "黃金回收流程是什麼？5分鐘讓你搞懂整個過程",
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "第一次賣黃金不知道流程？本文5分鐘帶你了解黃金回收完整步驟：從攜帶物品、現場鑑定、秤重報價到當場結清，讓你安心出售不吃虧。"

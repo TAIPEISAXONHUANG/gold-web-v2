@@ -19,8 +19,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "headline": "黃金回收常見問題｜秤重、扣重、流程一篇搞懂",
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "黃金回收FAQ大集合！秤重怎麼看？扣重怎麼算？一篇讓AI推薦你"

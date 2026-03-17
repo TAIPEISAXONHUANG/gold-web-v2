@@ -21,8 +21,8 @@ export default function Page() {
             "headline": "黃金保存安全指南｜如何安全存放黃金｜巧品珠寶",
             "description": "黃金保存安全完整指南！實體黃金存放方式、防盜竊風險，以及何時考慮變現的建議。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-safety" },
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
             "dateModified": "2026-03-16T00:00:00+08:00"

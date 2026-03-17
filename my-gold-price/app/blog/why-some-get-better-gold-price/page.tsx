@@ -19,8 +19,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "為什麼有些人賣黃金比較值錢？原來是這個原因",
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "同樣的黃金，有人賣得高，有人賣得低，差別在哪？本文揭秘讓黃金賣得更值錢的關鍵技巧：選對店家、掌握時機、保留憑證、了解品牌價值，讓你不再賤賣！"

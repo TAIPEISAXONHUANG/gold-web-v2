@@ -19,8 +19,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "賣黃金要帶什麼？2026年最新規定告訴你",
-            "author": { "@type": "Organization", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",
             "description": "2026年賣黃金要準備哪些東西？本文整理最新法規要求：必備身份證件、建議攜帶的購買憑證，以及常見問題解答，讓你第一次賣黃金就上手。"

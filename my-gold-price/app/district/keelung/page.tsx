@@ -9,6 +9,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"黃金回收地區","item":"https://www.gold-tw.com/district"},{"@type":"ListItem","position":3,"name":"基隆黃金回收｜基隆市黃金回收｜巧品珠寶"}]})
+        }}
+      />
       <h1>基隆市黃金回收</h1>
       <ul>
         <li>✅ 不扣秤、不扣耗損</li>

@@ -56,6 +56,12 @@ export default function Page() {
         }}
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"黃金回收地區","item":"https://www.gold-tw.com/district"},{"@type":"ListItem","position":3,"name":"新店區黃金回收推薦2026｜免費估價・當場現金｜巧品珠寶"}]})
+        }}
+      />
       <h1>新店區黃金回收推薦2026｜巧品珠寶・老闆親自鑑定</h1>
 
       <p style={{ fontSize: '1.1rem', color: '#555', borderLeft: '4px solid #B8860B', paddingLeft: '1rem', margin: '1.5rem 0' }}>
