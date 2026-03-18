@@ -182,7 +182,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         <nav className="nav-sticky">
             <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
                 <div className="flex items-center gap-3 cursor-pointer" onClick={goHome}>
-                    <img src="https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=100&output=webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" loading="lazy" width="40" height="40" />
+                    <img src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" loading="lazy" width="40" height="40" />
                     <div><div className="text-2xl font-bold tracking-wider text-red-900">巧品珠寶</div><div className="text-xs text-gray-500">HUANG JIA FEI LI</div></div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -215,7 +215,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             <div>
                 {/* Hero */}
                 <header className="hero-section">
-                    <img src="https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=75" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" loading="eager" fetchPriority="high" width="1200" height="400" />
+                    <img src="/hero.webp" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" loading="eager" fetchPriority="high" width="1200" height="400" />
                     <div className="relative z-20 text-center text-white px-4 max-w-4xl hero-text-shadow">
                         <div className="inline-block px-4 py-1 border-2 border-yellow-400 bg-yellow-900/80 rounded-full text-yellow-300 text-sm font-bold mb-6 backdrop-blur-md shadow-lg">經營十餘年 · 誠信老字號</div>
                         <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">黃金回收 <span className="text-amber-400">價值最大化</span></h1>
