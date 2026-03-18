@@ -197,7 +197,7 @@ export default function Page() {
         </details>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q2: 黃金回收有哪些陷阱？</summary>
-          <p style={{marginTop:'8px'}}>常見陷阱包括：扣重過高(>10%)、低於市價太多、口頭哄抬後現場扣價、秤具不準確、更換純度檢測標準等。</p>
+          <p style={{marginTop:'8px'}}>常見陷阱包括：扣重過高({'>'}10%)、低於市價太多、口頭哄抬後現場扣價、秤具不準確、更換純度檢測標準等。</p>
         </details>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q3: 回收時可以議價嗎？</summary>
