@@ -184,6 +184,27 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
 
   return (
     <div>
+        {/* Hero LCP image: always in DOM for preload to work, hidden when not on home view */}
+        <img
+          src="/hero.webp"
+          alt={view === 'home' ? '巧品珠寶店面 - 台北大安區黃金回收專門店' : ''}
+          fetchPriority="high"
+          loading="eager"
+          width="1200"
+          height="630"
+          aria-hidden={view !== 'home'}
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100svh',
+            objectFit: 'cover',
+            zIndex: view === 'home' ? 0 : -1,
+            visibility: view === 'home' ? 'visible' : 'hidden',
+            pointerEvents: 'none',
+          }}
+        />
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
