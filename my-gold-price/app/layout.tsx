@@ -48,7 +48,18 @@ export default function RootLayout({
         {/* 1. Google Search Console 驗證 */}
         <meta name="google-site-verification" content="f58q0x4tISebwnlueE41NMQNMfL4Ck4T2HO8ZoZvwys" />
 
-        {/* 2. Hero 圖片 preload - 讓瀏覽器在 JS 執行前就開始抓，直接改善 LCP */}
+        {/* 2. Critical CSS inline - prevents render blocking for above-the-fold styles */}
+        <style dangerouslySetInnerHTML={{__html: `
+          body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#f3f4f6;color:#1f2937}
+          .hero-section{position:relative;height:100svh;min-height:600px;background:transparent;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+          .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+          .hero-text-shadow{text-shadow:0 2px 4px rgba(0,0,0,.7)}
+          .nav-sticky{position:sticky;top:0;z-index:40;background:#fff;box-shadow:0 4px 6px -1px rgba(0,0,0,.1);height:84px}
+          .animate-marquee{animation:marquee 30s linear infinite}
+          @keyframes marquee{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+        `}} />
+
+        {/* 3. Hero 圖片 preload - 讓瀏覽器在 JS 執行前就開始抓，直接改善 LCP */}
         <link rel="preload" href="/hero.webp" as="image" type="image/webp" fetchPriority="high" />
 
         {/* 3. Preconnect 加速外部資源載入 */}
