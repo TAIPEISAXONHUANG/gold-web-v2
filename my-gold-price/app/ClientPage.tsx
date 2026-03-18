@@ -16,7 +16,7 @@ declare global {
   }
 }
 
-export default function ClientPage({ initialData }: { initialData: any }) {
+export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
   const [view, setView] = useState('home');
   const [unit, setUnit] = useState<'qian' | 'gram'>('qian');
   const [showHistory, setShowHistory] = useState(false);
@@ -28,7 +28,32 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const [currentArticle, setCurrentArticle] = useState<any>(null);
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
-  const { rates, updateTime, dailyTable, chartData, faq, articles } = initialData;
+  const [data, setData] = useState<any>(null);
+
+  useEffect(() => {
+    // Client-side fetch: server 只送 HTML shell，資料由 client 自行抓取，不阻塞 FCP
+    Promise.all([
+      fetch(`${gasApiUrl}?action=getInitData`).then(r => r.json()),
+      fetch(`${gasApiUrl}?action=getChartData`).then(r => r.json()),
+      fetch(`${gasApiUrl}?action=getArticles`).then(r => r.json()),
+    ]).then(([initData, chartData, articleList]) => {
+      setData({
+        rates: initData.rates?.rates || {},
+        updateTime: initData.rates?.updatedAt || '',
+        faq: initData.faq || [],
+        dailyTable: chartData.dailyTable || [],
+        chartData: chartData.chart || null,
+        articles: articleList || [],
+      });
+    }).catch(err => console.error('GAS API error:', err));
+  }, [gasApiUrl]);
+
+  const rates = data?.rates || {};
+  const updateTime = data?.updateTime || '';
+  const dailyTable = data?.dailyTable || [];
+  const chartData = data?.chartData || null;
+  const faq = data?.faq || [];
+  const articles = data?.articles || [];
 
   // --- Google & Meta 轉換追蹤 ---
   const sendConversionSignal = () => {
@@ -65,6 +90,9 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     }
     return originalUrl;
   };
+
+  // 資料 loading 中時，對外顯示 skeleton 的骨架
+  const isLoading = !data;
 
   const formatPrice = (v: number) => {
     if (!v) return "0";
@@ -297,8 +325,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
                                     <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
                                     </div>
                                 </div>
                              </div>
@@ -380,8 +408,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
                                     <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
                                     </div>
                                 </div>
                             </div>
