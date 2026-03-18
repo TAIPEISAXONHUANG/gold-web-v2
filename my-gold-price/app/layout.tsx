@@ -93,8 +93,13 @@ export default function RootLayout({
           />
         </noscript>
 
-        {/* 5. FontAwesome (圖示庫) - 非阻塞載入 */}
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        {/* 5. FontAwesome (圖示庫) - media=print 技巧：載完後切換 all，不阻塞渲染 */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          media="print"
+          onLoad={(e) => { (e.target as HTMLLinkElement).media = 'all'; }}
+        />
         <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" /></noscript>
 
         {/* 6. Schema.org LocalBusiness JSON-LD */}
