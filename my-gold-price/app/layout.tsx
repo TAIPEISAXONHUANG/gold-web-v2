@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import './globals.css'
 
 export const viewport: Viewport = {
@@ -53,54 +54,52 @@ export default function RootLayout({
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
 
-        {/* 3. Google Global Tag (同時設定 Analytics 和 Ads) - defer 避免阻塞渲染 */}
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-LDD35TNS69'); 
-              gtag('config', 'AW-356014880');
-            `,
-          }}
-        />
+      </head>
+      <body>
+        {children}
 
-        {/* 4. Meta Pixel (Facebook) - 延遲載入避免阻塞 LCP */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.addEventListener('load', function() {
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '1509088996230503');
-                fbq('track', 'PageView');
-              });
-            `,
-          }}
+        {/* 3. Google Global Tag - afterInteractive 避免阻塞 FCP/LCP */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"
+          strategy="afterInteractive"
         />
-        <noscript>
-          <img height="1" width="1" style={{display:'none'}}
-            src="https://www.facebook.com/tr?id=1509088996230503&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LDD35TNS69');
+            gtag('config', 'AW-356014880');
+          `}
+        </Script>
 
-        {/* 5. FontAwesome (圖示庫) - media=print 技巧：載完後切換 all，不阻塞渲染 */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-          media="print"
-          onLoad={(e) => { (e.target as HTMLLinkElement).media = 'all'; }}
-        />
-        <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" /></noscript>
+        {/* 4. Meta Pixel - lazyOnload 最低優先，不影響 LCP */}
+        <Script id="fb-pixel" strategy="lazyOnload">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1509088996230503');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+
+        {/* 5. FontAwesome - lazyOnload 不阻塞渲染 */}
+        <Script id="fontawesome-loader" strategy="lazyOnload">
+          {`
+            (function() {
+              var link = document.createElement('link');
+              link.rel = 'stylesheet';
+              link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+              document.head.appendChild(link);
+            })();
+          `}
+        </Script>
 
         {/* 6. Schema.org LocalBusiness JSON-LD */}
         <script
@@ -309,8 +308,7 @@ export default function RootLayout({
             })
           }}
         />
-      </head>
-      <body>{children}</body>
+      </body>
     </html>
   )
 }
