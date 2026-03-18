@@ -48,7 +48,10 @@ export default function RootLayout({
         {/* 1. Google Search Console 驗證 */}
         <meta name="google-site-verification" content="f58q0x4tISebwnlueE41NMQNMfL4Ck4T2HO8ZoZvwys" />
 
-        {/* 2. Preconnect 加速外部資源載入 */}
+        {/* 2. Hero 圖片 preload - 讓瀏覽器在 JS 執行前就開始抓，直接改善 LCP */}
+        <link rel="preload" href="/hero.webp" as="image" type="image/webp" fetchPriority="high" />
+
+        {/* 3. Preconnect 加速外部資源載入 */}
         <link rel="preconnect" href="https://wsrv.nl" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />

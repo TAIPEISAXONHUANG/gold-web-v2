@@ -79,7 +79,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   };
 
   const renderDiff = (diff: number, isTable = false) => {
-    if (!diff) return isTable ? null : <span className="text-gray-400 text-xs">-</span>;
+    if (!diff) return isTable ? null : <span className="text-gray-600 text-xs">-</span>;
     const unitDiff = unit === 'qian' ? diff : diff / 3.75;
     const absVal = Math.floor(Math.abs(unitDiff)).toLocaleString();
     const color = diff > 0 ? 'text-red-600' : 'text-green-600';
@@ -158,23 +158,23 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
-            <a href="https://lin.ee/zvLP4JC" target="_blank" rel="noopener noreferrer" aria-label="聯絡巧品珠寶 LINE 官方帳號" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <a href="https://lin.ee/zvLP4JC" target="_blank" rel="noopener noreferrer" aria-label="聯絡巧品珠寶 LINE 官方帳號" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fab fa-line text-xl lg:text-2xl" aria-hidden="true"></i>
             </a>
             
-            <a href="https://www.facebook.com/QPJEWELRY.OFFICIAL" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Facebook 粉絲頁" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <a href="https://www.facebook.com/QPJEWELRY.OFFICIAL" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Facebook 粉絲頁" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fab fa-facebook-f text-lg lg:text-xl" aria-hidden="true"></i>
             </a>
             
-            <a href="https://www.instagram.com/qiaopin.jewelry/" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Instagram" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <a href="https://www.instagram.com/qiaopin.jewelry/" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Instagram" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fab fa-instagram text-xl lg:text-2xl" aria-hidden="true"></i>
             </a>
             
-            <a href="https://www.tiktok.com/@qpdiamond666" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 TikTok" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-black w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <a href="https://www.tiktok.com/@qpdiamond666" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 TikTok" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-black w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fab fa-tiktok text-lg lg:text-xl" aria-hidden="true"></i>
             </a>
             
-            <button onClick={() => scrollToId('rates-mobile')} aria-label="回到今日金價" className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-10 h-10 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
+            <button onClick={() => scrollToId('rates-mobile')} aria-label="回到今日金價" className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                 <i className="fas fa-arrow-up text-lg lg:text-xl" aria-hidden="true"></i>
             </button>
         </div>
@@ -188,15 +188,15 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                 </div>
                 <div className="flex items-center space-x-4">
                     <button onClick={() => scrollToId('rates-desktop')} aria-label="跳至今日金價" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] px-2">今日金價</button>
-                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">知識專欄</a>
-                    <a href="/faq" className="font-medium hover:text-red-800 hidden md:block">常見問題</a>
-                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">部落格</a>
-                    <a href="/district/da-an" className="font-medium hover:text-red-800 hidden md:block">黃金回收</a>
+                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] flex items-center">知識專欄</a>
+                    <a href="/faq" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] flex items-center">常見問題</a>
+                    <a href="/blog" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] flex items-center">部落格</a>
+                    <a href="/district/da-an" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] flex items-center">黃金回收</a>
                     <div className="flex flex-col items-end">
                         <a href="tel:0986821626" onClick={sendConversionSignal} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
                             <i className="fas fa-phone-alt text-red-800 text-xs"></i><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
                         </a>
-                        <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-500 hover:text-red-800 transition text-[10px] md:text-xs">
+                        <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-600 hover:text-red-800 transition text-[10px] md:text-xs min-h-[44px] flex items-center">
                             <i className="fas fa-map-marker-alt text-red-600"></i><span>大安區濟南路三段62-1號</span>
                         </a>
                     </div>
@@ -266,13 +266,13 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                     <tbody>
                                         {dailyTable.slice(0, visibleQuoteCount).map((row: any, i: number) => (
                                             <tr key={i} className="hover:bg-gray-50 transition-colors">
-                                                <td className="table-cell text-xs font-mono text-gray-500">{row.date}</td>
+                                                <td className="table-cell text-xs font-mono text-gray-600">{row.date}</td>
                                                 <td className="table-cell font-bold text-red-600 bg-yellow-50/30">{formatPrice(row.gold.buy)}{renderDiff(row.gold.buyDiff, true)}</td>
                                                 <td className="table-cell font-bold text-gray-800 bg-yellow-50/30">{formatPrice(row.gold.sell)}{renderDiff(row.gold.sellDiff, true)}</td>
                                                 <td className="table-cell text-slate-700">{formatPrice(row.pt.buy)}{renderDiff(row.pt.buyDiff, true)}</td>
-                                                <td className="table-cell text-slate-500">{formatPrice(row.pt.sell)}{renderDiff(row.pt.sellDiff, true)}</td>
+                                                <td className="table-cell text-slate-600">{formatPrice(row.pt.sell)}{renderDiff(row.pt.sellDiff, true)}</td>
                                                 <td className="table-cell text-gray-700">{formatSilver(row.ag.buy)}</td>
-                                                <td className="table-cell text-gray-500">{formatSilver(row.ag.sell)}</td>
+                                                <td className="table-cell text-gray-600">{formatSilver(row.ag.sell)}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -291,7 +291,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <div className="lg:hidden space-y-6 mb-8">
                              <div id="rates-mobile" className="bg-white rounded-2xl shadow-xl border-t-4 border-red-800">
                                 <div className="p-5 bg-gradient-to-b from-gray-50 to-white border-b flex justify-between items-start">
-                                    <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-500 mt-1">{updateTime}</p></div>
+                                    <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-600 mt-1">{updateTime}</p></div>
                                                     <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
@@ -316,7 +316,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                         <label htmlFor="calc-weight-mobile" className="sr-only">輸入重量</label>
                                         <input id="calc-weight-mobile" type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
-                                    <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
+                                    <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-300">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
                                     <button onClick={bookNow} className="w-full bg-green-500 text-white font-bold py-3 rounded text-base hover:bg-green-600 shadow-lg flex items-center justify-center gap-2">用此價格預約賣出</button>
                                 </div>
                              </div>
@@ -374,7 +374,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <div className="sticky top-24 space-y-6">
                             <div id="rates-desktop" className="bg-white rounded-2xl shadow-xl border-t-4 border-red-800 overflow-hidden">
                                 <div className="p-5 bg-gradient-to-b from-gray-50 to-white border-b flex justify-between items-start">
-                                    <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-500 mt-1">{updateTime}</p></div>
+                                    <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-600 mt-1">{updateTime}</p></div>
                                     <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
@@ -397,7 +397,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                         <label htmlFor="calc-weight-desktop" className="sr-only">輸入重量</label>
                                         <input id="calc-weight-desktop" type="number" value={calcWeight} onChange={(e) => setCalcWeight(e.target.value)} className="flex-1 bg-gray-800 border-gray-700 rounded p-3 text-base text-right font-nums outline-none" placeholder="輸入重量" />
                                     </div>
-                                    <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-400">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
+                                    <div className="flex justify-between items-center bg-gray-800/50 p-3 rounded border border-gray-700"><span className="text-sm text-gray-300">預估價值</span><span className="text-2xl font-bold text-amber-400">$ {calculateTotal()}</span></div>
                                     <button onClick={bookNow} className="w-full bg-green-500 text-white font-bold py-3 rounded text-base hover:bg-green-600 shadow-lg flex items-center justify-center gap-2">用此價格預約賣出</button>
                                 </div>
                             </div>
@@ -438,13 +438,13 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         </div>
                     </article>
                 </div>
-                <footer className="bg-gray-900 text-gray-400 py-10 border-t border-gray-800 text-center text-xs"><p>© 2026 巧品珠寶. 版權所有.</p></footer>
+                <footer className="bg-gray-900 text-gray-300 py-10 border-t border-gray-800 text-center text-xs"><p>© 2026 巧品珠寶. 版權所有.</p></footer>
             </div>
         )}
         
         {/* 首頁 Footer */}
         {view === 'home' && (
-             <footer className="bg-gray-900 text-gray-400 py-10 border-t border-gray-800 text-center text-xs"><p>© 2026 巧品珠寶. 版權所有.</p></footer>
+             <footer className="bg-gray-900 text-gray-300 py-10 border-t border-gray-800 text-center text-xs"><p>© 2026 巧品珠寶. 版權所有.</p></footer>
         )}
     </div>
   );
