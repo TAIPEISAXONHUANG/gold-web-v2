@@ -8,6 +8,10 @@ const nextConfig = {
       { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
     ],
   },
+  experimental: {
+    // Use .browserslistrc to avoid legacy polyfills (saves ~24KB)
+    browsersListForSwc: true,
+  },
 };
 
 module.exports = nextConfig;
