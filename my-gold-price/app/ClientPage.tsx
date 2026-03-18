@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import dynamic from 'next/dynamic';
 
 // 動態載入 Chart.js — 不阻塞首屏渲染
@@ -184,7 +183,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         <nav className="nav-sticky">
             <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
                 <div className="flex items-center gap-3 cursor-pointer" onClick={goHome}>
-                    <Image src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" width={40} height={40} />
+                    <img src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" loading="lazy" width="40" height="40" />
                     <div><div className="text-2xl font-bold tracking-wider text-red-900">巧品珠寶</div><div className="text-xs text-gray-500">HUANG JIA FEI LI</div></div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -217,7 +216,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             <div>
                 {/* Hero */}
                 <header className="hero-section">
-                    <Image src="/hero.webp" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" priority fill sizes="100vw" style={{objectFit:'cover'}} />
+                    <img src="/hero.webp" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" loading="eager" fetchPriority="high" width="1200" height="400" />
                     <div className="relative z-20 text-center text-white px-4 max-w-4xl hero-text-shadow">
                         <div className="inline-block px-4 py-1 border-2 border-yellow-400 bg-yellow-900/80 rounded-full text-yellow-300 text-sm font-bold mb-6 backdrop-blur-md shadow-lg">經營十餘年 · 誠信老字號</div>
                         <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">黃金回收 <span className="text-amber-400">價值最大化</span></h1>
@@ -349,7 +348,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 {articles.slice(0, visibleArticleCount).map((article: any) => (
                                     <div key={article.id} className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition cursor-pointer group" onClick={() => openArticle(article)}>
                                         <div className="h-48 bg-gray-200 relative overflow-hidden">
-                                            <Image src={getOptimizedUrl(article.image, 400)} className="object-cover transition-transform duration-700 group-hover:scale-105" alt={article.title || '巧品珠寶知識專欄'} fill sizes="(max-width: 768px) 100vw, 50vw" style={{objectFit:'cover'}} />
+                                            <img src={getOptimizedUrl(article.image, 400)} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt={article.title || '巧品珠寶知識專欄'} loading="lazy" width="400" height="192" />
                                             <div className="absolute top-0 right-0 bg-red-800 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">{article.date}</div>
                                         </div>
                                         <div className="p-5">
@@ -424,7 +423,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                     <button onClick={goHome} className="mb-6 flex items-center gap-2 text-gray-600 hover:text-red-800 font-bold px-4 py-2 bg-gray-50 rounded shadow-sm transition"><i className="fas fa-arrow-left"></i> 返回首頁</button>
                     <article className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                         <div className="w-full h-[300px] md:h-[400px] bg-gray-200 relative bg-gray-100">
-                            <Image src={currentArticle.image} className="object-cover" alt={currentArticle.title || '巧品珠寶知識專欄文章'} fill sizes="100vw" style={{objectFit:'cover'}} />
+                            <img src={currentArticle.image} className="absolute inset-0 w-full h-full object-cover" alt={currentArticle.title || '巧品珠寶知識專欄文章'} loading="lazy" width="1200" height="400" />
                         </div>
                         <div className="p-8 md:p-12">
                             <div className="flex items-center gap-4 mb-6 text-sm text-gray-500"><span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-bold">知識專欄</span><span>{currentArticle.date}</span></div>
