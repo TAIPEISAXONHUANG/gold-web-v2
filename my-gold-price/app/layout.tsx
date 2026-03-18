@@ -51,9 +51,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://wsrv.nl" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
 
-        {/* 3. Google Global Tag (同時設定 Analytics 和 Ads) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"></script>
+        {/* 3. Google Global Tag (同時設定 Analytics 和 Ads) - defer 避免阻塞渲染 */}
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -66,20 +67,22 @@ export default function RootLayout({
           }}
         />
 
-        {/* 4. Meta Pixel (Facebook) */}
+        {/* 4. Meta Pixel (Facebook) - 延遲載入避免阻塞 LCP */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              !function(f,b,e,v,n,t,s)
-              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-              n.queue=[];t=b.createElement(e);t.async=!0;
-              t.src=v;s=b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '1509088996230503');
-              fbq('track', 'PageView');
+              window.addEventListener('load', function() {
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '1509088996230503');
+                fbq('track', 'PageView');
+              });
             `,
           }}
         />
@@ -90,8 +93,9 @@ export default function RootLayout({
           />
         </noscript>
 
-        {/* 5. FontAwesome (圖示庫) */}
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        {/* 5. FontAwesome (圖示庫) - 非阻塞載入 */}
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" /></noscript>
 
         {/* 6. Schema.org LocalBusiness JSON-LD */}
         <script
