@@ -187,12 +187,12 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
         {/* Hero LCP image: always in DOM for preload to work, hidden when not on home view */}
         <img
           src="/hero.webp"
-          alt={view === 'home' ? '巧品珠寶店面 - 台北大安區黃金回收專門店' : ''}
+          alt="巧品珠寶店面 - 台北大安區黃金回收專門店"
           fetchPriority="high"
           loading="eager"
           width="1200"
           height="630"
-          aria-hidden={view !== 'home'}
+          aria-hidden="true"
           style={{
             position: 'absolute',
             top: 0,
@@ -291,13 +291,13 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                                 <table className="w-full min-w-[700px]">
                                     <thead className="sticky top-0 z-10 shadow-sm bg-[#FEF2F2]">
                                         <tr>
-                                            <th className="table-header">日期</th>
-                                            <th className="table-header text-yellow-900">黃金(收)</th>
-                                            <th className="table-header text-yellow-900">黃金(賣)</th>
-                                            <th className="table-header">鉑金(收)</th>
-                                            <th className="table-header">鉑金(賣)</th>
-                                            <th className="table-header">白銀(收)</th>
-                                            <th className="table-header">白銀(賣)</th>
+                                            <th scope="col" className="table-header">日期</th>
+                                            <th scope="col" className="table-header text-yellow-900">黃金(收)</th>
+                                            <th scope="col" className="table-header text-yellow-900">黃金(賣)</th>
+                                            <th scope="col" className="table-header">鉑金(收)</th>
+                                            <th scope="col" className="table-header">鉑金(賣)</th>
+                                            <th scope="col" className="table-header">白銀(收)</th>
+                                            <th scope="col" className="table-header">白銀(賣)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
