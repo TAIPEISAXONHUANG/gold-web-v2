@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 // 動態載入 Chart.js — 不阻塞首屏渲染
 const GoldPriceChart = dynamic(() => import('./GoldPriceChart'), {
   ssr: false,
-  loading: () => <div className="h-64 flex items-center justify-center text-gray-400 text-sm">載入圖表中...</div>,
+  loading: () => <div className="h-64 flex items-center justify-center text-gray-700 text-sm">載入圖表中...</div>,
 });
 
 declare global {
