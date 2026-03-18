@@ -1,12 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Line } from 'react-chartjs-2';
-import {
-  Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend,
-} from 'chart.js';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend);
+// 動態載入 Chart.js — 不阻塞首屏渲染
+const GoldPriceChart = dynamic(() => import('./GoldPriceChart'), {
+  ssr: false,
+  loading: () => <div className="h-64 flex items-center justify-center text-gray-400 text-sm">載入圖表中...</div>,
+});
 
 declare global {
   interface Window {
@@ -182,11 +184,11 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         <nav className="nav-sticky">
             <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
                 <div className="flex items-center gap-3 cursor-pointer" onClick={goHome}>
-                    <img src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" loading="lazy" width="40" height="40" />
+                    <Image src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" width={40} height={40} />
                     <div><div className="text-2xl font-bold tracking-wider text-red-900">巧品珠寶</div><div className="text-xs text-gray-500">HUANG JIA FEI LI</div></div>
                 </div>
                 <div className="flex items-center space-x-4">
-                    <button onClick={() => scrollToId('rates-desktop')} className="font-medium hover:text-red-800 hidden md:block">今日金價</button>
+                    <button onClick={() => scrollToId('rates-desktop')} aria-label="跳至今日金價" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] px-2">今日金價</button>
                     <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">知識專欄</a>
                     <a href="/faq" className="font-medium hover:text-red-800 hidden md:block">常見問題</a>
                     <a href="/blog" className="font-medium hover:text-red-800 hidden md:block">部落格</a>
@@ -215,7 +217,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             <div>
                 {/* Hero */}
                 <header className="hero-section">
-                    <img src="/hero.webp" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" loading="eager" fetchPriority="high" width="1200" height="400" />
+                    <Image src="/hero.webp" className="hero-img" alt="巧品珠寶店面 - 台北大安區黃金回收專門店" priority fill sizes="100vw" style={{objectFit:'cover'}} />
                     <div className="relative z-20 text-center text-white px-4 max-w-4xl hero-text-shadow">
                         <div className="inline-block px-4 py-1 border-2 border-yellow-400 bg-yellow-900/80 rounded-full text-yellow-300 text-sm font-bold mb-6 backdrop-blur-md shadow-lg">經營十餘年 · 誠信老字號</div>
                         <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">黃金回收 <span className="text-amber-400">價值最大化</span></h1>
@@ -234,14 +236,12 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <section className="bg-white rounded-2xl shadow-xl p-6">
                             <h2 className="text-xl font-bold mb-4 border-l-4 border-red-800 pl-3">金價走勢圖</h2>
                             <div className="h-64 relative">
-                                {showHistory && <Line data={{
-                                    labels: chartData?.labels || [],
-                                    datasets: [{
-                                        label: '回收價',
-                                        data: unit === 'qian' ? chartData?.data : chartData?.data.map((v: number) => v / 3.75),
-                                        borderColor: '#D4AF37', backgroundColor: 'rgba(212, 175, 55, 0.1)', borderWidth: 2, fill: true, tension: 0.1, pointRadius: 2
-                                    }]
-                                }} options={{ responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } } }} />}
+                                {showHistory && (
+                                  <GoldPriceChart
+                                    labels={chartData?.labels || []}
+                                    data={unit === 'qian' ? chartData?.data : chartData?.data.map((v: number) => v / 3.75)}
+                                  />
+                                )}
                             </div>
                         </section>
 
@@ -281,8 +281,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             </div>
                             {dailyTable.length > visibleQuoteCount && (
                                 <div className="p-4 text-center bg-gray-50 border-t border-gray-100">
-                                    <button onClick={() => setVisibleQuoteCount(prev => prev + 20)} className="text-sm font-bold text-gray-600 hover:text-red-800 bg-white border border-gray-300 hover:border-red-800 px-6 py-2 rounded-full shadow-sm transition-all duration-300">
-                                        <i className="fas fa-history mr-2"></i>瀏覽更多歷史報價
+                                    <button onClick={() => setVisibleQuoteCount(prev => prev + 20)} aria-label="載入更多歷史報價" className="text-sm font-bold text-gray-700 hover:text-red-800 bg-white border border-gray-300 hover:border-red-800 px-6 py-3 rounded-full shadow-sm transition-all duration-300 min-h-[44px]">
+                                        <i className="fas fa-history mr-2" aria-hidden="true"></i>瀏覽更多歷史報價
                                     </button>
                                 </div>
                             )}
@@ -293,19 +293,19 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                              <div id="rates-mobile" className="bg-white rounded-2xl shadow-xl border-t-4 border-red-800">
                                 <div className="p-5 bg-gradient-to-b from-gray-50 to-white border-b flex justify-between items-start">
                                     <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-500 mt-1">{updateTime}</p></div>
-                                    <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
+                                                    <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
-                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500"></i></div>
+                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-500">回收(Buy)</div><div className="text-2xl font-bold text-green-600">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-500">賣出(Sell)</div><div className="text-xl font-bold text-blue-600">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
                                     </div>
                                 </div>
                              </div>
 
                              <div id="calculator-section-mobile" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator" aria-hidden="true"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
                                         {/* 修改寬度：w-1/2 (50%) 確保字不被切到 */}
@@ -349,7 +349,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 {articles.slice(0, visibleArticleCount).map((article: any) => (
                                     <div key={article.id} className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition cursor-pointer group" onClick={() => openArticle(article)}>
                                         <div className="h-48 bg-gray-200 relative overflow-hidden">
-                                            <img src={getOptimizedUrl(article.image, 400)} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt={article.title || '巧品珠寶知識專欄'} loading="lazy" width="400" height="192" />
+                                            <Image src={getOptimizedUrl(article.image, 400)} className="object-cover transition-transform duration-700 group-hover:scale-105" alt={article.title || '巧品珠寶知識專欄'} fill sizes="(max-width: 768px) 100vw, 50vw" style={{objectFit:'cover'}} />
                                             <div className="absolute top-0 right-0 bg-red-800 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">{article.date}</div>
                                         </div>
                                         <div className="p-5">
@@ -362,8 +362,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             </div>
                             {articles.length > visibleArticleCount && (
                                 <div className="text-center mt-10 mb-6">
-                                    <button onClick={() => setVisibleArticleCount(prev => prev + 10)} className="group relative px-8 py-3 bg-white text-red-900 font-bold rounded-full border-2 border-red-100 hover:border-red-800 hover:bg-red-800 hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg">
-                                        <span className="relative z-10 flex items-center gap-2">瀏覽更多知識 <i className="fas fa-chevron-down group-hover:animate-bounce"></i></span>
+                                    <button onClick={() => setVisibleArticleCount(prev => prev + 10)} aria-label="載入更多知識文章" className="group relative px-8 py-3 bg-white text-red-900 font-bold rounded-full border-2 border-red-100 hover:border-red-800 hover:bg-red-800 hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg min-h-[44px]">
+                                        <span className="relative z-10 flex items-center gap-2">瀏覽更多知識 <i className="fas fa-chevron-down group-hover:animate-bounce" aria-hidden="true"></i></span>
                                     </button>
                                 </div>
                             )}
@@ -376,19 +376,19 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             <div id="rates-desktop" className="bg-white rounded-2xl shadow-xl border-t-4 border-red-800 overflow-hidden">
                                 <div className="p-5 bg-gradient-to-b from-gray-50 to-white border-b flex justify-between items-start">
                                     <div><h3 className="font-bold text-red-900 text-lg">今日牌價</h3><p className="text-xs text-gray-500 mt-1">{updateTime}</p></div>
-                                    <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
+                                    <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
-                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500"></i></div>
+                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-500">回收(Buy)</div><div className="text-2xl font-bold text-green-600">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-500">賣出(Sell)</div><div className="text-xl font-bold text-blue-600">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{formatPrice(rates['24K'].buy)}</div><div className="mt-1">{renderDiff(rates['24K'].buyDiff)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{formatPrice(rates['24K'].sell)}</div><div className="mt-1">{renderDiff(rates['24K'].sellDiff)}</div></div>
                                     </div>
                                 </div>
                             </div>
 
                             <div id="calculator-section-desktop" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator" aria-hidden="true"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
                                         <label htmlFor="calc-metal-desktop" className="sr-only">選擇金屬種類</label>
@@ -424,7 +424,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                     <button onClick={goHome} className="mb-6 flex items-center gap-2 text-gray-600 hover:text-red-800 font-bold px-4 py-2 bg-gray-50 rounded shadow-sm transition"><i className="fas fa-arrow-left"></i> 返回首頁</button>
                     <article className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                         <div className="w-full h-[300px] md:h-[400px] bg-gray-200 relative bg-gray-100">
-                            <img src={currentArticle.image} className="absolute inset-0 w-full h-full object-cover" alt={currentArticle.title || '巧品珠寶知識專欄文章'} />
+                            <Image src={currentArticle.image} className="object-cover" alt={currentArticle.title || '巧品珠寶知識專欄文章'} fill sizes="100vw" style={{objectFit:'cover'}} />
                         </div>
                         <div className="p-8 md:p-12">
                             <div className="flex items-center gap-4 mb-6 text-sm text-gray-500"><span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-bold">知識專欄</span><span>{currentArticle.date}</span></div>
