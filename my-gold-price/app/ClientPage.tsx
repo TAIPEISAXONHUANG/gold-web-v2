@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import { IconLine, IconFacebook, IconInstagram, IconTiktok, IconArrowUp, IconArrowLeft, IconArrowRight, IconCalculator, IconChevronDown, IconClock, IconPhone, IconMapMarker, IconHistory } from './Icons';
 
 // 動態載入 Chart.js — 不阻塞首屏渲染
 const GoldPriceChart = dynamic(() => import('./GoldPriceChart'), {
@@ -187,23 +188,23 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
             <a href="https://lin.ee/zvLP4JC" target="_blank" rel="noopener noreferrer" aria-label="聯絡巧品珠寶 LINE 官方帳號" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
-                <i className="fab fa-line text-xl lg:text-2xl" aria-hidden="true"></i>
+                <IconLine className="text-xl lg:text-2xl w-6 h-6" />
             </a>
             
             <a href="https://www.facebook.com/QPJEWELRY.OFFICIAL" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Facebook 粉絲頁" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#1877F2] w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
-                <i className="fab fa-facebook-f text-lg lg:text-xl" aria-hidden="true"></i>
+                <IconFacebook className="text-lg lg:text-xl w-5 h-5" />
             </a>
             
             <a href="https://www.instagram.com/qiaopin.jewelry/" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 Instagram" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
-                <i className="fab fa-instagram text-xl lg:text-2xl" aria-hidden="true"></i>
+                <IconInstagram className="text-xl lg:text-2xl w-6 h-6" />
             </a>
             
             <a href="https://www.tiktok.com/@qpdiamond666" target="_blank" rel="noopener noreferrer" aria-label="巧品珠寶 TikTok" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-black w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
-                <i className="fab fa-tiktok text-lg lg:text-xl" aria-hidden="true"></i>
+                <IconTiktok className="text-lg lg:text-xl w-5 h-5" />
             </a>
             
             <button onClick={() => scrollToId('rates-mobile')} aria-label="回到今日金價" className="flex items-center justify-center text-white shadow-md bg-yellow-500 border border-yellow-600 w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
-                <i className="fas fa-arrow-up text-lg lg:text-xl" aria-hidden="true"></i>
+                <IconArrowUp className="text-lg lg:text-xl w-5 h-5" />
             </button>
         </div>
 
@@ -222,10 +223,10 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                     <a href="/district/da-an" className="font-medium hover:text-red-800 hidden md:block min-h-[44px] flex items-center">黃金回收</a>
                     <div className="flex flex-col items-end">
                         <a href="tel:0986821626" onClick={sendConversionSignal} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
-                            <i className="fas fa-phone-alt text-red-800 text-xs"></i><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
+                            <IconPhone className="text-red-800 w-3 h-3" /><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
                         </a>
                         <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-600 hover:text-red-800 transition text-[10px] md:text-xs min-h-[44px] flex items-center">
-                            <i className="fas fa-map-marker-alt text-red-600"></i><span>大安區濟南路三段62-1號</span>
+                            <IconMapMarker className="text-red-600 w-3 h-3" /><span>大安區濟南路三段62-1號</span>
                         </a>
                     </div>
                 </div>
@@ -309,7 +310,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                             {dailyTable.length > visibleQuoteCount && (
                                 <div className="p-4 text-center bg-gray-50 border-t border-gray-100">
                                     <button onClick={() => setVisibleQuoteCount(prev => prev + 20)} aria-label="載入更多歷史報價" className="text-sm font-bold text-gray-700 hover:text-red-800 bg-white border border-gray-300 hover:border-red-800 px-6 py-3 rounded-full shadow-sm transition-all duration-300 min-h-[44px]">
-                                        <i className="fas fa-history mr-2" aria-hidden="true"></i>瀏覽更多歷史報價
+                                        <IconHistory className="mr-2 w-4 h-4 inline" />瀏覽更多歷史報價
                                     </button>
                                 </div>
                             )}
@@ -323,7 +324,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                                                     <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
-                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
+                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <span className="text-amber-500 text-lg">♛</span></div>
                                     <div className="flex justify-between">
                                         <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
                                         <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
@@ -332,7 +333,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                              </div>
 
                              <div id="calculator-section-mobile" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator" aria-hidden="true"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><IconCalculator className="w-5 h-5" /> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
                                         {/* 修改寬度：w-1/2 (50%) 確保字不被切到 */}
@@ -358,7 +359,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                                     {faq.map((item: any, idx: number) => (
                                         <div key={idx} className={`faq-item ${activeFaq === idx ? 'active' : ''}`} onClick={() => setActiveFaq(activeFaq === idx ? null : idx)}>
                                             <div className="w-full text-left p-4 bg-gray-50 hover:bg-gray-100 font-bold flex justify-between items-center text-sm cursor-pointer">
-                                                {item.q} <i className="fas fa-chevron-down faq-icon"></i>
+                                                {item.q} <IconChevronDown className="faq-icon w-4 h-4" />
                                             </div>
                                             <div className="faq-answer px-4 bg-white">
                                                 <p className="text-gray-600 text-sm leading-relaxed py-2">{item.a}</p>
@@ -382,7 +383,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                                         <div className="p-5">
                                             <h3 className="font-bold text-lg text-gray-800 mb-2 truncate group-hover:text-red-800 transition">{article.title}</h3>
                                             <p className="text-sm text-gray-600 line-clamp-2 mb-4">{article.summary}</p>
-                                            <div className="flex justify-end"><span className="text-red-800 text-sm font-bold group-hover:translate-x-1 transition-transform inline-block">閱讀更多 <i className="fas fa-arrow-right ml-1"></i></span></div>
+                                            <div className="flex justify-end"><span className="text-red-800 text-sm font-bold group-hover:translate-x-1 transition-transform inline-block">閱讀更多 <IconArrowRight className="ml-1 w-4 h-4 inline" /></span></div>
                                         </div>
                                     </div>
                                 ))}
@@ -390,7 +391,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                             {articles.length > visibleArticleCount && (
                                 <div className="text-center mt-10 mb-6">
                                     <button onClick={() => setVisibleArticleCount(prev => prev + 10)} aria-label="載入更多知識文章" className="group relative px-8 py-3 bg-white text-red-900 font-bold rounded-full border-2 border-red-100 hover:border-red-800 hover:bg-red-800 hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg min-h-[44px]">
-                                        <span className="relative z-10 flex items-center gap-2">瀏覽更多知識 <i className="fas fa-chevron-down group-hover:animate-bounce" aria-hidden="true"></i></span>
+                                        <span className="relative z-10 flex items-center gap-2">瀏覽更多知識 <IconChevronDown className="group-hover:animate-bounce w-4 h-4" /></span>
                                     </button>
                                 </div>
                             )}
@@ -406,7 +407,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                                     <button onClick={() => setUnit(unit === 'qian' ? 'gram' : 'qian')} aria-label={`切換單位：目前 ${unit === 'qian' ? '台錢' : '公克'}`} className="text-xs bg-gray-800 text-white hover:bg-black px-3 py-1.5 rounded shadow transition min-w-[44px] min-h-[44px]">單位: <span className="text-amber-400 font-bold">{unit === 'qian' ? '台錢' : '公克'}</span></button>
                                 </div>
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
-                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <i className="fas fa-crown text-amber-500" aria-hidden="true"></i></div>
+                                    <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <span className="text-amber-500 text-lg">♛</span></div>
                                     <div className="flex justify-between">
                                         <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
                                         <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
@@ -415,7 +416,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                             </div>
 
                             <div id="calculator-section-desktop" className="bg-gray-900 p-5 text-white rounded-2xl shadow-xl">
-                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><i className="fas fa-calculator" aria-hidden="true"></i> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
+                                <div className="flex justify-between items-center mb-4"><h4 className="font-bold text-amber-400 flex items-center gap-2"><IconCalculator className="w-5 h-5" /> 黃金回收試算</h4><button onClick={() => setCalcUnit(calcUnit === 'qian' ? 'gram' : 'qian')} aria-label={`切換重量單位：目前 ${calcUnit === 'qian' ? '台錢' : '公克'}`} className="text-base font-bold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300 transition transform active:scale-95 border-2 border-yellow-500 min-w-[44px] min-h-[44px]">單位: {calcUnit === 'qian' ? '台錢' : '公克'}</button></div>
                                 <div className="space-y-3">
                                     <div className="flex gap-2">
                                         <label htmlFor="calc-metal-desktop" className="sr-only">選擇金屬種類</label>
@@ -433,9 +434,9 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
                             <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
                                 <h3 className="font-bold text-gray-800 mb-4 border-l-4 border-red-800 pl-2">聯絡我們</h3>
                                 <div className="space-y-4 text-sm text-gray-700">
-                                    <div className="flex items-start gap-3"><i className="fas fa-clock text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
-                                    <div className="flex items-start gap-3"><i className="fas fa-map-marker-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
-                                    <div className="flex items-start gap-3"><i className="fas fa-phone-alt text-red-800 mt-1"></i><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={() => sendConversionSignal()} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
+                                    <div className="flex items-start gap-3"><IconClock className="text-red-800 mt-1 w-5 h-5" /><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
+                                    <div className="flex items-start gap-3"><IconMapMarker className="text-red-800 mt-1 w-4 h-4" /><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
+                                    <div className="flex items-start gap-3"><IconPhone className="text-red-800 mt-1 w-4 h-4" /><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={() => sendConversionSignal()} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +449,7 @@ export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
         {view === 'article' && currentArticle && (
             <div className="bg-white min-h-screen">
                 <div className="max-w-4xl mx-auto px-4 py-12">
-                    <button onClick={goHome} className="mb-6 flex items-center gap-2 text-gray-600 hover:text-red-800 font-bold px-4 py-2 bg-gray-50 rounded shadow-sm transition"><i className="fas fa-arrow-left"></i> 返回首頁</button>
+                    <button onClick={goHome} className="mb-6 flex items-center gap-2 text-gray-600 hover:text-red-800 font-bold px-4 py-2 bg-gray-50 rounded shadow-sm transition"><IconArrowLeft className="w-5 h-5" /> 返回首頁</button>
                     <article className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                         <div className="w-full h-[300px] md:h-[400px] bg-gray-200 relative bg-gray-100">
                             <img src={currentArticle.image} className="absolute inset-0 w-full h-full object-cover" alt={currentArticle.title || '巧品珠寶知識專欄文章'} loading="lazy" width="1200" height="400" />

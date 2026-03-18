@@ -54,7 +54,6 @@ export default function RootLayout({
         {/* 3. Preconnect 加速外部資源載入 */}
         <link rel="preconnect" href="https://wsrv.nl" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
 
       </head>
@@ -92,17 +91,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* 5. FontAwesome - lazyOnload 不阻塞渲染 */}
-        <Script id="fontawesome-loader" strategy="lazyOnload">
-          {`
-            (function() {
-              var link = document.createElement('link');
-              link.rel = 'stylesheet';
-              link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
-              document.head.appendChild(link);
-            })();
-          `}
-        </Script>
+        {/* FontAwesome removed - replaced with inline SVG icons */}
 
         {/* 6. Schema.org LocalBusiness JSON-LD */}
         <script
