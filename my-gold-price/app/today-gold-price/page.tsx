@@ -53,7 +53,7 @@ export default function TodayGoldPrice() {
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金賣出</td>
-            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $18,940/錢</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $17,940/錢</td>
           </tr>
         </table>
       </div>
@@ -69,7 +69,7 @@ export default function TodayGoldPrice() {
       <h2>💡 黃金回收計算方式</h2>
       <div style={{ background: '#f0f0f0', padding: '1rem', borderRadius: '8px', fontFamily: 'monospace' }}>
         <p>回收金額 = 重量（錢）× 當日牌價 × 純度</p>
-        <p>例如：5錢 × $18,260 × 100% = <strong>$91,300</strong></p>
+        <p>例如：5錢 × $17,940 × 100% = <strong>$89,700</strong></p>
       </div>
 
       <h2>📊 其他金屬參考</h2>
