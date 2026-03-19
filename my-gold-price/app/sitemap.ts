@@ -23,6 +23,10 @@ const blogSlugs = [
   'wedding-gold-recovery', 'what-to-bring-when-selling-gold-2026',
   'why-some-get-better-gold-price',
   'gold-price-guide-2026', 'gold-vs-platinum-guide', 'sell-gold-checklist-2026',
+  // 補充漏加的頁面
+  'gold-vs-k-gold-difference', 'gold-recovery-common-questions', 'gold-recycling-faq',
+  'gold-recycling-precautions-guide', 'gold-recycling-price-guide-2026',
+  'gold-shop-vs-silver-shop-price', 'k-gold-vs-gold', 'taipei-gold-recycling-recommend',
 ];
 
 const districtSlugs = [
