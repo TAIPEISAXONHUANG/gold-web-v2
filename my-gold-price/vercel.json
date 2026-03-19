@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/blog/gold-post-:id*",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/hero.webp",
