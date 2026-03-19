@@ -29,18 +29,16 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const [currentArticle, setCurrentArticle] = useState<any>(null);
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<any>(initialData);
 
+  // SSR 已提供 initialData 時跳過 fetch；否則 client 端補抓
   useEffect(() => {
-    if (initialData) {
-      setData(initialData);
-      return;
-    }
+    if (initialData) return;
     fetch('/api/gold-data')
       .then(r => r.json())
       .then(d => setData(d))
       .catch(err => console.error('gold-data API error:', err));
-  }, [initialData]);
+  }, []);
 
   const rates = data?.rates || {};
   const updateTime = data?.updateTime || '';
@@ -86,7 +84,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   };
 
   // 資料 loading 中時，對外顯示 skeleton 的骨架
-  const isLoading = !data;
+  const isLoading = !data || !data.rates;
 
   const formatPrice = (v: number) => {
     if (!v) return "0";
