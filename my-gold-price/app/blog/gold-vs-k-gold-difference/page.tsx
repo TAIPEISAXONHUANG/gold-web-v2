@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 
+// 黃金與K金的差異頁面
 export const metadata: Metadata = {
   title: '黃金與K金的差異｜純度、價格、回收一篇搞懂｜巧品珠寶',
   description: '黃金與K金有什麼不同？一篇讓您搞懂純度差異、價格計算、回收價值。了解24K、18K、14K的差別，買金飾或賣黃金都不吃虧。',
