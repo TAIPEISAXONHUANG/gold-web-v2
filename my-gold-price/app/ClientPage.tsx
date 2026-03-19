@@ -32,22 +32,15 @@ export default function ClientPage({ initialData }: { initialData: any }) {
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {
-    // Client-side fetch: server 只送 HTML shell，資料由 client 自行抓取，不阻塞 FCP
-    Promise.all([
-      fetch(`${gasApiUrl}?action=getInitData`).then(r => r.json()),
-      fetch(`${gasApiUrl}?action=getChartData`).then(r => r.json()),
-      fetch(`${gasApiUrl}?action=getArticles`).then(r => r.json()),
-    ]).then(([initData, chartData, articleList]) => {
-      setData({
-        rates: initData.rates?.rates || {},
-        updateTime: initData.rates?.updatedAt || '',
-        faq: initData.faq || [],
-        dailyTable: chartData.dailyTable || [],
-        chartData: chartData.chart || null,
-        articles: articleList || [],
-      });
-    }).catch(err => console.error('GAS API error:', err));
-  }, [gasApiUrl]);
+    if (initialData) {
+      setData(initialData);
+      return;
+    }
+    fetch('/api/gold-data')
+      .then(r => r.json())
+      .then(d => setData(d))
+      .catch(err => console.error('gold-data API error:', err));
+  }, [initialData]);
 
   const rates = data?.rates || {};
   const updateTime = data?.updateTime || '';
