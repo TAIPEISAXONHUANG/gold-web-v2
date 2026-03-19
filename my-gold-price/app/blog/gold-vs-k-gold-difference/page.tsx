@@ -133,7 +133,7 @@ export default function Page() {
         <li>在意回收價值</li>
       </ul>
 
-      <p><strong>選擇K金的情況：</strong></li>
+      <p><strong>選擇K金的情況：</strong></p>
       <ul>
         <li>日常配戴需求</li>
         <li>喜歡多樣化的顏色與設計</li>
