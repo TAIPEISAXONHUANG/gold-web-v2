@@ -8,10 +8,8 @@ const nextConfig = {
       { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
     ],
   },
-  experimental: {
-    // Use .browserslistrc to avoid legacy polyfills (saves ~24KB)
-    browsersListForSwc: true,
-  },
+  // 移除無效的 browsersListForSwc（Next.js 14 不支援）
+  // 改用 .browserslistrc 檔案控制 polyfill 範圍
 };
 
 module.exports = nextConfig;
