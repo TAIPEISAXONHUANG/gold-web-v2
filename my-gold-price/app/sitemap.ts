@@ -1,33 +1,17 @@
 import { MetadataRoute } from 'next';
+import fs from 'fs';
+import path from 'path';
 
-const blogSlugs = [
-  'before-selling-gold', 'broken-gold-recovery', 'diamond-jewelry',
-  'factors-affecting-gold-price', 'gold-9999-recovery', 'gold-antique',
-  'gold-appraise', 'gold-auction', 'gold-bar-recovery', 'gold-birthday-gift',
-  'gold-bracelet-recovery', 'gold-calculator', 'gold-coin-invest',
-  'gold-coin-recovery', 'gold-culture', 'gold-earring-recovery', 'gold-family',
-  'gold-id-requirement', 'gold-identification', 'gold-insurance',
-  'gold-jewelry-recovery', 'gold-liquid', 'gold-necklace-recovery',
-  'gold-pendant-recovery', 'gold-price-2026', 'gold-price-forecast-2026',
-  'gold-price-key-factors', 'gold-purity', 'gold-recovery-faq',
-  'gold-recovery-faq-2026', 'gold-recovery-traps', 'gold-recycling-precautions',
-  'gold-recycling-price-factors', 'gold-recycling-process', 'gold-recycling-tips',
-  'gold-ring-recovery', 'gold-safety', 'gold-scale-trap', 'gold-scam-prevent',
-  'gold-shop-recommend', 'gold-shop-vs-recycling-shop', 'gold-shop-vs-silver-shop',
-  'gold-should-know', 'gold-tax', 'gold-tradition', 'gold-vs-k-gold-vs-platinum',
-  'gold-vs-platinum', 'gold-vs-platinum-investment', 'gold-watch-recovery',
-  'gold-weight', 'how-to-choose-gold-shop', 'inheritance-gold', 'karat-gold-guide',
-  'karat-gold-price', 'karat-gold-recovery', 'karat-gold-report', 'lion-head-gold',
-  'new-taipei-gold-recovery', 'old-gold-recovery', 'platinum-recovery',
-  'sell-gold-tips', 'taichung-gold-recovery', 'taipei-gold-recovery',
-  'wedding-gold-recovery', 'what-to-bring-when-selling-gold-2026',
-  'why-some-get-better-gold-price',
-  'gold-price-guide-2026', 'gold-vs-platinum-guide', 'sell-gold-checklist-2026',
-  // 補充漏加的頁面
-  'gold-vs-k-gold-difference', 'gold-recovery-common-questions', 'gold-recycling-faq',
-  'gold-recycling-precautions-guide', 'gold-recycling-price-guide-2026',
-  'gold-shop-vs-silver-shop-price', 'k-gold-vs-gold', 'taipei-gold-recycling-recommend',
-];
+// ✅ 自動掃描資料夾，永不漏頁面！新增文章不需要手動更新這裡
+function getSubdirectories(dirPath: string): string[] {
+  try {
+    return fs.readdirSync(dirPath, { withFileTypes: true })
+      .filter(d => d.isDirectory())
+      .map(d => d.name);
+  } catch {
+    return [];
+  }
+}
 
 const districtSlugs = [
   'da-an', 'xin-yi', 'zhong-zheng', 'songshan', 'zhongshan', 'datong',
@@ -41,6 +25,10 @@ const districtSlugs = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.gold-tw.com';
   const now = new Date();
+
+  // 自動掃描 blog 和 district 資料夾
+  const blogDir = path.join(process.cwd(), 'app', 'blog');
+  const blogSlugs = getSubdirectories(blogDir);
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: now, changeFrequency: 'daily', priority: 1 },
@@ -56,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
-    lastModified: new Date('2026-03-17'),
+    lastModified: new Date('2026-03-19'),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
