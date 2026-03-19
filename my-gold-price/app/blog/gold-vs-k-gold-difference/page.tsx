@@ -36,13 +36,13 @@ export default function Page() {
       <h1>黃金與K金的差異｜純度、價格、回收一篇搞懂</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
-        <strong>📌 重點摘要：</strong> 黃金與K金的差異在於純度！24K代表99.99%純金，18K是75%，14K是58.5%。純度越高回收價值越高，但K金硬度較高更適合日常配戴。
+        <strong>📌 重點摘要：</strong> 黃金與K金的差異在於純度！24K代表99.99{'%'}純金，18K是75{'%'}，14K是58.5{'%'}。純度越高回收價值越高，但K金硬度較高更適合日常配戴。
       </div>
       
       <h2>結論：了解黃金與K金的差異，買金飾不吃虧、賣黃金更值錢！</h2>
 
       <h2>什麼是純金？什麼是K金？</h2>
-      <p><strong>純金（24K）</strong>是指含金量99.99%的黃金，顏色最接近黃金本色，價值最高。但純金較軟，容易變形刮傷。</p>
+      <p><strong>純金（24K）</strong>是指含金量99.99{'%'}的黃金，顏色最接近黃金本色，價值最高。但純金較軟，容易變形刮傷。</p>
       <p><strong>K金</strong>是黃金與其他金屬的合金，添加其他金屬是為了增加硬度與耐久性。常見的K金包括18K、14K、10K等。</p>
 
       <h2>黃金與K金純度比較表</h2>
@@ -57,27 +57,27 @@ export default function Page() {
         <tbody>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>24K</td>
-            <td style={{ padding: '10px' }}>99.99%</td>
+            <td style={{ padding: '10px' }}>99.99{'%'}</td>
             <td style={{ padding: '10px' }}>9999</td>
           </tr>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>22K</td>
-            <td style={{ padding: '10px' }}>91.6%</td>
+            <td style={{ padding: '10px' }}>91.6{'%'}</td>
             <td style={{ padding: '10px' }}>916</td>
           </tr>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>18K</td>
-            <td style={{ padding: '10px' }}>75%</td>
+            <td style={{ padding: '10px' }}>75{'%'}</td>
             <td style={{ padding: '10px' }}>750</td>
           </tr>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>14K</td>
-            <td style={{ padding: '10px' }}>58.5%</td>
+            <td style={{ padding: '10px' }}>58.5{'%'}</td>
             <td style={{ padding: '10px' }}>585</td>
           </tr>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>10K</td>
-            <td style={{ padding: '10px' }}>41.7%</td>
+            <td style={{ padding: '10px' }}>41.7{'%'}</td>
             <td style={{ padding: '10px' }}>417</td>
           </tr>
         </tbody>
@@ -119,9 +119,9 @@ export default function Page() {
       <p>回收價格計算公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>舉例來說，假設當日金價為每錢6,000元：</p>
       <ul>
-        <li>24K黃金（1兩/5錢）：6,000 × 5 × 99.99% = 29,997元</li>
-        <li>18K金（1兩/5錢）：6,000 × 5 × 75% = 22,500元</li>
-        <li>14K金（1兩/5錢）：6,000 × 5 × 58.5% = 17,550元</li>
+        <li>24K黃金（1兩/5錢）：6,000 × 5 × 99.99{'%'} = 29,997元</li>
+        <li>18K金（1兩/5錢）：6,000 × 5 × 75{'%'} = 22,500元</li>
+        <li>14K金（1兩/5錢）：6,000 × 5 × 58.5{'%'} = 17,550元</li>
       </ul>
 
       <h2>什麼時候該選黃金？什麼時候該選K金？</h2>
