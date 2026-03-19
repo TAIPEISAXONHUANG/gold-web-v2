@@ -47,7 +47,7 @@ export default function Page() {
                 "name": "黃金回收有哪些陷阱？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "常見陷阱包括：扣重過高(>10%)、低於市價太多、口頭哄抬後現場扣價、秤具不準確、更換純度檢測標準等。"
+                  "text": "常見陷阱包括：扣重過高({'>'}10{'%'})、低於市價太多、口頭哄抬後現場扣價、秤具不準確、更換純度檢測標準等。"
                 }
               }
             ]
@@ -114,7 +114,7 @@ export default function Page() {
         <tbody>
           <tr>
             <td style={{padding:'12px', border:'1px solid #ddd', fontWeight:'bold'}}>扣重過高</td>
-            <td style={{padding:'12px', border:'1px solid #ddd'}}>扣耗超過10%</td>
+            <td style={{padding:'12px', border:'1px solid #ddd'}}>扣耗超過10{'%'}</td>
             <td style={{padding:'12px', border:'1px solid #ddd'}}>轉身離開，選擇不扣耗店家</td>
           </tr>
           <tr style={{background:'#f9f9f9'}}>

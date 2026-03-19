@@ -52,9 +52,9 @@ export default function Page() {
       <h2>2. 黃金純度（K數）</h2>
       <p>純度直接影響回收價格，以下為常見純度對照：</p>
       <ul>
-        <li><strong>9999（24K）</strong>：純度99.99%，最高價</li>
-        <li><strong>999（24K）</strong>：純度99.9%，接近最高價</li>
-        <li><strong>18K（750）</strong>：純度75%，約75%行情</li>
+        <li><strong>9999（24K）</strong>：純度99.99{'%'}，最高價</li>
+        <li><strong>999（24K）</strong>：純度99.9{'%'}，接近最高價</li>
+        <li><strong>18K（750）</strong>：純度75{'%'}，約75{'%'}行情</li>
         <li><strong>14K（585）</strong>：純度58.5%，約58.5%行情</li>
         <li><strong>10K（416）</strong>：純度41.6%，約41.6%行情</li>
       </ul>

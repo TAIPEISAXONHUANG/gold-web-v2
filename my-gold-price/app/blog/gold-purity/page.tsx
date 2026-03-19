@@ -38,17 +38,17 @@ export default function Page() {
       <h1>黃金純度怎麼看？K數完整說明</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
-        <strong>📌 重點摘要：</strong> 黃金純度標示：24K=99.9%、22K=91.6%、18K=75%、14K=58.5%。純度越高回收價越好。以XRF螢光分析儀檢測最精確。
+        <strong>📌 重點摘要：</strong> 黃金純度標示：24K=99.9{'%'}、22K=91.6{'%'}、18K=75{'%'}、14K=58.5{'%'}。純度越高回收價越好。以XRF螢光分析儀檢測最精確。
       </div>
       <h2>Conclusion: Know your purity markings to avoid being shortchanged</h2>
       <p>Gold purity directly affects recovery price. Understanding purity markings is essential knowledge for every gold holder.</p>
       <h2>Common gold purity reference</h2>
       <ul>
         <li>9999 / 999.9 = 24K = 99.99% pure (gold bars, coins)</li>
-        <li>916 = 22K = 91.6% (traditional Taiwanese jewelry)</li>
-        <li>750 / 18K = 75% (modern jewelry mainstream)</li>
-        <li>585 / 14K = 58.5% (common in Western jewelry)</li>
-        <li>375 / 9K = 37.5% (lower purity pieces)</li>
+        <li>916 = 22K = 91.6{'%'} (traditional Taiwanese jewelry)</li>
+        <li>750 / 18K = 75{'%'} (modern jewelry mainstream)</li>
+        <li>585 / 14K = 58.5{'%'} (common in Western jewelry)</li>
+        <li>375 / 9K = 37.5{'%'} (lower purity pieces)</li>
       </ul>
       <h2>FAQ</h2>
       <h3>Q: I can't find any markings - how do I know the purity?</h3>

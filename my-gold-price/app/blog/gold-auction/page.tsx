@@ -42,7 +42,7 @@ export default function Page() {
       </div>
 
       <h2>結論：直接找銀樓回收比拍賣平台更划算</h2>
-      <p>許多人想透過拍賣平台賣黃金，但往往要扣除5-15%平台手續費、等待時間長、還要擔心詐騙。相較之下，直接找專業銀樓回收，當天現金、零手續費，才是最實惠的選擇。</p>
+      <p>許多人想透過拍賣平台賣黃金，但往往要扣除5-15{'%'}平台手續費、等待時間長、還要擔心詐騙。相較之下，直接找專業銀樓回收，當天現金、零手續費，才是最實惠的選擇。</p>
 
       <h2>黃金拍賣 vs 直接回收比較</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
@@ -54,7 +54,7 @@ export default function Page() {
           </tr>
         </thead>
         <tbody>
-          <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>手續費</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>5-15%</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>零手續費</td></tr>
+          <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>手續費</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>5-15{'%'}</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>零手續費</td></tr>
           <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>付款時間</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>拍賣結束後</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>當場現金</td></tr>
           <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>詐騙風險</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>較高</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>無</td></tr>
           <tr><td style={{ padding: '8px', border: '1px solid #ddd' }}>流程</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>複雜</td><td style={{ padding: '8px', border: '1px solid #ddd' }}>10-15分鐘完成</td></tr>

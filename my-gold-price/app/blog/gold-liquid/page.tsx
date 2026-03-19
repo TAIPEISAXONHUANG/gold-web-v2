@@ -41,10 +41,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金變現管道比較：銀樓回收（最快）、當鋪典當（可贖回）、網路拍賣（價高但慢）。急需現金建議選銀樓回收，當天拿錢。
       </div>
       <h2>Conclusion: Direct recovery usually beats pawning</h2>
-      <p>Pawning gold gives you only 70-80% of market value plus monthly interest. Direct recovery at market price with no fees is often more profitable.</p>
+      <p>Pawning gold gives you only 70-80{'%'} of market value plus monthly interest. Direct recovery at market price with no fees is often more profitable.</p>
       <h2>Pawning vs Direct Recovery</h2>
       <ul>
-        <li>Pawning: 70-80% value, monthly interest, can reclaim item</li>
+        <li>Pawning: 70-80{'%'} value, monthly interest, can reclaim item</li>
         <li>Direct recovery: full market price, no fees, no reclaim</li>
       </ul>
       <h2>FAQ</h2>

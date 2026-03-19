@@ -53,8 +53,8 @@ export default function Page() {
       <h2>2. 黃金純度</h2>
       <ul>
         <li><strong>9999純金(24K)</strong> = 最高價</li>
-        <li><strong>18K</strong> = 75%純度</li>
-        <li><strong>14K</strong> = 58.5%純度</li>
+        <li><strong>18K</strong> = 75{'%'}純度</li>
+        <li><strong>14K</strong> = 58.5{'%'}純度</li>
       </ul>
 
       <h2>3. 重量計算</h2>

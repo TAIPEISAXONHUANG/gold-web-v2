@@ -45,7 +45,7 @@ export default function Page() {
       <p>有些店家會趁你不注意時動手腳。好的店家會當面秤重，讓客人親眼看見數字。</p>
 
       <h2>陷阱二：扣耗損比例過高</h2>
-      <p>一般行情扣5-10%耗損，但我們堅持<strong>不扣任何耗損</strong>，按實際重量計算。</p>
+      <p>一般行情扣5-10{'%'}耗損，但我們堅持<strong>不扣任何耗損</strong>，按實際重量計算。</p>
 
       <h2>陷阱三：檢測方式不透明</h2>
       <p>我們採用專業儀器+火測，確保黃金純度檢測透明公開。</p>
@@ -100,7 +100,7 @@ export default function Page() {
         </thead>
         <tbody>
           <tr><td>秤重方式</td><td>當面公開秤重</td><td>不一定讓你看</td></tr>
-          <tr><td>扣耗損</td><td><strong>不扣重</strong></td><td>常扣5-10%</td></tr>
+          <tr><td>扣耗損</td><td><strong>不扣重</strong></td>常扣5-10{'%'}</td></tr>
           <tr><td>檢測方式</td><td>專業儀器+火測</td><td>只用秤重</td></tr>
           <tr><td>付款速度</td><td>現場立即</td><td>需等1-2天</td></tr>
         </tbody>

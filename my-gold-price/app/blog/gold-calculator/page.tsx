@@ -42,7 +42,7 @@ export default function Page() {
       <h1>黃金重量計算機｜線上黃金秤重</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
-        <strong>📌 重點摘要：</strong> 黃金回收試算公式：當日回收牌價 × 重量（台錢）= 預估回收金額。K金需再乘以純度比例（如18K = 75%）。
+        <strong>📌 重點摘要：</strong> 黃金回收試算公式：當日回收牌價 × 重量（台錢）= 預估回收金額。K金需再乘以純度比例（如18K = 75{'%'}）。
       </div>
       
       <h2>結論：黃金重量這樣算最準確</h2>
