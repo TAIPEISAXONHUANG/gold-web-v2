@@ -100,7 +100,7 @@ export default function Page() {
         </thead>
         <tbody>
           <tr><td>秤重方式</td><td>當面公開秤重</td><td>不一定讓你看</td></tr>
-          <tr><td>扣耗損</td><td><strong>不扣重</strong></td>常扣5-10{'%'}</td></tr>
+          <tr><td>扣耗損</td><td><strong>不扣重</strong></td><td>常扣5-10{'%'}</td></tr>
           <tr><td>檢測方式</td><td>專業儀器+火測</td><td>只用秤重</td></tr>
           <tr><td>付款速度</td><td>現場立即</td><td>需等1-2天</td></tr>
         </tbody>
