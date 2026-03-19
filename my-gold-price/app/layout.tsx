@@ -60,17 +60,7 @@ export default function RootLayout({
 
       </head>
       <body>
-        {/* Hero LCP anchor: in layout (server component), always first in HTML, preload hits immediately */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/hero.webp"
-          alt="巧品珠寶店面 - 台北大安區黃金回收專門店"
-          fetchPriority="high"
-          loading="eager"
-          width="1200"
-          height="630"
-          style={{position:'absolute',top:0,left:0,width:'100%',height:'100svh',objectFit:'cover',zIndex:0,pointerEvents:'none'}}
-        />
+
         {children}
 
         {/* 3. Google Global Tag - afterInteractive 避免阻塞 FCP/LCP */}
