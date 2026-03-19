@@ -17,7 +17,7 @@ declare global {
   }
 }
 
-export default function ClientPage({ gasApiUrl }: { gasApiUrl: string }) {
+export default function ClientPage({ initialData }: { initialData: any }) {
   const [view, setView] = useState('home');
   const [unit, setUnit] = useState<'qian' | 'gram'>('qian');
   const [showHistory, setShowHistory] = useState(false);
