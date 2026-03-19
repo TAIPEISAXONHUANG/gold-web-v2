@@ -20,7 +20,6 @@ declare global {
 export default function ClientPage({ initialData }: { initialData: any }) {
   const [view, setView] = useState('home');
   const [unit, setUnit] = useState<'qian' | 'gram'>('qian');
-  const [showHistory, setShowHistory] = useState(false);
   const [calcMetal, setCalcMetal] = useState('24K');
   const [calcWeight, setCalcWeight] = useState('');
   const [calcUnit, setCalcUnit] = useState<'qian' | 'gram'>('qian');
@@ -150,10 +149,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
     }
   };
 
-  useEffect(() => {
-    const timer = setTimeout(() => setShowHistory(true), 1500);
-    return () => clearTimeout(timer);
-  }, []);
+
 
   const MetalOptions = () => (
     <>
@@ -263,12 +259,10 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <section className="bg-white rounded-2xl shadow-xl p-6">
                             <h2 className="text-xl font-bold mb-4 border-l-4 border-red-800 pl-3">金價走勢圖</h2>
                             <div className="h-64 relative">
-                                {showHistory && (
-                                  <GoldPriceChart
+                                <GoldPriceChart
                                     labels={chartData?.labels || []}
-                                    data={unit === 'qian' ? chartData?.data : chartData?.data.map((v: number) => v / 3.75)}
+                                    data={unit === 'qian' ? chartData?.data : (chartData?.data || []).map((v: number) => v / 3.75)}
                                   />
-                                )}
                             </div>
                         </section>
 
