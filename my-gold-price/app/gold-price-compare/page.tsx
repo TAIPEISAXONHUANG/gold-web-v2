@@ -25,7 +25,7 @@ export default function GoldPriceCompare() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
-            "dateModified": "2026-03-17T00:00:00+08:00"
+            "dateModified": "2026-03-19T13:54:00+08:00"
           })
         }}
       />
@@ -34,7 +34,7 @@ export default function GoldPriceCompare() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收比價服務","description":"台北各大銀樓黃金回收價格比較，巧品珠寶提供市場最高回收價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"Offer","priceCurrency":"TWD","price":"19260","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}}})
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收比價服務","description":"台北各大銀樓黃金回收價格比較，巧品珠寶提供市場最高回收價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"Offer","priceCurrency":"TWD","price":"18560","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}}})
         }}
       />
       <h1>⚖️ 黃金回收價格比較｜哪裡收購價格最高？</h1>
