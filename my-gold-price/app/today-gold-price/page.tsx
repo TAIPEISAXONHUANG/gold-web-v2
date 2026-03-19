@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '今日金價2026｜黃金一錢多少？即時回收報價查詢｜巧品珠寶',
-  description: '今日黃金回收價格查詢！2026年3月9999純金每台錢約18,500-19,100元。台北大安區巧品珠寶即時金價，免費估價電話 0986-821-626',
+  description: '今日黃金回收價格查詢！2026年3月9999純金每台錢約18,200-18,900元。台北大安區巧品珠寶即時金價，免費估價電話 0986-821-626',
   keywords: '今日金價,黃金一錢多少,現在金價,黃金價格,金價查詢,今日黃金回收價',
   alternates: {
     canonical: 'https://www.gold-tw.com/today-gold-price',
@@ -19,13 +19,13 @@ export default function TodayGoldPrice() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "今日金價2026｜黃金一錢多少？即時回收報價查詢｜巧品珠寶",
-            "description": "今日黃金回收價格查詢！2026年3月9999純金每台錢約18,500-19,100元。",
+            "description": "今日黃金回收價格查詢！2026年3月9999純金每台錢約18,200-18,900元。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/today-gold-price" },
             "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
-            "dateModified": "2026-03-19T13:54:00+08:00"
+            "dateModified": "2026-03-19T14:59:00+08:00"
           })
         }}
       />
@@ -34,7 +34,7 @@ export default function TodayGoldPrice() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收服務 - 今日金價","description":"台北巧品珠寶黃金回收服務，9999純金、K金、白金高價收購。每日更新即時金價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"AggregateOffer","priceCurrency":"TWD","lowPrice":"6900","highPrice":"19140","offerCount":"6","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"86"}})
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收服務 - 今日金價","description":"台北巧品珠寶黃金回收服務，9999純金、K金、白金高價收購。每日更新即時金價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"AggregateOffer","priceCurrency":"TWD","lowPrice":"6700","highPrice":"18940","offerCount":"6","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"86"}})
         }}
       />
       <h1>📊 今日金價｜黃金一錢多少錢</h1>
@@ -49,11 +49,11 @@ export default function TodayGoldPrice() {
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金回收（24K）</td>
-            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 'bold', color: '#B8860B' }}>約 $18,560/錢</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 'bold', color: '#B8860B' }}>約 $18,260/錢</td>
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd' }}>黃金賣出</td>
-            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $19,140/錢</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'right' }}>約 $18,940/錢</td>
           </tr>
         </table>
       </div>
@@ -69,7 +69,7 @@ export default function TodayGoldPrice() {
       <h2>💡 黃金回收計算方式</h2>
       <div style={{ background: '#f0f0f0', padding: '1rem', borderRadius: '8px', fontFamily: 'monospace' }}>
         <p>回收金額 = 重量（錢）× 當日牌價 × 純度</p>
-        <p>例如：5錢 × $18,560 × 100% = <strong>$92,800</strong></p>
+        <p>例如：5錢 × $18,260 × 100% = <strong>$91,300</strong></p>
       </div>
 
       <h2>📊 其他金屬參考</h2>
@@ -80,15 +80,15 @@ export default function TodayGoldPrice() {
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>18K金（75%）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $10,214/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $10,046/錢</td>
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>14K金（58.5%）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $7,296/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $7,176/錢</td>
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ddd' }}>白金（鉑金）</td>
-          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $6,900/錢</td>
+          <td style={{ padding: '10px', border: '1px solid #ddd' }}>約 $6,700/錢</td>
         </tr>
       </table>
 
