@@ -221,6 +221,9 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             </div>
         </nav>
 
+        {/* H1 主標題 - SEO 必要，視覺上隱藏但爬蟲可見 */}
+        <h1 className="sr-only">巧品珠寶｜台北黃金回收推薦・K金白金鑽石高價收購・即時金價查詢</h1>
+
         {/* 跑馬燈 */}
         <div className="bg-red-900 text-white text-sm py-2 overflow-hidden relative z-30 shadow-md">
             <div className="whitespace-nowrap animate-marquee inline-block pl-[100%]">
