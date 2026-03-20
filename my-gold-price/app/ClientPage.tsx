@@ -171,27 +171,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
 
   return (
     <div>
-        {/* Hero LCP image: always in DOM for preload to work, hidden when not on home view */}
-        <img
-          src="/hero.webp"
-          alt="巧品珠寶店面 - 台北大安區黃金回收專門店"
-          fetchPriority="high"
-          loading="eager"
-          width="1200"
-          height="630"
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100svh',
-            objectFit: 'cover',
-            zIndex: view === 'home' ? 0 : -1,
-            visibility: view === 'home' ? 'visible' : 'hidden',
-            pointerEvents: 'none',
-          }}
-        />
+        {/* Hero image is rendered in layout.tsx (server component) for optimal LCP */}
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
@@ -272,7 +252,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <h2 className="text-xl font-bold border-l-4 border-red-800 pl-3">每日報價</h2>
                                 <span className="text-sm font-bold bg-white border px-2 py-1 rounded">單位: {unit === 'qian' ? '台錢' : '公克'}</span>
                             </div>
-                            <div className="overflow-x-auto max-h-[600px] overflow-y-auto">
+                            <div className="overflow-x-auto max-h-[600px] min-h-[200px] overflow-y-auto">
                                 <table className="w-full min-w-[700px]">
                                     <thead className="sticky top-0 z-10 shadow-sm bg-[#FEF2F2]">
                                         <tr>
@@ -286,6 +266,13 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        {isLoading && Array.from({length: 5}).map((_, i) => (
+                                            <tr key={`skeleton-${i}`} className="animate-pulse">
+                                                {Array.from({length: 7}).map((_, j) => (
+                                                    <td key={j} className="table-cell"><div className="h-4 bg-gray-200 rounded w-3/4 mx-auto"></div></td>
+                                                ))}
+                                            </tr>
+                                        ))}
                                         {dailyTable.slice(0, visibleQuoteCount).map((row: any, i: number) => (
                                             <tr key={i} className="hover:bg-gray-50 transition-colors">
                                                 <td className="table-cell text-xs font-mono text-gray-600">{row.date}</td>
@@ -319,8 +306,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
                                     <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <span className="text-amber-500 text-lg">♛</span></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700 min-h-[36px]">{isLoading ? <span className="inline-block w-20 h-7 bg-gray-200 rounded animate-pulse"></span> : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1 min-h-[20px]">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700 min-h-[36px]">{isLoading ? <span className="inline-block w-20 h-7 bg-gray-200 rounded animate-pulse"></span> : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1 min-h-[20px]">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
                                     </div>
                                 </div>
                              </div>
@@ -402,8 +389,8 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <div className="bg-red-50 p-4 m-4 rounded-xl border border-red-100">
                                     <div className="flex justify-between text-sm mb-2 font-bold text-red-800"><span>黃金 (24K)</span> <span className="text-amber-500 text-lg">♛</span></div>
                                     <div className="flex justify-between">
-                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700">{isLoading ? '---' : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
-                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700">{isLoading ? '---' : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2 border-r border-red-200"><div className="text-xs text-gray-600">回收(Buy)</div><div className="text-2xl font-bold text-green-700 min-h-[36px]">{isLoading ? <span className="inline-block w-20 h-7 bg-gray-200 rounded animate-pulse"></span> : formatPrice(rates['24K']?.buy || 0)}</div><div className="mt-1 min-h-[20px]">{isLoading ? null : renderDiff(rates['24K']?.buyDiff || 0)}</div></div>
+                                        <div className="text-center w-1/2"><div className="text-xs text-gray-600">賣出(Sell)</div><div className="text-xl font-bold text-blue-700 min-h-[36px]">{isLoading ? <span className="inline-block w-20 h-7 bg-gray-200 rounded animate-pulse"></span> : formatPrice(rates['24K']?.sell || 0)}</div><div className="mt-1 min-h-[20px]">{isLoading ? null : renderDiff(rates['24K']?.sellDiff || 0)}</div></div>
                                     </div>
                                 </div>
                             </div>
