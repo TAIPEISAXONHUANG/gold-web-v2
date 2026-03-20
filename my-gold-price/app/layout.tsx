@@ -257,6 +257,136 @@ export default function RootLayout({
           }}
         />
 
+        {/* 12. Organization Schema - 讓 AI 認識品牌身份 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://www.gold-tw.com/#organization",
+              "name": "巧品珠寶",
+              "alternateName": ["巧品", "QIAO PIN JEWELRY"],
+              "url": "https://www.gold-tw.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.gold-tw.com/logo.webp",
+                "width": 200,
+                "height": 200
+              },
+              "image": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80",
+              "description": "台北大安區實體銀樓，專營黃金、K金、白金、鑽石高價回收。10年經驗，誠信透明，當場現金付款。",
+              "telephone": "+886-986821626",
+              "email": "qiaopinjewelry@gmail.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "濟南路三段62-1號",
+                "addressLocality": "大安區",
+                "addressRegion": "台北市",
+                "postalCode": "106",
+                "addressCountry": "TW"
+              },
+              "foundingDate": "2015",
+              "areaServed": {
+                "@type": "City",
+                "name": "台北市"
+              },
+              "sameAs": [
+                "https://www.facebook.com/QPJEWELRY.OFFICIAL",
+                "https://www.instagram.com/qiaopin.jewelry/",
+                "https://www.youtube.com/channel/UCz9j9M8vmULxloH0-NKYkXw",
+                "https://www.tiktok.com/@qpdiamond666",
+                "https://qiaopin.pixnet.net"
+              ],
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+886-986821626",
+                  "contactType": "customer service",
+                  "areaServed": "TW",
+                  "availableLanguage": "zh-TW",
+                  "hoursAvailable": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                    "opens": "11:00",
+                    "closes": "03:30"
+                  }
+                }
+              ]
+            })
+          }}
+        />
+
+        {/* 13. Service/Product Schema - 讓 AI 知道你提供哪些服務 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": "巧品珠寶回收服務項目",
+              "description": "台北巧品珠寶提供各類貴金屬高價回收服務",
+              "url": "https://www.gold-tw.com",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "Service",
+                    "@id": "https://www.gold-tw.com/#service-gold",
+                    "name": "黃金回收",
+                    "description": "9999純金、各種純度黃金飾品高價回收，當日牌價計算，不扣耗損，現場現金付款。",
+                    "provider": { "@id": "https://www.gold-tw.com/#organization" },
+                    "areaServed": { "@type": "City", "name": "台北市" },
+                    "offers": {
+                      "@type": "Offer",
+                      "priceCurrency": "TWD",
+                      "availability": "https://schema.org/InStock",
+                      "description": "依當日黃金牌價計算，免費估價"
+                    }
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "Service",
+                    "@id": "https://www.gold-tw.com/#service-kgold",
+                    "name": "K金回收",
+                    "description": "18K、14K、10K、8K等各種K金回收，依純度比例計算，公開透明。",
+                    "provider": { "@id": "https://www.gold-tw.com/#organization" },
+                    "areaServed": { "@type": "City", "name": "台北市" }
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "Service",
+                    "@id": "https://www.gold-tw.com/#service-platinum",
+                    "name": "白金/鉑金回收",
+                    "description": "PT950、PT900等各種鉑金飾品高價回收，專業檢測。",
+                    "provider": { "@id": "https://www.gold-tw.com/#organization" },
+                    "areaServed": { "@type": "City", "name": "台北市" }
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "Service",
+                    "@id": "https://www.gold-tw.com/#service-diamond",
+                    "name": "鑽石回收",
+                    "description": "各種克拉數鑽石高價回收，GIA證書加分，專業鑑定。",
+                    "provider": { "@id": "https://www.gold-tw.com/#organization" },
+                    "areaServed": { "@type": "City", "name": "台北市" }
+                  }
+                }
+              ]
+            })
+          }}
+        />
+
         {/* 11. Speakable Schema (語音搜尋優化) */}
         <script
           type="application/ld+json"
