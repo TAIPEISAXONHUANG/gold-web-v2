@@ -387,15 +387,36 @@ export default function RootLayout({
           }}
         />
 
-        {/* 11. Speakable Schema (語音搜尋優化) */}
+        {/* 11. WebPage + Speakable Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
+              "@id": "https://www.gold-tw.com/#webpage",
               "name": "巧品珠寶 - 台北黃金回收推薦",
               "url": "https://www.gold-tw.com",
+              "description": "台北大安區實體銀樓，專營黃金回收、K金、白金、鑽石高價收購。即時金價查詢，免費估價。",
+              "inLanguage": "zh-TW",
+              "isPartOf": { "@id": "https://www.gold-tw.com/#website" },
+              "about": { "@id": "https://www.gold-tw.com/#business" },
+              "author": {
+                "@type": "Organization",
+                "name": "巧品珠寶",
+                "@id": "https://www.gold-tw.com/#organization"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "巧品珠寶",
+                "@id": "https://www.gold-tw.com/#organization"
+              },
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.gold-tw.com" }
+                ]
+              },
               "speakable": {
                 "@type": "SpeakableSpecification",
                 "cssSelector": ["h1", ".hero-text-shadow", "#rates-desktop"]
