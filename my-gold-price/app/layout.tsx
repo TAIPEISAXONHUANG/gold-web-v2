@@ -96,7 +96,7 @@ export default function RootLayout({
                 "latitude": "25.046",
                 "longitude": "121.537"
               },
-              "openingHours": ["Mo-Su 11:00-03:30"],
+              "openingHours": ["Mo-Su 11:00-27:30"],
               "priceRange": "$$",
               "image": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80",
               "sameAs": [
@@ -309,7 +309,7 @@ export default function RootLayout({
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
                     "opens": "11:00",
-                    "closes": "03:30"
+                    "closes": "27:30"
                   }
                 }
               ]
@@ -387,7 +387,53 @@ export default function RootLayout({
           }}
         />
 
-        {/* 11. WebPage + Speakable Schema */}
+        {/* 11. HowTo Schema - 黃金回收流程 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "如何在巧品珠寶進行黃金回收",
+              "description": "台北巧品珠寶黃金回收完整流程，從攜帶證件到現場收款，全程透明公開。",
+              "totalTime": "PT30M",
+              "supply": [
+                { "@type": "HowToSupply", "name": "身份證正本" },
+                { "@type": "HowToSupply", "name": "欲回收的黃金/K金/白金/鑽石" }
+              ],
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "position": 1,
+                  "name": "攜帶物品到店",
+                  "text": "攜帶身份證正本及欲回收的貴金屬，前往台北市大安區濟南路三段62-1號1樓。建議事先電話或LINE預約。",
+                  "url": "https://www.gold-tw.com/#contact"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 2,
+                  "name": "專業檢測鑑定",
+                  "text": "我們使用 XRF 螢光儀等專業設備當場檢測純度，過程公開透明，客戶全程在場見證。"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 3,
+                  "name": "當場秤重報價",
+                  "text": "依當日黃金牌價 × 重量 × 純度計算回收金額，不扣秤、不扣耗損，報價當場確認。",
+                  "url": "https://www.gold-tw.com/today-gold-price"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 4,
+                  "name": "同意後現場付款",
+                  "text": "客戶確認報價後，現場以現金支付，無需等待，即時完成交易。"
+                }
+              ]
+            })
+          }}
+        />
+
+        {/* 12. WebPage + Speakable Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
