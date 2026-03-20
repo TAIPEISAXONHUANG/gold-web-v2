@@ -67,36 +67,7 @@ export default function RootLayout({
 
         {children}
 
-        {/* 3. Google Global Tag - afterInteractive 避免阻塞 FCP/LCP */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LDD35TNS69"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-LDD35TNS69');
-            gtag('config', 'AW-356014880');
-          `}
-        </Script>
-
-        {/* 4. Meta Pixel - lazyOnload 最低優先，不影響 LCP */}
-        <Script id="fb-pixel" strategy="lazyOnload">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1509088996230503');
-            fbq('track', 'PageView');
-          `}
-        </Script>
+        {/* GA4、Google Ads、Meta Pixel 已移至 GTM-PHHGGGMF 管理，此處不重複載入 */}
 
         {/* FontAwesome removed - replaced with inline SVG icons */}
 
