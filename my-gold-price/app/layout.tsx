@@ -421,7 +421,7 @@ export default function RootLayout({
                 "@type": "SpeakableSpecification",
                 "cssSelector": ["h1", ".hero-text-shadow", "#rates-desktop"]
               },
-              "about": [
+              "mentions": [
                 { "@type": "Thing", "name": "黃金回收", "sameAs": "https://zh.wikipedia.org/wiki/黃金" },
                 { "@type": "Thing", "name": "金價", "sameAs": "https://zh.wikipedia.org/wiki/金價" },
                 { "@type": "Thing", "name": "K金", "sameAs": "https://zh.wikipedia.org/wiki/克拉_(純度)" }
