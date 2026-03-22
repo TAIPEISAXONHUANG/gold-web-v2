@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   description: '黃金回收FAQ：哪裡可以賣黃金？黃金回收怎麼算？一篇解答所有問題！',
   keywords: '黃金回收FAQ,黃金問題,賣黃金問題,黃金回收常見問題',
   alternates: {
-    canonical: 'https://www.gold-tw.com/faq-structured',
+    canonical: 'https://www.gold-tw.com/faq',
+  },
+  robots: {
+    index: false,
+    follow: true,
   },
 };
 
