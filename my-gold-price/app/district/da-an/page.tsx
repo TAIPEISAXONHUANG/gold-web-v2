@@ -47,6 +47,7 @@ export default function Page() {
               "postalCode": "106",
               "addressCountry": "TW"
             },
+            "image": "https://www.gold-tw.com/og-image.webp",
             "geo": { "@type": "GeoCoordinates", "latitude": "25.046", "longitude": "121.537" },
             "openingHours": ["Mo-Sa 11:00-21:30"],
             "priceRange": "$$",

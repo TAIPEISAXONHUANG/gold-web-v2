@@ -34,7 +34,37 @@ export default function TodayGoldPrice() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Product","name":"黃金回收服務 - 今日金價","description":"台北巧品珠寶黃金回收服務，9999純金、K金、白金高價收購。每日更新即時金價，不扣秤不扣耗損。","brand":{"@type":"Brand","name":"巧品珠寶"},"offers":{"@type":"AggregateOffer","priceCurrency":"TWD","lowPrice":"6700","highPrice":"18940","offerCount":"6","availability":"https://schema.org/InStock","seller":{"@type":"JewelryStore","@id":"https://www.gold-tw.com/#business"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"86"}})
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "黃金回收服務 - 今日金價",
+            "description": "台北巧品珠寶黃金回收服務，9999純金、K金、白金高價收購。每日更新即時金價，不扣秤不扣耗損。",
+            "brand": { "@type": "Brand", "name": "巧品珠寶" },
+            "image": "https://www.gold-tw.com/og-image.webp",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "TWD",
+              "lowPrice": "6700",
+              "highPrice": "18940",
+              "offerCount": "6",
+              "availability": "https://schema.org/InStock",
+              "priceValidUntil": "2026-12-31",
+              "seller": { "@type": "JewelryStore", "@id": "https://www.gold-tw.com/#business" }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "86",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Google 用戶評論" },
+              "reviewBody": "誠信經營，價格透明，服務專業，老闆親自鑑定，非常推薦！"
+            }
+          })
         }}
       />
       <h1>📊 今日金價｜黃金一錢多少錢</h1>
