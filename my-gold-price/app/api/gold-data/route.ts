@@ -2,14 +2,16 @@ import { NextResponse } from 'next/server';
 
 const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbygJxxjK_2wd3hUB-M0XjU3SxusAWPpW99EPPqBIJjMrLWItT-4LHxSzYFatLQ-RvC9Qg/exec';
 
-export const revalidate = 120; // ISR: 每 2 分鐘重新抓 GAS
+export const revalidate = 60; // Vercel CDN: 每 60 秒重新執行一次 route
 
 export async function GET() {
   try {
+    // cache: 'no-store' 確保每次 route 執行時都從 GAS 抓最新資料
+    // 不使用 Next.js Data Cache，避免雙層快取卡住舊資料
     const [initData, chartData, articleList] = await Promise.all([
-      fetch(`${GAS_API_URL}?action=getInitData`, { next: { revalidate: 120 } }).then(r => r.json()),
-      fetch(`${GAS_API_URL}?action=getChartData`, { next: { revalidate: 120 } }).then(r => r.json()),
-      fetch(`${GAS_API_URL}?action=getArticles`, { next: { revalidate: 300 } }).then(r => r.json()),
+      fetch(`${GAS_API_URL}?action=getInitData`, { cache: 'no-store' }).then(r => r.json()),
+      fetch(`${GAS_API_URL}?action=getChartData`, { cache: 'no-store' }).then(r => r.json()),
+      fetch(`${GAS_API_URL}?action=getArticles`, { cache: 'no-store' }).then(r => r.json()),
     ]);
 
     const payload = {
@@ -23,7 +25,7 @@ export async function GET() {
 
     return NextResponse.json(payload, {
       headers: {
-        'Cache-Control': 'public, s-maxage=120, stale-while-revalidate=60',
+        'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=30',
       },
     });
   } catch (err) {
