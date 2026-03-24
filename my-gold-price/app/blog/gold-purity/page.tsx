@@ -56,20 +56,11 @@ export default function Page() {
       <h3>Q: Does higher purity mean higher recovery price?</h3>
       <p>A: Yes, 9999 pure gold commands the highest unit price; K-gold is calculated proportionally.</p>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `純度標準參考：<a href="https://www.cnsonline.com.tw" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">CNS國家標準</a>及ISO 9202國際貴金屬純度標準`}} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"24K和18K差多少？","acceptedAnswer":{"@type":"Answer","text":"24K含金量99.9%、18K含金量75%。同重量的話，18K回收價約為24K的75%。"}},{"@type":"Question","name":"怎麼知道我的金飾是幾K？","acceptedAnswer":{"@type":"Answer","text":"看金飾上的印記：999=24K、750=18K、585=14K、417=10K。也可以到店用儀器檢測。"}},{"@type":"Question","name":"純度檢測會弄壞金飾嗎？","acceptedAnswer":{"@type":"Answer","text":"XRF螢光分析是非破壞性檢測，不會損傷物品。火燒測試才會留下痕跡，會事先徵得同意。"}}]})
-        }}
-      />
-      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 24K和18K差多少？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 24K含金量99.9%、18K含金量75%。同重量的話，18K回收價約為24K的75%。</p>
-        </div>
+        <strong>延伸閱讀：</strong>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+          <li><a href="https://www.cnsonline.com.tw" style={{ color: '#B8860B' }}>CNS國家標準</a></li>
+        </ul>
+      </div>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼知道我的金飾是幾K？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 看金飾上的印記：999=24K、750=18K、585=14K、417=10K。也可以到店用儀器檢測。</p>
