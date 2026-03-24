@@ -95,21 +95,12 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-  <strong>延伸閱讀：</strong>
-  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-    <li><a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金價格</a></li>
-    <li><a href="/blog/gold-price-forecast-2026" style={{ color: '#B8860B' }}>2026年黃金價格預測</a></li>
-    <li><a href="/blog/gold-price-guide-2026" style={{ color: '#B8860B' }}>黃金價格完整指南</a></li>
-    <li><a href="/blog/gold-price-key-factors" style={{ color: '#B8860B' }}>影響黃金價格的關鍵因素</a></li>
-  </ul>
-</div>
-
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/factors-affecting-gold-price" style={{ color: "#B8860B" }}>影響黃金價格因素</a></li>
-        <li><a href="/blog/gold-price-key-factors" style={{ color: "#B8860B" }}>黃金價格關鍵因素</a></li>
-        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
-        <li><a href="/blog/gold-shop-vs-recycling-shop" style={{ color: "#B8860B" }}>銀樓vs回收商</a></li>
+          <li><a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金價格</a></li>
+          <li><a href="/blog/gold-price-forecast-2026" style={{ color: '#B8860B' }}>2026年黃金價格預測</a></li>
+          <li><a href="/blog/gold-price-guide-2026" style={{ color: '#B8860B' }}>黃金價格完整指南</a></li>
+          <li><a href="/blog/gold-price-key-factors" style={{ color: '#B8860B' }}>影響黃金價格的關鍵因素</a></li>
         </ul>
       </div>
 
