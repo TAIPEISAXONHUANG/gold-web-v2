@@ -95,12 +95,12 @@ export default function Page() {
         </div>
       </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
-        <li><a href="/blog/gold-calculator" style={{ color: "#B8860B" }}>黃金回收計算</a></li>
-        <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金完整指南</a></li>
-        <li><a href="/blog/gold-culture" style={{ color: "#B8860B" }}>黃金文化歷史</a></li>
+          <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a></li>
+          <li><a href="/blog/gold-calculator" style={{ color: '#B8860B' }}>黃金回收計算</a></li>
+          <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金完整指南</a></li>
+          <li><a href="/blog/gold-culture" style={{ color: '#B8860B' }}>黃金文化歷史</a></li>
         </ul>
       </div>
 
