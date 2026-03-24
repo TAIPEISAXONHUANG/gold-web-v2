@@ -89,9 +89,15 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `資料參考：<a href="https://www.gold.org/goldhub/research" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會研究報告</a>、各大投行（高盛、摩根大通）年度金價展望`}} />
-      </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金價格</a></li>
+    <li><a href="/blog/gold-price-guide-2026" style={{ color: '#B8860B' }}>黃金價格完整指南</a></li>
+    <li><a href="/blog/gold-price-key-factors" style={{ color: '#B8860B' }}>影響黃金價格的關鍵因素</a></li>
+    <li><a href="/blog/factors-affecting-gold-price" style={{ color: '#B8860B' }}>影響金價的因素</a></li>
+  </ul>
+</div>
+
         <strong>相關文章：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
         <li><a href="/blog/gold-price-2026" style={{ color: "#B8860B" }}>2026黃金行情分析</a></li>
