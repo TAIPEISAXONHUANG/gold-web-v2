@@ -174,12 +174,12 @@ export default function Page() {
       <p>❌ 錯誤！部分K金表面有鍍層，長期配戴後可能會褪色或變色。保養方式依含金量與電鍍方式而異。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金回收完全攻略</a></li>
-        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度說明</a></li>
-        <li><a href="/blog/gold-recovery-faq" style={{ color: "#B8860B" }}>黃金回收FAQ</a></li>
-        <li><a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs K金vs 白金</a></li>
+          <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完全攻略</a></li>
+          <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a></li>
+          <li><a href="/blog/gold-recovery-faq" style={{ color: '#B8860B' }}>黃金回收FAQ</a></li>
+          <li><a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: '#B8860B' }}>黃金vs K金vs 白金</a></li>
         </ul>
       </div>
 
