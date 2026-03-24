@@ -232,7 +232,6 @@ export default function Page() {
   </ul>
 </div>
 
-
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢當日回收報價</h2>
