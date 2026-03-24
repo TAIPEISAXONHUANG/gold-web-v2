@@ -96,6 +96,17 @@ export default function Page() {
       <h2>🔄 K金可以回收嗎？</h2>
       <p>當然可以！K金一樣有回收價值，但價格會依含金量計算。例如18K金飾的回收價格約為黃金的75%。</p>
 
+<div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完整攻略</a></li>
+    <li><a href="/blog/karat-gold-price" style={{ color: '#B8860B' }}>K金價格計算</a></li>
+    <li><a href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收方式</a></li>
+    <li><a href="/blog/karat-gold-report" style={{ color: '#B8860B' }}>K金完整報告</a></li>
+  </ul>
+</div>
+
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢當日回收報價</h2>
