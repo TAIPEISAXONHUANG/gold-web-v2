@@ -198,14 +198,14 @@ export default function Page() {
         </details>
       </div>
 
-<div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-  <strong>延伸閱讀：</strong>
-  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-    <li><a href="/blog/taipei-gold-recovery" style={{ color: '#B8860B' }}>台北黃金回收推薦</a></li>
-    <li><a href="/blog/new-taipei-gold-recovery" style={{ color: '#B8860B' }}>新北黃金回收</a></li>
-    <li><a href="/blog/taichung-gold-recovery" style={{ color: '#B8860B' }}>台中黃金回收</a></li>
-  </ul>
-</div>
+      <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+        <strong>延伸閱讀：</strong>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+          <li><a href="/blog/taipei-gold-recovery" style={{ color: '#B8860B' }}>台北黃金回收推薦</a></li>
+          <li><a href="/blog/new-taipei-gold-recovery" style={{ color: '#B8860B' }}>新北黃金回收</a></li>
+          <li><a href="/blog/taichung-gold-recovery" style={{ color: '#B8860B' }}>台中黃金回收</a></li>
+        </ul>
+      </div>
 
 
       <hr style={{ margin: '2rem 0' }} />
