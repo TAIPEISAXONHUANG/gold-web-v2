@@ -64,6 +64,18 @@ export default function Page() {
       <p>A：我們依規定開立相關憑證，並依法進行實名制登記。</p>
       <h3>Q：一次賣很多黃金，會被國稅局查嗎？</h3>
       <p>A：只要是正常的個人財產處分，通常不會有問題。如擔心，建議諮詢稅務專業人員。</p>
+      <section style={{ marginTop: '2.5rem', padding: '2rem', background: '#f9fafb', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
+        <h2 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1f2937', marginTop: 0, marginBottom: '1rem' }}>❓ 常見問題</h2>
+        <div style={{ marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
+          <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', color: '#1f2937' }}>Q: 賣黃金超過多少要申報？</h3>
+          <p style={{ margin: 0, color: '#4b5563', lineHeight: '1.6' }}>A: 大額交易（單筆50萬元以上）依規定可能需要申報。建議保留交易明細作為報稅依據。</p>
+        </div>
+        <div style={{ marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
+          <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', color: '#1f2937' }}>Q: 黃金回收店會幫忙開收據嗎？</h3>
+          <p style={{ margin: 0, color: '#4b5563', lineHeight: '1.6' }}>A: 正規店家會出具交易明細或收據，載明重量、純度、單價和總金額。</p>
+        </div>
+      </section>
+
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
@@ -71,15 +83,6 @@ export default function Page() {
           <li><a href="https://www.mof.gov.tw" style={{ color: '#B8860B' }}>財政部</a></li>
         </ul>
       </div>
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金超過多少要申報？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 大額交易（單筆50萬元以上）依規定可能需要申報。建議保留交易明細作為報稅依據。</p>
-        </div>
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收店會幫忙開收據嗎？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家會出具交易明細或收據，載明重量、純度、單價和總金額。</p>
-        </div>
-      </section>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
