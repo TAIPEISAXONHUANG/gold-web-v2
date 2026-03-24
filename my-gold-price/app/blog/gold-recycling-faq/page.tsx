@@ -91,6 +91,16 @@ export default function Page() {
         <li>要求檢測過程公開透明</li>
       </ul>
 
+<div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/gold-recovery-common-questions" style={{ color: '#B8860B' }}>黃金回收常見問題</a></li>
+    <li><a href="/blog/gold-recovery-faq" style={{ color: '#B8860B' }}>黃金回收FAQ</a></li>
+    <li><a href="/blog/gold-recovery-faq-guide" style={{ color: '#B8860B' }}>黃金回收FAQ完整攻略</a></li>
+  </ul>
+</div>
+
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢當日回收報價</h2>
