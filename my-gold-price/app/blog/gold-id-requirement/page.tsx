@@ -56,20 +56,15 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `法規依據：<a href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">洗錢防制法</a>及<a href="https://www.fsc.gov.tw" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">金融監督管理委員會</a>相關規定`}} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"賣黃金為什麼要身份證？","acceptedAnswer":{"@type":"Answer","text":"依洗錢防制法規定，貴金屬交易需進行實名制登記，這是保護買賣雙方的法定程序。"}},{"@type":"Question","name":"用健保卡可以嗎？","acceptedAnswer":{"@type":"Answer","text":"不行。法規要求的是身份證正本，健保卡、駕照等無法替代。"}},{"@type":"Question","name":"未成年可以賣黃金嗎？","acceptedAnswer":{"@type":"Answer","text":"未滿18歲需由法定代理人（父母）陪同並出示雙方身份證件才能進行交易。"}}]})
-        }}
-      />
-      <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金為什麼要身份證？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 依洗錢防制法規定，貴金屬交易需進行實名制登記，這是保護買賣雙方的法定程序。</p>
-        </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收完整流程</a></li>
+    <li><a href="/blog/gold-appraise" style={{ color: '#B8860B' }}>黃金鑑定方法</a></li>
+    <li><a href="/blog/broken-gold-recovery" style={{ color: '#B8860B' }}>斷掉的金飾可以回收嗎</a></li>
+    <li><a href="/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必知事項</a></li>
+  </ul>
+</div>
+
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 用健保卡可以嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不行。法規要求的是身份證正本，健保卡、駕照等無法替代。</p>
