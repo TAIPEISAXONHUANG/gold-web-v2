@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金與K金完整比較｜純度、價格、優缺點一篇看懂｜巧品珠寶',
@@ -46,7 +46,7 @@ export default function Page() {
       <p><strong>K金</strong>是黃金與其他金屬（銀、銅、鎳等）的合金，添加其他金屬是為了<strong>增加硬度與耐久性</strong>。K數代表含金量，常見的有24K、22K、18K、14K、10K。</p>
 
       <h2>黃金與K金純度對照表</h2>
-      <table style={{ width: '100{'$'}{'%'}, borderCollapse: 'collapse', margin: '1rem 0' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f59e0b', color: 'white' }}>
             <th style={{ padding: '10px', textAlign: 'left' }}>K數</th>
@@ -127,7 +127,7 @@ export default function Page() {
       <h2>黃金與K金價格計算</h2>
       <p>回收價格公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>假設當日金價為每錢6,000元，1兩（5錢）的黃金：</p>
-      <table style={{ width: '100{'$'}{'%'}, borderCollapse: 'collapse', margin: '1rem 0' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <tbody>
           <tr style={{ borderBottom: '1px solid #ddd' }}>
             <td style={{ padding: '10px' }}>24K（99.99{'$'}{'%'}）</td>
