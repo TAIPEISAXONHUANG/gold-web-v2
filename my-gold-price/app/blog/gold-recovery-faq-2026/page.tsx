@@ -80,12 +80,12 @@ export default function Page() {
       <p>A：建議預約以避免久候，但也可以直接過來。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-recovery-faq" style={{ color: "#B8860B" }}>黃金回收FAQ</a></li>
-        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
-        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
-        <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼</a></li>
+          <li><a href="/blog/gold-recovery-faq" style={{ color: '#B8860B' }}>黃金回收FAQ</a></li>
+          <li><a href="/blog/gold-appraise" style={{ color: '#B8860B' }}>黃金免費估價</a></li>
+          <li><a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收流程</a></li>
+          <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: '#B8860B' }}>賣黃金要帶什麼</a></li>
         </ul>
       </div>
 
