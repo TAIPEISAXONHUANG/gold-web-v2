@@ -188,10 +188,10 @@ export default function Page() {
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金回收完全攻略</a></li>
-        <li><a href="/blog/gold-purity" style={{ color: "#B8860B" }}>黃金純度詳細說明</a></li>
-        <li><a href="/blog/gold-recovery-common-questions" style={{ color: "#B8860B" }}>黃金回收常見問題</a></li>
-        <li><a href="/blog/gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs白金哪個好</a></li>
+          <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完全攻略</a></li>
+          <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度詳細說明</a></li>
+          <li><a href="/blog/gold-recovery-common-questions" style={{ color: '#B8860B' }}>黃金回收常見問題</a></li>
+          <li><a href="/blog/gold-vs-platinum" style={{ color: '#B8860B' }}>黃金vs白金哪個好</a></li>
         </ul>
       </div>
 
