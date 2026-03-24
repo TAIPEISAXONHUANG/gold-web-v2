@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
@@ -138,7 +138,7 @@ export default function Page() {
       <p>A：<strong>只要純度相同，價格就相同</strong>。款式、品牌、工藝都不影響回收價。項鍊可能因爲有鍊子損耗而稍微扣重，但這要看各店規定。</p>
 
       <h3>Q20：賣黃金需要繳稅嗎？</h3>
-      <<p>A：一般<strong>個人出售黃金不需要繳稅</strong>。但如果您是營利事業或有大量交易，可能需要配合相關稅務規定。建議諮詢專業會計師。</p>
+      <p>A：一般<strong>個人出售黃金不需要繳稅</strong>。但如果您是營利事業或有大量交易，可能需要配合相關稅務規定。建議諮詢專業會計師。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>相關文章：</strong>
