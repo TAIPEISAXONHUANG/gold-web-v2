@@ -80,15 +80,6 @@ export default function Page() {
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家會出具交易明細或收據，載明重量、純度、單價和總金額。</p>
         </div>
       </section>
-      </div>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/inheritance-gold" style={{ color: "#B8860B" }}>繼承黃金處理</a></li>
-        <li><a href="/blog/gold-liquid" style={{ color: "#B8860B" }}>黃金變現指南</a></li>
-        <li><a href="/blog/before-selling-gold" style={{ color: "#B8860B" }}>賣黃金前準備</a></li>
-        <li><a href="/blog/gold-should-know" style={{ color: "#B8860B" }}>賣黃金必知事項</a></li>
-        </ul>
-      </div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
