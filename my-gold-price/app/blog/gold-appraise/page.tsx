@@ -77,14 +77,14 @@ export default function Page() {
       <p>A：可以先傳照片到LINE初步估算，但正式報價需要現場秤重鑑定。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
-        <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼</a></li>
-        <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金詐騙防範</a></li>
-        <li><a href="/blog/gold-shop-recommend" style={{ color: "#B8860B" }}>台北黃金回收推薦</a></li>
-        </ul>
-      </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收完整流程</a></li>
+    <li><a href="/blog/gold-id-requirement" style={{ color: '#B8860B' }}>黃金回收需要什麼證件</a></li>
+    <li><a href="/blog/broken-gold-recovery" style={{ color: '#B8860B' }}>斷掉的金飾可以回收嗎</a></li>
+    <li><a href="/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必知事項</a></li>
+  </ul>
+</div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
