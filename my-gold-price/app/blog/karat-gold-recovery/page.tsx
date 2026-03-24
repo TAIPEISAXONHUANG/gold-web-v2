@@ -115,15 +115,14 @@ export default function Page() {
       </div>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>延伸閱讀：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-          <li><a href="/blog/gold-9999-recovery" style={{ color: '#B8860B' }}>9999純金回收指南</a></li>
-          <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金完整知識整理</a></li>
-          <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度完整說明</a></li>
-          <li><a href="/blog/gold-identification" style={{ color: '#B8860B' }}>黃金鑑定方法</a></li>
-          <li><a href="/blog/gold-vs-k-gold-difference" style={{ color: '#B8860B' }}>黃金 vs K金有什麼不同</a></li>
-        </ul>
-      </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完整攻略</a></li>
+    <li><a href="/blog/karat-gold-price" style={{ color: '#B8860B' }}>K金價格計算</a></li>
+    <li><a href="/blog/karat-gold-report" style={{ color: '#B8860B' }}>K金完整報告</a></li>
+    <li><a href="/blog/k-gold-vs-gold" style={{ color: '#B8860B' }}>K金與黃金比較</a></li>
+  </ul>
+</div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即免費估價</h2>
