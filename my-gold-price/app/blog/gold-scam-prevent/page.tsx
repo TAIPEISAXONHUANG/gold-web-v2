@@ -83,14 +83,14 @@ export default function Page() {
         </div>
       </section>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-scale-trap" style={{ color: "#B8860B" }}>黃金秤重陷阱</a></li>
-        <li><a href="/blog/gold-recovery-traps" style={{ color: "#B8860B" }}>黃金回收陷阱</a></li>
-        <li><a href="/blog/how-to-choose-gold-shop" style={{ color: "#B8860B" }}>如何選黃金回收店</a></li>
-        <li><a href="/blog/gold-safety" style={{ color: "#B8860B" }}>黃金交易安全</a></li>
-        </ul>
-      </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/gold-scale-trap" style={{ color: '#B8860B' }}>黃金秤重陷阱揭露</a></li>
+    <li><a href="/blog/gold-recovery-traps" style={{ color: '#B8860B' }}>黃金回收常見陷阱</a></li>
+    <li><a href="/blog/gold-should-know" style={{ color: '#B8860B' }}>賣黃金前必知</a></li>
+    <li><a href="/blog/gold-safety" style={{ color: '#B8860B' }}>黃金交易安全指南</a></li>
+  </ul>
+</div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>Contact Us</h2>
