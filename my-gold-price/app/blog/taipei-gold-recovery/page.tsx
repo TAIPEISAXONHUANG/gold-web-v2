@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜哪家價格最高？大安區巧品珠寶',
@@ -174,7 +174,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a>（點此加入）</p>
+      <p>💬 LINE：@QPD888（點此加入）</p>
       <p>📍 地址：台北市大安區濟南路三段62-1號（捷運忠孝新生站步行5分鐘）</p>
       <p style={{ color: '#B8860B', fontWeight: 'bold', fontSize: '1.1rem' }}>歡迎比較！估完不滿意可以直接帶走，不強迫銷售。</p>
     </main>

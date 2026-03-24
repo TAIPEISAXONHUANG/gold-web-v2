@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金前必看清單2026｜5分鐘搞懂流程・證件・避坑｜巧品珠寶',
@@ -183,7 +183,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>台北黃金回收推薦・巧品珠寶</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a></p>
+      <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>
       <p style={{ color: '#B8860B' }}>估完不賣完全沒關係，歡迎多家比較後再決定。</p>
     </main>

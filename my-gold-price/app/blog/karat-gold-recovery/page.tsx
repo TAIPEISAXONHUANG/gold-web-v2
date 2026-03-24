@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收2026｜18K/14K/10K回收價格怎麼算？完整指南',
@@ -127,7 +127,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即免費估價</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626（點此加入）</a></p>
+      <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>
     </main>
   );

@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金攻略2026｜賣黃金前必看7件事・防詐騙・最高價｜巧品珠寶',
@@ -159,7 +159,7 @@ export default function SellGoldGuide() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即免費估價</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold', fontSize: '1.1rem' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626（點此加入）</a></p>
+      <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>
       <p style={{ color: '#B8860B', fontWeight: 'bold' }}>估完不賣完全沒關係，歡迎比較後再決定。</p>
     </main>
