@@ -70,15 +70,6 @@ export default function Page() {
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: XRF螢光分析是非破壞性檢測，不會損傷物品。火燒測試才會留下痕跡，會事先徵得同意。</p>
         </div>
       </section>
-      </div>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-identification" style={{ color: "#B8860B" }}>黃金鑑定方法</a></li>
-        <li><a href="/blog/karat-gold-guide" style={{ color: "#B8860B" }}>K金完整指南</a></li>
-        <li><a href="/blog/gold-9999-recovery" style={{ color: "#B8860B" }}>9999純金回收</a></li>
-        <li><a href="/blog/gold-weight" style={{ color: "#B8860B" }}>黃金重量換算</a></li>
-        </ul>
-      </div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>Contact Us</h2>
