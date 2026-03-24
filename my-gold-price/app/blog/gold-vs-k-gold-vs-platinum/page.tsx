@@ -141,14 +141,14 @@ export default function Page() {
       <p>若論投資價值，<strong>純黃金（9999）</strong>的回收價值最高，也是最被廣泛接受的投資標的。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-  <strong>延伸閱讀：</strong>
-  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-    <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完整攻略</a></li>
-    <li><a href="/blog/karat-gold-price" style={{ color: '#B8860B' }}>K金價格計算</a></li>
-    <li><a href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收方式</a></li>
-    <li><a href="/blog/karat-gold-report" style={{ color: '#B8860B' }}>K金完整報告</a></li>
-  </ul>
-</div>
+        <strong>延伸閱讀：</strong>
+        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+          <li><a href="/blog/karat-gold-guide" style={{ color: '#B8860B' }}>K金回收完整攻略</a></li>
+          <li><a href="/blog/karat-gold-price" style={{ color: '#B8860B' }}>K金價格計算</a></li>
+          <li><a href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收方式</a></li>
+          <li><a href="/blog/karat-gold-report" style={{ color: '#B8860B' }}>K金完整報告</a></li>
+        </ul>
+      </div>
 
       <hr style={{ margin: '2rem 0' }} />
 
