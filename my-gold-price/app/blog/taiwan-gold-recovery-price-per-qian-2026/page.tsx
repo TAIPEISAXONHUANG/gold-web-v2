@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣黃金回收價一錢多少？2026年最新行情完整指南｜巧品珠寶',
@@ -224,7 +224,7 @@ export default function Page() {
       <h2>📞 立即查詢今日回收報價</h2>
       <p>台北大安區實體店面，10年經驗，不扣耗損，當場現金付款。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://pse.is/8hndu3" style={{ color: '#B8860B' }}>@Hh0986481626</a></p>
+      <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
