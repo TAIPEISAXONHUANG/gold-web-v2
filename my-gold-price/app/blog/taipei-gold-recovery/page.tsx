@@ -163,14 +163,13 @@ export default function Page() {
       <p>A：可以。無論在哪裡購買的黃金，只要是真金我們都收購。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-appraise" style={{ color: "#B8860B" }}>黃金免費估價</a></li>
-        <li><a href="/blog/gold-shop-recommend" style={{ color: "#B8860B" }}>台北黃金回收推薦</a></li>
-        <li><a href="/blog/how-to-choose-gold-shop" style={{ color: "#B8860B" }}>如何選黃金回收店</a></li>
-        <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金詐騙防範</a></li>
-        </ul>
-      </div>
+  <strong>延伸閱讀：</strong>
+  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+    <li><a href="/blog/taipei-gold-recycling-recommend" style={{ color: '#B8860B' }}>台北黃金回收店推薦</a></li>
+    <li><a href="/blog/new-taipei-gold-recovery" style={{ color: '#B8860B' }}>新北黃金回收</a></li>
+    <li><a href="/blog/taichung-gold-recovery" style={{ color: '#B8860B' }}>台中黃金回收</a></li>
+  </ul>
+</div>
 
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
