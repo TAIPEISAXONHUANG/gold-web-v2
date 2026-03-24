@@ -58,15 +58,10 @@ export default function Page() {
       </ul>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-      <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `歷史價格數據：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">台灣銀行</a>歷年黃金/白金牌價、<a href="https://www.gold.org" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">世界黃金協會</a>投資統計數據`}} />
-      </div>
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-vs-platinum" style={{ color: "#B8860B" }}>黃金vs白金比較</a></li>
-        <li><a href="/blog/gold-coin-invest" style={{ color: "#B8860B" }}>黃金硬幣投資</a></li>
-        <li><a href="/blog/gold-bar-recovery" style={{ color: "#B8860B" }}>黃金條塊回收</a></li>
-        <li><a href="/blog/gold-price-forecast-2026" style={{ color: "#B8860B" }}>2026黃金預測</a></li>
+          <li><a href="https://rate.bot.com.tw/gold" style={{ color: '#B8860B' }}>台灣銀行</a></li>
+          <li><a href="https://www.gold.org" style={{ color: '#B8860B' }}>世界黃金協會</a></li>
         </ul>
       </div>
 
