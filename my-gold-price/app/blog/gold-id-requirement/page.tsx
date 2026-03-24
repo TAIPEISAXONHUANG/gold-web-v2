@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收證件要求｜實名制登記必看',
@@ -62,25 +62,6 @@ export default function Page() {
           <li><a href="/blog/gold-appraise" style={{ color: '#B8860B' }}>黃金鑑定方法</a></li>
           <li><a href="/blog/broken-gold-recovery" style={{ color: '#B8860B' }}>斷掉的金飾可以回收嗎</a></li>
           <li><a href="/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必知事項</a></li>
-        </ul>
-      </div>
-
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 用健保卡可以嗎？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不行。法規要求的是身份證正本，健保卡、駕照等無法替代。</p>
-        </div>
-        <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
-          <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 未成年可以賣黃金嗎？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 未滿18歲需由法定代理人（父母）陪同並出示雙方身份證件才能進行交易。</p>
-        </div>
-      </section>
-      </div>
-        <strong>相關文章：</strong>
-        <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/before-selling-gold" style={{ color: "#B8860B" }}>賣黃金前準備</a></li>
-        <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: "#B8860B" }}>賣黃金要帶什麼</a></li>
-        <li><a href="/blog/gold-should-know" style={{ color: "#B8860B" }}>賣黃金必知事項</a></li>
-        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
         </ul>
       </div>
 
