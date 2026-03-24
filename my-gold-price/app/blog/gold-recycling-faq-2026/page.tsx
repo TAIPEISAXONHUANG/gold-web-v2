@@ -102,10 +102,10 @@ export default function Page() {
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-recovery-common-questions" style={{ color: "#B8860B" }}>黃金回收常見問題</a></li>
-        <li><a href="/blog/gold-recycling-process" style={{ color: "#B8860B" }}>黃金回收流程</a></li>
-        <li><a href="/blog/gold-scam-prevent" style={{ color: "#B8860B" }}>黃金防詐騙指南</a></li>
-        <li><a href="/blog/how-to-choose-gold-shop" style={{ color: "#B8860B" }}>如何挑選黃金回收店</a></li>
+          <li><a href="/blog/gold-recovery-common-questions" style={{ color: '#B8860B' }}>黃金回收常見問題</a></li>
+          <li><a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收流程</a></li>
+          <li><a href="/blog/gold-scam-prevent" style={{ color: '#B8860B' }}>黃金防詐騙指南</a></li>
+          <li><a href="/blog/how-to-choose-gold-shop" style={{ color: '#B8860B' }}>如何挑選黃金回收店</a></li>
         </ul>
       </div>
 
