@@ -135,21 +135,12 @@ export default function Page() {
       <p>隨時掌握最新金價，就能在最佳時機出手！</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-  <strong>延伸閱讀：</strong>
-  <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-    <li><a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金價格</a></li>
-    <li><a href="/blog/gold-price-forecast-2026" style={{ color: '#B8860B' }}>2026年黃金價格預測</a></li>
-    <li><a href="/blog/gold-price-guide-2026" style={{ color: '#B8860B' }}>黃金價格完整指南</a></li>
-    <li><a href="/blog/factors-affecting-gold-price" style={{ color: '#B8860B' }}>影響金價的因素</a></li>
-  </ul>
-</div>
-
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/factors-affecting-gold-price" style={{ color: "#B8860B" }}>影響黃金價格因素</a></li>
-        <li><a href="/blog/gold-price-2026" style={{ color: "#B8860B" }}>2026黃金行情分析</a></li>
-        <li><a href="/blog/gold-recycling-price-factors" style={{ color: "#B8860B" }}>黃金回收價格因素</a></li>
-        <li><a href="/blog/gold-liquid" style={{ color: "#B8860B" }}>黃金變現指南</a></li>
+          <li><a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金價格</a></li>
+          <li><a href="/blog/gold-price-forecast-2026" style={{ color: '#B8860B' }}>2026年黃金價格預測</a></li>
+          <li><a href="/blog/gold-price-guide-2026" style={{ color: '#B8860B' }}>黃金價格完整指南</a></li>
+          <li><a href="/blog/factors-affecting-gold-price" style={{ color: '#B8860B' }}>影響金價的因素</a></li>
         </ul>
       </div>
 
