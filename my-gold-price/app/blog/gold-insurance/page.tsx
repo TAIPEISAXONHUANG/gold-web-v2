@@ -58,12 +58,12 @@ export default function Page() {
       <h3>Q: Is it safe to keep gold at home?</h3>
       <p>A: Small amounts are fine; large amounts are better in a bank safe deposit box.</p>
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-        <strong>相關文章：</strong>
+        <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-        <li><a href="/blog/gold-safety" style={{ color: "#B8860B" }}>黃金交易安全</a></li>
-        <li><a href="/blog/gold-liquid" style={{ color: "#B8860B" }}>黃金變現指南</a></li>
-        <li><a href="/blog/gold-coin-invest" style={{ color: "#B8860B" }}>黃金硬幣投資</a></li>
-        <li><a href="/blog/gold-bar-recovery" style={{ color: "#B8860B" }}>黃金條塊回收</a></li>
+          <li><a href="/blog/gold-safety" style={{ color: '#B8860B' }}>黃金交易安全</a></li>
+          <li><a href="/blog/gold-liquid" style={{ color: '#B8860B' }}>黃金變現指南</a></li>
+          <li><a href="/blog/gold-coin-invest" style={{ color: '#B8860B' }}>黃金硬幣投資</a></li>
+          <li><a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>黃金條塊回收</a></li>
         </ul>
       </div>
 
