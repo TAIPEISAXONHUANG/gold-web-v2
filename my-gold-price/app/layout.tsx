@@ -304,6 +304,32 @@ export default function RootLayout({
           }}
         />
 
+        {/* 11b. Person Schema - 具名專家，提升 E-E-A-T */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "@id": "https://www.gold-tw.com/#expert",
+              "name": "巧品珠寶鑑定師",
+              "jobTitle": "貴金屬鑑定師",
+              "worksFor": { "@id": "https://www.gold-tw.com/#organization" },
+              "description": "擁有10年以上貴金屬鑑定經驗，專精黃金、K金、白金、鑽石的純度鑑定與回收估價。使用XRF螢光分析儀等專業設備，提供客觀準確的鑑定服務。",
+              "url": "https://www.gold-tw.com",
+              "knowsAbout": ["黃金回收", "K金鑑定", "鑽石估價", "白金回收", "黃金純度", "貴金屬交易"],
+              "hasOccupation": {
+                "@type": "Occupation",
+                "name": "貴金屬鑑定師",
+                "occupationLocation": {
+                  "@type": "City",
+                  "name": "台北市"
+                }
+              }
+            })
+          }}
+        />
+
         {/* 11. HowTo Schema - 黃金回收流程 */}
         <script
           type="application/ld+json"
