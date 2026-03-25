@@ -95,35 +95,64 @@ export default function RootLayout({
               "@type": "JewelryStore",
               "@id": "https://www.gold-tw.com/#business",
               "name": "巧品珠寶",
-              "description": "台北大安區實體店面，專營黃金回收，白金、K金、鑽石買賣",
+              "alternateName": ["巧品珠寶黃金回收", "Qiao Pin Jewelry", "巧品黃金回收"],
+              "description": "台北大安區實體店面，專營9999純金、K金、白金（鉑金）、鑽石高價回收。10年經驗，免費估價，現場現金付款，不扣秤不扣耗損。",
               "url": "https://www.gold-tw.com",
               "telephone": "+886-986821626",
+              "email": "qiaopinjewelry@gmail.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "濟南路三段62-1號1樓",
                 "addressLocality": "大安區",
                 "addressRegion": "台北市",
-                "postalCode": "106",
+                "postalCode": "10647",
                 "addressCountry": "TW"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "25.046",
-                "longitude": "121.537"
+                "latitude": "25.0447",
+                "longitude": "121.5369"
               },
-              "openingHours": ["Mo-Su 11:00-27:30"],
+              "hasMap": "https://maps.google.com/?q=巧品珠寶+台北市大安區濟南路三段62-1號",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                  "opens": "11:00",
+                  "closes": "23:59"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                  "opens": "00:00",
+                  "closes": "03:30"
+                }
+              ],
               "priceRange": "$$",
-              "image": "https://www.gold-tw.com/og-image.webp",
+              "currenciesAccepted": "TWD",
+              "paymentAccepted": "Cash, Bank Transfer",
+              "image": [
+                "https://www.gold-tw.com/og-image.webp",
+                "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80"
+              ],
               "sameAs": [
                 "https://www.facebook.com/QPJEWELRY.OFFICIAL",
                 "https://www.instagram.com/qiaopin.jewelry/",
-                "https://www.youtube.com/channel/UCz9j9M8vmULxloH0-NKYkXw"
+                "https://www.youtube.com/channel/UCz9j9M8vmULxloH0-NKYkXw",
+                "https://www.tiktok.com/@qpdiamond666",
+                "https://qiaopin.pixnet.net"
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.8",
-                "reviewCount": "86"
-              }
+                "reviewCount": "86",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "areaServed": [
+                { "@type": "City", "name": "台北市" },
+                { "@type": "City", "name": "新北市" }
+              ]
             })
           }}
         />
