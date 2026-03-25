@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收行情2026｜各純度黃金回收價格表｜巧品珠寶',
-  description: '2026年台北黃金回收行情！9999純金、916金、18K、14K各純度回收價格一次看。巧品珠寶即時報價，電話 0986-821-626',
+  description: '2026即時更新黃金回收行情！今日金價一錢多少一次看清楚：9999純金、916金、18K、14K各純度計價公式透明。台北黃金回收推薦巧品珠寶，不扣耗損・老闆親自鑑定，電話 0986-821-626。',
   keywords: '黃金回收行情,黃金回收價格,黃金回收價格表,台北黃金回收行情2026',
   alternates: {
     canonical: 'https://www.gold-tw.com/gold-recycling-price',

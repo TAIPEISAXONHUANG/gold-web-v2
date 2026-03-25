@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '今日金價2026｜黃金一錢多少？即時回收報價查詢｜巧品珠寶',
-  description: '今日黃金回收價格查詢！2026年3月9999純金每台錢約18,200-18,900元。台北大安區巧品珠寶即時金價，免費估價電話 0986-821-626',
+  description: '今日金價一錢多少？2026即時更新！9999純金每台錢約18,200–18,900元。台北大安區巧品珠寶黃金回收推薦，不扣耗損、當場現金，立即來電 0986-821-626 免費估價。',
   keywords: '今日金價,黃金一錢多少,現在金價,黃金價格,金價查詢,今日黃金回收價',
   alternates: {
     canonical: 'https://www.gold-tw.com/today-gold-price',
