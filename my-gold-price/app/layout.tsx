@@ -5,6 +5,7 @@ import './globals.css'
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
+  themeColor: '#B8860B',
 }
 
 export const metadata: Metadata = {
@@ -45,6 +46,10 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-video-preview': -1,
     },
+  },
+  icons: {
+    icon: '/favicon.jpg',
+    apple: '/apple-touch-icon.jpg',
   },
 }
 
