@@ -35,6 +35,17 @@ export const metadata: Metadata = {
     description: '台北大安區實體店面，專營黃金回收、白金、K金買賣。每日最新金價！',
     images: ['https://www.gold-tw.com/og-image.webp'],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
+  },
 }
 
 export default function RootLayout({

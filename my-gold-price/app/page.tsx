@@ -87,6 +87,62 @@ const faqSchema = {
   ]
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "巧品珠寶回收服務",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "黃金回收",
+        "description": "9999純金、足金、黃金飾品高價回收，即時金價計算，現場現金支付",
+        "provider": { "@id": "https://www.gold-tw.com/#business" },
+        "areaServed": { "@type": "City", "name": "台北市" },
+        "url": "https://www.gold-tw.com/sell-gold-guide"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "K金回收",
+        "description": "18K、14K、10K、9K等各種K金首飾專業鑑定回收，按純度比例計算最高價",
+        "provider": { "@id": "https://www.gold-tw.com/#business" },
+        "areaServed": { "@type": "City", "name": "台北市" },
+        "url": "https://www.gold-tw.com/blog/karat-gold-recovery"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "白金（鉑金）回收",
+        "description": "Pt950、Pt900白金（鉑金）首飾專業鑑定與高價回收",
+        "provider": { "@id": "https://www.gold-tw.com/#business" },
+        "areaServed": { "@type": "City", "name": "台北市" },
+        "url": "https://www.gold-tw.com/blog/platinum-recovery"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "鑽石回收",
+        "description": "各尺寸鑽石、裸鑽、鑲嵌鑽石首飾專業評估與高價收購",
+        "provider": { "@id": "https://www.gold-tw.com/#business" },
+        "areaServed": { "@type": "City", "name": "台北市" },
+        "url": "https://www.gold-tw.com/blog/diamond-jewelry"
+      }
+    }
+  ]
+};
+
 export default async function Page() {
   const initialData = await getGoldData();
 
@@ -95,6 +151,10 @@ export default async function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <main>
         <ClientPage initialData={initialData} />
