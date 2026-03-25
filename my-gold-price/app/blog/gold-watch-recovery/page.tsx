@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金手錶回收｜勞力士等名錶收購｜巧品珠寶",
             "description": "黃金手錶回收推薦！勞力士、OMEGA等品牌黃金錶殼收購，台北巧品珠寶專業估價現金付款。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-watch-recovery" },

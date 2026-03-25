@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金文化｜黃金的象徵意義與歷史｜巧品珠寶",
             "description": "探索黃金文化！黃金在台灣與華人文化中的象徵意義、習俗與傳統。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-culture" },

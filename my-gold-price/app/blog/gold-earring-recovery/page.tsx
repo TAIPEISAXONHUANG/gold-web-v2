@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金耳環回收｜金耳環高價變現｜巧品珠寶",
             "description": "黃金耳環回收推薦！台北高價收購各式金耳環，純度鑑定透明，當場現金付款。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-earring-recovery" },

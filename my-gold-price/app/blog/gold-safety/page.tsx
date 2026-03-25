@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金保存安全指南｜如何安全存放黃金｜巧品珠寶",
             "description": "黃金保存安全完整指南！實體黃金存放方式、防盜竊風險，以及何時考慮變現的建議。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-safety" },

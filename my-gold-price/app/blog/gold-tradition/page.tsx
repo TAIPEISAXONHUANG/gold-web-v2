@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金傳統習俗｜台灣黃金文化習俗｜巧品珠寶",
             "description": "台灣黃金傳統習俗完整介紹！嫁妝金飾、彌月禮金、神明金牌等黃金文化習俗說明。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-tradition" },

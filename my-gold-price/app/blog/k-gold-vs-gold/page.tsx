@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "K金與黃金的差異｜一篇讓你搞懂貴金屬",
             "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-19",

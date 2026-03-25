@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "金牌回收｜紀念金牌｜奧運金牌變現｜巧品珠寶",
             "description": "金牌回收推薦！奧運金牌、紀念金牌、廟宇神明牌高價收購，台北巧品珠寶專業估價。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/lion-head-gold" },

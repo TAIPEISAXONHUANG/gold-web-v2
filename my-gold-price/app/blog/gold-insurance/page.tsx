@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金保險｜黃金保障規劃指南｜巧品珠寶",
             "description": "黃金保險建議！了解實體黃金的保管風險與保障規劃，台北巧品珠寶提供專業諮詢服務。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-insurance" },

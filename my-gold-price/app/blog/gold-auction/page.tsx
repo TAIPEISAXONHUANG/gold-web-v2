@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金拍賣｜黃金買賣市場行情｜巧品珠寶",
             "description": "了解黃金拍賣與買賣市場！直接找銀樓回收比拍賣平台更划算。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-auction" },

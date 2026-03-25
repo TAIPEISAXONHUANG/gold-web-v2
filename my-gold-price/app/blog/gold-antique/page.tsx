@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "古早黃金回收｜老金飾變現｜巧品珠寶",
             "description": "古早黃金、老金飾高價回收！祖傳金飾、年代久遠的黃金首飾。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-antique" },

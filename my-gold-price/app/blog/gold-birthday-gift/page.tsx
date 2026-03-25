@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金生日禮物｜送黃金首飾攻略｜巧品珠寶",
             "description": "黃金是最有意義的生日禮物！金項鍊、金手鍊、金飾推薦。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-birthday-gift" },

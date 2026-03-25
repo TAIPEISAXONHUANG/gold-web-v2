@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "2026年台灣黃金回收完整指南｜價格表・計算公式・避坑攻略",
             "description": "2026年最完整的台灣黃金回收指南，含各純度回收價格表、計算公式、常見詐騙手法、店家比較。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-price-guide-2026" },

@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金純度怎麼看？K數、9999完整說明｜巧品珠寶",
             "description": "黃金純度完整說明！9999、999、916、18K、14K差異解析，如何識別黃金純度印記。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-purity" },

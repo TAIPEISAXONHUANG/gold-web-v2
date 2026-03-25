@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金流當｜黃金典當借款說明｜巧品珠寶",
             "description": "黃金流當、典當借款說明！了解黃金流當與直接回收的差異，台北巧品珠寶提供高價收購服務。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-liquid" },

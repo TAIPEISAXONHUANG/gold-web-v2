@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "K金回收2026｜18K/14K/10K回收價格怎麼算？完整指南",
             "description": "K金回收完整指南！18K金回收價、14K金回收價計算公式，台北巧品珠寶儀器精準檢測，不扣耗損，當場現金。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/karat-gold-recovery" },

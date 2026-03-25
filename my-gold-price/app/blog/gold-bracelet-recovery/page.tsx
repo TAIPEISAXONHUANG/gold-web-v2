@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金手鐲回收｜金手鐲高價變現｜巧品珠寶",
             "description": "黃金手鐲回收推薦！台北高價收購金手鐲，不扣耗損當場付款。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-bracelet-recovery" },

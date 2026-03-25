@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金傳家｜傳家黃金保存與變現｜巧品珠寶",
             "description": "黃金傳家意義深遠！了解傳家寶金飾的保存方式與變現時機，台北巧品珠寶提供專業諮詢。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-family" },

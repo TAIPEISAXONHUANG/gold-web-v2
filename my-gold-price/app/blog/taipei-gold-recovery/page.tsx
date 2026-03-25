@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "台北黃金回收推薦2026｜哪家價格最高？完整攻略",
             "description": "台北黃金回收推薦！免費估價、當場秤重、現金付款。不扣耗損、不扣手續費。大安區實體店。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/taipei-gold-recovery" },

@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金 vs 白金 vs K金：2026年完整比較",
             "description": "黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-vs-platinum-guide" },

@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金項鍊回收｜金鍊高價變現｜巧品珠寶",
             "description": "黃金項鍊回收推薦！台北高價收購各式金項鍊，斷鍊、舊款皆可，不扣耗損當場付款。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-necklace-recovery" },

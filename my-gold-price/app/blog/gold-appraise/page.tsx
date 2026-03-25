@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金估價｜免費專業鑑定｜巧品珠寶台北",
             "description": "台北黃金免費估價！專業儀器鑑定純度，當場秤重報價。不賣也沒關係。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-appraise" },

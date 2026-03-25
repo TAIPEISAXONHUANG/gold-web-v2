@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金回收注意事項2026｜防詐騙完整指南｜巧品珠寶",
             "description": "黃金回收注意事項完整指南！扣秤、扣耗損、低報純度是最常見的陷阱，教你辨識不良業者、保護自身權益。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-recycling-precautions" },

@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "黃金重量怎麼算？台錢vs公克換算｜巧品珠寶",
             "description": "黃金重量換算完整說明！台錢、公克、兩、盎司換算表，讓你看懂黃金報價單位。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-weight" },

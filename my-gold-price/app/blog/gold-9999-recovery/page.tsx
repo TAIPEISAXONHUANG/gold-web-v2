@@ -17,7 +17,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "9999純金回收｜24K黃金高價收購｜巧品珠寶",
             "description": "台北9999純金回收推薦！24K黃金條塊、金幣、純金飾品高價回收。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-9999-recovery" },
