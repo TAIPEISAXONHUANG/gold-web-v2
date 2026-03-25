@@ -197,7 +197,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         </div>
 
         {/* 導航列 */}
-        <nav className="nav-sticky">
+        <nav className="nav-sticky" role="navigation" aria-label="主選單">
             <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
                 <div className="flex items-center gap-3 cursor-pointer" onClick={goHome}>
                     <img src="/logo.webp" className="w-10 h-10 rounded-lg object-cover border border-yellow-500" alt="巧品珠寶 Logo - 台北黃金回收推薦" loading="lazy" width="40" height="40" />
@@ -236,7 +236,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             <div>
                 {/* Hero 已移至 page.tsx server component，此處不重複渲染 */}
 
-                <main className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-12 gap-8 -mt-10 relative z-20 pb-24 md:pb-12">
+                <main className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-12 gap-8 -mt-10 relative z-20 pb-24 md:pb-12" role="main" aria-label="主要內容">
                     <div className="lg:col-span-8 space-y-8">
                         {/* 圖表 */}
                         <section className="bg-white rounded-2xl shadow-xl p-6">
@@ -454,6 +454,68 @@ export default function ClientPage({ initialData }: { initialData: any }) {
             </div>
         )}
         
+        {/* 熱門服務 & 精選文章 內部連結區塊 */}
+        {view === 'home' && (
+            <section className="bg-gray-50 border-t border-gray-200 py-12 px-4">
+                <div className="max-w-5xl mx-auto">
+                    {/* 熱門服務 */}
+                    <h2 className="text-xl font-bold text-gray-800 mb-6 border-l-4 border-red-800 pl-3">熱門回收服務</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+                        <a href="/sell-gold-guide" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 text-center hover:shadow-md hover:border-red-200 transition">
+                            <div className="text-2xl mb-2">🥇</div>
+                            <div className="font-bold text-gray-800 text-sm">黃金回收</div>
+                            <div className="text-xs text-gray-500 mt-1">9999純金高價收購</div>
+                        </a>
+                        <a href="/blog/karat-gold-recovery" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 text-center hover:shadow-md hover:border-red-200 transition">
+                            <div className="text-2xl mb-2">💍</div>
+                            <div className="font-bold text-gray-800 text-sm">K金回收</div>
+                            <div className="text-xs text-gray-500 mt-1">18K/14K按純度計算</div>
+                        </a>
+                        <a href="/blog/platinum-recovery" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 text-center hover:shadow-md hover:border-red-200 transition">
+                            <div className="text-2xl mb-2">⚪</div>
+                            <div className="font-bold text-gray-800 text-sm">白金回收</div>
+                            <div className="text-xs text-gray-500 mt-1">Pt950/Pt900專業鑑定</div>
+                        </a>
+                        <a href="/blog/diamond-jewelry" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 text-center hover:shadow-md hover:border-red-200 transition">
+                            <div className="text-2xl mb-2">💎</div>
+                            <div className="font-bold text-gray-800 text-sm">鑽石回收</div>
+                            <div className="text-xs text-gray-500 mt-1">裸鑽/鑲嵌皆收購</div>
+                        </a>
+                    </div>
+
+                    {/* 實用工具 */}
+                    <h2 className="text-xl font-bold text-gray-800 mb-6 border-l-4 border-red-800 pl-3">實用工具</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+                        <a href="/today-gold-price" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 hover:shadow-md hover:border-amber-200 transition flex items-center gap-3">
+                            <span className="text-xl">📊</span>
+                            <div><div className="font-bold text-gray-800 text-sm">今日金價</div><div className="text-xs text-gray-500">即時更新</div></div>
+                        </a>
+                        <a href="/gold-recycling-price" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 hover:shadow-md hover:border-amber-200 transition flex items-center gap-3">
+                            <span className="text-xl">💰</span>
+                            <div><div className="font-bold text-gray-800 text-sm">黃金回收價格</div><div className="text-xs text-gray-500">各成色報價</div></div>
+                        </a>
+                        <a href="/gold-price-compare" className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 hover:shadow-md hover:border-amber-200 transition flex items-center gap-3">
+                            <span className="text-xl">🔍</span>
+                            <div><div className="font-bold text-gray-800 text-sm">金價比較</div><div className="text-xs text-gray-500">多家行情比較</div></div>
+                        </a>
+                    </div>
+
+                    {/* 精選知識文章 */}
+                    <h2 className="text-xl font-bold text-gray-800 mb-6 border-l-4 border-red-800 pl-3">精選知識文章</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <a href="/blog/gold-purity" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">黃金純度怎麼看？9999/916/18K完整說明</a>
+                        <a href="/blog/gold-vs-k-gold-vs-platinum" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">K金、黃金、白金有什麼不同？</a>
+                        <a href="/blog/gold-price-guide-2026" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">2026年黃金回收完整指南</a>
+                        <a href="/blog/sell-gold-checklist-2026" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">賣黃金前必看：2026年完整清單</a>
+                        <a href="/blog/gold-recovery-traps" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">黃金回收常見陷阱與防詐指南</a>
+                        <a href="/blog/gold-id-requirement" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">賣黃金需要帶什麼證件？</a>
+                        <a href="/blog/gold-recycling-price-guide-2026" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">黃金回收價格指南 2026</a>
+                        <a href="/blog/why-some-get-better-gold-price" className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-red-200 hover:shadow-sm transition text-sm text-gray-700 hover:text-red-800 font-medium">為什麼有人賣到更好的黃金價格？</a>
+                    </div>
+                </div>
+            </section>
+        )}
+
         {/* 首頁 Footer */}
         {view === 'home' && (
              <footer className="bg-gray-900 text-gray-300 py-10 border-t border-gray-800 text-center text-xs"><p>© 2026 巧品珠寶. 版權所有.</p></footer>
