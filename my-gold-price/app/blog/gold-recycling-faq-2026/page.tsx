@@ -18,12 +18,88 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "headline": "2026年黃金回收常見問題完整解答",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
-            "datePublished": "2026-03-23",
-            "dateModified": "2026-03-23T00:00:00+08:00",
-            "description": "2026年最新黃金回收FAQ：10個新手最常見問題完整解答，涵蓋證件準備、秤重扣重、付款方式等實用資訊。"
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "2026年賣黃金要帶什麼證件？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "根據洗防條例規定，必須攜帶身份證進行實名制登記。部分優質店家可能會要求第二證件（如健保卡或駕照）做交叉比對。建議事先致電店家確認，避免白跑一趟。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金回收的秤重單位怎麼算？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "台灣常見的秤重單位有「錢」、「克」、「盎司」：1錢 = 3.75克；1兩 = 10錢 = 37.5克；1盎司 = 31.1克。專業店家會當面秤重，並讓您親眼確認數字。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "什麼是扣耗損？扣多少算合理？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "「扣耗損」是店家扣除的清洗費用，一般為5-15%。巧品珠寶不扣耗損，完全依實際重量計算，讓您賣得更划算。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金純度怎麼看？9999和999有何差別？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "數字代表黃金純度：9999 = 99.99%純金（24K）；999 = 99.9%純金；950 = 95%純金。純度越高，回收價格越好。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "K金、鍍金、合金也能回收嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以，但價格依含金量計算：18K金（75%含金）約純金的75%；14K金（58.5%含金）約純金的58.5%；鍍金不含金量，無回收價值。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金回收價格怎麼算出來的？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "公式為：當日國際金價 ÷ 31.1 × 重量（克）× 純度%。以2026年為例，當日金價約每錢6,000元，一兩（5錢）9999黃金的回收價約29,997元。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "付款方式是哪種？多久能拿到錢？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "巧品珠寶現場現金支付，當場變現不用等。有些店家可能用匯款，但相對有風險。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "需要預約嗎？流程要多久？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "建議先電話或LINE預約，節省等候時間。完整流程約15-30分鐘，包括秤重、檢測、報價、付款。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "古董金飾、紀念金幣也能賣嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以！只要黃金純度夠，古董金飾、紀念金幣、金塊、金條都可以回收。古董飾品可能還有收藏價值，建議先讓專業店家評估。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "如何避免遇到黃金詐騙？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "注意以下警訊：要求先匯款、秤重時動手腳、扣重超過20%、不願意出示證件。選擇有實體店面的店家，並確認秤重過程全程公開。"
+                }
+              }
+            ]
           })
         }}
       />
