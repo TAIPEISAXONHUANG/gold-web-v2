@@ -51,13 +51,6 @@ export default function GoldRecyclingPrice() {
               "priceValidUntil": "2026-12-31",
               "seller": { "@type": "JewelryStore", "@id": "https://www.gold-tw.com/#business" }
             },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "reviewCount": "86",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
             "review": {
               "@type": "Review",
               "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
