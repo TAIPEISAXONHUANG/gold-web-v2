@@ -49,7 +49,7 @@ export default function GoldRecyclingPrice() {
               "offerCount": "8",
               "availability": "https://schema.org/InStock",
               "priceValidUntil": "2026-12-31",
-              "seller": { "@type": "JewelryStore", "@id": "https://www.gold-tw.com/#business" }
+              "seller": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" }
             }
           })
         }}
