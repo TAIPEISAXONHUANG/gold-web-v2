@@ -50,12 +50,6 @@ export default function GoldRecyclingPrice() {
               "availability": "https://schema.org/InStock",
               "priceValidUntil": "2026-12-31",
               "seller": { "@type": "JewelryStore", "@id": "https://www.gold-tw.com/#business" }
-            },
-            "review": {
-              "@type": "Review",
-              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-              "author": { "@type": "Person", "name": "Google 用戶評論" },
-              "reviewBody": "金價透明，不扣耗損，當場現金，非常推薦！"
             }
           })
         }}
