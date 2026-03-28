@@ -30,30 +30,6 @@ export default function GoldRecyclingPrice() {
         }}
       />
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "黃金回收價格 - 各純度報價",
-            "description": "2026年各純度黃金回收價格表：24K、18K、14K、10K及白金回收行情。台北巧品珠寶透明計價。",
-            "brand": { "@type": "Brand", "name": "巧品珠寶" },
-            "image": "https://www.gold-tw.com/og-image.webp",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "TWD",
-              "lowPrice": "5000",
-              "highPrice": "19140",
-              "offerCount": "8",
-              "availability": "https://schema.org/InStock",
-              "priceValidUntil": "2026-12-31",
-              "seller": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" }
-            }
-          })
-        }}
-      />
       <h1>💰 黃金回收價格怎麼算？</h1>
       
       <h2>📐 黃金回收計算公式</h2>
