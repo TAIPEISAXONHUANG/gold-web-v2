@@ -8,13 +8,6 @@ export const metadata: Metadata = {
   keywords: '黃金回收知識,黃金保養,K金回收,金價走勢',
 };
 
-// 自動從文章內容提取 h2 標題生成目錄
-function extractTableOfContents(children: React.ReactNode): string {
-  // 這是一個客戶端組件會用的鉤子，我們在 layout 中不好直接處理
-  // 簡單方案：在每個文章頁面加入 TOC
-  return '';
-}
-
 export default function BlogLayout({
   children,
 }: {

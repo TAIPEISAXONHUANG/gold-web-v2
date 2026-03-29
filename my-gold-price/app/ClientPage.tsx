@@ -37,7 +37,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
       .then(r => r.json())
       .then(d => setData(d))
       .catch(err => console.error('gold-data API error:', err));
-  }, []);
+  }, [initialData]);
 
   const rates = data?.rates || {};
   const updateTime = data?.updateTime || '';

@@ -56,5 +56,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPages, ...districtPages];
+  // case-studies 頁面
+  const caseStudiesDir = path.join(process.cwd(), 'app', 'case-studies');
+  const caseStudySlugs = getSubdirectories(caseStudiesDir);
+  const caseStudyPages: MetadataRoute.Sitemap = caseStudySlugs.map(slug => ({
+    url: `${baseUrl}/case-studies/${slug}`,
+    lastModified: new Date('2026-03-19'),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...blogPages, ...districtPages, ...caseStudyPages];
 }

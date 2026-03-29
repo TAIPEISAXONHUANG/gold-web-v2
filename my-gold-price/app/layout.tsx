@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.gold-tw.com'),
   title: '巧品珠寶｜台北黃金回收推薦・K金白金鑽石高價收購・即時金價查詢',
   description: '台北大安區實體銀樓，專營9999純金・K金・白金・鑽石高價回收。免費估價不強迫、當場秤重公開透明、現場現金付款不扣耗損。10年經驗值得信賴。捷運忠孝新生站步行5分鐘。立即來電 0986-821-626 或LINE詢價！',
   alternates: {
@@ -255,7 +256,7 @@ export default function RootLayout({
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
                     "opens": "11:00",
-                    "closes": "27:30"
+                    "closes": "23:59"
                   }
                 }
               ]
