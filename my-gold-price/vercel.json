@@ -4,6 +4,14 @@
       "source": "/blog/gold-post-:id*",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "(?!www\\.gold-tw\\.com).*\\.vercel\\.app" }
+      ],
+      "destination": "https://www.gold-tw.com/$1",
+      "permanent": false
     }
   ],
   "headers": [
