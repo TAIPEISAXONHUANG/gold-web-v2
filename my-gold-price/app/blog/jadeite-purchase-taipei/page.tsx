@@ -114,7 +114,7 @@ export default function Page() {
           </tr>
           <tr>
             <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}><strong>色（顏色）</strong></td>
-            <td style={{ padding: '10px', border: '1px solid #ddd' }}>帝王綠 > 陽綠 > 淺綠；均勻分布最佳</td>
+            <td style={{ padding: '10px', border: '1px solid #ddd' }}>帝王綠 &gt; 陽綠 &gt; 淺綠；均勻分布最佳</td>
             <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center', color: '#B8860B', fontWeight: 'bold' }}>滿色、正色大幅加分</td>
           </tr>
         </tbody>
