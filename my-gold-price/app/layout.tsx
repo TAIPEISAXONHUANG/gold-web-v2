@@ -230,14 +230,14 @@ export default function RootLayout({
                 "streetAddress": "濟南路三段62-1號",
                 "addressLocality": "大安區",
                 "addressRegion": "台北市",
-                "postalCode": "106",
+                "postalCode": "10647",
                 "addressCountry": "TW"
               },
               "foundingDate": "2015",
-              "areaServed": {
-                "@type": "City",
-                "name": "台北市"
-              },
+              "areaServed": [
+                { "@type": "City", "name": "台北市" },
+                { "@type": "City", "name": "新北市" }
+              ],
               "sameAs": [
                 "https://www.facebook.com/QPJEWELRY.OFFICIAL",
                 "https://www.instagram.com/qiaopin.jewelry/",
@@ -283,8 +283,12 @@ export default function RootLayout({
                     "@id": "https://www.gold-tw.com/#service-gold",
                     "name": "黃金回收",
                     "description": "9999純金、各種純度黃金飾品高價回收，當日牌價計算，不扣耗損，現場現金付款。",
+                    "url": "https://www.gold-tw.com/district/da-an",
                     "provider": { "@id": "https://www.gold-tw.com/#organization" },
-                    "areaServed": { "@type": "City", "name": "台北市" },
+                    "areaServed": [
+                      { "@type": "City", "name": "台北市" },
+                      { "@type": "City", "name": "新北市" }
+                    ],
                     "offers": {
                       "@type": "Offer",
                       "priceCurrency": "TWD",
@@ -301,8 +305,18 @@ export default function RootLayout({
                     "@id": "https://www.gold-tw.com/#service-kgold",
                     "name": "K金回收",
                     "description": "18K、14K、10K、8K等各種K金回收，依純度比例計算，公開透明。",
+                    "url": "https://www.gold-tw.com/blog/k-gold-recycle",
                     "provider": { "@id": "https://www.gold-tw.com/#organization" },
-                    "areaServed": { "@type": "City", "name": "台北市" }
+                    "areaServed": [
+                      { "@type": "City", "name": "台北市" },
+                      { "@type": "City", "name": "新北市" }
+                    ],
+                    "offers": {
+                      "@type": "Offer",
+                      "priceCurrency": "TWD",
+                      "availability": "https://schema.org/InStock",
+                      "description": "依K金純度比例計算，免費估價，現場現金付款"
+                    }
                   }
                 },
                 {
@@ -313,8 +327,18 @@ export default function RootLayout({
                     "@id": "https://www.gold-tw.com/#service-platinum",
                     "name": "白金/鉑金回收",
                     "description": "PT950、PT900等各種鉑金飾品高價回收，專業檢測。",
+                    "url": "https://www.gold-tw.com/blog/platinum-recycle",
                     "provider": { "@id": "https://www.gold-tw.com/#organization" },
-                    "areaServed": { "@type": "City", "name": "台北市" }
+                    "areaServed": [
+                      { "@type": "City", "name": "台北市" },
+                      { "@type": "City", "name": "新北市" }
+                    ],
+                    "offers": {
+                      "@type": "Offer",
+                      "priceCurrency": "TWD",
+                      "availability": "https://schema.org/InStock",
+                      "description": "依當日鉑金行情計算，專業XRF儀器鑑定純度"
+                    }
                   }
                 },
                 {
@@ -325,8 +349,18 @@ export default function RootLayout({
                     "@id": "https://www.gold-tw.com/#service-diamond",
                     "name": "鑽石回收",
                     "description": "各種克拉數鑽石高價回收，GIA證書加分，專業鑑定。",
+                    "url": "https://www.gold-tw.com/blog/diamond-recycle",
                     "provider": { "@id": "https://www.gold-tw.com/#organization" },
-                    "areaServed": { "@type": "City", "name": "台北市" }
+                    "areaServed": [
+                      { "@type": "City", "name": "台北市" },
+                      { "@type": "City", "name": "新北市" }
+                    ],
+                    "offers": {
+                      "@type": "Offer",
+                      "priceCurrency": "TWD",
+                      "availability": "https://schema.org/InStock",
+                      "description": "依鑽石4C品質鑑定，附GIA證書加分，現場估價"
+                    }
                   }
                 }
               ]
@@ -438,7 +472,7 @@ export default function RootLayout({
               },
               "speakable": {
                 "@type": "SpeakableSpecification",
-                "cssSelector": ["h1", ".hero-text-shadow", "#rates-desktop"]
+                "cssSelector": ["h1", "#rates-desktop"]
               },
               "mentions": [
                 { "@type": "Thing", "name": "黃金回收", "sameAs": "https://zh.wikipedia.org/wiki/黃金" },
