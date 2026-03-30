@@ -1,0 +1,49 @@
+{
+  "structureTypes": {
+    "A": {
+      "name": "Full",
+      "description": "完整型文章：FAQ + 比較表格 + 內部連結",
+      "requirements": {
+        "hasFAQ": true,
+        "minFAQCount": 4,
+        "hasTable": true,
+        "minInternalLinks": 3
+      },
+      "targetIntent": ["informational", "comparison"],
+      "notes": "適合深度主題，如回收流程比較、價格行情分析"
+    },
+    "B": {
+      "name": "FAQ-focused",
+      "description": "FAQ 型文章：以問答為主軸",
+      "requirements": {
+        "hasFAQ": true,
+        "minFAQCount": 4,
+        "hasTable": false,
+        "minInternalLinks": 2
+      },
+      "targetIntent": ["informational"],
+      "notes": "適合常見問題、知識型文章，有利 AI 引用與精選摘要"
+    },
+    "C": {
+      "name": "Table-focused",
+      "description": "表格型文章：以比較表或價格表為核心",
+      "requirements": {
+        "hasFAQ": false,
+        "minFAQCount": 0,
+        "hasTable": true,
+        "minInternalLinks": 2
+      },
+      "targetIntent": ["informational", "transactional"],
+      "notes": "適合價格比較、品項對照，表格結構利於搜尋引擎理解"
+    }
+  },
+  "rotationSchedule": {
+    "Monday": "A",
+    "Tuesday": "B",
+    "Wednesday": "C",
+    "Thursday": "A",
+    "Friday": "B",
+    "Saturday": "C",
+    "Sunday": "A"
+  }
+}

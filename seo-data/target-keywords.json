@@ -1,0 +1,22 @@
+[
+  {"keyword": "台北黃金回收", "priority": "high", "type": "transactional", "notes": "核心關鍵字，地區+服務"},
+  {"keyword": "黃金回收推薦", "priority": "high", "type": "comparison", "notes": "比較型搜尋，需突出優勢"},
+  {"keyword": "金價今日", "priority": "high", "type": "informational", "notes": "高搜尋量資訊型，搭配即時金價模組"},
+  {"keyword": "K金回收", "priority": "medium", "type": "transactional", "notes": "K金品項專頁"},
+  {"keyword": "白金回收", "priority": "medium", "type": "transactional", "notes": "白金品項專頁"},
+  {"keyword": "鑽石回收", "priority": "medium", "type": "transactional", "notes": "鑽石品項專頁"},
+  {"keyword": "黃金回收價格", "priority": "high", "type": "informational", "notes": "價格資訊需求，搭配報價表"},
+  {"keyword": "台北收購黃金", "priority": "medium", "type": "transactional", "notes": "同義詞覆蓋"},
+  {"keyword": "黃金一錢多少", "priority": "medium", "type": "informational", "notes": "常見問句型搜尋"},
+  {"keyword": "黃金回收流程", "priority": "low", "type": "informational", "notes": "流程說明頁面"},
+  {"keyword": "翡翠回收台北", "priority": "low", "type": "transactional", "notes": "翡翠品項專頁"},
+  {"keyword": "925銀回收", "priority": "low", "type": "transactional", "notes": "銀飾品項專頁"},
+  {"keyword": "二手珠寶收購", "priority": "low", "type": "transactional", "notes": "二手珠寶泛搜尋"},
+  {"keyword": "黃金戒指回收", "priority": "medium", "type": "transactional", "notes": "特定品項長尾詞"},
+  {"keyword": "黃金項鍊回收", "priority": "medium", "type": "transactional", "notes": "特定品項長尾詞"},
+  {"keyword": "足金回收", "priority": "medium", "type": "transactional", "notes": "足金(999)專門搜尋"},
+  {"keyword": "18K金回收", "priority": "medium", "type": "transactional", "notes": "18K金專門搜尋"},
+  {"keyword": "金條回收", "priority": "low", "type": "transactional", "notes": "金條品項專頁"},
+  {"keyword": "黃金收購行情", "priority": "high", "type": "informational", "notes": "行情資訊需求，搭配價格趨勢"},
+  {"keyword": "台北珠寶回收", "priority": "low", "type": "transactional", "notes": "珠寶泛搜尋+地區"}
+]
