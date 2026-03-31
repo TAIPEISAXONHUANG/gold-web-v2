@@ -17,14 +17,14 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]",
             "description": "台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-recycling-taipei" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "金旺黃金" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-25T00:00:00+08:00",
-            "dateModified": "2026-03-25T00:00:00+08:00"
+            "dateModified": "2026-03-01"
           })
         }}
       />

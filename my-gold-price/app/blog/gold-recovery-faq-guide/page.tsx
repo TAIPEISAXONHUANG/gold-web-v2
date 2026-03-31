@@ -39,7 +39,19 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-24",
             "dateModified": "2026-03-24T00:00:00+08:00",
-            "description": "黃金回收新手必看FAQ攻略！20個常見問題完整解答，涵蓋秤重、扣耗損、証件准備、付款方式等，讓您第一次賣黃金就上手。"
+            "description": "黃金回收新手必看FAQ攻略！20個常見問題完整解答，涵蓋秤重、扣耗損、証件准備、付款方式等，讓您第一次賣黃金就上手。",
+            "mainEntity": [
+              {"@type":"Question","name":"黃金回收需要攜帶什麼証件？","acceptedAnswer":{"@type":"Answer","text":"根據政府規定，黃金回收需攜帶身份証進行實名制登記。部分店家可能要求第二証件（健保卡或駕照）搭配使用。建議事先致電詢問確認。"}},
+              {"@type":"Question","name":"黃金飾品和金條的回收價格相同嗎？","acceptedAnswer":{"@type":"Answer","text":"只要純度相同，價格完全相同。無論是金飾、金條、金塊或古董金飾，回收價格都依照當日國際金價乘以純度計算，款式與品牌不影響回收價。"}},
+              {"@type":"Question","name":"秤重單位怎麼看？錢、克、盎司差在哪？","acceptedAnswer":{"@type":"Answer","text":"台灣常用「錢」為單位，標準換算為：1兩 = 5錢 = 37.5克。專業店家會當面秤重並解讀數字給您聽，全程公開透明。"}},
+              {"@type":"Question","name":"什麼是扣耗損？為什麼要扣重？","acceptedAnswer":{"@type":"Answer","text":"部分店家會扣除5-15%作為「耗損費」或「清洗費」，理由是飾品可能有灰塵或損耗。但有些店家完全不扣耗損，建議事先比較詢問。"}},
+              {"@type":"Question","name":"回收價格怎麼計算？","acceptedAnswer":{"@type":"Answer","text":"公式為：當日金價 × 重量 × 純度%。例如：當日金價每錢6000元，一兩重9999黃金（5錢），回收價約為 6000 × 5 × 99.99% = 29,997元。"}},
+              {"@type":"Question","name":"K金也能回收嗎？價格怎麼算？","acceptedAnswer":{"@type":"Answer","text":"當然可以！K金（14K、18K、22K）均可回收。18K（75%）：純金價格 × 75%；14K（58.5%）：純金價格 × 58.5%；10K（41.7%）：純金價格 × 41.7%。"}},
+              {"@type":"Question","name":"如何避免遇到黃金詐騙？","acceptedAnswer":{"@type":"Answer","text":"選擇有實體店面的店家、拒絕「先匯款」或「暗箱操作」、秤重過程全程公開、拒絕過低的報價、多比較幾家再做決定。"}},
+              {"@type":"Question","name":"國外的金飾可以回收嗎？","acceptedAnswer":{"@type":"Answer","text":"只要純度夠（通常是14K以上），國外購買的金飾也可以在台灣回收。但需要留意各國純度標示不同，可能需要重新檢測。"}},
+              {"@type":"Question","name":"斷掉的金飾或破損的金飾可以回收嗎？","acceptedAnswer":{"@type":"Answer","text":"當然可以！破損的黃金同樣有回收價值，只要純度夠就不會影響價格。專業店家會將黃金熔化後再重新秤重檢測。"}},
+              {"@type":"Question","name":"賣黃金需要繳稅嗎？","acceptedAnswer":{"@type":"Answer","text":"一般個人出售黃金不需要繳稅。但如果您是營利事業或有大量交易，可能需要配合相關稅務規定。建議諮詢專業會計師。"}}
+            ]
           })
         }}
       />

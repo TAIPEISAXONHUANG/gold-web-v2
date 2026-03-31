@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價',
@@ -191,10 +192,11 @@ export default function Page() {
       <div style={{ borderTop: '1px solid #eee', marginTop: '2rem', paddingTop: '1rem' }}>
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
-          <li><a href="https://www.gold-tw.com/blog/gold-recovery-price-today" style={{ color: '#B8860B' }}>今日黃金回收價格即時查詢</a></li>
+          <li><Link href="/blog/gold-recovery-price-today" style={{ color: '#B8860B' }}>今日黃金回收價格即時查詢</Link></li>
           <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
           <li><a href="https://www.gold-tw.com/district/da-an" style={{ color: '#B8860B' }}>大安區黃金回收｜巧品珠寶門市資訊</a></li>
         </ul>
+        <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>
     </main>
   );

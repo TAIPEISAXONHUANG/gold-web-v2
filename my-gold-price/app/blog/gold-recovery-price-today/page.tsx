@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '今日黃金回收價格2026｜台北當場現金，不扣耗損',
@@ -186,9 +187,10 @@ export default function Page() {
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
           <li><a href="https://www.gold-tw.com/today-gold-price" style={{ color: '#B8860B' }}>今日台灣黃金牌價即時查詢</a></li>
-          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
+          <li><Link href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</Link></li>
           <li><a href="https://www.gold-tw.com/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必讀：避開這5個常見陷阱</a></li>
         </ul>
+        <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>
     </main>
   );

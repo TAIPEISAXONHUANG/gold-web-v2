@@ -17,11 +17,11 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "賣黃金為什麼要登記身分證？台灣反洗錢法規完整說明",
             "description": "台灣洗錢防制法規定，貴金屬回收交易需實名制登記身分證。一文搞懂法律依據、所需文件、完整流程與常見問題。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-id-requirement" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "金旺黃金" },
             "publisher": {
               "@type": "Organization",
               "name": "巧品珠寶",
@@ -29,7 +29,7 @@ export default function Page() {
               "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" }
             },
             "datePublished": "2026-03-15T00:00:00+08:00",
-            "dateModified": "2026-03-26T00:00:00+08:00",
+            "dateModified": "2026-03-01",
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" }
           })
         }}

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '今日金價一錢賣出價格2026｜銀樓買入賣出差多少？',
@@ -199,11 +200,12 @@ export default function Page() {
       <div style={{ borderTop: '1px solid #eee', marginTop: '2rem', paddingTop: '1rem' }}>
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
-          <li><a href="https://www.gold-tw.com/blog/daily-gold-price-per-qian" style={{ color: '#B8860B' }}>今日金價一錢多少？台灣黃金一錢價格即時查詢</a></li>
+          <li><Link href="/blog/daily-gold-price-per-qian" style={{ color: '#B8860B' }}>今日金價一錢多少？台灣黃金一錢價格即時查詢</Link></li>
           <li><a href="https://www.gold-tw.com/blog/916-gold-recycling-taiwan-2026" style={{ color: '#B8860B' }}>916黃金回收2026｜22K黃金回收價怎麼算</a></li>
           <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
           <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>巧品珠寶首頁｜黃金高價收購，不扣火耗</a></li>
         </ul>
+        <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>
     </main>
   );

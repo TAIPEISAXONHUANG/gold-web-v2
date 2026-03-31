@@ -39,7 +39,19 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-03-16T00:00:00+08:00",
-            "description": "黃金回收常見問題大集合！秤重、扣重、證件、流程一篇搞懂"
+            "description": "黃金回收常見問題大集合！秤重、扣重、證件、流程一篇搞懂",
+            "mainEntity": [
+              {"@type":"Question","name":"黃金秤重用什麼單位？","acceptedAnswer":{"@type":"Answer","text":"台灣常用「錢」為單位，1錢=3.75克。我們也提供公克單位讓你選擇。"}},
+              {"@type":"Question","name":"秤重時要注意什麼？","acceptedAnswer":{"@type":"Answer","text":"一定要親眼看見秤重數字，確保過程公開透明。如果店家不讓你看秤，這是警示信號，建議換店。"}},
+              {"@type":"Question","name":"自己在家秤的重量跟店裡不同？","acceptedAnswer":{"@type":"Answer","text":"不同秤可能有誤差，建議以專業珠寶秤為準。一般廚房秤誤差可能達0.5-1克，珠寶秤精確度更高。"}},
+              {"@type":"Question","name":"台灣黃金回收「一錢」是多少錢？","acceptedAnswer":{"@type":"Answer","text":"1錢（3.75克）的9999純金，依當日回收價計算。2026年黃金價格約每克2,000-2,500台幣，即每錢約7,500-9,375元。實際以當日牌價為準。"}},
+              {"@type":"Question","name":"賣黃金要帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"需攜帶身份證+健保卡進行實名制登記，這是政府法規要求。"}},
+              {"@type":"Question","name":"沒有身份證可以賣嗎？","acceptedAnswer":{"@type":"Answer","text":"不行，這是政府規定的實名制要求，必須有身份證正本。未成年需法定代理人陪同。"}},
+              {"@type":"Question","name":"什麼是扣耗損？","acceptedAnswer":{"@type":"Answer","text":"有些店家會扣除5-10%作為耗損費。巧品珠寶不扣任何耗損，按實際重量計算。"}},
+              {"@type":"Question","name":"多久能拿到錢？","acceptedAnswer":{"@type":"Answer","text":"巧品珠寶現場立即現金付款，不用等1-2天。確認交易後立刻數鈔票給您，全程安全透明。"}},
+              {"@type":"Question","name":"整個流程要多久？","acceptedAnswer":{"@type":"Answer","text":"一般約10-15分鐘，包含秤重+儀器檢測+確認+付款。"}},
+              {"@type":"Question","name":"需要預約嗎？","acceptedAnswer":{"@type":"Answer","text":"建議預約以避免久候，但也可以直接過來。LINE預約最方便：@QPD888。"}}
+            ]
           })
         }}
       />

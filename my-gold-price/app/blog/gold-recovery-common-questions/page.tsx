@@ -39,7 +39,19 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-19",
             "dateModified": "2026-03-19T00:00:00+08:00",
-            "description": "黃金回收常見問題全解答！2026年最新資訊，包含流程、秤重、證件、防詐騙等問題。"
+            "description": "黃金回收常見問題全解答！2026年最新資訊，包含流程、秤重、證件、防詐騙等問題。",
+            "mainEntity": [
+              {"@type":"Question","name":"黃金回收要帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"根據政府規定，進行黃金回收需要攜帶身份證進行實名制登記。部分店家可能會要求搭配健保卡或駕照作為第二證件。建議事先致電詢問所需證件。"}},
+              {"@type":"Question","name":"黃金飾品和金條回收價格一樣嗎？","acceptedAnswer":{"@type":"Answer","text":"只要純度相同，價格是一樣的。無論是金飾、金條、金塊、古董金飾，回收價格都是根據當日國際金價乘以純度計算，款式與品牌不影響回收價。"}},
+              {"@type":"Question","name":"黃金秤重是怎麼看的？","acceptedAnswer":{"@type":"Answer","text":"專業店家會當面秤重，讓您親眼看見重量數字。常見的秤重單位是「錢」、「克」或「盎司」。建議選擇公開透明的秤重方式，避免暗秤問題。"}},
+              {"@type":"Question","name":"什麼是扣耗損？為什麼要扣重？","acceptedAnswer":{"@type":"Answer","text":"部分店家會扣除5-15%作為「耗損費」或「清洗費」，理由是飾品可能有灰塵、污垢或損耗。但有些店家完全不扣耗損，建議事先比較詢問。"}},
+              {"@type":"Question","name":"黃金純度怎麼檢測？","acceptedAnswer":{"@type":"Answer","text":"專業店家會使用專業儀器檢測，包括X光螢光分析儀或火測法。好的店家會當場進行檢測，並解釋檢測結果給您聽。"}},
+              {"@type":"Question","name":"黃金回收價格怎麼計算？","acceptedAnswer":{"@type":"Answer","text":"計算公式為：當日金價 × 重量 × 純度%。例如：當日金價每錢6000元，一兩重9999黃金（5錢），回收價格約為 6000 × 5 × 99.99% = 29,997元。"}},
+              {"@type":"Question","name":"付款方式是什麼？多久能拿到錢？","acceptedAnswer":{"@type":"Answer","text":"大多數店家現場立即現金支付，讓您當場變現。少數可能需要1-2個工作天匯款。建議選擇現場付款的店家更有保障。"}},
+              {"@type":"Question","name":"需要預約嗎？","acceptedAnswer":{"@type":"Answer","text":"建議先電話或LINE預約，避免到店後需要等候。預約時可以先告知黃金數量、種類，讓店家準備評估。"}},
+              {"@type":"Question","name":"K金也能回收嗎？","acceptedAnswer":{"@type":"Answer","text":"當然可以！K金（14K、18K、22K）都可以回收，價格按含金比例計算。例如18K含金75%，回收價格就是純金的75%。"}},
+              {"@type":"Question","name":"怎麼避免遇到黃金詐騙？","acceptedAnswer":{"@type":"Answer","text":"注意以下幾點：選擇有實體店面的店家、拒絕「先匯款」或「暗箱操作」、秤重過程全程公開、拒絕過低的報價、多比較幾家再做決定。"}}
+            ]
           })
         }}
       />

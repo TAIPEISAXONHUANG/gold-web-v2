@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？',
@@ -195,11 +196,12 @@ export default function Page() {
       <div style={{ borderTop: '1px solid #eee', marginTop: '2rem', paddingTop: '1rem' }}>
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
-          <li><a href="https://www.gold-tw.com/blog/diamond-recovery-price" style={{ color: '#B8860B' }}>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</a></li>
+          <li><Link href="/blog/diamond-recovery-price" style={{ color: '#B8860B' }}>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</Link></li>
           <li><a href="https://www.gold-tw.com/blog/second-hand-jewelry-purchase" style={{ color: '#B8860B' }}>二手珠寶收購｜舊珠寶高價回收變現</a></li>
           <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
           <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>巧品珠寶首頁｜黃金、珠寶高價收購</a></li>
         </ul>
+        <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>
     </main>
   );

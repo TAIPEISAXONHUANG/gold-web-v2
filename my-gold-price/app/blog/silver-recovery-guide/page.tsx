@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '純銀回收2026台灣｜純銀首飾、銀器能賣多少？',
@@ -212,11 +213,12 @@ export default function Page() {
       <div style={{ borderTop: '1px solid #eee', marginTop: '2rem', paddingTop: '1rem' }}>
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
-          <li><a href="https://www.gold-tw.com/blog/gold-vs-platinum-guide" style={{ color: '#B8860B' }}>黃金 vs 鉑金收購差異說明</a></li>
+          <li><Link href="/blog/gold-vs-platinum-guide" style={{ color: '#B8860B' }}>黃金 vs 鉑金收購差異說明</Link></li>
           <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
           <li><a href="https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell" style={{ color: '#B8860B' }}>今日金價一錢賣出買入差在哪？</a></li>
           <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>巧品珠寶首頁｜黃金、貴金屬高價收購</a></li>
         </ul>
+        <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>
     </main>
   );

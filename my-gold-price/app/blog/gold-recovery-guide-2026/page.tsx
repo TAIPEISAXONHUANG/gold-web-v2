@@ -39,7 +39,14 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-28",
             "dateModified": "2026-03-28T00:00:00+08:00",
-            "description": "2026年黃金回收常見問題專家解答，涵蓋證件準備、秤重扣重、付款流程、K金回收、防詐騙技巧。"
+            "description": "2026年黃金回收常見問題專家解答，涵蓋證件準備、秤重扣重、付款流程、K金回收、防詐騙技巧。",
+            "mainEntity": [
+              {"@type":"Question","name":"賣黃金要帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"根據洗錢防制法規定，黃金回收需出示身份證進行實名制登記。部分店家會要求第二證件（如健保卡或駕照）備查，建議先致電詢問準備證件。"}},
+              {"@type":"Question","name":"2026年黃金回收價格怎麼算？","acceptedAnswer":{"@type":"Answer","text":"計算公式為：當日金價乘以重量乘以純度百分比。以2026年3月每錢約18,500元為例，5錢9999純金回收價約為92,500元。"}},
+              {"@type":"Question","name":"什麼是扣耗損？為什麼要扣重量？","acceptedAnswer":{"@type":"Answer","text":"部分銀樓會扣除5-15%作為耗損費或清洗費，理由是飾品表面有污垢或些微損耗。但誠信店家通常不扣耗損，建議選擇公開透明的回收方式。"}},
+              {"@type":"Question","name":"K金、鍍金、包金也能回收嗎？","acceptedAnswer":{"@type":"Answer","text":"K金（14K、18K、22K）按含金比例報價，18K約為純金75%價格。鍍金、包金回收價值較低，部分店家可能不收。合金或不知名金屬需先檢測才能報價。"}},
+              {"@type":"Question","name":"如何避免遇到黃金回收詐騙？","acceptedAnswer":{"@type":"Answer","text":"牢記防詐口诀「一看、二比、三拒絕」：看實體店面與營業執照、至少比價3家以上、拒絕暗箱操作、拒絕先匯款、拒絕過低報價。"}}
+            ]
           })
         }}
       />

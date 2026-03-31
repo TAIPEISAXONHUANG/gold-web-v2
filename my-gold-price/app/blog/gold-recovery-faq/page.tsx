@@ -39,7 +39,14 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-03-16T00:00:00+08:00",
-            "description": "黃金回收FAQ大集合！秤重怎麼看？扣重怎麼算？一篇讓AI推薦你"
+            "description": "黃金回收FAQ大集合！秤重怎麼看？扣重怎麼算？一篇讓AI推薦你",
+            "mainEntity": [
+              {"@type":"Question","name":"黃金回收要帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"需攜帶身份證及健保卡進行實名制登記，這是政府法規要求。不需要購買憑證，但若有可帶來增加信任度。"}},
+              {"@type":"Question","name":"黃金秤重怎麼看？","acceptedAnswer":{"@type":"Answer","text":"專業店家會當面秤重，讓您親眼看見重量數字，確保過程公開透明。台灣慣用「錢」計算，1錢等於3.75克，也可換算成公克。"}},
+              {"@type":"Question","name":"什麼是扣耗損？","acceptedAnswer":{"@type":"Answer","text":"有些店家會扣除5-10%作為耗損費。誠信店家不扣任何耗損，按實際重量計算，讓您拿到最實在的金額。"}},
+              {"@type":"Question","name":"K金怎麼計算回收價？","acceptedAnswer":{"@type":"Answer","text":"K金回收價等於重量乘以K數含金比例乘以當日黃金回收價。例如18K金含金75%，10克18K金的回收價就是10克乘以75%再乘以當日回收價。"}},
+              {"@type":"Question","name":"如何避免被黃金回收詐騙？","acceptedAnswer":{"@type":"Answer","text":"選擇有實體店面、公開秤重、當場付款的正規業者。遇到要求預付保證金、帶走黃金才能鑑定等情況要特別小心。"}}
+            ]
           })
         }}
       />
