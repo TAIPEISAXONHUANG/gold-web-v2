@@ -39,12 +39,26 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: '黃金在哪裡賣最划算？', acceptedAnswer: { '@type': 'Answer', text: '直接找專業回收銀樓，省去平台手續費，價格最透明。' } },
-              { '@type': 'Question', name: '黃金價格每天都不同，什麼時候賣最好？', acceptedAnswer: { '@type': 'Answer', text: '金價跟美元和國際局勢有關，很難預測高點。需要現金時就是好時機。' } },
-            ],
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "黃金在哪裡賣最划算？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "直接找專業回收銀樓，省去平台手續費，價格最透明。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金價格每天都不同，什麼時候賣最好？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "金價跟美元和國際局勢有關，很難預測高點。需要現金時就是好時機。"
+                }
+              }
+            ]
           })
         }}
       />

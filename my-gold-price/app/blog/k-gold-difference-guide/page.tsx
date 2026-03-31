@@ -33,6 +33,49 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金與K金的差異分析"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金會不會很容易壞？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "相較於純金，K金硬度較高，反而更不容易變形或刮傷。日常配戴建議選擇18K以上，兼具硬度與價值。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "鍍金和包金跟K金一樣嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "完全不同！鍍金（Gold Plated）只有薄薄一層金，包金（Gold Filled）約5%含金量，兩者回收價值都很低，建議選擇正規K金。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金跟K金可以一起戴嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以，但建議分開配戴。硬度不同的金屬相互摩擦會加速磨損，尤其是純金容易刮傷。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "女生戴K金會過敏嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "部分K金含鎳成分，可能引起過敏。建議選擇14K以上、無鎳成分的K金，或選擇純銀鍍金（925銀鍍金）材質。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>黃金與K金的差異分析｜純度、價格、回收價值一次看懂</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

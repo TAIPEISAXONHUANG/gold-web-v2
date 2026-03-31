@@ -39,12 +39,26 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: '現在是買黃金的好時機嗎？', acceptedAnswer: { '@type': 'Answer', text: '金價長期看漲，分批購入是穩健策略。' } },
-              { '@type': 'Question', name: '買來的金幣之後可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，我們依當日牌價高價收購。' } },
-            ],
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "現在是買黃金的好時機嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "金價長期看漲，分批購入是穩健策略。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "買來的金幣之後可以回收嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以，我們依當日牌價高價收購。"
+                }
+              }
+            ]
           })
         }}
       />

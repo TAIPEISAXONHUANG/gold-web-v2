@@ -39,14 +39,26 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: '傳家的金飾該如何保存？', acceptedAnswer: { '@type': 'Answer', text: '存放在乾燥環境，避免與其他金屬摩擦。若不戴可考慮變現後存入黃金存摺。' } },
-              { '@type': 'Question', name: '有紀念意義的金飾還是可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '當然可以，情感價值與金錢價值可以並存，由您決定。' } },
-              { '@type': 'Question', name: '黃金在台灣文化中為何如此重要？', acceptedAnswer: { '@type': 'Answer', text: '黃金在華人文化中象徵富貴吉祥、長壽與傳承。從婚嫁金飾到廟宇金牌，黃金承載著家族的祝福與記憶，也是最穩定的財富儲存方式。' } },
-              { '@type': 'Question', name: '黃金首飾有沒有宗教意義？', acceptedAnswer: { '@type': 'Answer', text: '有的。台灣廟宇善信常製作純金牌匾、金牌供奉神明，表達虔誠。貔貅、元寶等造型的金飾也常被視為招財納福的開運物。' } },
-            ],
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "傳家的金飾該如何保存？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "存放在乾燥環境，避免與其他金屬摩擦。若不戴可考慮變現後存入黃金存摺。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "有紀念意義的金飾還是可以回收嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "當然可以，情感價值與金錢價值可以並存，由您決定。"
+                }
+              }
+            ]
           })
         }}
       />
@@ -57,48 +69,26 @@ export default function Page() {
       </div>
 
       <h2>結論：黃金在華人文化中代表財富、祝福與傳承</h2>
-      <p>從古至今，黃金在中華文化中一直佔有特殊地位。它不只是貴金屬，更承載著祝福、傳承與財富的意涵。了解黃金的文化背景，讓我們更珍視手中這份珍貴的資產。無論是想了解手中金飾的文化價值，還是考慮<a href="/blog/gold-jewelry-recovery" style={{ color: '#B8860B' }}>黃金首飾回收</a>變現，都值得先認識黃金背後的深厚意義。</p>
+      <p>從古至今，黃金在中華文化中一直佔有特殊地位。它不只是貴金屬，更承載著祝福、傳承與財富的意涵。了解黃金的文化背景，讓我們更珍視手中這份珍貴的資產。</p>
 
       <h2>黃金在台灣文化中的角色</h2>
-      <p>台灣社會深受漢族文化影響，黃金在各種人生禮儀中都扮演著不可或缺的角色：</p>
       <ul>
-        <li><strong>嫁妝金飾</strong>：婚嫁時贈送金手鐲、金項鍊，象徵祝福新人，也是女方家庭財力的展現</li>
-        <li><strong>彌月禮金</strong>：新生兒滿月贈送小金飾，代表祝福平安，也是對新生命最真摯的祝願</li>
-        <li><strong>壽禮金飾</strong>：長輩大壽送金飾，象徵長壽富貴，是晚輩表達孝心的重要方式</li>
-        <li><strong>神明金牌</strong>：廟宇善信製作純金牌匾供奉，表達虔誠信仰</li>
-        <li><strong>傳家之寶</strong>：世代相傳的金飾，承載家族記憶與情感</li>
+        <li><strong>嫁妝金飾</strong>：婚嫁時贈送金手鐲、金項鍊，象徵祝福新人</li>
+        <li><strong>彌月禮金</strong>：新生兒滿月贈送小金飾，代表祝福平安</li>
+        <li><strong>壽禮金飾</strong>：長輩大壽送金飾，象徵長壽富貴</li>
+        <li><strong>神明金牌</strong>：廟宇善信製作純金牌匾供奉，表達虔誠</li>
+        <li><strong>傳家之寶</strong>：世代相傳的金飾，承載家族記憶</li>
         <li><strong>開運金飾</strong>：貔貅、元寶造型金飾，據信有招財納福之效</li>
-        <li><strong>年節黃金</strong>：農曆新年前後，金幣、金條作為壓歲錢或新年賀禮</li>
       </ul>
 
       <h2>黃金的歷史與現代價值</h2>
-      <p>黃金幾千年來一直是財富的象徵。在中國歷史上，黃金曾用作朝廷貢品、皇室裝飾，以及絲路貿易的主要貨幣。即使在現代金融體系下，黃金仍是最重要的避險資產之一，各國央行都持有大量黃金儲備。台灣銀行每日公佈的黃金牌告價，就是這條文明長河延伸至今的具體體現。</p>
-
-      <h2>黃金作為投資與保值工具</h2>
-      <p>在台灣，黃金不僅是文化象徵，更是重要的投資工具。許多家庭習慣將積蓄的一部分轉換為黃金：</p>
-      <ul>
-        <li><strong>黃金存摺</strong>：台灣銀行等金融機構提供黃金存摺服務，讓民眾可以小額分批購買黃金</li>
-        <li><strong>實體金條</strong>：購買1克至1公斤不等的金條，長期保值</li>
-        <li><strong>黃金ETF</strong>：透過股票市場間接持有黃金，流動性高</li>
-        <li><strong>實體金飾</strong>：兼具實用性與保值性，是最傳統的黃金持有方式</li>
-      </ul>
-      <p>了解<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度</a>與<a href="/blog/gold-weight" style={{ color: '#B8860B' }}>黃金重量換算</a>，是購買或回收黃金時的基本知識。</p>
-
-      <h2>台灣特有的黃金文化習俗</h2>
-      <p>台灣的黃金文化有幾個獨特之處：首先是「三金」習俗，訂婚時男方需準備金戒指、金手鍊、金耳環三樣金飾贈予女方。其次是<a href="/blog/lion-head-gold" style={{ color: '#B8860B' }}>獅頭金牌</a>文化，在廟宇祭典中常見信眾獻上精心製作的純金牌匾。第三是長輩在孫子女出生時贈送「百日金鎖」的傳統，象徵鎖住孩童的長壽與健康。</p>
-
-      <h2>黃金文化的現代轉變</h2>
-      <p>隨著時代變遷，年輕一代對黃金的態度有所轉變。許多人更傾向選擇設計感強的K金首飾，而非傳統的純金飾品。然而，黃金作為保值資產的地位依然不可撼動。當手中的金飾不再適合佩戴，<a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收</a>是讓其繼續發揮價值的最好方式。了解<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>影響回收價格的因素</a>，可以幫助您在最適當的時機變現。</p>
+      <p>黃金幾千年來一直是財富的象徵。即使在現代金融體系下，黃金仍是最重要的避險資產之一，各國央行都持有大量黃金儲備。</p>
 
       <h2>常見問題 FAQ</h2>
       <h3>Q：傳家的金飾該如何保存？</h3>
-      <p>A：存放在乾燥環境，避免與其他金屬摩擦。若不戴可考慮變現後存入黃金存摺，讓黃金繼續保值增值。</p>
+      <p>A：存放在乾燥環境，避免與其他金屬摩擦。若不戴可考慮變現後存入黃金存摺。</p>
       <h3>Q：有紀念意義的金飾還是可以回收嗎？</h3>
-      <p>A：當然可以，情感價值與金錢價值可以並存，由您決定。如果決定回收，建議先拍照留念，再攜帶身份證到<a href="/" style={{ color: '#B8860B' }}>巧品珠寶</a>免費估價。</p>
-      <h3>Q：黃金在台灣文化中為何如此重要？</h3>
-      <p>A：黃金在華人文化中象徵富貴吉祥、長壽與傳承。從婚嫁金飾到廟宇金牌，黃金承載著家族的祝福與記憶，也是最穩定的財富儲存方式。</p>
-      <h3>Q：黃金首飾有沒有宗教意義？</h3>
-      <p>A：有的。台灣廟宇善信常製作純金牌匾、金牌供奉神明，表達虔誠。貔貅、元寶等造型的金飾也常被視為招財納福的開運物。這些宗教用途的金飾，若不再需要，一樣可以<a href="/blog/lion-head-gold" style={{ color: '#B8860B' }}>高價回收</a>。</p>
+      <p>A：當然可以，情感價值與金錢價值可以並存，由您決定。</p>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
@@ -107,8 +97,6 @@ export default function Page() {
           <li><a href="/blog/gold-weight" style={{ color: '#B8860B' }}>黃金重量換算</a></li>
           <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a></li>
           <li><a href="/blog/lion-head-gold" style={{ color: '#B8860B' }}>獅頭金飾回收</a></li>
-          <li><a href="/blog/gold-birthday-gift" style={{ color: '#B8860B' }}>黃金生日禮物選購</a></li>
-          <li><a href="/blog/gold-recycling-process" style={{ color: '#B8860B' }}>黃金回收完整流程</a></li>
         </ul>
       </div>
 

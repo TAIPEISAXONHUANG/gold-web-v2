@@ -33,6 +33,33 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"K金回收行情報告｜18K、14K多少錢？"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金跟純金差在哪？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "K金是合金，硬度較高，適合製作珠寶首飾；純金較軟，但保值性較高。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "18K回收多少錢？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "18K回收價格約為純金的75%，需視當日牌價而定。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>K金回收行情報告｜18K、14K多少錢？</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

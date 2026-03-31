@@ -35,6 +35,33 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"金牌回收｜紀念金牌｜奧運金牌變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "神明金牌有宗教意義，回收前需要做什麼儀式嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "這是個人信仰的選擇，我們尊重客戶的決定。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "金牌很薄，有沒有最低重量限制？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "沒有，任何重量的黃金我們都回收。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>金牌回收｜各式金牌高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

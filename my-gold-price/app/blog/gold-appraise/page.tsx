@@ -46,13 +46,34 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: '估價要預約嗎？', acceptedAnswer: { '@type': 'Answer', text: '建議先來電預約，可以減少等候時間。也接受直接到店。' } },
-              { '@type': 'Question', name: '估價後不想賣可以嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，不賣不收任何費用。' } },
-              { '@type': 'Question', name: '可以LINE估價嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以先傳照片到LINE初步估算，但正式報價需要現場秤重鑑定。' } },
-            ],
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "估價要預約嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "建議先來電預約，可以減少等候時間。也接受直接到店。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "估價後不想賣可以嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "完全可以，不賣不收任何費用。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "可以LINE估價嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以先傳照片到LINE初步估算，但正式報價需要現場秤重鑑定。"
+                }
+              }
+            ]
           })
         }}
       />

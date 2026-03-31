@@ -35,6 +35,33 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金手錶回收｜勞力士等名錶收購｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "勞力士黃金款回收價值高嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "勞力士保值性極佳，二手市場價格可能超過黃金材質本身，建議先評估整體市場行情。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "手錶壞掉了，還有收購價值嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "有，黃金材質的價值不受機芯狀況影響。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>黃金手錶回收｜名錶黃金材質高價收購</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

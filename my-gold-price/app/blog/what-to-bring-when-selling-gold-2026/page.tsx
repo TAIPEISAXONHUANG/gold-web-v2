@@ -45,6 +45,49 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"2026年賣黃金必帶物品清單","description":"賣黃金需要準備的證件和物品，一次整理清楚。","step":[{"@type":"HowToStep","position":1,"name":"攜帶身份證正本","text":"這是法規規定的必備文件，影本或健保卡無法替代。未滿18歲需法定代理人陪同。"},{"@type":"HowToStep","position":2,"name":"帶齊要出售的金飾","text":"整理所有要賣的黃金（戒指、項鍊、手鍊、金條等），不同K數可以一起帶。"},{"@type":"HowToStep","position":3,"name":"準備購買證明（加分項）","text":"保證書、發票或鑑定報告可提升信任度、加快鑑定流程，但並非必備。"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "賣黃金需要帶戶口名簿嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "不需要，身份證正本就夠了。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "賣黃金需要事先預約嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "不需要事先預約，直接前往即可。有些店家接受預約優先服務。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "賣黃金前需要先清洗黃金嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "不需要，保持原樣即可。業者有專業判斷，清潔不當反而可能造成損傷。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "代人出售黃金需要什麼文件？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "需攜帶委託人的身份證影本、委託書（建議手寫並簽名），以及代理人（即您）的身份證正本。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>賣黃金要帶什麼？2026年最新規定告訴你</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

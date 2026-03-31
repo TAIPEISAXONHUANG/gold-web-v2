@@ -33,6 +33,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金會褪色嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "K金本身不會褪色，但表面的電鍍層可能隨時間磨損。若出現變色，可透過重新電鍍恢復光澤。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "白金和銀有什麼不同？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "白金是鉑金，屬於貴金屬；銀（Sterling Silver）則是白銀。白金的價格和硬度都高於銀，且不會變黑。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "哪種最值得投資？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "若論投資價值，純黃金（9999）的回收價值最高，也是最被廣泛接受的投資標的。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>K金、黃金、白金有什麼不同？</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
