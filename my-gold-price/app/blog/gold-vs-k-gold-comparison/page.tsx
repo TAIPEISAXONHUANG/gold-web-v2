@@ -1,8 +1,8 @@
 ﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '黃金與K金完整比較｜純度、價格、優缺點一篇看懂｜巧品珠寶',
-  description: '黃金與K金哪個好？24K、18K、14K怎麼選？完整比較純度、價格、優缺點、回收價值，幫您做出最佳選擇。不論投資或配戴都適用。',
+  title: '黃金vs K金怎麼選？回收價差一次搞懂｜巧品珠寶',
+  description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。',
   keywords: '黃金與K金比較,24K黃金,18K金,14K金,純度比較,黃金vs K金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',

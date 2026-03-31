@@ -1,8 +1,8 @@
 ﻿import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '黃金回收注意事項2026｜防詐騙完整指南｜巧品珠寶',
-  description: '黃金回收注意事項完整指南！扣秤、扣耗損、低報純度是最常見的陷阱，教你辨識不良業者、保護自身權益，每台錢多拿500-1000元。台北巧品珠寶。',
+  title: '賣黃金防被騙！5大回收陷阱破解｜巧品珠寶',
+  description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。',
   keywords: '黃金回收注意,黃金回收防騙,賣黃金注意事項,黃金回收陷阱,黃金回收指南,賣黃金防詐',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions',

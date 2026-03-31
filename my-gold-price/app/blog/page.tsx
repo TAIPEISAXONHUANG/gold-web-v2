@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: '黃金回收知識專欄｜台北巧品珠寶',
-  description: '黃金回收知識、價格走勢、K金保養等專業文章。了解黃金回收最新資訊就在巧品珠寶部落格。',
+  title: '黃金回收攻略與金價走勢｜台北巧品珠寶專欄',
+  description: '想賣黃金怕被坑？台北巧品珠寶整理回收流程、今日金價、K金鑑定技巧，幫你每錢多賺500元。',
   keywords: '黃金回收知識,黃金保養,K金回收,金價走勢',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog',

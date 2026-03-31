@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '2026年黃金回收常見問題完整解答｜新手必看｜巧品珠寶',
-  description: '2026年最新整理！黃金回收新手最常問的10個問題：準備證件、秤重扣重、付款方式、K金回收、防詐騙等完整解答。',
+  title: '第一次賣黃金？2026回收QA十問｜巧品珠寶',
+  description: '要帶什麼證件？秤重會被扣嗎？2026最新版黃金回收10大問題，台北巧品珠寶逐題解答，新手看完就能安心賣金。',
   keywords: '黃金回收問題,黃金回收新手,2026黃金回收,黃金回收準備,黃金回收流程',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-faq-2026',
