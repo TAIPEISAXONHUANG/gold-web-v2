@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金拍賣｜黃金買賣市場行情｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '黃金在哪裡賣最划算？', acceptedAnswer: { '@type': 'Answer', text: '直接找專業回收銀樓，省去平台手續費，價格最透明。' } },
+              { '@type': 'Question', name: '黃金價格每天都不同，什麼時候賣最好？', acceptedAnswer: { '@type': 'Answer', text: '金價跟美元和國際局勢有關，很難預測高點。需要現金時就是好時機。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金拍賣｜買賣市場行情完整指南</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

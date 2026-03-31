@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金傳家｜傳家黃金保存與變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '奶奶的金飾沒有收據，可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，我們現場鑑定，不需要購買證明。' } },
+              { '@type': 'Question', name: '可以先免費估價再決定要不要賣嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，估價完全免費，不賣沒有任何義務。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金傳家｜傳承與變現的智慧</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

@@ -16,6 +16,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '二手珠寶收購｜舊珠寶高價回收變現，不需品牌收據｜巧品珠寶',
+            description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [

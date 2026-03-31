@@ -60,6 +60,33 @@ export default function Page() {
         <li>部分金牌因焊藥較多，重量可能略有減少</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "神明金牌有宗教意義，回收前需要做什麼儀式嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "這是個人信仰的選擇，我們尊重客戶的決定。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "金牌很薄，有沒有最低重量限制？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "沒有，任何重量的黃金我們都回收。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h2>常見問題 FAQ</h2>
       <h3>Q：神明金牌有宗教意義，回收前需要做什麼儀式嗎？</h3>
       <p>A：這是個人信仰的選擇，我們尊重客戶的決定。</p>

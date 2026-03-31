@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金生日禮物｜送黃金首飾攻略｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '長輩過生日送多重的金飾合適？', acceptedAnswer: { '@type': 'Answer', text: '一般送1-2錢（約3.75-7.5克）的金飾較為常見，視預算而定。' } },
+              { '@type': 'Question', name: '買來的黃金首飾之後可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，任何品牌購買的黃金我們都收購，以純度和重量計價。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金生日禮物｜送金飾的完整攻略</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

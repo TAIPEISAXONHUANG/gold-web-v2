@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金耳環回收｜金耳環高價變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '我只有一隻耳環，可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，我們依重量計價，單隻耳環也接受回收。' } },
+              { '@type': 'Question', name: '我的耳環有小鑽石，怎麼計價？', acceptedAnswer: { '@type': 'Answer', text: '黃金和鑽石分開估價，我們給您完整的報價。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金耳環回收｜金耳環高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

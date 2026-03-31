@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金戒指回收｜結婚戒指變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '婚戒有紀念意義，需要馬上決定要不要賣嗎？', acceptedAnswer: { '@type': 'Answer', text: '不用，先免費估價，再慢慢決定，完全沒有壓力。' } },
+              { '@type': 'Question', name: '戒指有鑲寶石，黃金部分怎麼計算？', acceptedAnswer: { '@type': 'Answer', text: '我們將金屬和寶石分開計價，完整透明報告。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金戒指回收｜各式金戒高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

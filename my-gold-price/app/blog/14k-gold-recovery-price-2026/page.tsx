@@ -39,6 +39,22 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '14K金回收價格2026｜當日行情、計算公式與避坑指南',
+            description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',

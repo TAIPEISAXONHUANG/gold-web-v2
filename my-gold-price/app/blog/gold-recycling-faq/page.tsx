@@ -16,6 +16,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '黃金回收常見問題總整理｜2026年必看攻略',
+            description: '黃金回收常見問題解答：流程、證件、費用、注意事項。專業珠寶店親自告訴你如何賣出好價格。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-recycling-faq' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [

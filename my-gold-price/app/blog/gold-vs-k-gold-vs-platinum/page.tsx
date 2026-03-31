@@ -130,6 +130,41 @@ export default function Page() {
         </tbody>
       </table>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金會褪色嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "K金本身不會褪色，但表面的電鍍層可能隨時間磨損。若出現變色，可透過重新電鍍恢復光澤。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "白金和銀有什麼不同？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "白金是鉑金，屬於貴金屬；銀（Sterling Silver）則是白銀。白金的價格和硬度都高於銀，且不會變黑。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "哪種最值得投資？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "若論投資價值，純黃金（9999）的回收價值最高，也是最被廣泛接受的投資標的。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h2>常見問題</h2>
       <h3>Q1: K金會褪色嗎？</h3>
       <p>K金本身不會褪色，但表面的電鍍層可能隨時間磨損。若出現變色，可透過重新電鍍恢復光澤。</p>

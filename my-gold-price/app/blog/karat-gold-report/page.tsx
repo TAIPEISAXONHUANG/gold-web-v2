@@ -93,10 +93,37 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金跟純金差在哪？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "K金是合金，硬度較高，適合製作珠寶首飾；純金較軟，但保值性較高。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "18K回收多少錢？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "18K回收價格約為純金的75%，需視當日牌價而定。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h2>❓ 常見問題FAQ</h2>
       <h3>Q：K金跟純金差在哪？</h3>
       <p>A：K金是合金，硬度較高，適合製作珠寶首飾；純金較軟，但保值性較高。</p>
-      
+
       <h3>Q：18K回收多少錢？</h3>
       <p>A：18K回收價格約為純金的75%，需視當日牌價而定。</p>
 

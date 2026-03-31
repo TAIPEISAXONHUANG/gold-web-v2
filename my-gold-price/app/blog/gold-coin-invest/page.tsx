@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金投資｜金幣金條買賣入門｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '現在是買黃金的好時機嗎？', acceptedAnswer: { '@type': 'Answer', text: '金價長期看漲，分批購入是穩健策略。' } },
+              { '@type': 'Question', name: '買來的金幣之後可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，我們依當日牌價高價收購。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金投資｜金幣金條入門完整指南</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

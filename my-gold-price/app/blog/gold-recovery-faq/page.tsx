@@ -16,6 +16,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '黃金回收常見問題｜秤重、扣重、流程一篇搞懂',
+            description: '黃金回收最常見問題全解答！包含計價方式、流程、所需證件、詐騙防範，10年經驗老闆直接回答，讓你安心賣黃金。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-recovery-faq' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "headline": "黃金回收常見問題｜秤重、扣重、流程一篇搞懂",

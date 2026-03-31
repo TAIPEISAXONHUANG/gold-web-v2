@@ -39,6 +39,22 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '今日金價台灣2026｜一錢、一兩、每克即時報價查詢',
+            description: '今日金價台灣2026最新行情：黃金一錢多少錢？一兩多少？每克幾元？本文整理2026年3月最新金價數據、計算方式與回收報價，5秒看懂今天金價。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taiwan-gold-price-today-2026' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',

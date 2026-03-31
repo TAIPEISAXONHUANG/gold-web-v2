@@ -16,6 +16,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
+            description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-recovery-faq-guide' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "headline": "黃金回收FAQ攻略｜2026年新手必看",

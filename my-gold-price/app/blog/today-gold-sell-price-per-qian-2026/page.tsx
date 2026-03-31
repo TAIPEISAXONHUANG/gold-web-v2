@@ -39,6 +39,22 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '今日金價一錢賣出2026｜賣黃金前必看的報價邏輯與避坑指南',
+            description: '2026年今日黃金賣出價一錢多少？搞清楚「賣出價」和「買入價」的差異，才不會白白少領幾百塊。巧品珠寶不扣耗損、秤重透明，當場現金，電洽即時報價。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/today-gold-sell-price-per-qian-2026' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',

@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金項鍊回收｜金鍊高價變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '我的項鍊斷了，會影響回收價嗎？', acceptedAnswer: { '@type': 'Answer', text: '不影響，我們依重量計價，斷鍊和完整的項鍊報價一樣。' } },
+              { '@type': 'Question', name: '項鍊有墜子，怎麼計價？', acceptedAnswer: { '@type': 'Answer', text: '金鍊和墜子一起秤重計算，寶石部分另行估價。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金項鍊回收｜金鍊高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

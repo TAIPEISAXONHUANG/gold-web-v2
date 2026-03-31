@@ -39,6 +39,22 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '今日黃金價格台灣2026｜每日報價查詢、漲跌原因與回收建議',
+            description: '今日黃金價格台灣2026：每日更新的黃金報價、漲跌分析、一錢一兩換算，以及黃金回收最佳時機判斷。看這一篇就夠了。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taiwan-gold-price-daily-query-2026' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',

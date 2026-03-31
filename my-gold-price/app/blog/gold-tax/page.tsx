@@ -35,6 +35,21 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '賣黃金要開收據嗎？', acceptedAnswer: { '@type': 'Answer', text: '我們依規定開立相關憑證，並依法進行實名制登記。' } },
+              { '@type': 'Question', name: '一次賣很多黃金，會被國稅局查嗎？', acceptedAnswer: { '@type': 'Answer', text: '只要是正常的個人財產處分，通常不會有問題。如擔心，建議諮詢稅務專業人員。' } },
+              { '@type': 'Question', name: '賣黃金超過多少要申報？', acceptedAnswer: { '@type': 'Answer', text: '大額交易（單筆50萬元以上）依規定可能需要申報。建議保留交易明細作為報稅依據。' } },
+              { '@type': 'Question', name: '黃金回收店會幫忙開收據嗎？', acceptedAnswer: { '@type': 'Answer', text: '正規店家會出具交易明細或收據，載明重量、純度、單價和總金額。' } },
+            ],
+          })
+        }}
+      />
       <h1>賣黃金要繳稅嗎？黃金稅務完整說明</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
@@ -79,8 +94,10 @@ export default function Page() {
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-          <li><a href="https://law.moj.gov.tw" style={{ color: '#B8860B' }}>中華民國所得稅法</a></li>
-          <li><a href="https://www.mof.gov.tw" style={{ color: '#B8860B' }}>財政部</a></li>
+          <li><a href="/blog/gold-recovery-guide-2026" style={{ color: '#B8860B' }}>黃金回收流程完整指南</a></li>
+          <li><a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: '#B8860B' }}>賣黃金要帶什麼？2026最新規定</a></li>
+          <li><a href="/blog/gold-recovery-price-today" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
+          <li><a href="/blog/gold-tradition" style={{ color: '#B8860B' }}>黃金傳統文化習俗</a></li>
         </ul>
       </div>
 

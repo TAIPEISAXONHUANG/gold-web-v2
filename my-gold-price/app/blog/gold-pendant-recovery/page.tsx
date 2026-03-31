@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金墜子回收｜金吊墜高價變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '宗教金墜可以賣嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，完全是您個人的決定。' } },
+              { '@type': 'Question', name: '墜子上有小鑽石，怎麼計價？', acceptedAnswer: { '@type': 'Answer', text: '黃金和鑽石分開估價，過程完全透明。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金墜子回收｜金吊墜高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

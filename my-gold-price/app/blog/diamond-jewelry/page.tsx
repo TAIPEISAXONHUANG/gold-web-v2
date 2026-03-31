@@ -32,6 +32,20 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '沒有 GIA 證書的鑽石可以收購嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以。我們有專業儀器可現場鑑定，無需證書也能估價。' } },
+              { '@type': 'Question', name: '鑽石估價要收費嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全免費，不收任何鑑定費用。' } },
+              { '@type': 'Question', name: '品牌珠寶盒和保證書有影響嗎？', acceptedAnswer: { '@type': 'Answer', text: '有保留的話可以提高收購價，但沒有也照樣收購。' } },
+            ],
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶"}]})
         }}
       />

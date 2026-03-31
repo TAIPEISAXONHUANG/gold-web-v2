@@ -16,6 +16,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '今日金價一錢多少？台灣黃金一錢價格即時查詢｜巧品珠寶',
+            description: '今日台灣黃金一錢價格查詢！一錢等於3.75克，了解金價換算方式、999/916一錢價格差異，以及回收變現的最佳時機。巧品珠寶電話 0986-821-626。',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/daily-gold-price-per-qian' },
+            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            datePublished: '2026-03-01T00:00:00+08:00',
+            dateModified: '2026-03-31T00:00:00+08:00',
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [

@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金文化｜黃金的象徵意義與歷史｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '傳家的金飾該如何保存？', acceptedAnswer: { '@type': 'Answer', text: '存放在乾燥環境，避免與其他金屬摩擦。若不戴可考慮變現後存入黃金存摺。' } },
+              { '@type': 'Question', name: '有紀念意義的金飾還是可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '當然可以，情感價值與金錢價值可以並存，由您決定。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金文化｜黃金的象徵意義與歷史</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

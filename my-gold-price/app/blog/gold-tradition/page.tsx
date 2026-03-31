@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金傳統習俗｜台灣黃金文化習俗｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '彌月收到的金飾可以賣掉嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，黃金保值性高，待孩子長大後可以視需求決定。' } },
+              { '@type': 'Question', name: '三金應該買哪種純度？', acceptedAnswer: { '@type': 'Answer', text: '傳統偏好9999純金，現代也有選擇18K款式，依個人喜好。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金傳統習俗｜台灣黃金文化完整介紹</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

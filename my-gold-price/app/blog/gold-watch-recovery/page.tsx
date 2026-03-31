@@ -59,6 +59,33 @@ export default function Page() {
         <li><strong>品牌附加值</strong>：知名品牌（如勞力士）可能有品牌溢價</li>
       </ol>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "勞力士黃金款回收價值高嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "勞力士保值性極佳，二手市場價格可能超過黃金材質本身，建議先評估整體市場行情。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "手錶壞掉了，還有收購價值嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "有，黃金材質的價值不受機芯狀況影響。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h2>常見問題 FAQ</h2>
       <h3>Q：勞力士黃金款回收價值高嗎？</h3>
       <p>A：勞力士保值性極佳，二手市場價格可能超過黃金材質本身，建議先評估整體市場行情。</p>

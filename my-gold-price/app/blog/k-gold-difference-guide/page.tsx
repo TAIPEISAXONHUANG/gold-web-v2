@@ -179,6 +179,49 @@ export default function Page() {
         <li>需要堅固耐用的結婚戒指或日常項鍊</li>
       </ul>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "K金會不會很容易壞？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "相較於純金，K金硬度較高，反而更不容易變形或刮傷。日常配戴建議選擇18K以上，兼具硬度與價值。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "鍍金和包金跟K金一樣嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "完全不同！鍍金（Gold Plated）只有薄薄一層金，包金（Gold Filled）約5%含金量，兩者回收價值都很低，建議選擇正規K金。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "黃金跟K金可以一起戴嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以，但建議分開配戴。硬度不同的金屬相互摩擦會加速磨損，尤其是純金容易刮傷。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "女生戴K金會過敏嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "部分K金含鎳成分，可能引起過敏。建議選擇14K以上、無鎳成分的K金，或選擇純銀鍍金（925銀鍍金）材質。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h2>常見問題</h2>
 
       <h3>Q：K金會不會很容易壞？</h3>

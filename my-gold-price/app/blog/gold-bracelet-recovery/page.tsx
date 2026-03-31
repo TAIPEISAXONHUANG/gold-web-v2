@@ -35,6 +35,19 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金手鐲回收｜金手鐲高價變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '手鐲內圈有刻字，回收時要磨掉嗎？', acceptedAnswer: { '@type': 'Answer', text: '不需要，刻字不影響重量計算。' } },
+              { '@type': 'Question', name: '變形或裂掉的手鐲可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，我們以重量和純度計價，外觀不影響回收價格。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金手鐲回收｜金手鐲高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

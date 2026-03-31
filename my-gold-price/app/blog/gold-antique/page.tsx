@@ -35,6 +35,20 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"古早黃金回收｜老金飾變現｜巧品珠寶"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '祖傳金飾沒有任何憑證，可以回收嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以。我們現場鑑定，不需要任何購買證明。' } },
+              { '@type': 'Question', name: '古早金飾的純度怎麼判斷？', acceptedAnswer: { '@type': 'Answer', text: '我們使用儀器檢測加火燒確認，測量誤差極小。' } },
+              { '@type': 'Question', name: '斷掉或變形的古早金飾可以收嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以，我們以純度和重量計價，外觀不影響回收價格。' } },
+            ],
+          })
+        }}
+      />
       <h1>古早黃金回收｜老金飾高價變現</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

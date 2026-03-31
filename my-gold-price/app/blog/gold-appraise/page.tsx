@@ -42,6 +42,20 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"黃金估價流程說明","description":"專業黃金估價的完整步驟，全程約10分鐘。","step":[{"@type":"HowToStep","position":1,"name":"目視檢查","text":"先確認金飾外觀、印記標示（K數、品牌）和整體狀況。"},{"@type":"HowToStep","position":2,"name":"XRF儀器檢測純度","text":"使用X射線螢光分析儀精確測量黃金純度，非破壞性檢測不會傷害物品。"},{"@type":"HowToStep","position":3,"name":"電子秤精密秤重","text":"以國家認證電子秤秤出淨重（扣除非金屬部分如寶石、繩鏈）。"},{"@type":"HowToStep","position":4,"name":"依當日牌價計算報價","text":"回收價 = 當日牌價 × 純度 × 重量。現場計算讓客戶確認，公開透明。"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: '估價要預約嗎？', acceptedAnswer: { '@type': 'Answer', text: '建議先來電預約，可以減少等候時間。也接受直接到店。' } },
+              { '@type': 'Question', name: '估價後不想賣可以嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，不賣不收任何費用。' } },
+              { '@type': 'Question', name: '可以LINE估價嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以先傳照片到LINE初步估算，但正式報價需要現場秤重鑑定。' } },
+            ],
+          })
+        }}
+      />
       <h1>黃金估價｜台北免費專業鑑定</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
