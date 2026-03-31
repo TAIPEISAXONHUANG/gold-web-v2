@@ -33,6 +33,12 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"2026年黃金與K金的差異"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"黃金和K金有什麼差別？","acceptedAnswer":{"@type":"Answer","text":"黃金（24K）指純度99.99%的純金，K金是黃金與銀、銅、鎳等金屬的合金。K數代表含金量，18K含金75%，14K含金58.5%，K金硬度較高但回收價值較低。"}},{"@type":"Question","name":"24K黃金和18K金哪個好？","acceptedAnswer":{"@type":"Answer","text":"取決於用途。以投資保值、傳家或未來回收為目的，選24K純金；以日常配戴為主、喜歡精細款式或預算有限，選18K金更適合。"}},{"@type":"Question","name":"K金回收價格怎麼計算？","acceptedAnswer":{"@type":"Answer","text":"回收價格公式：當日金價 × 重量 × 純度%。例如當日金價每錢6,000元，1兩18K金回收價約22,500元（6,000 × 5 × 75%）。"}},{"@type":"Question","name":"K金上面的750、585是什麼意思？","acceptedAnswer":{"@type":"Answer","text":"這是含金量的千分比標示。750代表18K（75%黃金），585代表14K（58.5%黃金），417代表10K（41.7%黃金）。"}},{"@type":"Question","name":"哪種黃金最適合投資？","acceptedAnswer":{"@type":"Answer","text":"24K純金（9999）最適合投資，因為純度最高、回收損失最小，且在市場上最容易變現。K金因含金量較低，投資保值性相對較差。"}}]})
+        }}
+      />
       <h1>2026年黃金與K金的差異｜買金飾前必看的純度攻略</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

@@ -33,6 +33,12 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金與K金完整比較｜純度、價格、優缺點一篇看懂"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"K金不值錢嗎？","acceptedAnswer":{"@type":"Answer","text":"錯誤！K金當然有價值，只是回收價格會按含金量比例計算。18K的回收價值約是純金的75%，並非完全沒有價值。"}},{"@type":"Question","name":"24K黃金最值得買嗎？","acceptedAnswer":{"@type":"Answer","text":"不一定！如果目的是日常配戴，24K因為太軟容易損壞，反而不如18K實用。買珠寶要根據用途選擇。"}},{"@type":"Question","name":"K金會變色嗎？","acceptedAnswer":{"@type":"Answer","text":"會！部分K金表面有鍍層，長期配戴後可能會褪色或變色。保養方式依含金量與電鍍方式而異。"}},{"@type":"Question","name":"黃金與K金哪個回收價值更高？","acceptedAnswer":{"@type":"Answer","text":"純金（24K）的回收價值最高，因為含金量99.99%。K金按含金量比例計算，18K約是純金的75%，14K約是58.5%。"}},{"@type":"Question","name":"投資該選黃金還是K金？","acceptedAnswer":{"@type":"Answer","text":"投資應選擇24K純金，因為純度最高、保值性最好、變現最容易。K金主要適合日常配戴，不適合作為投資工具。"}}]})
+        }}
+      />
       <h1>黃金與K金完整比較｜純度、價格、優缺點一篇看懂</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

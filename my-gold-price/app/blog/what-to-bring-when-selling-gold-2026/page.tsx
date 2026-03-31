@@ -33,7 +33,12 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"賣黃金要帶什麼？2026年最新規定告訴你"}]})
         }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"賣黃金必須帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"依法規規定，賣黃金必須攜帶中華民國身份證正本（18歲以上本人）。外籍人士需攜帶居留證或護照正本。未帶身份證者，依法業者無法進行交易。"}},{"@type":"Question","name":"賣黃金需要帶購買憑證嗎？","acceptedAnswer":{"@type":"Answer","text":"購買憑證非強制要求，但攜帶購買收據、品牌保證書或寶石鑑定書往往能提高報價或加速交易流程。"}},{"@type":"Question","name":"可以代替他人賣黃金嗎？","acceptedAnswer":{"@type":"Answer","text":"可以，但需攜帶委託人的身份證影本、委託書（建議手寫並簽名），以及代理人本身的身份證正本。各店家規定不同，建議事先電話確認。"}},{"@type":"Question","name":"未成年人可以賣黃金嗎？","acceptedAnswer":{"@type":"Answer","text":"未滿18歲者無法獨自進行黃金交易，需由法定代理人（父母）陪同，並攜帶雙方身份證件。"}},{"@type":"Question","name":"賣黃金前需要先清洗黃金嗎？","acceptedAnswer":{"@type":"Answer","text":"不需要！業者有專業判斷，清洗不當反而可能造成損傷。保持黃金原樣即可，盡量保持完整並一併攜帶配件。"}}]})
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
