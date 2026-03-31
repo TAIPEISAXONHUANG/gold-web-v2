@@ -60,8 +60,10 @@ export default function Page() {
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-          <li><a href="https://rate.bot.com.tw/gold" style={{ color: '#B8860B' }}>台灣銀行</a></li>
-          <li><a href="https://www.gold.org" style={{ color: '#B8860B' }}>世界黃金協會</a></li>
+          <li><a href="/blog/gold-coin-invest" style={{ color: '#B8860B' }}>黃金投資入門指南</a></li>
+          <li><a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: '#B8860B' }}>黃金、K金、白金完整比較</a></li>
+          <li><a href="/blog/gold-recovery-price-today" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
+          <li><a href="/blog/taiwan-gold-price-outlook-2026" style={{ color: '#B8860B' }}>2026年黃金價格展望</a></li>
         </ul>
       </div>
 
