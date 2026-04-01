@@ -123,6 +123,7 @@ export default function Page() {
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+          <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收指南</a></li>
           <li><a href="https://law.moj.gov.tw" style={{ color: '#B8860B' }}>中華民國所得稅法</a></li>
           <li><a href="https://www.mof.gov.tw" style={{ color: '#B8860B' }}>財政部</a></li>
         </ul>
