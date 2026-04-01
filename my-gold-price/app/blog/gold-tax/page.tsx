@@ -85,13 +85,13 @@ export default function Page() {
       </div>
 
       <h2>結論：一般個人賣黃金通常不需繳所得稅</h2>
-      <p>很多人賣黃金時擔心要繳稅。根據台灣現行法規，個人出售黃金的財產交易所得，原則上需申報，但實務上只要有購買憑證且非以交易黃金為業，稅負通常很低甚至為零。</p>
+      <p>很多人賣黃金時擔心要繳稅。根據台灣現行法規，個人出售黃金的財產交易所得，原則上需申報，但實務上只要有購買憑證且非以交易黃金為業，稅負通常很低甚至為零。想了解賣黃金前的準備事項，可參考<a href="/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必知事項</a>。</p>
 
       <h2>黃金相關稅務說明</h2>
       <ul>
         <li><strong>個人財產交易所得</strong>：賣出金額減購買成本，若有獲利才需申報所得稅</li>
         <li><strong>無購買憑證</strong>：國稅局按收入的6%估算成本，但實務上鮮少被查核</li>
-        <li><strong>遺產中的黃金</strong>：需計入遺產總額，超過免稅額才需繳遺產稅</li>
+        <li><strong>遺產中的黃金</strong>：需計入遺產總額，超過免稅額才需繳遺產稅。詳細可參考<a href="/blog/inheritance-gold" style={{ color: '#B8860B' }}>繼承黃金處理指南</a></li>
         <li><strong>贈與黃金</strong>：超過每年244萬贈與免稅額需申報贈與稅</li>
       </ul>
 
@@ -100,6 +100,7 @@ export default function Page() {
         <li>保留購買憑證，可作為成本證明</li>
         <li>若金額較大，建議諮詢會計師</li>
         <li>繼承的黃金在申報遺產時應如實列入</li>
+        <li>賣黃金時需依規定<a href="/blog/gold-id-requirement" style={{ color: '#B8860B' }}>攜帶身分證件實名登記</a></li>
       </ul>
 
       <h2>常見問題 FAQ</h2>
