@@ -247,6 +247,13 @@ export default function Page() {
         </details>
       </div>
 
+      <h2>📚 延伸閱讀</h2>
+      <ul>
+        <li><a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
+        <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收完整指南</a></li>
+        <li><a href="/blog/how-to-choose-gold-shop" style={{ color: '#B8860B' }}>如何選擇黃金回收店</a></li>
+      </ul>
+
       <hr style={{ margin: '2rem 0' }} />
 
       <h2>立即查詢當日回收報價</h2>
