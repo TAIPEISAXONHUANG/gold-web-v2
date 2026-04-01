@@ -36,28 +36,6 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "K金跟純金差在哪？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "K金是合金，硬度較高，適合製作珠寶首飾；純金較軟，但保值性較高。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "18K回收多少錢？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "18K回收價格約為純金的75%，需視當日牌價而定。"
-                }
-              }
-            ]
-          })
           __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"K金跟純金差在哪？","acceptedAnswer":{"@type":"Answer","text":"K金是黃金與其他金屬的合金，硬度較高，適合製作精細珠寶首飾；純金（24K）純度99.9%，質地較軟但保值性最高。K金回收價格依含金比例計算，例如18K為純金價的75%。"}},{"@type":"Question","name":"18K金回收一錢多少錢？","acceptedAnswer":{"@type":"Answer","text":"18K金回收價格 = 當日純金牌價 × 75%。以2026年純金牌價約每錢9,200元為例，18K金每錢回收價約6,900元。實際價格每日浮動，建議當日致電詢問最新報價。"}},{"@type":"Question","name":"14K金回收價格怎麼算？","acceptedAnswer":{"@type":"Answer","text":"14K金的含金量為58.3%，回收價格 = 當日純金牌價 × 58.3%。以純金每錢9,200元計算，14K金每錢約5,364元。不過實際含金量需以XRF檢測為準，部分14K飾品實際純度可能略有差異。"}},{"@type":"Question","name":"K金回收需要帶什麼證件？","acceptedAnswer":{"@type":"Answer","text":"攜帶身分證即可。如有原購買證明（發票、保證書）也建議一併帶上，雖然回收價格主要看重量與純度，但有些店家會參考品牌與來源做評估。"}},{"@type":"Question","name":"K金回收會扣耗損嗎？","acceptedAnswer":{"@type":"Answer","text":"正規店家不會扣耗損。K金回收是依據XRF檢測出的實際含金比例乘以重量計算，不應額外扣除耗損費用。若有店家要求扣耗損，建議另選其他店家比較。"}},{"@type":"Question","name":"不同品牌的K金回收價格一樣嗎？","acceptedAnswer":{"@type":"Answer","text":"回收價格主要看含金量與重量，品牌溢價通常不會反映在回收價格上。無論是Tiffany、Cartier或無品牌K金，只要含金量相同，回收價格基本一致。因此購買高價品牌K金飾品時，需考量回收時的價值落差。"}}]})
         }}
       />

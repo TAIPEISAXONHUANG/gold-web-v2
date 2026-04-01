@@ -42,22 +42,6 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "黃金在哪裡賣最划算？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "直接找專業回收銀樓，省去平台手續費，價格最透明。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "黃金價格每天都不同，什麼時候賣最好？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "金價跟美元和國際局勢有關，很難預測高點。需要現金時就是好時機。"
-                }
-              }
               { "@type": "Question", "name": "黃金在哪裡賣最划算？", "acceptedAnswer": { "@type": "Answer", "text": "直接找專業回收銀樓最划算，省去平台手續費，價格透明、當場現金交易。建議選擇有公開牌價的實體店面。" } },
               { "@type": "Question", "name": "黃金價格每天都不同，什麼時候賣最好？", "acceptedAnswer": { "@type": "Answer", "text": "金價受美元匯率、國際局勢、央行政策等多重因素影響，短期走勢難以預測。若急需資金，當下就是好時機；若不急，可關注國際金價趨勢再決定。" } },
               { "@type": "Question", "name": "黃金拍賣平台安全嗎？", "acceptedAnswer": { "@type": "Answer", "text": "網路拍賣平台存在較高風險，包括買家惡意出價不付款、平台抽取高額手續費（通常5-15%）、交易糾紛難以解決等問題。建議選擇有實體店面的專業回收管道較安全。" } },

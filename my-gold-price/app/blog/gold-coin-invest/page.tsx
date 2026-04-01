@@ -42,22 +42,6 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "現在是買黃金的好時機嗎？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "金價長期看漲，分批購入是穩健策略。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "買來的金幣之後可以回收嗎？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "可以，我們依當日牌價高價收購。"
-                }
-              }
               { "@type": "Question", "name": "現在是買黃金的好時機嗎？", "acceptedAnswer": { "@type": "Answer", "text": "黃金長期具有抗通膨與避險功能，過去20年金價漲幅超過500%。分批購入是穩健策略，可降低買在高點的風險。建議將黃金配置在總資產的5-15%。" } },
               { "@type": "Question", "name": "買來的金幣之後可以回收嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以。知名投資型金幣（如楓葉幣、袋鼠幣、維也納愛樂幣）流通性高，回收價格接近國際金價。巧品珠寶依當日牌價高價收購各式金幣與金條。" } },
               { "@type": "Question", "name": "金幣和金條哪個比較適合投資？", "acceptedAnswer": { "@type": "Answer", "text": "兩者各有優勢。金條適合大額投資（如100克以上），單位溢價較低；金幣適合小額入手（1盎司或以下），且部分金幣因限量發行，可能具有額外的收藏溢價。" } },

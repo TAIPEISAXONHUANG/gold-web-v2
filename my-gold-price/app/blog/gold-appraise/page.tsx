@@ -49,41 +49,13 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "估價要預約嗎？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "建議先來電預約，可以減少等候時間。也接受直接到店。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "估價後不想賣可以嗎？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "完全可以，不賣不收任何費用。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "可以LINE估價嗎？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "可以先傳照片到LINE初步估算，但正式報價需要現場秤重鑑定。"
-                }
-              }
+              { "@type": "Question", "name": "估價要預約嗎？", "acceptedAnswer": { "@type": "Answer", "text": "建議先來電或LINE預約，可以減少等候時間。也接受直接到店，但若遇上客戶較多可能需要稍候。" } },
+              { "@type": "Question", "name": "估價後不想賣可以嗎？", "acceptedAnswer": { "@type": "Answer", "text": "完全可以，不賣不收任何費用。我們提供的是免費估價服務，您可以自由比較多家報價後再決定。" } },
+              { "@type": "Question", "name": "可以LINE估價嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以先傳照片到LINE（@QPD888）初步估算參考價格，但正式報價需要現場秤重鑑定，因為照片無法判斷精確重量和純度。" } },
+              { "@type": "Question", "name": "估價需要帶什麼證件？", "acceptedAnswer": { "@type": "Answer", "text": "純估價不需要證件。但如果決定要賣出，需要攜帶身分證正本以完成交易登記，這是政府規定的程序。" } },
+              { "@type": "Question", "name": "估價過程會損壞金飾嗎？", "acceptedAnswer": { "@type": "Answer", "text": "不會。我們使用XRF螢光分析儀進行非破壞性檢測，不需要切割或刮磨金飾，檢測完畢後金飾完好如初。" } },
+              { "@type": "Question", "name": "估價結果的有效期是多久？", "acceptedAnswer": { "@type": "Answer", "text": "由於金價每日波動，估價結果僅當日有效。隔日金價若有變動，報價也會相應調整。建議當天決定可鎖定當日價格。" } }
             ]
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: '估價要預約嗎？', acceptedAnswer: { '@type': 'Answer', text: '建議先來電或LINE預約，可以減少等候時間。也接受直接到店，但若遇上客戶較多可能需要稍候。' } },
-              { '@type': 'Question', name: '估價後不想賣可以嗎？', acceptedAnswer: { '@type': 'Answer', text: '完全可以，不賣不收任何費用。我們提供的是免費估價服務，您可以自由比較多家報價後再決定。' } },
-              { '@type': 'Question', name: '可以LINE估價嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以先傳照片到LINE（@QPD888）初步估算參考價格，但正式報價需要現場秤重鑑定，因為照片無法判斷精確重量和純度。' } },
-              { '@type': 'Question', name: '估價需要帶什麼證件？', acceptedAnswer: { '@type': 'Answer', text: '純估價不需要證件。但如果決定要賣出，需要攜帶身分證正本以完成交易登記，這是政府規定的程序。' } },
-              { '@type': 'Question', name: '估價過程會損壞金飾嗎？', acceptedAnswer: { '@type': 'Answer', text: '不會。我們使用XRF螢光分析儀進行非破壞性檢測，不需要切割或刮磨金飾，檢測完畢後金飾完好如初。' } },
-              { '@type': 'Question', name: '估價結果的有效期是多久？', acceptedAnswer: { '@type': 'Answer', text: '由於金價每日波動，估價結果僅當日有效。隔日金價若有變動，報價也會相應調整。建議當天決定可鎖定當日價格。' } },
-            ],
           })
         }}
       />
