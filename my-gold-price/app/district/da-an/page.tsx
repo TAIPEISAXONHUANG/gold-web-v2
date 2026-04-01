@@ -25,7 +25,7 @@ export default function Page() {
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
-            "dateModified": "2026-03-17T00:00:00+08:00"
+            "dateModified": "2026-04-01T00:00:00+08:00"
           })
         }}
       />
@@ -109,6 +109,20 @@ export default function Page() {
         <li><strong>免費估價</strong>：估完不想賣可直接帶走，不強迫</li>
       </ul>
 
+      <h2>大安區黃金回收可以賣什麼？</h2>
+      <p>很多人以為「只有金條才能回收」，其實日常黃金飾品全部都收，包括：</p>
+      <ul>
+        <li><strong>黃金項鍊、手鍊、手環</strong>（包含斷鍊、舊款、不流行款式）</li>
+        <li><strong>黃金戒指</strong>（含鑽戒、K金戒，鑽石另估）</li>
+        <li><strong>黃金耳環、墜子</strong>（單隻、缺配件都可）</li>
+        <li><strong>黃金金牌、紀念章</strong>（含廟宇金牌、壽星金牌）</li>
+        <li><strong>金條、金幣</strong>（台灣銀行、臺銀、中國商銀規格都收）</li>
+        <li><strong>K金飾品</strong>（18K、14K、9K，含珠寶鑲嵌款）</li>
+        <li><strong>碎金、舊金牙</strong>（部分牙科金也可回收）</li>
+        <li><strong>白金（鉑金 Pt950）</strong>（注意：白K金非鉑金，純度不同）</li>
+      </ul>
+      <p>不確定能不能賣？帶來估價就好，零壓力，不賣沒關係。</p>
+
       <h2>2026年大安區黃金回收參考價格</h2>
       <p>以下為 2026 年 3 月參考行情（每台錢，依當日國際金價浮動）：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
@@ -129,6 +143,24 @@ export default function Page() {
       </table>
       <p style={{ fontSize: '0.85rem', color: '#888' }}>※ 以上為參考價，實際以到店當日國際金價為準。建議來電確認即時報價。</p>
 
+      <h2>黃金回收價格怎麼算？一個公式看懂</h2>
+      <p>很多人擔心「被騙」或「算不清楚」，其實公式很簡單：</p>
+      <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0', background: '#FFFBEB' }}>
+        <thead>
+          <tr style={{ background: '#FEF3C7' }}>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'left' }}>計算項目</th>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'left' }}>說明</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>重量</strong></td><td style={{ padding: '10px', border: '1px solid #ddd' }}>公開秤重，以台錢計（1台錢 ≈ 3.75公克）</td></tr>
+          <tr style={{ background: '#fafafa' }}><td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>純度</strong></td><td style={{ padding: '10px', border: '1px solid #ddd' }}>儀器鑑定，24K=99.99%、18K=75%、916=91.6%</td></tr>
+          <tr><td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>當日牌價</strong></td><td style={{ padding: '10px', border: '1px solid #ddd' }}>依國際金價即時浮動，每天不同</td></tr>
+          <tr style={{ background: '#fafafa' }}><td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>耗損費</strong></td><td style={{ padding: '10px', border: '1px solid #ddd' }}>巧品珠寶：<strong>不扣耗損</strong>（許多同業扣5-10%）</td></tr>
+        </tbody>
+      </table>
+      <p><strong>實際範例：</strong>一條 916 金項鍊重 2 台錢，當日 916 收購價 17,500元/台錢 → 回收金額 = 2 × 17,500 = <strong>35,000元</strong>（不扣耗損，全額付清）</p>
+
       <h2>大安區黃金回收流程（10-15分鐘完成）</h2>
       <ol>
         <li><strong>攜帶黃金及身分證到店</strong>（實名制登記，政府規定）</li>
@@ -139,12 +171,49 @@ export default function Page() {
         <li><strong>當場現金付款</strong>：確認後立即付清</li>
       </ol>
 
+      <h2>賣黃金前要準備什麼？</h2>
+      <p>到店前只需要準備兩樣東西：</p>
+      <ol>
+        <li><strong>黃金本體</strong>：任何形式都可，不需要盒子或保證書</li>
+        <li><strong>身分證</strong>：政府規定黃金回收需要實名登記（身分證或護照）</li>
+      </ol>
+      <p>不需要：原始發票、購買憑證、品牌包裝。有沒有都無所謂，回收價只看重量和純度。</p>
+      <p>如果是繼承來的舊金飾、不清楚哪裡買的，都完全沒問題，帶來就可以估。</p>
+
       <h2>大安區位置與交通</h2>
       <p><strong>地址：</strong>台北市大安區濟南路三段62-1號1樓</p>
       <p><strong>捷運：</strong>板南線忠孝新生站（步行約5分鐘）</p>
       <p><strong>公車：</strong>多條路線停靠忠孝新生路口</p>
       <p><strong>停車：</strong>附近有公共停車場，建議搭大眾運輸</p>
       <p>大安區各里居民（大安、和平、四維、仁愛、信義路沿線）皆可就近前往，無需跨區。</p>
+
+      <h2>巧品珠寶 vs 一般銀樓、當舖比較</h2>
+      <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
+        <thead>
+          <tr style={{ background: '#FEF3C7' }}>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'left' }}>項目</th>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>巧品珠寶</th>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>一般銀樓</th>
+            <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>當舖</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style={{ padding: '10px', border: '1px solid #ddd' }}>收購對象</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>自家品牌 + 其他品牌</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>多數只收自家品牌</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>各類都收</td></tr>
+          <tr style={{ background: '#fafafa' }}><td style={{ padding: '10px', border: '1px solid #ddd' }}>耗損費</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}><strong>不扣</strong></td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>常扣 5-10%</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>常扣</td></tr>
+          <tr><td style={{ padding: '10px', border: '1px solid #ddd' }}>鑑定方式</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>老闆親自 + 儀器</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>員工</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>員工</td></tr>
+          <tr style={{ background: '#fafafa' }}><td style={{ padding: '10px', border: '1px solid #ddd' }}>付款方式</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>當場現金</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>通常當場</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>當場（但質押非買斷）</td></tr>
+          <tr><td style={{ padding: '10px', border: '1px solid #ddd' }}>估完不賣</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>免費，直接帶走</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>通常免費</td><td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>通常免費</td></tr>
+        </tbody>
+      </table>
+
+      <h2>大安區黃金回收常見陷阱（必看）</h2>
+      <ul>
+        <li><strong>「耗損費」陷阱</strong>：部分業者以「熔煉耗損」為由扣除 5-10% 重量。正規業者應直接以實際重量計算。</li>
+        <li><strong>秤重單位混淆</strong>：黃金常用「台錢」，1台錢≠1公克（1台錢=3.75公克）。確認業者使用哪種單位，換算清楚再決定。</li>
+        <li><strong>純度低報</strong>：不良業者可能在儀器顯示後口頭告知「純度較低」。建議親眼確認儀器數字。</li>
+        <li><strong>當日牌價不透明</strong>：要求業者說明牌價來源（國際金價）、今日報價，可與台灣銀行牌告金價做參考比對。</li>
+        <li><strong>急催成交壓力</strong>：「今天最高價，明天就降了」是常見話術。正規業者不會催你。</li>
+      </ul>
 
       <h2>常見問題 FAQ</h2>
       <h3>Q：大安區哪裡可以賣黃金？</h3>
