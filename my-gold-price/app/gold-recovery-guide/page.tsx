@@ -66,6 +66,10 @@ export default function GoldRecoveryGuide() {
           <li><a href="#choose-shop" style={{ color: '#991b1b', textDecoration: 'none' }}>如何選擇回收店？</a></li>
           <li><a href="#types" style={{ color: '#991b1b', textDecoration: 'none' }}>各類黃金回收指南</a></li>
           <li><a href="#faq" style={{ color: '#991b1b', textDecoration: 'none' }}>常見問題 FAQ</a></li>
+          <li><a href="#price-calc" style={{ color: '#991b1b', textDecoration: 'none' }}>各重量黃金回收金額試算</a></li>
+          <li><a href="#item-compare" style={{ color: '#991b1b', textDecoration: 'none' }}>不同黃金品項回收比較</a></li>
+          <li><a href="#faq-advanced" style={{ color: '#991b1b', textDecoration: 'none' }}>進階FAQ</a></li>
+          <li><a href="#compare-methods" style={{ color: '#991b1b', textDecoration: 'none' }}>黃金回收vs其他變現方式</a></li>
         </ol>
       </nav>
 
@@ -259,6 +263,173 @@ export default function GoldRecoveryGuide() {
             <p style={{ margin: 0, color: '#4b5563' }}>A: {item.a}</p>
           </div>
         ))}
+      </section>
+
+      {/* 11. 各重量黃金回收金額試算 */}
+      <section id="price-calc" style={{ marginBottom: '3rem' }}>
+        <h2 style={{ borderLeft: '4px solid #991b1b', paddingLeft: '12px' }}>11. 各重量黃金回收金額試算</h2>
+        <p>以下以當日回收參考價 <strong>$19,260/錢</strong> 為基準，試算不同重量與純度的回收金額（實際金額以當日牌價為準）：</p>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
+            <thead>
+              <tr style={{ background: '#fef2f2' }}>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>重量（錢）</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>24K回收金額</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>18K回收金額</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>14K回收金額</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>10K回收金額</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((w, i) => (
+                <tr key={w} style={i % 2 === 1 ? { background: '#f9fafb' } : {}}>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center', fontWeight: 'bold' }}>{w} 錢</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>${(19260 * w).toLocaleString()}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>${Math.round(19260 * w * 0.75).toLocaleString()}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>${Math.round(19260 * w * 0.585).toLocaleString()}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>${Math.round(19260 * w * 0.417).toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ background: '#fff8e1', padding: '1rem', borderRadius: '8px', margin: '1rem 0' }}>
+          <strong>💡 提醒：</strong>以上金額僅供參考，實際回收金額以到店當日牌價計算。K金飾品另可能依品牌、工藝有額外估價空間。
+        </div>
+        <div style={{ background: '#f0fdf4', padding: '1rem', borderRadius: '8px', margin: '1rem 0', border: '1px solid #bbf7d0' }}>
+          <strong>📐 換算小提醒：</strong>
+          <ul style={{ margin: '0.5rem 0 0', paddingLeft: '1.5rem' }}>
+            <li>1 台兩 = 10 台錢，所以 10 錢的金額就等於 1 兩的回收金額</li>
+            <li>1 台錢 = 3.75 公克，若你的金飾標示公克數，除以 3.75 即可得到台錢數</li>
+            <li>國際金價以「盎司」報價，1 盎司 ≈ 31.1035 公克 ≈ 8.294 台錢</li>
+          </ul>
+        </div>
+        <p>想知道你手上的金飾值多少？立即使用 <a href="/blog/gold-calculator" style={{ color: '#991b1b' }}>線上黃金試算機</a> 快速估算回收金額。</p>
+      </section>
+
+      {/* 12. 不同黃金品項回收比較 */}
+      <section id="item-compare" style={{ marginBottom: '3rem' }}>
+        <h2 style={{ borderLeft: '4px solid #991b1b', paddingLeft: '12px' }}>12. 不同黃金品項回收比較</h2>
+        <p>不同品項的黃金在回收時，重量、純度、注意事項各有不同：</p>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
+            <thead>
+              <tr style={{ background: '#fef2f2' }}>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>品項</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>常見重量</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>常見純度</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>回收注意事項</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { item: '金條/金塊', weight: '1兩～10兩', purity: '24K (999.9)', note: '回收價最高，有品牌編號可加分，保留原盒原裝更佳' },
+                { item: '金幣', weight: '0.5錢～5錢', purity: '24K (999)', note: '紀念型金幣可能有額外收藏價值，需個別評估' },
+                { item: '金戒指', weight: '0.5錢～3錢', purity: '24K / 18K', note: '注意有無鑲嵌寶石，寶石重量不計入黃金重量' },
+                { item: '金項鍊', weight: '1錢～5錢', purity: '24K / 18K', note: '扣頭與鏈身純度可能不同，需分別檢測' },
+                { item: '金手鍊', weight: '1錢～5錢', purity: '24K / 18K', note: '手圍調節片可能為不同材質，需注意' },
+                { item: '金耳環', weight: '0.3錢～1錢', purity: '24K / 18K / 14K', note: '耳針部分可能為白金或不鏽鋼，不計入金重' },
+                { item: 'K金飾品', weight: '0.5錢～3錢', purity: '18K / 14K / 10K', note: '依實際含金量比例回收，價格低於純金' },
+                { item: '白金飾品', weight: '0.5錢～3錢', purity: 'PT950 / PT900', note: '白金（鉑金）與K白金不同，需檢測確認材質' },
+              ].map((row, i) => (
+                <tr key={i} style={i % 2 === 1 ? { background: '#f9fafb' } : {}}>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center', fontWeight: 'bold' }}>{row.item}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>{row.weight}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>{row.purity}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px' }}>{row.note}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+          <strong>📌 重點提醒：</strong>回收前建議先確認金飾上的印記（如999、750、585等），了解自己金飾的純度，才能更準確地預估回收金額，避免被低估。
+        </div>
+      </section>
+
+      {/* 13. 進階FAQ */}
+      <section id="faq-advanced" style={{ marginBottom: '3rem' }}>
+        <h2 style={{ borderLeft: '4px solid #991b1b', paddingLeft: '12px' }}>13. 進階FAQ：回收細節問題</h2>
+        <p>以下整理了客戶最常詢問的進階回收問題，涵蓋稅務、鑲嵌寶石、匯款方式等實務細節：</p>
+        {[
+          { q: '金飾上有鑽石或寶石怎麼回收？', a: '鑽石和寶石的重量不計入黃金重量。回收時會先拆除或扣除寶石重量，僅以黃金部分秤重計價。部分店家也提供寶石另外估價的服務。' },
+          { q: '沒有保單的金飾可以回收嗎？', a: '可以。沒有保單、購買證明一樣可以回收。店家會以XRF儀器檢測實際純度與重量來報價，不影響回收資格。' },
+          { q: '黃金回收需要繳稅嗎？', a: '個人偶爾出售自用金飾，通常不需要繳稅。但若屬於經常性買賣行為或金額較大（單筆超過50萬），可能涉及營業稅或所得稅申報，建議諮詢稅務專業人員。' },
+          { q: '金條跟金飾回收價一樣嗎？', a: '純度相同的情況下，金條與金飾的回收價理論上相同（都是依重量×純度×牌價計算）。但金條通常為24K純金，金飾可能是18K或14K，因此實際回收金額會有差異。' },
+          { q: '回收黃金可以用匯款嗎？', a: '大部分銀樓以現金支付為主。若金額較大（例如超過10萬），部分店家提供銀行匯款服務，需事先確認。匯款需提供本人帳戶。' },
+          { q: '舊金飾變色還能回收嗎？', a: '可以。純金（24K）不會變色，若有變色通常是K金或鍍金。即使外觀變色、氧化，只要內部含金就可以回收，回收價以實際含金量計算。' },
+          { q: '回收後可以反悔嗎？', a: '黃金回收屬於現場即時買賣，一旦成交付款，原則上不可反悔。因此建議確認價格合理後再決定。巧品珠寶提供先估價不強迫交易的服務，讓你有充分考慮時間。' },
+          { q: '如何判斷黃金回收店是否合法？', a: '合法店家應具備：實體店面與營業登記、公開透明的每日報價、使用政府認證的電子秤、遵守洗錢防制法規定查驗身分。也可查看Google評論與經營年資作為參考。' },
+        ].map((item, i) => (
+          <div key={i} style={{ marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
+            <h3 style={{ margin: '0 0 0.5rem', fontSize: '1rem', color: '#1f2937' }}>Q: {item.q}</h3>
+            <p style={{ margin: 0, color: '#4b5563' }}>A: {item.a}</p>
+          </div>
+        ))}
+      </section>
+
+      {/* 14. 黃金回收vs其他變現方式比較 */}
+      <section id="compare-methods" style={{ marginBottom: '3rem' }}>
+        <h2 style={{ borderLeft: '4px solid #991b1b', paddingLeft: '12px' }}>14. 黃金回收vs其他變現方式比較</h2>
+        <p>除了到銀樓回收，還有其他變現方式。</p>
+        <p>以下比較各種方式的優缺點，幫助你選擇最適合自己的方案：</p>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
+            <thead>
+              <tr style={{ background: '#fef2f2' }}>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>方式</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>優點</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>缺點</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>適合對象</th>
+                <th style={{ border: '1px solid #e5e7eb', padding: '12px', color: '#7f1d1d' }}>到手速度</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { method: '黃金回收（銀樓）', pros: '價格透明、現場付現、專業鑑定', cons: '需親自到店', target: '想快速變現、追求公正報價者', speed: '當天15分鐘' },
+                { method: '當鋪典當', pros: '可贖回、手續簡便', cons: '典當價偏低（通常為市價6-7折）、有利息', target: '短期需資金周轉、日後想贖回者', speed: '當天30分鐘' },
+                { method: '銀行賣回', pros: '最安全、公信力高', cons: '僅限銀行售出之金條、手續繁瑣、需預約', target: '持有銀行金條且不急者', speed: '1-3個工作天' },
+                { method: '網路拍賣', pros: '可能賣到較高價（含工藝價值）', cons: '耗時長、有詐騙風險、需自行鑑定', target: '有品牌金飾或收藏品、不急售者', speed: '數天至數週' },
+              ].map((row, i) => (
+                <tr key={i} style={i % 2 === 1 ? { background: '#f9fafb' } : {}}>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center', fontWeight: 'bold' }}>{row.method}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px' }}>{row.pros}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px' }}>{row.cons}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px' }}>{row.target}</td>
+                  <td style={{ border: '1px solid #e5e7eb', padding: '10px', textAlign: 'center' }}>{row.speed}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ background: '#fff8e1', padding: '1rem', borderRadius: '8px', margin: '1rem 0' }}>
+          <strong>💡 專家建議：</strong>如果你的金飾是 24K 純金、重量明確，選擇到信譽良好的銀樓回收是最快、最划算的方式。若持有品牌金飾或限量款，可先評估是否有收藏溢價，再決定回收或轉售。
+        </div>
+        <p>不確定哪種方式最適合你？歡迎 <a href="https://lin.ee/zvLP4JC" target="_blank" rel="noopener" style={{ color: '#991b1b' }}>LINE 諮詢巧品珠寶</a>，我們會依據你的金飾狀況提供最佳建議。</p>
+      </section>
+
+      {/* 延伸閱讀內部連結 */}
+      <section style={{ marginBottom: '3rem' }}>
+        <h2 style={{ borderLeft: '4px solid #991b1b', paddingLeft: '12px' }}>延伸閱讀</h2>
+        <p>
+          想了解更多黃金回收相關資訊？以下是我們精選的實用文章，
+          從金價查詢、賣金指南到各類金飾回收細節，幫助你做出最佳決策：
+        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
+          {[
+            { title: '💰 黃金回收價格查詢', href: '/gold-recycling-price' },
+            { title: '📖 賣黃金完整指南', href: '/sell-gold-guide' },
+            { title: '📊 今日金價查詢', href: '/today-gold-price' },
+            { title: '🧮 黃金試算機', href: '/blog/gold-calculator' },
+            { title: '💍 金飾種類與回收', href: '/blog/gold-jewelry-types-recovery' },
+            { title: '💎 K金回收指南', href: '/blog/karat-gold-recovery' },
+            { title: '✅ 2026賣金檢查清單', href: '/blog/sell-gold-checklist-2026' },
+          ].map(item => (
+            <a key={item.href} href={item.href} style={{ display: 'block', padding: '1rem', background: '#f9fafb', borderRadius: '8px', border: '1px solid #e5e7eb', textDecoration: 'none', color: '#1f2937', fontWeight: 'bold' }}>
+              {item.title}
+            </a>
+          ))}
+        </div>
       </section>
 
       {/* CTA */}
