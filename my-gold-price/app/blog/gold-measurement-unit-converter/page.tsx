@@ -118,13 +118,13 @@ export default function Page() {
             </tr>
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>1兩</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}">10錢</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>10錢</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>37.5公克</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>傳統大額交易單位</td>
             </tr>
             <tr>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>1斤（台斤）</td>
-              <td style={{ border: '1px solid #ddd', padding: '10px' }}">160錢</td>
+              <td style={{ border: '1px solid #ddd', padding: '10px' }}>160錢</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>600公克</td>
               <td style={{ border: '1px solid #ddd', padding: '10px' }}>平時食用油的量詞，不用於黃金</td>
             </tr>
