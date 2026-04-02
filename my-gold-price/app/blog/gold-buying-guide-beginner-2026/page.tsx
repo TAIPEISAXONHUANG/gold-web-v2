@@ -40,6 +40,18 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '第一次買黃金就上手2026｜新手買金注意事項、管道比較與防騙指南',
+            author: { '@type': 'Organization', 'name': '巧品珠寶' },
+            dateModified: '2026-04-02',
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',

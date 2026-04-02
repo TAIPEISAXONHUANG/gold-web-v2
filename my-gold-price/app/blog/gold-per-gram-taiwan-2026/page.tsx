@@ -40,6 +40,18 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
+            author: { '@type': 'Organization', 'name': '巧品珠寶' },
+            dateModified: '2026-04-02',
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',
