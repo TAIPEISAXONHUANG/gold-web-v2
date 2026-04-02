@@ -42,6 +42,8 @@ export default function Page() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: '台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
+            description: '台灣每克黃金即時價格查詢，提供最新金價行情與歷史走勢分析。',
+            datePublished: '2026-04-02',
             author: { '@type': 'Organization', 'name': '巧品珠寶' },
             dateModified: '2026-04-02',
           }),

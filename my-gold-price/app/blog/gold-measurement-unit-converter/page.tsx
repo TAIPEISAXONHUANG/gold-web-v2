@@ -42,6 +42,8 @@ export default function Page() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: '黃金單位換算｜錢/兩/盎司/公克完整對照表與實用試算',
+            description: '黃金重量單位換算工具，支援兩、錢、克、盎司等單位互換，即時計算黃金價值。',
+            datePublished: '2026-04-02',
             author: { '@type': 'Organization', 'name': '巧品珠寶' },
             dateModified: '2026-04-02',
           }),
