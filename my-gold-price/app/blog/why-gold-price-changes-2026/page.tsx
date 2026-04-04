@@ -13,10 +13,13 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
+  return (
+    <>
+            <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "BlogPosting",
         "headline": "黃金漲跌原因2026｜為什麼金價每天都在變？5個核心驅動力",
         "description": "金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。",
@@ -37,8 +40,13 @@ export default function Page() {
           }
         },
         "mainEntityOfPage": "https://www.gold-tw.com/blog/why-gold-price-changes-2026"
-      },
-      {
+      }) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
@@ -60,8 +68,13 @@ export default function Page() {
             "item": "https://www.gold-tw.com/blog/why-gold-price-changes-2026"
           }
         ]
-      },
-      {
+      }) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "FAQPage",
         "mainEntity": [
           {
@@ -121,15 +134,7 @@ export default function Page() {
             }
           }
         ]
-      }
-    ]
-  }
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      }) }}
       />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
@@ -357,7 +362,7 @@ export default function Page() {
           <h3 className="font-bold text-gray-700 mb-3">延伸閱讀</h3>
           <ul className="space-y-2">
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-price-forecast-2026" className="text-yellow-700 hover:underline">
+              <a href="/blog/gold-price-forecast-2026" className="text-yellow-700 hover:underline">
                 2026年黃金價格展望｜漲跌趨勢與投資建議
               </a>
             </li>

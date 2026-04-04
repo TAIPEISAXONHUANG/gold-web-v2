@@ -50,7 +50,13 @@ export default function RealtimeGoldPriceApril2026() {
     { item: "K金飾品回收（18K）", value: "依含金量75%計算", note: "約 NT$8,200–8,600 / 錢換算" },
   ];
 
-  const jsonLd = {
+;
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -114,13 +120,7 @@ export default function RealtimeGoldPriceApril2026() {
         })),
       },
     ],
-  };
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+  }) }}
       />
       <main style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 16px", fontFamily: "sans-serif", lineHeight: "1.8", color: "#1a1a1a" }}>
         {/* Breadcrumb */}

@@ -13,10 +13,13 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
+  return (
+    <>
+            <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "BlogPosting",
         "headline": "黃金一錢等於幾公克？2026換算公式與實用計算表",
         "description": "黃金一錢等於多少公克？台灣錢、兩、克、盎司完整換算公式。10mg黃金多少錢？附2026年最新即時金價對照表，秒算你的黃金值多少。",
@@ -37,8 +40,13 @@ export default function Page() {
           }
         },
         "mainEntityOfPage": "https://www.gold-tw.com/blog/gold-qian-to-gram-2026"
-      },
-      {
+      }) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
@@ -60,8 +68,13 @@ export default function Page() {
             "item": "https://www.gold-tw.com/blog/gold-qian-to-gram-2026"
           }
         ]
-      },
-      {
+      }) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        
         "@type": "FAQPage",
         "mainEntity": [
           {
@@ -121,15 +134,7 @@ export default function Page() {
             }
           }
         ]
-      }
-    ]
-  }
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      }) }}
       />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
@@ -292,7 +297,7 @@ export default function Page() {
 
         <p className="text-sm text-gray-500 mb-6">
           ＊以上金額以每錢 NT$12,800 的參考行情計算，實際報價以當日國際金價為準。查詢即時報價請見：
-          <a href="https://www.gold-tw.com/blog/real-time-gold-price-today-2026" className="text-yellow-700 underline ml-1">今日即時金價</a>
+          <a href="/blog/real-time-gold-price-today-2026" className="text-yellow-700 underline ml-1">今日即時金價</a>
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">

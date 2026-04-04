@@ -78,7 +78,13 @@ export default function KGoldSellProcess2026() {
     { item: "金幣/金條（有收據）", calcMethod: "全重 × 當日回收價，加成空間較大", note: "有台灣銀行購買憑證更好" },
   ];
 
-  const jsonLd = {
+;
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -142,13 +148,7 @@ export default function KGoldSellProcess2026() {
         })),
       },
     ],
-  };
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+  }) }}
       />
       <main style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 16px", fontFamily: "sans-serif", lineHeight: "1.8", color: "#1a1a1a" }}>
         {/* Breadcrumb */}

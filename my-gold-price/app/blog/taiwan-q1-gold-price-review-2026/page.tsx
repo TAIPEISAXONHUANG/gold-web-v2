@@ -80,7 +80,13 @@ export default function TaiwanQ1GoldPriceReview2026() {
     { factor: "台灣婚禮旺季", q1Effect: "2–4月婚禮旺季，本地黃金飾品需求略增", direction: "中性偏多" },
   ];
 
-  const jsonLd = {
+;
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -144,13 +150,7 @@ export default function TaiwanQ1GoldPriceReview2026() {
         })),
       },
     ],
-  };
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+  }) }}
       />
       <main style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 16px", fontFamily: "sans-serif", lineHeight: "1.8", color: "#1a1a1a" }}>
         {/* Breadcrumb */}

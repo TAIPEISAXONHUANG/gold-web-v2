@@ -6,7 +6,9 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const faqSchema = {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -51,9 +53,8 @@ export default function Page() {
         }
       }
     ]
-  }
-
-  const breadcrumbSchema = {
+  }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
@@ -76,9 +77,8 @@ export default function Page() {
         "item": "https://gold-tw.com/blog/24hr-silver-shop-guide-2026"
       }
     ]
-  }
-
-  const blogPostingSchema = {
+  }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "台北24小時銀樓2026｜哪些銀樓深夜也能賣黃金？",
@@ -96,13 +96,7 @@ export default function Page() {
     "dateModified": "2026-04-04",
     "url": "https://gold-tw.com/blog/24hr-silver-shop-guide-2026",
     "inLanguage": "zh-TW"
-  }
-
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />
+  }) }} />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">台北24小時銀樓2026｜哪些銀樓深夜也能賣黃金？</h1>
         <p className="text-gray-500 text-sm mb-6">更新日期：2026年4月4日｜巧品珠寶</p>

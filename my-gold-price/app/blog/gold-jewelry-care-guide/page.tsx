@@ -41,6 +41,8 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
+            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({
               '@type': 'Question',
               name: f.q,

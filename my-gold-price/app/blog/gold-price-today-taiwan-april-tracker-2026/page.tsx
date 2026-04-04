@@ -56,7 +56,13 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
     { factor: "台灣本地供需", impact: "節慶、婚禮旺季影響", weight: "低" },
   ];
 
-  const jsonLd = {
+;
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -120,13 +126,7 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
         })),
       },
     ],
-  };
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+  }) }}
       />
       <main style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 16px", fontFamily: "sans-serif", lineHeight: "1.8", color: "#1a1a1a" }}>
         {/* Breadcrumb */}
