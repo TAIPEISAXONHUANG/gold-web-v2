@@ -382,15 +382,26 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "@id": "https://www.gold-tw.com/#expert",
-              "name": "巧品珠寶鑑定師",
-              "jobTitle": "貴金屬鑑定師",
+              "name": "鑑定師L",
+              "jobTitle": "駐店珠寶鑑定師",
+              "url": "https://www.gold-tw.com/about/author",
               "worksFor": { "@id": "https://www.gold-tw.com/#organization" },
-              "description": "擁有10年以上貴金屬鑑定經驗，專精黃金、K金、白金、鑽石的純度鑑定與回收估價。使用XRF螢光分析儀等專業設備，提供客觀準確的鑑定服務。",
-              "url": "https://www.gold-tw.com",
-              "knowsAbout": ["黃金回收", "K金鑑定", "鑽石估價", "白金回收", "黃金純度", "貴金屬交易"],
+              "description": "擁有鑽石鑑定師、HRD 高級珠寶顧問、翡翠鑑定師、彩色寶石鑑定師、珠寶鑑定師等多項國際認證，從事珠寶鑑定與採購顧問服務逾十年。中華海峽珠寶交流協會理事，台灣珠寶雜誌特邀撰稿人。",
+              "hasCredential": [
+                { "@type": "EducationalOccupationalCredential", "name": "鑽石鑑定師", "credentialCategory": "國際認證" },
+                { "@type": "EducationalOccupationalCredential", "name": "HRD 高級珠寶顧問（Jewellery Consultancy Course）", "credentialCategory": "國際認證" },
+                { "@type": "EducationalOccupationalCredential", "name": "翡翠鑑定師", "credentialCategory": "國際認證" },
+                { "@type": "EducationalOccupationalCredential", "name": "彩色寶石鑑定師", "credentialCategory": "國際認證" },
+                { "@type": "EducationalOccupationalCredential", "name": "珠寶鑑定師", "credentialCategory": "國際認證" }
+              ],
+              "memberOf": [
+                { "@type": "Organization", "name": "中華民國珠寶鑑定協會", "description": "會員" },
+                { "@type": "Organization", "name": "中華海峽珠寶交流協會", "description": "理事" }
+              ],
+              "knowsAbout": ["鑽石鑑定", "彩色寶石", "彩鑽", "GIA 鑽石", "翡翠鑑定", "黃金回收估價", "珠寶採購"],
               "hasOccupation": {
                 "@type": "Occupation",
-                "name": "貴金屬鑑定師",
+                "name": "珠寶鑑定師",
                 "occupationLocation": {
                   "@type": "City",
                   "name": "台北市"
