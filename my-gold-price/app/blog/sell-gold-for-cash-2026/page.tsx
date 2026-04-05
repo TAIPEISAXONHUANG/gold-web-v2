@@ -9,13 +9,8 @@ export const metadata: Metadata = {
     description: '賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？',
     url: 'https://www.gold-tw.com/blog/sell-gold-for-cash-2026',
     type: 'article',
-<<<<<<< HEAD
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
-=======
-    publishedTime: '2026-04-04',
-    modifiedTime: '2026-04-04',
->>>>>>> 247c31b8 (Phase 2: batch fix author name, OG article times, external link rel, lastModified dates, knowsAbout schema)
   },
 }
 
