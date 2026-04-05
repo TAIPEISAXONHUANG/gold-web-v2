@@ -13,6 +13,16 @@ function getSubdirectories(dirPath: string): string[] {
   }
 }
 
+// 從 page.tsx 讀取 export const lastModified
+function readLastModified(pagePath: string, fallback: Date): Date {
+  try {
+    const content = fs.readFileSync(pagePath, 'utf-8');
+    const match = content.match(/export\s+const\s+lastModified\s*=\s*new\s+Date\(['"]([0-9\-]+)['"]\)/);
+    if (match) return new Date(match[1]);
+  } catch {}
+  return fallback;
+}
+
 const districtSlugs = [
   'da-an', 'xin-yi', 'zhong-zheng', 'songshan', 'zhongshan', 'datong',
   'wenshan', 'shilin', 'beitou', 'neihu', 'nangang', 'wanhua',
@@ -45,14 +55,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
-    lastModified: new Date('2026-03-19'),
+    lastModified: readLastModified(path.join(blogDir, slug, 'page.tsx'), new Date('2026-03-19')),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
   const districtPages: MetadataRoute.Sitemap = districtSlugs.map(slug => ({
     url: `${baseUrl}/district/${slug}`,
-    lastModified: new Date('2026-03-17'),
+    lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
@@ -62,7 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const caseStudySlugs = getSubdirectories(caseStudiesDir);
   const caseStudyPages: MetadataRoute.Sitemap = caseStudySlugs.map(slug => ({
     url: `${baseUrl}/case-studies/${slug}`,
-    lastModified: new Date('2026-03-19'),
+    lastModified: readLastModified(path.join(caseStudiesDir, slug, 'page.tsx'), new Date('2026-03-19')),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));

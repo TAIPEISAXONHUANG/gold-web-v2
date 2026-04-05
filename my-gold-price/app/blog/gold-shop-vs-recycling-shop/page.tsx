@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -125,7 +126,7 @@ export default function Page() {
       </ul>
 
       <h2>巧品珠寶：兼具誠信與高價的選擇</h2>
-      <p><a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>位於台北市信義區，老闆親自接待每位客戶，使用螢光X光儀精確鑑定，電子秤公開秤重，報價透明不藏匿，不收任何損耗費，當場現金付款。若您想了解我們的服務，可參考<a href="/blog/gold-shop-recommend" style={{color:'#B8860B'}}>台北黃金回收推薦</a>或直接電洽。</p>
+      <p><a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>位於台北市大安區濟南路三段62-1號，老闆親自接待每位客戶，使用螢光X光儀精確鑑定，電子秤公開秤重，報價透明不藏匿，不收任何損耗費，當場現金付款。若您想了解我們的服務，可參考<a href="/blog/gold-shop-recommend" style={{color:'#B8860B'}}>台北黃金回收推薦</a>或直接電洽。</p>
 
       <h2>常見問題 FAQ</h2>
 
@@ -162,7 +163,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
-      <p>📍 地址：台北市信義區</p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/">https://www.gold-tw.com/</a></p>
     </main>
   );

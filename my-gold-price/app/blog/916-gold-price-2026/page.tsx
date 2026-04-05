@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
 }
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
@@ -198,7 +199,7 @@ export default function Page() {
 
       <div style={{ marginTop: '40px', backgroundColor: '#fdf8ee', border: '1px solid #e8d48b', borderRadius: '8px', padding: '20px' }}>
         <p style={{ fontWeight: 700, fontSize: '17px', marginBottom: '8px' }}>有916黃金要賣？直接來巧品珠寶</p>
-        <p style={{ margin: '0 0 12px', color: '#555' }}>22K、18K、14K 全都收，當場秤重報價，不扣火耗。台北大安、信義區皆有門市。</p>
+        <p style={{ margin: '0 0 12px', color: '#555' }}>22K、18K、14K 全都收，當場秤重報價，不扣火耗。台北大安區，濟南路三段62-1號。</p>
         <a href="/gold-price" style={{ display: 'inline-block', backgroundColor: '#b8860b', color: '#fff', padding: '10px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: 700 }}>
           查今日收購價
         </a>

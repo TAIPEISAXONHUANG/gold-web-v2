@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -36,7 +37,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"台北哪裡回收黃金推薦？","acceptedAnswer":{"@type":"Answer","text":"推薦巧品珠寶（台北市信義區），Google評價4.8星，不扣秤不扣耗損，當場現金付款。"}},{"@type":"Question","name":"回收店需要看什麼條件？","acceptedAnswer":{"@type":"Answer","text":"必看：有無實體店面、是否公開報價、Google評價數和星等、是否扣耗損、是否當場付現金。"}},{"@type":"Question","name":"第一次賣黃金要注意什麼？","acceptedAnswer":{"@type":"Answer","text":"帶身份證、先查當日金價、選有口碑的店家、要求現場秤重、保留交易收據。"}},{"@type":"Question","name":"黃金回收店要怎麼比價？","acceptedAnswer":{"@type":"Answer","text":"帶著黃金到2-3家詢問報價，比較每台錢的報價差異。注意是否有扣損耗費，把損耗費計算進去才是真實報價。"}},{"@type":"Question","name":"有推薦的台北黃金回收地點嗎？","acceptedAnswer":{"@type":"Answer","text":"台北市信義區的巧品珠寶，提供透明報價、不扣耗損、當場現金付款，可電話或LINE預約。"}}]})
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"台北哪裡回收黃金推薦？","acceptedAnswer":{"@type":"Answer","text":"推薦巧品珠寶（台北市大安區濟南路三段62-1號），Google評價4.8星，不扣秤不扣耗損，當場現金付款。"}},{"@type":"Question","name":"回收店需要看什麼條件？","acceptedAnswer":{"@type":"Answer","text":"必看：有無實體店面、是否公開報價、Google評價數和星等、是否扣耗損、是否當場付現金。"}},{"@type":"Question","name":"第一次賣黃金要注意什麼？","acceptedAnswer":{"@type":"Answer","text":"帶身份證、先查當日金價、選有口碑的店家、要求現場秤重、保留交易收據。"}},{"@type":"Question","name":"黃金回收店要怎麼比價？","acceptedAnswer":{"@type":"Answer","text":"帶著黃金到2-3家詢問報價，比較每台錢的報價差異。注意是否有扣損耗費，把損耗費計算進去才是真實報價。"}},{"@type":"Question","name":"有推薦的台北黃金回收地點嗎？","acceptedAnswer":{"@type":"Answer","text":"台北市大安區的巧品珠寶，提供透明報價、不扣耗損、當場現金付款，可電話或LINE預約。"}}]})
         }}
       />
       <h1>黃金回收推薦｜台北誠信店家選擇指南</h1>
@@ -93,7 +94,7 @@ export default function Page() {
         <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題 FAQ</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 台北哪裡回收黃金推薦？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 推薦巧品珠寶（台北市信義區），Google評價4.8星，不扣秤不扣耗損，當場現金付款。</p>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 推薦巧品珠寶（台北市大安區濟南路三段62-1號），Google評價4.8星，不扣秤不扣耗損，當場現金付款。</p>
         </div>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 回收店需要看什麼條件？</h3>
@@ -109,7 +110,7 @@ export default function Page() {
         </div>
         <div style={{background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 有推薦的台北黃金回收地點嗎？</h3>
-          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 台北市信義區的巧品珠寶，提供透明報價、不扣耗損、當場現金付款，可電話或LINE預約。</p>
+          <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 台北市大安區的巧品珠寶，提供透明報價、不扣耗損、當場現金付款，可電話或LINE預約。</p>
         </div>
       </section>
 
@@ -131,7 +132,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
-      <p>📍 地址：台北市信義區</p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/">https://www.gold-tw.com/</a></p>
     </main>
   );

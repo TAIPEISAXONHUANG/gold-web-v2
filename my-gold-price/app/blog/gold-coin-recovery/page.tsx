@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -73,7 +74,7 @@ export default function Page() {
 
       <h2>金幣回收流程是什麼？</h2>
       <ol>
-        <li><strong>攜帶金幣與身份證</strong>到巧品珠寶門市（台北市信義區）</li>
+        <li><strong>攜帶金幣與身份證</strong>到巧品珠寶門市（台北市大安區濟南路三段62-1號）</li>
         <li>專業人員使用<strong>螢光X光儀</strong>確認純度，電子秤精準秤重</li>
         <li>依當日牌價提供報價，過程完全透明</li>
         <li>同意報價後，<strong>當場現金付款</strong></li>
@@ -119,7 +120,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
-      <p>📍 地址：台北市信義區</p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/">https://www.gold-tw.com/</a></p>
     </main>
   );

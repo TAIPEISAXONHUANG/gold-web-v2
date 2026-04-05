@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -71,7 +72,7 @@ export default function Page() {
       <p>到店後務必親眼看見秤重過程，確認電子秤顯示的數字。正規店家會使用<strong>校正過的精密電子秤</strong>，不會事先預設扣重或收損耗費。若對方說要扣「耗損」或「工本費」，可能是<a href="/blog/gold-recovery-traps" style={{color:'#B8860B'}}>黃金回收常見陷阱</a>，建議立即離開換家比價。</p>
 
       <h2>重點五：選擇誠信店家</h2>
-      <p>選擇有實體門市、明確標示地址的店家。巧品珠寶位於台北市信義區，老闆親自鑑定，公開透明報價，不收任何手續費。如果您想了解如何挑選值得信賴的回收商，可參考<a href="/blog/how-to-choose-gold-shop" style={{color:'#B8860B'}}>如何選擇黃金回收店</a>。</p>
+      <p>選擇有實體門市、明確標示地址的店家。巧品珠寶位於台北市大安區濟南路三段62-1號，老闆親自鑑定，公開透明報價，不收任何手續費。如果您想了解如何挑選值得信賴的回收商，可參考<a href="/blog/how-to-choose-gold-shop" style={{color:'#B8860B'}}>如何選擇黃金回收店</a>。</p>
 
       <h2>黃金純度標示是什麼意思？</h2>
       <ul>
@@ -118,7 +119,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
-      <p>📍 地址：台北市信義區</p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/">https://www.gold-tw.com/</a></p>
     </main>
   );
