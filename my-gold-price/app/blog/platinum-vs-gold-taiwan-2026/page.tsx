@@ -32,6 +32,7 @@ const faqs = [
   },
 ];
 
+export const lastModified = new Date('2026-03-19');
 export default function PlatinumVsGoldTaiwan2026Page() {
   return (
     <>

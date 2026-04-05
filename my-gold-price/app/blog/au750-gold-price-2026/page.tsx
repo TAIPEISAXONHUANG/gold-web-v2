@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
 }
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>

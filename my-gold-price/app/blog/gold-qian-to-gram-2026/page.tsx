@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <>

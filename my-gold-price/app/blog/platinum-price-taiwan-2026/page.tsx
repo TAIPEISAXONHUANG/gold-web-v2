@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。',
 }
 
+export const lastModified = new Date('2026-03-19');
 export default function Page() {
   return (
     <>
