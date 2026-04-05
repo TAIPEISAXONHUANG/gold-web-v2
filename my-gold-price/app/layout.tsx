@@ -497,6 +497,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               "@id": "https://www.gold-tw.com/#professionalservice",
+              "dateModified": "2026-04-06",
               "name": "巧品珠寶貴金屬鑑定回收服務",
               "description": "台北大安區專業貴金屬鑑定師，提供黃金、K金、白金（鉑金）、鑽石免費估價與高價回收服務。XRF螢光儀精密驗純，10年以上實戰鑑定經驗。",
               "url": "https://www.gold-tw.com",
