@@ -75,7 +75,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>二、K金回收計算範例（以2026年3月為例）</h2>
+      <h2>K金回收計算範例（以2026年3月為例）怎麼算？</h2>
       <p>假設當日24K牌價約 <strong>17,400 元/台錢</strong>：</p>
       <div style={{ background: '#f0f0f0', padding: '1.5rem', borderRadius: '8px', margin: '1rem 0' }}>
         <p><strong>🥇 24K金 5錢：</strong> 17,400 × 100% × 5 = <strong style={{ color: '#B8860B' }}>87,000 元</strong></p>
@@ -98,7 +98,7 @@ export default function Page() {
       <p>K金靠肉眼無法判斷純度，<strong>必須使用 XRF 螢光分析儀</strong>才能精準測出含金比例。專業的回收商不應該靠「看起來像18K」就給你報價。</p>
       <p>巧品珠寶每件K金都用儀器當場測試，你可以親眼看到數值，確認後再決定是否交易。</p>
 
-      <h2>五、K金回收常見問題</h2>
+      <h2>K金回收常見問題怎麼做？</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: 'K金回收價格怎麼計算？', a: 'K金回收公式：當日24K黃金牌價 × K金含金比例 × 重量（台錢）。18K含金75%，14K含金58.5%，10K含金41.7%。' },
@@ -125,7 +125,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>立即免費估價</h2>
+      <h2>什麼是立即免費估價？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>

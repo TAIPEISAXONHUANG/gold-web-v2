@@ -91,7 +91,7 @@ export default function Page() {
       </div>
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年鑑定經驗整理</p>
 
-      <h2>一、成分與基本差異</h2>
+      <h2>成分與基本差異？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -134,7 +134,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>二、2026年價格行情比較</h2>
+      <h2>2026年價格行情比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -199,7 +199,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>免費鑑定・立即諮詢</h2>
+      <h2>免費鑑定・立即諮詢怎麼做？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>

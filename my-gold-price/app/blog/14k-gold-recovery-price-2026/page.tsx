@@ -104,7 +104,7 @@ export default function Page() {
           所以14K金回收時只計算其中58.5%的含金量。
         </p>
 
-        <h2>2026年14K金回收價格區間</h2>
+        <h2>2026年14K金回收價格區間是多少？</h2>
         <p>
           計算公式：<strong>14K回收價 = 當日9999純金一錢報價 × 58.5%</strong>
         </p>
@@ -147,7 +147,7 @@ export default function Page() {
           電洽 <strong>0986-821-626</strong> 或帶實物來，現場 XRF 驗成色後再報精確數字。
         </p>
 
-        <h2>各K數回收價比較（同樣一錢重量）</h2>
+        <h2>各K數回收價比較（同樣一錢重量）？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -186,7 +186,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>14K金回收的3個常見坑，去之前要知道</h2>
+        <h2>14K金回收的3個常見坑，去之前要知道有哪些？</h2>
         <p>
           <strong>第一個坑：「14K全部照58.5%算」，但實際XRF量出來只有56%甚至54%。</strong>
           便宜的進口飾品有時候標14K但實際含金量不足。
@@ -206,7 +206,7 @@ export default function Page() {
           鑽石、紅藍寶的重量不算黃金，要扣掉。正規做法是取下寶石後再秤金。
         </p>
 
-        <h2>巧品的14K金回收流程</h2>
+        <h2>巧品的14K金回收流程是什麼？</h2>
         <p>
           帶著你的14K飾品來大安門市，全程5分鐘：
           XRF驗成色（測出實際含金量，不是光看印記）、

@@ -39,9 +39,9 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 秤重陷阱辨別：注意電子秤是否歸零、單位是台錢還是公克、是否有國家計量認證標籤。正規店家會讓你親眼確認秤重過程。
       </div>
       
-      <h2>結論：秤重是黃金回收最關鍵的環節，本文教你如何保護自己的權益！</h2>
+      <h2>秤重是黃金回收最關鍵的環節，本文教你如何保護自己的權益！嗎？</h2>
 
-      <h2>常見秤重陷阱</h2>
+      <h2>常見秤重陷阱有哪些？</h2>
       <ul>
         <li><strong>秤重數字不讓你看</strong> - 偷偷調整秤的精度</li>
         <li><strong>電子秤遲遲不歸零</strong> - 預先扣重量</li>
@@ -72,7 +72,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 秤重會被動手腳嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不肖業者可能用未校準的秤、不歸零就秤重、或用不同單位混淆。選擇有認證秤具的店家最安全。</p>
@@ -98,7 +98,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>❓ 常見問題FAQ</h2>
+      <h2>什麼是常見問題FAQ？</h2>
       <h3>Q：秤重用什麼單位？</h3>
       <p>A：台灣常用「錢」為單位，1錢=3.75克。</p>
       
@@ -107,7 +107,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 聯繫我們</h2>
+      <h2>什麼是聯繫我們？</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

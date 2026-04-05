@@ -95,7 +95,7 @@ export default function Page() {
         <strong>📌 本文重點：</strong>各純度黃金回收價格表、計算公式、3大管道比較、5大詐騙手法、選店指南
       </div>
 
-      <h2>一、2026年台灣黃金回收價格表</h2>
+      <h2>2026年台灣黃金回收價格表是多少？</h2>
       <p>以下為2026年3月台灣黃金回收參考行情，依國際金價即時調整：</p>
 
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
@@ -148,7 +148,7 @@ export default function Page() {
       </table>
       <p style={{ fontSize: '0.85rem', color: '#888' }}>※ 1台錢 = 3.75公克。以上為參考行情，實際以當日國際金價為準。</p>
 
-      <h2>二、黃金回收價格計算公式</h2>
+      <h2>黃金回收價格計算公式怎麼算？</h2>
       <div style={{ background: '#f9f9f9', padding: '1.5rem', borderRadius: '8px', border: '1px solid #ddd', margin: '1rem 0' }}>
         <p style={{ fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>回收金額 = 重量（台錢）× 當日收購牌價</p>
         <p><strong>實例計算：</strong></p>
@@ -160,7 +160,7 @@ export default function Page() {
         <p style={{ color: '#d00', marginTop: '0.5rem' }}>⚠️ 注意：若業者宣稱「扣耗損5%」，上例中的35,200元實際只拿到33,440元，差距1,760元！</p>
       </div>
 
-      <h2>三、三大黃金變現管道比較</h2>
+      <h2>三大黃金變現管道比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -203,7 +203,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>四、黃金回收5大常見詐騙手法</h2>
+      <h2>黃金回收5大常見詐騙手法有哪些？</h2>
       <ol style={{ lineHeight: '2' }}>
         <li><strong>扣耗損</strong>：聲稱「提煉需要損耗」，扣除5-10%重量。真相：現場不需提煉，扣耗損是多賺你的錢。</li>
         <li><strong>秤重造假</strong>：使用未校正或動過手腳的秤。防範：要求看秤的數字，或自帶小秤對照。</li>
@@ -212,7 +212,7 @@ export default function Page() {
         <li><strong>快速施壓</strong>：「今天才這個價，明天就降了」。真相：金價每天變動不大，正常業者不需要用時間壓力逼你。</li>
       </ol>
 
-      <h2>五、選擇黃金回收商的5大標準</h2>
+      <h2>選擇黃金回收商的5大標準有哪些？</h2>
       <ul style={{ lineHeight: '2' }}>
         <li>✅ <strong>公開秤重</strong>：讓你親眼確認重量數字</li>
         <li>✅ <strong>不扣耗損</strong>：明確告知不扣，並寫在收據上</li>
@@ -221,7 +221,7 @@ export default function Page() {
         <li>✅ <strong>估完可帶走</strong>：不滿意可以不賣，不強迫成交</li>
       </ul>
 
-      <h2>六、台北黃金回收推薦：巧品珠寶</h2>
+      <h2>台北黃金回收推薦的巧品珠寶是什麼？</h2>
       <p>位於台北市大安區濟南路三段62-1號，捷運板南線忠孝新生站步行5分鐘。</p>
       <ul style={{ lineHeight: '2' }}>
         <li>📍 服務範圍：台北市、新北市各行政區（捷運可達）</li>
@@ -241,7 +241,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>立即諮詢・免費估價</h2>
+      <h2>什麼是立即諮詢・免費估價？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓</p>

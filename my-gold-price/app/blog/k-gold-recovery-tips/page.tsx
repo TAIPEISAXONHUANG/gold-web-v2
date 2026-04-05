@@ -92,7 +92,7 @@ export default function Page() {
       <p>K（Karat）是黃金純度的計量單位。24K = 100% 純金，其他K數代表金和合金的混合比例。K金比純金硬，適合做複雜造型的首飾，但含金量較低，回收價當然也比純金低。</p>
       <p>有一個重要概念要搞清楚：<strong>白K金不是白金（鉑金）</strong>。白K金是18K金加了鈀或鎳讓它顯白色，含金量還是75%。鉑金是完全不同的金屬（標記PT950、PT900），價值和黃金不同。</p>
 
-      <h2>二、2026年各K數回收報價對照表</h2>
+      <h2>2026年各K數回收報價對照表是多少？</h2>
       <p>以下以2026年3月牌價約 <strong>17,400 元/台錢</strong> 試算：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -152,7 +152,7 @@ export default function Page() {
       <h3>巧品的做法</h3>
       <p>XRF儀器測試，數字顯示在螢幕上你可以直接看。秤重全程你盯著看，歸零動作當著你面做。不扣任何耗損，就是當下測出來多少就算多少。</p>
 
-      <h2>四、回收K金的完整步驟</h2>
+      <h2>回收K金的完整步驟是什麼？</h2>
       <div style={{ background: '#f0f0f0', padding: '1.5rem', borderRadius: '8px', margin: '1rem 0' }}>
         <p style={{ fontWeight: 'bold', margin: '0 0 0.25rem 0' }}>Step 1：來電詢問當日18K/14K報價</p>
         <p style={{ color: '#555', fontSize: '0.9rem', margin: '0 0 0.75rem 0' }}>先知道行情，來了不會被壓價</p>
@@ -170,7 +170,7 @@ export default function Page() {
         <p style={{ color: '#555', fontSize: '0.9rem', margin: '0' }}>不同意就帶走，免費鑑定，沒有任何壓力</p>
       </div>
 
-      <h2>五、K金回收常見問題</h2>
+      <h2>K金回收常見問題怎麼做？</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: '回收K金怎麼計算價格？', a: '公式：當日24K牌價 × 含金比例 × 重量。18K = 75%，14K = 58.5%，10K = 41.7%。牌價17,400時，5錢18K回收約63,750元。' },
@@ -197,7 +197,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>把K金變現金，今天就來</h2>
+      <h2>把K金變現金，今天就來怎麼做？</h2>
       <p>不扣耗損、儀器測試、當場現金。K金收購全台最高報價。</p>
       <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>LINE：@QPD888</p>

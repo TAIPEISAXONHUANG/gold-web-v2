@@ -67,9 +67,9 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 家傳黃金飾品回收前建議先確認家人意願，並了解市場行情。若決定出售，選擇公開透明的店家，保障家傳金飾的價值。
       </div>
-      <h2>Conclusion: Heirloom gold is both sentimental and financial value</h2>
+      <h2>Heirloom gold is both sentimental and financial value?</h2>
       <p>Gold jewelry passed down through generations carries precious family memories. When life requires funds or pieces go unworn, selling is a practical choice. We respect every customer's story.</p>
-      <h2>Storage tips for heirloom gold</h2>
+      <h2>How to storage tips for heirloom gold?</h2>
       <ul>
         <li>Keep in dry, dark environment</li>
         <li>Wrap in soft cloth, separate from other metals</li>

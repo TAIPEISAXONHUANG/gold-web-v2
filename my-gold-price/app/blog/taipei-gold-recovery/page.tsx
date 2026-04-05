@@ -86,7 +86,7 @@ export default function Page() {
       </ol>
       <p>巧品珠寶三項全符合，且位於台北市大安區，交通方便，歡迎比較。</p>
 
-      <h2>2026年台北黃金回收行情</h2>
+      <h2>2026年台北黃金回收行情是多少？</h2>
       <p>以下為 2026 年 3 月台北黃金回收參考價格（每台錢，依當日國際金價浮動）：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -106,7 +106,7 @@ export default function Page() {
       </table>
       <p style={{ fontSize: '0.85rem', color: '#888' }}>※ 以上為參考價，實際以到店當日國際金價為準。建議來電確認當日報價。</p>
 
-      <h2>台北各區黃金回收指南</h2>
+      <h2>台北各區黃金回收指南怎麼做？</h2>
 
       <h3>📍 大安區黃金回收</h3>
       <p>巧品珠寶位於<strong>台北市大安區濟南路三段62-1號</strong>，近捷運忠孝新生站（步行約5分鐘）。大安區居民無需跑遠，就近諮詢、免費估價。</p>
@@ -120,7 +120,7 @@ export default function Page() {
       <h3>📍 中山區、松山區黃金回收</h3>
       <p>中山區、松山區居民可搭捷運文湖線或板南線轉乘，約15分鐘可達。建議先電話或LINE確認當日報價再前往。</p>
 
-      <h2>台北黃金回收完整流程（10-15分鐘）</h2>
+      <h2>台北黃金回收完整流程（10-15分鐘）是什麼？</h2>
       <ol>
         <li><strong>攜帶黃金及身分證到店</strong>（實名制登記，政府規定）</li>
         <li><strong>現場秤重</strong>：親眼看到重量，確認數字</li>
@@ -130,7 +130,7 @@ export default function Page() {
         <li><strong>現場現金付款</strong>：當場拿錢，不用等待</li>
       </ol>
 
-      <h2>台北黃金回收 vs 銀樓 vs 當舖比較</h2>
+      <h2>台北黃金回收 vs 銀樓 vs 當舖比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#FEF3C7' }}>

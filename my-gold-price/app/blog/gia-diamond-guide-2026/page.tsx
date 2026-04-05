@@ -91,7 +91,7 @@ export default function Page() {
           GIA 本身不販賣鑽石，也不替鑽石定價——它只做鑑定，出具客觀的品質報告（即俗稱的「GIA 證書」或「GIA 鑑定書」）。
         </p>
 
-        <h2>GIA 鑑定書的 4C 說明</h2>
+        <h2>GIA 鑑定書看哪 4C？怎麼解讀每個欄位？</h2>
         <p>
           每份 GIA 鑑定書都包含鑽石的 4C 評等，這 4 個維度決定了鑽石的市場價值：
         </p>
@@ -186,7 +186,7 @@ export default function Page() {
           正規的 GIA 鑑定書每份都可以即時線上核實，10 秒鐘就能確認真假，沒有查不到的理由。
         </p>
 
-        <h2>GIA 鑽石收購常見問答</h2>
+        <h2>GIA 鑽石收購常見問答怎麼做？</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

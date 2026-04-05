@@ -45,16 +45,16 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金回收試算公式：當日回收牌價 × 重量（台錢）× 純度 = 預估回收金額。K金需再乘以純度比例（如18K = 75{'%'}）。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>按公開金價報價，不偷斤減兩。
       </div>
 
-      <h2>黃金回收金額：這樣算最準確</h2>
+      <h2>黃金回收金額的這樣算最準確是什麼？</h2>
       <p>在前往回收店之前，事先試算您的黃金大概能賣多少，是保護自己不被低估的第一步。黃金回收計算方式其實不複雜，只要知道以下三個數字就能算出大概金額：當日黃金牌價、黃金重量、黃金純度。</p>
       <p>想了解更多關於黃金計價的背景知識，可參考<a href="/blog/gold-price-guide-2026" style={{color:'#B8860B'}}>2026年黃金價格完整指南</a>與<a href="/blog/factors-affecting-gold-price" style={{color:'#B8860B'}}>影響黃金價格的因素</a>。</p>
 
-      <h2>黃金回收計算公式</h2>
+      <h2>黃金回收計算公式怎麼算？</h2>
       <div style={{background:'#f0fdf4', border:'1px solid #86efac', borderRadius:'8px', padding:'16px', margin:'1rem 0'}}>
         <p style={{margin:0, fontWeight:'bold', fontSize:'1.1rem'}}>回收金額 = 當日黃金牌價（元/台錢）× 重量（台錢）× 純度比例</p>
       </div>
 
-      <h2>黃金重量單位換算表</h2>
+      <h2>黃金重量單位換算表怎麼算？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -87,7 +87,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>各K數純度與計算比例</h2>
+      <h2>各K數純度與計算比例怎麼算？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -126,7 +126,7 @@ export default function Page() {
       </table>
       <p>想了解更多關於K金純度的詳細說明，可參考<a href="/blog/karat-gold-guide" style={{color:'#B8860B'}}>K金回收完全攻略</a>與<a href="/blog/karat-gold-price" style={{color:'#B8860B'}}>K金回收價格計算</a>。</p>
 
-      <h2>計算範例</h2>
+      <h2>計算範例怎麼算？</h2>
       <p><strong>範例一：9999純金項鍊，重2.5台錢，當日牌價9,500元</strong><br/>
       回收金額 = 9,500 × 2.5 × 1.00 = <strong>23,750元</strong></p>
       <p><strong>範例二：18K金戒指，重1台錢，當日牌價9,500元</strong><br/>
@@ -137,7 +137,7 @@ export default function Page() {
       <h2>如何在家量出黃金重量？</h2>
       <p>可以使用精密電子秤（0.01公克精度以上）在家稱重，再換算成台錢（除以3.75）。但請注意，家用電子秤的精準度可能與回收店的校正秤有些許差距，以現場秤重為準。不確定純度的黃金，帶來<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>使用螢光X光儀免費鑑定即可。</p>
 
-      <h2>使用計算結果的注意事項</h2>
+      <h2>使用計算結果的注意事項怎麼算？</h2>
       <ul>
         <li>試算結果為估計值，實際金額以現場秤重和當日牌價為準</li>
         <li>若黃金含有寶石，寶石重量不計入黃金回收金額</li>

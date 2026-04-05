@@ -88,7 +88,7 @@ export default function Page() {
           <strong>直接給答案：</strong> 純投資目的，黃金ETF費用低、流動性強，是多數人的選擇。想要持有實物（傳家、收藏、审美），選實體黃金。不要 ALL IN 任何一個——黃金只是資產配置的其中一個工具。
         </div>
 
-        <h2>黃金ETF和實體黃金的本質差異</h2>
+        <h2>黃金ETF和實體黃金的本質差異？</h2>
         <p>
           在比較兩者之前，先搞清楚它們的性質完全不同：
         </p>
@@ -98,7 +98,7 @@ export default function Page() {
           <li><strong>黃金存摺：</strong>銀行提供的黃金記帳服務，是銀行的無實物債權，介於兩者之間。</li>
         </ul>
 
-        <h2>費用結構完整比較</h2>
+        <h2>費用結構完整比較？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -151,7 +151,7 @@ export default function Page() {
           <strong>黃金存摺：</strong>致電銀行申請回售，資金約1–2個工作天入帳，少數銀行支援當日入帳。
         </p>
 
-        <h2>風險比較</h2>
+        <h2>風險比較？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -185,7 +185,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>稅務比較（台灣）</h2>
+        <h2>稅務比較（台灣）？</h2>
         <p>
           <strong>黃金ETF：</strong>買賣差價屬期貨交易所得，須計入個人所得稅申報（最高45%）。
           如果虧損，可以抵扣其他期貨/期權收益。
@@ -199,7 +199,7 @@ export default function Page() {
           <strong>黃金存摺：</strong>同實體黃金課稅規定，銀行會主動通報交易資料。
         </p>
 
-        <h2>台灣投資人的實際建議</h2>
+        <h2>台灣投資人的實際建議有哪些？</h2>
 
         <h3>選黃金ETF的人：</h3>
         <ul>

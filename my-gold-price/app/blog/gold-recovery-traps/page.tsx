@@ -39,21 +39,21 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金回收常見陷阱：扣秤（偷吃重量）、扣耗損、壓低純度判定、以低於牌價計算。選擇公開透明的店家才安心。
       </div>
       
-      <h2>結論：賣黃金最怕被扣東扣西，本文直接告訴你5個常見陷阱！</h2>
+      <h2>賣黃金最怕被扣東扣西，本文直接告訴你5個常見陷阱！嗎？</h2>
 
-      <h2>陷阱一：秤重數字看不見</h2>
+      <h2>什麼是秤重數字看不見？</h2>
       <p>有些店家會趁你不注意時動手腳。好的店家會當面秤重，讓客人親眼看見數字。</p>
 
-      <h2>陷阱二：扣耗損比例過高</h2>
+      <h2>什麼是扣耗損比例過高？</h2>
       <p>一般行情扣5-10{'%'}耗損，但我們堅持<strong>不扣任何耗損</strong>，按實際重量計算。</p>
 
-      <h2>陷阱三：檢測方式不透明</h2>
+      <h2>檢測方式不透明有哪些？</h2>
       <p>我們採用專業儀器+火測，確保黃金純度檢測透明公開。</p>
 
-      <h2>陷阱四：付款速度慢</h2>
+      <h2>什麼是付款速度慢？</h2>
       <p>有些店家要等1-2天才匯款。我們<strong>現場立即現金</strong>付款。</p>
 
-      <h2>陷阱五：態度催促成交</h2>
+      <h2>什麼是態度催促成交？</h2>
       <p>專業店家會詳細解說，讓你充分了解後再決定，不會催促。</p>
 
       <script
@@ -63,7 +63,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收最常見的陷阱？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 四大陷阱：偷扣秤重、壓低純度判定、報價後再扣耗損、以低於牌價的價格計算。</p>
@@ -89,7 +89,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📊 比較表</h2>
+      <h2>比較表？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -106,7 +106,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>❓ 常見問題FAQ</h2>
+      <h2>什麼是常見問題FAQ？</h2>
       <h3>Q：黃金回收要帶什麼證件？</h3>
       <p>A：需攜帶<strong>身份證+健保卡</strong>進行實名制登記。</p>
       
@@ -118,7 +118,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 聯繫我們</h2>
+      <h2>什麼是聯繫我們？</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

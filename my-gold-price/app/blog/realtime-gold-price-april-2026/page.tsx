@@ -145,7 +145,7 @@ export default function RealtimeGoldPriceApril2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           2026年4月台灣黃金即時報價參考表
-        </h2>
+        是多少？</h2>
         <p>
           以下為2026年4月參考行情區間，非即時跳動數字。實際報價以銀樓當日牌告為準。
         </p>
@@ -201,7 +201,7 @@ export default function RealtimeGoldPriceApril2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           金價怎麼換算：盎司→公克→台灣「一錢」
-        </h2>
+        怎麼算？</h2>
         <p>
           國際金價報的是「美元/盎司」，台灣習慣用「每錢」。換算公式：
         </p>
@@ -219,7 +219,7 @@ export default function RealtimeGoldPriceApril2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           影響今日金價的3個關鍵因素
-        </h2>
+        有哪些？</h2>
         <p>
           2026年4月金價維持高檔，主要受以下因素驅動：
         </p>
@@ -239,9 +239,9 @@ export default function RealtimeGoldPriceApril2026() {
         </p>
 
         {/* FAQ Section */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           常見問題 FAQ
-        </h2>
+        ？</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -254,9 +254,9 @@ export default function RealtimeGoldPriceApril2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           延伸閱讀
-        </h2>
+        ？</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/gold-measurement-unit-converter" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

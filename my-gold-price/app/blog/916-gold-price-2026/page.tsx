@@ -52,7 +52,7 @@ export default function Page() {
       <p>拿著一條金鍊，背面刻著「916」，卻不知道這數字是什麼意思？</p>
       <p>直接說：<strong>916 = 22K黃金，含金量91.6%</strong>。這是東南亞金飾很常用的規格，馬來西亞、新加坡的金飾有大量916黃金，台灣消費者有時從那邊帶回來，或買到進口飾品才會遇到。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>916黃金純度對照表</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>916黃金純度對照表怎麼看？</h2>
       <p>把台灣常見的黃金純度全部列出來比較，一次看懂：</p>
 
       <div style={{ overflowX: 'auto', marginBottom: '24px' }}>

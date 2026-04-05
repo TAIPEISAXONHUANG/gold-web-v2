@@ -41,7 +41,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 9999純金（24K）回收價最高，因純度達99.99{'%'}。回收時以當日國際金價×重量計算，巧品珠寶不扣耗損、不扣秤。
       </div>
 
-      <h2>結論：9999純金是最好變現的貴金屬</h2>
+      <h2>9999純金是最好變現的貴金屬嗎？</h2>
       <p>9999純金（24K金）純度高達99.99%，是貴金屬中最保值、最容易變現的品項。巧品珠寶依當日國際金價即時報價，不扣耗損、不扣手續費，當場現金付款。</p>
 
       <h2>我們收購哪些9999純金？</h2>
@@ -53,7 +53,7 @@ export default function Page() {
         <li><strong>彌月金飾</strong>：各種彌月禮盒純金品項</li>
       </ul>
 
-      <h2>9999純金回收計算方式</h2>
+      <h2>9999純金回收計算方式怎麼算？</h2>
       <p>公式：<strong>重量（台錢）× 當日收購牌價 = 你拿到的金額</strong></p>
       <p>我們的收購價與國際金價連動，每小時更新。建議來店前先查詢即時報價，或直接來電詢問當下牌價。</p>
 
@@ -72,7 +72,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 9999純金回收價最高嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 是的。9999代表99.99%純度，是最高等級的黃金，回收價按100%計算。</p>

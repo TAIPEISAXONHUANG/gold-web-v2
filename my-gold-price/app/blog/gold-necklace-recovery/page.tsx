@@ -67,9 +67,9 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金項鍊回收依純度與重量計價，斷鏈、單邊都可回收。18K、14K項鍊按含金比例計算，不因款式新舊影響回收價。
       </div>
-      <h2>Conclusion: Gold necklaces are the most common recovery item - fast and simple</h2>
+      <h2>Gold necklaces are the most common recovery item - fast and simple?</h2>
       <p>Whether 9999 pure gold, 18K, or broken chains, we offer top market prices for all gold necklaces.</p>
-      <h2>Types we accept</h2>
+      <h2>What is Types we accept?</h2>
       <ul>
         <li>9999 pure gold, 916 gold necklaces</li>
         <li>18K, 14K, 10K gold necklaces</li>

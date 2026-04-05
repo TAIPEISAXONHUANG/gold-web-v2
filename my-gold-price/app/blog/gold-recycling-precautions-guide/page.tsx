@@ -60,7 +60,7 @@ export default function Page() {
         <strong>📌 結論：</strong> 黃金回收眉角多！本篇整理<strong>5大必須注意的事項</strong>，從證件準備、價格談判到常見陷阱，幫您避免損失數千元。
       </div>
 
-      <h2>📋 黃金回收前必備清單</h2>
+      <h2>黃金回收前必備清單怎麼做？</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#3b82f6', color:'white'}}>
@@ -93,7 +93,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>💰 價格談判必學技巧</h2>
+      <h2>價格談判必學技巧是多少？</h2>
       <ul>
         <li><strong>先問報價方式</strong> - 問「今天回收多少錢」而不是「可以算多少」</li>
         <li><strong>要求不扣耗</strong> - 明確表示不要扣耗損，有些店家會讓步</li>
@@ -102,7 +102,7 @@ export default function Page() {
         <li><strong>不要當場決定</strong> - 說「我考慮一下」再離開，給自己比價空間</li>
       </ul>
 
-      <h2>⚠️ 5大常見陷阱與應對</h2>
+      <h2>5大常見陷阱與應對有哪些？</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#ef4444', color:'white'}}>
@@ -140,7 +140,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>🔍 回收流程全解析</h2>
+      <h2>回收流程全解析是什麼？</h2>
       <ol>
         <li><strong>Step 1: 查詢行情</strong> - 先上網或電話詢問當日回收行情</li>
         <li><strong>Step 2: 準備證件</strong> - 攜帶身分證及相關文件</li>
@@ -149,7 +149,7 @@ export default function Page() {
         <li><strong>Step 5: 現場收款</strong> - 確認金額正確，現場領取現金或匯款</li>
       </ol>
 
-      <h2>⏰ 最佳回收時機建議</h2>
+      <h2>⏰ 最佳回收時機建議有哪些？</h2>
       <ul>
         <li><strong>農曆年前</strong> - 金店週轉需求高，價格較好</li>
         <li><strong>選舉前後</strong> - 政治不確定性通常帶動金價上漲</li>
@@ -157,7 +157,7 @@ export default function Page() {
         <li><strong>通膨升溫期</strong> - 避險需求增加支撐金價</li>
       </ul>
 
-      <h2>🏆 優質店家挑選標準</h2>
+      <h2>怎麼優質店家挑選標準？</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#10b981', color:'white'}}>
@@ -189,7 +189,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>❓ 常見問題 FAQ</h2>
+      <h2>什麼是常見問題 FAQ？</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 黃金回收前要準備什麼？</summary>
@@ -213,7 +213,7 @@ export default function Page() {
         </details>
       </div>
 
-      <h2>📚 延伸閱讀</h2>
+      <h2>什麼是延伸閱讀？</h2>
       <ul>
         <li><a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
         <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收完整指南</a></li>

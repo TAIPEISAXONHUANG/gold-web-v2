@@ -161,7 +161,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           各種賣金管道的付款方式比較
-        </h2>
+        ？</h2>
 
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse text-sm">
@@ -239,7 +239,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           現金交易的 3 個注意事項
-        </h2>
+        有哪些？</h2>
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-5 mb-6 rounded-r-lg">
           <h3 className="font-bold text-gray-800 mb-3">1. 大額現金要準備好配合登記</h3>
           <p className="text-gray-700">
@@ -278,7 +278,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           2026年現金收購行情參考
-        </h2>
+        是多少？</h2>
         <p className="text-gray-700 mb-4">
           以下為 2026 年 4 月初的市場參考行情（實際價格每日浮動，以當日報價為準）：
         </p>
@@ -358,9 +358,9 @@ export default function Page() {
           </ul>
         </div>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
           常見問題
-        </h2>
+        ？</h2>
 
         <div className="space-y-6 mb-8">
           <div>

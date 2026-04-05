@@ -90,7 +90,7 @@ export default function Page() {
         <span style={{ fontSize: '0.85rem', color: '#92400e' }}>每日浮動，電話詢問最即時：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></span>
       </div>
 
-      <h2>一、2026年各類型黃金回收報價對照</h2>
+      <h2>2026年各類型黃金回收報價對照是多少？</h2>
       <p>台灣黃金回收報價按純度計算，以下是2026年3月的參考行情（以牌價17,400元/錢為基準）：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -161,7 +161,7 @@ export default function Page() {
 
       <p>巧品珠寶明確承諾：<strong>不扣火耗、公正秤重、報價後3分鐘決定即可</strong>。不需要等到你沒耐心。</p>
 
-      <h2>三、回收黃金的完整流程</h2>
+      <h2>回收黃金的完整流程是什麼？</h2>
       <div style={{ background: '#f0f0f0', padding: '1.5rem', borderRadius: '8px', margin: '1rem 0' }}>
         <p style={{ margin: '0 0 0.5rem 0', fontWeight: 'bold' }}>Step 1：電話或LINE詢問當日報價</p>
         <p style={{ margin: '0 0 0.75rem 0', color: '#555', fontSize: '0.9rem' }}>先確認今日行情，避免白跑一趟</p>
@@ -176,7 +176,7 @@ export default function Page() {
         <p style={{ margin: '0', color: '#555', fontSize: '0.9rem' }}>同意報價後立即付現，不滿意可帶走，無任何費用</p>
       </div>
 
-      <h2>四、常見問題 FAQ</h2>
+      <h2>什麼是常見問題 FAQ？</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: '今日黃金回收價格是多少？', a: '2026年3月24K足金回收約16,900～17,200元/錢，每日浮動。請電話詢問當日最新報價：0986-821-626。' },
@@ -203,7 +203,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>今天就來換現金</h2>
+      <h2>什麼是今天就來換現金？</h2>
       <p>黃金高價收購，全程透明。帶著你的金飾，15分鐘完成交易。</p>
       <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>LINE：@QPD888</p>

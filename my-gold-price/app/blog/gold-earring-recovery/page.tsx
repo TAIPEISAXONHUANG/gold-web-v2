@@ -67,9 +67,9 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金耳環不論大小都可回收，依純度與重量計價。K金耳環按含金比例計算。鑲鑽款式可分開估價貴金屬與鑽石。
       </div>
-      <h2>Results: Even small gold earrings are worth recovering</h2>
+      <h2>Even small gold earrings are worth recovering?</h2>
       <p>Many people think earrings are too small to bother recovering. But a pair of 18K gold earrings weighing 1-2 grams can still be worth hundreds. We accept all types of gold earrings, even single pieces.</p>
-      <h2>What we accept</h2>
+      <h2>What we accept?</h2>
       <ul>
         <li>9999 pure gold, 916 gold earrings</li>
         <li>18K, 14K, 10K gold earrings</li>

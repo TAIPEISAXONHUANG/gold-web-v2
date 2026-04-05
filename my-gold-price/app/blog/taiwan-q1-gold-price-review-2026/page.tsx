@@ -178,7 +178,7 @@ export default function TaiwanQ1GoldPriceReview2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           2026年Q1每月一錢行情一覽
-        </h2>
+        是多少？</h2>
         <p>
           以下是2026年Q1各月份台灣黃金一錢（3.75克）銀樓收購價的月度高低點與均值：
         </p>
@@ -213,7 +213,7 @@ export default function TaiwanQ1GoldPriceReview2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           Q1漲勢的5個驅動因素
-        </h2>
+        有哪些？</h2>
         <p>
           2026年Q1的黃金行情不是偶然，背後有清楚的基本面支撐。
         </p>
@@ -249,9 +249,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
           </table>
         </div>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           2026年1月：觀望後緩步起漲
-        </h2>
+        ？</h2>
         <p>
           1月初，台灣黃金一錢開在約 NT$9,000 元附近。農曆年前的購金需求帶動1月中下旬緩步走高，月底來到 NT$9,800 元左右。這個區間比2025年Q1（約NT$7,800–8,500）高出不少，顯示市場已消化了2025年下半年的國際金價大漲。
         </p>
@@ -259,9 +259,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
           1月的波動相對溫和，單日波動通常在每錢 ±100–200 元以內，適合觀察趨勢的穩定期。
         </p>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           2026年2月：農曆年效應 + 衝破萬元
-        </h2>
+        ？</h2>
         <p>
           農曆年前（2月初到中旬），台灣民間購金需求增加——婚嫁用金、壓歲金、節慶飾品——銀樓收購量增大，帶動2月金價快速走高。2月中旬，部分銀樓一錢收購價首度突破 NT$10,000 元整數關卡。
         </p>
@@ -269,9 +269,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
           年後（2月下旬）有約 NT$200–300 元的小幅回落，這是正常的節後量縮現象，不是趨勢反轉。
         </p>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "16px", marginTop: "40px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "16px", marginTop: "40px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           2026年3月：創Q1高點，突破一萬門檻
-        </h2>
+        ？</h2>
         <p>
           3月是Q1最強的一個月。幾個事件疊加：
         </p>
@@ -290,9 +290,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
           3月下旬，台灣黃金一錢收購價最高觸及 NT$10,500–10,600 元，創2026年Q1高點。月底雖有小幅回落，但仍站穩 NT$10,000 以上。
         </p>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           2026年4月展望：高位震盪，謹慎看多
-        </h2>
+        ？</h2>
         <p>
           進入4月，金價開局維持在每錢 NT$10,200–11,000 元區間，延續3月高位。市場預期4月不會出現大幅崩跌，但上漲空間也相對有限，主要在於：
         </p>
@@ -312,9 +312,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
         </p>
 
         {/* FAQ */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           常見問題 FAQ
-        </h2>
+        ？</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -327,9 +327,9 @@ export default function TaiwanQ1GoldPriceReview2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           延伸閱讀
-        </h2>
+        ？</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/taiwan-gold-price-per-qian-march-2026" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

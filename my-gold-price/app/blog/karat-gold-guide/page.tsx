@@ -59,7 +59,7 @@ export default function Page() {
       <p>K金（Karat Gold）是黃金與其他金屬（如銅、銀、鋅、鈀）的合金。純金過於柔軟，容易變形，不適合製作精細的珠寶首飾，因此通常以合金形式製作，提高硬度與耐用性。K數代表含金比例，24K等於純金（99.9%以上），18K含金75%，依此類推。</p>
       <p>台灣最常見的K金款式是18K，歐美品牌則常見14K。若想了解K金與純金的詳細比較，可參考<a href="/blog/gold-vs-k-gold-difference" style={{color:'#B8860B'}}>黃金與K金的差異說明</a>。</p>
 
-      <h2>K金含金量對照表</h2>
+      <h2>K金含金量對照表怎麼看？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -97,11 +97,11 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>K金回收價格計算方式</h2>
+      <h2>K金回收價格計算方式怎麼算？</h2>
       <p>K金回收公式：<strong>當日純金牌價 × 重量 × K金含金比例</strong></p>
       <p>例如，若當日純金牌價為每台錢9,500元，一條重2台錢的18K金項鍊回收金額為：9,500 × 2 × 75% = 14,250元。可使用<a href="/blog/gold-calculator" style={{color:'#B8860B'}}>黃金回收計算機</a>自行試算，或參考<a href="/blog/karat-gold-price" style={{color:'#B8860B'}}>K金回收價格詳細說明</a>。</p>
 
-      <h2>如何辨識K金飾品</h2>
+      <h2>如何辨識K金飾品怎麼做？</h2>
       <ul>
         <li>K金飾品內側通常有刻印，如 <strong>750</strong>（18K）、<strong>585</strong>（14K）、<strong>417</strong>（10K）</li>
         <li>部分飾品直接標示 <strong>18K Au</strong>、<strong>18KT</strong> 等字樣</li>
@@ -109,7 +109,7 @@ export default function Page() {
       </ul>
       <p>詳細的K金辨識方法，可參考<a href="/blog/gold-identification" style={{color:'#B8860B'}}>黃金真偽與純度鑑別</a>一文。</p>
 
-      <h2>K金回收注意事項</h2>
+      <h2>K金回收注意事項有哪些？</h2>
       <ul>
         <li>先確認K數與重量，了解大概的回收範圍</li>
         <li>現場儀器檢測，確保純度數字準確</li>

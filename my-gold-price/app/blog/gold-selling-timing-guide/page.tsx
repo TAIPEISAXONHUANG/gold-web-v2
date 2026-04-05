@@ -134,7 +134,7 @@ export default function Page() {
           但「歷史高位」不代表不會更高——誰也無法預測精準頂部。
         </p>
 
-        <h2>判斷現在是不是好時機——3個問題</h2>
+        <h2>判斷現在是不是好時機的3個問題是什麼？</h2>
         <div style={{ background: '#f0fdf4', border: '1px solid #86efac', padding: '16px', borderRadius: '8px', margin: '1rem 0' }}>
           <strong>問自己這3個問題：</strong>
           <br /><br />
@@ -151,7 +151,7 @@ export default function Page() {
           三個問題中有兩個以上回答「是」，就值得考慮變現。
         </p>
 
-        <h2>黃金變現的三個選項</h2>
+        <h2>黃金變現的三個選項有哪些？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -193,7 +193,7 @@ export default function Page() {
           <li><strong>不要先拆寶石：</strong>K金飾品有寶石，先估完再決定拆不拆</li>
         </ol>
 
-        <h2>變現後的資金配置建議</h2>
+        <h2>變現後的資金配置建議有哪些？</h2>
         <p>
           黃金變現後，資金怎麼用？沒有標準答案，但有幾個方向可以參考：
         </p>

@@ -99,7 +99,7 @@ export default function Page() {
       </p>
       <p>銀的單價遠低於黃金，所以重量是關鍵。幾十克的銀飾回收金額不多，幾百克的舊銀器就比較有感了。</p>
 
-      <h2>二、2026年台灣純銀回收參考價格</h2>
+      <h2>2026年台灣純銀回收參考價格是多少？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#FEF3C7' }}>
@@ -138,7 +138,7 @@ export default function Page() {
       </table>
       <p style={{ color: '#888', fontSize: '0.85rem' }}>* 銀價跟著國際現貨銀價浮動，每天不同。以上為2026年3月參考區間。</p>
 
-      <h2>三、純銀 vs 白金 vs 鉑金，傻傻分不清楚</h2>
+      <h2>純銀 vs 白金 vs 鉑金，傻傻分不清楚？</h2>
       <p>很多人把「白金」、「鉑金」和「純銀」搞混。三個是完全不同的東西，回收價差異極大：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -177,7 +177,7 @@ export default function Page() {
       </ul>
       <p>我們收銀的時候，如果發現你帶來的東西有更好的賣法，我們會告訴你，不會讓你虧著賣。</p>
 
-      <h2>五、純銀回收流程</h2>
+      <h2>純銀回收流程是什麼？</h2>
       <ol>
         <li>帶純銀首飾或銀器前來（或電話先問）</li>
         <li>現場用XRF儀器確認成色（925、999還是其他）</li>

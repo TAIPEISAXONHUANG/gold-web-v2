@@ -59,15 +59,15 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金保險主要保障金飾遺失與竊盜風險。高價金飾建議投保，理賠時需提供購買證明與鑑定報告。
       </div>
-      <h2>Conclusion: Physical gold needs proper storage and protection</h2>
+      <h2>Physical gold needs proper storage and protection?</h2>
       <p>Owning physical gold is great, but poor storage can lead to loss or theft. Learn how to protect your gold properly.</p>
-      <h2>Storage options</h2>
+      <h2>How to storage options?</h2>
       <ul>
         <li>Home safe: convenient, bolt to wall for security</li>
         <li>Bank safe deposit box: highest security, annual fee</li>
         <li>Gold passbook: no physical storage needed</li>
       </ul>
-      <h2>Insurance tips</h2>
+      <h2>What are the insurance tips?</h2>
       <ul>
         <li>Record weight, purity and purchase receipts</li>
         <li>Take photos for records</li>

@@ -174,7 +174,7 @@ export default function KGoldSellProcess2026() {
         {/* Step-by-step process */}
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           賣黃金完整流程：5個步驟
-        </h2>
+        有哪些？</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "16px", margin: "20px 0" }}>
           {processSteps.map((s, i) => (
             <div key={i} style={{ display: "flex", gap: "16px", alignItems: "flex-start", backgroundColor: "#fffdf5", borderRadius: "8px", padding: "16px", border: "1px solid #e8d5a0" }}>
@@ -191,7 +191,7 @@ export default function KGoldSellProcess2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           各類黃金回收計算方式對照表
-        </h2>
+        怎麼算？</h2>
         <p>
           不同黃金種類，計算方式不同。這張表讓你事先算好心理預期：
         </p>
@@ -220,7 +220,7 @@ export default function KGoldSellProcess2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           賣黃金最常踩的3個坑
-        </h2>
+        有哪些？</h2>
 
         <h3 style={{ fontSize: "18px", fontWeight: "700", marginTop: "24px", marginBottom: "10px" }}>1. 被扣耗損（最普遍）</h3>
         <p>
@@ -248,9 +248,9 @@ export default function KGoldSellProcess2026() {
         </p>
 
         {/* FAQ Section */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           常見問題 FAQ
-        </h2>
+        ？</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -263,9 +263,9 @@ export default function KGoldSellProcess2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           延伸閱讀
-        </h2>
+        ？</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/gold-recovery-traps" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

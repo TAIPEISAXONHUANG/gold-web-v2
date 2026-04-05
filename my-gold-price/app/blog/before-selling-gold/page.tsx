@@ -52,10 +52,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 賣黃金前務必準備身份證正本、確認金飾純度與重量，並比較多家回收報價。巧品珠寶提供免費估價，不強迫交易。
       </div>
 
-      <h2>結論：做好這些準備，賣黃金不吃虧！</h2>
+      <h2>做好這些準備，賣黃金不吃虧！嗎？</h2>
       <p>很多人第一次賣黃金，因為不熟悉流程，可能在不知不覺中少拿了很多錢。本文整理了賣黃金前最重要的準備工作與注意事項，讓您做好萬全準備，確保拿到最好的回收價格。更多詳細資訊可參考<a href="/blog/gold-recovery-faq" style={{ color: '#B8860B' }}>黃金回收常見問題FAQ</a>。</p>
 
-      <h2>賣黃金前的4大準備工作</h2>
+      <h2>賣黃金前的4大準備工作有哪些？</h2>
 
       <h3>1. 確認當日金價行情</h3>
       <p>賣黃金前，先了解當日的黃金行情非常重要。可以透過以下方式查詢：</p>
@@ -95,7 +95,7 @@ export default function Page() {
         <li>鑑定設備是否專業</li>
       </ul>
 
-      <h2>賣黃金的常見陷阱</h2>
+      <h2>賣黃金的常見陷阱有哪些？</h2>
       <p>了解這些陷阱，避免被不肖業者欺騙：</p>
       <ul>
         <li><strong>扣耗損</strong>：扣除5-10%「耗損費」，合理範圍應在3%以內</li>
@@ -117,7 +117,7 @@ export default function Page() {
       </ul>
       <p>了解更多<a href="/blog/how-to-choose-gold-shop" style={{ color: '#B8860B' }}>如何選擇黃金回收店家</a>。</p>
 
-      <h2>賣黃金的最佳時機</h2>
+      <h2>賣黃金的最佳時機是什麼時候？</h2>
       <p>黃金價格受多種因素影響，選擇好的時機出售可以拿到更高的回收金額：</p>
       <ul>
         <li>國際局勢不穩時，黃金作為避險資產需求增加，價格上漲</li>
@@ -133,7 +133,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金前要準備什麼？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 需要攜帶身份證正本、整理好要出售的金飾，建議先查詢當日金價並比較多家報價。</p>

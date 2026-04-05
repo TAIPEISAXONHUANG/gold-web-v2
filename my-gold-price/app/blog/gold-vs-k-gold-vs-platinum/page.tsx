@@ -73,12 +73,12 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金純度100%保值性最高、K金含金量75%以下硬度較好適合飾品、白金（鉑金）稀有但回收價低於黃金。三者回收價差異大。
       </div>
-      <h2>一篇讓你搞懂貴金屬的完整指南</h2>
+      <h2>一篇讓你搞懂貴金屬的完整指南是什麼？</h2>
 
-      <h2>結論：一分鐘搞懂三種貴金屬</h2>
+      <h2>一分鐘搞懂三種貴金屬嗎？</h2>
       <p>許多人在買賣珠寶時常搞不清楚「黃金、K金、白金」的差別，本文用簡單的方式讓您一次搞懂！</p>
 
-      <h2>🥇 黃金（Gold）</h2>
+      <h2>什麼是黃金（Gold）？</h2>
       <ul>
         <li><strong>定義</strong>：純粹的黃金元素，顏色為金黃色</li>
         <li><strong>純度</strong>：9999（24K）為最高純度</li>
@@ -92,7 +92,7 @@ export default function Page() {
         <li><strong>回收價值</strong>：最高等於國際金價 × 純度</li>
       </ul>
 
-      <h2>🥈 K金（Karat Gold）</h2>
+      <h2>什麼是K金（Karat Gold）？</h2>
       <ul>
         <li><strong>定義</strong>：黃金與其他金屬合金，混合製成</li>
         <li><strong>常見純度</strong>：
@@ -112,7 +112,7 @@ export default function Page() {
         <li><strong>回收價值</strong>：按純度比例計算，低於純金</li>
       </ul>
 
-      <h2>🥉 白金（Platinum）</h2>
+      <h2>什麼是白金（Platinum）？</h2>
       <ul>
         <li><strong>定義</strong>：另一種貴金屬，與黃金完全不同</li>
         <li><strong>標記</strong>：通常標示為Pt950、Pt900</li>
@@ -127,7 +127,7 @@ export default function Page() {
         <li><strong>回收價值</strong>：按白金的回收市場行情計算</li>
       </ul>
 
-      <h2>📊 三者比較表</h2>
+      <h2>三者比較表？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>

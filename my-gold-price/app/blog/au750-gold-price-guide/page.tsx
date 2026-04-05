@@ -112,7 +112,7 @@ export default function Page() {
           <li><strong>美國：</strong>兩種都常見</li>
         </ul>
 
-        <h2>Au750和其他K數的差異</h2>
+        <h2>Au750和其他K數的差異？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -163,7 +163,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>Au750顏色種類——黃K、白K、玫瑰金</h2>
+        <h2>Au750顏色種類的黃K、白K、玫瑰金是什麼？</h2>
         <p>
           Au750的顏色由那25%的合金成分決定：
         </p>
@@ -176,7 +176,7 @@ export default function Page() {
           <strong>重要提醒：</strong>白K金的「白」是表面電鍍的顏色，長久佩戴後電鍍層磨損，會露出底層的淡黃色。這不是品質問題，而是正常損耗。如需恢復白色，可重新電鍍。
         </p>
 
-        <h2>Au750回收價格計算</h2>
+        <h2>Au750回收價格計算怎麼算？</h2>
         <p>
           Au750的回收價格，與所有18K金相同：
         </p>

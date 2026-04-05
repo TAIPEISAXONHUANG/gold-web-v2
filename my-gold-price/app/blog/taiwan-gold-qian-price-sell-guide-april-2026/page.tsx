@@ -152,7 +152,7 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           2026年4月台灣黃金一錢收購參考行情
-        </h2>
+        是多少？</h2>
         <p>
           2026年4月初，國際金價維持高位（每盎司 $3,100 美元以上），台幣兌美元約 31–32 元，換算下來台灣黃金收購行情如下：
         </p>
@@ -201,7 +201,7 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
 
         <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
           賣黃金拿最高價的5個步驟
-        </h2>
+        有哪些？</h2>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "16px", margin: "24px 0" }}>
           {tipsData.map((tip) => (
@@ -255,9 +255,9 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
         </p>
 
         {/* FAQ */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           常見問題 FAQ
-        </h2>
+        ？</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -270,9 +270,9 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
           延伸閱讀
-        </h2>
+        ？</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/gold-recovery-traps" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

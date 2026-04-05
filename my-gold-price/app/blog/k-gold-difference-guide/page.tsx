@@ -82,13 +82,13 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金與K金的根本差異在於含金量。24K為99.99{'%'}純金，18K為75{'%'}，14K為58.5{'%'}。純度越高價值越高，但K金硬度佳更適合日常配戴。本篇告訴您何時買黃金、何時選K金最聰明。
       </div>
 
-      <h2>結論：了解黃金與K金的差異，才能做出最有利的買賣決定！</h2>
+      <h2>了解黃金與K金的差異，才能做出最有利的買賣決定！嗎？</h2>
 
-      <h2>黃金與K金的基本認識</h2>
+      <h2>什麼是黃金與K金的基本認識？</h2>
       <p><strong>黃金（純金/24K）</strong>是指含金量99.99{'%'}的黃金，是最純粹的黃金形態，顏色最接近金黃本色，投資與保值首選。但純金質地軟，容易刮傷變形，不適合精細珠寶工藝。</p>
       <p><strong>K金</strong>是黃金與銀、銅、鈀等金屬的合金，加入其他金屬是為了增加硬度、改變顏色與耐久性。常見K金有24K、22K、18K、14K、10K，數字代表含金量（24分為滿金）。</p>
 
-      <h2>黃金與K金純度對照表</h2>
+      <h2>黃金與K金純度對照表怎麼看？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f59e0b', color: 'white' }}>
@@ -132,7 +132,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>黃金與K金的優缺點比較</h2>
+      <h2>黃金與K金的優缺點比較？</h2>
 
       <h3>🌟 24K純金（黃金）優點：</h3>
       <ul>
@@ -165,7 +165,7 @@ export default function Page() {
         <li>非純金，投資保值效果較差</li>
       </ul>
 
-      <h2>2026年黃金與K金回收價格計算</h2>
+      <h2>2026年黃金與K金回收價格計算怎麼算？</h2>
       <p>回收價格公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>以2026年3月每錢參考價18,500元計算，1兩（5錢）為例：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
@@ -291,7 +291,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 聯繫我們</h2>
+      <h2>什麼是聯繫我們？</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

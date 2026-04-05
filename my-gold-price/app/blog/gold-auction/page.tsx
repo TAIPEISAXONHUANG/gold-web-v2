@@ -64,10 +64,10 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>結論：直接找銀樓回收比拍賣平台更划算</h2>
+      <h2>直接找銀樓回收比拍賣平台更划算嗎？</h2>
       <p>許多人想透過拍賣平台賣黃金，期望能賣到比行情更高的價格。然而實際上，拍賣平台要扣除 5-15{'%'} 的手續費，加上等待競標的時間成本、買家可能惡意棄標、交易糾紛處理困難等風險，最終到手的金額往往不如直接找<a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B' }}>專業回收店家</a>來得划算。直接到店回收，當天現金入袋、零手續費，才是大多數人最實惠的選擇。</p>
 
-      <h2>黃金拍賣 vs 直接回收比較</h2>
+      <h2>黃金拍賣 vs 直接回收比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
         <thead>
           <tr style={{ background: '#fef3c7' }}>
@@ -88,14 +88,14 @@ export default function Page() {
       <h2>什麼情況適合黃金拍賣？</h2>
       <p>雖然大多數情況下直接回收更划算，但以下幾種特殊情況可能適合考慮拍賣：具有歷史價值的古董金飾、名牌精品金飾（如 Cartier、Tiffany 等品牌）、限量發行的紀念金幣或特殊年份金幣。這類物品的收藏價值可能超過其含金量本身的價值，透過拍賣有機會吸引收藏家出高價競標。但若您持有的是一般金飾、<a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>金條</a>或普通金幣，直接回收才是最有效率的變現方式。</p>
 
-      <h2>台灣黃金買賣市場現況</h2>
+      <h2>台灣黃金買賣市場現況是什麼？</h2>
       <p>2026 年台灣黃金市場交易熱絡，受到全球通膨壓力、地緣政治風險持續等因素推動，國際金價維持在歷史高檔區間。台灣主要的黃金交易管道包括：銀樓與珠寶店直接買賣、銀行黃金存摺、台灣期貨交易所的黃金期貨，以及線上貴金屬平台。對一般民眾而言，持有的金飾或金條若要變現，選擇有公開牌價的實體銀樓回收是最安全且便捷的方式。建議在交易前先了解<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>影響回收價格的關鍵因素</a>，才能做出最明智的決定。</p>
 
-      <h2>黃金變現前的注意事項</h2>
+      <h2>黃金變現前的注意事項有哪些？</h2>
       <p>不論您選擇拍賣還是直接回收，以下幾點務必留意：第一，確認您的黃金純度，<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度</a>直接影響回收價格，999 純金與 18K 金的價差可達 25{'%'} 以上。第二，了解秤重單位的差異，台灣常用「台錢」（1台錢 = 3.75 公克），部分店家可能使用公克計價，換算時要特別注意。第三，保留所有購買憑證，包括發票、保證書、鑑定書等，這些文件有助於提高回收價格。第四，選擇信譽良好的交易對象，無論是拍賣平台的買家或是回收店家，都要確認其信用與口碑。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金在哪裡賣最划算？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 直接找專業回收銀樓最划算，省去平台手續費，價格透明、當場現金交易。建議選擇有公開牌價的實體店面。</p>
@@ -137,7 +137,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>立即諮詢巧品珠寶</h2>
+      <h2>什麼是立即諮詢巧品珠寶？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>

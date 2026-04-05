@@ -85,7 +85,7 @@ export default function Page() {
         <strong>📌 直接給答案：</strong> 2026年3月台灣9999純金，<strong>一兩（5錢＝18.75克）回收價約 80,000–87,500 元</strong>，一錢約 16,000–17,500 元。每天隨國際金價浮動，本文教你怎麼算、對照哪個牌價才不吃虧。
       </div>
 
-      <h2>結論：一兩黃金今日行情一覽</h2>
+      <h2>一兩黃金今日行情一覽嗎？</h2>
 
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -226,7 +226,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 立即查詢今日一兩報價</h2>
+      <h2>立即查詢今日一兩報價是多少？</h2>
       <p>台北大安區實體店，10年專業黃金回收，不扣耗損，現場現金支付。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/@QPD888" style={{ color: '#B8860B' }}>@QPD888</a></p>

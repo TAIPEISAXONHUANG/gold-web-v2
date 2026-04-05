@@ -53,7 +53,7 @@ export default function Page() {
         <strong>📌 核心重點：</strong> 賣黃金最大的風險不是金價低，而是被扣秤、扣耗損、低報純度。認識這三個陷阱，就能保護你的利益。
       </div>
 
-      <h2>一、最常見的三大詐騙手法</h2>
+      <h2>什麼是最常見的三大詐騙手法？</h2>
 
       <h3>1. 扣秤 — 最難察覺的手法</h3>
       <p>不良業者會用調過的秤，讓顯示重量比實際輕 0.1～0.5 錢。以當前金價約 17,000 元/錢計算，被扣 0.3 錢就損失約 5,100 元。</p>
@@ -72,7 +72,7 @@ export default function Page() {
       <p>有些業者不使用儀器，用目測或酸測說你的金「不夠純」，把 9999 說成 916，讓你拿到更低的錢。</p>
       <p><strong>防範方式：</strong> 堅持要求使用 <strong>XRF 螢光分析儀</strong>做精準檢測，並親眼看到數值，不接受目測估算。</p>
 
-      <h2>二、回收前一定要做的5件事</h2>
+      <h2>回收前一定要做的5件事怎麼做？</h2>
       <ol style={{ lineHeight: '2' }}>
         <li><strong>查當日牌價</strong> — 上 gck99.com.tw 或巧品珠寶官網查詢今日基準價</li>
         <li><strong>至少比較3家</strong> — 打電話問報價，不需要到場就能先比</li>
@@ -81,7 +81,7 @@ export default function Page() {
         <li><strong>不要急著賣</strong> — 合法業者不會催你，給你時間考慮</li>
       </ol>
 
-      <h2>三、回收過程中的注意要點</h2>
+      <h2>回收過程中的注意要點是什麼？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#FEF3C7' }}>
@@ -114,7 +114,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>四、如何辨識正規黃金回收業者</h2>
+      <h2>如何辨識正規黃金回收業者怎麼做？</h2>
       <p>正規業者應具備以下特徵：</p>
       <ul style={{ lineHeight: '2' }}>
         <li>✅ <strong>實體店面</strong>，有政府核發許可證明</li>
@@ -126,7 +126,7 @@ export default function Page() {
         <li>✅ <strong>估完不強迫</strong>，不滿意可以直接帶走</li>
       </ul>
 
-      <h2>五、巧品珠寶的承諾</h2>
+      <h2>什麼是巧品珠寶的承諾？</h2>
       <div style={{ background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: '8px', padding: '1.5rem', margin: '1rem 0' }}>
         <p>台北大安區巧品珠寶，10年誠信經營，每筆交易由<strong>老闆親自鑑定</strong>：</p>
         <ul style={{ marginTop: '0.5rem', lineHeight: '2' }}>
@@ -166,7 +166,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>立即免費估價</h2>
+      <h2>什麼是立即免費估價？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>

@@ -100,7 +100,7 @@ export default function Page() {
       </div>
       <p>台灣銀行和各珠寶商的牌價包含了利潤，所以通常比純換算結果高，這是正常現象。</p>
 
-      <h2>二、2026年台灣金價走勢</h2>
+      <h2>什麼是2026年台灣金價走勢？</h2>
       <p>2026年國際金價受多重因素推升，持續維持高位。台灣金價對應如下：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -130,7 +130,7 @@ export default function Page() {
       </table>
       <p style={{ fontSize: '0.85rem', color: '#888' }}>※ 以上為參考範圍，實際每日牌價以台灣銀行或本店公告為準。</p>
 
-      <h2>三、影響台灣今日金價的三個關鍵</h2>
+      <h2>影響台灣今日金價的三個關鍵有哪些？</h2>
 
       <h3>1. 國際金價（最主要）</h3>
       <p>紐約黃金期貨（COMEX）是最主要的定價基準。美聯儲政策、地緣政治風險、通膨數據都直接影響國際金價。金價和美元指數通常呈負相關——美元跌，金價漲。</p>
@@ -179,7 +179,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>五、常見問題 FAQ</h2>
+      <h2>什麼是常見問題 FAQ？</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: '台灣今日金價一錢是多少？', a: '2026年3月台灣黃金牌價約17,200～17,600元/台錢，每日浮動。建議來電確認當日報價：0986-821-626。' },
@@ -206,7 +206,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>立即詢問今日收購報價</h2>
+      <h2>立即詢問今日收購報價是多少？</h2>
       <p>黃金高價收購 全台最高收價。帶著你的金飾，當天就能換現金。</p>
       <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>LINE：@QPD888</p>

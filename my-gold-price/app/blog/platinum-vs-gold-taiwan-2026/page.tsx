@@ -105,7 +105,7 @@ export default function PlatinumVsGoldTaiwan2026Page() {
           這三者的回收價格差異極大。搞清楚你手上的是哪一種，再來談回收。
         </p>
 
-        <h2>白金 vs 黃金：2026年台灣行情比較</h2>
+        <h2>白金 vs 黃金和2026年台灣行情比較有什麼差別？</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#374151', color: '#fff' }}>
@@ -197,7 +197,7 @@ export default function PlatinumVsGoldTaiwan2026Page() {
           如何辨別？看刻印：「18K」「750」是白K金；「Pt950」「Pt900」是鉑金。
         </p>
 
-        <h2>鉑金飾品回收注意事項</h2>
+        <h2>鉑金飾品回收注意事項有哪些？</h2>
         <p>
           鉑金回收和黃金回收有幾點差異要注意：
         </p>

@@ -39,10 +39,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 繼承的黃金飾品可以直接回收，不需要原購買證明。攜帶身份證到店即可，依當日牌價×純度×重量計算回收價。
       </div>
 
-      <h2>結論：遺產黃金變現這樣做最安全</h2>
+      <h2>遺產黃金變現這樣做最安全嗎？</h2>
       <p>長輩離世後，家中往往留有黃金首飾、金條或金幣等遺產。如何妥善處理這些黃金，是許多家庭面臨的實際問題。本文帶您了解遺產黃金回收的完整流程與注意事項，讓您安心、安全地完成變現。</p>
 
-      <h2>遺產黃金的常見類型</h2>
+      <h2>遺產黃金的常見類型有哪些？</h2>
       <ul>
         <li><strong>金飾首飾</strong>：項鍊、戒指、手鐲、耳環等（了解各類型回收：<a href="/blog/gold-jewelry-recovery" style={{ color: '#B8860B' }}>黃金首飾回收</a>）</li>
         <li><strong>古早金飾</strong>：年代久遠的傳統款式，純度通常較高（詳見<a href="/blog/gold-antique" style={{ color: '#B8860B' }}>古早黃金回收</a>）</li>
@@ -51,7 +51,7 @@ export default function Page() {
         <li><strong>K金飾品</strong>：18K、14K等，需注意含金量計算（詳見<a href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收</a>）</li>
       </ul>
 
-      <h2>遺產黃金回收的準備工作</h2>
+      <h2>遺產黃金回收的準備工作有哪些？</h2>
       <ol>
         <li><strong>清點盤存</strong>：整理所有找到的黃金，列出清單，包含大致的重量估算</li>
         <li><strong>確認繼承關係</strong>：確認法律上的繼承人身份（如有爭議需先解決）</li>
@@ -60,7 +60,7 @@ export default function Page() {
         <li><strong>預約估價</strong>：聯繫巧品珠寶預約，攜帶本人身份證到店估價</li>
       </ol>
 
-      <h2>遺產黃金回收須知</h2>
+      <h2>遺產黃金回收須知怎麼做？</h2>
       <ul>
         <li><strong>合法繼承</strong>：確保黃金是合法繼承的遺產，有法律依據</li>
         <li><strong>身份確認</strong>：攜帶本人身份證正本進行實名制登記</li>
@@ -69,7 +69,7 @@ export default function Page() {
         <li><strong>當日現金</strong>：確認交易後立即現金付款</li>
       </ul>
 
-      <h2>遺產黃金的稅務問題</h2>
+      <h2>遺產黃金的稅務問題怎麼算？</h2>
       <p>繼承黃金涉及的稅務問題常讓人困惑：</p>
       <ul>
         <li><strong>遺產稅</strong>：黃金屬於遺產的一部分，若遺產總額超過免稅額（目前為1333萬），超過部分需依比例繳納遺產稅</li>
@@ -78,7 +78,7 @@ export default function Page() {
       </ul>
       <p>了解更多<a href="/blog/gold-tax" style={{ color: '#B8860B' }}>黃金交易稅務說明</a>。</p>
 
-      <h2>多位繼承人的處理方式</h2>
+      <h2>多位繼承人的處理方式有哪些？</h2>
       <p>當遺產由多人共同繼承時：</p>
       <ul>
         <li>事先協商分配方式，例如按比例分割或特定物品歸特定人</li>
@@ -103,7 +103,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 繼承的黃金要繳遺產稅嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 黃金屬於遺產的一部分，若遺產總額超過免稅額（1333萬），超過部分需繳遺產稅。</p>

@@ -158,7 +158,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           5個核心驅動力：為什麼黃金漲或跌
-        </h2>
+        有哪些？</h2>
 
         <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">1. 美元指數——最直接的反向指標</h3>
         <p className="text-gray-700 mb-4">
@@ -215,7 +215,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           5個驅動力快速對照表
-        </h2>
+        有哪些？</h2>
 
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse text-sm">
@@ -309,9 +309,9 @@ export default function Page() {
           <li><strong>gold-tw.com 即時金價</strong>——台灣銀樓報價換算</li>
         </ul>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
           常見問題
-        </h2>
+        ？</h2>
 
         <div className="space-y-6 mb-8">
           <div>

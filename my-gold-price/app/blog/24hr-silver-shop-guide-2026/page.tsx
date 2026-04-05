@@ -105,7 +105,7 @@ export default function Page() {
           深夜需要換現金、手上又有黃金飾品——你可能第一個念頭是「有沒有24小時銀樓？」直接說吧：台灣的銀樓，幾乎沒有24小時的。但有幾個替代方案可以考慮，以下一一說明。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">台灣銀樓的實際營業時間</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">台灣銀樓的實際營業時間是幾點？</h2>
         <p className="mb-4">
           台灣傳統銀樓的標準營業時間大概是這樣：
         </p>

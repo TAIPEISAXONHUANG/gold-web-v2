@@ -149,7 +149,7 @@ export default function Page() {
       <p>同樣重量但換成18K金（75%含金量）：</p>
       <p style={{ paddingLeft: '1rem' }}>5錢 × 17,000元 × 75% = <strong>63,750元</strong></p>
 
-      <h2>台灣黃金回收價2026年走勢</h2>
+      <h2>什麼是台灣黃金回收價2026年走勢？</h2>
       <p>2026年金價整體處於歷史高位，主要受以下因素影響：</p>
       <ul>
         <li><strong>美聯儲利率政策</strong>：降息預期支撐金價</li>
@@ -221,7 +221,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 立即查詢今日回收報價</h2>
+      <h2>立即查詢今日回收報價是多少？</h2>
       <p>台北大安區實體店面，10年經驗，不扣耗損，當場現金付款。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>

@@ -48,7 +48,7 @@ export default function Page() {
 
       <p>很多人手邊有黃金想變現，但從來沒賣過，不知道「黃金回收」到底是怎麼一回事。其實整個流程非常簡單，本文帶你從頭到尾走一遍，看完就懂！</p>
 
-      <h2>第一步：準備好要出售的黃金</h2>
+      <h2>第一步的準備好要出售的黃金是什麼？</h2>
       <p>先整理家中有哪些黃金可以出售，常見的品項包括：</p>
       <ul>
         <li>黃金戒指、項鍊、手鍊、手環</li>
@@ -59,7 +59,7 @@ export default function Page() {
       </ul>
       <p>只要是含金成分的物品，基本上都可以拿去詢問回收。</p>
 
-      <h2>第二步：帶好身份證件</h2>
+      <h2>第二步的帶好身份證件是什麼？</h2>
       <p>依法規定，黃金回收需核實身份。請攜帶：</p>
       <ul>
         <li><strong>身份證正本</strong>（必備）</li>
@@ -67,7 +67,7 @@ export default function Page() {
       </ul>
       <p>未攜帶身份證者，業者依規定無法受理交易，請務必備妥。</p>
 
-      <h2>第三步：前往回收店現場鑑定</h2>
+      <h2>第三步的前往回收店現場鑑定是什麼？</h2>
       <p>到達回收店後，工作人員會進行以下鑑定：</p>
       <ul>
         <li><strong>目視檢查</strong>：確認飾品外觀、印記（K數標示）</li>
@@ -76,7 +76,7 @@ export default function Page() {
       </ul>
       <p>整個鑑定過程通常只需 5～10 分鐘，全程公開透明。</p>
 
-      <h2>第四步：確認報價</h2>
+      <h2>第四步：確認報價是多少？</h2>
       <p>鑑定完成後，業者會根據：</p>
       <ul>
         <li>當日國際金價</li>
@@ -86,7 +86,7 @@ export default function Page() {
       <p>計算出報價，並告知您可以拿到的金額。</p>
       <p><strong>小提醒：</strong>您完全可以拒絕，不滿意報價不需要強迫出售。正派業者不會施加任何壓力。</p>
 
-      <h2>第五步：同意報價、當場結清</h2>
+      <h2>第五步：同意報價、當場結清是多少？</h2>
       <p>若您接受報價，業者通常會提供以下付款方式：</p>
       <ul>
         <li>現金（最常見）</li>
@@ -94,12 +94,12 @@ export default function Page() {
       </ul>
       <p>交易完成後，會開立收據或交易明細，整個流程到此結束！</p>
 
-      <h2>完整流程一覽</h2>
+      <h2>完整流程一覽是什麼？</h2>
       <p style={{ background: '#f5f5f5', padding: '1rem', borderRadius: '8px' }}>
         整理黃金 → 帶身份證 → 前往門市 → 現場鑑定秤重 → 確認報價 → 同意後當場收款
       </p>
 
-      <h2>常見問題 Q&A</h2>
+      <h2>什麼是常見問題 Q&A？</h2>
       <h3>Q：不知道純度可以賣嗎？</h3>
       <p>可以！帶去現場，業者會幫您鑑定純度，不需要事先知道。</p>
 
@@ -119,7 +119,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收要多久？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 整個流程約15分鐘：鑑定純度5分鐘、秤重報價5分鐘、確認付款5分鐘。</p>
@@ -145,7 +145,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>立即預約免費估價</h2>
+      <h2>什麼是立即預約免費估價？</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

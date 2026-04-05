@@ -95,7 +95,7 @@ export default function Page() {
           <li><strong>產地來源的鍾冶差異：</strong>不同產地的黃金原料純淨度有差</li>
         </ul>
 
-        <h2>各產地黃金的工藝特點</h2>
+        <h2>各產地黃金的工藝特點是什麼？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -152,7 +152,7 @@ export default function Page() {
           <li><strong>電鍍均与度（白K金）：</strong>好電鍍的銠層均与，無色差</li>
         </ol>
 
-        <h2>國際黃金品牌與本地品牌的差異</h2>
+        <h2>國際黃金品牌與本地品牌的差異？</h2>
         <p>
           <strong>國際精品品牌（卡地亞、蒂芙尼、周大福等）：</strong>
         </p>
@@ -176,7 +176,7 @@ export default function Page() {
           如果在乎配戴美觀和品牌，國際精品是選擇。但千萬不要把國際品牌的溢價當作投資價值。
         </p>
 
-        <h2>古法金工藝——越來越受歡迎的工藝</h2>
+        <h2>古法金工藝的越來越受歡迎的工藝是什麼？</h2>
         <p>
           古法金是近年非常受歡迎的工藝類型，
           特點是使用鏨刻、鏤空、花絲等傳統技術，

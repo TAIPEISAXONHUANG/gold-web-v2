@@ -113,7 +113,7 @@ export default function Page() {
         <strong>✅ 快速清單：</strong>身分證正本 + 黃金物品 → 到店 → 15分鐘拿現金
       </div>
 
-      <h2>一、賣黃金必帶清單</h2>
+      <h2>什麼是賣黃金必帶清單？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -151,7 +151,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>二、完整流程（全程約15分鐘）</h2>
+      <h2>完整流程（全程約15分鐘）是什麼？</h2>
       <ol style={{ lineHeight: '2.5' }}>
         <li><strong>Step 1｜到店驗證身分</strong>（1分鐘）：出示身分證正本，業者登記資料。</li>
         <li><strong>Step 2｜儀器測純度</strong>（3-5分鐘）：用XRF螢光分析儀或酸液測試，確認成色（9999/916/18K等）。</li>
@@ -160,7 +160,7 @@ export default function Page() {
         <li><strong>Step 5｜簽收拿錢</strong>（2分鐘）：確認無誤後簽收據，當場拿現金。</li>
       </ol>
 
-      <h2>三、現場3個必做的確認動作</h2>
+      <h2>現場3個必做的確認動作有哪些？</h2>
       <div style={{ background: '#fff3cd', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1rem 0' }}>
         <ol style={{ lineHeight: '2.2' }}>
           <li><strong>親眼看秤</strong>：確認秤上的數字，不要讓業者背對你操作。</li>
@@ -169,7 +169,7 @@ export default function Page() {
         </ol>
       </div>
 
-      <h2>四、2026年各純度黃金回收參考行情</h2>
+      <h2>2026年各純度黃金回收參考行情是多少？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -197,7 +197,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>台北黃金回收推薦・巧品珠寶</h2>
+      <h2>台北黃金回收推薦・巧品珠寶怎麼做？</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>

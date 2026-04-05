@@ -147,7 +147,7 @@ export default function Page() {
         </p>
 
         <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-5 mb-8">
-          <h2 className="text-lg font-bold text-gray-800 mb-3">快速換算口訣（記這個就夠）</h2>
+          <h2 className="text-lg font-bold text-gray-800 mb-3">快速換算口訣（記這個就夠）怎麼算？</h2>
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-white rounded p-3 text-center">
               <p className="text-sm text-gray-500">1 錢 =</p>
@@ -168,9 +168,9 @@ export default function Page() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
           台灣黃金重量單位：錢、兩、克、盎司
-        </h2>
+        ？</h2>
         <p className="text-gray-700 mb-4">
           台灣銀樓用的是傳統中國計重系統，核心單位是「錢」和「兩」。但這和中國大陸不同：
         </p>
@@ -184,7 +184,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           完整換算對照表
-        </h2>
+        怎麼算？</h2>
 
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse text-sm">
@@ -239,7 +239,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           2026年黃金行情 × 重量計算對照
-        </h2>
+        怎麼算？</h2>
         <p className="text-gray-700 mb-4">
           以 2026 年 4 月初市場參考行情（足金 9999，每錢約 NT$12,800）計算：
         </p>
@@ -302,7 +302,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           換算公式：自己算黃金值多少錢
-        </h2>
+        怎麼算？</h2>
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
           <h3 className="font-bold text-gray-800 mb-4">公克換算台幣（足金 9999）</h3>
           <div className="space-y-3 font-mono text-sm">
@@ -355,9 +355,9 @@ export default function Page() {
           香港也是類似情況，用「一兩」（但香港的一兩 = 37.429 公克，和台灣的 37.5 公克略有差異）。如果你在不同地區買賣黃金，最好確認當地標準。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
           常見問題
-        </h2>
+        ？</h2>
 
         <div className="space-y-6 mb-8">
           <div>

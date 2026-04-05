@@ -105,7 +105,7 @@ export default function Page() {
           如果你在台灣賣黃金，報價說的「一兩」都是指 37.5 克。
         </p>
 
-        <h2>台灣黃金重量換算表</h2>
+        <h2>台灣黃金重量換算表怎麼算？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -161,7 +161,7 @@ export default function Page() {
           漲幅超過 40%。
         </p>
 
-        <h2>賣一兩黃金前，三件事要先確認</h2>
+        <h2>什麼是賣一兩黃金前，三件事要先確認？</h2>
         <p>
           <strong>第一：確認純度。</strong>
           一兩黃金如果是 9999，報價最高。
@@ -179,7 +179,7 @@ export default function Page() {
           和一錢報 18,000 元是同一件事，確認清楚再比較。
         </p>
 
-        <h2>巧品的做法</h2>
+        <h2>什麼是巧品的做法？</h2>
         <p>
           不管你帶來的是一錢還是一兩，巧品珠寶的流程都一樣：
           現場秤重讓你盯著看、XRF 儀器現場驗成色、

@@ -59,7 +59,7 @@ export default function Page() {
 
       <p>數字不大，但方法論是一樣的。不論你有幾毫克、幾克、幾兩，同樣的公式通用。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金重量換算總表</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金重量換算總表怎麼算？</h2>
       <p>先把單位搞清楚，台灣用「錢兩」，國際用「克盎司」，不同場合會看到不同單位。</p>
 
       <div style={{ overflowX: 'auto', marginBottom: '24px' }}>
@@ -141,7 +141,7 @@ export default function Page() {
       </ol>
       <p>巧品珠寶的做法是：當場秤重、當場報克價，不扣火耗，也不說「要等一下評估」。你帶來，我報數，不中意可以走。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金回收常見問題</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金回收常見問題怎麼做？</h2>
       <p>很多人第一次賣黃金都有這幾個疑問，直接回答：</p>
 
       <div style={{ borderLeft: '3px solid #b8860b', paddingLeft: '16px', marginBottom: '16px' }}>

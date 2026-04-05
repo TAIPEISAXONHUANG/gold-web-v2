@@ -93,7 +93,7 @@ export default function KGoldRecyclePriceApril2026Page() {
           <br />不扣火耗，秤重公開。即時報價：<strong>0986-821-626</strong>
         </div>
 
-        <h2>K金回收價格計算公式</h2>
+        <h2>K金回收價格計算公式怎麼算？</h2>
         <p>
           K金回收的邏輯只有一條主線：含金量決定一切。
         </p>
@@ -117,7 +117,7 @@ export default function KGoldRecyclePriceApril2026Page() {
           <br />10K 2錢：17,500 × 0.417 × 2 = <strong>14,595元</strong>
         </div>
 
-        <h2>2026年4月K金回收價格對照表</h2>
+        <h2>2026年4月K金回收價格對照表是多少？</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#92400e', color: '#fff' }}>
@@ -196,7 +196,7 @@ export default function KGoldRecyclePriceApril2026Page() {
           藉此壓低報價。防範方法：要求現場XRF驗成色，3秒出結果，有數據就不怕被坑。
         </p>
 
-        <h2>K金回收流程——巧品珠寶</h2>
+        <h2>K金回收流程的流程是什麼？</h2>
         <p>
           整個流程不到15分鐘：
         </p>
@@ -229,7 +229,7 @@ export default function KGoldRecyclePriceApril2026Page() {
           <li>無任何刻印的飾品——建議先驗成色再決定</li>
         </ul>
 
-        <h2>K金與純金回收的取捨</h2>
+        <h2>K金與純金回收的取捨怎麼做？</h2>
         <p>
           純金（9999）的回收最直接，因為含金量接近100%，不需要複雜計算。
           K金的回收稍微複雜一點，但邏輯完全相同，只是含金量比例不同。

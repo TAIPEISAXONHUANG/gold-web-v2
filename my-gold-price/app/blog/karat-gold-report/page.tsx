@@ -52,7 +52,7 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>2026年K金回收行情總覽</h2>
+      <h2>2026年K金回收行情總覽是多少？</h2>
       <p>隨著<a href="/blog/gold-price-2026" style={{color:'#B8860B'}}>2026年國際金價持續走高</a>，K金回收價格也水漲船高。以2026年第一季純金牌價約每錢9,200元為基準，18K金每錢回收價約6,900元，14K金約5,364元，10K金約3,834元。實際價格每日隨國際金價浮動，建議出售前先查詢當日牌價。本文將完整揭露K金回收的計價方式、行情走勢與注意事項，讓你清楚掌握手中K金飾品的實際價值。</p>
 
       <h2>什麼是K金？純度與分類說明</h2>
@@ -64,11 +64,11 @@ export default function Page() {
         <li><strong>10K</strong> = 41.7{'%'} 黃金 + 58.3{'%'} 其他金屬</li>
       </ul>
 
-      <h2>K金回收計算方式與實例</h2>
+      <h2>K金回收計算方式與實例怎麼算？</h2>
       <p><strong>回收價格 = 當日純金牌價 × 重量 × K金純度比例</strong></p>
       <p>例如：18K金飾5錢，當日牌價每錢9,200元，回收價格約為 9,200 × 5 × 75{'%'} = 34,500元。若為14K金飾5錢，則為 9,200 × 5 × 58.3{'%'} = 26,818元。實際計價時，店家會先使用XRF螢光分析儀精確測出含金比例，再依檢測結果計算，因此即使同為18K，實際含金量可能在74-76{'%'}間浮動。想了解更多<a href="/blog/gold-recycling-price-factors" style={{color:'#B8860B'}}>影響回收價格的因素</a>，可點擊參考。</p>
 
-      <h2>📊 K金純度對照表</h2>
+      <h2>K金純度對照表怎麼看？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -87,7 +87,7 @@ export default function Page() {
       </table>
       <p style={{fontSize:'0.9rem', color:'#666'}}>※ 以上價格以2026年Q1純金牌價約9,200元/錢為基準，實際價格每日浮動。</p>
 
-      <h2>K金回收流程與XRF鑑定說明</h2>
+      <h2>K金回收流程與XRF鑑定說明是什麼？</h2>
       <p>正規的K金回收流程包含以下步驟：首先，店家會使用精密電子秤當面秤重，確認金飾總重量。接著，使用XRF（X光螢光分析）儀器進行非破壞性檢測，精確測出金、銀、銅、鈀等各金屬成分的百分比。檢測報告會清楚標示含金比例，作為計價依據。最後依照「牌價 × 重量 × 含金比例」公式計算回收金額，現場確認後立即付款。全程公開透明，客戶可全程觀看。想了解更多鑑定知識，請參考<a href="/blog/gold-identification" style={{color:'#B8860B'}}>黃金鑑定方法完整解析</a>。</p>
 
       <h2>為什麼選擇巧品珠寶？</h2>
@@ -100,7 +100,7 @@ export default function Page() {
       </ul>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金跟純金差在哪？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: K金是黃金與其他金屬的合金，硬度較高，適合製作精細珠寶首飾；純金（24K）純度99.9{'%'}，質地較軟但保值性最高。K金回收價格依含金比例計算，例如18K為純金價的75{'%'}。</p>
@@ -143,7 +143,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>📞 聯繫我們</h2>
+      <h2>什麼是聯繫我們？</h2>
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>
