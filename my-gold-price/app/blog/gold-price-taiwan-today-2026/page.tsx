@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     title: '今日黃金價格台灣2026｜一錢、一兩、一克即時行情查詢',
     description: '查詢2026年台灣今日黃金價格，包含一錢、一兩、一克實時報價，銀樓收購與賣出差價說明，以及影響金價的關鍵因素分析。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/gold-price-taiwan-today-2026',
   },
 }
 

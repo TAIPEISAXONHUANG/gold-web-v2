@@ -127,7 +127,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
-      <p>📍 地址：台北市信義區</p>
+      <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/" target="_blank" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
     </main>
   );

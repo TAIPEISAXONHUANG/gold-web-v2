@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: '白金回收價格2026｜白金vs黃金哪個值錢？台灣即時行情',
     description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/platinum-price-vs-gold-2026',
   },
 }
 

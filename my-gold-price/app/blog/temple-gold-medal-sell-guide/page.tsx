@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: '神明金牌可以賣嗎？2026最完整解答｜回收流程、價格與注意事項',
     description: '神明金牌、神像金牌、廟裡換下來的金牌可以賣嗎？答案是可以，但有幾個細節要先確認。本文說清楚神明金牌的回收流程、2026年行情，以及哪些情況不能賣。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/temple-gold-medal-sell-guide',
   },
 }
 

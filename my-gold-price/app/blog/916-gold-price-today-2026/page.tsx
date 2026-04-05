@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: '916黃金今日金價2026｜含金量91.6%的K金行情與回收價一次看清楚',
     description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/916-gold-price-today-2026',
   },
 }
 

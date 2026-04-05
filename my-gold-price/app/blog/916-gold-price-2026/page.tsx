@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     title: '916黃金是什麼？純度、價格與收購行情完整說明2026',
     description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/916-gold-price-2026',
   },
 }
 

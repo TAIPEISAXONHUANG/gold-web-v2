@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: '14K金回收價格2026｜當日行情、計算公式與避坑指南',
     description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。',
     siteName: '巧品珠寶',
+    url: 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026',
   },
 }
 
