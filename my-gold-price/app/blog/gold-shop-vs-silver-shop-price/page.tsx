@@ -60,7 +60,7 @@ export default function Page() {
         <strong>📌 結論：</strong> 銀樓與黃金回收店最大的差異在於<strong>扣耗標準</strong>與<strong>專業信任度</strong>。老字號銀樓多數不扣耗，回收店則可能扣3-10%。本文提供完整比較表，幫您做出最佳選擇。
       </div>
 
-      <h2>黃金回收管道比較表怎麼看？</h2>
+      <h2>📊 黃金回收管道比較表</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0', fontSize:'0.95rem'}}>
         <thead>
           <tr style={{background:'#6366f1', color:'white'}}>
@@ -122,7 +122,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>老字號銀樓的優勢是什麼？</h2>
+      <h2>🏪 老字號銀樓有哪些優勢？</h2>
       <ul>
         <li><strong>價格透明</strong> - 通常依據國際金價公開報價</li>
         <li><strong>扣耗較少</strong> - 許多老字號銀樓主打「不扣耗」</li>
@@ -132,7 +132,7 @@ export default function Page() {
         <li><strong>售後服務</strong> - 如果後悔還可再回去詢問</li>
       </ul>
 
-      <h2>黃金回收店的風險有哪些？</h2>
+      <h2>⚠️ 黃金回收店的風險</h2>
       <ul>
         <li><strong>素質參差不齊</strong> - 好的壞的都有，難以判斷</li>
         <li><strong>扣耗較高</strong> - 許多店家會扣5-10%耗損</li>
@@ -141,7 +141,7 @@ export default function Page() {
         <li><strong>流動性高</strong> - 可能過一段時間就找不到人</li>
       </ul>
 
-      <h2>哪些路邊攤要絕對避免？</h2>
+      <h2>❌ 絕對避免的路邊攤</h2>
       <ul>
         <li><strong>價格最低</strong> - 通常低於市價許多</li>
         <li><strong>風險最高</strong> - 可能收到贓物或假黃金</li>
@@ -150,7 +150,7 @@ export default function Page() {
         <li><strong>人身安全</strong> - 攜帶大量現金交易有風險</li>
       </ul>
 
-      <h2>選擇建議有哪些？</h2>
+      <h2>💡 選擇有哪些建議？</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#f59e0b', color:'white'}}>
@@ -182,7 +182,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>實際價格差異怎麼算？</h2>
+      <h2>📈 實際價格差異怎麼算？</h2>
       <p>假設您有1兩（10錢）純金要出售，當日回收行情為每錢$10,000：</p>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
@@ -227,7 +227,7 @@ export default function Page() {
       </table>
       <p style={{fontSize:'0.85rem', color:'#666'}}>* 試算僅供參考，實際價格會根據當日國際金價有所變動</p>
 
-      <h2>常見問題 FAQ</h2>
+      <h2>❓ 常見問題 FAQ</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 黃金回收店和銀樓哪個比較好？</summary>
@@ -247,7 +247,7 @@ export default function Page() {
         </details>
       </div>
 
-      <h2>延伸閱讀</h2>
+      <h2>📚 延伸閱讀</h2>
       <ul>
         <li><a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
         <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收完整指南</a></li>

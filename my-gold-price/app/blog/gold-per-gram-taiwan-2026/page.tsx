@@ -105,7 +105,7 @@ export default function Page() {
           好處是：銀樓從業人員和資深消費者已經習慣用「錢」來快速溝通。
         </p>
 
-        <h2>每錢和每公克的換算公式怎麼算？</h2>
+        <h2>每錢和每公克怎麼換算？</h2>
         <div style={{ background: '#f0fdf4', border: '1px solid #86efac', padding: '16px', borderRadius: '8px', margin: '1rem 0' }}>
           <strong>基本換算（固定值）：</strong>
           <br />1 錢 = 3.75 公克
@@ -116,7 +116,7 @@ export default function Page() {
           <br />每錢價格 = 每公克價格 × 3.75
         </div>
 
-        <h3>實用換算表</h3>
+        <h3>實用怎麼換算？</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#f5f0e8' }}>
@@ -154,7 +154,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>2026年台灣黃金每公克價格行情是多少？</h2>
+        <h2>2026年台灣黃金每公克行情是多少？</h2>
         <p>以2026年3月底行情，9999純金每錢 17,500–18,000元為基準：</p>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
@@ -203,7 +203,7 @@ export default function Page() {
           ※ 參考價以2026年3月底行情估算。實際報價請致電：0986-821-626
         </p>
 
-        <h2>線上試算的錢與公克的簡單計算是什麼？</h2>
+        <h2>線上試算：錢與公克的簡單怎麼算？</h2>
         <p>以下為常見試算情境（以9999純金17,500元/錢為例）：</p>
         <ul>
           <li><strong>5錢 = 18.75公克：</strong>5 × 17,500 = 87,500元，87,500 ÷ 18.75 = 每公克約4,667元</li>

@@ -91,7 +91,7 @@ export default function Page() {
           <strong>重點摘要：</strong> 傳統銀樓假日大多照常開，但春節例外。黃金回收店依店而異——想賣金前，打一通電話確認最快，免得白跑。
         </div>
 
-        <h2>銀樓假日有沒有開？先分清楚類型</h2>
+        <h2>銀樓假日有沒有開？先分清楚有哪些種類？</h2>
         <p>
           「銀樓」這個詞在台灣涵蓋三種截然不同的業態，營業規則差很多：
         </p>
@@ -104,7 +104,7 @@ export default function Page() {
           結論：假日想去賣黃金，傳統銀樓和黃金回收店成功率高——但春節是例外，那是全台灣唯一幾乎全面停業的時間。
         </p>
 
-        <h2>各類型假日營業時間對照表是幾點？</h2>
+        <h2>各類型假日營業時間是怎樣的？</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#f5f0e8' }}>
@@ -136,7 +136,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>春節賣黃金的全年最難的時間點是什麼？</h2>
+        <h2>春節賣黃金有哪些注意事項？</h2>
         <p>
           春節（農曆除夕至初五）是唯一讓全台銀樓大規模停業的時段。為什麼？
         </p>

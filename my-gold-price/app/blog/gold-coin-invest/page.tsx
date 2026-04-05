@@ -65,10 +65,10 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>實體黃金是最穩健的避險投資嗎？</h2>
+      <h2>結論：實體黃金是最穩健的避險投資</h2>
       <p>在全球通膨壓力持續、地緣政治風險升高、各國央行大量增持黃金儲備的背景下，實體黃金一直是最受信賴的避險資產。根據世界黃金協會數據，過去 20 年國際金價漲幅超過 500{'%'}，遠優於多數傳統投資工具。本文將帶您深入了解黃金投資的各種方式、比較金幣與金條的優缺點，並提供實用的投資建議與注意事項，幫助您做出最適合自己的<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>黃金投資決策</a>。</p>
 
-      <h2>黃金投資方式有哪些？怎麼比較？</h2>
+      <h2>黃金投資方式怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
         <thead>
           <tr style={{ background: '#fef3c7' }}>
@@ -85,13 +85,13 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>熱門投資型金幣介紹是什麼？</h2>
+      <h2>熱門投資型金幣有哪些？</h2>
       <p>投資型金幣是全球公認的貴金屬投資標的，由各國政府鑄造發行，純度與重量均有保障。以下是台灣市場最常見的投資型金幣：加拿大楓葉金幣（純度 9999，全球銷量第一）、澳洲袋鼠金幣（純度 9999，每年更換圖案）、奧地利維也納愛樂金幣（純度 9999，歐洲最受歡迎）、美國鷹揚金幣（純度 9167，含銅合金較耐磨）。這些金幣的共同特點是流通性極高，全球銀樓與貴金屬經銷商均可回收，<a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>回收價格</a>接近國際金價，買賣價差小，是最理想的實體黃金投資選擇。</p>
 
       <h2>金幣 vs 金條：如何選擇？</h2>
       <p>金幣與金條各有適合的投資情境。金條適合大額投資者，常見規格有 100 公克、250 公克、1 公斤等，單位溢價（高於國際金價的部分）較低，通常僅 1-3{'%'}。金幣則適合小額分批買入，常見規格為 1 盎司（約 31.1 公克）、1/2 盎司、1/4 盎司等，單位溢價約 3-8{'%'}，但部分限量金幣可能因收藏價值而產生額外溢價。若您的投資預算在 10 萬元以內，建議從 1 盎司金幣開始；若預算較高，可搭配<a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>金條</a>組合配置，兼顧流動性與成本效益。</p>
 
-      <h2>實體黃金投資建議有哪些？</h2>
+      <h2>實體黃金投資有哪些建議？</h2>
       <ul>
         <li>選擇 9999 純金商品（<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>純度最高</a>，最易變現，回收價最好）</li>
         <li>保留購買憑證（發票、保證書、鑑定書），未來回收時可加快流程</li>
@@ -101,11 +101,11 @@ export default function Page() {
         <li>使用銀行保險箱或家用保險箱妥善保管，注意防盜與防火</li>
       </ul>
 
-      <h2>黃金投資常見迷思有哪些？</h2>
+      <h2>黃金投資有哪些常見迷思？</h2>
       <p>許多新手投資者對黃金存在誤解。第一，「金價只漲不跌」是錯的，黃金短期也會波動，2013 年金價就曾大跌超過 25{'%'}，但長期趨勢向上。第二，「買金飾等於黃金投資」也不完全正確，金飾含有加工費（工錢），回收時只計算含金量，等於買進成本較高；純投資建議選擇金條或投資型金幣。第三，「黃金不會產生利息所以不值得投資」忽略了黃金的避險功能，在股市崩盤、貨幣貶值時，黃金往往逆勢上漲，是資產組合中重要的穩定器。想了解更多黃金與其他貴金屬的差異，可參考<a href="/blog/gold-vs-k-gold-difference" style={{ color: '#B8860B' }}>黃金與 K 金的差別</a>。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 現在是買黃金的好時機嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 黃金長期具有抗通膨與避險功能，過去 20 年金價漲幅超過 500{'%'}。分批購入是穩健策略，可降低買在高點的風險。建議將黃金配置在總資產的 5-15{'%'}。</p>

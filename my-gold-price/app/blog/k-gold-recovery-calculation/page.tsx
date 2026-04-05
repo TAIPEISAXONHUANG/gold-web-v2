@@ -91,7 +91,7 @@ export default function Page() {
           <strong>直接給答案：</strong> K金回收價 = <strong>當日9999純金每錢報價 × 含金量%</strong>。2026年3月底行情：18K約 <strong>13,100–13,500 元/錢</strong>、14K約 <strong>10,200–10,500 元/錢</strong>、10K約 <strong>7,200–7,500 元/錢</strong>。本文提供完整試算教學，幫你在進店前心裡有數。
         </div>
 
-        <h2>K金回收計算公式的三分鐘學會是什麼？</h2>
+        <h2>K金回收公式怎麼算？</h2>
         <p>
           K金回收價格的底層邏輯非常簡單：
         </p>
@@ -109,7 +109,7 @@ export default function Page() {
           不會因為「比較硬」或「款式比較好」而多給或少給。
         </p>
 
-        <h2>K金回收試算——各K數行情表是多少？</h2>
+        <h2>各K數K金回收行情是多少？</h2>
         <p>以2026年3月底9999純金回收行情 17,500–18,000 元/錢為基準：</p>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
@@ -170,7 +170,7 @@ export default function Page() {
           ※ 參考價以2026年3月底行情估算，正確報價請致電：0986-821-626
         </p>
 
-        <h2>實際試算範例的一步一步帶你算是什麼？</h2>
+        <h2>實際試算範例怎麼看？</h2>
         <p>
           <strong>情境：</strong>你有一條18K金項鍊，秤起來2.5錢，想知道可以賣多少錢。
         </p>
@@ -210,7 +210,7 @@ export default function Page() {
           <li><strong>比重法：</strong>傳統珠寶界用金屬比重來測量，需要精密天平和蒸餾水，步驟繁瑣，適合專業人士。</li>
         </ul>
 
-        <h2>影響K金回收價格的三個變數是多少？</h2>
+        <h2>哪些因素影響K金回收價格？</h2>
         <p>
           <strong>變數一：當日9999純金牌價</strong>
           <br />

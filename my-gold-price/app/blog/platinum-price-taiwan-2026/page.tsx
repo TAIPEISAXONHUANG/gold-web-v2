@@ -155,7 +155,7 @@ export default function Page() {
           不確定的話，直接帶去銀樓或珠寶商鑑定。5分鐘就能告訴你答案，不收鑑定費。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">2026年台灣白金（鉑金）收購參考行情是多少？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">2026年台灣白金（鉑金）收購行情是多少？</h2>
         <p className="mb-4">
           鉑金目前（2026年4月）價格遠低於黃金。以下為參考數據，實際以當日銀樓報價為準。
         </p>
@@ -231,7 +231,7 @@ export default function Page() {
           結論：2026年賣鉑金的「獲利感」遠不如賣黃金。但手上有鉑金飾品不戴的話，放著也不會升值，不如換現金。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">鉑金飾品回收流程是什麼？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">鉑金飾品回收的流程是什麼？</h2>
         <p className="mb-4">
           跟黃金回收差不多，但有幾點需要注意：
         </p>

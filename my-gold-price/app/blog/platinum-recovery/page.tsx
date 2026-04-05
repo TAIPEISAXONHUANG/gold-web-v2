@@ -39,7 +39,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 白金（鉑金）回收價依國際鉑金價×純度×重量計算。Pt950純度95%、Pt900純度90%。目前鉑金回收價約為黃金的一半，但仍有相當價值。
       </div>
 
-      <h2>白金回收選對管道很重要嗎？</h2>
+      <h2>結論：白金回收選對管道很重要</h2>
       <p>白金（鉑金，英文Platinum）是稀有的貴金屬，比黃金更稀少，歷史上曾一度比黃金更昂貴。目前國際市場上鉑金價格約為黃金的50-70%，但仍有相當的回收價值。如果你手中有白金飾品，選擇專業可靠的回收商非常重要。許多人容易混淆白金與K白金，了解兩者差異對於正確估價至關重要。</p>
 
       <h2>白金（鉑金）vs K白金：你手上的是哪一種？</h2>
@@ -51,7 +51,7 @@ export default function Page() {
       </ul>
       <p>這三者的回收價值差異很大，請攜帶至店面由專業儀器鑑定確認。了解更多<a href="/blog/gold-vs-platinum" style={{ color: '#B8860B' }}>黃金與白金的差異</a>。</p>
 
-      <h2>白金首飾的純度標示怎麼看？</h2>
+      <h2>白金首飾的純度標示是什麼意思？</h2>
       <ul>
         <li><strong>Pt999（純鉑）</strong>：含鉑金99.9%，最高純度，較少見</li>
         <li><strong>Pt950</strong>：含鉑金95%，最常見的珠寶用鉑金，硬度適中</li>
@@ -59,7 +59,7 @@ export default function Page() {
         <li><strong>Pt850</strong>：含鉑金85%，較少見</li>
       </ul>
 
-      <h2>白金回收價格計算方式怎麼算？</h2>
+      <h2>白金回收價格怎麼算？</h2>
       <p>白金回收價格計算公式：</p>
       <p style={{background:'#f5f5f5', padding:'1rem', borderRadius:'8px', fontFamily:'monospace'}}>
         回收價 = 鉑金重量（克）× 鉑金純度 × 當日鉑金國際價格（元/克）× 回收折扣率
@@ -69,7 +69,7 @@ export default function Page() {
         5克 × 95% × 200元/克 = 950元
       </p>
 
-      <h2>白金首飾的常見種類有哪些？</h2>
+      <h2>白金首飾有哪些常見種類？</h2>
       <ul>
         <li><strong>白金婚戒</strong>：最常見的白金飾品，Pt950最為普遍</li>
         <li><strong>白金項鍊</strong>：純白色光澤，高貴典雅</li>
@@ -77,7 +77,7 @@ export default function Page() {
         <li><strong>白金手鍊</strong>：現代設計感強，年輕族群喜愛</li>
       </ul>
 
-      <h2>白金回收注意事項有哪些？</h2>
+      <h2>白金回收有哪些注意事項？</h2>
       <ul>
         <li>確認印記是「Pt」還是「K」，兩者差異很大</li>
         <li>白金比黃金更重（密度：鉑21.4 g/cm³ vs 金19.3 g/cm³），重量相似的飾品白金含貴金屬量更多</li>
@@ -85,7 +85,7 @@ export default function Page() {
         <li>查看<a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: '#B8860B' }}>黃金、K金、白金的比較</a>，更了解不同貴金屬的特性</li>
       </ul>
 
-      <h2>我們的服務是什麼？</h2>
+      <h2>我們的服務</h2>
       <ul>
         <li><strong>現場秤重</strong>：當面公開秤重，您親眼確認數字</li>
         <li><strong>專業儀器檢測</strong>：使用XRF螢光分析儀確認純度</li>
@@ -100,7 +100,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 白金和K白金一樣嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不一樣。白金=鉑金（Pt），K白金=白色K金（含黃金+其他金屬）。兩者成分和價格完全不同。</p>

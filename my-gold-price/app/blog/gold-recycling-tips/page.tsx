@@ -63,10 +63,10 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>記住這幾點，賣黃金不吃虧嗎？</h2>
+      <h2>結論：記住這幾點，賣黃金不吃虧</h2>
       <p>黃金回收市場上存在許多資訊不對等的情況，部分不肖業者利用消費者不熟悉行情，以各種話術壓低回收價格。根據消費者保護協會統計，每年黃金回收相關的消費糾紛超過數百件，其中最常見的就是「秤重不實」與「不當扣損」。本文將為您完整解析常見的<a href="/blog/gold-scale-trap" style={{ color: '#B8860B' }}>回收陷阱</a>，並提供實用的自保方法，讓您每次賣黃金都能拿到合理的好價格。</p>
 
-      <h2>黃金回收常見話術與陷阱有哪些？</h2>
+      <h2>黃金回收有哪些常見話術與陷阱？</h2>
       <p>在台灣黃金回收市場中，以下幾種話術最為常見，了解這些手法就能有效避免被坑：</p>
       <ul>
         <li><strong>「要扣耗損費」</strong>：正規店家回收黃金不會收取任何耗損費用。所謂耗損是不肖業者的藉口，實際熔煉過程的損耗極低，約僅 0.1{'%'} 左右，不應由消費者承擔。</li>
@@ -75,13 +75,13 @@ export default function Page() {
         <li><strong>「你的黃金純度不夠」</strong>：正規店家會使用 XRF 光譜儀等專業設備檢測純度，而非目測或簡單的試金石檢測。檢測結果應當場告知並出示。</li>
       </ul>
 
-      <h2>賣黃金前的準備工作有哪些？</h2>
+      <h2>賣黃金前要做哪些準備工作？</h2>
       <p>想要賣黃金拿到好價格，事前準備非常重要。首先，上網查詢當日<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>國際金價</a>與台灣銀樓公會牌價，這是您的比價基準。其次，若有購買時的發票、保證書或鑑定書，務必攜帶，這些文件能證明黃金的純度與來源，有助於取得更好的回收價。第三，建議自行量測重量做為參考。最後，多比較 2-3 間店家的報價，選擇報價最高且流程透明的店家進行交易。掌握這些<a href="/blog/sell-gold-tips" style={{ color: '#B8860B' }}>賣黃金技巧</a>，就能大幅降低被坑的風險。</p>
 
-      <h2>如何判斷回收店家是否可靠怎麼做？</h2>
+      <h2>如何判斷回收店家是否可靠</h2>
       <p>選擇回收店家是最關鍵的一步。可靠的店家通常具備以下特徵：擁有實體店面且營業多年、有合法商業登記、回收價格公開透明（最好有即時牌價看板）、使用經檢驗合格的電子秤、提供正式交易收據。此外，您可以查看 Google 評論與網路口碑，了解其他消費者的實際經驗。若店家主動說明回收流程、不催促交易、允許您比價後再決定，這些都是值得信賴的正面指標。想了解更多選店技巧，可參考<a href="/blog/how-to-choose-gold-shop" style={{ color: '#B8860B' }}>如何選擇可靠的黃金回收店</a>。</p>
 
-      <h2>自保方法清單有哪些？</h2>
+      <h2>自保有哪些方法？</h2>
       <ul>
         <li>先查當日金價，掌握行情基準</li>
         <li>選擇有信譽的實體店家，避免網路不明管道</li>
@@ -92,7 +92,7 @@ export default function Page() {
       </ul>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金可以議價嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家以當日牌價計算，通常不議價。但大量交易（10兩以上）部分店家可能給優惠價。建議直接詢問店家是否有大量回收優惠。</p>

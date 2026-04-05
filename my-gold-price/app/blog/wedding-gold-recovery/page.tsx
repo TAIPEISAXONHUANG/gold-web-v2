@@ -39,10 +39,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 婚嫁金飾回收完全可以！結婚金項鍊、金手鍊、金戒指等都依純度重量計價。款式或刻字不影響回收價格。
       </div>
 
-      <h2>結婚金飾變現這樣做最划算嗎？</h2>
+      <h2>結論：結婚金飾變現這樣做最划算</h2>
       <p>結婚時購買的金飾除了具有紀念價值外，若有變現需求，透過正確管道可獲得最優價格。台灣的婚嫁傳統中，金飾不僅是愛的象徵，更是實際的財富儲存。了解<a href="/blog/gold-tradition" style={{ color: '#B8860B' }}>台灣黃金婚嫁傳統</a>，有助於更了解手中金飾的文化價值。</p>
 
-      <h2>結婚金飾的種類與回收說明有哪些？</h2>
+      <h2>結婚金飾有哪些種類？</h2>
       <p>台灣婚嫁場合常見的黃金首飾，大多可以高價回收：</p>
       <ul>
         <li><strong>四金（金項鍊、金手鍊、金戒指、金耳環）</strong>：訂婚必備，通常為9999純金，回收價值最高（各類詳情：<a href="/blog/gold-necklace-recovery" style={{ color: '#B8860B' }}>金項鍊</a>、<a href="/blog/gold-bracelet-recovery" style={{ color: '#B8860B' }}>金手鍊</a>、<a href="/blog/gold-ring-recovery" style={{ color: '#B8860B' }}>金戒指</a>、<a href="/blog/gold-earring-recovery" style={{ color: '#B8860B' }}>金耳環</a>）</li>
@@ -62,7 +62,7 @@ export default function Page() {
       <p>計算公式：回收金額 = 純金重量（克）× 當日回收金價（元/克）</p>
       <p>想了解今天的回收價，可參考<a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價</a>。</p>
 
-      <h2>婚嫁金飾回收的常見情況怎麼做？</h2>
+      <h2>婚嫁金飾回收有哪些常見情況？</h2>
       <ul>
         <li><strong>結婚多年後不再佩戴</strong>：款式老舊或個人喜好改變，金飾閒置在抽屜，此時變現是合理選擇</li>
         <li><strong>離婚後處理金飾</strong>：婚戒或嫁妝金飾需要處理，回收是快速變現的好方式</li>
@@ -71,7 +71,7 @@ export default function Page() {
         <li><strong>長輩傳下的嫁妝</strong>：了解<a href="/blog/inheritance-gold" style={{ color: '#B8860B' }}>遺產黃金回收</a>的注意事項</li>
       </ul>
 
-      <h2>婚嫁金飾回收常見疑慮解答怎麼做？</h2>
+      <h2>婚嫁金飾回收有哪些常見疑慮？</h2>
 
       <h3>婚戒（刻有名字的）可以回收嗎？</h3>
       <p>完全可以。婚戒上的刻字不影響重量計算，也不影響回收價格。黃金回收只看純度和重量，不看款式或刻字。詳見<a href="/blog/broken-gold-recovery" style={{ color: '#B8860B' }}>損壞或刻字金飾回收說明</a>。</p>
@@ -82,7 +82,7 @@ export default function Page() {
       <h3>長輩不同意我賣婚嫁金飾怎麼辦？</h3>
       <p>這是個人的財產決定，最終由持有人自行決定。如果金飾登記在您名下，您有完全的自主權。建議在家庭中先好好溝通，取得共識。</p>
 
-      <h2>結婚金飾變現優點是什麼？</h2>
+      <h2>結婚金飾變現有哪些優點？</h2>
       <ul>
         <li><strong>現場秤重公開透明</strong>：您在旁親眼看見數字</li>
         <li><strong>專業儀器檢測</strong>：XRF確認純度，準確無誤</li>
@@ -91,7 +91,7 @@ export default function Page() {
         <li><strong>免費估價</strong>：不賣也沒關係，先了解行情</li>
       </ul>
 
-      <h2>賣前注意事項有哪些？</h2>
+      <h2>賣前有哪些注意事項？</h2>
       <ol>
         <li>攜帶身份證正本（政府規定實名制）</li>
         <li>查詢<a href="/today-gold-price" style={{ color: '#B8860B' }}>今日回收金價</a>了解行情</li>
@@ -108,7 +108,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 結婚金飾可以回收嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。結婚金項鍊、手鍊、戒指等都能回收，依純度和重量計價，款式和刻字不影響價格。</p>

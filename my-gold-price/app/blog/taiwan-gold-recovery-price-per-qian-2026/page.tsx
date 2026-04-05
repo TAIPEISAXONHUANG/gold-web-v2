@@ -128,7 +128,7 @@ export default function Page() {
 
       <p style={{ fontSize: '0.85rem', color: '#666' }}>※ 以上為估算區間，實際報價依當日國際金價而定。建議來電確認當日即時牌價。</p>
 
-      <h2>一錢是多少克？台灣黃金計量單位完整說明</h2>
+      <h2>一錢是多少克？台灣黃金計量單位是什麼？</h2>
       <p>台灣買賣黃金最常用「錢」和「兩」：</p>
       <ul>
         <li><strong>1錢 = 3.75克</strong></li>
@@ -137,7 +137,7 @@ export default function Page() {
       </ul>
       <p>你若有一條18克的黃金項鍊，換算成「錢」= 18 ÷ 3.75 = <strong>4.8錢</strong>。</p>
 
-      <h2>2026年回收價怎麼計算？一個公式搞定</h2>
+      <h2>2026年回收價怎麼計算？</h2>
       <p>黃金回收金額公式：</p>
       <div style={{ background: '#f3f4f6', padding: '1rem', borderRadius: '8px', margin: '1rem 0', fontFamily: 'monospace' }}>
         <strong>回收金額 = 重量（錢）× 當日一錢牌價 × 純度%</strong>

@@ -67,9 +67,9 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 賣黃金前必看！本文整理2026年最常見的黃金回收問題，包含證件準備、秤重方式、扣重計算、付款流程，讓您第一次賣黃金就上手。
       </div>
       
-      <h2>賣黃金前先看這篇，避開常見陷阱不吃虧嗎？</h2>
+      <h2>結論：賣黃金前先看這篇，避開常見陷阱不吃虧！</h2>
 
-      <h2>黃金回收常見問題</h2>
+      <h2>❓ 黃金回收常見問題FAQ</h2>
 
       <h3>Q1：黃金回收要帶什麼證件？</h3>
       <p>A：根據政府規定，進行黃金回收需要<strong>攜帶身份證</strong>進行實名制登記。部分店家可能會要求搭配健保卡或駕照作為第二證件。建議事先致電詢問所需證件。</p>
@@ -119,7 +119,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>黃金回收標準流程是什麼？</h2>
+      <h2>📋 黃金回收標準的流程是什麼？</h2>
       <ol>
         <li><strong>事前諮詢</strong> - 電話或LINE聯繫，初步了解行情</li>
         <li><strong>準備證件</strong> - 攜帶身份證進行實名制</li>
@@ -130,7 +130,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>聯繫我們</h2>
+      <h2>📞 聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

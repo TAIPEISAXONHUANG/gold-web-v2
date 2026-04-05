@@ -58,7 +58,7 @@ export default function Page() {
       <h2>銀樓 vs 黃金回收店：哪個更適合你？</h2>
       <p>想要變賣黃金，不知道該找銀樓還是黃金回收店？這兩種管道各有特色和適用情境。本文帶您深入了解兩者差異，幫助您做出最有利的選擇。在閱讀前，您也可以先了解<a href="/blog/before-selling-gold" style={{color:'#B8860B'}}>賣黃金前的準備事項</a>，讓整個過程更順利。</p>
 
-      <h2>銀樓的特色是什麼？</h2>
+      <h2>銀樓有什麼特色？</h2>
       <ul>
         <li><strong>歷史悠久</strong>：傳統珠寶銀樓通常有數十年歷史，信譽較有保障</li>
         <li><strong>手續費較高</strong>：銀樓經營成本較高，報價通常會扣較多手續費</li>
@@ -67,7 +67,7 @@ export default function Page() {
         <li><strong>兼售黃金商品</strong>：既可買也可賣，適合有購買需求的客戶</li>
       </ul>
 
-      <h2>黃金回收店的特色是什麼？</h2>
+      <h2>黃金回收店有什麼特色？</h2>
       <ul>
         <li><strong>報價較高</strong>：少了銀樓的店面與人事成本，回收價格通常較優</li>
         <li><strong>只看純度重量</strong>：不論品牌或設計，僅以純度與重量計算</li>
@@ -76,7 +76,7 @@ export default function Page() {
         <li><strong>收購品項廣</strong>：黃金、K金、鉑金、鑽石均可回收</li>
       </ul>
 
-      <h2>如何選擇和比較對照表有什麼差別？</h2>
+      <h2>如何選擇：比較對照表</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -114,7 +114,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>選擇店家的注意事項有哪些？</h2>
+      <h2>選擇店家有哪些注意事項？</h2>
       <p>無論選擇銀樓或回收店，都要注意以下重點，避免落入<a href="/blog/gold-recovery-traps" style={{color:'#B8860B'}}>黃金回收常見陷阱</a>：</p>
       <ul>
         <li><strong>公開透明的秤重</strong>：務必親眼確認電子秤數字，拒絕代為秤重</li>

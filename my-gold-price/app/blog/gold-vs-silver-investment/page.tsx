@@ -77,7 +77,7 @@ export default function Page() {
           <strong>直接給答案：</strong> 黃金和白銀不是同一種資產。黃金是貨幣保證（央行儲備），白銀同時是工業金屬和投資品。黃金波動低、流動性極佳；白銀波動大、報酬潛力高但風險也高。2026年，金銀比約80–90倍，處於歷史偏高，理論上白銀相對便宜。
         </div>
 
-        <h2>黃金和白銀有什麼基本差異？</h2>
+        <h2>黃金和白銀有哪些基本差異？</h2>
         <p>
           黃金和白銀雖然都是「貴金屬」，但它們的屬性、投資邏輯和價格驅動因素並不相同：
         </p>
@@ -124,7 +124,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>什麼是金銀比？如何用它判斷？</h2>
+        <h2>什麼是金銀比？如何用它？</h2>
         <p>
           金銀比（Gold/Silver Ratio）是衡量兩種金屬相對價值的指標：
         </p>
@@ -163,7 +163,7 @@ export default function Page() {
           這也是為什麼白銀在黃金上漲時通常跟漲，且幅度更大。
         </p>
 
-        <h2>投資黃金和白銀的管道（台灣）有哪些？</h2>
+        <h2>台灣有哪些投資黃金和白銀的管道？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -202,7 +202,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>黃金和白銀的配置建議有哪些？</h2>
+        <h2>黃金和白銀要怎麼配置？</h2>
         <p>
           <strong>保守型（投資目標：保值、抗通膨）：</strong>
           <br />純黃金配置，佔投資組合10%–20%

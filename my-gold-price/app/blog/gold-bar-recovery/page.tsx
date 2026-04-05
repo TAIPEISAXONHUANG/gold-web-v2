@@ -55,10 +55,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 金條回收依國際金價×重量計算，需確認金條品牌、純度標示及序號。知名品牌金條（如台銀、PAMP）回收速度最快。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>當日現金付款。
       </div>
 
-      <h2>黃金條塊回收的最簡單的黃金變現方式是什麼？</h2>
+      <h2>黃金條塊怎麼回收？</h2>
       <p>黃金條塊（俗稱金條）是投資者最常見的持有形式。因為純度固定、重量明確，金條的回收過程往往比金飾更簡單快速。<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>收購各種品牌與規格的金條，依當日市場金價報價，當場現金付款。</p>
 
-      <h2>可回收的金條類型有哪些？</h2>
+      <h2>哪些金條可以回收？</h2>
       <ul>
         <li><strong>台灣銀行金條</strong>：5錢、1兩、5兩、10兩等規格均可</li>
         <li><strong>進口品牌金條</strong>：PAMP Suisse、Valcambi、Heraeus等知名品牌</li>
@@ -67,11 +67,11 @@ export default function Page() {
         <li><strong>無品牌金塊</strong>：可透過儀器鑑定純度後回收</li>
       </ul>
 
-      <h2>金條回收計價方式怎麼算？</h2>
+      <h2>金條回收怎麼計價？</h2>
       <p>金條回收公式：<strong>當日國際金價（換算台幣）× 重量（公克或台錢）× 純度</strong></p>
       <p>由於大多數投資金條純度為9999（99.99%），計算相對簡單。您可事先透過<a href="/blog/gold-calculator" style={{color:'#B8860B'}}>黃金回收計算機</a>試算，或參考<a href="/blog/gold-price-guide-2026" style={{color:'#B8860B'}}>2026年黃金價格指南</a>了解最新行情。</p>
 
-      <h2>金條回收注意事項有哪些？</h2>
+      <h2>金條回收有哪些注意事項？</h2>
       <ul>
         <li><strong>保留外盒與序號卡</strong>：雖非必要，但有原裝盒能加速鑑定流程</li>
         <li><strong>確認純度標示</strong>：正規金條側面或正面會標示9999或999等純度</li>
@@ -80,7 +80,7 @@ export default function Page() {
       </ul>
       <p>若您不確定金條真偽，可先參考<a href="/blog/gold-identification" style={{color:'#B8860B'}}>黃金真偽鑑定方法</a>，或直接帶來店免費鑑定。</p>
 
-      <h2>9999純金回收詳情怎麼做？</h2>
+      <h2>9999純金怎麼回收？</h2>
       <p>9999純金條塊是黃金中純度最高的等級，回收時能獲得最接近市場金價的報價。關於9999純金的詳細回收說明，請參考<a href="/blog/gold-9999-recovery" style={{color:'#B8860B'}}>9999純金回收完整指南</a>。</p>
 
       <h2>常見問題 FAQ</h2>

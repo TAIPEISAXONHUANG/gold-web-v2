@@ -106,7 +106,7 @@ export default function Page() {
           如果同樣10克但是14K：10克 × 58.5% × 3,000元 = <strong>17,550元</strong>。差距明顯，所以帶去前先確認K數。
         </p>
 
-        <h2>各K數含金比例對照表怎麼看？</h2>
+        <h2>各K數含金比例怎麼換算？</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#f5f0e8' }}>
@@ -161,7 +161,7 @@ export default function Page() {
           <strong>遇到要扣耗損的店，你有兩個選擇：</strong>要求他們說清楚扣多少錢、剩多少；或直接換一家。這不是規定，是可以談的。
         </p>
 
-        <h2>回收K金前的3個準備動作有哪些？</h2>
+        <h2>回收K金前要做哪些準備？</h2>
         <ul>
           <li>確認K數：看首飾上的印記，18K會刻750、18K或Au750；14K會刻585</li>
           <li>查今日金價：上台灣銀行或台灣黃金交易所看當日收購報價，心裡有底</li>

@@ -89,7 +89,7 @@ export default function Page() {
           <strong>直接給答案：</strong> 1錢 = 3.75公克，1兩 = 10錢 = 37.5公克，1盎司 = 31.1公克 ≈ 8.29錢。只要記住這三個數字，所有黃金單位換算都能自己算。
         </div>
 
-        <h2>台灣黃金重量單位的錢/兩/分是什麼？</h2>
+        <h2>台灣黃金重量單位有哪些？</h2>
         <p>
           台灣黃金業界使用的重量單位，源自中國傳統的「16兩制」（注意：中國的「兩」約37.5克，台灣的「兩」也是約37.5克，但中國某些地區的「兩」只有31.25克，購買中國黃金時要注意這個差異）。
         </p>
@@ -131,7 +131,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>國際黃金重量單位的盎司（oz）是什麼？</h2>
+        <h2>國際黃金重量單位盎司怎麼換算？</h2>
         <p>
           國際金價以「金衡盎司」（troy ounce，簡稱ozt）計價，不是普通的盎司（oz）。
           <strong>兩者不同：</strong>
@@ -144,7 +144,7 @@ export default function Page() {
           <strong>關鍵數字：</strong>1盎司（ozt）= 31.1035公克 = 8.294錢
         </p>
 
-        <h2>黃金單位完整對照表（錢/公克/盎司）怎麼看？</h2>
+        <h2>黃金重量單位怎麼換算？</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
             <tr style={{ background: '#f5f0e8' }}>
@@ -197,7 +197,7 @@ export default function Page() {
           ※ 參考價值以2026年3月底9999金17,500元/錢計算
         </p>
 
-        <h2>實用試算的國際金價 → 台灣每錢是什麼？</h2>
+        <h2>如何把國際金價換算成台灣每錢？</h2>
         <div style={{ background: '#f0fdf4', border: '1px solid #86efac', padding: '16px', borderRadius: '8px', margin: '1rem 0' }}>
           <strong>公式：</strong>
           <br />每錢台幣 = （國際金價 ÷ 31.1035）× 美元/台幣匯率 × 3.75
@@ -210,7 +210,7 @@ export default function Page() {
           <strong>實務牌價：</strong>約11,300–11,800元/錢（正常波動範圍）
         </div>
 
-        <h2>實用試算的飾金重量估計是什麼？</h2>
+        <h2>飾金重量怎麼估計？</h2>
         <p>常見飾金的典型重量（僅供參考，實際差異很大）：</p>
         <ul>
           <li><strong>女裝金項鍊（細鏈）：</strong>約1–3錢（3.75–11.25公克）</li>
@@ -223,7 +223,7 @@ export default function Page() {
           <li><strong>金耳環（輕巧款）：</strong>約0.3–1錢（1.1–3.75公克）</li>
         </ul>
 
-        <h2>黃金重量單位的常見問題</h2>
+        <h2>黃金重量單位有哪些常見問題？</h2>
         <p>
           <strong>Q：我在國外買的金飾，單位怎麼算？</strong>
           <br />

@@ -40,13 +40,13 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金與K金的差異在於純度！24K代表99.99{'%'}純金，18K是75{'%'}，14K是58.5{'%'}。純度越高回收價值越高，但K金硬度較高更適合日常配戴。
       </div>
       
-      <h2>黃金與K金有什麼差異？</h2>
+      <h2>結論：了解黃金與K金的差異，買金飾不吃虧、賣黃金更值錢！</h2>
 
       <h2>什麼是純金？什麼是K金？</h2>
       <p><strong>純金（24K）</strong>是指含金量99.99{'%'}的黃金，顏色最接近黃金本色，價值最高。但純金較軟，容易變形刮傷。</p>
       <p><strong>K金</strong>是黃金與其他金屬的合金，添加其他金屬是為了增加硬度與耐久性。常見的K金包括18K、14K、10K等。</p>
 
-      <h2>黃金與K金純度比較表怎麼看？</h2>
+      <h2>黃金與K金純度怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f59e0b', color: 'white' }}>
@@ -84,7 +84,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>黃金與K金的優缺點是什麼？</h2>
+      <h2>黃金與K金各有哪些優缺點？</h2>
       
       <h3>🌟 純金（24K）優點：</h3>
       <ul>
@@ -116,7 +116,7 @@ export default function Page() {
         <li>長期配戴可能會褪色</li>
       </ul>
 
-      <h2>黃金與K金回收價格計算怎麼算？</h2>
+      <h2>黃金與K金回收價格怎麼算？</h2>
       <p>回收價格計算公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>舉例來說，假設當日金價為每錢6,000元：</p>
       <ul>
@@ -153,7 +153,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>聯繫我們</h2>
+      <h2>📞 聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

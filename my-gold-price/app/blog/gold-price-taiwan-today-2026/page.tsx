@@ -105,7 +105,7 @@ export default function Page() {
           想知道今天台灣黃金多少錢？不只是看一個數字而已——你還需要搞清楚是哪種報價、銀樓收購還是賣出、純度是什麼。本文幫你整理好所有資訊，直接對照查詢。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">2026年4月今日台灣黃金參考報價是多少？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">2026年4月今日台灣黃金行情是多少？</h2>
         <p className="mb-4">
           以下數據以2026年4月初國際金價為基礎換算，實際當日價格以銀樓牌告為準。匯率波動、手工費、純度差異都會影響最終報價。
         </p>
@@ -153,7 +153,7 @@ export default function Page() {
           ※ 上表為估算參考，非即時牌告價。實際報價請致電或親洽銀樓確認。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">台灣黃金計量單位的搞清楚才不被坑是什麼？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">台灣黃金計量單位有哪些？</h2>
         <p className="mb-4">
           台灣黃金交易主要用「台錢」，一台錢等於3.75克。很多人搞混「台錢」和「公克」，結果算錯了總價。
         </p>

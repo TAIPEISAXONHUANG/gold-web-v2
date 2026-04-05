@@ -59,7 +59,7 @@ export default function Page() {
 
       <p>數字不大，但方法論是一樣的。不論你有幾毫克、幾克、幾兩，同樣的公式通用。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金重量換算總表怎麼算？</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金重量怎麼換算？</h2>
       <p>先把單位搞清楚，台灣用「錢兩」，國際用「克盎司」，不同場合會看到不同單位。</p>
 
       <div style={{ overflowX: 'auto', marginBottom: '24px' }}>

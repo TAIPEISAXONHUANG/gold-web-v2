@@ -92,7 +92,7 @@ export default function Page() {
         </p>
         <p>這篇把台北購金管道、流程和常見陷阱整理好，買前花5分鐘看，省下不必要的錢。</p>
 
-        <h2>台北買黃金有哪些管道？怎麼比較？</h2>
+        <h2>台北買黃金有哪些主要管道？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -153,7 +153,7 @@ export default function Page() {
           純投資用途不建議；日常配戴有喜歡的款式再考慮。
         </p>
 
-        <h2>2026年台北黃金賣出參考行情是多少？</h2>
+        <h2>2026年台北黃金賣出行情是多少？</h2>
         <p>買黃金前先知道「賣出價」的範圍，才能判斷報價是否合理：</p>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
@@ -189,7 +189,7 @@ export default function Page() {
           這個價差是正常利潤空間，不是被坑。
         </p>
 
-        <h2>台北買黃金的4個常見坑有哪些？</h2>
+        <h2>台北買黃金有哪些常見陷阱？</h2>
         <p>
           <strong>第一：報價沒說清楚是含工費還是不含。</strong>
           「一錢18,000」可能是純金條，也可能是含工費的飾品定價。

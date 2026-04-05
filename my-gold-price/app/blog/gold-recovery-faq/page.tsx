@@ -65,7 +65,7 @@ export default function Page() {
       <h2>結論：第一次賣黃金？不知道流程怎麼跑？這篇FAQ讓你一次搞懂！</h2>
       <p>很多人第一次要賣黃金，對整個流程感到陌生甚至擔心被騙。本文整理了最常見的黃金回收問題，讓您在到店前就能充分了解，安心順利完成交易。如果您想先查今日金價，可參考<a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價</a>。</p>
 
-      <h2>基本資訊FAQ</h2>
+      <h2>❓ 基本資訊FAQ</h2>
 
       <h3>Q：黃金回收要帶什麼？</h3>
       <p>A：攜帶<strong>身份證+健保卡</strong>進行實名制登記，這是政府規定，必備證件。不需要購買憑證，但若有可帶來增加信任度。詳細說明見<a href="/blog/what-to-bring-when-selling-gold-2026" style={{ color: '#B8860B' }}>賣黃金要帶什麼</a>。</p>
@@ -91,7 +91,7 @@ export default function Page() {
       <h3>Q：黃金飾品可以賣嗎？</h3>
       <p>A：可以！無論是<a href="/blog/gold-jewelry-recovery" style={{ color: '#B8860B' }}>金飾</a>、<a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>金塊、金條</a>、<a href="/blog/old-gold-recovery" style={{ color: '#B8860B' }}>舊金</a>都可以回收，K金也收。</p>
 
-      <h2>計價與純度FAQ怎麼算？</h2>
+      <h2>❓ 計價與純度FAQ</h2>
 
       <h3>Q：K金怎麼計算回收價？</h3>
       <p>A：K金回收價 = 重量 × K數含金比例 × 當日黃金回收價。例如18K金（含金75%）：10克 × 75% × 回收價。詳細見<a href="/blog/karat-gold-recovery-calculation" style={{ color: '#B8860B' }}>K金回收計算方式</a>。</p>
@@ -105,7 +105,7 @@ export default function Page() {
       <h3>Q：損壞的黃金回收價會比較低嗎？</h3>
       <p>A：不會！損壞（斷裂、變形）的黃金回收價與完整的一樣，都是依純度×重量計算。詳見<a href="/blog/broken-gold-recovery" style={{ color: '#B8860B' }}>斷裂黃金回收說明</a>。</p>
 
-      <h2>防詐騙FAQ有哪些？</h2>
+      <h2>❓ 防詐騙FAQ</h2>
 
       <h3>Q：如何避免被黃金回收詐騙？</h3>
       <p>A：選擇有實體店面、公開秤重、當場付款的正規業者。遇到要求預付保證金、帶走黃金才能鑑定等情況要特別小心。詳見<a href="/blog/gold-scam-prevent" style={{ color: '#B8860B' }}>黃金回收詐騙防範</a>。</p>
@@ -113,7 +113,7 @@ export default function Page() {
       <h3>Q：怎麼確認回收店家有沒有偷秤？</h3>
       <p>A：要求在您面前秤重，並讓您看清楚數字。可以事先在家用廚房秤估算重量（需考慮秤的誤差），到店時要求說明差異。</p>
 
-      <h2>各類黃金FAQ</h2>
+      <h2>❓ 各類黃金FAQ</h2>
 
       <h3>Q：白金（鉑金）可以回收嗎？</h3>
       <p>A：可以，但要注意白金和K白金是不同的材質，回收價格差異大。詳見<a href="/blog/platinum-recovery" style={{ color: '#B8860B' }}>白金回收說明</a>。</p>
@@ -135,7 +135,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>黃金回收流程是什麼？</h2>
+      <h2>📋 黃金回收的流程是什麼？</h2>
       <ol>
         <li><strong>聯繫估價</strong> - 電話或LINE諮詢，告知手中黃金種類</li>
         <li><strong>攜帶證件</strong> - 身份證+健保卡（政府規定實名制）</li>
@@ -147,7 +147,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>聯繫我們</h2>
+      <h2>📞 聯繫我們</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>

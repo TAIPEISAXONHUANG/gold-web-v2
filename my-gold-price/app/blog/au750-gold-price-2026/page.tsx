@@ -53,7 +53,7 @@ export default function Page() {
       <p>其實很簡單：<strong>AU750 = 18K黃金 = 含金量75%</strong>。</p>
       <p>AU是黃金的拉丁元素符號（Aurum），750是千分之750，也就是每1000份裡有750份是黃金。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>AU750常見印記對照怎麼看？</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>AU750常見印記有哪些？</h2>
       <p>同樣是18K黃金，不同品牌、不同國家可能有不同的印記方式：</p>
 
       <div style={{ overflowX: 'auto', marginBottom: '24px' }}>
@@ -168,7 +168,7 @@ export default function Page() {
         </table>
       </div>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>賣AU750黃金的實際流程是什麼？</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>賣AU750黃金的流程是什麼？</h2>
       <p>第一次去銀樓賣K金，流程大概是這樣：</p>
       <ol style={{ paddingLeft: '20px', lineHeight: 2.2 }}>
         <li>帶飾品到銀樓（有購買憑證更好，但沒有也沒關係）</li>

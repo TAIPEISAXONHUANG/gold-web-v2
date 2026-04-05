@@ -39,7 +39,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 舊金飾回收不看新舊，只看純度和重量。祖傳金飾、變色氧化的金飾都能回收，巧品珠寶專業鑑定讓舊金發揮最大價值。
       </div>
 
-      <h2>舊金也能賣好價，不看年份看純度嗎？</h2>
+      <h2>結論：舊金也能賣好價，不看年份看純度</h2>
       <p>很多人家中有多年未佩戴的舊金飾，不確定能否回收，或擔心款式過時影響價格。事實上，黃金回收完全不看款式新舊，只看<strong>純度和重量</strong>。一個30年前購買的老金飾，只要純度相同，回收價格與今天購買的新品完全一樣。</p>
 
       <h2>哪些舊金飾可以回收？</h2>
@@ -52,7 +52,7 @@ export default function Page() {
         <li><strong>繼承的長輩金飾</strong>：了解<a href="/blog/inheritance-gold" style={{ color: '#B8860B' }}>遺產黃金回收</a>的完整流程</li>
       </ul>
 
-      <h2>舊金回收的常見疑慮怎麼做？</h2>
+      <h2>舊金回收有哪些常見疑慮？</h2>
 
       <h3>疑慮一：舊款式會影響價格嗎？</h3>
       <p>完全不會。黃金回收是以純度×重量計算，款式設計不影響回收金額。一個50年前的傳統款式金手鍊，與今天的現代設計款，只要重量和純度相同，回收價格一致。</p>
@@ -63,7 +63,7 @@ export default function Page() {
       <h3>疑慮三：沒有保證書的舊金飾能賣嗎？</h3>
       <p>完全可以。巧品珠寶使用專業XRF螢光分析儀，可以在不損壞金飾的情況下精確測出含金量。不需要任何購買憑證，只需攜帶本人身份證即可。</p>
 
-      <h2>舊金飾的純度判斷怎麼看？</h2>
+      <h2>舊金飾的純度怎麼判斷？</h2>
       <p>台灣早期（民國50-80年代）的金飾通常純度相當高：</p>
       <ul>
         <li><strong>9999足金（24K）</strong>：最高純度，早期台灣傳統婚嫁金飾多為此類</li>
@@ -73,7 +73,7 @@ export default function Page() {
       </ul>
       <p>了解更多<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a>與<a href="/blog/gold-identification" style={{ color: '#B8860B' }}>黃金真假辨識方法</a>。</p>
 
-      <h2>舊金回收優點是什麼？</h2>
+      <h2>舊金回收有哪些優點？</h2>
       <ul>
         <li><strong>不分款式、不論新舊</strong>：任何年代的金飾均可回收</li>
         <li><strong>不扣耗損</strong>：按實際重量計算，不扣任何「耗損費」</li>
@@ -82,7 +82,7 @@ export default function Page() {
         <li><strong>無需憑證</strong>：只需身份證，不需要購買證明</li>
       </ul>
 
-      <h2>賣舊金前的準備有哪些？</h2>
+      <h2>賣舊金前要準備什麼？</h2>
       <ol>
         <li>整理所有要出售的舊金飾，包含任何小碎片</li>
         <li>準備身份證正本（政府規定的實名制要求）</li>
@@ -98,7 +98,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 祖傳的舊金飾值多少？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 舊金飾回收只看純度和重量，跟新舊無關。早期的台灣金飾通常純度很高（22K-24K），回收價不錯。</p>

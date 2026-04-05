@@ -86,7 +86,7 @@ export default function Page() {
           這不是金屬變質，而是表面髒了，清潔就能恢復。
         </p>
 
-        <h2>不同類型黃金的保養重點有哪些？</h2>
+        <h2>不同類型黃金有哪些保養重點？</h2>
 
         <h3>9999純金（24K）——最軟，最需要溫柔對待</h3>
         <p>
@@ -131,7 +131,7 @@ export default function Page() {
           <li>部分人對合金中的鎳過敏（低K金常含鎳）</li>
         </ul>
 
-        <h2>黃金飾品清潔方法的從日常到深度是什麼？</h2>
+        <h2>黃金飾品有哪些清潔方法？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -175,7 +175,7 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>日常佩戴的7個注意事項有哪些？</h2>
+        <h2>日常佩戴有哪些注意事項？</h2>
         <ol>
           <li><strong>最後戴上、最先取下：</strong>化妝品、香水、定型噴霧都先使用，等乾燥後再戴黃金</li>
           <li><strong>洗澡/游泳/運動時取下：</strong>汗水、海水、氯都會影響光澤</li>
@@ -186,7 +186,7 @@ export default function Page() {
           <li><strong>金子分類存放：</strong>不同純度的金子分開放，K金之間也最好分开</li>
         </ol>
 
-        <h2>常見保養疑問怎麼做？</h2>
+        <h2>常見保養疑問有哪些？</h2>
 
         <p>
           <strong>Q：白K金變黃了怎麼辦？</strong>

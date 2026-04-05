@@ -159,7 +159,7 @@ export default function Page() {
           <li>F/P（Fair/Poor）：切工一般，光线折射不佳</li>
         </ul>
 
-        <h2>2026年GIA钻石回收价格参考怎麼做？</h2>
+        <h2>2026年GIA鑽石回收行情是多少？</h2>
         <p>
           以下为市场参考范围（附带GIA证书，有基本4C数据）：
         </p>
@@ -213,7 +213,7 @@ export default function Page() {
           建议先初步估价再决定是否鉴定。
         </p>
 
-        <h2>GIA钻石回收注意事项怎麼做？</h2>
+        <h2>GIA鑽石回收有哪些注意事項？</h2>
         <p>
           <strong>注意一：证书和钻石要匹配</strong><br />
           GIA钻石的腰围（钻石最大直径边缘）会用雷射刻上GIA编号，

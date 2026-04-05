@@ -74,13 +74,13 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金與K金最大的差異在於「純度」！24K是99.99{'$'}{'%'}純金，18K是75{'$'}{'%'}，14K是58.5{'$'}{'%'}。純度越高越保值，K金硬度較高更適合日常配戴。選對種類才能兼顧價值與實用！
       </div>
       
-      <h2>了解黃金與K金的差異，怎麼選？</h2>
+      <h2>結論：了解黃金與K金的差異，才能做出正確選擇！</h2>
 
       <h2>什麼是黃金？什麼是K金？</h2>
       <p><strong>黃金（純金/24K）</strong>是指含金量99.99{'$'}{'%'}的黃金，是最純粹的黃金形態。顏色最接近黃金本色，投資價值最高，但質地較軟，容易變形刮傷。</p>
       <p><strong>K金</strong>是黃金與其他金屬（銀、銅、鎳等）的合金，添加其他金屬是為了<strong>增加硬度與耐久性</strong>。K數代表含金量，常見的有24K、22K、18K、14K、10K。</p>
 
-      <h2>黃金與K金純度對照表怎麼看？</h2>
+      <h2>黃金與K金純度怎麼對照？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f59e0b', color: 'white' }}>
@@ -124,7 +124,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>黃金（24K）的優缺點是什麼？</h2>
+      <h2>黃金（24K）有哪些優缺點？</h2>
       
       <h3>🌟 優點：</h3>
       <ul>
@@ -141,7 +141,7 @@ export default function Page() {
         <li><strong>價格較高</strong>：因為純度高，售價與回收價都較高</li>
       </ul>
 
-      <h2>K金的優缺點是什麼？</h2>
+      <h2>K金有哪些優缺點？</h2>
       
       <h3>🌟 優點：</h3>
       <ul>
@@ -159,7 +159,7 @@ export default function Page() {
         <li><strong>保值性較低</strong>：款式與品牌會影響收購意願</li>
       </ul>
 
-      <h2>黃金與K金價格計算怎麼算？</h2>
+      <h2>黃金與K金價格怎麼算？</h2>
       <p>回收價格公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>假設當日金價為每錢6,000元，1兩（5錢）的黃金：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
@@ -197,7 +197,7 @@ export default function Page() {
         <li>需要<strong>堅固耐用</strong>的珠寶首飾</li>
       </ul>
 
-      <h2>黃金與K金常見迷思有哪些？</h2>
+      <h2>黃金與K金有哪些常見迷思？</h2>
 
       <h3>迷思1：K金不值錢？</h3>
       <p>❌ 錯誤！K金當然有價值，只是回收價格會按含金量比例計算。18K的回收價值約是純金的75{'$'}{'%'}，並非完全沒有價值。</p>
@@ -220,7 +220,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>聯繫我們</h2>
+      <h2>📞 聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

@@ -100,10 +100,10 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>鑽石珠寶也能高價變現，關鍵在選對店家嗎？</h2>
+      <h2>結論：鑽石珠寶也能高價變現，關鍵在選對店家</h2>
       <p>很多人不知道，鑽石和珠寶首飾也可以高價回收變現。巧品珠寶提供專業的鑽石珠寶收購服務，無論是GIA裸鑽、彩鑽、鑽戒還是各種珠寶首飾，我們都能給出市場上最合理的價格。與<a href="/blog/gold-ring-recovery" style={{ color: '#B8860B' }}>黃金飾品回收</a>不同，鑽石的估價更依賴專業鑑定能力，選擇有經驗的店家至關重要。</p>
 
-      <h2>鑽石4C估價標準詳解是什麼？</h2>
+      <h2>💎 鑽石4C估價標準是什麼？</h2>
       <p>鑽石的價值主要由國際通用的4C標準決定，這也是GIA（美國寶石學院）鑑定報告的核心內容。了解4C可以幫助您在出售前對自己的鑽石有合理的價格預期，避免被低估。以下是各項指標的影響程度：</p>
       <ul>
         <li><strong>克拉重量（Carat）：</strong>鑽石重量是影響價格最直接的因素。1克拉以上的鑽石存在明顯溢價，例如0.99克拉和1.01克拉的價差可達20-30{'%'}。建議出售前先確認鑽石的實際克拉數</li>
@@ -122,7 +122,7 @@ export default function Page() {
         <li><strong>鑲嵌飾品</strong>：鑽石鑲嵌於<a href="/blog/k-gold-recovery-guide-2026" style={{ color: '#B8860B' }}>K金</a>或<a href="/blog/platinum-recovery" style={{ color: '#B8860B' }}>白金</a>上的飾品，金屬與鑽石分別計價</li>
       </ul>
 
-      <h2>鑽石估價流程（約15-20分鐘）是什麼？</h2>
+      <h2>📋 鑽石估價流程（約15-20分鐘）</h2>
       <ol>
         <li><strong>攜帶鑽石及相關證書到店</strong> — 有GIA證書請一併帶來，可加速鑑定</li>
         <li><strong>專業儀器鑑定4C等級</strong> — 使用10倍放大鏡、鑽石比色石等工具當面檢測</li>
@@ -130,7 +130,7 @@ export default function Page() {
         <li><strong>確認價格後現場現金付款</strong> — 同意報價即刻付款，也可選擇銀行轉帳</li>
       </ol>
 
-      <h2>影響鑽石回收價格的其他因素是多少？</h2>
+      <h2>💰 影響鑽石回收價格的其他因素</h2>
       <p>除了4C之外，以下因素也會影響鑽石的回收價格。準備越充分，越能拿到更好的價格。這與<a href="/blog/sell-gold-tips" style={{ color: '#B8860B' }}>賣黃金的技巧</a>類似，事前做好功課是關鍵：</p>
       <ul>
         <li><strong>螢光反應：</strong>強螢光（Strong Blue）會降低鑽石價值約10-15{'%'}，無螢光的鑽石最受市場青睞</li>
@@ -140,7 +140,7 @@ export default function Page() {
         <li><strong>市場供需：</strong>1-3克拉、D-G色、VS等級的鑽石市場流通性最好，回收價格相對較高</li>
       </ul>
 
-      <h2>常見問題</h2>
+      <h2>❓ 常見問題</h2>
 
       <div style={{ background: '#f8f9fa', padding: '20px', borderRadius: '12px', marginBottom: '16px' }}>
         <h3 style={{ marginTop: 0 }}>Q：沒有GIA證書的鑽石可以收購嗎？</h3>

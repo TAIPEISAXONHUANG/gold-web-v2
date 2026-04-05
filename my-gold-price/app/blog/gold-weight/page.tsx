@@ -41,10 +41,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金重量單位換算：1台錢=3.75公克、1兩=10台錢=37.5公克、1盎司=31.1公克。回收報價通常以「台錢」為單位。
       </div>
 
-      <h2>搞懂重量單位，讓你不被坑嗎？</h2>
+      <h2>結論：搞懂重量單位，讓你不被坑</h2>
       <p>黃金報價使用的重量單位有好幾種，台灣常用「台錢」，國際則用「公克」或「盎司」。搞清楚換算關係，才能正確計算你的黃金值多少錢。</p>
 
-      <h2>黃金重量單位換算表怎麼算？</h2>
+      <h2>黃金重量單位怎麼換算？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
         <thead>
           <tr style={{ background: '#fef3c7' }}>
@@ -61,7 +61,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>快速計算公式怎麼算？</h2>
+      <h2>快速怎麼算？</h2>
       <ul>
         <li>重量（台錢）× 當日牌價 = 回收金額</li>
         <li>公克 ÷ 3.75 = 台錢</li>
@@ -80,7 +80,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金的「錢」跟「克」怎麼換算？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 1台錢 = 3.75公克。1兩 = 10台錢 = 37.5公克。1盎司 = 31.1公克 ≈ 8.294台錢。</p>

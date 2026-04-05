@@ -111,7 +111,7 @@ export default function TwentyFourHrGoldShopTaipei2026() {
           <li>「24小時LINE詢價」被誤解為全天交易</li>
         </ul>
 
-        <h2>台北銀樓實際營業時間（2026年整理）是幾點？</h2>
+        <h2>台北銀樓的實際營業時間是幾點？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -156,7 +156,7 @@ export default function TwentyFourHrGoldShopTaipei2026() {
           隔天早上去銀樓賣，才能拿到最接近市價的回收報價。
         </p>
 
-        <h2>緊急賣黃金的3個實際選項有哪些？</h2>
+        <h2>緊急賣黃金有哪些選項？</h2>
         <p>
           <strong>選項一：隔天一早去銀樓。</strong>
           台北多數銀樓10點開門，帶著黃金、身分證，30分鐘內搞定。
@@ -184,7 +184,7 @@ export default function TwentyFourHrGoldShopTaipei2026() {
           假期前後黃金需求高，更要提前確認。
         </p>
 
-        <h2>只是想看今天金價，不賣怎麼查？</h2>
+        <h2>如果你只是想「看看今天金價」</h2>
         <p>
           不需要等銀樓開門。台灣銀樓公會每個工作日更新牌告金價，
           網路上可以即時查到一錢、一兩的買入/賣出價。

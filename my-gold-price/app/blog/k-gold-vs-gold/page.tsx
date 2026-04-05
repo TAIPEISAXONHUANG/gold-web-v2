@@ -55,7 +55,7 @@ export default function Page() {
       </ul>
       <p>K金之所以廣泛用於珠寶首飾，是因為純金（24K）質地太軟，容易刮傷變形。添加銅、銀、鈀等金屬後，合金硬度大幅提升，可以製作出更精細的造型與鑲嵌設計。不同的合金配方也產生了多種顏色選擇，包含黃K金、白K金、玫瑰金等。想了解更多K金知識，可參考<a href="/blog/k-gold-recovery-guide-2026" style={{color:'#B8860B'}}>K金回收完整指南</a>。</p>
 
-      <h2>黃金 vs K金 vs 白金？</h2>
+      <h2>🎨 黃金 vs K金 vs 白金</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#3b82f6', color:'white'}}>
@@ -107,17 +107,17 @@ export default function Page() {
         <li><strong>時尚款式</strong> → 選18K玫瑰金/白金（好看又耐用）</li>
       </ul>
 
-      <h2>如何辨別K金與黃金的印記怎麼做？</h2>
+      <h2>🔍 如何辨別K金與黃金的印記</h2>
       <p>購買或回收金飾時，辨識印記是最基本的判斷方式。正規金飾上會刻有純度標示：24K純金標記為「999」或「足金」，18K金標記為「750」或「18K」，14K金標記為「585」或「14K」。部分進口飾品也會標示品牌名稱與產地。不過印記也有可能被偽造，若要精確判定純度，建議到具備<a href="/blog/gold-identification" style={{color:'#B8860B'}}>XRF螢光分析儀的專業店家進行鑑定</a>，可以在不破壞飾品的情況下精確測出各金屬成分比例。</p>
 
       <h2>🔄 K金可以回收嗎？回收價值分析</h2>
       <p>當然可以！K金一樣有回收價值，但價格會依含金量計算。例如18K金飾的回收價格約為當日純金牌價的75{'%'}，14K約為58.5{'%'}。回收時店家會使用XRF螢光分析儀精確檢測含金比例，再依當日<a href="/blog/gold-recycling-price-factors" style={{color:'#B8860B'}}>國際金價與回收牌價</a>計算。值得注意的是，K金回收通常不看品牌與工藝，純粹以貴金屬含量計價。因此購買高單價品牌K金飾品時，需考量日後回收的價值落差。想了解更多回收細節，請參考<a href="/blog/k-gold-recovery-guide-2026" style={{color:'#B8860B'}}>2026年K金回收完整指南</a>。</p>
 
-      <h2>K金保養與維護建議有哪些？</h2>
+      <h2>💰 K金保養與維護有哪些建議？</h2>
       <p>K金飾品雖然硬度較高，但仍需注意日常保養。白K金表面通常有鍍銠處理，長期配戴會磨損露出底色，建議每1-2年到珠寶店重新電鍍。玫瑰金含銅成分較高，接觸汗水或化學品後可能輕微變色，配戴後以軟布擦拭即可。所有K金飾品都應避免接觸漂白水、香水與溫泉硫磺水。存放時用獨立夾鏈袋或絨布袋包裝，避免與其他飾品摩擦刮傷。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金和黃金哪個比較保值？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 黃金（24K）保值性最高，因為純度達99.9{'%'}，價格直接跟隨國際金價波動。K金含有其他合金成分，回收時只按含金比例計價，例如18K只有75{'%'}的黃金價值。</p>

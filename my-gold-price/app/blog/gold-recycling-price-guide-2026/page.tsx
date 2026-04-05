@@ -68,7 +68,7 @@ export default function Page() {
         <strong>📌 結論：</strong> 2026年黃金回收市場火熱，目前回收價格區間約為每錢 <strong>9,800-10,200元</strong>。不同純度、K數的黃金回收價差可達30%以上，本文提供完整價格表與選擇建議。
       </div>
 
-      <h2>2026年各純度黃金回收價格表是多少？</h2>
+      <h2>📊 2026年各純度黃金回收價格表</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0', fontSize:'0.95rem'}}>
         <thead>
           <tr style={{background:'#f59e0b', color:'white'}}>
@@ -140,7 +140,7 @@ export default function Page() {
       </table>
       <p style={{fontSize:'0.85rem', color:'#666', marginTop:'8px'}}>* 以上價格僅供參考，實際回收價格以店家報價為準，會受國際金價、飾品狀況、扣耗標準影響</p>
 
-      <h2>影響黃金回收價格的關鍵因素是多少？</h2>
+      <h2>🔍 影響黃金回收價格的關鍵因素</h2>
       <ul>
         <li><strong>國際金價變動</strong> - 每日國際金價影響回收報價，建議關注美國Fed利率決策</li>
         <li><strong>純度與K數</strong> - 純度越高回收價越好，24K最優，14K以下可能遭拒收或低價</li>
@@ -149,7 +149,7 @@ export default function Page() {
         <li><strong>品牌與工藝</strong> - 有品牌的金飾可能有一定附加價值</li>
       </ul>
 
-      <h2>高價回收技巧有哪些？</h2>
+      <h2>✅ 高價回收有哪些方法？</h2>
       <ul>
         <li><strong>比價3家以上</strong> - 不同店家報價差異可達數千元</li>
         <li><strong>選擇不扣耗店家</strong> - 扣減5%等於每兩損失約1,000元</li>
@@ -158,7 +158,7 @@ export default function Page() {
         <li><strong>清除雜質</strong> - 秤重前清除灰塵、線索等附著物</li>
       </ul>
 
-      <h2>常見回收陷阱有哪些？</h2>
+      <h2>❌ 常見回收陷阱</h2>
       <ul>
         <li><strong>低於市價太多</strong> - 遠低於行情的報價可能有詐</li>
         <li><strong>扣重過高</strong> - 扣耗超過10%就要提高警覺</li>
@@ -166,7 +166,7 @@ export default function Page() {
         <li><strong>更換秤具</strong> - 注意秤是否有公信力單位的檢驗標章</li>
       </ul>
 
-      <h2>怎麼回收黃金推薦選擇？</h2>
+      <h2>📍 回收黃金推薦選擇</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0', fontSize:'0.9rem'}}>
         <thead>
           <tr style={{background:'#10b981', color:'white'}}>
@@ -198,7 +198,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>常見問題 FAQ</h2>
+      <h2>❓ 常見問題 FAQ</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 2026年黃金回收價格多少？</summary>

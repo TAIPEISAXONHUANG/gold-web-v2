@@ -91,7 +91,7 @@ export default function Page() {
           <strong>直接給答案：</strong> 2026年3月底，台北K金收購行情：18K約 <strong>13,100–13,500 元/錢</strong>、14K約 <strong>10,200–10,500 元/錢</strong>、10K約 <strong>7,200–7,500 元/錢</strong>（以9999純金17,500元/錢為基準，含金量計算）。選店家重點：不扣耗損、XRF現場測、有儀器才是專業。
         </div>
 
-        <h2>K金收購第一步的先搞清楚自己的K數是什麼？</h2>
+        <h2>K金收購前要先搞清楚什麼？</h2>
         <p>
           K金飾品通常都有內刻印，在扣頭處或項鍊最尾端：
         </p>
@@ -106,7 +106,7 @@ export default function Page() {
           這種情況建議找有XRF儀器的店家現場測，3秒知道結果，不用猜。
         </p>
 
-        <h2>2026年台北K金收購價格對照表是多少？</h2>
+        <h2>2026年台北K金收購行情是多少？</h2>
         <p>以2026年3月底9999純金回收牌價 17,500–18,000 元/錢為基準：</p>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
@@ -166,7 +166,7 @@ export default function Page() {
           <li><strong>巧品珠寶：</strong>18K、14K、10K、22K、Pt900全品項收購，XRF現場測成色，不扣耗損，現場現金融資，大安站步行5分鐘。</li>
         </ul>
 
-        <h2>K金收購3個常見話術的遇到就小心是什麼？</h2>
+        <h2>K金收購有哪些常見話術？</h2>
         <p>
           <strong>話術一：「你這個22K，市場上不好脫手，要扣一點」</strong>
           <br />
@@ -186,7 +186,7 @@ export default function Page() {
           XRF儀器能量化到小數點後兩位，說「看起來不純」而不願意儀器檢測的店家，絕對有問題。
         </p>
 
-        <h2>K金收購流程的流程是什麼？</h2>
+        <h2>K金收購流程是什麼？</h2>
         <ol>
           <li><strong>致電或LINE詢問：</strong>說明品項和大概重量，獲得初步評估</li>
           <li><strong>到店估價：</strong>大安站步行5分鐘，不需預約，營業時間隨時來</li>

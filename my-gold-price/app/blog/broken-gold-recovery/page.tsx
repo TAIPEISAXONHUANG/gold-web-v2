@@ -45,7 +45,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 斷裂、變形的金飾一樣可以回收！回收價依純度和重量計算，不因外觀損壞而扣價。巧品珠寶專業鑑定，公平計價。
       </div>
 
-      <h2>斷掉的黃金一樣有價值嗎？</h2>
+      <h2>結論：斷掉的黃金一樣有價值！</h2>
       <p>很多人誤以為黃金首飾一旦斷裂或變形，就大幅貶值甚至無法回收。事實完全不是這樣！黃金的價值來自於它的<strong>純度和重量</strong>，與外觀狀況完全無關。斷掉的項鍊、變形的戒指、裂開的手鐲，在正規回收店都能以公道的市場價格回收。</p>
 
       <h2>哪些損壞的黃金可以回收？</h2>
@@ -60,7 +60,7 @@ export default function Page() {
         <li><strong>舊式工法斷裂的古金</strong>：年代久遠的金飾更需要專業鑑定（詳見<a href="/blog/gold-antique" style={{ color: '#B8860B' }}>古早黃金回收</a>）</li>
       </ul>
 
-      <h2>損壞黃金的回收注意事項有哪些？</h2>
+      <h2>損壞黃金回收有哪些注意事項？</h2>
       <p>雖然損壞不影響回收價格，但有幾點需要注意：</p>
       <ul>
         <li><strong>保留所有碎片</strong>：哪怕是很小的金屑，都有價值，請全部帶來估價</li>
@@ -69,14 +69,14 @@ export default function Page() {
         <li><strong>刻字部分</strong>：刻有名字或紀念文字不影響重量計算，不需要磨掉</li>
       </ul>
 
-      <h2>斷裂黃金 vs 完好黃金的回收價格比較？</h2>
+      <h2>斷裂黃金和完好黃金回收價格有什麼差異？</h2>
       <p>這是很多人最關心的問題。正規的黃金回收商計價方式是：</p>
       <p style={{background:'#f5f5f5', padding:'1rem', borderRadius:'8px', fontFamily:'monospace'}}>
         回收價格 = 純金重量（克）× 當日黃金回收價（元/克）
       </p>
       <p>只要純度和重量相同，損壞的黃金與完好的黃金<strong>價格完全一樣</strong>。如果有店家以「受損」為由壓低報價，請立刻離開，那是不誠信的業者。了解更多<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>影響黃金回收價格的因素</a>。</p>
 
-      <h2>黃金受損的常見原因有哪些？</h2>
+      <h2>黃金受損有哪些常見原因？</h2>
       <ul>
         <li>長期佩戴自然磨損導致鍊子斷裂</li>
         <li>純金柔軟，外力撞擊容易變形</li>
@@ -85,7 +85,7 @@ export default function Page() {
       </ul>
       <p>無論原因為何，損壞的黃金一樣有完整的回收價值，不用擔心。</p>
 
-      <h2>該修復還是回收？</h2>
+      <h2>修復還是回收？</h2>
       <p>當金飾損壞時，您可能會考慮是否要先修復再回收，還是直接回收。建議的判斷標準：</p>
       <ul>
         <li>若金飾有特殊紀念價值，優先考慮修復繼續使用</li>
@@ -102,7 +102,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 斷掉的金飾可以回收嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 可以。斷裂、變形、刮傷的金飾都能回收，回收價只看純度和重量，不因外觀扣價。</p>

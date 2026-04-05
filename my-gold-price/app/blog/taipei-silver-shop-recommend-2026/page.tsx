@@ -93,7 +93,7 @@ export default function TaipeiSilverShopRecommend2026() {
           有這三點，哪家都能放心去；缺了這三點，口碑再好也要小心。
         </p>
 
-        <h2>選台北銀樓的三個硬標準有哪些？</h2>
+        <h2>選台北銀樓有哪些標準？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -164,7 +164,7 @@ export default function TaipeiSilverShopRecommend2026() {
           </tbody>
         </table>
 
-        <h2>看評論不夠用的去之前要問的兩個問題是什麼？</h2>
+        <h2>選銀樓看評論不夠，還要問哪些問題？</h2>
         <p>
           Google評分高不代表回收價高，網路推薦文很多是業配或客戶體驗服務態度而非價格。
           去之前直接問：

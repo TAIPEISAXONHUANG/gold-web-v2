@@ -45,13 +45,13 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金與K金的核心差異在於「純度」！24K（9999）是99.99{'%'}純金，18K是75{'%'}，14K是58.5{'%'}。純度越高越值錢，但K金更堅固耐用。買金飾看用途，賣黃金看純度。
       </div>
       
-      <h2>了解黃金與K金的差異，怎麼買賣更划算？</h2>
+      <h2>結論：了解黃金與K金的差異，讓您買得聰明、賣得划算！</h2>
 
-      <h2>黃金與K金的基本認識怎麼看？</h2>
+      <h2>📖 黃金與K金的是什麼？</h2>
       <p><strong>黃金（24K/9999）</strong>：指純度99.99{'%'}的黃金，是最純粹的黃金狀態，顏色金黃璀璨，投資與保值價值最高。</p>
       <p><strong>K金</strong>：是黃金與銀、銅、鎳等金屬的合金。「K」代表Karat（克拉），與珠寶的克拉不同。添加其他金屬是為了增加硬度、變化顏色，讓珠寶更耐用、更多元。</p>
 
-      <h2>黃金與K金純度對照表（2026年最新版）怎麼看？</h2>
+      <h2>📊 黃金與K金純度對照表（2026年最新版）</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f59e0b', color: 'white' }}>
@@ -95,7 +95,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>黃金（24K）的優點與缺點是什麼？</h2>
+      <h2>✅ 黃金（24K）的優點與缺點</h2>
       
       <h3>🌟 優點：</h3>
       <ul>
@@ -112,7 +112,7 @@ export default function Page() {
         <li><strong>設計受限</strong>：無法做出複雜精細的款式</li>
       </ul>
 
-      <h2>K金的優點與缺點是什麼？</h2>
+      <h2>✅ K金的優點與缺點</h2>
       
       <h3>🌟 優點：</h3>
       <ul>
@@ -129,7 +129,7 @@ export default function Page() {
         <li><strong>長期褪色</strong>：部分K金可能會有褪色問題</li>
       </ul>
 
-      <h2>黃金與K金回收價格計算（2026年實例）怎麼算？</h2>
+      <h2>💰 黃金與K金回收價格怎麼計算？</h2>
       <p>計算公式：<strong>當日金價 × 重量 × 純度%</strong></p>
       <p>假設2026年當日金價為每錢6,000元：</p>
       
@@ -183,7 +183,7 @@ export default function Page() {
         <li>預算有限，想買較大件的飾品</li>
       </ul>
 
-      <h2>小知識的K金編號的秘密是什麼？</h2>
+      <h2>💡 K金編號的秘密是什麼？</h2>
       <p>您可能在珠寶上看到「750」、「585」等數字，這代表：</p>
       <ul>
         <li><strong>750</strong> = 18K（75{'%'}黃金）</li>
@@ -203,7 +203,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>聯繫我們</h2>
+      <h2>📞 聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

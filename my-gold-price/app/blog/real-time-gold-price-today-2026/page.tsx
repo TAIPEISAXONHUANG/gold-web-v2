@@ -93,7 +93,7 @@ export default function RealTimeGoldPriceToday2026() {
           表格僅供參考。</strong>
         </p>
 
-        <h2>2026年4月今日金價是多少？（台制）</h2>
+        <h2>2026年4月台灣今日金價是多少？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>
@@ -151,7 +151,7 @@ export default function RealTimeGoldPriceToday2026() {
           個別店家的報價還是可能差100–300元/錢。
         </p>
 
-        <h2>2026年金價走勢的你需要知道的背景是什麼？</h2>
+        <h2>2026年金價走勢有什麼背景？</h2>
         <p>
           2026年初至今，黃金維持在歷史相對高位。主要驅動因素包括：
           美聯準會降息預期、地緣政治緊張、各國央行持續增加黃金儲備。
@@ -161,7 +161,7 @@ export default function RealTimeGoldPriceToday2026() {
           但買黃金短期追高有風險。長期持有（3–5年）的話，任何時間點分批買入都是合理策略。
         </p>
 
-        <h2>一錢換算成克的常用的換算表是什麼？</h2>
+        <h2>一錢換算成克怎麼算？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

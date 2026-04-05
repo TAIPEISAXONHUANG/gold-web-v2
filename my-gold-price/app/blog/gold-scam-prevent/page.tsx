@@ -54,10 +54,10 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>黃金回收詐騙的嚴重性怎麼做？</h2>
+      <h2>黃金回收詐騙有多嚴重？</h2>
       <p>隨著<a href="/blog/gold-price-2026" style={{color:'#B8860B'}}>2026年金價持續走高</a>，黃金回收市場交易量大增，詐騙案件也隨之攀升。根據消費者保護會統計，每年黃金交易糾紛達數百件，其中以秤重不實與報價不透明為最大宗。許多民眾因缺乏經驗，在第一次賣黃金時就遭遇不良業者，損失金額從數千到數萬元不等。了解常見手法並做好防範，才能確保你辛苦存下的黃金不被低估或騙走。</p>
 
-      <h2>常見黃金回收詐騙手法怎麼做？</h2>
+      <h2>常見黃金回收詐騙手法有哪些？</h2>
       <ul>
         <li><strong>秤重動手腳</strong>：使用未校準的磅秤、趁你不注意時按壓秤盤，或故意在秤上放置異物讓重量偏低。正規業者的秤應有<a href="/blog/gold-scale-trap" style={{color:'#B8860B'}}>度量衡局檢定合格標章</a>。</li>
         <li><strong>誇大耗損扣除</strong>：聲稱需扣20-30{'%'}「耗損」，但實際上純金回收根本不需要扣耗損，正規店家按實際重量計價。</li>
@@ -67,7 +67,7 @@ export default function Page() {
         <li><strong>話術壓價</strong>：用「這條成色不好」「現在金價很差」等說法製造恐慌，催促你當場低價成交。</li>
       </ul>
 
-      <h2>如何自保的五大防詐要訣是什麼？</h2>
+      <h2>如何自保：五大防詐要訣</h2>
       <ol>
         <li><strong>事前做功課</strong>：出門前先查詢當日國際金價與銀樓牌價，了解合理回收價區間。可參考<a href="/blog/gold-recycling-price-factors" style={{color:'#B8860B'}}>影響回收價格的因素</a>。</li>
         <li><strong>選擇信譽良好的店家</strong>：優先選擇<a href="/blog/how-to-choose-gold-shop" style={{color:'#B8860B'}}>有實體門市、Google評論數量多且評分高的店家</a>，避免路邊攤或來路不明的業者。</li>
@@ -76,14 +76,14 @@ export default function Page() {
         <li><strong>保留所有證據</strong>：交易前後拍照錄影，索取明細收據，並確認收據上有店家統一編號。</li>
       </ol>
 
-      <h2>識別正規店家的關鍵指標怎麼看？</h2>
+      <h2>識別正規店家有哪些關鍵指標？</h2>
       <p>選擇回收店家時，可從以下幾個面向判斷是否為正規業者。首先，合法店家一定會有經濟部商業司的營業登記，店內應公示營利事業登記證。其次，磅秤上必須貼有經濟部標準檢驗局的合格標章，代表秤量器具經過校準。第三，正規店家願意公開報價計算方式，包含當日牌價來源、純度判定依據與實際計算公式。最後，信譽良好的店家通常會有充足的Google評論、透明的交易流程說明，以及完善的售後服務。想了解更多選店技巧，請參考<a href="/blog/sell-gold-tips" style={{color:'#B8860B'}}>賣黃金技巧</a>。</p>
 
-      <h2>遭遇詐騙的處理步驟是什麼？</h2>
+      <h2>遭遇詐騙要怎麼處理？</h2>
       <p>如果不幸遭遇黃金回收詐騙，請務必冷靜處理。第一步，立即保留所有交易證據，包含收據、LINE對話紀錄、現場錄影。第二步，撥打消費者保護專線1950進行申訴，或至行政院消費者保護會網站提出線上申訴。第三步，若涉及金額較大或明確詐欺行為，應向當地警察局報案並取得報案三聯單。第四步，若店家有營業登記，可向經濟部商業司檢舉。透過這些管道，多數消費糾紛可以獲得妥善處理。平時養成<a href="/blog/gold-safety" style={{color:'#B8860B'}}>安全交易習慣</a>，才是最好的防範之道。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>❓ 常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收有什麼常見詐騙手法？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 常見手法包括：偷扣秤重（使用不準確的磅秤少算重量）、壓低純度判定（將999純金謊稱為K金）、報價後額外扣耗損（以10-30{'%'}的扣損名義壓低價格）、以低於國際牌價的價格計算、以及調包黃金等。</p>

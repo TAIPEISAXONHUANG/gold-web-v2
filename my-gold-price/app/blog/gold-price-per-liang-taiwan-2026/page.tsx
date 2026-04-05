@@ -140,7 +140,7 @@ export default function Page() {
       </ul>
       <p>台灣銀行公告的「黃金存摺牌價」單位是「台兩」，1台兩＝5錢＝18.75克，和上面的「兩」一樣。看到牌價 <strong>85,000 元/台兩</strong>，直接除以5就是 <strong>17,000 元/錢</strong>。</p>
 
-      <h2>今日金價怎麼算？一個公式搞定</h2>
+      <h2>今日金價怎麼算？</h2>
       <div style={{ background: '#f3f4f6', padding: '1rem', borderRadius: '8px', margin: '1rem 0', fontFamily: 'monospace' }}>
         <strong>回收金額 ＝ 重量（兩）× 當日一兩牌價 × 純度%</strong><br />
         <strong>＝ 重量（錢）× 當日一錢牌價 × 純度%</strong>

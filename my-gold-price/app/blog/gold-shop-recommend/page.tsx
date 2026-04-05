@@ -48,7 +48,7 @@ export default function Page() {
       <h2>為什麼選對店家如此重要？</h2>
       <p>同一件黃金飾品，在不同店家的報價可能差距數百到數千元。差距來自各店家的損耗費計算、報價基準（是否貼近市場牌價）以及透明度。選對店家，不只是省錢，更是保障自己的權益。賣前可先參考<a href="/blog/before-selling-gold" style={{color:'#B8860B'}}>賣黃金前必知事項</a>做好準備。</p>
 
-      <h2>誠信黃金回收店的5大判斷標準有哪些？</h2>
+      <h2>誠信黃金回收店有哪些判斷標準？</h2>
 
       <h3>1. 公開透明的秤重</h3>
       <p>務必在您眼前進行秤重，讓您親眼看到電子秤上的數字。拒絕代為秤重或僅告知重量數字的店家，避免<a href="/blog/gold-scale-trap" style={{color:'#B8860B'}}>秤重陷阱</a>。</p>
@@ -75,7 +75,7 @@ export default function Page() {
         <li><strong>免費估價</strong>：不賣完全沒有任何義務，估價免費</li>
       </ul>
 
-      <h2>可回收的黃金種類有哪些？</h2>
+      <h2>可回收的黃金有哪些種類？</h2>
       <p>巧品珠寶收購各種黃金飾品和投資型黃金，包含：</p>
       <ul>
         <li><a href="/blog/gold-jewelry-recovery" style={{color:'#B8860B'}}>各類金飾</a>（戒指、項鍊、手鍊、耳環）</li>
