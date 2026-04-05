@@ -361,7 +361,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             <div className="space-y-5 text-sm text-gray-700 leading-relaxed">
                                 <div>
                                     <h3 className="font-bold text-gray-900 mb-1">黃金回收的計算方式是什麼？</h3>
-                                    <p><strong>黃金回收價</strong>是依當日國際金價（美元/盎司）換算台幣，再乘以純度折算。K 數代表含金比例：</p>
+                                    <p><strong>黃金純度</strong>是指黃金含量的比例，24K（足金）為 99.9% 純金，18K 為 75% 純金，14K 為 58.5% 純金。<strong>黃金回收價</strong>是依當日國際金價（美元/盎司）換算台幣，再乘以純度折算。K 數代表含金比例：</p>
                                     <ul className="list-disc pl-5 mt-2 space-y-1">
                                         <li><strong>足金（999 / 24K）</strong>：含金量 99.9%</li>
                                         <li><strong>18K（750）</strong>：含金量 75%</li>
@@ -371,7 +371,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-900 mb-1">現場賣黃金需要帶哪些證件？</h3>
-                                    <p><strong>雙證件</strong>是基本要求：身分證 + 第二證件（健保卡或駕照）。未成年需監護人陪同簽名。</p>
+                                    <p><strong>雙證件</strong>是指身分證加上第二張政府核發的身份證明文件，如健保卡或駕照。<strong>雙證件</strong>是基本要求：身分證 + 第二證件（健保卡或駕照）。未成年需監護人陪同簽名。</p>
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-900 mb-1">如何辨別黃金純度？</h3>
