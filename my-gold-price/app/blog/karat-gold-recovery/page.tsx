@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收2026｜18K/14K/10K回收價格怎麼算？完整指南',
     description: 'K金回收完整指南！18K金回收價、14K金回收價、10K金回收計算公式一次搞懂。台北巧品珠寶，不扣耗損，儀器精準檢測，當場現金。電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-23T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

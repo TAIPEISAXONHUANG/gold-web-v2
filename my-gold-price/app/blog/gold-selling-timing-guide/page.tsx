@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略',
     description: '什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2025-01-01T00:00:00+08:00',
     modifiedTime: '2025-01-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

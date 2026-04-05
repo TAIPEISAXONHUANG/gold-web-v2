@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬',
     description: '黃金、K金、白金有什麼不同？一篇比較三者的成分、顏色、價值、回收行情，幫你分清楚手上的首飾是哪種材質。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

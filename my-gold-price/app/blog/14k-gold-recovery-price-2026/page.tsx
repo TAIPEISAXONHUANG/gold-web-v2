@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

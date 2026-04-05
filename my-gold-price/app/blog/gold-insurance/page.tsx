@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-insurance',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金保險｜黃金保障規劃指南｜巧品珠寶',
     description: '黃金保險完整說明！了解如何保障黃金資產安全，比較各種保管方式的風險。台北巧品珠寶提供安全的黃金回收服務。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

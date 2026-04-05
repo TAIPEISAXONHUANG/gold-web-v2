@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/platinum-vs-gold-taiwan-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '白金和黃金有什麼不同？2026年台灣白金回收價格與選購指南',
     description: '白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

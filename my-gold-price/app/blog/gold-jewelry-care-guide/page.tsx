@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-care-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金飾品保養、清潔與保存｜K金、9999、22K各類型完整指南',
     description: '黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2025-01-01T00:00:00+08:00',
     modifiedTime: '2025-01-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/lion-head-gold',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '金牌回收｜紀念金牌｜奧運金牌變現｜巧品珠寶',
     description: '獅頭金飾、老件金飾高價回收！傳統金飾、古早工法金件均可，按重量計價。台北巧品珠寶免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

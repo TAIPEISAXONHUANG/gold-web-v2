@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-safety',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金保存安全指南｜如何安全存放黃金｜巧品珠寶',
     description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

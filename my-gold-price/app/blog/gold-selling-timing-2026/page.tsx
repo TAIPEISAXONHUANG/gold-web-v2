@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '什麼時候賣黃金最划算？2026年賣金時機完整分析',
     description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-04T14:30:00+08:00',
     modifiedTime: '2026-04-04T14:30:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

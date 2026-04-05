@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-price-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收價格2026｜18K/14K/10K回收行情、計算方式與店家選擇',
     description: 'K金回收價格多少？2026年18K、14K、10K回收行情表＋計算方式。k金回收價格怎麼算？不同店家報價差異原因與選擇建議。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-key-factors',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金價格誰說了算？影響金價的5個關鍵因素',
     description: '黃金價格每天為何不同？深度解析影響金價的5大關鍵因素：美元、通膨、央行、地緣政治、供需，掌握金價規律更划算。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

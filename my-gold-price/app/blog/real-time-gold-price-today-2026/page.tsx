@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/real-time-gold-price-today-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/real-time-gold-price-today-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-silver-shop',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收店vs銀樓差異｜10年經驗店家不藏私分享',
     description: '黃金回收商 vs 銀樓賣黃金，哪個划算？10年經驗老闆比較兩者差異，告訴你在哪裡賣黃金最不吃虧，多拿更多現金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-14T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

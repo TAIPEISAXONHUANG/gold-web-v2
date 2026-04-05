@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/platinum-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '白金回收｜鉑金回收｜巧品珠寶',
     description: '白金、鉑金高價回收！Pt950、Pt900各純度均可，按重量現金付款。台北大安區巧品珠寶免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

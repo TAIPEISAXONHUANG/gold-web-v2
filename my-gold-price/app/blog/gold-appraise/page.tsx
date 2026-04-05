@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-appraise',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金估價｜免費專業鑑定｜巧品珠寶台北',
     description: '台北黃金免費估價！專業儀器鑑定K金、白金、鑽石，老闆親自操作，公開透明。估完不賣可直接帶走，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金、白金、K金有何不同？一篇搞懂',
     description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

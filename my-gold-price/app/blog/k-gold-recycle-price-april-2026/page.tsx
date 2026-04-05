@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-price-april-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收價格2026年4月｜18K、14K、10K最新行情與計算方式',
     description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

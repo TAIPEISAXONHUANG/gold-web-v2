@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taipei-silver-shop-recommend-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/taipei-silver-shop-recommend-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

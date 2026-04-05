@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/sell-gold-tips',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金要注意什麼？5個不被坑的必知技巧',
     description: '賣黃金完整攻略！5大技巧讓你不吃虧，了解計價方式、避開扣耗損話術，選對店家每台錢多拿500元。巧品珠寶免費估價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

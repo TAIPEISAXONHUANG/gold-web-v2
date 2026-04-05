@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/recycle-k-gold-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '回收K金怎麼算？2026年K金收購價格完整攻略',
     description: '回收K金前必看：18K、14K、10K收購價怎麼算？扣耗損是什麼陷阱？實際到手金額怎麼估？一篇說清楚。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

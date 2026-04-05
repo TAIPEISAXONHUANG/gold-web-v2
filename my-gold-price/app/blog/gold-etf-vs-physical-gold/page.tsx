@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-etf-vs-physical-gold',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金ETF vs 實體黃金2026｜哪個更值得？費用、流動性、稅務比較',
     description: '黃金ETF和實體黃金（金條、金飾）哪個好？2026年完整比較包括：費用結構、流動性、風險、稅務，以及台灣投資人的實際操作方式。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

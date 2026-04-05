@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-birthday-gift',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金生日禮物｜送黃金首飾攻略｜巧品珠寶',
     description: '黃金生日禮物回收推薦！長輩送的金飾不想留，可高價回收變現。台北大安區巧品珠寶免費估價，不扣耗損，當場現金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

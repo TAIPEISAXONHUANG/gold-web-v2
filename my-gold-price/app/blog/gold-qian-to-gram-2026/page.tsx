@@ -5,12 +5,15 @@ export const metadata: Metadata = {
   description: '黃金一錢等於多少公克？台灣錢、兩、克、盎司完整換算公式。10mg黃金多少錢？附2026年最新即時金價對照表，秒算你的黃金值多少。',
   keywords: '黃金一錢等於幾公克,黃金錢公克換算,一錢幾克黃金,10mg黃金多少錢,台灣黃金重量換算2026,黃金一兩多少公克',
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金一錢等於幾公克？2026換算公式與實用計算表',
     description: '黃金一錢等於多少公克？台灣錢、兩、克、盎司完整換算公式。10mg黃金多少錢？附2026年最新即時金價對照表。',
     url: 'https://www.gold-tw.com/blog/gold-qian-to-gram-2026',
     type: 'article',
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-today-april-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '今日黃金價格台灣 2026年4月——每日更新金價查詢指南',
     description: '2026年台灣今日黃金價格怎麼查？銀行牌告、國際金價、回收價差在哪？本篇整理黃金價格查詢管道與判讀方式，讓你每天看懂金價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recycling-recommend',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台北黃金回收推薦｜2026年哪家銀樓價格最好？大安/中山/士林攻略',
     description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-18T00:00:00+08:00',
     modifiedTime: '2026-03-18T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/how-to-choose-gold-shop',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收店怎麼選？10年經驗老師傅不藏私分享',
     description: '如何選擇可信賴的黃金回收店？5大評估標準讓你避開黑心業者，10年老闆親授選店技巧，安心賣黃金拿現金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-14T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

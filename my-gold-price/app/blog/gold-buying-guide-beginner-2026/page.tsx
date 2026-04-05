@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-buying-guide-beginner-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '第一次買黃金就上手2026｜新手買金注意事項、管道比較與防騙指南',
     description: '第一次買黃金要注意什麼？2026年台灣買黃金管道、價格陷阱、純度識別，以及新手最常問的5個問題。買黃金不後悔，先看這篇。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

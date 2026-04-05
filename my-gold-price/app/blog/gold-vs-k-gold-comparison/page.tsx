@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金vs K金怎麼選？回收價差一次搞懂｜巧品珠寶',
     description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-24T00:00:00+08:00',
     modifiedTime: '2026-03-24T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

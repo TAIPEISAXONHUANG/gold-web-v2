@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-report',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收行情報告｜18K、14K多少錢？',
     description: 'K金回收現場報告！18K、14K黃金實際估價流程，2026年最新K金行情揭露，讓你了解K金到底值多少錢。',
     type: 'article',
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

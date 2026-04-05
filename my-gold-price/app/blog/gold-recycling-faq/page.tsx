@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-faq',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收常見問題總整理｜2026年必看攻略',
     description: '黃金回收常見問題解答：流程、證件、費用、注意事項。專業珠寶店親自告訴你如何賣出好價格。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
     description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

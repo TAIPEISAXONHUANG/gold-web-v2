@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/temple-gold-medal-sell-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '神明金牌、神像金牌、廟裡換下來的金牌可以賣嗎？答案是可以，但有幾個細節要先確認。本文說清楚神明金牌的回收流程、2026年行情，以及哪些情況不能賣。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/temple-gold-medal-sell-guide',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

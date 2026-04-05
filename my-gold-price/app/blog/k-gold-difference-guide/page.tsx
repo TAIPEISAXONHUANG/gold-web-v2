@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-difference-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金與K金的差異分析｜純度、價格、回收價值一次看懂｜巧品珠寶',
     description: '黃金與K金哪個更值得買？24K、18K、14K差在哪？一篇搞懂純度、價格計算方式、回收價值，買金飾不吃虧、賣黃金更值錢。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T00:00:00+08:00',
     modifiedTime: '2026-03-28T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

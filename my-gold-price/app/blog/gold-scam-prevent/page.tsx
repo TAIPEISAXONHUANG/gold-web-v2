@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-scam-prevent',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金詐騙防範｜常見黃金騙局攻略｜巧品珠寶',
     description: '黃金回收詐騙防範完整指南！識破話術、假牌價、扣耗損等手法，教你如何選擇誠信店家，安全賣黃金不吃虧。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

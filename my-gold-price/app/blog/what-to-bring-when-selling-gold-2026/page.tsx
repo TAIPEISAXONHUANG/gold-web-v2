@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/what-to-bring-when-selling-gold-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金要帶什麼？2026年最新規定告訴你',
     description: '2026年賣黃金完整攜帶清單！身分證、黃金物品、購買憑證（選備）。台北巧品珠寶10分鐘搞定，當場現金，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

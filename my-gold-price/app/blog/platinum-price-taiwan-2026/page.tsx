@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: '白金價格台灣2026｜鉑金 vs 黃金收購行情完整比較',
   description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。',
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
     description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/platinum-price-taiwan-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

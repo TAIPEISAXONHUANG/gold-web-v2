@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://gold-tw.com/blog/k-gold-recycle-taiwan-april-2026",
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收台灣2026年4月｜18K、14K、10K收購流程與即時行情',
     description: 'K金回收怎麼賣最划算？2026年4月台灣K金回收行情、計算方式與注意事項一次說清楚。18K、14K、10K不扣耗損，秤重全程透明。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

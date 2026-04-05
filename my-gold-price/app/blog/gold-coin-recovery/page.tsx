@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-coin-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '金幣回收｜紀念金幣變現｜巧品珠寶',
     description: '金幣、紀念幣高價回收！各國金幣、台灣銀行金幣均可，按含金量計價。台北巧品珠寶免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

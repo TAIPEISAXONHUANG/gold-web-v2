@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/916-gold-recycling-taiwan-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '916黃金回收2026｜台灣916金價行情與18K差異完整解析',
     description: '916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

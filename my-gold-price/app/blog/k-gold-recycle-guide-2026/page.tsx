@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收完整指南2026｜14K、18K、Pt900收購流程與報價邏輯',
     description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-05T14:00:00+08:00',
     modifiedTime: '2026-04-05T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

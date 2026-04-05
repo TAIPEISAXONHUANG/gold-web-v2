@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-recommend',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收推薦｜誠信店家｜巧品珠寶',
     description: '台北黃金回收店推薦！如何選擇誠信、高價的黃金回收商？巧品珠寶老闆親自估價，公開透明，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

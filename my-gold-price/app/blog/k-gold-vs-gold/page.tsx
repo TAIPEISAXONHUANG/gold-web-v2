@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-vs-gold',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金與黃金的差異｜一篇讓你搞懂貴金屬',
     description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

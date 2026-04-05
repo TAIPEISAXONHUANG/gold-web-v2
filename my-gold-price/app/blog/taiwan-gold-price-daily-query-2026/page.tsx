@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-daily-query-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '今日黃金價格台灣2026：每日更新的黃金報價、漲跌分析、一錢一兩換算，以及黃金回收最佳時機判斷。看這一篇就夠了。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/taiwan-gold-price-daily-query-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-id-requirement',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金為什麼要登記身分證？台灣反洗錢法規完整說明｜巧品珠寶',
     description: '賣黃金為什麼要登記？台灣洗錢防制法規定，貴金屬回收交易需實名制登記身分證。一文搞懂法律依據、需要哪些文件、流程如何進行，以及常見FAQ完整解答。巧品珠寶台北大安區。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-should-know',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收必知｜新手必看｜巧品珠寶',
     description: '賣黃金必知5件事！了解計價方式、常見陷阱、所需證件，選對店家讓你每台錢多拿 500 元。台北巧品珠寶免費估價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

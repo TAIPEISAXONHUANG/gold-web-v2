@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-quality-craftsmanship-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金品質與工藝指南2026｜如何判斷好壞？工藝、品牌、產地差異',
     description: '黃金品質怎麼看？除了K數以外，工藝水平、品牌譽、產地來源都影響黃金飾品價值。本篇詳細說明義大利金飾、中國金飾、台灣金飾的工藝差異與品質辨識方法。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

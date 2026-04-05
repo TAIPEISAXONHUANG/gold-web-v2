@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/diamond-jewelry',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶',
     description: '台北鑽石珠寶高價收購！GIA鑽石、名品珠寶免費估價，10年經驗老闆親自鑑定，當場現金付款，不強迫成交。電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

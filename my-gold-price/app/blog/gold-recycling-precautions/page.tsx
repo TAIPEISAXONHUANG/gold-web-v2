@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金防被騙！5大回收陷阱破解｜巧品珠寶',
     description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-23T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-common-questions',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收常見問題｜2026年最新指南｜巧品珠寶',
     description: '黃金回收必看！2026年最新常見問題解答：回收流程、秤重扣重、證件準備、防詐騙技巧。10年經驗老闆親自解答，讓您安心變現。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/why-some-get-better-gold-price',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '為什麼有些人賣黃金比較值錢？原來是這個原因',
     description: '為什麼同樣的黃金，有人拿到高價、有人拿到低價？揭秘3大關鍵因素：選店技巧、時機、談判方式，讓你拿到最高回收價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-silver-investment',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議',
     description: '黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2025-01-01T00:00:00+08:00',
     modifiedTime: '2025-01-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

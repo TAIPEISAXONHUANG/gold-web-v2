@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-faq-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '第一次賣黃金？2026回收QA十問｜巧品珠寶',
     description: '要帶什麼證件？秤重會被扣嗎？2026最新版黃金回收10大問題，台北巧品珠寶逐題解答，新手看完就能安心賣金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

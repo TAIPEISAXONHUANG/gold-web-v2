@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明',
     description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-05T14:20:00+08:00',
     modifiedTime: '2026-04-05T14:20:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-price-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/k-gold-recovery-price-2026',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 }
 

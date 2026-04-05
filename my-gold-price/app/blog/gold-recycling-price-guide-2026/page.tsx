@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026年台灣黃金回收價格完整指南｜各純度回收價差比較表',
     description: '2026年台灣黃金回收價格完整指南！最新各純度(K金/9999/995)回收報價，影響價格因素專業解析，幫您賣出最優惠價格。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-18T00:00:00+08:00',
     modifiedTime: '2026-03-18T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

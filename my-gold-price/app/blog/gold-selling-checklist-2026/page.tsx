@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-checklist-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金前檢查清單2026｜估價前必做的7個步驟與注意事項',
     description: '賣黃金之前要做什麼準備？完整的估價前檢查清單，包括：確認純度、秤重量、問牌價、帶證件、選店家。7個步驟，確保你拿到最好的價格。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

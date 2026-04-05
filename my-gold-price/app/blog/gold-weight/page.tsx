@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-weight',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金重量怎麼算？台錢vs公克換算｜巧品珠寶',
     description: '黃金重量單位完整說明！台錢、公克、英兩換算對照表，了解台灣黃金交易慣用單位，計算回收金額不再被搞混。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 
