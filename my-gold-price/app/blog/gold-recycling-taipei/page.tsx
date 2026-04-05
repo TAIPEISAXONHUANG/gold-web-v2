@@ -2,28 +2,14 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
-  description: '台北黃金回收每錢約NTexport const metadata: Metadata = {
-  title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
   description: '台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
-  keywords: '黃金回收 台北,台北黃金回收推薦,黃金回收價格,台北銀樓推薦,金飾回收,黃金回收不扣重,賣黃金台北,金條回收價格',
-  alternates: {
-    canonical: 'https://www.gold-tw.com/blog/gold-recycling-taipei',
-  },
-7,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
   keywords: '黃金回收 台北,台北黃金回收推薦,黃金回收價格,台北銀樓推薦,金飾回收,黃金回收不扣重,賣黃金台北,金條回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-taipei',
   },
   openGraph: {
     title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
-    description: '台北黃金回收每錢約NTexport const metadata: Metadata = {
-  title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
-  description: '台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
-  keywords: '黃金回收 台北,台北黃金回收推薦,黃金回收價格,台北銀樓推薦,金飾回收,黃金回收不扣重,賣黃金台北,金條回收價格',
-  alternates: {
-    canonical: 'https://www.gold-tw.com/blog/gold-recycling-taipei',
-  },
-7,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
+    description: '台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/gold-recycling-taipei',
     siteName: '巧品珠寶',
