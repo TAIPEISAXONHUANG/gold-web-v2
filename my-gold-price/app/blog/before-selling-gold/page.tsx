@@ -30,7 +30,7 @@ export default function Page() {
             "@type": "BlogPosting",
             "headline": "賣黃金前要注意什麼｜完整攻略",
             "author": {
-              "@type": "Organization",
+              "@type": "Person",
               "name": "鑑定師L"
             },
             "publisher": {

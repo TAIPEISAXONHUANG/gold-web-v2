@@ -30,7 +30,7 @@ export default function Page() {
             "@type": "BlogPosting",
             "headline": "斷掉的黃金｜黃金斷了怎麼辦",
             "author": {
-              "@type": "Organization",
+              "@type": "Person",
               "name": "鑑定師L"
             },
             "publisher": {

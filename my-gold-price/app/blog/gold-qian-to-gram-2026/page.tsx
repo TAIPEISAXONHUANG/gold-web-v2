@@ -35,7 +35,7 @@ export default function Page() {
         "datePublished": "2026-04-04",
         "dateModified": "2026-04-04",
         "author": {
-          "@type": "Organization",
+          "@type": "Person",
           "name": "鑑定師L",
           "url": "https://www.gold-tw.com"
         },
