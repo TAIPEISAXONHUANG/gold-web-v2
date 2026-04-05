@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "黃金回收注意事項2026｜防詐騙完整指南｜巧品珠寶",
             "description": "黃金回收注意事項完整指南！扣秤、扣耗損、低報純度是最常見的陷阱，教你辨識不良業者、保護自身權益。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-recycling-precautions" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-12T00:00:00+08:00",

@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "K金回收2026｜18K/14K/10K回收價格怎麼算？完整指南",
             "description": "K金回收完整指南！18K金回收價、14K金回收價計算公式，台北巧品珠寶儀器精準檢測，不扣耗損，當場現金。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/karat-gold-recovery" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-12T00:00:00+08:00",

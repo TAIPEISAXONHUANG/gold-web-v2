@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "賣黃金為什麼要登記身分證？台灣反洗錢法規完整說明",
             "description": "台灣洗錢防制法規定，貴金屬回收交易需實名制登記身分證。一文搞懂法律依據、所需文件、完整流程與常見問題。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-id-requirement" },
-            "author": { "@type": "Organization", "name": "金旺黃金" },
+            "author": { "@type": "Person", "name": "鑑定師L" },
             "publisher": {
               "@type": "Organization",
               "name": "巧品珠寶",
@@ -304,7 +304,7 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold', fontSize: '1.1rem' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 地址：台北市大安區濟南路三段62-1號（捷運忠孝新生站步行5分鐘）</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">https://www.gold-tw.com</a></p>
       <p style={{ color: '#B8860B', fontWeight: 'bold' }}>免費估價，估完不賣完全沒關係，歡迎比較後再決定。</p>
     </main>
   );

@@ -32,7 +32,7 @@ export default function Page() {
             "headline": "今日黃金回收價格2026｜台北當場現金，不扣耗損",
             "description": "依據國際金價即時報價，24K、18K、14K全收，不扣5%火耗，秤重全程透明。台北巧品珠寶。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-recovery-price-today" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-28T00:00:00+08:00",
@@ -196,9 +196,9 @@ export default function Page() {
       <div style={{ borderTop: '1px solid #eee', marginTop: '2rem', paddingTop: '1rem' }}>
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
-          <li><a href="https://www.gold-tw.com/today-gold-price" style={{ color: '#B8860B' }} rel="noopener noreferrer">今日台灣黃金牌價即時查詢</a></li>
+          <li><a href="https://www.gold-tw.com/today-gold-price" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">今日台灣黃金牌價即時查詢</a></li>
           <li><Link href="/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</Link></li>
-          <li><a href="https://www.gold-tw.com/blog/before-selling-gold" style={{ color: '#B8860B' }} rel="noopener noreferrer">賣黃金前必讀：避開這5個常見陷阱</a></li>
+          <li><a href="https://www.gold-tw.com/blog/before-selling-gold" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">賣黃金前必讀：避開這5個常見陷阱</a></li>
         </ul>
         <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>

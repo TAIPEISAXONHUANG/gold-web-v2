@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "台灣今日金價一錢2026｜最新黃金牌價即時查詢",
             "description": "台灣今日金價一錢多少錢？2026年即時黃金牌價與走勢解析，巧品珠寶提供最透明收購報價。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/taiwan-gold-price-daily-2026" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-28T14:00:00+08:00",

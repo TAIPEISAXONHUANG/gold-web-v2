@@ -66,7 +66,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南",
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-26",
             "dateModified": "2026-03-26T09:00:00+08:00",
@@ -239,8 +239,8 @@ export default function Page() {
       <h2>立即查詢今日一兩報價是多少？</h2>
       <p>台北大安區實體店，10年專業黃金回收，不扣耗損，現場現金支付。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/@QPD888" style={{ color: '#B8860B' }} rel="noopener noreferrer">@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/@QPD888" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

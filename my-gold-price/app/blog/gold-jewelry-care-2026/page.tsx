@@ -56,7 +56,7 @@ export default function Page() {
                 headline: '黃金飾品保養完整指南2026｜清潔、存放與常見損傷預防',
                 description: '黃金飾品怎麼保養才對？9999純金、K金、Pt900保養方式各不同。清潔步驟、存放禁忌、常見刮損問題一次解決。',
                 mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-jewelry-care-2026' },
-                author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+                author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
                 publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
                 datePublished: '2026-04-04T15:00:00+08:00',
                 dateModified: '2026-04-04T15:00:00+08:00',

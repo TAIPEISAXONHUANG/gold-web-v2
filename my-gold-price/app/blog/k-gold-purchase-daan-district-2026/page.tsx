@@ -88,7 +88,7 @@ export default function KGoldPurchaseDaanDistrict2026Page() {
             description: '台北大安K金收購，18K、14K、10K當場XRF驗成色、不扣火耗、現金結清。巧品珠寶大安館地址、交通、報價方式完整說明。',
             datePublished: '2026-04-02',
             dateModified: '2026-04-02',
-            author: { '@type': 'Organization', name: '鑑定師L' },
+            author: { '@type': 'Person', name: '鑑定師L' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             mainEntityOfPage: 'https://www.gold-tw.com/blog/k-gold-purchase-daan-district-2026',
           }),

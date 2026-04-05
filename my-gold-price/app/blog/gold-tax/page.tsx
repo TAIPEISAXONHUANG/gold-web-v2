@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶",
             "description": "賣黃金要繳稅嗎？台灣黃金交易稅務規定完整說明，個人賣黃金的課稅情況一次搞懂。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-tax" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80", "width": 1200, "height": 630 },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -134,8 +134,8 @@ export default function Page() {
         <strong>延伸閱讀：</strong>
         <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
           <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收指南</a></li>
-          <li><a href="https://law.moj.gov.tw" style={{ color: '#B8860B' }} rel="noopener noreferrer">中華民國所得稅法</a></li>
-          <li><a href="https://www.mof.gov.tw" style={{ color: '#B8860B' }} rel="noopener noreferrer">財政部</a></li>
+          <li><a href="https://law.moj.gov.tw" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">中華民國所得稅法</a></li>
+          <li><a href="https://www.mof.gov.tw" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">財政部</a></li>
         </ul>
       </div>
 
@@ -144,9 +144,9 @@ export default function Page() {
 
 
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} target="_blank" rel="noopener noreferrer">@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

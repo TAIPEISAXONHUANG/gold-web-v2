@@ -53,7 +53,7 @@ export default function Page() {
             headline: 'K金回收攻略2026｜14K、18K、9K哪家收？怎麼算最划算？',
             description: 'K金怎麼回收才不吃虧？本文說清楚14K、18K、9K金的回收計算方式、2026年行情、要避開的坑，以及台北哪裡回收K金給價最高。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/k-gold-recovery-guide-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

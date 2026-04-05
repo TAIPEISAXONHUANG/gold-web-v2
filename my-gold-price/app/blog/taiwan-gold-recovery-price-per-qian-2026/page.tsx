@@ -68,7 +68,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "台灣黃金回收價一錢多少？2026年最新行情完整指南",
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-25",
             "dateModified": "2026-03-25T00:00:00+08:00",
@@ -235,7 +235,7 @@ export default function Page() {
       <p>台北大安區實體店面，10年經驗，不扣耗損，當場現金付款。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

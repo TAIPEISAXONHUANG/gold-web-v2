@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "台北黃金回收推薦2026｜哪家價格最高？完整攻略",
             "description": "台北黃金回收推薦！免費估價、當場秤重、現金付款。不扣耗損、不扣手續費。大安區實體店。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/taipei-gold-recovery" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",

@@ -424,22 +424,22 @@ export default function Page() {
           <h3 className="font-bold text-gray-700 mb-3">延伸閱讀</h3>
           <ul className="space-y-2">
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/taiwan-gold-price-liang-vs-qian-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/taiwan-gold-price-liang-vs-qian-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金一兩和一錢的差別｜台灣黃金重量單位完整說明
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-measurement-unit-converter" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-measurement-unit-converter" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金重量換算工具｜錢、兩、克、盎司快速對照
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/k-gold-recovery-price-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/k-gold-recovery-price-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 K金回收價格2026｜18K、14K、10K各成色計算方式
               </a>
             </li>

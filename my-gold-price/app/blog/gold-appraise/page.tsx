@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "黃金估價｜免費專業鑑定｜巧品珠寶台北",
             "description": "台北黃金免費估價！專業儀器鑑定純度，當場秤重報價。不賣也沒關係。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-appraise" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -158,7 +158,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢｜巧品珠寶</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" target="_blank" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

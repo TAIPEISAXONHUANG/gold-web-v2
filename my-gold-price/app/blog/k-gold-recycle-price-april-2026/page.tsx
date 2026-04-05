@@ -88,7 +88,7 @@ export default function KGoldRecyclePriceApril2026Page() {
             description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。',
             datePublished: '2026-04-02',
             dateModified: '2026-04-02',
-            author: { '@type': 'Organization', name: '鑑定師L' },
+            author: { '@type': 'Person', name: '鑑定師L' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             mainEntityOfPage: 'https://www.gold-tw.com/blog/k-gold-recycle-price-april-2026',
           }),

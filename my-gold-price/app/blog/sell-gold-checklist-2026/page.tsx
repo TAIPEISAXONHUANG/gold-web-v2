@@ -31,7 +31,7 @@ export default function Page() {
             headline: '賣黃金前必看清單2026｜5分鐘搞懂流程・證件・避坑｜巧品珠寶',
             description: '賣黃金前5分鐘必讀！需帶身分證、黃金物品，全程約15分鐘拿現金。台北巧品珠寶不扣耗損，老闆親自鑑定。電話 0986-821-626。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/sell-gold-checklist-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

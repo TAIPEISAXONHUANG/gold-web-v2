@@ -53,7 +53,7 @@ export default function Page() {
             headline: '台灣黃金一兩價格2026｜一兩等於幾錢幾克？換算表＋今日行情',
             description: '2026年台灣黃金一兩價格多少？1兩＝10錢＝37.5克，今日行情、換算公式、與「一錢」的差異全部一次說清楚。巧品珠寶不扣耗損，透明報價，當場現金。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taiwan-gold-price-liang-vs-qian-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

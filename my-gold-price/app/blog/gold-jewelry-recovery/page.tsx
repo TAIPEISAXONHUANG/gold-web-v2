@@ -29,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "金飾回收｜黃金首飾變現完整指南",
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-12",
             "dateModified": "2026-03-16T00:00:00+08:00",
@@ -140,7 +140,7 @@ export default function Page() {
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
       <p>📍 地址：台北市信義區</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" target="_blank" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
     </main>
   );
 }

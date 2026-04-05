@@ -31,7 +31,7 @@ export default function Page() {
             headline: '2026年黃金回收常見問題完整解答｜新手必看｜巧品珠寶',
             description: '2026年最新整理！黃金回收新手最常問的10個問題：準備證件、秤重扣重、付款方式、K金回收、防詐騙等完整解答。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-recycling-faq-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

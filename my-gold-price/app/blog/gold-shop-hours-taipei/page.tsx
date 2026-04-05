@@ -54,7 +54,7 @@ export default function Page() {
             headline: '台北銀樓營業時間｜假日有開嗎？2026最新銀樓地點與營業時間整理',
             description: '台北銀樓營業時間整理：銀樓假日有開嗎？台北24小時銀樓有嗎？各大銀樓、公會營業時間、預約方式，以及緊急變現時的替代方案。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-shop-hours-taipei' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

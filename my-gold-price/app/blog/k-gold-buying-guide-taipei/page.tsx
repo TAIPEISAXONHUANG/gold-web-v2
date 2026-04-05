@@ -54,7 +54,7 @@ export default function Page() {
             headline: 'K金收購指南2026｜台北18K/14K/10K收購行情與店家選擇重點',
             description: '台北K金收購行情整理：18K、14K、10K收購怎麼算？大安、板橋、北投K金收購推薦哪裡？K金收購注意事項、估價標準、為何不扣耗損才是合理的店家。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/k-gold-buying-guide-taipei' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

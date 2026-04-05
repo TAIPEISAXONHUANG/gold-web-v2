@@ -77,8 +77,8 @@ export default function RealtimeGoldPriceApril2026() {
         datePublished: publishDate,
         dateModified: publishDate,
         author: {
-          "@type": "Organization",
-          name: "巧品珠寶",
+          "@type": "Person",
+          name: "鑑定師L",
           url: "https://gold-tw.com",
         },
         publisher: {

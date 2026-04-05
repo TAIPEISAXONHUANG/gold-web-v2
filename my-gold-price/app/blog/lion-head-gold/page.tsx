@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "金牌回收｜紀念金牌｜奧運金牌變現｜巧品珠寶",
             "description": "金牌回收推薦！奧運金牌、紀念金牌、廟宇神明牌高價收購，台北巧品珠寶專業估價。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/lion-head-gold" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80", "width": 1200, "height": 630 },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -194,9 +194,9 @@ export default function Page() {
 
 
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} target="_blank" rel="noopener noreferrer">@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

@@ -56,7 +56,7 @@ export default function Page() {
                 headline: '什麼時候賣黃金最划算？2026年賣金時機完整分析',
                 description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。',
                 mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-selling-timing-2026' },
-                author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+                author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
                 publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
                 datePublished: '2026-04-04T14:30:00+08:00',
                 dateModified: '2026-04-04T14:30:00+08:00',

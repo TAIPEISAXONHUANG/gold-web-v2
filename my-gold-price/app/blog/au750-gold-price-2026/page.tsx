@@ -23,7 +23,7 @@ export default function Page() {
         '@type': 'BlogPosting',
         headline: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
         description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
-        author: { '@type': 'Organization', name: '鑑定師L' },
+        author: { '@type': 'Person', name: '鑑定師L' },
         datePublished: '2026-04-05',
         dateModified: '2026-04-05',
         mainEntityOfPage: {

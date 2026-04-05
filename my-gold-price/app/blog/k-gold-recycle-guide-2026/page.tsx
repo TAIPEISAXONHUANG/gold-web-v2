@@ -56,7 +56,7 @@ export default function Page() {
                 headline: 'K金回收完整指南2026｜14K、18K、Pt900收購流程與報價邏輯',
                 description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。',
                 mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/k-gold-recycle-guide-2026' },
-                author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+                author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
                 publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
                 datePublished: '2026-04-05T14:00:00+08:00',
                 dateModified: '2026-04-05T14:00:00+08:00',

@@ -54,7 +54,7 @@ export default function Page() {
             headline: '銀樓假日有開嗎？2026年台灣銀樓假日營業時間完整指南',
             description: '銀樓假日到底開不開？台灣各類型銀樓假日營業時間一次整理，含連假、春節、國定假日。賣黃金前先確認，免得白跑。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/silver-shop-holiday-hours-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-04-02T00:00:00+08:00',
             dateModified: '2026-04-02T00:00:00+08:00',

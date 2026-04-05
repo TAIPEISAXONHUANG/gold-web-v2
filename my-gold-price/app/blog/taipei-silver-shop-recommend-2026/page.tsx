@@ -53,7 +53,7 @@ export default function TaipeiSilverShopRecommend2026() {
             headline: '台北銀樓推薦2026｜回收、購買黃金選哪家？三個選店標準直接說',
             description: '台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taipei-silver-shop-recommend-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-04-01T14:00:00+08:00',
             dateModified: '2026-04-01T14:00:00+08:00',

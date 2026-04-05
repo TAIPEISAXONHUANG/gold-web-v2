@@ -373,17 +373,17 @@ export default function Page() {
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-selling-timing-guide" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-selling-timing-guide" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金變現時機2026｜什麼時候賣金最好？
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/realtime-gold-price-april-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/realtime-gold-price-april-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 今日即時金價2026年4月｜台灣黃金現貨報價查詢
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-vs-silver-investment" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-vs-silver-investment" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金vs白銀投資2026｜兩種貴金屬的特性與配置建議
               </a>
             </li>

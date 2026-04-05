@@ -31,7 +31,7 @@ export default function Page() {
             "headline": "黃金 vs 白金 vs K金：2026年完整比較",
             "description": "黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-vs-platinum-guide" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-17T00:00:00+08:00",

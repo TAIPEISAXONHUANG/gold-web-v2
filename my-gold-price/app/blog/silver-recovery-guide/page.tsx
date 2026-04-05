@@ -32,7 +32,7 @@ export default function Page() {
             "headline": "純銀回收2026台灣｜純銀首飾、銀器能賣多少？",
             "description": "純銀回收價格說明，925銀、999銀首飾回收計算方式，台北純銀收購流程。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/silver-recovery-guide" },
-            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-30T14:00:00+08:00",
@@ -224,9 +224,9 @@ export default function Page() {
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
           <li><Link href="/blog/gold-vs-platinum-guide" style={{ color: '#B8860B' }}>黃金 vs 鉑金收購差異說明</Link></li>
-          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }} rel="noopener noreferrer">K金回收完整指南｜18K/14K/10K價格計算</a></li>
-          <li><a href="https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell" style={{ color: '#B8860B' }} rel="noopener noreferrer">今日金價一錢賣出買入差在哪？</a></li>
-          <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">巧品珠寶首頁｜黃金、貴金屬高價收購</a></li>
+          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">K金回收完整指南｜18K/14K/10K價格計算</a></li>
+          <li><a href="https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">今日金價一錢賣出買入差在哪？</a></li>
+          <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} target="_blank" rel="noopener noreferrer">巧品珠寶首頁｜黃金、貴金屬高價收購</a></li>
         </ul>
         <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>

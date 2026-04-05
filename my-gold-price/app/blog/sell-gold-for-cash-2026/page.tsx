@@ -417,22 +417,22 @@ export default function Page() {
           <h3 className="font-bold text-gray-700 mb-3">延伸閱讀</h3>
           <ul className="space-y-2">
             <li>
-              <a href="https://www.gold-tw.com/blog/k-gold-sell-process-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/k-gold-sell-process-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 賣黃金流程2026年完整攻略｜從估價到拿現金全步驟說明
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/sell-gold-checklist-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/sell-gold-checklist-2026" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 賣黃金前要準備什麼？2026年完整清單
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-recycling-traps" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-recycling-traps" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金回收常見陷阱｜這些話術要小心
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
+              <a href="https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell" className="text-yellow-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 黃金買賣差價是多少？買入價 vs 賣出價完整說明
               </a>
             </li>

@@ -54,7 +54,7 @@ export default function Page() {
             headline: '第一次買黃金就上手2026｜新手買金注意事項、管道比較與防騙指南',
             description: '初學者黃金購買完整指南，涵蓋黃金種類、購買管道、注意事項與投資建議。',
             datePublished: '2026-04-02',
-            author: { '@type': 'Organization', 'name': '鑑定師L' },
+            author: { '@type': 'Person', 'name': '鑑定師L' },
             dateModified: '2026-04-02',
         mainEntityOfPage: {
           '@type': 'WebPage',

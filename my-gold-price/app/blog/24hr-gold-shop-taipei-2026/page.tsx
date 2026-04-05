@@ -53,7 +53,7 @@ export default function TwentyFourHrGoldShopTaipei2026() {
             headline: '24小時銀樓台北2026｜哪裡能半夜賣黃金？實況整理',
             description: '台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/24hr-gold-shop-taipei-2026' },
-            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Person', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-04-01T00:00:00+08:00',
             dateModified: '2026-04-01T00:00:00+08:00',
