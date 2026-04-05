@@ -1,272 +1,252 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '10mg黃金多少錢2026｜超小克重黃金價格換算・值得買嗎？',
-  description: '10mg黃金在2026年約值136-140元台幣。超小克重黃金的計算方式、值不值得買、以及各克重黃金完整換算表。巧品珠寶說清楚講明白，電話0986-821-626。',
-  keywords: '10mg黃金多少錢,10毫克黃金價格,黃金克重換算,微量黃金價值,台灣黃金換算2026',
-  alternates: {
-    canonical: 'https://www.gold-tw.com/blog/10mg-gold-price-2026',
-  },
+  title: '10mg黃金多少錢？2026換算公式與即時參考價格',
+  description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
 }
 
 export default function Page() {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "2026年10mg黃金值多少錢？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "2026年4月，10mg（0.01公克）黃金約值台幣136-140元。計算方式：當日黃金每公克約13,600-14,000元（以國際金價3,100美元/盎司換算），10mg = 0.01公克，所以0.01 × 13,600 = 136元。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "100mg黃金值多少錢？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "2026年4月，100mg（0.1公克）黃金約值台幣1,360-1,400元。計算公式：克重（公克）× 當日每公克收購價。0.1 × 13,800 = 1,380元（以9999純金每公克13,800元估算）。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "超小克重黃金值得買嗎？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "不建議買超小克重黃金（100mg以下）作為投資。原因有三：1）相對溢價高，買入比黃金本身貴很多；2）回收時通常無法單獨處理，要集累到一定量；3）保管不便，容易遺失。如果是紀念品，可以買，但別當投資工具。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "1克黃金等於多少台錢？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "1公克黃金 = 0.2667台錢。反過來算：1台錢 = 3.75公克。例如1公克的9999純金，當日每公克收購約13,800元，可回收13,800 × 1 = 13,800元（注意：這是9999純金，K金要依純度折算）。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "黃金最小能回收多少克重？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "一般黃金回收商沒有最低克重限制，但實務上低於0.5台錢（約1.875公克）的黃金處理較不划算，因為來回交通成本可能超過金額本身。建議累積到1台錢以上再來回收，會更有效率。"
-        }
-      }
-    ]
-  }
+  const jsonLdBlogPosting = `{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "10mg黃金多少錢？2026換算公式與即時參考價格",
+  "description": "想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。",
+  "author": { "@type": "Organization", "name": "巧品珠寶" },
+  "publisher": { "@type": "Organization", "name": "巧品珠寶" },
+  "datePublished": "2026-04-05",
+  "dateModified": "2026-04-05",
+  "url": "https://gold-tw.com/blog/10mg-gold-price-2026"
+}`
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.gold-tw.com" },
-      { "@type": "ListItem", "position": 2, "name": "知識專欄", "item": "https://www.gold-tw.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "10mg黃金多少錢2026｜超小克重黃金價格換算・值得買嗎？", "item": "https://www.gold-tw.com/blog/10mg-gold-price-2026" }
-    ]
-  }
+  const jsonLdFaq = `{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "10mg黃金等於多少錢？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "依照2026年4月台灣黃金收購價約每克3,100元計算，10mg（0.01克）黃金約值31元。價格會隨國際金價每日浮動。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "10mg黃金可以賣嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以賣，但重量太輕，大多數銀樓會以克重計算直接出價。建議累積到1克以上再賣，手續更順暢，出價也更透明。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "1克黃金多少錢台灣2026？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2026年4月台灣24K黃金收購價約每克3,050–3,150元，視當日國際金價與匯率而定。巧品珠寶當場秤重、當場報價，不扣耗損。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "黃金重量單位換算：錢、兩、克如何換算？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "台灣常用換算：1兩 = 10錢 = 37.5克；1錢 = 3.75克；1克 = 1000毫克（mg）。10mg = 0.01克 = 約0.00267錢。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "哪裡可以查到最新黃金克價？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "巧品珠寶官網即時更新台灣黃金收購價，也可參考台灣銀行牌告金價。建議賣前多比較1-2家，確認當日行情。"
+      }
+    }
+  ]
+}`
+
+  const jsonLdBreadcrumb = `{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://gold-tw.com/" },
+    { "@type": "ListItem", "position": 2, "name": "黃金知識", "item": "https://gold-tw.com/blog" },
+    { "@type": "ListItem", "position": 3, "name": "10mg黃金多少錢", "item": "https://gold-tw.com/blog/10mg-gold-price-2026" }
+  ]
+}`
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "10mg黃金多少錢？2026年超小克重黃金換算完整指南",
-            "author": { "@type": "Person", "name": "巧品珠寶" },
-            "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
-            "datePublished": "2026-04-01",
-            "dateModified": "2026-04-01",
-            "description": "10mg黃金在2026年約值136-140元台幣。超小克重黃金的計算方式、值不值得買、以及各克重黃金完整換算表。"
-          })
-        }}
-      />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <main style={{ padding: '2rem', maxWidth: '860px', margin: '0 auto' }}>
+    <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBlogPosting }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdFaq }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
 
-        <h1>10mg黃金多少錢？2026年超小克重黃金換算完整指南</h1>
-        <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年4月1日｜巧品珠寶整理</p>
+      <nav style={{ fontSize: '14px', color: '#888', marginBottom: '16px' }}>
+        <a href="/" style={{ color: '#888' }}>首頁</a> &gt; <a href="/blog" style={{ color: '#888' }}>黃金知識</a> &gt; 10mg黃金多少錢
+      </nav>
 
-        <div style={{ background: '#FEF3C7', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0' }}>
-          <strong>本文重點：</strong>10mg黃金的實際價值、各克重換算表（從1mg到100g）、超小克重黃金值不值得買、以及黃金回收最低門檻說明。
-        </div>
+      <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
+        10mg黃金多少錢？2026換算公式與即時參考價格
+      </h1>
+      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：巧品珠寶</p>
 
-        <p>
-          搜尋「10mg黃金多少錢」的人，通常是在評估網路上賣的超小片黃金、奈米金條，或是各種「黃金紀念幣/鈔」的實際金含量。
-        </p>
-        <p>
-          直接給答案：<strong>2026年4月，10mg（0.01公克）的9999純金約值台幣136-140元。</strong>聽起來不多，因為確實不多。下面完整說明計算邏輯和換算表。
-        </p>
+      <p>有人拿著一小塊黃金飾品來問：「這個10幾毫克，到底值多少錢？」</p>
+      <p>答案很具體：<strong>10mg黃金在2026年4月約值新台幣30-31元</strong>。算法如下：</p>
 
-        <h2>一、2026年黃金各克重價格換算表（9999純金）</h2>
-        <p>以下以2026年4月參考行情：每公克約13,800元（9999純金收購價）計算：</p>
+      <blockquote style={{ borderLeft: '4px solid #b8860b', paddingLeft: '16px', margin: '20px 0', color: '#555' }}>
+        每克黃金收購價 ÷ 1000 × 毫克數 = 台幣價值<br />
+        範例：3,100元/克 ÷ 1000 × 10mg = <strong>31元</strong>
+      </blockquote>
 
-        <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
+      <p>數字不大，但方法論是一樣的。不論你有幾毫克、幾克、幾兩，同樣的公式通用。</p>
+
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金重量換算總表</h2>
+      <p>先把單位搞清楚，台灣用「錢兩」，國際用「克盎司」，不同場合會看到不同單位。</p>
+
+      <div style={{ overflowX: 'auto', marginBottom: '24px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '15px' }}>
           <thead>
-            <tr style={{ background: '#B8860B', color: 'white' }}>
-              <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'left' }}>克重</th>
-              <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>公克換算</th>
-              <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>台錢換算</th>
-              <th style={{ padding: '12px', border: '1px solid #ddd', textAlign: 'center' }}>參考金額（元）</th>
+            <tr style={{ backgroundColor: '#b8860b', color: '#fff' }}>
+              <th style={{ padding: '10px', textAlign: 'left', border: '1px solid #ddd' }}>單位</th>
+              <th style={{ padding: '10px', textAlign: 'right', border: '1px solid #ddd' }}>等於幾克</th>
+              <th style={{ padding: '10px', textAlign: 'right', border: '1px solid #ddd' }}>約值（2026/04）</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>1mg（毫克）</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.001g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.000267錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $14</td>
-            </tr>
-            <tr style={{ background: '#fafafa' }}>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>10mg（毫克）</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.01g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.00267錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $138</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>100mg（毫克）</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.1g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.0267錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $1,380</td>
-            </tr>
-            <tr style={{ background: '#fafafa' }}>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>1公克</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>1g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>0.267錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $13,800</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>1台錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>3.75g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>1錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $51,750</td>
-            </tr>
-            <tr style={{ background: '#fafafa' }}>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>5公克</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>5g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>1.33錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $69,000</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>10公克</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>10g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>2.67錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $138,000</td>
-            </tr>
-            <tr style={{ background: '#fafafa' }}>
-              <td style={{ padding: '10px', border: '1px solid #ddd' }}>1台兩（10錢）</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>37.5g</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>10錢</td>
-              <td style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'center' }}>約 $517,500</td>
-            </tr>
+            {[
+              { unit: '1 毫克（mg）', gram: '0.001 克', value: '約 3.1 元' },
+              { unit: '10 毫克（10mg）', gram: '0.01 克', value: '約 31 元' },
+              { unit: '100 毫克（0.1g）', gram: '0.1 克', value: '約 310 元' },
+              { unit: '1 克（g）', gram: '1 克', value: '約 3,100 元' },
+              { unit: '1 錢（台灣）', gram: '3.75 克', value: '約 11,625 元' },
+              { unit: '1 兩（台灣）', gram: '37.5 克', value: '約 116,250 元' },
+              { unit: '1 盎司（troy oz）', gram: '31.1035 克', value: '約 96,421 元' },
+            ].map((row, i) => (
+              <tr key={i} style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#fafafa' }}>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd' }}>{row.unit}</td>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd', textAlign: 'right' }}>{row.gram}</td>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 600 }}>{row.value}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
-        <p style={{ fontSize: '0.85rem', color: '#888' }}>※ 以9999純金收購參考價13,800元/公克計算。實際依當日行情浮動。</p>
+      </div>
+      <p style={{ fontSize: '13px', color: '#888' }}>* 依2026年4月巧品珠寶收購價每克約3,100元計算，國際金價波動時數字會有出入。</p>
 
-        <h2>二、怎麼自己計算任何克重的黃金價值？</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>為什麼會有人問「10mg黃金」？</h2>
+      <p>這個問題通常出自幾種情況：</p>
+      <ul style={{ paddingLeft: '20px', lineHeight: 2 }}>
+        <li>小型黃金紀念品、金箔飾品（重量常在50-200mg之間）</li>
+        <li>拆解下來的黃金配件（耳環背針、小墜子）</li>
+        <li>想確認「這點重量到底值不值得去銀樓」</li>
+        <li>準備比較多家收購價前先做功課</li>
+      </ul>
+      <p>老實說：10mg單獨去賣，銀樓通常不會特地拒絕，但出價效率不高。建議先累積到0.5-1錢（1.875-3.75克）再去，比較划算。</p>
 
-        <div style={{ background: '#f9f9f9', padding: '1.5rem', borderRadius: '8px', border: '1px solid #ddd', margin: '1rem 0' }}>
-          <p style={{ fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>黃金金額計算公式</p>
-          <p><strong>金額（元）= 重量（公克）× 當日每公克收購價</strong></p>
-          <p><strong>實例：</strong></p>
-          <ul>
-            <li>0.5公克9999純金 → 0.5 × 13,800 = <strong>6,900元</strong></li>
-            <li>2公克18K金 → 2 × 10,200（18K每公克約） = <strong>20,400元</strong></li>
-            <li>0.01公克（10mg）9999純金 → 0.01 × 13,800 = <strong>138元</strong></li>
-          </ul>
-        </div>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>不同純度的黃金值多少？</h2>
+      <p>10mg如果是足金（24K），按上面的算法就是31元左右。但如果是K金，就要打折扣：</p>
 
-        <h2>三、超小克重黃金（100mg以下）值得買嗎？</h2>
-        <p>
-          網路上賣的「10mg黃金片」、「奈米金條」很多定價在500-1,500元之間。但以2026年金價算，10mg的純金回收價只有138元左右。
-        </p>
-        <p>
-          <strong>買的時候比金屬價值貴3-10倍</strong>，賣出時只能拿到金屬重量的錢。這中間的差距是包裝成本、行銷費用、通路費用。當成禮品買給人可以，但別把它當成投資。
-        </p>
-        <p>
-          真正的黃金投資應該從1台錢（3.75公克）以上的黃金條或金幣開始，溢價通常在3-8%以內，回收時的損失也可以接受。
-        </p>
+      <div style={{ overflowX: 'auto', marginBottom: '24px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '15px' }}>
+          <thead>
+            <tr style={{ backgroundColor: '#b8860b', color: '#fff' }}>
+              <th style={{ padding: '10px', textAlign: 'left', border: '1px solid #ddd' }}>純度</th>
+              <th style={{ padding: '10px', textAlign: 'right', border: '1px solid #ddd' }}>含金比例</th>
+              <th style={{ padding: '10px', textAlign: 'right', border: '1px solid #ddd' }}>10mg含金量</th>
+              <th style={{ padding: '10px', textAlign: 'right', border: '1px solid #ddd' }}>約值（2026/04）</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              { purity: '24K（足金）', ratio: '99.9%', mg: '9.99mg', value: '約 31 元' },
+              { purity: '18K（750）', ratio: '75%', mg: '7.5mg', value: '約 23 元' },
+              { purity: '14K（585）', ratio: '58.5%', mg: '5.85mg', value: '約 18 元' },
+              { purity: '9K（375）', ratio: '37.5%', mg: '3.75mg', value: '約 12 元' },
+            ].map((row, i) => (
+              <tr key={i} style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#fafafa' }}>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd' }}>{row.purity}</td>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd', textAlign: 'right' }}>{row.ratio}</td>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd', textAlign: 'right' }}>{row.mg}</td>
+                <td style={{ padding: '9px 10px', border: '1px solid #ddd', textAlign: 'right', fontWeight: 600 }}>{row.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
-        <h2>四、各純度換算：不是9999純金怎麼算？</h2>
-        <p>如果你的黃金不是9999純金，要用純度係數折算：</p>
-        <ul style={{ lineHeight: '2' }}>
-          <li><strong>916金（傳統金飾）</strong>：實際重量 × 0.916 × 每公克9999收購價</li>
-          <li><strong>18K（750金）</strong>：實際重量 × 0.75 × 每公克9999收購價</li>
-          <li><strong>14K（585金）</strong>：實際重量 × 0.585 × 每公克9999收購價</li>
-          <li><strong>10K（417金）</strong>：實際重量 × 0.417 × 每公克9999收購價</li>
-        </ul>
-        <p>
-          例如：0.5公克的18K金 → 0.5 × 0.75 × 13,800 = <strong>5,175元</strong>。
-        </p>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金克價怎麼查？</h2>
+      <p>台灣主要有兩個參考來源：</p>
+      <ol style={{ paddingLeft: '20px', lineHeight: 2 }}>
+        <li><strong>台灣銀行牌告金價</strong>：每日開盤更新，以「每台兩」報價，換算成克要除以37.5</li>
+        <li><strong>各大銀樓現場報價</strong>：直接反映當日收購行情，通常比銀行掛牌低一點，因為銀樓要賺差價</li>
+      </ol>
+      <p>巧品珠寶的做法是：當場秤重、當場報克價，不扣火耗，也不說「要等一下評估」。你帶來，我報數，不中意可以走。</p>
 
-        <h2>五、黃金回收最低門檻是多少？</h2>
-        <p>
-          巧品珠寶沒有設最低回收量，但實務上建議至少帶1台錢（3.75公克）以上再來。
-        </p>
-        <p>
-          理由很現實：1台錢9999純金目前約19,000元，值得你專門跑一趟。但如果是0.1公克的小零件，回收金額不到1,400元，加上交通時間，不划算。
-        </p>
-        <p>
-          如果你手上有很多零碎的黃金（金牙、斷鍊、金箔等），把它們集中起來再一起帶來，會更有效率。
-        </p>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金回收常見問題</h2>
+      <p>很多人第一次賣黃金都有這幾個疑問，直接回答：</p>
 
-        <h2>六、巧品珠寶：克重不限，全程透明</h2>
-        <p>秤重當你面做，儀器測純度，報價按當日行情。不管你帶多帶少，都告訴你公道價是多少。</p>
-        <ul style={{ lineHeight: '2' }}>
-          <li>地點：台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</li>
-          <li>收購品項：9999純金、916金、18K/14K/10K、白金、鑽石、碎金</li>
-          <li>特色：老闆親自鑑定，當場現金，免費估價，不扣耗損</li>
-        </ul>
+      <div style={{ borderLeft: '3px solid #b8860b', paddingLeft: '16px', marginBottom: '16px' }}>
+        <p style={{ fontWeight: 700 }}>Q：銀樓會不會少秤？</p>
+        <p>好的銀樓是當著你的面秤，讀數讓你看清楚。如果店家不讓你看秤，換一家。</p>
+      </div>
 
-        <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
-          <strong>延伸閱讀：</strong>
-          <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-            <li><a href="/blog/taiwan-gold-price-per-qian-every-2026" style={{ color: '#B8860B' }}>台灣今日金價每錢2026：最新每台錢報價換算</a></li>
-            <li><a href="/blog/gold-weight" style={{ color: '#B8860B' }}>黃金重量單位完整說明：台錢、公克、兩、盎司換算</a></li>
-            <li><a href="/blog/k-gold-recovery-price-2026" style={{ color: '#B8860B' }}>K金回收價格2026完整指南</a></li>
-            <li><a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度完整說明：9999、916、750差在哪</a></li>
-          </ul>
-        </div>
+      <div style={{ borderLeft: '3px solid #b8860b', paddingLeft: '16px', marginBottom: '16px' }}>
+        <p style={{ fontWeight: 700 }}>Q：一定要帶購買憑證嗎？</p>
+        <p>不一定。純度清楚的黃金（有打印記）不需要憑證，現場酸洗就能確認。但有憑證通常出價會更順。</p>
+      </div>
 
-        <hr style={{ margin: '2rem 0' }} />
-        <h2>免費估價・當場現金</h2>
-        <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-        <p>LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a></p>
-        <p>地址：台北市大安區濟南路三段62-1號1樓</p>
+      <div style={{ borderLeft: '3px solid #b8860b', paddingLeft: '16px', marginBottom: '16px' }}>
+        <p style={{ fontWeight: 700 }}>Q：重量太輕，銀樓收不收？</p>
+        <p>收，但效率差。建議累積到1錢（3.75克）以上，手續費和時間成本比較划算。</p>
+      </div>
 
-        <div style={{ background: '#f0f9ff', borderLeft: '4px solid #3b82f6', padding: '16px', margin: '2rem 0', borderRadius: '8px', fontSize: '0.9rem' }}>
-          <strong>參考資料：</strong>{' '}
-          <a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style={{ color: '#991b1b', fontWeight: 'bold' }}>台灣銀行黃金牌價</a>（每日更新）、
-          <a href="https://www.kitco.com" target="_blank" rel="noopener" style={{ color: '#991b1b', fontWeight: 'bold' }}>Kitco</a> 國際金價即時報價
-        </div>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>FAQ</h2>
 
-        <h2>常見問題 FAQ</h2>
-        <details style={{ margin: '0.75rem 0', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '6px' }}>
-          <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>2026年10mg黃金值多少錢？</summary>
-          <p style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>約台幣136-140元。計算：0.01公克 × 13,800元/公克（9999純金） = 138元。</p>
-        </details>
-        <details style={{ margin: '0.75rem 0', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '6px' }}>
-          <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>100mg黃金值多少錢？</summary>
-          <p style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>約台幣1,360-1,400元。0.1公克 × 13,800元 = 1,380元（9999純金參考）。</p>
-        </details>
-        <details style={{ margin: '0.75rem 0', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '6px' }}>
-          <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>超小克重黃金值得買嗎？</summary>
-          <p style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>不建議作為投資。10mg金片常見定價500-1,500元，但金屬回收價只有138元。溢價3-10倍，回收時只能拿回金屬本身的價值。</p>
-        </details>
-        <details style={{ margin: '0.75rem 0', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '6px' }}>
-          <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>1克黃金等於多少台錢？</summary>
-          <p style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>1公克 = 0.2667台錢。反過來：1台錢 = 3.75公克。1公克9999純金目前約值13,800元。</p>
-        </details>
-        <details style={{ margin: '0.75rem 0', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '6px' }}>
-          <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>黃金最小能回收多少克重？</summary>
-          <p style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>沒有硬性規定，但建議累積1台錢（3.75公克）以上再來回收，這樣金額值得跑一趟。</p>
-        </details>
+      <div style={{ borderTop: '1px solid #eee' }}>
+        {[
+          {
+            q: '10mg黃金等於多少錢？',
+            a: '依2026年4月收購價每克約3,100元計算，10mg黃金約值31元。每日金價不同，實際價格請以當天報價為準。',
+          },
+          {
+            q: '10mg黃金可以賣嗎？',
+            a: '可以賣。但重量極輕，建議累積到0.5錢（1.875克）以上再去銀樓，出價效率比較好。',
+          },
+          {
+            q: '1克黃金多少錢台灣2026？',
+            a: '2026年4月台灣24K黃金收購價約3,050–3,150元/克，依當日國際金價與匯率浮動。',
+          },
+          {
+            q: '黃金1錢是幾克？',
+            a: '台灣1錢 = 3.75克。1兩 = 37.5克。這是台灣銀樓計價的標準換算。',
+          },
+          {
+            q: '哪裡可以查今日黃金克價？',
+            a: '可查台灣銀行牌告金價（每台兩÷37.5=每克），或直接到巧品珠寶查最新收購克價。',
+          },
+        ].map((item, i) => (
+          <div key={i} style={{ borderBottom: '1px solid #eee', padding: '16px 0' }}>
+            <p style={{ fontWeight: 700, marginBottom: '6px' }}>Q：{item.q}</p>
+            <p style={{ color: '#444', margin: 0 }}>A：{item.a}</p>
+          </div>
+        ))}
+      </div>
 
-      </main>
-    </>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>延伸閱讀</h2>
+      <ul style={{ paddingLeft: '20px', lineHeight: 2.2 }}>
+        <li><a href="/blog/gold-qian-to-gram-2026" style={{ color: '#b8860b' }}>黃金一錢等於幾公克？2026換算公式與實用計算表</a></li>
+        <li><a href="/blog/k-gold-recovery-price-2026" style={{ color: '#b8860b' }}>K金回收價格2026｜18K、14K、9K黃金回收行情一覽</a></li>
+        <li><a href="/blog/recycle-k-gold-guide-2026" style={{ color: '#b8860b' }}>回收K金完整指南｜純度辨識、計算公式與注意事項</a></li>
+        <li><a href="/gold-price" style={{ color: '#b8860b' }}>即時黃金收購價格查詢</a></li>
+      </ul>
+
+      <div style={{ marginTop: '40px', backgroundColor: '#fdf8ee', border: '1px solid #e8d48b', borderRadius: '8px', padding: '20px' }}>
+        <p style={{ fontWeight: 700, fontSize: '17px', marginBottom: '8px' }}>立即查詢今日黃金回收價</p>
+        <p style={{ margin: '0 0 12px', color: '#555' }}>無論幾毫克還是幾兩，巧品珠寶當場秤重報價，不扣火耗、不模糊報價。</p>
+        <a href="/gold-price" style={{ display: 'inline-block', backgroundColor: '#b8860b', color: '#fff', padding: '10px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: 700 }}>
+          查今日金價
+        </a>
+      </div>
+    </main>
   )
 }
