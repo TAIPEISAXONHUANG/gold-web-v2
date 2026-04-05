@@ -17,7 +17,7 @@ function getSubdirectories(dirPath: string): string[] {
 function readLastModified(pagePath: string, fallback: Date): Date {
   try {
     const content = fs.readFileSync(pagePath, 'utf-8');
-    const match = content.match(/export\s+const\s+lastModified\s*=\s*new\s+Date\(['"]([0-9\-]+)['"]\)/);
+    const match = content.match(/\/\/\s*lastModified:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})/);
     if (match) return new Date(match[1]);
   } catch {}
   return fallback;

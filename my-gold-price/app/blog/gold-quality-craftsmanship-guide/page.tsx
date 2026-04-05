@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function Page() {
   const articleUrl = 'https://www.gold-tw.com/blog/gold-quality-craftsmanship-guide';
   const today = new Date().toISOString().split('T')[0];

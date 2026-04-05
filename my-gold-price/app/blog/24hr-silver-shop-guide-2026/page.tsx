@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: '想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。',
 }
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function Page() {
   return (
     <>

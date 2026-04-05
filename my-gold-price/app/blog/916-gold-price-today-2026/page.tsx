@@ -31,7 +31,7 @@ const faqs = [
   },
 ]
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function GoldPrice916Today2026() {
   return (
     <>

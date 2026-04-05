@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function TaiwanGoldQianPriceSellGuideApril2026() {
   const today = "2026-04-03";
   const publishDate = "2026-04-03T14:00:00+08:00";

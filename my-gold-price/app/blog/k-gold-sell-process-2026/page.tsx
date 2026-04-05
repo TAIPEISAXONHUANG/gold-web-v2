@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function KGoldSellProcess2026() {
   const today = "2026-04-03";
   const publishDate = "2026-04-03T09:00:00+08:00";

@@ -32,7 +32,7 @@ const faqs = [
   },
 ];
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function KGoldPurchaseDaanDistrict2026Page() {
   return (
     <>

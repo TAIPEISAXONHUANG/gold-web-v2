@@ -32,7 +32,7 @@ const faqs = [
   }
 ];
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function Page() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>

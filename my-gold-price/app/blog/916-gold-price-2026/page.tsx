@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
 }
 
-export const lastModified = new Date('2026-03-19');
+// lastModified: 2026-03-19
 export default function Page() {
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
