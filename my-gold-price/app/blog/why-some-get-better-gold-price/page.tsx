@@ -46,6 +46,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"為什麼有些人賣黃金比較值錢？原來是這個原因"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "為什麼同樣的黃金，有人賣得比較貴？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "賣得比較貴的關鍵差異在於：選對店家（不扣耗損的誠信商家）、在金價高點賣出、多家比價爭取最佳報價、保留購買憑證、了解品牌溢價（如精品品牌不應按廢金計算），以及拒絕不合理扣款。掌握這些技巧可以多賣5-20%。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "賣黃金前應該做哪些準備？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "賣黃金前建議：先查詢當日國際金價，了解每錢大約值多少錢；計算自己黃金的大概價值；至少電話詢問2-3家店家的報價；準備身份證正本；如有購買收據或保證書一併攜帶；拒絕任何不合理的扣款要求。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "什麼時候是賣黃金的好時機？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "賣黃金的好時機包括：金價漲到歷史高點時、農曆年前（亞洲購金旺季）、地緣政治緊張時（避險需求高）、美聯準會降息期間（金價偏強）。不需要精準抓到最高點，大方向對就能賣得比平均水準好。若急需資金，現在也是合理的變現時機。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>為什麼有些人賣黃金比較值錢？原來是這個原因</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

@@ -46,6 +46,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"2026年黃金價格走勢分析，現在是賣出的好時機嗎？"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "2026年黃金價格走勢如何？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "2026年黃金維持在歷史高檔，回收價格約每錢19,800-20,000元。受全球央行持續增持黃金、地緣政治不確定性升高、美元走勢等因素影響，多數機構看好黃金長線走勢。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "現在是賣黃金的好時機嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "2026年金價處於歷史高檔，若急需現金或已達到獲利目標，現在是理想的變現時機。如果不急用錢且看好後市，也可以繼續持有。建議先查詢當日牌價，多家比價後再決定。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "影響2026年黃金價格的主要因素有哪些？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "影響2026年金價的關鍵因素包括：全球央行持續增持黃金儲備、通膨壓力、美聯準會利率政策、地緣政治風險（戰爭衝突等）、美元走勢，以及亞洲（中國、印度）的黃金消費需求。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>2026年黃金價格走勢分析</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

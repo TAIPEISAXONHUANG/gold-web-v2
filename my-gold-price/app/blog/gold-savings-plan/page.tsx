@@ -52,6 +52,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略",
+            "description": "黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-savings-plan"},
+            "author": {"@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com/about/author"},
+            "publisher": {"@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com"},
+            "datePublished": "2025-01-01T00:00:00+08:00",
+            "dateModified": "2025-01-01T00:00:00+08:00"
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             'author': { '@type': 'Person', 'name': '鑑定師L' },

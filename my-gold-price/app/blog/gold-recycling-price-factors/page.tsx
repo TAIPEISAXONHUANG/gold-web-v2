@@ -46,6 +46,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收怎麼定價？專家告訴你影響價格的關鍵因素"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "黃金回收價格怎麼計算？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "黃金回收價格公式為：國際金價 × 純度 × 重量。例如9999純金（24K）按100%計算，18K金按75%計算，14K按58.5%計算。重量以台錢為單位（1錢=3.75克），建議先查詢當日國際金價再估算自己的黃金價值。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "為什麼不同店家的回收報價差這麼多？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "不同店家的報價差異來自於：扣耗標準不同（部分店家扣3-10%耗損）、店家利潤空間不同、以及競爭壓力不同。選擇不扣耗損的誠信店家，並多家比價，是獲得最高回收價的關鍵。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "純度對黃金回收價格影響有多大？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "純度是影響回收價格最重要的因素之一。9999純金回收價最高，18K金約為純金的75%，14K約58.5%，10K約41.7%。店家通常使用XRF螢光分析儀精確測定純度，建議選擇有專業儀器的店家以確保公平估價。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>黃金回收怎麼定價？專家告訴你影響價格的關鍵因素</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

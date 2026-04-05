@@ -45,6 +45,20 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.gold-tw.com"},
+              {"@type": "ListItem", "position": 2, "name": "知識專欄", "item": "https://www.gold-tw.com/blog"},
+              {"@type": "ListItem", "position": 3, "name": "黃金回收要注意什麼？2026年完整攻略｜避開5大常見陷阱"}
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
               {

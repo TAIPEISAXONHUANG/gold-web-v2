@@ -52,6 +52,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "結婚金飾習俗與預算2026｜龍鳳鐲、項鍊、耳環習俗與行情",
+            "description": "結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.gold-tw.com/blog/wedding-gold-guide"},
+            "author": {"@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com/about/author"},
+            "publisher": {"@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com"},
+            "datePublished": "2025-01-01T00:00:00+08:00",
+            "dateModified": "2025-01-01T00:00:00+08:00"
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             'author': { '@type': 'Person', 'name': '鑑定師L' },

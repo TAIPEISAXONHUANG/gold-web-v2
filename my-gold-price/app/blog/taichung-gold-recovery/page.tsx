@@ -46,6 +46,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "台中黃金回收哪裡最划算？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "台中市銀樓主要集中在一中商圈、逢甲商圈等地。選擇時建議優先考慮：有實體店面、公開透明秤重、不扣耗損、有專業XRF儀器鑑定、當場付款的店家。建議至少比較3家報價再決定。也可先透過LINE遠距估價作為比較基準。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "台中人可以賣黃金給台北的店家嗎？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "可以。部分台北店家提供LINE遠距估價服務，可先拍攝金飾照片詢問初步報價。若報價滿意且金額較大，親赴台北可能多賺數千元。若金額不大，建議選擇台中當地誠信店家，節省交通時間成本。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "台中黃金回收需要攜帶什麼？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "黃金回收需攜帶身份證正本（政府實名制規定）、要回收的黃金飾品，以及原購買收據或保證書（如有）。建議先電話詢問當日報價，確認後再前往，可節省往返時間。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

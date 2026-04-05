@@ -47,6 +47,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金與K金的差異｜純度、價格、回收一篇搞懂"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "黃金（24K）和K金有什麼差別？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "純金（24K）含金量99.99%，保值性最高但質地較軟，適合投資與傳承。K金是黃金與其他金屬的合金，硬度較高，18K含75%黃金，14K含58.5%，10K含41.7%。K金適合日常配戴，款式更多樣，但回收價值依含金比例計算，低於純金。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "K金回收價格怎麼算？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "K金回收價格公式為：當日金價 × 重量 × 純度比例。以18K金為例，回收價約為純金的75%；14K約58.5%；10K約41.7%。店家會使用XRF螢光分析儀精確測定含金量，確保公平計算。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "買金飾應該選純金還是K金？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "視用途而定。若以投資保值或作為嫁妝傳家寶為目的，選24K純金最佳，回收也最方便。若是日常配戴或喜歡多樣化設計（白K金、玫瑰金），選18K更耐用。14K以下K金適合預算有限且重視設計感的消費者。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>黃金與K金的差異｜純度、價格、回收一篇搞懂</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

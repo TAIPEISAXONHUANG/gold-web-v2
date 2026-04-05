@@ -52,6 +52,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議",
+            "description": "黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-vs-silver-investment"},
+            "author": {"@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com/about/author"},
+            "publisher": {"@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com"},
+            "datePublished": "2025-01-01T00:00:00+08:00",
+            "dateModified": "2025-01-01T00:00:00+08:00"
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             'author': { '@type': 'Person', 'name': '鑑定師L' },

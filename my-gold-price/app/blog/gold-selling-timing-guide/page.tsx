@@ -52,6 +52,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略",
+            "description": "什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-selling-timing-guide"},
+            "author": {"@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com/about/author"},
+            "publisher": {"@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com"},
+            "datePublished": "2025-01-01T00:00:00+08:00",
+            "dateModified": "2025-01-01T00:00:00+08:00"
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             'author': { '@type': 'Person', 'name': '鑑定師L' },

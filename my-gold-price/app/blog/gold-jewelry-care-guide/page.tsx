@@ -52,6 +52,22 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "黃金飾品保養、清潔與保存｜K金、9999、22K各類型完整指南",
+            "description": "黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-jewelry-care-guide"},
+            "author": {"@type": "Person", "name": "鑑定師L", "url": "https://www.gold-tw.com/about/author"},
+            "publisher": {"@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com"},
+            "datePublished": "2025-01-01T00:00:00+08:00",
+            "dateModified": "2025-01-01T00:00:00+08:00"
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             'author': { '@type': 'Person', 'name': '鑑定師L' },

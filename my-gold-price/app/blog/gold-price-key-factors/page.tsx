@@ -46,6 +46,41 @@ export default function Page() {
           __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金價格誰說了算？影響金價的5個關鍵因素"}]})
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "美元升值時黃金價格會怎樣？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "黃金以美元計價，因此美元升值時黃金相對變貴，購買需求下降，金價通常會下跌。相反地，當美元貶值時，金價通常上漲。這也是為什麼美聯準會（Fed）的升降息決策對金價有直接影響。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "通貨膨脹為什麼會推高黃金價格？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "黃金被視為抵禦通膨的保值工具。當物價持續上漲時，投資者擔心現金貶值而購買黃金保值。實質利率（名目利率減去通膨率）越低，持有黃金的機會成本越低，對金價形成支撐。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "各國央行購金對金價有什麼影響？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "各國央行是全球最大的黃金買家之一。近年來中國、印度、土耳其、波蘭等國央行大幅增加黃金儲備，目的是分散外匯儲備、降低對美元依賴。央行大量購金形成長期需求，是支撐近年金價上漲的重要因素。"
+                }
+              }
+            ]
+          })
+        }}
+      />
       <h1>黃金價格誰說了算？影響金價的5個關鍵因素</h1>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>

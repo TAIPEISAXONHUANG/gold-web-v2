@@ -42,6 +42,20 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.gold-tw.com"},
+              {"@type": "ListItem", "position": 2, "name": "知識專欄", "item": "https://www.gold-tw.com/blog"},
+              {"@type": "ListItem", "position": 3, "name": "K金與黃金的差異｜一篇讓你搞懂貴金屬"}
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
           __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"K金和黃金哪個比較保值？","acceptedAnswer":{"@type":"Answer","text":"黃金（24K）保值性最高，因為純度達99.9%，價格直接跟隨國際金價波動。K金含有其他合金成分，回收時只按含金比例計價，例如18K只有75%的黃金價值。"}},{"@type":"Question","name":"18K金和24K金外觀差在哪裡？","acceptedAnswer":{"@type":"Answer","text":"24K純金呈現飽滿的金黃色，質地較軟；18K金因摻入不同金屬，可呈現黃色、白色（白K金）或粉紅色（玫瑰金）等多種色調，且硬度較高、光澤更持久。"}},{"@type":"Question","name":"K金回收價格怎麼算？","acceptedAnswer":{"@type":"Answer","text":"K金回收價格公式為：當日純金牌價 × 重量 × K金純度比例。例如18K金的純度為75%，回收價約為同重量純金的75%。建議到有XRF檢測設備的店家，精確測出含金量。"}},{"@type":"Question","name":"結婚金飾該選K金還是黃金？","acceptedAnswer":{"@type":"Answer","text":"傳統習俗多選24K黃金，象徵圓滿且保值性高，日後回收也較方便。若重視時尚造型與日常配戴耐用度，可選18K金飾，但需注意回收價值較純金低。"}},{"@type":"Question","name":"K金會不會褪色或過敏？","acceptedAnswer":{"@type":"Answer","text":"K金可能因合金成分氧化而略微褪色，尤其是白K金表面的鍍層會隨時間磨損。過敏方面，含鎳的K金較容易引起皮膚敏感，建議選擇標示「無鎳」的K金飾品。"}},{"@type":"Question","name":"怎麼分辨K金和黃金？","acceptedAnswer":{"@type":"Answer","text":"最簡單的方式是看印記：24K或999代表純金，750或18K代表18K金，585或14K代表14K金。此外，純金顏色較深且質地軟，K金較硬且可能有不同顏色。最準確的方式是用XRF螢光分析儀檢測。"}}]})
         }}
       />

@@ -45,6 +45,20 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.gold-tw.com"},
+              {"@type": "ListItem", "position": 2, "name": "知識專欄", "item": "https://www.gold-tw.com/blog"},
+              {"@type": "ListItem", "position": 3, "name": "黃金回收店 vs 銀樓 價格比較｜2026年哪裡賣黃金最划算？"}
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
               {
