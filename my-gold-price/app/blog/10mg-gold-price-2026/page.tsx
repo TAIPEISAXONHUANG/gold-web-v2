@@ -14,7 +14,6 @@ export default function Page() {
         headline: '10mg黃金多少錢？2026換算公式與即時參考價格',
         description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
         author: { '@type': 'Organization', name: '巧品珠寶' },
-        publisher: { '@type': 'Organization', name: '巧品珠寶' },
         datePublished: '2026-04-05',
         dateModified: '2026-04-05',
         mainEntityOfPage: {
