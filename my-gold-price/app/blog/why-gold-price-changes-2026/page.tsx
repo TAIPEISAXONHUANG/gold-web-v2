@@ -9,8 +9,13 @@ export const metadata: Metadata = {
     description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒。',
     url: 'https://www.gold-tw.com/blog/why-gold-price-changes-2026',
     type: 'article',
+<<<<<<< HEAD
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
+=======
+    publishedTime: '2026-04-04',
+    modifiedTime: '2026-04-04',
+>>>>>>> 247c31b8 (Phase 2: batch fix author name, OG article times, external link rel, lastModified dates, knowsAbout schema)
   },
 }
 

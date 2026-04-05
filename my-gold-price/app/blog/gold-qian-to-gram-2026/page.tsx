@@ -9,8 +9,13 @@ export const metadata: Metadata = {
     description: '黃金一錢等於多少公克？台灣錢、兩、克、盎司完整換算公式。10mg黃金多少錢？附2026年最新即時金價對照表。',
     url: 'https://www.gold-tw.com/blog/gold-qian-to-gram-2026',
     type: 'article',
+<<<<<<< HEAD
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
+=======
+    publishedTime: '2026-04-04',
+    modifiedTime: '2026-04-04',
+>>>>>>> 247c31b8 (Phase 2: batch fix author name, OG article times, external link rel, lastModified dates, knowsAbout schema)
   },
 }
 

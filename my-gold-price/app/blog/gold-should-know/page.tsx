@@ -128,7 +128,11 @@ export default function Page() {
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
+<<<<<<< HEAD
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
+=======
+      <p>📍 地址：台北市信義區</p>
+>>>>>>> 247c31b8 (Phase 2: batch fix author name, OG article times, external link rel, lastModified dates, knowsAbout schema)
       <p>🌐 官網：<a href="https://www.gold-tw.com/" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
     </main>
   );

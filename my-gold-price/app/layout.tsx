@@ -251,6 +251,7 @@ export default function RootLayout({
                 "https://www.tiktok.com/@qpdiamond666",
                 "https://qiaopin.pixnet.net"
               ],
+              "knowsAbout": ["黃金投資", "黃金回收", "黃金鑑定", "K金鑑定", "鉑金飾品", "鑽石鑑定", "彩色寶石鑑定", "翡翠鑑定", "珠寶回收"],
               "contactPoint": [
                 {
                   "@type": "ContactPoint",
