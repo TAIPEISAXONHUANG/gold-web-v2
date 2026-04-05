@@ -6,80 +6,39 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const jsonLdBlogPosting = `{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "AU750是什麼？18K黃金收購價與純度完整說明2026",
-  "description": "AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。",
-  "author": { "@type": "Organization", "name": "巧品珠寶" },
-  "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-  "datePublished": "2026-04-05",
-  "dateModified": "2026-04-05",
-  "url": "https://gold-tw.com/blog/au750-gold-price-2026"
-}`
-
-  const jsonLdFaq = `{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "AU750是幾K黃金？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AU750 = 18K黃金，含金量75%。AU是黃金元素符號（Aurum），750代表千分之750的含金比例，等同18/24K。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "AU750收購價怎麼算？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "收購價 = 當日24K克價 × 0.75 × 重量（克）。以2026年4月每克3,100元計算，AU750每克約收2,325元。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "AU750和PT950哪個比較值錢？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "要比較要看當日鉑金（PT）與黃金的相對行情。2026年4月PT950收購價約每克1,500-1,800元，AU750約2,325元，黃金目前佔優勢，但鉑金行情波動較大。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "台灣銀樓收AU750嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "收。AU750即18K黃金，台灣銀樓普遍接受。巧品珠寶所有K金一律收購，當場秤重，不扣耗損。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "怎麼確認飾品是不是AU750？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "在飾品的扣頭、內圈或背面找印記，AU750、18K、750都是同一種純度的標記。不確定的話，銀樓可以當場酸測或火試確認。"
-      }
-    }
-  ]
-}`
-
-  const jsonLdBreadcrumb = `{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://gold-tw.com/" },
-    { "@type": "ListItem", "position": 2, "name": "黃金知識", "item": "https://gold-tw.com/blog" },
-    { "@type": "ListItem", "position": 3, "name": "AU750是什麼", "item": "https://gold-tw.com/blog/au750-gold-price-2026" }
-  ]
-}`
-
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBlogPosting }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdFaq }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
+        description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
+        author: { '@type': 'Organization', name: '巧品珠寶' },
+        publisher: { '@type': 'Organization', name: '巧品珠寶' },
+        datePublished: '2026-04-05',
+        dateModified: '2026-04-05',
+        url: 'https://gold-tw.com/blog/au750-gold-price-2026',
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: 'AU750是幾K黃金？', acceptedAnswer: { '@type': 'Answer', text: 'AU750 = 18K黃金，含金量75%。AU是黃金元素符號（Aurum），750代表千分之750的含金比例，等同18/24K。' } },
+          { '@type': 'Question', name: 'AU750收購價怎麼算？', acceptedAnswer: { '@type': 'Answer', text: '收購價 = 當日24K克價 × 0.75 × 重量（克）。以2026年4月每克3,100元計算，AU750每克約收2,325元。' } },
+          { '@type': 'Question', name: 'AU750和PT950哪個比較值錢？', acceptedAnswer: { '@type': 'Answer', text: '要比較要看當日鉑金（PT）與黃金的相對行情。2026年4月PT950收購價約每克1,500-1,800元，AU750約2,325元，黃金目前佔優勢，但鉑金行情波動較大。' } },
+          { '@type': 'Question', name: '台灣銀樓收AU750嗎？', acceptedAnswer: { '@type': 'Answer', text: '收。AU750即18K黃金，台灣銀樓普遍接受。巧品珠寶所有K金一律收購，當場秤重，不扣耗損。' } },
+          { '@type': 'Question', name: '怎麼確認飾品是不是AU750？', acceptedAnswer: { '@type': 'Answer', text: '在飾品的扣頭、內圈或背面找印記，AU750、18K、750都是同一種純度的標記。不確定的話，銀樓可以當場酸測或火試確認。' } },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-tw.com/' },
+          { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://gold-tw.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'AU750是什麼', item: 'https://gold-tw.com/blog/au750-gold-price-2026' },
+        ],
+      }) }} />
 
       <nav style={{ fontSize: '14px', color: '#888', marginBottom: '16px' }}>
         <a href="/" style={{ color: '#888' }}>首頁</a> &gt; <a href="/blog" style={{ color: '#888' }}>黃金知識</a> &gt; AU750是什麼

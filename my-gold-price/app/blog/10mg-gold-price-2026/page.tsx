@@ -6,80 +6,39 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const jsonLdBlogPosting = `{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "10mg黃金多少錢？2026換算公式與即時參考價格",
-  "description": "想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。",
-  "author": { "@type": "Organization", "name": "巧品珠寶" },
-  "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-  "datePublished": "2026-04-05",
-  "dateModified": "2026-04-05",
-  "url": "https://gold-tw.com/blog/10mg-gold-price-2026"
-}`
-
-  const jsonLdFaq = `{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "10mg黃金等於多少錢？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "依照2026年4月台灣黃金收購價約每克3,100元計算，10mg（0.01克）黃金約值31元。價格會隨國際金價每日浮動。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "10mg黃金可以賣嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "可以賣，但重量太輕，大多數銀樓會以克重計算直接出價。建議累積到1克以上再賣，手續更順暢，出價也更透明。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "1克黃金多少錢台灣2026？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2026年4月台灣24K黃金收購價約每克3,050–3,150元，視當日國際金價與匯率而定。巧品珠寶當場秤重、當場報價，不扣耗損。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "黃金重量單位換算：錢、兩、克如何換算？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "台灣常用換算：1兩 = 10錢 = 37.5克；1錢 = 3.75克；1克 = 1000毫克（mg）。10mg = 0.01克 = 約0.00267錢。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "哪裡可以查到最新黃金克價？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "巧品珠寶官網即時更新台灣黃金收購價，也可參考台灣銀行牌告金價。建議賣前多比較1-2家，確認當日行情。"
-      }
-    }
-  ]
-}`
-
-  const jsonLdBreadcrumb = `{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://gold-tw.com/" },
-    { "@type": "ListItem", "position": 2, "name": "黃金知識", "item": "https://gold-tw.com/blog" },
-    { "@type": "ListItem", "position": 3, "name": "10mg黃金多少錢", "item": "https://gold-tw.com/blog/10mg-gold-price-2026" }
-  ]
-}`
-
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBlogPosting }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdFaq }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: '10mg黃金多少錢？2026換算公式與即時參考價格',
+        description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
+        author: { '@type': 'Organization', name: '巧品珠寶' },
+        publisher: { '@type': 'Organization', name: '巧品珠寶' },
+        datePublished: '2026-04-05',
+        dateModified: '2026-04-05',
+        url: 'https://gold-tw.com/blog/10mg-gold-price-2026',
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: '10mg黃金等於多少錢？', acceptedAnswer: { '@type': 'Answer', text: '依照2026年4月台灣黃金收購價約每克3,100元計算，10mg（0.01克）黃金約值31元。價格會隨國際金價每日浮動。' } },
+          { '@type': 'Question', name: '10mg黃金可以賣嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以賣，但重量太輕，大多數銀樓會以克重計算直接出價。建議累積到1克以上再賣，手續更順暢，出價也更透明。' } },
+          { '@type': 'Question', name: '1克黃金多少錢台灣2026？', acceptedAnswer: { '@type': 'Answer', text: '2026年4月台灣24K黃金收購價約每克3,050–3,150元，視當日國際金價與匯率而定。巧品珠寶當場秤重、當場報價，不扣耗損。' } },
+          { '@type': 'Question', name: '黃金重量單位換算：錢、兩、克如何換算？', acceptedAnswer: { '@type': 'Answer', text: '台灣常用換算：1兩 = 10錢 = 37.5克；1錢 = 3.75克；1克 = 1000毫克（mg）。10mg = 0.01克 = 約0.00267錢。' } },
+          { '@type': 'Question', name: '哪裡可以查到最新黃金克價？', acceptedAnswer: { '@type': 'Answer', text: '巧品珠寶官網即時更新台灣黃金收購價，也可參考台灣銀行牌告金價。建議賣前多比較1-2家，確認當日行情。' } },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-tw.com/' },
+          { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://gold-tw.com/blog' },
+          { '@type': 'ListItem', position: 3, name: '10mg黃金多少錢', item: 'https://gold-tw.com/blog/10mg-gold-price-2026' },
+        ],
+      }) }} />
 
       <nav style={{ fontSize: '14px', color: '#888', marginBottom: '16px' }}>
         <a href="/" style={{ color: '#888' }}>首頁</a> &gt; <a href="/blog" style={{ color: '#888' }}>黃金知識</a> &gt; 10mg黃金多少錢

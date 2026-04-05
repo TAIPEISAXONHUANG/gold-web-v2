@@ -20,7 +20,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: '賣黃金前檢查清單2026｜估價前必做的7個步驟與注意事項',
             description: '賣黃金之前要做什麼準備？完整的估價前檢查清單，包括：確認純度、秤重量、問牌價、帶證件、選店家。7個步驟，確保你拿到最好的價格。',
             author: { '@type': 'Person', name: '巧品珠寶' },

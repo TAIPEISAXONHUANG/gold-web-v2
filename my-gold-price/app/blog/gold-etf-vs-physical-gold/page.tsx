@@ -20,7 +20,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: '黃金ETF vs 實體黃金2026｜哪個更值得？費用、流動性、稅務比較',
             description: '黃金ETF和實體黃金（金條、金飾）哪個好？2026年完整比較包括：費用結構、流動性、風險、稅務，以及台灣投資人的實際操作方式。',
             author: { '@type': 'Person', name: '巧品珠寶' },

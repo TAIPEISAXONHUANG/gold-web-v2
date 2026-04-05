@@ -6,80 +6,39 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  const jsonLdBlogPosting = `{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "916黃金是什麼？純度、價格與收購行情完整說明2026",
-  "description": "916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。",
-  "author": { "@type": "Organization", "name": "巧品珠寶" },
-  "publisher": { "@type": "Organization", "name": "巧品珠寶" },
-  "datePublished": "2026-04-05",
-  "dateModified": "2026-04-05",
-  "url": "https://gold-tw.com/blog/916-gold-price-2026"
-}`
-
-  const jsonLdFaq = `{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "916黃金是幾K？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "916黃金 = 22K黃金，含金量91.6%。這是東南亞（馬來西亞、新加坡）常見的金飾規格，在台灣相對少見，但銀樓照樣收。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "916黃金收購價怎麼算？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "收購價 = 當日24K克價 × 0.916 × 重量（克）。以2026年4月每克3,100元計算，916黃金每克約收2,840元。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "916黃金和足金差在哪？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "足金（24K）含金量99.9%，916黃金（22K）含金量91.6%，差約8.3個百分點。足金較軟、顏色更黃；916黃金硬度稍高、適合精細雕工，但回收價較低。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "台灣銀樓會收916黃金嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "會收。只要印記清楚（標示916或22K）或經過現場純度測試，台灣銀樓都可以收。巧品珠寶所有K金一律收購，當場秤重報價。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "916黃金和18K哪個回收價比較高？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "916黃金（91.6%）含金量高於18K（75%），所以等重下916黃金回收價較高。每克差距約：916約2,840元 vs 18K約2,325元（2026年4月）。"
-      }
-    }
-  ]
-}`
-
-  const jsonLdBreadcrumb = `{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://gold-tw.com/" },
-    { "@type": "ListItem", "position": 2, "name": "黃金知識", "item": "https://gold-tw.com/blog" },
-    { "@type": "ListItem", "position": 3, "name": "916黃金是什麼", "item": "https://gold-tw.com/blog/916-gold-price-2026" }
-  ]
-}`
-
   return (
     <main style={{ maxWidth: '780px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBlogPosting }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdFaq }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: '916黃金是什麼？純度、價格與收購行情完整說明2026',
+        description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
+        author: { '@type': 'Organization', name: '巧品珠寶' },
+        publisher: { '@type': 'Organization', name: '巧品珠寶' },
+        datePublished: '2026-04-05',
+        dateModified: '2026-04-05',
+        url: 'https://gold-tw.com/blog/916-gold-price-2026',
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: '916黃金是幾K？', acceptedAnswer: { '@type': 'Answer', text: '916黃金 = 22K黃金，含金量91.6%。這是東南亞（馬來西亞、新加坡）常見的金飾規格，在台灣相對少見，但銀樓照樣收。' } },
+          { '@type': 'Question', name: '916黃金收購價怎麼算？', acceptedAnswer: { '@type': 'Answer', text: '收購價 = 當日24K克價 × 0.916 × 重量（克）。以2026年4月每克3,100元計算，916黃金每克約收2,840元。' } },
+          { '@type': 'Question', name: '916黃金和足金差在哪？', acceptedAnswer: { '@type': 'Answer', text: '足金（24K）含金量99.9%，916黃金（22K）含金量91.6%，差約8.3個百分點。足金較軟、顏色更黃；916黃金硬度稍高、適合精細雕工，但回收價較低。' } },
+          { '@type': 'Question', name: '台灣銀樓會收916黃金嗎？', acceptedAnswer: { '@type': 'Answer', text: '會收。只要印記清楚（標示916或22K）或經過現場純度測試，台灣銀樓都可以收。巧品珠寶所有K金一律收購，當場秤重報價。' } },
+          { '@type': 'Question', name: '916黃金和18K哪個回收價比較高？', acceptedAnswer: { '@type': 'Answer', text: '916黃金（91.6%）含金量高於18K（75%），所以等重下916黃金回收價較高。每克差距約：916約2,840元 vs 18K約2,325元（2026年4月）。' } },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-tw.com/' },
+          { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://gold-tw.com/blog' },
+          { '@type': 'ListItem', position: 3, name: '916黃金是什麼', item: 'https://gold-tw.com/blog/916-gold-price-2026' },
+        ],
+      }) }} />
 
       <nav style={{ fontSize: '14px', color: '#888', marginBottom: '16px' }}>
         <a href="/" style={{ color: '#888' }}>首頁</a> &gt; <a href="/blog" style={{ color: '#888' }}>黃金知識</a> &gt; 916黃金是什麼
