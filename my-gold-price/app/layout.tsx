@@ -73,6 +73,8 @@ export default function RootLayout({
         {/* 3. Preconnect 加速外部資源載入 */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        {/* 4. AI 爬蟲發現 llms.txt */}
+        <link rel="ai-instructions" href="/llms.txt" />
 
       </head>
       <body>

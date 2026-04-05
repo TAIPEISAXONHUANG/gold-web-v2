@@ -353,6 +353,35 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                             </section>
                         )}
 
+                        {/* AEO 可視 FAQ 區塊 — AI 引擎抓取用 */}
+                        <section className="bg-white rounded-2xl shadow-xl p-6">
+                            <h2 className="text-xl font-bold mb-4 border-l-4 border-red-800 pl-3">黃金回收常見問題</h2>
+                            <div className="space-y-5 text-sm text-gray-700 leading-relaxed">
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-1">黃金回收的計算方式是什麼？</h3>
+                                    <p><strong>黃金回收價</strong>是依當日國際金價（美元/盎司）換算台幣，再乘以純度折算。K 數代表含金比例：</p>
+                                    <ul className="list-disc pl-5 mt-2 space-y-1">
+                                        <li><strong>足金（999 / 24K）</strong>：含金量 99.9%</li>
+                                        <li><strong>18K（750）</strong>：含金量 75%</li>
+                                        <li><strong>14K（585）</strong>：含金量 58.5%</li>
+                                        <li><strong>9K（375）</strong>：含金量 37.5%</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-1">現場賣黃金需要帶哪些證件？</h3>
+                                    <p><strong>雙證件</strong>是基本要求：身分證 + 第二證件（健保卡或駕照）。未成年需監護人陪同簽名。</p>
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-1">如何辨別黃金純度？</h3>
+                                    <p>查看飾品印記：<strong>999 或 24K 為足金</strong>，750 為 18K，585 為 14K。店內提供 XRF 螢光儀現場驗成色，免費、當場出結果。</p>
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-1">黃金回收需要預約嗎？</h3>
+                                    <p>一般回收<strong>無需預約</strong>，直接攜帶飾品和雙證件到店即可。攜帶大量黃金（超過 100g）建議先致電 <strong>0986-821-626</strong> 告知，方便備妥現金。</p>
+                                </div>
+                            </div>
+                        </section>
+
                         {/* 文章列表 */}
                         <section id="blog-section">
                             <div className="flex justify-between items-end mb-6"><h2 className="text-2xl font-bold text-gray-800 border-l-4 border-red-800 pl-3">📚 黃金回收知識專欄</h2></div>
