@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-appraisal-taiwan',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'GIA鑽石鉴定证书怎么看？2026年台湾GIA钻石估价与回收完整攻略',
     description: 'GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

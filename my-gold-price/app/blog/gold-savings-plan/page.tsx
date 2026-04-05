@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-savings-plan',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略',
     description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2025-01-01T00:00:00+08:00',
     modifiedTime: '2025-01-01T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

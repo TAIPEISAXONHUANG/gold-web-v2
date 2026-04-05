@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-family',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金傳家｜傳家黃金保存與變現｜巧品珠寶',
     description: '家傳黃金如何處理最划算？了解清點、鑑定、變現的完整流程，台北巧品珠寶老闆親自鑑定，免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

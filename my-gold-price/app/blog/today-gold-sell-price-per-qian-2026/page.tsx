@@ -7,12 +7,15 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/today-gold-sell-price-per-qian-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
     title: '今日金價一錢賣出2026｜賣黃金前必看的報價邏輯與避坑指南',
     description: '2026年今日黃金賣出價一錢多少？搞清楚「賣出價」和「買入價」的差異，才不會白白少領幾百塊。巧品珠寶不扣耗損、秤重透明，當場現金，電洽即時報價。',
     siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taichung-gold-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？',
     description: '台中人賣黃金推薦！雖距離較遠，但台北巧品珠寶的高透明度和公平報價值得信賴，LINE 詢價也可。電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

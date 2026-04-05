@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-liang-taiwan-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南｜巧品珠寶',
     description: '2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-26T00:00:00+08:00',
     modifiedTime: '2026-03-26T09:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

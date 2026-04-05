@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/why-register-when-selling-gold',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金為什麼要登記？實名制規定全解析｜巧品珠寶',
     description: '賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-27T00:00:00+08:00',
     modifiedTime: '2026-03-27T09:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

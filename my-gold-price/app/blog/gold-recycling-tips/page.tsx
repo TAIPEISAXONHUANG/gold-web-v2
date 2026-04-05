@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-tips',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收注意事項｜賣黃金不被坑｜巧品珠寶',
     description: '賣黃金不吃虧！黃金回收實用技巧大全，選對時機、選對店家，讓你每次賣黃金都能拿到最划算的價格。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

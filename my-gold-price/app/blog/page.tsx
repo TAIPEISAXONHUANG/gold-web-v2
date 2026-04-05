@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog',
   },
+  openGraph: {
+    locale: 'zh_TW',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+  },
 };
 
 // 自動讀取所有文章（按日期排序，最新在前）

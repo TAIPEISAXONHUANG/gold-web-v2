@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-price-today',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '今日黃金回收價格2026｜台北當場現金，不扣耗損',
     description: '想知道今日黃金回收價格？巧品珠寶依據國際金價即時報價，24K、18K、14K全收，不扣5%火耗，秤重全程透明。台北大安電話 0986-821-626。',
     type: 'article',
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T00:00:00+08:00',
     modifiedTime: '2026-03-28T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

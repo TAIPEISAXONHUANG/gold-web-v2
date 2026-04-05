@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-tax',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶',
     description: '賣黃金要繳稅嗎？台灣黃金交易稅務規定完整說明，個人黃金回收的課稅情況、申報方式，讓你賣黃金不踩法律紅線。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

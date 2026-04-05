@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '結婚金飾變現攻略｜結婚金飾回收價格｜巧品珠寶',
     description: '嫁妝黃金回收推薦！婚戒、金飾、長輩贈金均可，按實際重量計價不打折。台北巧品珠寶免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

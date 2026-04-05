@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-silver-shop-price',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收店 vs 銀樓 價格比較｜2026年哪裡賣黃金最划算？',
     description: '黃金回收店與銀樓完整比較！價格、扣耗、專業度、信任度全面分析，幫您選擇最划算的黃金變現管道。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-18T00:00:00+08:00',
     modifiedTime: '2026-03-18T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

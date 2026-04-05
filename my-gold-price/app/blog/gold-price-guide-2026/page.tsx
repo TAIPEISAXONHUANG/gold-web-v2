@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026年台灣黃金回收完整指南｜價格表・計算公式・避坑攻略',
     description: '2026年最完整的台灣黃金回收指南！含各純度回收價格表、計算公式、常見詐騙手法、店家比較。巧品珠寶10年經驗整理，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-17T00:00:00+08:00',
     modifiedTime: '2026-03-17T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

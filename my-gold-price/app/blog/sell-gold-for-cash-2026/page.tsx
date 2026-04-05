@@ -5,12 +5,15 @@ export const metadata: Metadata = {
   description: '賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？附：避免被拖延付款的3個技巧。',
   keywords: '賣黃金現金,黃金回收現金付款,黃金現場現金,台北賣黃金當場付現,黃金回收不等款',
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金現金支付2026｜哪裡現場收金、當場付現最可靠？',
     description: '賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？',
     url: 'https://www.gold-tw.com/blog/sell-gold-for-cash-2026',
     type: 'article',
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

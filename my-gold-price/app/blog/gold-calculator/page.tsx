@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-calculator',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金重量計算機｜線上黃金秤重｜巧品珠寶',
     description: '黃金回收價格計算教學：重量（台錢）× 當日牌價 = 你能拿到的金額。巧品珠寶按公開金價報價，絕不偷斤減兩。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

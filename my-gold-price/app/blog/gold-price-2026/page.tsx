@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026年黃金價格走勢｜黃金會漲嗎｜巧品珠寶',
     description: '2026年黃金行情分析！了解金價走勢、影響因素，掌握最佳賣出時機。台北巧品珠寶即時報價，免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

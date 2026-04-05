@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收要注意什麼？2026年完整攻略｜避開5大常見陷阱',
     description: '黃金回收必讀攻略！了解回收流程、證件準備、價格談判技巧，以及如何避開常見陷阱，賣出最有利的價格。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-18T00:00:00+08:00',
     modifiedTime: '2026-03-18T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

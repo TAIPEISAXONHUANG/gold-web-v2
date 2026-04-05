@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收常見問題｜秤重、扣重、流程一篇搞懂',
     description: '黃金回收最常見問題全解答！包含計價方式、流程、所需證件、詐騙防範，10年經驗老闆直接回答，讓你安心賣黃金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

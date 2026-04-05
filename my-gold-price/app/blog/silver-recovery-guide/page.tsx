@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/silver-recovery-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '純銀回收2026台灣｜純銀首飾、銀器能賣多少？',
     description: '純銀回收價格說明：925純銀、999純銀首飾、銀器回收怎麼算？台北巧品珠寶依純度和重量現場報價，當場現金，不扣耗損。電話 0986-821-626。',
     type: 'article',
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-30T14:00:00+08:00',
     modifiedTime: '2026-03-30T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

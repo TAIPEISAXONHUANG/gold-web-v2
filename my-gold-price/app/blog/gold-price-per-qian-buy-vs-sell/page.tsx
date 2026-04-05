@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '今日金價一錢賣出價格2026｜銀樓買入賣出差多少？',
     description: '今日黃金一錢賣出價格是多少？銀樓公告的賣出價、買入價差在哪？巧品珠寶說清楚：一錢換算3.75克、實際拿到的現金怎麼算。電話 0986-821-626。',
     type: 'article',
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-30T14:00:00+08:00',
     modifiedTime: '2026-03-30T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

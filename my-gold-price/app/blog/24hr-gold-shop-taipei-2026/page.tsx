@@ -7,12 +7,15 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/24hr-gold-shop-taipei-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
     title: '24小時銀樓台北2026｜哪裡能半夜賣黃金？實況整理',
     description: '台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。',
     siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

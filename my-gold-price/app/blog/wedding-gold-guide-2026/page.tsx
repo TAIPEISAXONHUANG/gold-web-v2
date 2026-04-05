@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-guide-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '結婚金飾選購完整攻略2026｜龍鳳鐲、項鍊、耳環習俗與行情',
     description: '結婚金飾怎麼買？龍鳳鐲幾錢最合適、婚禮必備金飾清單、2026年行情與挑選技巧一次整理。不懂習俗，白花冤枉錢。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-04T14:00:00+08:00',
     modifiedTime: '2026-04-04T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

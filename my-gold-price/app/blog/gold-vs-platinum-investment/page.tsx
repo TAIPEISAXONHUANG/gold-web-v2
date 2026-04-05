@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-investment',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金vs白金投資｜哪個更值得買？',
     description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

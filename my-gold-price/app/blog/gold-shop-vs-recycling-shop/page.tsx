@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-recycling-shop',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '銀樓與黃金回收店差異｜賣金前必看攻略',
     description: '銀樓 vs 黃金回收商哪個價格更高？一篇比較兩者差異，分析服務、報價、流程，幫你選出最適合自己的黃金變現管道。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/broken-gold-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '斷掉的黃金｜黃金斷了怎麼辦｜巧品珠寶',
     description: '斷裂、損毀的黃金一樣可以回收！巧品珠寶按實際重量計價，不扣耗損，當場現金付款。台北大安區免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

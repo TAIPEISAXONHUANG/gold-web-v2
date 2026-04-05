@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-auction',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金拍賣｜黃金買賣市場行情｜巧品珠寶',
     description: '黃金拍賣 vs 直接回收，哪個更划算？台北巧品珠寶比較兩種變現方式的優缺點，幫你選出最適合的黃金處理方式。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

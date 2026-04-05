@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-earring-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金耳環回收｜金耳環高價變現｜巧品珠寶',
     description: '黃金耳環高價回收！各款式K金耳環、墜子均可，按重量現金付款不扣耗損。台北巧品珠寶免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

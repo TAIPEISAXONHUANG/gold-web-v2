@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-scale-trap',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？',
     description: '賣黃金最常見的秤重陷阱！揭露業者如何在秤重上動手腳，教你如何現場確認重量，避免被少算黃金重量而損失金錢。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-14T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

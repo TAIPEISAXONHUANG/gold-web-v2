@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-recovery-price-per-qian-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台灣黃金回收價一錢多少？2026年最新行情完整指南｜巧品珠寶',
     description: '2026年台灣黃金回收價一錢行情即時更新。9999純金每錢回收價計算方式、各純度換算、台北大安區巧品珠寶當日牌價查詢。免費估價，當場現金付款。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-25T00:00:00+08:00',
     modifiedTime: '2026-03-25T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

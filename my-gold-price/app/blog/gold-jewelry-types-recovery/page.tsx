@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點',
     description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

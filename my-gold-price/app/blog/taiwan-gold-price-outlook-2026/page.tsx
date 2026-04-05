@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台灣2026金價行情｜今日金價走勢與未來預測完整分析',
     description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

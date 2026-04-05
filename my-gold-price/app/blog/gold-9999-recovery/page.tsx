@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-9999-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '9999純金回收｜24K黃金高價收購｜巧品珠寶',
     description: '台北9999純金（24K黃金）高價回收！巧品珠寶按當日國際金價報價，不扣耗損，當場現金。免費估價電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

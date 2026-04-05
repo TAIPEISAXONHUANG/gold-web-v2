@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/before-selling-gold',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '賣黃金前要注意什麼｜完整攻略｜巧品珠寶',
     description: '賣黃金前必看！避免被扣耗損、秤重造假的完整指南。台北巧品珠寶10年經驗，老闆親自鑑定，免費估價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

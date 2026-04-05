@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-purchase-daan-district-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金收購台北大安2026｜大安區K金回收報價與找店攻略',
     description: '台北大安K金收購，18K、14K、10K當場XRF驗成色、不扣火耗、現金結清。巧品珠寶大安館地址、交通、報價方式完整說明。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

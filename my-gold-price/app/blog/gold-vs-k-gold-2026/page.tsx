@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026年黃金與K金的差異｜買金飾前必看的純度攻略｜巧品珠寶',
     description: '黃金與K金哪個好？一篇搞懂24K、18K、14K的純度差異、價格計算、優缺點比較。2026年最新數據，買金飾或賣黃金都適用。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-23T00:00:00+08:00',
     modifiedTime: '2026-03-23T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

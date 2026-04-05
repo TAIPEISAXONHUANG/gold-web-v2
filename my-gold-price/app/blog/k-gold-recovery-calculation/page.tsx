@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-calculation',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收計算公式｜18K/14K/10K多少錢？線上試算方法完整教學',
     description: 'K金回收多少錢？18K、14K、10K怎麼算？用簡單公式自己算，附線上試算範例。含K數刻印識別、回收店家比較、以及為何有些店家報價特別低的常見原因。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

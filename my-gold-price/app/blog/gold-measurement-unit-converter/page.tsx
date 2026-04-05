@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-measurement-unit-converter',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金單位換算｜錢/兩/盎司/公克完整對照表與實用試算',
     description: '黃金單位怎麼算？1錢多少克？1兩、1盎司、1公克之間的換算關係。附線上試算範例與2026年台灣金價行情參考。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

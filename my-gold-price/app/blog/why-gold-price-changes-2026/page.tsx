@@ -5,12 +5,15 @@ export const metadata: Metadata = {
   description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。',
   keywords: '黃金漲跌原因,金價為什麼漲,黃金為什麼跌,影響金價原因,2026金價走勢,黃金上漲原因',
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金漲跌原因2026｜為什麼金價每天都在變？5個核心驅動力',
     description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒。',
     url: 'https://www.gold-tw.com/blog/why-gold-price-changes-2026',
     type: 'article',
     publishedTime: '2026-04-04T00:00:00+08:00',
     modifiedTime: '2026-04-04T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

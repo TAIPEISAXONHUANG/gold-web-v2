@@ -4,12 +4,15 @@ export const metadata: Metadata = {
   title: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
   description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-05T00:00:00+08:00',
     modifiedTime: '2026-04-05T00:00:00+08:00',
     title: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
     description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
     siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

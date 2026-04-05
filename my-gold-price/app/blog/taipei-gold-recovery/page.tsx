@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台北黃金回收推薦2026｜哪家價格最高？大安區巧品珠寶',
     description: '台北黃金回收推薦！大安區巧品珠寶，老闆親自鑑定，不扣耗損，當場現金。捷運忠孝新生站步行5分鐘，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-17T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

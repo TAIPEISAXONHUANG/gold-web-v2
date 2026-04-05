@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-purity',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金純度怎麼看？K數、9999完整說明｜巧品珠寶',
     description: '黃金純度完整說明！9999、999、916、18K、14K各成色差異、辨識方式與回收價格對照表，一篇搞懂黃金純度計算。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

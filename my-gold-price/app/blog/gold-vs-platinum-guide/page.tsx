@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-guide',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金 vs 白金 vs K金：2026年完整比較｜成分・價格・投資價值',
     description: '黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值一次看清楚。巧品珠寶10年經驗整理。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-17T00:00:00+08:00',
     modifiedTime: '2026-03-17T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

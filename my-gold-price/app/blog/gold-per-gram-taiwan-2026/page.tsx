@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
     description: '台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-02T00:00:00+08:00',
     modifiedTime: '2026-04-02T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

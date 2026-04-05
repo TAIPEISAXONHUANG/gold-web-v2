@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-tips',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '回收K金攻略2026｜18K/14K/10K收購流程與避坑指南',
     description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T14:00:00+08:00',
     modifiedTime: '2026-03-28T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

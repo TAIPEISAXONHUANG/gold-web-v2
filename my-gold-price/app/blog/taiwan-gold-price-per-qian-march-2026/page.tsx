@@ -7,12 +7,15 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-per-qian-march-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     type: 'article',
     publishedTime: '2026-04-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
     title: '台灣今日金價一錢2026年3月｜每錢黃金買賣行情完整紀錄',
     description: '2026年3月台灣黃金一錢價格是多少？買進價、賣出價各是多少？本文整理3月完整行情數據、換算公式、與2月相比的漲跌，讓你一眼掌握這波高點。',
     siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 }
 

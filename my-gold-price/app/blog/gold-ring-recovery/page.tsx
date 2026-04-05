@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-ring-recovery',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金戒指回收｜結婚戒指變現｜巧品珠寶',
     description: '黃金戒指高價回收！各款式K金戒指、婚戒均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

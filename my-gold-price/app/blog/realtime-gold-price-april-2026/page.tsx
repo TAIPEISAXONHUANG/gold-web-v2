@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://gold-tw.com/blog/realtime-gold-price-april-2026",
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '今日即時金價2026年4月｜台灣黃金現貨報價查詢與解讀方式',
     description: '怎麼看台灣即時金價？2026年4月黃金每錢現貨報價、買進賣出價差說明，以及哪裡查最快、最準。不廢話直接說清楚。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/k-gold-buying-guide-taipei',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金收購指南2026｜台北18K/14K/10K收購行情與店家選擇重點',
     description: '台北K金收購行情整理：18K、14K、10K收購怎麼算？大安、板橋、北投K金收購推薦哪裡？K金收購注意事項、估價標準、為何不扣耗損才是合理的店家。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-price-forecast-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '2026年黃金價格走勢分析，現在是賣出的好時機嗎？',
     description: '2026年黃金價格預測分析！專家預測金價走勢，解析Fed利率、地緣政治對金價的影響，幫你判斷黃金回收的最佳時機。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

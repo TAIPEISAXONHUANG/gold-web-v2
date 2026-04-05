@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-factors',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '黃金回收怎麼定價？專家告訴你影響價格的關鍵因素',
     description: '黃金回收價格怎麼決定的？解析影響回收報價的5大因素：當日金價、純度、重量、店家政策、匯率，讓你拿到最高價。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

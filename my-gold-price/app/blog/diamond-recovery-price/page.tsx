@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/diamond-recovery-price',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '鑽石回收行情2026｜台北鑽石收購價格怎麼算？',
     description: '鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。',
     type: 'article',
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T00:00:00+08:00',
     modifiedTime: '2026-03-28T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

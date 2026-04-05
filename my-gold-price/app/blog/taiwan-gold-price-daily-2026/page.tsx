@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-daily-2026',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: '台灣今日金價一錢2026｜最新黃金牌價即時查詢',
     description: '台灣今日金價一錢多少錢？2026年即時黃金牌價、每錢報價、走勢解析一次看懂。巧品珠寶提供最透明收購報價，不扣耗損，當場現金。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T14:00:00+08:00',
     modifiedTime: '2026-03-28T14:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 

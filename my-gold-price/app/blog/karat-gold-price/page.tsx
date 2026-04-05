@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-price',
   },
   openGraph: {
+    locale: 'zh_TW',
     title: 'K金回收價格怎麼算？2026年K金回收行情｜巧品珠寶',
     description: 'K金回收行情2026！18K/14K/10K每台錢值多少？完整計算方式、當日行情查詢，巧品珠寶按市場金價報價，電話 0986-821-626。',
     type: 'article',
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+
   },
 };
 
