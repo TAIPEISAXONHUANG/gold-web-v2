@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery',
   },
+  openGraph: {
+    title: '台北黃金回收推薦2026｜哪家價格最高？大安區巧品珠寶',
+    description: '台北黃金回收推薦！大安區巧品珠寶，老闆親自鑑定，不扣耗損，當場現金。捷運忠孝新生站步行5分鐘，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taipei-gold-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-17T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "台北黃金回收推薦2026｜哪家價格最高？完整攻略",
             "description": "台北黃金回收推薦！免費估價、當場秤重、現金付款。不扣耗損、不扣手續費。大安區實體店。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/taipei-gold-recovery" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",

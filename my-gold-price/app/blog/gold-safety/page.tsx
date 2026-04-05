@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-safety',
   },
+  openGraph: {
+    title: '黃金保存安全指南｜如何安全存放黃金｜巧品珠寶',
+    description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-safety',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "黃金保存安全指南｜如何安全存放黃金｜巧品珠寶",
             "description": "黃金保存安全完整指南！實體黃金存放方式、防盜竊風險，以及何時考慮變現的建議。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-safety" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",

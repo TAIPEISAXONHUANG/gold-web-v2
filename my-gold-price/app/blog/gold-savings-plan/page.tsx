@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-savings-plan',
   },
+  openGraph: {
+    title: '黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略',
+    description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-savings-plan',
+    siteName: '巧品珠寶',
+    publishedTime: '2025-01-01T00:00:00+08:00',
+    modifiedTime: '2025-01-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -42,7 +51,7 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'author': { '@type': 'Organization', 'name': '鑑定師L' },
             'datePublished': '2025-01-01',
             'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({

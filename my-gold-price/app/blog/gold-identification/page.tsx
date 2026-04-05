@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-identification',
   },
+  openGraph: {
+    title: '黃金怎麼看真假｜黃金辨識｜巧品珠寶',
+    description: '黃金真偽鑑定完整指南！教你用磁石、比重、酸液測試辨識真假黃金，了解K金成色標記，避免買到假貨或被低估。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-identification',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-12T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "黃金真假辨識教學｜4種方法讓你不被騙",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-12",
               "dateModified": "2026-03-16T00:00:00+08:00",
@@ -160,8 +169,8 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

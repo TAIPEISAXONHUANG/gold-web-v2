@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-guide-2026',
   },
+  openGraph: {
+    title: '2026年台灣黃金回收完整指南｜價格表・計算公式・避坑攻略',
+    description: '2026年最完整的台灣黃金回收指南！含各純度回收價格表、計算公式、常見詐騙手法、店家比較。巧品珠寶10年經驗整理，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-price-guide-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-17T00:00:00+08:00',
+    modifiedTime: '2026-03-17T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "2026年台灣黃金回收完整指南｜價格表・計算公式・避坑攻略",
             "description": "2026年最完整的台灣黃金回收指南，含各純度回收價格表、計算公式、常見詐騙手法、店家比較。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-price-guide-2026" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-17T00:00:00+08:00",
@@ -248,7 +257,7 @@ export default function Page() {
       <p>📍 台北市大安區濟南路三段62-1號1樓</p>
     
       <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `金價換算參考：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">台灣銀行黃金牌價</a>（每日更新）、<a href="https://www.kitco.com" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">Kitco</a>國際金價即時報價`}} />
+        <strong>📚 參考資料：</strong> <span dangerouslySetInnerHTML={{__html: `金價換算參考：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener noreferrer" style="color:#991b1b;font-weight:bold">台灣銀行黃金牌價</a>（每日更新）、<a href="https://www.kitco.com" target="_blank" rel="noopener noreferrer" style="color:#991b1b;font-weight:bold">Kitco</a>國際金價即時報價`}} />
       </div></main>
   );
 }

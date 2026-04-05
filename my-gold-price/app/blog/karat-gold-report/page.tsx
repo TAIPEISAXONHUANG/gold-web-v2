@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-report',
   },
+  openGraph: {
+    title: 'K金回收行情報告｜18K、14K多少錢？',
+    description: 'K金回收現場報告！18K、14K黃金實際估價流程，2026年最新K金行情揭露，讓你了解K金到底值多少錢。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/karat-gold-report',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -21,7 +30,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "K金回收行情報告｜18K、14K多少錢？",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-15T00:00:00+08:00",
               "dateModified": "2026-03-16T00:00:00+08:00",

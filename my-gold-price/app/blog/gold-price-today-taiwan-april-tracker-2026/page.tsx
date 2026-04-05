@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gold-tw.com/blog/gold-price-today-taiwan-april-tracker-2026",
   },
+  openGraph: {
+    title: '2026年4月台灣今日金價走勢追蹤｜Q1漲幅與四月行情分析',
+    description: '2026年4月台灣今日金價多少？本文追蹤Q1完整走勢、每週金價區間、四月開盤行情，並說明哪些因素決定台灣每日金價高低，幫你掌握最佳賣出時機。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-price-today-taiwan-april-tracker-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-19T00:00:00+08:00',
+    modifiedTime: '2026-03-19T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19

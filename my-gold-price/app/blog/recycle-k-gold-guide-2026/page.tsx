@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/recycle-k-gold-guide-2026',
   },
+  openGraph: {
+    title: '回收K金怎麼算？2026年K金收購價格完整攻略',
+    description: '回收K金前必看：18K、14K、10K收購價怎麼算？扣耗損是什麼陷阱？實際到手金額怎麼估？一篇說清楚。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/recycle-k-gold-guide-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-04-02T00:00:00+08:00',
+    modifiedTime: '2026-04-02T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -45,7 +54,7 @@ export default function Page() {
             headline: '回收K金怎麼算？2026年K金收購價格完整攻略',
             description: '回收K金前必看：18K、14K、10K收購價怎麼算？扣耗損是什麼陷阱？實際到手金額怎麼估？一篇說清楚。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/recycle-k-gold-guide-2026' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-04-02T00:00:00+08:00',
             dateModified: '2026-04-02T00:00:00+08:00',

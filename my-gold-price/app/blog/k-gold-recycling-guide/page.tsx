@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycling-guide',
   },
+  openGraph: {
+    title: 'K金回收完整攻略｜18K/14K/10K回收價格怎麼算｜巧品珠寶',
+    description: 'K金回收懶人包！18K、14K、10K回收價格計算公式全公開，不扣耗損、不扣火耗，秤重讓你盯著看。台北巧品珠寶當場現金，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/k-gold-recycling-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-31T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             headline: 'K金回收完整攻略｜18K/14K/10K回收價格怎麼算｜巧品珠寶',
             description: 'K金回收懶人包！18K、14K、10K回收價格計算公式全公開，不扣耗損、不扣火耗，秤重讓你盯著看。台北巧品珠寶當場現金，電話 0986-821-626。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/k-gold-recycling-guide' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

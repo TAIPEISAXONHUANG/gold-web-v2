@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/jadeite-purchase-taipei',
   },
+  openGraph: {
+    title: '翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？',
+    description: '台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/jadeite-purchase-taipei',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-30T14:00:00+08:00',
+    modifiedTime: '2026-03-30T14:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -23,7 +32,7 @@ export default function Page() {
             "headline": "翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？",
             "description": "台北翡翠收購完整說明，A貨翡翠估價標準，老翡翠手鐲、戒指、吊墜回收流程。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/jadeite-purchase-taipei" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-30T14:00:00+08:00",
@@ -198,9 +207,9 @@ export default function Page() {
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
           <li><Link href="/blog/diamond-recovery-price" style={{ color: '#B8860B' }}>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</Link></li>
-          <li><a href="https://www.gold-tw.com/blog/second-hand-jewelry-purchase" style={{ color: '#B8860B' }}>二手珠寶收購｜舊珠寶高價回收變現</a></li>
-          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
-          <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>巧品珠寶首頁｜黃金、珠寶高價收購</a></li>
+          <li><a href="https://www.gold-tw.com/blog/second-hand-jewelry-purchase" style={{ color: '#B8860B' }} rel="noopener noreferrer">二手珠寶收購｜舊珠寶高價回收變現</a></li>
+          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }} rel="noopener noreferrer">K金回收完整指南｜18K/14K/10K價格計算</a></li>
+          <li><a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">巧品珠寶首頁｜黃金、珠寶高價收購</a></li>
         </ul>
         <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>

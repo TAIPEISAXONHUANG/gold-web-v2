@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-buy-gold-recommend-2026',
   },
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-01T00:00:00+08:00',
+    title: '台北買黃金推薦2026｜在哪裡買、怎麼買、哪些坑要避開',
+    description: '台北哪裡買黃金最划算？2026年黃金高點行情下，買金條、金豆、金飾前必讀。本文整理台北購金管道比較、購買流程與常見陷阱，選對地方才不會多花冤枉錢。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 const faqs = [
@@ -44,7 +53,7 @@ export default function Page() {
             headline: '台北買黃金推薦2026｜在哪裡買、怎麼買、哪些坑要避開',
             description: '台北哪裡買黃金最划算？2026年黃金高點行情下，買金條、金豆、金飾前必讀。本文整理台北購金管道比較、購買流程與常見陷阱，選對地方才不會多花冤枉錢。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taipei-buy-gold-recommend-2026' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

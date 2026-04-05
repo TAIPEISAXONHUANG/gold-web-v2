@@ -126,8 +126,8 @@ export default function GoldRecoveryGuide() {
         <p>黃金價格每日浮動，受國際金價、美元匯率、地緣政治等因素影響。查詢管道：</p>
         <ul>
           <li><strong>巧品珠寶官網</strong>：<a href="/today-gold-price" style={{ color: '#991b1b' }}>即時金價查詢</a>（每日更新）</li>
-          <li><strong>台灣銀行</strong>：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style={{ color: '#991b1b' }}>台銀黃金牌價</a></li>
-          <li><strong>國際金價</strong>：<a href="https://www.kitco.com" target="_blank" rel="noopener" style={{ color: '#991b1b' }}>Kitco即時報價</a></li>
+          <li><strong>台灣銀行</strong>：<a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener noreferrer" style={{ color: '#991b1b' }}>台銀黃金牌價</a></li>
+          <li><strong>國際金價</strong>：<a href="https://www.kitco.com" target="_blank" rel="noopener noreferrer" style={{ color: '#991b1b' }}>Kitco即時報價</a></li>
           <li><strong>金價比較</strong>：<a href="/gold-price-compare" style={{ color: '#991b1b' }}>各大銀樓金價比較</a>（一站看透各家報價）</li>
         </ul>
         <div style={{ background: '#fff8e1', padding: '1rem', borderRadius: '8px', margin: '1rem 0' }}>
@@ -535,13 +535,13 @@ export default function GoldRecoveryGuide() {
         <p style={{ margin: '0 0 1.5rem', opacity: 0.9 }}>巧品珠寶 — 台北大安區 10 年老字號銀樓</p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a href="tel:0986821626" style={{ display: 'inline-block', padding: '0.8rem 2rem', background: '#fbbf24', color: '#1f2937', borderRadius: '9999px', textDecoration: 'none', fontWeight: 'bold' }}>📞 0986-821-626</a>
-          <a href="https://lin.ee/zvLP4JC" target="_blank" style={{ display: 'inline-block', padding: '0.8rem 2rem', background: '#06C755', color: 'white', borderRadius: '9999px', textDecoration: 'none', fontWeight: 'bold' }}>💬 LINE 詢價</a>
+          <a href="https://lin.ee/zvLP4JC" target="_blank" style={{ display: 'inline-block', padding: '0.8rem 2rem', background: '#06C755', color: 'white', borderRadius: '9999px', textDecoration: 'none', fontWeight: 'bold' }} rel="noopener noreferrer">💬 LINE 詢價</a>
         </div>
         <p style={{ margin: '1rem 0 0', fontSize: '0.9rem', opacity: 0.8 }}>📍 台北市大安區濟南路三段62-1號1樓 ｜ 捷運忠孝新生站步行5分鐘</p>
       </section>
 
       <div style={{background:'#f0f9ff', borderLeft:'4px solid #3b82f6', padding:'16px', margin:'2rem 0', borderRadius:'8px', fontSize:'0.9rem'}}>
-        <strong>📚 參考資料：</strong> <a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style={{color:'#991b1b', fontWeight:'bold'}}>台灣銀行黃金牌價</a>、<a href="https://www.gold.org" target="_blank" rel="noopener" style={{color:'#991b1b', fontWeight:'bold'}}>世界黃金協會</a>、<a href="https://law.moj.gov.tw" target="_blank" rel="noopener" style={{color:'#991b1b', fontWeight:'bold'}}>洗錢防制法</a>
+        <strong>📚 參考資料：</strong> <a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener noreferrer" style={{color:'#991b1b', fontWeight:'bold'}}>台灣銀行黃金牌價</a>、<a href="https://www.gold.org" target="_blank" rel="noopener noreferrer" style={{color:'#991b1b', fontWeight:'bold'}}>世界黃金協會</a>、<a href="https://law.moj.gov.tw" target="_blank" rel="noopener noreferrer" style={{color:'#991b1b', fontWeight:'bold'}}>洗錢防制法</a>
       </div>
     </main>
   );

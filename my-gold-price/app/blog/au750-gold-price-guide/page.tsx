@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/au750-gold-price-guide',
   },
+  openGraph: {
+    title: 'Au750是什麼金？等於18K嗎？2026年Au750價格與K金市場分析',
+    description: 'Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/au750-gold-price-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-04-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -43,7 +52,7 @@ export default function Page() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             'headline': 'Au750是什麼金？等於18K嗎？2026年Au750價格與K金市場分析',
-            'author': { '@type': 'Person', 'name': '巧品珠寶' },
+            'author': { '@type': 'Person', 'name': '鑑定師L' },
             'publisher': { '@type': 'Organization', 'name': '巧品珠寶', 'url': 'https://www.gold-tw.com' },
             'datePublished': '2026-03-01',
             'dateModified': '2026-04-01',

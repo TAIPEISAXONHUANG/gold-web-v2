@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/inheritance-gold',
   },
+  openGraph: {
+    title: '遺產黃金回收｜祖先留下黃金變現｜巧品珠寶',
+    description: '繼承長輩黃金如何處理？完整說明清點、鑑定、回收流程，台北巧品珠寶老闆親自估價，當場現金，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/inheritance-gold',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-12T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "遺產黃金回收｜祖先黃金變現攻略",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-12",
               "dateModified": "2026-03-16T00:00:00+08:00",
@@ -137,8 +146,8 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

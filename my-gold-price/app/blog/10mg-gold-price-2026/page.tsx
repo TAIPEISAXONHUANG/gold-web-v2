@@ -3,6 +3,15 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '10mg黃金多少錢？2026換算公式與即時參考價格',
   description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-04-05T00:00:00+08:00',
+    modifiedTime: '2026-04-05T00:00:00+08:00',
+    title: '10mg黃金多少錢？2026換算公式與即時參考價格',
+    description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 // lastModified: 2026-03-19
@@ -14,7 +23,7 @@ export default function Page() {
         '@type': 'BlogPosting',
         headline: '10mg黃金多少錢？2026換算公式與即時參考價格',
         description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
-        author: { '@type': 'Organization', name: '巧品珠寶' },
+        author: { '@type': 'Organization', name: '鑑定師L' },
         datePublished: '2026-04-05',
         dateModified: '2026-04-05',
         mainEntityOfPage: {
@@ -71,7 +80,7 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         10mg黃金多少錢？2026換算公式與即時參考價格
       </h1>
-      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：巧品珠寶</p>
+      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：鑑定師L</p>
 
       <p>有人拿著一小塊黃金飾品來問：「這個10幾毫克，到底值多少錢？」</p>
       <p>答案很具體：<strong>10mg黃金在2026年4月約值新台幣30-31元</strong>。算法如下：</p>

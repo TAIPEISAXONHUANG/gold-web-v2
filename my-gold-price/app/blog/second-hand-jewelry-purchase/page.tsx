@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase',
   },
+  openGraph: {
+    title: '二手珠寶收購｜舊珠寶高價回收變現，不需品牌收據｜巧品珠寶',
+    description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-31T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             headline: '二手珠寶收購｜舊珠寶高價回收變現，不需品牌收據｜巧品珠寶',
             description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

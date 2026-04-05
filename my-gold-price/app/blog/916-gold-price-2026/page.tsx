@@ -3,6 +3,15 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '916黃金是什麼？純度、價格與收購行情完整說明2026',
   description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-04-05T00:00:00+08:00',
+    modifiedTime: '2026-04-05T00:00:00+08:00',
+    title: '916黃金是什麼？純度、價格與收購行情完整說明2026',
+    description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 // lastModified: 2026-03-19
@@ -14,7 +23,7 @@ export default function Page() {
         '@type': 'BlogPosting',
         headline: '916黃金是什麼？純度、價格與收購行情完整說明2026',
         description: '916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。',
-        author: { '@type': 'Organization', name: '巧品珠寶' },
+        author: { '@type': 'Organization', name: '鑑定師L' },
         datePublished: '2026-04-05',
         dateModified: '2026-04-05',
         mainEntityOfPage: {
@@ -71,7 +80,7 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         916黃金是什麼？純度、價格與收購行情完整說明2026
       </h1>
-      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：巧品珠寶</p>
+      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：鑑定師L</p>
 
       <p>拿著一條金鍊，背面刻著「916」，卻不知道這數字是什麼意思？</p>
       <p>直接說：<strong>916 = 22K黃金，含金量91.6%</strong>。這是東南亞金飾很常用的規格，馬來西亞、新加坡的金飾有大量916黃金，台灣消費者有時從那邊帶回來，或買到進口飾品才會遇到。</p>

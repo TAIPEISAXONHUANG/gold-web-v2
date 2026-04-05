@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/broken-gold-recovery',
   },
+  openGraph: {
+    title: '斷掉的黃金｜黃金斷了怎麼辦｜巧品珠寶',
+    description: '斷裂、損毀的黃金一樣可以回收！巧品珠寶按實際重量計價，不扣耗損，當場現金付款。台北大安區免費估價，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/broken-gold-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-12T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "斷掉的黃金｜黃金斷了怎麼辦",
             "author": {
               "@type": "Organization",
-              "name": "巧品珠寶"
+              "name": "鑑定師L"
             },
             "publisher": {
               "@type": "Organization",
@@ -140,8 +149,8 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

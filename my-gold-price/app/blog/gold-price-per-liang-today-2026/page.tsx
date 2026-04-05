@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-liang-today-2026',
   },
+  openGraph: {
+    title: '今日金價一兩多少錢？2026台灣即時行情與換算指南｜巧品珠寶',
+    description: '2026年今日金價一兩最新行情。台灣黃金一兩等於5錢＝18.75克，9999純金一兩回收今日報價、各純度換算公式一次看懂。台北大安巧品珠寶不扣耗損、當場秤重報價。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-price-per-liang-today-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-27T00:00:00+08:00',
+    modifiedTime: '2026-03-27T09:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -57,7 +66,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "今日金價一兩多少錢？2026台灣即時行情與換算指南",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-27",
             "dateModified": "2026-03-27T09:00:00+08:00",

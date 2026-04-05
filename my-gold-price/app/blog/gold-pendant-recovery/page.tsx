@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pendant-recovery',
   },
+  openGraph: {
+    title: '黃金墜子回收｜金吊墜高價變現｜巧品珠寶',
+    description: '黃金、鑽石吊墜高價回收！各款式吊墜、寶石墜子均可估價。台北巧品珠寶免費專業鑑定，當場現金付款，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-pendant-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "黃金墜子回收｜金吊墜高價變現｜巧品珠寶",
             "description": "黃金墜子回收推薦！各式金墜、神明吊墜、鑲嵌寶石金墜皆可收購，台北巧品珠寶專業估價。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-pendant-recovery" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",

@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-recovery-price-per-qian-2026',
   },
+  openGraph: {
+    title: '台灣黃金回收價一錢多少？2026年最新行情完整指南｜巧品珠寶',
+    description: '2026年台灣黃金回收價一錢行情即時更新。9999純金每錢回收價計算方式、各純度換算、台北大安區巧品珠寶當日牌價查詢。免費估價，當場現金付款。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taiwan-gold-recovery-price-per-qian-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-25T00:00:00+08:00',
+    modifiedTime: '2026-03-25T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -59,7 +68,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "台灣黃金回收價一錢多少？2026年最新行情完整指南",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-25",
             "dateModified": "2026-03-25T00:00:00+08:00",
@@ -226,7 +235,7 @@ export default function Page() {
       <p>台北大安區實體店面，10年經驗，不扣耗損，當場現金付款。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>https://www.gold-tw.com/</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

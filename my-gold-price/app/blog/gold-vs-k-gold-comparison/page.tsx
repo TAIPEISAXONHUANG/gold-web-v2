@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',
   },
+  openGraph: {
+    title: '黃金vs K金怎麼選？回收價差一次搞懂｜巧品珠寶',
+    description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-24T00:00:00+08:00',
+    modifiedTime: '2026-03-24T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "黃金與K金完整比較｜純度、價格、優缺點一篇看懂",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-24",
             "dateModified": "2026-03-24T00:00:00+08:00",

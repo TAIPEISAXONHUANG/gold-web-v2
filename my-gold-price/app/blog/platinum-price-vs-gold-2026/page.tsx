@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-price-vs-gold-2026',
   },
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-04-01T00:00:00+08:00',
+    modifiedTime: '2026-04-01T00:00:00+08:00',
+    title: '白金回收價格2026｜白金vs黃金哪個值錢？台灣即時行情',
+    description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 // lastModified: 2026-03-19
@@ -77,7 +86,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "白金回收價格2026｜白金vs黃金哪個值錢？台灣即時行情",
-            "author": { "@type": "Person", "name": "巧品珠寶" },
+            "author": { "@type": "Person", "name": "鑑定師L" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-04-01",
             "dateModified": "2026-04-01",
@@ -211,13 +220,13 @@ export default function Page() {
         <hr style={{ margin: '2rem 0' }} />
         <h2>白金飾品可以免費估價嗎？</h2>
         <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-        <p>LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a></p>
+        <p>LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }} rel="noopener noreferrer">@Hh0986481626</a></p>
         <p>地址：台北市大安區濟南路三段62-1號1樓</p>
 
         <div style={{ background: '#f0f9ff', borderLeft: '4px solid #3b82f6', padding: '16px', margin: '2rem 0', borderRadius: '8px', fontSize: '0.9rem' }}>
           <strong>參考資料：</strong>{' '}
-          <a href="https://www.kitco.com/charts/platinum/" target="_blank" rel="noopener" style={{ color: '#991b1b', fontWeight: 'bold' }}>Kitco 鉑金即時報價</a>、
-          <a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener" style={{ color: '#991b1b', fontWeight: 'bold' }}>台灣銀行黃金牌價</a>
+          <a href="https://www.kitco.com/charts/platinum/" target="_blank" rel="noopener noreferrer" style={{ color: '#991b1b', fontWeight: 'bold' }}>Kitco 鉑金即時報價</a>、
+          <a href="https://rate.bot.com.tw/gold" target="_blank" rel="noopener noreferrer" style={{ color: '#991b1b', fontWeight: 'bold' }}>台灣銀行黃金牌價</a>
         </div>
 
         <h2>常見問題 FAQ</h2>

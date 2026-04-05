@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-guide-2026',
   },
+  openGraph: {
+    title: 'GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明',
+    description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gia-diamond-guide-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-04-05T14:20:00+08:00',
+    modifiedTime: '2026-04-05T14:20:00+08:00',
+  },
 };
 
 const faqs = [
@@ -47,7 +56,7 @@ export default function Page() {
                 headline: 'GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明',
                 description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。',
                 mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gia-diamond-guide-2026' },
-                author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+                author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
                 publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
                 datePublished: '2026-04-05T14:20:00+08:00',
                 dateModified: '2026-04-05T14:20:00+08:00',

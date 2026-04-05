@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-process',
   },
+  openGraph: {
+    title: '黃金回收流程是什麼？5分鐘讓你搞懂整個過程',
+    description: '黃金回收完整流程說明！從攜帶物品、秤重估價到現金付款，全程約15分鐘。台北巧品珠寶安全透明，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-recycling-process',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-16T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "黃金回收流程是什麼？5分鐘讓你搞懂整個過程",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",

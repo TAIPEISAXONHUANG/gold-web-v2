@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-guide',
   },
+  openGraph: {
+    title: '黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略',
+    description: '什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-selling-timing-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2025-01-01T00:00:00+08:00',
+    modifiedTime: '2025-01-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -42,7 +51,7 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'author': { '@type': 'Organization', 'name': '鑑定師L' },
             'datePublished': '2025-01-01',
             'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({

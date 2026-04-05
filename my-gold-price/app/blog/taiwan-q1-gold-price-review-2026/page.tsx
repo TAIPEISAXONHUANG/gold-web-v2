@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gold-tw.com/blog/taiwan-q1-gold-price-review-2026",
   },
+  openGraph: {
+    title: '台灣2026年Q1黃金金價回顧｜一錢行情、3月高點與4月展望',
+    description: '2026年台灣黃金Q1行情完整回顧：1月、2月、3月一錢價格區間、漲跌原因、高低點分析，以及4月行情展望。幫你看懂這波黃金牛市的脈絡。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taiwan-q1-gold-price-review-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-19T00:00:00+08:00',
+    modifiedTime: '2026-03-19T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19

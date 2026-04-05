@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-holiday-hours-2026',
   },
+  openGraph: {
+    title: '銀樓假日有開嗎？2026台灣銀樓節假日營業時間完整說明',
+    description: '銀樓假日開嗎？週末、國定假日、農曆春節銀樓幾點開門？本文整理台灣銀樓節假日營業規律，讓你不白跑一趟。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-shop-holiday-hours-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-04-05T14:10:00+08:00',
+    modifiedTime: '2026-04-05T14:10:00+08:00',
+  },
 };
 
 const faqs = [
@@ -47,7 +56,7 @@ export default function Page() {
                 headline: '銀樓假日有開嗎？2026台灣銀樓節假日營業時間完整說明',
                 description: '銀樓假日開嗎？週末、國定假日、農曆春節銀樓幾點開門？本文整理台灣銀樓節假日營業規律，讓你不白跑一趟。',
                 mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-shop-holiday-hours-2026' },
-                author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+                author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
                 publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
                 datePublished: '2026-04-05T14:10:00+08:00',
                 dateModified: '2026-04-05T14:10:00+08:00',

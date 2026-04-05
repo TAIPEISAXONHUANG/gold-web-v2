@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-tips',
   },
+  openGraph: {
+    title: '回收K金攻略2026｜18K/14K/10K收購流程與避坑指南',
+    description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/k-gold-recovery-tips',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-28T14:00:00+08:00',
+    modifiedTime: '2026-03-28T14:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "回收K金攻略2026｜18K/14K/10K收購流程與避坑指南",
             "description": "想回收K金？18K、14K、10K回收計算方式、常見陷阱與台北推薦回收商完整解析。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/k-gold-recovery-tips" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-28T14:00:00+08:00",

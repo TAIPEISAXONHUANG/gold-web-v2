@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/what-to-bring-when-selling-gold-2026',
   },
+  openGraph: {
+    title: '賣黃金要帶什麼？2026年最新規定告訴你',
+    description: '2026年賣黃金完整攜帶清單！身分證、黃金物品、購買憑證（選備）。台北巧品珠寶10分鐘搞定，當場現金，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/what-to-bring-when-selling-gold-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-16T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "賣黃金要帶什麼？2026年最新規定告訴你",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",

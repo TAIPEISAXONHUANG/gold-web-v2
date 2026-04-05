@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/new-taipei-gold-recovery',
   },
+  openGraph: {
+    title: '新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？',
+    description: '新北市黃金回收推薦！板橋、中和、永和、三重居民捷運可達台北巧品珠寶，老闆親自鑑定，不扣耗損，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/new-taipei-gold-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-14T00:00:00+08:00',
+    modifiedTime: '2026-04-01T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-04-01T00:00:00+08:00",
@@ -236,8 +245,8 @@ export default function Page() {
 
       <h2>📞 聯繫我們</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>https://www.gold-tw.com/</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
       <p style={{ color: '#B8860B', fontWeight: 'bold' }}>歡迎比較！先LINE免費估價，不賣也沒關係。</p>
     </main>

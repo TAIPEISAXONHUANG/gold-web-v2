@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-care-guide',
   },
+  openGraph: {
+    title: '黃金飾品保養、清潔與保存｜K金、9999、22K各類型完整指南',
+    description: '黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-jewelry-care-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2025-01-01T00:00:00+08:00',
+    modifiedTime: '2025-01-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -42,7 +51,7 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'author': { '@type': 'Organization', 'name': '鑑定師L' },
             'datePublished': '2025-01-01',
             'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({

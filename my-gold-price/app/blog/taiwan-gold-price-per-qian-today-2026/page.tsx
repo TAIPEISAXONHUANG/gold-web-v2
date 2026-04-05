@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-per-qian-today-2026',
   },
+  openGraph: {
+    title: '台灣今日金價每錢2026｜即時報價＋換算公式一次看懂｜巧品珠寶',
+    description: '2026年台灣今日黃金每錢最新報價。9999純金一錢今日回收多少錢？附各純度換算表、台銀牌價對照、不扣耗損回收流程。台北大安巧品珠寶當日牌價最透明。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taiwan-gold-price-per-qian-today-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-27T00:00:00+08:00',
+    modifiedTime: '2026-03-27T09:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -57,7 +66,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "台灣今日金價每錢2026｜即時報價＋換算公式一次看懂",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-27",
             "dateModified": "2026-03-27T09:00:00+08:00",

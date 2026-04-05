@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-guide-2026',
   },
+  openGraph: {
+    title: '2026年台灣黃金回收價格完整指南｜各純度回收價差比較表',
+    description: '2026年台灣黃金回收價格完整指南！最新各純度(K金/9999/995)回收報價，影響價格因素專業解析，幫您賣出最優惠價格。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-recycling-price-guide-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-18T00:00:00+08:00',
+    modifiedTime: '2026-03-18T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "2026年台灣黃金回收價格完整指南｜各純度回收價差比較表",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-18",
             "dateModified": "2026-03-18T00:00:00+08:00",

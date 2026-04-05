@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-guide',
   },
+  openGraph: {
+    title: '結婚金飾習俗與預算2026｜龍鳳鐲、項鍊、耳環習俗與行情',
+    description: '結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/wedding-gold-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2025-01-01T00:00:00+08:00',
+    modifiedTime: '2025-01-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -42,7 +51,7 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'author': { '@type': 'Organization', 'name': '鑑定師L' },
             'datePublished': '2025-01-01',
             'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({

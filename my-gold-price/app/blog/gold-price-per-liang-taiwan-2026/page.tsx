@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-liang-taiwan-2026',
   },
+  openGraph: {
+    title: '2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南｜巧品珠寶',
+    description: '2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-price-per-liang-taiwan-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-26T00:00:00+08:00',
+    modifiedTime: '2026-03-26T09:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -57,7 +66,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-26",
             "dateModified": "2026-03-26T09:00:00+08:00",
@@ -230,8 +239,8 @@ export default function Page() {
       <h2>立即查詢今日一兩報價是多少？</h2>
       <p>台北大安區實體店，10年專業黃金回收，不扣耗損，現場現金支付。</p>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/@QPD888" style={{ color: '#B8860B' }}>@QPD888</a></p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>https://www.gold-tw.com/</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/@QPD888" style={{ color: '#B8860B' }} rel="noopener noreferrer">@QPD888</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

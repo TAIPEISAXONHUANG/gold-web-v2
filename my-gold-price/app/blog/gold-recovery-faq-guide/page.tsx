@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq-guide',
   },
+  openGraph: {
+    title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
+    description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-recovery-faq-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-31T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             headline: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
             description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-recovery-faq-guide' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',
@@ -36,7 +45,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "headline": "黃金回收FAQ攻略｜2026年新手必看",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-24",
             "dateModified": "2026-03-24T00:00:00+08:00",

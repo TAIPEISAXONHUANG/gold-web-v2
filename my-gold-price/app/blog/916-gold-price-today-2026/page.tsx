@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/916-gold-price-today-2026',
   },
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-04-01T00:00:00+08:00',
+    modifiedTime: '2026-04-01T00:00:00+08:00',
+    title: '916黃金今日金價2026｜含金量91.6%的K金行情與回收價一次看清楚',
+    description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 const faqs = [
@@ -44,7 +53,7 @@ export default function GoldPrice916Today2026() {
             headline: '916黃金今日金價2026｜含金量91.6%的K金行情與回收價一次看清楚',
             description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/916-gold-price-today-2026' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-04-01T14:00:00+08:00',
             dateModified: '2026-04-01T14:00:00+08:00',

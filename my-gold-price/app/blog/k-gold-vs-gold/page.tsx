@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-vs-gold',
   },
+  openGraph: {
+    title: 'K金與黃金的差異｜一篇讓你搞懂貴金屬',
+    description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/k-gold-vs-gold',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-19T00:00:00+08:00',
+    modifiedTime: '2026-03-19T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "K金與黃金的差異｜一篇讓你搞懂貴金屬",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-19",
             "dateModified": "2026-03-19T00:00:00+08:00",
             "description": "K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。"

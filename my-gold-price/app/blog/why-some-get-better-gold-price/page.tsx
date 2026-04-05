@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/why-some-get-better-gold-price',
   },
+  openGraph: {
+    title: '為什麼有些人賣黃金比較值錢？原來是這個原因',
+    description: '為什麼同樣的黃金，有人拿到高價、有人拿到低價？揭秘3大關鍵因素：選店技巧、時機、談判方式，讓你拿到最高回收價。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/why-some-get-better-gold-price',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-16T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "為什麼有些人賣黃金比較值錢？原來是這個原因",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",

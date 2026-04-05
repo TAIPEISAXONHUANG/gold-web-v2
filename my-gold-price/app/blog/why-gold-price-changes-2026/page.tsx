@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒。',
     url: 'https://www.gold-tw.com/blog/why-gold-price-changes-2026',
     type: 'article',
+    publishedTime: '2026-04-04T00:00:00+08:00',
+    modifiedTime: '2026-04-04T00:00:00+08:00',
   },
 }
 
@@ -29,7 +31,7 @@ export default function Page() {
         "dateModified": "2026-04-04",
         "author": {
           "@type": "Organization",
-          "name": "巧品珠寶",
+          "name": "鑑定師L",
           "url": "https://www.gold-tw.com"
         },
         "publisher": {
@@ -366,17 +368,17 @@ export default function Page() {
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-selling-timing-guide" className="text-yellow-700 hover:underline">
+              <a href="https://www.gold-tw.com/blog/gold-selling-timing-guide" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
                 黃金變現時機2026｜什麼時候賣金最好？
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/realtime-gold-price-april-2026" className="text-yellow-700 hover:underline">
+              <a href="https://www.gold-tw.com/blog/realtime-gold-price-april-2026" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
                 今日即時金價2026年4月｜台灣黃金現貨報價查詢
               </a>
             </li>
             <li>
-              <a href="https://www.gold-tw.com/blog/gold-vs-silver-investment" className="text-yellow-700 hover:underline">
+              <a href="https://www.gold-tw.com/blog/gold-vs-silver-investment" className="text-yellow-700 hover:underline" rel="noopener noreferrer">
                 黃金vs白銀投資2026｜兩種貴金屬的特性與配置建議
               </a>
             </li>

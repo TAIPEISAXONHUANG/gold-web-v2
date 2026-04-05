@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-scale-trap',
   },
+  openGraph: {
+    title: '黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？',
+    description: '賣黃金最常見的秤重陷阱！揭露業者如何在秤重上動手腳，教你如何現場確認重量，避免被少算黃金重量而損失金錢。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-scale-trap',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-14T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-03-16T00:00:00+08:00",

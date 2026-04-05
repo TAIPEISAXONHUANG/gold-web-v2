@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery-recommend',
   },
+  openGraph: {
+    title: '台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價',
+    description: '找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taipei-gold-recovery-recommend',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-28T00:00:00+08:00',
+    modifiedTime: '2026-03-28T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -23,7 +32,7 @@ export default function Page() {
             "headline": "台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價",
             "description": "台北大安區巧品珠寶，不扣耗損，XRF儀器現場檢測，24K/18K/K金全收，當場現金。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/taipei-gold-recovery-recommend" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-28T00:00:00+08:00",
@@ -194,8 +203,8 @@ export default function Page() {
         <p style={{ fontWeight: 'bold' }}>延伸閱讀：</p>
         <ul>
           <li><Link href="/blog/gold-recovery-price-today" style={{ color: '#B8860B' }}>今日黃金回收價格即時查詢</Link></li>
-          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }}>K金回收完整指南｜18K/14K/10K價格計算</a></li>
-          <li><a href="https://www.gold-tw.com/district/da-an" style={{ color: '#B8860B' }}>大安區黃金回收｜巧品珠寶門市資訊</a></li>
+          <li><a href="https://www.gold-tw.com/blog/karat-gold-recovery" style={{ color: '#B8860B' }} rel="noopener noreferrer">K金回收完整指南｜18K/14K/10K價格計算</a></li>
+          <li><a href="https://www.gold-tw.com/district/da-an" style={{ color: '#B8860B' }} rel="noopener noreferrer">大安區黃金回收｜巧品珠寶門市資訊</a></li>
         </ul>
         <p style={{ marginTop: '1rem' }}><Link href="/blog" style={{ color: '#B8860B' }}>更多文章</Link></p>
       </div>

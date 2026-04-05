@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-weight',
   },
+  openGraph: {
+    title: '黃金重量怎麼算？台錢vs公克換算｜巧品珠寶',
+    description: '黃金重量單位完整說明！台錢、公克、英兩換算對照表，了解台灣黃金交易慣用單位，計算回收金額不再被搞混。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-weight',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "黃金重量怎麼算？台錢vs公克換算｜巧品珠寶",
             "description": "黃金重量換算完整說明！台錢、公克、兩、盎司換算表，讓你看懂黃金報價單位。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-weight" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80", "width": 1200, "height": 630 },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -110,9 +119,9 @@ export default function Page() {
 
 
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }} rel="noopener noreferrer">www.gold-tw.com</a></p>
     </main>
   );
 }

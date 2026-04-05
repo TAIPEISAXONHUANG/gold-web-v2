@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recycling-recommend',
   },
+  openGraph: {
+    title: '台北黃金回收推薦｜2026年哪家銀樓價格最好？大安/中山/士林攻略',
+    description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taipei-gold-recycling-recommend',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-18T00:00:00+08:00',
+    modifiedTime: '2026-03-18T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "台北黃金回收推薦｜2026年哪家銀樓價格最好？",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-18",
             "dateModified": "2026-03-18T00:00:00+08:00",

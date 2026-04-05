@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-bracelet-recovery',
   },
+  openGraph: {
+    title: '黃金手鐲回收｜金手鐲高價變現｜巧品珠寶',
+    description: '黃金手鍊、手環高價回收！各款式K金手鍊均可，按重量計價不扣耗損。台北巧品珠寶當場現金付款，電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-bracelet-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "黃金手鐲回收｜金手鐲高價變現｜巧品珠寶",
             "description": "黃金手鐲回收推薦！台北高價收購金手鐲，不扣耗損當場付款。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-bracelet-recovery" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -108,7 +117,7 @@ export default function Page() {
       <hr style={{ margin: '2rem 0' }} />
       <h2>立即諮詢</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
-      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
+      <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }} rel="noopener noreferrer">@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
     </main>
   );

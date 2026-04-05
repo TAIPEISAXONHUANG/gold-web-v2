@@ -175,7 +175,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
         {/* 手機版底部浮動按鈕 */}
         <div className="fixed z-50 transition-all duration-300 bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around items-center p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] lg:w-auto lg:bg-transparent lg:border-none lg:flex-col lg:top-[40%] lg:right-0 lg:left-auto lg:bottom-auto lg:gap-2 lg:p-0 lg:shadow-none">
             
-            <form action="https://lin.ee/TOFUak9" method="get" target="_blank" rel="noopener">
+            <form action="https://lin.ee/TOFUak9" method="get" target="_blank" rel="noopener noreferrer">
                 <button type="submit" aria-label="聯絡巧品珠寶 LINE 官方帳號" onClick={sendConversionSignal} className="flex items-center justify-center text-white shadow-md bg-[#06C755] w-11 h-11 rounded-full lg:w-12 lg:h-12 lg:rounded-l-lg lg:rounded-r-none lg:hover:w-14">
                     <IconLine className="text-xl lg:text-2xl w-6 h-6" />
                 </button>
@@ -215,7 +215,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                         <a href="tel:0986821626" onClick={sendConversionSignal} className="flex items-center gap-2 bg-red-50 px-3 py-1 rounded-full border border-red-100 hover:bg-red-100 transition mb-1">
                             <IconPhone className="text-red-800 w-3 h-3" /><span className="font-bold text-red-900 font-nums text-sm">0986-821-626</span>
                         </a>
-                        <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-600 hover:text-red-800 transition text-[10px] md:text-xs min-h-[44px] flex items-center">
+                        <a href="https://maps.google.com/?q=台北市大安區濟南路三段62-1號1樓" target="_blank" className="flex items-center gap-1 text-gray-600 hover:text-red-800 transition text-[10px] md:text-xs min-h-[44px] flex items-center" rel="noopener noreferrer">
                             <IconMapMarker className="text-red-600 w-3 h-3" /><span>大安區濟南路三段62-1號</span>
                         </a>
                     </div>
@@ -449,7 +449,7 @@ export default function ClientPage({ initialData }: { initialData: any }) {
                                 <h3 className="font-bold text-gray-800 mb-4 border-l-4 border-red-800 pl-2">聯絡我們</h3>
                                 <div className="space-y-4 text-sm text-gray-700">
                                     <div className="flex items-start gap-3"><IconClock className="text-red-800 mt-1 w-5 h-5" /><div><span className="font-bold block text-gray-900">營業時間</span>貴金屬買賣 11:00~03:30</div></div>
-                                    <div className="flex items-start gap-3"><IconMapMarker className="text-red-800 mt-1 w-4 h-4" /><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition">台北市大安區濟南路三段62-1號1樓</a></div></div>
+                                    <div className="flex items-start gap-3"><IconMapMarker className="text-red-800 mt-1 w-4 h-4" /><div><span className="font-bold block text-gray-900">門市地址</span><a href="https://www.google.com/maps/search/?api=1&query=台北市大安區濟南路三段62-1號1樓" target="_blank" className="hover:text-red-800 transition" rel="noopener noreferrer">台北市大安區濟南路三段62-1號1樓</a></div></div>
                                     <div className="flex items-start gap-3"><IconPhone className="text-red-800 mt-1 w-4 h-4" /><div><span className="font-bold block text-gray-900">預約專線</span><a href="tel:0986821626" onClick={() => sendConversionSignal()} className="text-lg font-bold text-red-800">0986-821-626</a></div></div>
                                 </div>
                             </div>

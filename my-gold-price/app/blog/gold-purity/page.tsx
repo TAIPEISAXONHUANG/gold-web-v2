@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-purity',
   },
+  openGraph: {
+    title: '黃金純度怎麼看？K數、9999完整說明｜巧品珠寶',
+    description: '黃金純度完整說明！9999、999、916、18K、14K各成色差異、辨識方式與回收價格對照表，一篇搞懂黃金純度計算。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-purity',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-15T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "黃金純度怎麼看？K數、9999完整說明｜巧品珠寶",
             "description": "黃金純度完整說明！9999、999、916、18K、14K差異解析，如何識別黃金純度印記。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-purity" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "image": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=1ASz1v5ZBQ-WV572r-BC4gZRuraywgKKv&w=1200&output=webp&q=80" },
             "datePublished": "2026-03-15T00:00:00+08:00",
@@ -128,7 +137,7 @@ export default function Page() {
 
       <div style={{ background: '#f0f9ff', borderLeft: '4px solid #3b82f6', padding: '16px', margin: '2rem 0', borderRadius: '8px', fontSize: '0.9rem' }}>
         <strong>📚 參考資料：</strong>{' '}
-        <span dangerouslySetInnerHTML={{ __html: '純度標準參考：<a href="https://www.cnsonline.com.tw" target="_blank" rel="noopener" style="color:#991b1b;font-weight:bold">CNS國家標準</a>及ISO 9202國際貴金屬純度標準' }} />
+        <span dangerouslySetInnerHTML={{ __html: '純度標準參考：<a href="https://www.cnsonline.com.tw" target="_blank" rel="noopener noreferrer" style="color:#991b1b;font-weight:bold">CNS國家標準</a>及ISO 9202國際貴金屬純度標準' }} />
       </div>
 
       <div style={{ margin: '2rem 0', padding: '1.5rem', background: '#FEF9E7', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>

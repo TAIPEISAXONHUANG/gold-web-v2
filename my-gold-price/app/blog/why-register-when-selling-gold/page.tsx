@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/why-register-when-selling-gold',
   },
+  openGraph: {
+    title: '賣黃金為什麼要登記？實名制規定全解析｜巧品珠寶',
+    description: '賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/why-register-when-selling-gold',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-27T00:00:00+08:00',
+    modifiedTime: '2026-03-27T09:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -57,7 +66,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "賣黃金為什麼要登記？實名制規定全解析",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com" },
             "datePublished": "2026-03-27",
             "dateModified": "2026-03-27T09:00:00+08:00",

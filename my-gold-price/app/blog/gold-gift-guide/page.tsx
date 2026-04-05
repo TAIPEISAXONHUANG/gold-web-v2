@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-gift-guide',
   },
+  openGraph: {
+    title: '黃金送禮習俗與場合｜生日、婚禮、滿月、春節黃金禮品完整指南',
+    description: '黃金送禮有哪些習俗？結婚要送多少？滿月送金飾好嗎？生日、春節該送什麼黃金？台灣傳統與現代黃金送禮場合、行情參考與選擇建議。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-gift-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2025-01-01T00:00:00+08:00',
+    modifiedTime: '2025-01-01T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -42,7 +51,7 @@ export default function Page() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            'author': { '@type': 'Organization', 'name': '巧品珠寶' },
+            'author': { '@type': 'Organization', 'name': '鑑定師L' },
             'datePublished': '2025-01-01',
             'dateModified': '2025-01-01',
             mainEntity: faqs.map((f) => ({

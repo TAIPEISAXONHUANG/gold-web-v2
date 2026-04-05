@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-price-today-2026',
   },
+  openGraph: {
+    title: '今日黃金回收價格2026｜台灣黃金收購報價即時查詢',
+    description: '今日黃金回收價格多少？2026年台灣各類型黃金（24K、18K、金條、金幣）收購報價一次看懂。巧品珠寶當場現金，不扣耗損，公正秤重。電話 0986-821-626。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-recovery-price-today-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-28T14:00:00+08:00',
+    modifiedTime: '2026-03-28T14:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -22,7 +31,7 @@ export default function Page() {
             "headline": "今日黃金回收價格2026｜台灣黃金收購報價即時查詢",
             "description": "今日黃金回收價格多少？2026年台灣各類型黃金收購報價，巧品珠寶不扣耗損，當場現金。",
             "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gold-tw.com/blog/gold-recovery-price-today-2026" },
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://www.gold-tw.com/logo.webp" } },
             "image": { "@type": "ImageObject", "url": "https://www.gold-tw.com/og-image.webp" },
             "datePublished": "2026-03-28T14:00:00+08:00",

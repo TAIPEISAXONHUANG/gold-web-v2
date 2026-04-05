@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-2026',
   },
+  openGraph: {
+    title: '2026年黃金與K金的差異｜買金飾前必看的純度攻略｜巧品珠寶',
+    description: '黃金與K金哪個好？一篇搞懂24K、18K、14K的純度差異、價格計算、優缺點比較。2026年最新數據，買金飾或賣黃金都適用。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-vs-k-gold-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-23T00:00:00+08:00',
+    modifiedTime: '2026-03-23T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "2026年黃金與K金的差異｜買金飾前必看的純度攻略",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-23",
             "dateModified": "2026-03-23T00:00:00+08:00",

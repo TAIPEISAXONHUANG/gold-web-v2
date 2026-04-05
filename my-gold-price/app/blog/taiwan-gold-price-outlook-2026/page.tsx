@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026',
   },
+  openGraph: {
+    title: '台灣2026金價行情｜今日金價走勢與未來預測完整分析',
+    description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-31T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -45,7 +54,7 @@ export default function Page() {
             headline: '台灣2026金價行情｜今日金價走勢與未來預測完整分析',
             description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

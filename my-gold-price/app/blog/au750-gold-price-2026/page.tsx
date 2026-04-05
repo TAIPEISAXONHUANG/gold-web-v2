@@ -3,6 +3,15 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
   description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-04-05T00:00:00+08:00',
+    modifiedTime: '2026-04-05T00:00:00+08:00',
+    title: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
+    description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 // lastModified: 2026-03-19
@@ -14,7 +23,7 @@ export default function Page() {
         '@type': 'BlogPosting',
         headline: 'AU750是什麼？18K黃金收購價與純度完整說明2026',
         description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
-        author: { '@type': 'Organization', name: '巧品珠寶' },
+        author: { '@type': 'Organization', name: '鑑定師L' },
         datePublished: '2026-04-05',
         dateModified: '2026-04-05',
         mainEntityOfPage: {
@@ -71,7 +80,7 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         AU750是什麼？18K黃金收購價與純度完整說明2026
       </h1>
-      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：巧品珠寶</p>
+      <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：鑑定師L</p>
 
       <p>戒指、項鍊的扣頭上印著「AU750」，有點像暗號。</p>
       <p>其實很簡單：<strong>AU750 = 18K黃金 = 含金量75%</strong>。</p>

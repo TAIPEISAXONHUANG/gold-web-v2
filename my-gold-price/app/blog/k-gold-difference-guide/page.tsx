@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-difference-guide',
   },
+  openGraph: {
+    title: '黃金與K金的差異分析｜純度、價格、回收價值一次看懂｜巧品珠寶',
+    description: '黃金與K金哪個更值得買？24K、18K、14K差在哪？一篇搞懂純度、價格計算方式、回收價值，買金飾不吃虧、賣黃金更值錢。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/k-gold-difference-guide',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-28T00:00:00+08:00',
+    modifiedTime: '2026-03-28T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "黃金與K金的差異分析｜純度、價格、回收價值一次看懂",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-28",
             "dateModified": "2026-03-28T00:00:00+08:00",

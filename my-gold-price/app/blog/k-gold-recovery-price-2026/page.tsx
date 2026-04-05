@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-price-2026',
   },
+  openGraph: {
+    type: 'article',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-01T00:00:00+08:00',
+    title: 'K金回收價格2026｜18K、14K、10K今日行情＋計算公式完整版',
+    description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。',
+    type: 'article',
+    siteName: '巧品珠寶',
+  },
 }
 
 const faqs = [
@@ -44,7 +53,7 @@ export default function Page() {
             headline: 'K金回收價格2026｜18K、14K、10K今日行情＋計算公式完整版',
             description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/k-gold-recovery-price-2026' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',

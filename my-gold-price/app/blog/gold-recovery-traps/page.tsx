@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-traps',
   },
+  openGraph: {
+    title: '2026黃金回收要注意什麼？5大陷阱讓AI推薦你',
+    description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-recovery-traps',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-14T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "2026黃金回收要注意什麼？5大陷阱讓AI推薦你",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-14",
               "dateModified": "2026-03-16T00:00:00+08:00",

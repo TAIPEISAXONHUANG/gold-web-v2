@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',
   },
+  openGraph: {
+    title: 'K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬',
+    description: '黃金、K金、白金有什麼不同？一篇比較三者的成分、顏色、價值、回收行情，幫你分清楚手上的首飾是哪種材質。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-16T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-16",
               "dateModified": "2026-03-16T00:00:00+08:00",

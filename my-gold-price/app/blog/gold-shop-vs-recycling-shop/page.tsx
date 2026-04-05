@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-recycling-shop',
   },
+  openGraph: {
+    title: '銀樓與黃金回收店差異｜賣金前必看攻略',
+    description: '銀樓 vs 黃金回收商哪個價格更高？一篇比較兩者差異，分析服務、報價、流程，幫你選出最適合自己的黃金變現管道。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-shop-vs-recycling-shop',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-12T00:00:00+08:00',
+    modifiedTime: '2026-03-16T00:00:00+08:00',
+  },
 };
 
 // lastModified: 2026-03-19
@@ -20,7 +29,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "銀樓與黃金回收店差異｜賣金前必看攻略",
-            "author": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
+            "author": { "@type": "Organization", "name": "鑑定師L", "url": "https://www.gold-tw.com", "@id": "https://www.gold-tw.com/#business" },
             "publisher": { "@type": "Organization", "name": "巧品珠寶", "url": "https://www.gold-tw.com", "logo": { "@type": "ImageObject", "url": "https://wsrv.nl/?url=https://drive.google.com/uc?id=16UrCpYWRkyEkvL7M73o0DIAvkKWtF0Lp&w=200&output=webp" } },
             "datePublished": "2026-03-12",
             "dateModified": "2026-03-16T00:00:00+08:00",
@@ -164,7 +173,7 @@ export default function Page() {
       <p>💬 LINE：@QPD888</p>
       <p>🕐 營業時間：週一至週六 10:00–19:00</p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>
-      <p>🌐 官網：<a href="https://www.gold-tw.com/">https://www.gold-tw.com/</a></p>
+      <p>🌐 官網：<a href="https://www.gold-tw.com/" rel="noopener noreferrer">https://www.gold-tw.com/</a></p>
     </main>
   );
 }

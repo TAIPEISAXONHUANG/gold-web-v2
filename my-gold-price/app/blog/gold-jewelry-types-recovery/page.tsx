@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery',
   },
+  openGraph: {
+    title: '金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點',
+    description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。',
+    type: 'article',
+    url: 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery',
+    siteName: '巧品珠寶',
+    publishedTime: '2026-03-01T00:00:00+08:00',
+    modifiedTime: '2026-03-31T00:00:00+08:00',
+  },
 };
 
 const faqs = [
@@ -45,7 +54,7 @@ export default function Page() {
             headline: '金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點',
             description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。',
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery' },
-            author: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
+            author: { '@type': 'Organization', name: '鑑定師L', url: 'https://www.gold-tw.com' },
             publisher: { '@type': 'Organization', name: '巧品珠寶', url: 'https://www.gold-tw.com' },
             datePublished: '2026-03-01T00:00:00+08:00',
             dateModified: '2026-03-31T00:00:00+08:00',
