@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-01T00:00:00+08:00',
     title: 'K金回收價格2026｜18K、14K、10K今日行情＋計算公式完整版',
     description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-04-01T00:00:00+08:00',
     title: '今日即時金價2026｜一錢、一兩台灣黃金報價即時查詢',
     description: '想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

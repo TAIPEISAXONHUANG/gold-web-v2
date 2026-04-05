@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-04-01T00:00:00+08:00',
     title: '大安K金收購2026｜回收18K、14K、PT900，當場現金不拖延',
     description: '台北大安K金收購哪裡最划算？2026年K金回收行情、計算方式、注意事項一次說清楚。18K金、14K金、PT900當場報價、XRF驗成色，不扣耗損。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

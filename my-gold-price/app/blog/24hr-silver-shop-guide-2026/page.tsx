@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-04-04T00:00:00+08:00',
     title: '台北24小時銀樓2026｜哪些銀樓深夜也能賣黃金？',
     description: '想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-01T00:00:00+08:00',
     title: 'K金回收攻略2026｜14K、18K、9K哪家收？怎麼算最划算？',
     description: 'K金怎麼回收才不吃虧？本文說清楚14K、18K、9K金的回收計算方式、2026年行情、要避開的坑，以及台北哪裡回收K金給價最高。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

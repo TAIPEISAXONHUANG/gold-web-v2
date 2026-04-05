@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-04-04T00:00:00+08:00',
     title: '白金價格台灣2026｜鉑金 vs 黃金收購行情完整比較',
     description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

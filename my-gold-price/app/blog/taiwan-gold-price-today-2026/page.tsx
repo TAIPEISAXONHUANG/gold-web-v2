@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-01T00:00:00+08:00',
     title: '今日金價台灣2026｜一錢、一兩、每克即時報價查詢',
     description: '今日金價台灣2026最新行情：黃金一錢多少錢？一兩多少？每克幾元？本文整理2026年3月最新金價數據、計算方式與回收報價，5秒看懂今天金價。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }

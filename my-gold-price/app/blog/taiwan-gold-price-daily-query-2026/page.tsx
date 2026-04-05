@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-01T00:00:00+08:00',
     title: '今日黃金價格台灣2026｜每日報價查詢、漲跌原因與回收建議',
     description: '今日黃金價格台灣2026：每日更新的黃金報價、漲跌分析、一錢一兩換算，以及黃金回收最佳時機判斷。看這一篇就夠了。',
-    type: 'article',
     siteName: '巧品珠寶',
   },
 }
