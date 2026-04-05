@@ -46,6 +46,30 @@ export default function Page() {
             datePublished: '2026-04-02',
             author: { '@type': 'Organization', 'name': '巧品珠寶' },
             dateModified: '2026-04-02',
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': 'https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026',
+        },
+        image: {
+          '@type': 'ImageObject',
+          'url': 'https://www.gold-tw.com/og-image.webp',
+          'width': 1200,
+          'height': 630,
+        },
+        publisher: {
+          '@type': 'Organization',
+          'name': '巧品珠寶',
+          '@id': 'https://www.gold-tw.com/#organization',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://www.gold-tw.com/logo.webp',
+            'width': 200,
+            'height': 200,
+          },
+        },
+        inLanguage: 'zh-TW',
+        keywords: '黃金回收, 巧品珠寶, 台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
+        about: { '@id': 'https://www.gold-tw.com/#business' },
           }),
         }}
       />

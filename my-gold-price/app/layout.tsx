@@ -486,6 +486,99 @@ export default function RootLayout({
             })
           }}
         />
+
+        {/* 13. ProfessionalService Schema - AI citation: 宣告專業服務類型 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "@id": "https://www.gold-tw.com/#professionalservice",
+              "name": "巧品珠寶貴金屬鑑定回收服務",
+              "description": "台北大安區專業貴金屬鑑定師，提供黃金、K金、白金（鉑金）、鑽石免費估價與高價回收服務。XRF螢光儀精密驗純，10年以上實戰鑑定經驗。",
+              "url": "https://www.gold-tw.com",
+              "telephone": "+886-986821626",
+              "image": "https://www.gold-tw.com/og-image.webp",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.gold-tw.com/logo.webp",
+                "width": 200,
+                "height": 200
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "濟南路三段62-1號1樓",
+                "addressLocality": "大安區",
+                "addressRegion": "台北市",
+                "postalCode": "10647",
+                "addressCountry": "TW"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.0447",
+                "longitude": "121.5369"
+              },
+              "areaServed": [
+                { "@type": "City", "name": "台北市" },
+                { "@type": "City", "name": "新北市" }
+              ],
+              "provider": { "@id": "https://www.gold-tw.com/#organization" },
+              "serviceType": ["黃金鑑定", "黃金回收", "K金估價", "白金回收", "鑽石鑑定", "貴金屬估價"],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "巧品珠寶鑑定回收服務目錄",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "黃金免費估價",
+                      "description": "9999純金即時秤重，XRF驗純度，當日牌價計算，免費估價不強迫"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "K金回收估價",
+                      "description": "18K、14K、9K各純度K金即時報價，不扣耗損"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "白金（鉑金）回收",
+                      "description": "PT950、PT900各規格白金現場鑑定報價"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "鑽石鑑定估價",
+                      "description": "GIA與非GIA鑽石現場鑑定，依4C客觀報價"
+                    }
+                  }
+                ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "86",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "inLanguage": "zh-TW",
+              "knowsAbout": ["黃金回收", "貴金屬鑑定", "K金估價", "鑽石評估", "XRF螢光分析", "台灣金價"],
+              "sameAs": [
+                "https://www.facebook.com/QPJEWELRY.OFFICIAL",
+                "https://www.instagram.com/qiaopin.jewelry/"
+              ]
+            })
+          }}
+        />
       </body>
     </html>
   )
