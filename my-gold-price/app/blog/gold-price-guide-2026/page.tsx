@@ -160,7 +160,7 @@ export default function Page() {
         <p style={{ color: '#d00', marginTop: '0.5rem' }}>⚠️ 注意：若業者宣稱「扣耗損5%」，上例中的35,200元實際只拿到33,440元，差距1,760元！</p>
       </div>
 
-      <h2>三大黃金變現管道比較？</h2>
+      <h2>三大黃金變現管道有什麼差別？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -241,7 +241,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是立即諮詢・免費估價？</h2>
+      <h2>立即諮詢・免費估價</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓</p>

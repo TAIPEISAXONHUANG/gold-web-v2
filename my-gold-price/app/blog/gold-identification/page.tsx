@@ -46,10 +46,10 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 辨識黃金真偽的方法：看印記標示、磁鐵測試、比重測試（水測法）、XRF螢光分析。建議到專業店家使用儀器鑑定最準確。
       </div>
 
-      <h2>掌握這幾招，黃金真假輕鬆辨識嗎？</h2>
+      <h2>怎麼辨別黃金真假？掌握這幾招</h2>
       <p>市面上有鍍金、包金等各種黃金仿品，外觀與真金非常相似，不具備專業知識很難分辨。本文介紹從簡單到專業的黃金辨識方法，幫助您購買或出售黃金時保障自身權益。如果您想了解黃金回收，可先查看<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a>，了解不同純度的含金量。</p>
 
-      <h2>什麼是看印記標示（最簡單）？</h2>
+      <h2>怎麼看印記標示？（最簡單的方法）</h2>
       <p>正規金飾會刻有純度標示，這是最基本的辨識方式：</p>
       <ul>
         <li><strong>999 / 9999</strong>：足金（24K），含金99.9%以上</li>
@@ -62,7 +62,7 @@ export default function Page() {
       </ul>
       <p>注意：印記只是初步判斷，因為印記也可能被偽造，最終還是需要儀器鑑定確認。</p>
 
-      <h2>什麼是磁鐵測試（在家可做）？</h2>
+      <h2>怎麼用磁鐵測試？（在家可做）</h2>
       <p>黃金是抗磁性金屬，純金不會被磁鐵吸附。測試方法：</p>
       <ol>
         <li>準備一個較強的磁鐵（如釹鐵硼磁鐵）</li>
@@ -72,7 +72,7 @@ export default function Page() {
       </ol>
       <p>注意：此方法只能排除假金，無法確認是真金。銅、鋁等金屬也不會被磁鐵吸附，但並非黃金。</p>
 
-      <h2>什麼是比重測試（水測法）？</h2>
+      <h2>怎麼用比重測試？（水測法）</h2>
       <p>黃金的比重為19.3 g/cm³，遠高於大多數金屬。水測法步驟：</p>
       <ol>
         <li>將金飾放在精確的天平上秤重，記錄重量（A）</li>
@@ -83,7 +83,7 @@ export default function Page() {
       </ol>
       <p>此方法需要精確的天平和計算，一般人在家較難操作，建議到專業店家鑑定。</p>
 
-      <h2>什麼是XRF螢光分析儀（最精確）？</h2>
+      <h2>XRF螢光分析儀怎麼測？（最精確）</h2>
       <p>XRF（X射線螢光分析儀）是最精確的黃金鑑定方法：</p>
       <ul>
         <li>可在<strong>不損傷金飾</strong>的情況下，測出各金屬成分的精確百分比</li>
@@ -126,7 +126,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 怎麼辨別黃金真假？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 四種方法：看印記標示、磁鐵測試（純金不會被吸）、水測比重法、XRF儀器檢測（最準確）。</p>

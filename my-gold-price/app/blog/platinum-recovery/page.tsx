@@ -51,7 +51,7 @@ export default function Page() {
       </ul>
       <p>這三者的回收價值差異很大，請攜帶至店面由專業儀器鑑定確認。了解更多<a href="/blog/gold-vs-platinum" style={{ color: '#B8860B' }}>黃金與白金的差異</a>。</p>
 
-      <h2>什麼是白金首飾的純度標示？</h2>
+      <h2>白金首飾的純度標示怎麼看？</h2>
       <ul>
         <li><strong>Pt999（純鉑）</strong>：含鉑金99.9%，最高純度，較少見</li>
         <li><strong>Pt950</strong>：含鉑金95%，最常見的珠寶用鉑金，硬度適中</li>
@@ -85,7 +85,7 @@ export default function Page() {
         <li>查看<a href="/blog/gold-vs-k-gold-vs-platinum" style={{ color: '#B8860B' }}>黃金、K金、白金的比較</a>，更了解不同貴金屬的特性</li>
       </ul>
 
-      <h2>什麼是我們的服務？</h2>
+      <h2>我們的服務是什麼？</h2>
       <ul>
         <li><strong>現場秤重</strong>：當面公開秤重，您親眼確認數字</li>
         <li><strong>專業儀器檢測</strong>：使用XRF螢光分析儀確認純度</li>
@@ -100,7 +100,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 白金和K白金一樣嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 不一樣。白金=鉑金（Pt），K白金=白色K金（含黃金+其他金屬）。兩者成分和價格完全不同。</p>

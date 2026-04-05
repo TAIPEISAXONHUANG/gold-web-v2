@@ -176,7 +176,7 @@ export default function Page() {
         <p style={{ margin: '0', color: '#555', fontSize: '0.9rem' }}>同意報價後立即付現，不滿意可帶走，無任何費用</p>
       </div>
 
-      <h2>什麼是常見問題 FAQ？</h2>
+      <h2>常見問題 FAQ</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: '今日黃金回收價格是多少？', a: '2026年3月24K足金回收約16,900～17,200元/錢，每日浮動。請電話詢問當日最新報價：0986-821-626。' },
@@ -203,7 +203,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是今天就來換現金？</h2>
+      <h2>今天就能換現金嗎？</h2>
       <p>黃金高價收購，全程透明。帶著你的金飾，15分鐘完成交易。</p>
       <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>LINE：@QPD888</p>

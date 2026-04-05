@@ -39,14 +39,14 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 選擇黃金回收店5大標準：①有實體店面 ②公開每日報價 ③現場秤重透明 ④不扣耗損 ⑤Google評論良好。
       </div>
       
-      <h2>在黃金珠寶行業超過10年，看過太多客人被坑。今天不藏私分享告訴你怎麼選誠信、專業的黃金回收店。嗎？</h2>
+      <h2>怎麼選誠信、專業的黃金回收店？</h2>
 
-      <h2>什麼是秤重是否公開？</h2>
+      <h2>店家秤重是否公開？</h2>
       <p><strong>好的店家：</strong>當面秤重，讓客人親眼看見重量數字<br />
       <strong>有些店家：</strong>偷偷動手腳，數字不讓你看<br />
       我們的做法：<strong>全程公開秤重，歡迎你親自確認</strong></p>
 
-      <h2>什麼是扣不扣耗損？</h2>
+      <h2>店家會扣耗損嗎？</h2>
       <p><strong>一般行情：</strong>扣5-10%耗損費<br />
       我們的做法：<strong>不扣任何耗損</strong>，按實際重量計算</p>
 
@@ -54,11 +54,11 @@ export default function Page() {
       <p><strong>專業店家：</strong>使用專業儀器+火測，確保純度準確<br />
       我們的做法：<strong>專業儀器檢測+火測双重確認</strong></p>
 
-      <h2>什麼是付款速度？</h2>
+      <h2>付款速度快不快？</h2>
       <p><strong>有些店家：</strong>要等1-2天匯款<br />
       我們的做法：<strong>現場立即現金</strong>，讓你馬上拿到錢</p>
 
-      <h2>什麼是服務態度？</h2>
+      <h2>服務態度怎麼判斷？</h2>
       <p><strong>好的店家：</strong>專業解說，讓你充分了解後再決定<br />
       我們的做法：<strong>詳細解說、不催促，給你充足的考慮時間</strong></p>
 
@@ -69,7 +69,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收店怎麼選？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 五大標準：有實體店面、公開每日報價、現場秤重透明、不扣耗損、Google評論良好。</p>
@@ -95,7 +95,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>10年經驗比較表？</h2>
+      <h2>10年經驗比較表怎麼看？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -115,7 +115,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>什麼是聯繫我們？</h2>
+      <h2>聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

@@ -141,7 +141,7 @@ export default function Page() {
       </ol>
       <p>巧品珠寶的做法是：當場秤重、當場報克價，不扣火耗，也不說「要等一下評估」。你帶來，我報數，不中意可以走。</p>
 
-      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金回收常見問題怎麼做？</h2>
+      <h2 style={{ fontSize: '22px', fontWeight: 700, marginTop: '36px', marginBottom: '12px' }}>黃金回收常見問題</h2>
       <p>很多人第一次賣黃金都有這幾個疑問，直接回答：</p>
 
       <div style={{ borderLeft: '3px solid #b8860b', paddingLeft: '16px', marginBottom: '16px' }}>

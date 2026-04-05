@@ -92,7 +92,7 @@ export default function Page() {
         <li><strong>回收價值</strong>：最高等於國際金價 × 純度</li>
       </ul>
 
-      <h2>什麼是K金（Karat Gold）？</h2>
+      <h2>什麼是什麼是K金（Karat Gold）？</h2>
       <ul>
         <li><strong>定義</strong>：黃金與其他金屬合金，混合製成</li>
         <li><strong>常見純度</strong>：
@@ -127,7 +127,7 @@ export default function Page() {
         <li><strong>回收價值</strong>：按白金的回收市場行情計算</li>
       </ul>
 
-      <h2>三者比較表？</h2>
+      <h2>三者比較表怎麼看？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>

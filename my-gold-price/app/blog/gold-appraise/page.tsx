@@ -146,7 +146,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是立即諮詢｜巧品珠寶？</h2>
+      <h2>立即諮詢｜巧品珠寶</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>

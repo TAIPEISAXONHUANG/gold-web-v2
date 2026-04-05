@@ -208,7 +208,7 @@ export default function Page() {
         </div>
 
         <hr style={{ margin: '2rem 0' }} />
-        <h2>什麼是白金飾品免費估價？</h2>
+        <h2>白金飾品可以免費估價嗎？</h2>
         <p>電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
         <p>LINE：<a href="https://pse.is/8hndu3" style={{ color: '#06C755' }}>@Hh0986481626</a></p>
         <p>地址：台北市大安區濟南路三段62-1號1樓</p>

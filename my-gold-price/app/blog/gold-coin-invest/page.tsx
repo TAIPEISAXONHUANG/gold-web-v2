@@ -68,7 +68,7 @@ export default function Page() {
       <h2>實體黃金是最穩健的避險投資嗎？</h2>
       <p>在全球通膨壓力持續、地緣政治風險升高、各國央行大量增持黃金儲備的背景下，實體黃金一直是最受信賴的避險資產。根據世界黃金協會數據，過去 20 年國際金價漲幅超過 500{'%'}，遠優於多數傳統投資工具。本文將帶您深入了解黃金投資的各種方式、比較金幣與金條的優缺點，並提供實用的投資建議與注意事項，幫助您做出最適合自己的<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>黃金投資決策</a>。</p>
 
-      <h2>黃金投資方式比較？</h2>
+      <h2>黃金投資方式有哪些？怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1.5rem' }}>
         <thead>
           <tr style={{ background: '#fef3c7' }}>
@@ -105,7 +105,7 @@ export default function Page() {
       <p>許多新手投資者對黃金存在誤解。第一，「金價只漲不跌」是錯的，黃金短期也會波動，2013 年金價就曾大跌超過 25{'%'}，但長期趨勢向上。第二，「買金飾等於黃金投資」也不完全正確，金飾含有加工費（工錢），回收時只計算含金量，等於買進成本較高；純投資建議選擇金條或投資型金幣。第三，「黃金不會產生利息所以不值得投資」忽略了黃金的避險功能，在股市崩盤、貨幣貶值時，黃金往往逆勢上漲，是資產組合中重要的穩定器。想了解更多黃金與其他貴金屬的差異，可參考<a href="/blog/gold-vs-k-gold-difference" style={{ color: '#B8860B' }}>黃金與 K 金的差別</a>。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 現在是買黃金的好時機嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 黃金長期具有抗通膨與避險功能，過去 20 年金價漲幅超過 500{'%'}。分批購入是穩健策略，可降低買在高點的風險。建議將黃金配置在總資產的 5-15{'%'}。</p>
@@ -147,7 +147,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是立即諮詢巧品珠寶？</h2>
+      <h2>立即諮詢巧品珠寶</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>

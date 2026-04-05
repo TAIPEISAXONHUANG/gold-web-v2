@@ -52,7 +52,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 賣黃金前務必準備身份證正本、確認金飾純度與重量，並比較多家回收報價。巧品珠寶提供免費估價，不強迫交易。
       </div>
 
-      <h2>做好這些準備，賣黃金不吃虧！嗎？</h2>
+      <h2>做好這些準備，賣黃金不吃虧嗎？</h2>
       <p>很多人第一次賣黃金，因為不熟悉流程，可能在不知不覺中少拿了很多錢。本文整理了賣黃金前最重要的準備工作與注意事項，讓您做好萬全準備，確保拿到最好的回收價格。更多詳細資訊可參考<a href="/blog/gold-recovery-faq" style={{ color: '#B8860B' }}>黃金回收常見問題FAQ</a>。</p>
 
       <h2>賣黃金前的4大準備工作有哪些？</h2>
@@ -133,7 +133,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金前要準備什麼？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 需要攜帶身份證正本、整理好要出售的金飾，建議先查詢當日金價並比較多家報價。</p>

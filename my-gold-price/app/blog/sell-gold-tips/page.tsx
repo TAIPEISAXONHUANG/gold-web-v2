@@ -50,7 +50,7 @@ export default function Page() {
       <h2>記住這5點，賣黃金不吃虧嗎？</h2>
       <p>市場上黃金回收商家良莠不齊，一不小心就可能吃悶虧。本文整理5個必知技巧，讓您賣得安心、價格合理！</p>
 
-      <h2>什麼是先查詢當日金價？</h2>
+      <h2>為什麼要先查詢當日金價？</h2>
       <p>每日金價不同，建議：</p>
       <ul>
         <li>先上網查詢當日國際金價與回收牌價</li>
@@ -58,7 +58,7 @@ export default function Page() {
         <li>有基本認知再去詢問，避免被當冤大頭</li>
       </ul>
 
-      <h2>什麼是攜帶證件（實名制）？</h2>
+      <h2>為什麼要攜帶證件？（實名制）</h2>
       <p>政府規定黃金交易必須<strong>實名制</strong>，請準備：</p>
       <ul>
         <li>身份證（必備）</li>
@@ -66,7 +66,7 @@ export default function Page() {
       </ul>
       <p>千萬不要向不用登記的店家交易，那是違法的！</p>
 
-      <h2>什麼是現場秤重親眼看見？</h2>
+      <h2>為什麼要現場秤重怎麼確認？</h2>
       <p><strong>最重要的一點：</strong></p>
       <ul>
         <li>必須親眼看見秤重數字</li>
@@ -111,7 +111,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 什麼時候賣黃金最划算？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 金價上漲趨勢時出售最好。可以關注國際局勢、美元走勢和聯準會政策來判斷時機。</p>

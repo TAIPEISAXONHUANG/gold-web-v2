@@ -144,9 +144,7 @@ export default function KGoldRecycleTaiwanApril2026() {
           K金（Karat Gold）是台灣最常見的首飾材質，但很多人拿去賣的時候搞不清楚自己的K金值多少錢、會不會被扣耗損、需要什麼證件。這篇把流程全部說清楚，數字說話。
         </p>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          K金含金率一覽：幾K就值幾成金
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>K金含金率一覽：幾K就值幾成金怎麼看？</h2>
         <p>
           K金回收的核心邏輯很簡單：含金率 × 當日純金回收價 × 克重 = 你拿到的錢。沒有其他變數。
         </p>
@@ -245,9 +243,7 @@ export default function KGoldRecycleTaiwanApril2026() {
         </p>
 
         {/* FAQ Section */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          常見問題 FAQ
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>常見問題FAQ</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -260,9 +256,7 @@ export default function KGoldRecycleTaiwanApril2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          延伸閱讀
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>延伸閱讀</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/au750-gold-price-guide" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

@@ -152,9 +152,7 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
           先給結論：2026年4月初台灣黃金一錢收購參考價約在 <strong>NT$10,200–11,000 元</strong> 之間，比2025年同期高出約13–16%。這個高位由國際金價撐著，短期看沒有大回落的跡象。
         </p>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          2026年Q1台灣金價走勢回顧
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>2026年Q1台灣金價走勢回顧如何？</h2>
         <p>
           整個2026年Q1（1月到3月），台灣黃金一錢的銀樓收購價大致沿著上升軌道前進，中間有幾次回檔，但沒有跌破支撐。
         </p>
@@ -295,9 +293,7 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
           </li>
         </ul>
 
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          2026年4月金價預測：謹慎看多
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>2026年4月金價預測：謹慎看多如何？</h2>
         <p>
           預測金價這件事，任何人說「一定」都是在說謊。但趨勢面來看，2026年4月有幾個條件對金價是偏正面的：
         </p>
@@ -320,9 +316,7 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
         </p>
 
         {/* FAQ */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          常見問題 FAQ
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>常見問題FAQ</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -335,9 +329,7 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          延伸閱讀
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>延伸閱讀</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/taiwan-gold-price-per-qian-march-2026" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

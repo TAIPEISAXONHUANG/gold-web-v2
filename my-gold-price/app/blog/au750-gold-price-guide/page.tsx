@@ -112,7 +112,7 @@ export default function Page() {
           <li><strong>美國：</strong>兩種都常見</li>
         </ul>
 
-        <h2>Au750和其他K數的差異？</h2>
+        <h2>Au750和其他K數有什麼差異？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

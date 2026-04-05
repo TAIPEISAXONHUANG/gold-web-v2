@@ -83,7 +83,7 @@ export default function Page() {
           <strong>重點摘要：</strong> 純金（9999）相對好養，K金和Pt900需要更細心。三個核心原則：避開化學品、分開存放、定期清潔。
         </div>
 
-        <h2>不同純度黃金飾品的保養差異？</h2>
+        <h2>不同純度黃金飾品的保養有什麼差異？</h2>
         <p>
           很多人把「黃金飾品」當成一個類別統一保養，其實 9999 純金、18K 金、14K 金的保養需求差很多。搞清楚你手上的飾品屬於哪類，才能正確保養。
         </p>
@@ -165,7 +165,7 @@ export default function Page() {
           <li><strong>遠離香水和化妝品：</strong>不要在噴香水後立刻戴金飾，化學成分會加速 K 金氧化。</li>
         </ul>
 
-        <h2>黃金飾品保養常見問答怎麼做？</h2>
+        <h2>黃金飾品保養常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

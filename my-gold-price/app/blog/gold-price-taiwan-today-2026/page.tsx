@@ -220,7 +220,7 @@ export default function Page() {
           巧品珠寶的做法是：秤多少算多少，不扣耗損、不扣火工，報價直接攤在陽光下。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">不同純度黃金收購價換算？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">不同純度黃金收購價怎麼換算？</h2>
         <div className="overflow-x-auto mb-6">
           <table className="w-full border-collapse border border-gray-300 text-sm">
             <thead>

@@ -121,7 +121,7 @@ export default function Page() {
         <li>⭐ 特色：10年以上經驗、專業儀器檢測、不扣耗、當日付款</li>
       </ul>
 
-      <h2>各區銀樓推薦比較？</h2>
+      <h2>各區銀樓推薦怎麼比較？</h2>
       <table style={{width:'100%', borderCollapse:'collapse', margin:'16px 0'}}>
         <thead>
           <tr style={{background:'#6366f1', color:'white'}}>
@@ -150,7 +150,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>什麼是交通便利性考量？</h2>
+      <h2>交通便利性考量怎麼走？</h2>
       <ul>
         <li><strong>捷運沿線</strong>：大安區（忠孝新生站、敦化南路站）、中山區（中山站、雙連站）最方便</li>
         <li><strong>開車族</strong>：大安區有多个路边停车位，付费停车场也较多</li>
@@ -166,7 +166,7 @@ export default function Page() {
         <li><strong>多家比價</strong> - 同一區域多問幾家，價格差異可能達數千元</li>
       </ul>
 
-      <h2>什麼是預約諮詢服務？</h2>
+      <h2>預約諮詢服務是什麼？</h2>
       <p>許多銀樓提供電話預約或LINE諮詢服務，您可以先透過以下方式詢問當日报价：</p>
       <ul>
         <li>📞 電話：0986-821-626</li>
@@ -174,7 +174,7 @@ export default function Page() {
         <li>🌐 官網：https://www.gold-tw.com/</li>
       </ul>
 
-      <h2>什麼是常見問題 FAQ？</h2>
+      <h2>常見問題 FAQ</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 台北哪裡有黃金回收？</summary>

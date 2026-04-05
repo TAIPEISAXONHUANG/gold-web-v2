@@ -198,7 +198,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>什麼是常見問題 FAQ？</h2>
+      <h2>常見問題 FAQ</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 2026年黃金回收價格多少？</summary>

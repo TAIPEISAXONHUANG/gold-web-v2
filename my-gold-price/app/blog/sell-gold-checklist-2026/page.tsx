@@ -113,7 +113,7 @@ export default function Page() {
         <strong>✅ 快速清單：</strong>身分證正本 + 黃金物品 → 到店 → 15分鐘拿現金
       </div>
 
-      <h2>什麼是賣黃金必帶清單？</h2>
+      <h2>賣黃金必帶清單有哪些？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>

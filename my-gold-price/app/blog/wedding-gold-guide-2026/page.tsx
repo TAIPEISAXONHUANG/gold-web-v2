@@ -187,7 +187,7 @@ export default function Page() {
           分批買的好處：避開金價短期高峰，不用在同一天砸大筆預算，心理壓力也小很多。
         </p>
 
-        <h2>什麼是婚嫁金飾常見問答？</h2>
+        <h2>婚嫁金飾常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

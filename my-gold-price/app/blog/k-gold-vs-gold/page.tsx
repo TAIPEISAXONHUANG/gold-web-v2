@@ -117,7 +117,7 @@ export default function Page() {
       <p>K金飾品雖然硬度較高，但仍需注意日常保養。白K金表面通常有鍍銠處理，長期配戴會磨損露出底色，建議每1-2年到珠寶店重新電鍍。玫瑰金含銅成分較高，接觸汗水或化學品後可能輕微變色，配戴後以軟布擦拭即可。所有K金飾品都應避免接觸漂白水、香水與溫泉硫磺水。存放時用獨立夾鏈袋或絨布袋包裝，避免與其他飾品摩擦刮傷。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: K金和黃金哪個比較保值？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 黃金（24K）保值性最高，因為純度達99.9{'%'}，價格直接跟隨國際金價波動。K金含有其他合金成分，回收時只按含金比例計價，例如18K只有75{'%'}的黃金價值。</p>

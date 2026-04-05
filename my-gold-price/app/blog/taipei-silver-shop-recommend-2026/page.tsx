@@ -93,7 +93,7 @@ export default function TaipeiSilverShopRecommend2026() {
           有這三點，哪家都能放心去；缺了這三點，口碑再好也要小心。
         </p>
 
-        <h2>什麼是選台北銀樓的三個硬標準？</h2>
+        <h2>選台北銀樓的三個硬標準有哪些？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

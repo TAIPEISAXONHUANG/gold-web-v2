@@ -255,9 +255,7 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
         </p>
 
         {/* FAQ */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          常見問題 FAQ
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "24px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>常見問題FAQ</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {faqItems.map((faq, i) => (
             <div key={i} style={{ backgroundColor: "#fffdf5", borderRadius: "8px", padding: "20px", border: "1px solid #e8d5a0" }}>
@@ -270,9 +268,7 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
         </div>
 
         {/* Internal Links */}
-        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>什麼是
-          延伸閱讀
-        ？</h2>
+        <h2 style={{ fontSize: "22px", fontWeight: "700", marginTop: "40px", marginBottom: "16px", borderLeft: "4px solid #b8860b", paddingLeft: "12px" }}>延伸閱讀</h2>
         <ul style={{ paddingLeft: "0", listStyle: "none", margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
           <li>
             <a href="/blog/gold-recovery-traps" style={{ color: "#b8860b", textDecoration: "none", fontWeight: "600" }}>

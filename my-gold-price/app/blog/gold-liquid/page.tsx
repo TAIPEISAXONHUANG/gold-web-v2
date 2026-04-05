@@ -66,13 +66,13 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>黃金變現管道完整比較？</h2>
+      <h2>黃金變現管道有哪些？怎麼比較？</h2>
       <p>手上有黃金需要變現時，主要有三種管道可選擇。第一種是<strong>銀樓或回收店直接回收</strong>，這是最快速也最單純的方式，店家當場以<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>當日國際金價</a>為基準報價，鑑定秤重後立即付現，全程約15分鐘。回收價通常為市價的95-98{'%'}，沒有額外手續費。第二種是<strong>當鋪典當</strong>，好處是可以在約定期限內贖回黃金，但典當金額只有市價的70-80{'%'}，且每月需支付利息。第三種是<strong>網路平台拍賣</strong>，有機會賣到較高價格，但需要時間等待買家，且存在寄送風險與詐騙疑慮。綜合考量，對大多數人來說，銀樓直接回收是最安全、最快速的選擇。</p>
 
       <h2>典當黃金的流程與費用是什麼？</h2>
       <p>選擇當鋪典當黃金時，需要了解完整的流程與成本。首先攜帶身分證件與黃金至當鋪，店員會進行<a href="/blog/gold-identification" style={{ color: '#B8860B' }}>黃金鑑定</a>與秤重，然後開出當票，載明典當金額、期限與利率。依照台灣《當鋪業法》規定，質當期限最長為3個月，月利率上限為2.5{'%'}（年利率30{'%'}）。以典當金額10萬元為例，3個月利息最高7,500元。期滿未贖回即為「流當」，當鋪取得黃金所有權。要特別注意的是，部分當鋪會額外收取倉棧費（保管費），簽約前務必確認所有費用項目，避免產生爭議。</p>
 
-      <h2>什麼是黃金流當品？值得購買嗎？</h2>
+      <h2>黃金流當品值得購買嗎？</h2>
       <p>黃金流當品是客戶典當後未在期限內贖回的黃金，當鋪依法取得所有權後公開出售。流當品價格通常比市價低5-15{'%'}，看起來很划算，但購買前需注意幾個重點：一是確認<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度</a>是否如標示，建議要求當鋪提供檢測報告；二是確認重量是否準確，最好自備電子秤或到信賴的銀樓複秤；三是留意金飾是否有損壞或焊接痕跡，這些都會影響日後回收價格。如果您有意購買流當金飾，建議選擇合法登記的當鋪，並索取正式收據與保證書。</p>
 
       <h2>直接回收的優勢與流程是什麼？</h2>
@@ -82,7 +82,7 @@ export default function Page() {
       <p>雖然直接回收在大多數情況下較為划算，但以下情況典當可能是更好的選擇：一是短期資金周轉，確定一個月內可以贖回，利息成本相對可接受；二是金飾具有特殊紀念意義，例如祖傳金飾或結婚金飾，賣掉就沒有了；三是預期金價即將大幅上漲，先典當取得資金，待金價上漲後贖回再賣出。不過要提醒的是，預測金價走勢有風險，若金價下跌反而要承擔利息損失。對大多數急需現金的客戶來說，選擇信譽良好的<a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B' }}>台北黃金回收店家</a>直接回收，仍然是最明智的選擇。</p>
 
       <section style={{ marginTop: '2.5rem', padding: '2rem', background: '#f9fafb', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
-        <h2 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1f2937', marginTop: 0, marginBottom: '1rem' }}>什麼是常見問題？</h2>
+        <h2 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1f2937', marginTop: 0, marginBottom: '1rem' }}>常見問題</h2>
         <div style={{ marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
           <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', color: '#1f2937' }}>Q: 黃金變現最快的方式是什麼？</h3>
           <p style={{ margin: 0, color: '#4b5563', lineHeight: '1.6' }}>A: 到銀樓或回收店，當場鑑定、秤重、報價、付現，全程約15分鐘，是最快的變現管道。巧品珠寶提供現場即時報價，當天拿現金。</p>
@@ -124,7 +124,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是聯絡我們？</h2>
+      <h2>聯絡我們</h2>
       <p>電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>LINE：@QPD888</p>
       <p>地址：台北市大安區濟南路三段62-1號</p>

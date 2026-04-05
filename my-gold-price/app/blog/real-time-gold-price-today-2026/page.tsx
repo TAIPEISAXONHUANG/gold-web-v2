@@ -93,7 +93,7 @@ export default function RealTimeGoldPriceToday2026() {
           表格僅供參考。</strong>
         </p>
 
-        <h2>什麼是2026年4月今日金價參考（台制）？</h2>
+        <h2>2026年4月今日金價是多少？（台制）</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

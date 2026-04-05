@@ -358,9 +358,7 @@ export default function Page() {
           </ul>
         </div>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
-          常見問題
-        ？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">常見問題</h2>
 
         <div className="space-y-6 mb-8">
           <div>

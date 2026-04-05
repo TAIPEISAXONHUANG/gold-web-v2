@@ -131,7 +131,7 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 賣黃金前必看！本篇整理2026年最新、最完整的黃金回收常見問題，幫助您第一次賣黃金就上手，避免落入不良業者的陷阱。
       </div>
       
-      <h2>賣黃金不踩雷，10個問題讓您安心變現！嗎？</h2>
+      <h2>賣黃金不踩雷，10個問題讓您安心變現嗎？</h2>
 
       <h2>黃金回收新手必看FAQ怎麼做？</h2>
 
@@ -214,7 +214,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>什麼是聯繫我們？</h2>
+      <h2>聯繫我們</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

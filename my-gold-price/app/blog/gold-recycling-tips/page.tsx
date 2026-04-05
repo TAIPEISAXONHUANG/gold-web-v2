@@ -81,7 +81,7 @@ export default function Page() {
       <h2>如何判斷回收店家是否可靠怎麼做？</h2>
       <p>選擇回收店家是最關鍵的一步。可靠的店家通常具備以下特徵：擁有實體店面且營業多年、有合法商業登記、回收價格公開透明（最好有即時牌價看板）、使用經檢驗合格的電子秤、提供正式交易收據。此外，您可以查看 Google 評論與網路口碑，了解其他消費者的實際經驗。若店家主動說明回收流程、不催促交易、允許您比價後再決定，這些都是值得信賴的正面指標。想了解更多選店技巧，可參考<a href="/blog/how-to-choose-gold-shop" style={{ color: '#B8860B' }}>如何選擇可靠的黃金回收店</a>。</p>
 
-      <h2>什麼是自保方法清單？</h2>
+      <h2>自保方法清單有哪些？</h2>
       <ul>
         <li>先查當日金價，掌握行情基準</li>
         <li>選擇有信譽的實體店家，避免網路不明管道</li>
@@ -92,7 +92,7 @@ export default function Page() {
       </ul>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 賣黃金可以議價嗎？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 正規店家以當日牌價計算，通常不議價。但大量交易（10兩以上）部分店家可能給優惠價。建議直接詢問店家是否有大量回收優惠。</p>

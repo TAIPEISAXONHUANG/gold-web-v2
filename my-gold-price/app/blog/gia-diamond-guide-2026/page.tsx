@@ -186,7 +186,7 @@ export default function Page() {
           正規的 GIA 鑑定書每份都可以即時線上核實，10 秒鐘就能確認真假，沒有查不到的理由。
         </p>
 
-        <h2>GIA 鑽石收購常見問答怎麼做？</h2>
+        <h2>GIA 鑽石收購常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

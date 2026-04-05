@@ -95,7 +95,7 @@ export default function Page() {
       <p>不論您選擇拍賣還是直接回收，以下幾點務必留意：第一，確認您的黃金純度，<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度</a>直接影響回收價格，999 純金與 18K 金的價差可達 25{'%'} 以上。第二，了解秤重單位的差異，台灣常用「台錢」（1台錢 = 3.75 公克），部分店家可能使用公克計價，換算時要特別注意。第三，保留所有購買憑證，包括發票、保證書、鑑定書等，這些文件有助於提高回收價格。第四，選擇信譽良好的交易對象，無論是拍賣平台的買家或是回收店家，都要確認其信用與口碑。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金在哪裡賣最划算？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 直接找專業回收銀樓最划算，省去平台手續費，價格透明、當場現金交易。建議選擇有公開牌價的實體店面。</p>
@@ -137,7 +137,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是立即諮詢巧品珠寶？</h2>
+      <h2>立即諮詢巧品珠寶</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>

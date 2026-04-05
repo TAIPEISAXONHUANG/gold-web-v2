@@ -140,7 +140,7 @@ export default function Page() {
         <li><strong>市場供需：</strong>1-3克拉、D-G色、VS等級的鑽石市場流通性最好，回收價格相對較高</li>
       </ul>
 
-      <h2>什麼是常見問題？</h2>
+      <h2>常見問題</h2>
 
       <div style={{ background: '#f8f9fa', padding: '20px', borderRadius: '12px', marginBottom: '16px' }}>
         <h3 style={{ marginTop: 0 }}>Q：沒有GIA證書的鑽石可以收購嗎？</h3>

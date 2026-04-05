@@ -189,7 +189,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>什麼是常見問題 FAQ？</h2>
+      <h2>常見問題 FAQ</h2>
       <div style={{margin:'16px 0'}}>
         <details style={{marginBottom:'12px', padding:'12px', background:'#f9f9f9', borderRadius:'8px'}}>
           <summary style={{fontWeight:'bold', cursor:'pointer'}}>Q1: 黃金回收前要準備什麼？</summary>
@@ -213,7 +213,7 @@ export default function Page() {
         </details>
       </div>
 
-      <h2>什麼是延伸閱讀？</h2>
+      <h2>延伸閱讀</h2>
       <ul>
         <li><a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價格查詢</a></li>
         <li><a href="/gold-recovery-guide" style={{ color: '#B8860B' }}>黃金回收完整指南</a></li>

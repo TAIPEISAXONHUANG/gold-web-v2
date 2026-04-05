@@ -63,7 +63,7 @@ export default function Page() {
       <h3>疑慮三：沒有保證書的舊金飾能賣嗎？</h3>
       <p>完全可以。巧品珠寶使用專業XRF螢光分析儀，可以在不損壞金飾的情況下精確測出含金量。不需要任何購買憑證，只需攜帶本人身份證即可。</p>
 
-      <h2>什麼是舊金飾的純度判斷？</h2>
+      <h2>舊金飾的純度判斷怎麼看？</h2>
       <p>台灣早期（民國50-80年代）的金飾通常純度相當高：</p>
       <ul>
         <li><strong>9999足金（24K）</strong>：最高純度，早期台灣傳統婚嫁金飾多為此類</li>
@@ -98,7 +98,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 祖傳的舊金飾值多少？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 舊金飾回收只看純度和重量，跟新舊無關。早期的台灣金飾通常純度很高（22K-24K），回收價不錯。</p>

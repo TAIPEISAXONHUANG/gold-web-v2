@@ -176,7 +176,7 @@ export default function Page() {
           如果你的18K戒指鑲了鑽石，部分店家會把整件「含鑽」一起秤，然後以K金報價吃掉鑽石的重量。正確做法是K金和石頭分開估算，若石頭有價值應該另行報價。
         </p>
 
-        <h2>K金回收常見問答怎麼做？</h2>
+        <h2>K金回收常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

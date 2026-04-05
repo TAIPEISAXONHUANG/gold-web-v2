@@ -53,7 +53,7 @@ export default function Page() {
         <strong>📌 核心重點：</strong> 賣黃金最大的風險不是金價低，而是被扣秤、扣耗損、低報純度。認識這三個陷阱，就能保護你的利益。
       </div>
 
-      <h2>什麼是最常見的三大詐騙手法？</h2>
+      <h2>最常見的三大詐騙手法有哪些？</h2>
 
       <h3>1. 扣秤 — 最難察覺的手法</h3>
       <p>不良業者會用調過的秤，讓顯示重量比實際輕 0.1～0.5 錢。以當前金價約 17,000 元/錢計算，被扣 0.3 錢就損失約 5,100 元。</p>
@@ -126,7 +126,7 @@ export default function Page() {
         <li>✅ <strong>估完不強迫</strong>，不滿意可以直接帶走</li>
       </ul>
 
-      <h2>什麼是巧品珠寶的承諾？</h2>
+      <h2>巧品珠寶的承諾</h2>
       <div style={{ background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: '8px', padding: '1.5rem', margin: '1rem 0' }}>
         <p>台北大安區巧品珠寶，10年誠信經營，每筆交易由<strong>老闆親自鑑定</strong>：</p>
         <ul style={{ marginTop: '0.5rem', lineHeight: '2' }}>
@@ -166,7 +166,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是立即免費估價？</h2>
+      <h2>立即免費估價</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B', fontWeight: 'bold' }}>0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 台北市大安區濟南路三段62-1號1樓（捷運忠孝新生站步行5分鐘）</p>

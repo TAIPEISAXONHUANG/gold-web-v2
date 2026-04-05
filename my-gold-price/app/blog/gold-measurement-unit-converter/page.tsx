@@ -223,7 +223,7 @@ export default function Page() {
           <li><strong>金耳環（輕巧款）：</strong>約0.3–1錢（1.1–3.75公克）</li>
         </ul>
 
-        <h2>黃金重量單位的常見問題是什麼？</h2>
+        <h2>黃金重量單位的常見問題</h2>
         <p>
           <strong>Q：我在國外買的金飾，單位怎麼算？</strong>
           <br />

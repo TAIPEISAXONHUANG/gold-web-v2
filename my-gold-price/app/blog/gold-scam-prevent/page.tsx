@@ -76,14 +76,14 @@ export default function Page() {
         <li><strong>保留所有證據</strong>：交易前後拍照錄影，索取明細收據，並確認收據上有店家統一編號。</li>
       </ol>
 
-      <h2>什麼是識別正規店家的關鍵指標？</h2>
+      <h2>識別正規店家的關鍵指標怎麼看？</h2>
       <p>選擇回收店家時，可從以下幾個面向判斷是否為正規業者。首先，合法店家一定會有經濟部商業司的營業登記，店內應公示營利事業登記證。其次，磅秤上必須貼有經濟部標準檢驗局的合格標章，代表秤量器具經過校準。第三，正規店家願意公開報價計算方式，包含當日牌價來源、純度判定依據與實際計算公式。最後，信譽良好的店家通常會有充足的Google評論、透明的交易流程說明，以及完善的售後服務。想了解更多選店技巧，請參考<a href="/blog/sell-gold-tips" style={{color:'#B8860B'}}>賣黃金技巧</a>。</p>
 
       <h2>遭遇詐騙的處理步驟是什麼？</h2>
       <p>如果不幸遭遇黃金回收詐騙，請務必冷靜處理。第一步，立即保留所有交易證據，包含收據、LINE對話紀錄、現場錄影。第二步，撥打消費者保護專線1950進行申訴，或至行政院消費者保護會網站提出線上申訴。第三步，若涉及金額較大或明確詐欺行為，應向當地警察局報案並取得報案三聯單。第四步，若店家有營業登記，可向經濟部商業司檢舉。透過這些管道，多數消費糾紛可以獲得妥善處理。平時養成<a href="/blog/gold-safety" style={{color:'#B8860B'}}>安全交易習慣</a>，才是最好的防範之道。</p>
 
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收有什麼常見詐騙手法？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 常見手法包括：偷扣秤重（使用不準確的磅秤少算重量）、壓低純度判定（將999純金謊稱為K金）、報價後額外扣耗損（以10-30{'%'}的扣損名義壓低價格）、以低於國際牌價的價格計算、以及調包黃金等。</p>
@@ -125,7 +125,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是聯絡我們？</h2>
+      <h2>聯絡我們</h2>
       <p>📞 電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>💬 LINE：@QPD888</p>
       <p>📍 地址：台北市大安區濟南路三段62-1號</p>

@@ -208,7 +208,7 @@ export default function Page() {
           超過 30 錢以上的黃金，建議事先電話預約，確認店家當日有足夠現金備用。臨時到訪大量黃金，店家可能要求隔日付款或分批，不夠順暢。
         </p>
 
-        <h2>什麼是銀樓假日常見問答？</h2>
+        <h2>銀樓假日常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

@@ -166,7 +166,7 @@ export default function Page() {
           <li><strong>黃金紅包：</strong>黃金主題的紅包袋，內含金飾，現代年輕人接受度高</li>
         </ul>
 
-        <h2>什麼是其他送禮場合？</h2>
+        <h2>其他送禮場合有哪些？</h2>
 
         <h3>升學/畢業</h3>
         <p>
@@ -186,7 +186,7 @@ export default function Page() {
           款式建議：金元寶、金算盤、財神主題金飾。
         </p>
 
-        <h2>什麼是黃金送禮的預算參考？</h2>
+        <h2>黃金送禮的預算參考多少？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

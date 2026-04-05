@@ -168,9 +168,7 @@ export default function Page() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
-          台灣黃金重量單位：錢、兩、克、盎司
-        ？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">台灣黃金重量單位：錢、兩、克、盎司？</h2>
         <p className="text-gray-700 mb-4">
           台灣銀樓用的是傳統中國計重系統，核心單位是「錢」和「兩」。但這和中國大陸不同：
         </p>
@@ -355,9 +353,7 @@ export default function Page() {
           香港也是類似情況，用「一兩」（但香港的一兩 = 37.429 公克，和台灣的 37.5 公克略有差異）。如果你在不同地區買賣黃金，最好確認當地標準。
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">什麼是
-          常見問題
-        ？</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">常見問題</h2>
 
         <div className="space-y-6 mb-8">
           <div>

@@ -99,7 +99,7 @@ export default function Page() {
         整理黃金 → 帶身份證 → 前往門市 → 現場鑑定秤重 → 確認報價 → 同意後當場收款
       </p>
 
-      <h2>什麼是常見問題 Q&A？</h2>
+      <h2>常見問題</h2>
       <h3>Q：不知道純度可以賣嗎？</h3>
       <p>可以！帶去現場，業者會幫您鑑定純度，不需要事先知道。</p>
 
@@ -119,7 +119,7 @@ export default function Page() {
         }}
       />
       <section style={{marginTop:'2.5rem', padding:'2rem', background:'#f9fafb', borderRadius:'12px', border:'1px solid #e5e7eb'}}>
-        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>什麼是常見問題？</h2>
+        <h2 style={{fontSize:'1.3rem', fontWeight:'bold', color:'#1f2937', marginTop:0, marginBottom:'1rem'}}>常見問題</h2>
         <div style={{marginBottom:'1rem', background:'white', padding:'1rem', borderRadius:'8px', border:'1px solid #e5e7eb'}}>
           <h3 style={{margin:'0 0 0.5rem 0', fontSize:'1rem', color:'#1f2937'}}>Q: 黃金回收要多久？</h3>
           <p style={{margin:0, color:'#4b5563', lineHeight:'1.6'}}>A: 整個流程約15分鐘：鑑定純度5分鐘、秤重報價5分鐘、確認付款5分鐘。</p>
@@ -145,7 +145,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>什麼是立即預約免費估價？</h2>
+      <h2>立即預約免費估價</h2>
       <p>📞 電話：0986-821-626</p>
       <p>💬 LINE：@QPD888</p>
       <p>🌐 官網：https://www.gold-tw.com/</p>

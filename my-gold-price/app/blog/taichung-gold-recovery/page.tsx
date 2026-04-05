@@ -93,7 +93,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>台中黃金回收比較？</h2>
+      <h2>台中黃金回收哪裡好？怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -122,7 +122,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>什麼是聯繫我們？</h2>
+      <h2>聯繫我們</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>www.gold-tw.com</a></p>

@@ -100,7 +100,7 @@ export default function Page() {
       </div>
       <p>台灣銀行和各珠寶商的牌價包含了利潤，所以通常比純換算結果高，這是正常現象。</p>
 
-      <h2>什麼是2026年台灣金價走勢？</h2>
+      <h2>2026年台灣金價走勢如何？</h2>
       <p>2026年國際金價受多重因素推升，持續維持高位。台灣金價對應如下：</p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
@@ -179,7 +179,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>什麼是常見問題 FAQ？</h2>
+      <h2>常見問題 FAQ</h2>
       <div style={{ margin: '1rem 0' }}>
         {[
           { q: '台灣今日金價一錢是多少？', a: '2026年3月台灣黃金牌價約17,200～17,600元/台錢，每日浮動。建議來電確認當日報價：0986-821-626。' },

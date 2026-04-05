@@ -92,7 +92,7 @@ export default function Page() {
         </p>
         <p>這篇把台北購金管道、流程和常見陷阱整理好，買前花5分鐘看，省下不必要的錢。</p>
 
-        <h2>台北買黃金的主要管道比較？</h2>
+        <h2>台北買黃金有哪些管道？怎麼比較？</h2>
 
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
           <thead>

@@ -91,7 +91,7 @@ export default function Page() {
       </div>
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年鑑定經驗整理</p>
 
-      <h2>成分與基本差異？</h2>
+      <h2>成分與基本差異在哪裡？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>
@@ -134,7 +134,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>2026年價格行情比較？</h2>
+      <h2>2026年價格行情怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '1rem 0' }}>
         <thead>
           <tr style={{ background: '#B8860B', color: 'white' }}>

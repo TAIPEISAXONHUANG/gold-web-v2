@@ -153,7 +153,7 @@ export default function Page() {
           不扣耗損、秤重透明，是選店的核心標準。很多老店習慣扣 3–5% 「火耗」，這筆錢其實沒有必要損失。
         </p>
 
-        <h2>賣金時機常見問答是什麼時候？</h2>
+        <h2>賣金時機常見問答</h2>
         {faqs.map((f, i) => (
           <div key={i} style={{ marginBottom: '1.5rem', borderTop: '1px solid #e5e7eb', paddingTop: '1rem' }}>
             <h3 style={{ color: '#92400e', margin: '0 0 0.5rem' }}>{f.q}</h3>

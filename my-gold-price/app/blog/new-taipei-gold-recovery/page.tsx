@@ -105,7 +105,7 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2>新北黃金回收首選巧品珠寶，不扣耗損價格最實在嗎？</h2>
+      <h2>新北黃金回收哪裡不扣耗損？</h2>
       <p>新北市擁有超過400萬人口，各區都有銀樓和金飾店，但回收價格和服務品質參差不齊。許多新北居民在比較後發現，與其在當地接受扣耗5-10{'%'}的條件，不如多花20-30分鐘搭捷運到台北巧品珠寶，省下的扣耗金額遠超交通費。根據我們的<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>回收價格分析</a>，不扣耗損的店家實際到手金額可高出數千元。</p>
 
       <h2>板橋區黃金回收怎麼做？</h2>
@@ -117,7 +117,7 @@ export default function Page() {
       <h2>新莊、三重區黃金回收怎麼做？</h2>
       <p>新莊區人口超過42萬，三重區約38萬，兩區合計近80萬人口。新莊居民可從新莊站搭乘中和新蘆線至忠孝新生站，約30分鐘車程；三重居民從三重站出發約25分鐘。新莊廟街和三重重新路一帶雖有不少銀樓，但回收價格差異大。以一兩黃金為例，扣耗10{'%'}和不扣耗的差價可達數千元，值得多花交通時間到不扣耗的店家。</p>
 
-      <h2>什麼是新北各區到巧品珠寶交通時間？</h2>
+      <h2>新北各區到巧品珠寶交通時間怎麼走？</h2>
       <p>巧品珠寶位於捷運忠孝新生站附近，新北各區居民搭捷運即可輕鬆到達，以下整理各區的預估交通時間供參考：</p>
       <ul>
         <li><strong>板橋區：</strong>捷運板南線約20分鐘</li>
@@ -129,7 +129,7 @@ export default function Page() {
         <li><strong>土城區：</strong>捷運板南線約25分鐘</li>
       </ul>
 
-      <h2>新北黃金回收比較？</h2>
+      <h2>新北黃金回收哪裡好？怎麼比較？</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f5f5f5' }}>
@@ -167,7 +167,7 @@ export default function Page() {
         </tbody>
       </table>
 
-      <h2>新北黃金回收常見問題怎麼做？</h2>
+      <h2>新北黃金回收常見問題</h2>
 
       <div style={{ background: '#f8f9fa', padding: '20px', borderRadius: '12px', marginBottom: '16px' }}>
         <h3 style={{ marginTop: 0 }}>Q：新北市哪裡可以回收黃金？</h3>
@@ -233,7 +233,7 @@ export default function Page() {
 
       <hr style={{ margin: '2rem 0' }} />
 
-      <h2>什麼是聯繫我們？</h2>
+      <h2>聯繫我們</h2>
       <p>📞 電話：<a href="tel:0986821626" style={{ color: '#B8860B' }}>0986-821-626</a></p>
       <p>💬 LINE：<a href="https://line.me/ti/p/~@QPD888" style={{ color: '#06C755' }}>@QPD888</a></p>
       <p>🌐 官網：<a href="https://www.gold-tw.com/" style={{ color: '#B8860B' }}>https://www.gold-tw.com/</a></p>

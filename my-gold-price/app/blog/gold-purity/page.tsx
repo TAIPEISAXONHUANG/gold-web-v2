@@ -98,7 +98,7 @@ export default function Page() {
       <p>如果以保值為目的，建議選擇9999純金，因為回收價格最高且計算最單純。若注重外觀設計與日常佩戴，18K是最佳選擇，硬度足夠不易變形，且可製作多種顏色（黃K金、白K金、玫瑰金）。購買時務必確認印記標示清楚，並索取保證書或發票。回收時，不同純度的金飾建議分開存放、分開秤重，避免混在一起被以低純度價格計算。若不確定手中金飾的純度，可先到巧品珠寶進行免費鑑定，我們使用進口XRF設備，現場即可告知精確含金量。</p>
 
       <section style={{ marginTop: '2.5rem', padding: '2rem', background: '#f9fafb', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
-        <h2 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1f2937', marginTop: 0, marginBottom: '1rem' }}>什麼是常見問題？</h2>
+        <h2 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1f2937', marginTop: 0, marginBottom: '1rem' }}>常見問題</h2>
         <div style={{ marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
           <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', color: '#1f2937' }}>Q: 24K和18K差多少？</h3>
           <p style={{ margin: 0, color: '#4b5563', lineHeight: '1.6' }}>A: 24K含金量99.9{'%'}、18K含金量75{'%'}。同重量的話，18K回收價約為24K的75{'%'}。以2026年金價每錢約8,500元計算，一錢24K黃金回收約8,500元，18K則約6,375元。</p>
@@ -145,7 +145,7 @@ export default function Page() {
       </div>
 
       <hr style={{ margin: '2rem 0' }} />
-      <h2>什麼是聯絡我們？</h2>
+      <h2>聯絡我們</h2>
       <p>電話：<a href="tel:0986821626">0986-821-626</a></p>
       <p>LINE：@QPD888</p>
       <p>地址：台北市大安區濟南路三段62-1號</p>
