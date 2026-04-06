@@ -277,6 +277,15 @@ export default function Page() {
           <li><a href="/blog/gold-appraise">黃金珠宝鉴定与估价｜銀楼估价流程说明</a></li>
         </ul>
       </article>
-    </>
+          <div style={{ marginTop: '2rem', padding: '1.5rem', backgroundColor: '#fdf8e8', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+        <h3 style={{ color: '#B8860B', marginBottom: '1rem', fontSize: '1.1rem' }}>延伸閱讀</h3>
+        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/gia-diamond-guide-2026" style={{ color: '#B8860B', textDecoration: 'none' }}>GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/diamond-jewelry" style={{ color: '#B8860B', textDecoration: 'none' }}>鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/gold-recycling-precautions-guide" style={{ color: '#B8860B', textDecoration: 'none' }}>黃金回收要注意什麼？2026年完整攻略｜避開5大常見陷阱</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B', textDecoration: 'none' }}>台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價</a></li>
+        </ul>
+      </div>
+</>
   );
 }
