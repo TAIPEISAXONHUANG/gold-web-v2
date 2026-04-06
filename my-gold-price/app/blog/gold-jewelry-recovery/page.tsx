@@ -68,6 +68,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 各類金飾（戒指、項鍊、手鍊、耳環）都可回收。回收價＝當日牌價×重量×純度，<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>不扣秤不扣耗損，當場現金付款。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>金飾回收怎麼選對店家？</h2>
       <p>黃金首飾是台灣家庭最常見的黃金形式。無論是嫁妝金飾、結婚紀念品，還是已不再佩戴的舊款式，都可以輕鬆變現。<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>專業回收各類金飾，按重量與純度計價，不扣損耗，公開透明。</p>
 

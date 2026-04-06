@@ -91,7 +91,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 鈀金和銠金是什麼？可以投資嗎？2026年鈀金和銠金的用途、價格驅動因素、以及與黃金的投資比較。兩種最稀有的貴金屬完整解析。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
 
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 鈀金和銠金是所有貴金屬中最稀有的兩種，但投資難度極高。銠金的全球年產量僅約30噸，遠少於黃金的3,000噸。普通人接觸這兩種金屬的機會不多，投資管道也很有限。相比之下，黃金仍是普通投資人參與貴金屬市場的最佳工具。
         </div>

@@ -76,6 +76,19 @@ export default function Page() {
         </ul>
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：記住這幾點，賣黃金不吃虧</h2>
       <p>黃金回收市場上存在許多資訊不對等的情況，部分不肖業者利用消費者不熟悉行情，以各種話術壓低回收價格。根據消費者保護協會統計，每年黃金回收相關的消費糾紛超過數百件，其中最常見的就是「秤重不實」與「不當扣損」。本文將為您完整解析常見的<a href="/blog/gold-scale-trap" style={{ color: '#B8860B' }}>回收陷阱</a>，並提供實用的自保方法，讓您每次賣黃金都能拿到合理的好價格。</p>
 

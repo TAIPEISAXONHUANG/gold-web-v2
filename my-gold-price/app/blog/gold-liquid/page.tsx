@@ -79,6 +79,19 @@ export default function Page() {
         </ul>
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>黃金變現管道怎麼比較？</h2>
       <p>手上有黃金需要變現時，主要有三種管道可選擇。第一種是<strong>銀樓或回收店直接回收</strong>，這是最快速也最單純的方式，店家當場以<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>當日國際金價</a>為基準報價，鑑定秤重後立即付現，全程約15分鐘。回收價通常為市價的95-98{'%'}，沒有額外手續費。第二種是<strong>當鋪典當</strong>，好處是可以在約定期限內贖回黃金，但典當金額只有市價的70-80{'%'}，且每月需支付利息。第三種是<strong>網路平台拍賣</strong>，有機會賣到較高價格，但需要時間等待買家，且存在寄送風險與詐騙疑慮。綜合考量，對大多數人來說，銀樓直接回收是最安全、最快速的選擇。</p>
 

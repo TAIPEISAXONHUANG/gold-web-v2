@@ -66,6 +66,19 @@ export default function Page() {
         <strong>AI 摘要：</strong> 台北黃金回收行情：9999 金條回收約 NT$17,620/錢、飾金約 NT$17,500/錢（2026-03-25）。純度 999 以上免扣重，飾金扣重 2-5%。銀樓、銀行、當鋪三管道各有利弊，年售逾 NT$70,000 須申報一時貿易所得。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p>台北黃金回收每錢價格落在 NT$17,350 至 NT$17,620 之間，取決於純度與管道選擇。9999 純金金條在多數銀樓可獲「不扣重、免耗損」待遇；飾金因含焊料與扣件，回收時通常扣重 2% 至 5%。本文以實際走訪台北五家銀樓的數據為基礎，拆解回收公式、比較三大管道損益，並計算稅務成本，讓你在出售黃金前有明確的數字依據。</p>
 
       <h2>快速摘要：60 秒掌握台北黃金回收重點</h2>

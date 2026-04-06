@@ -81,6 +81,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金在華人文化中象徵富貴吉祥，從婚嫁金飾到過年金幣都有深遠意義。了解黃金文化背景，讓你的金飾更有故事。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你想知道如何賣黃金 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>黃金回收完整流程</a></li>
+        <li>你的黃金是K金 → <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>K金說明與回收</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：黃金在華人文化中代表財富、祝福與傳承</h2>
       <p>從古至今，黃金在中華文化中一直佔有特殊地位。它不只是貴金屬，更承載著祝福、傳承與財富的意涵。了解黃金的文化背景，讓我們更珍視手中這份珍貴的資產。</p>
 

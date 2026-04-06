@@ -68,6 +68,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 影響金價的主要因素：國際美元走勢、聯準會利率政策、地緣政治風險、通膨數據及市場供需。了解這些能幫你抓準賣金時機，讓每次回收都更划算。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>為什麼黃金回收價格每天都不同？</h2>
       <p>黃金是全球性的商品，以美元計價並在全球各大交易所24小時交易。台灣銀行每個交易日會根據國際金價更新黃金牌價，這就是您在不同天到店詢問，報價可能不同的主要原因。想了解如何計算回收金額，可使用<a href="/blog/gold-calculator" style={{color:'#B8860B'}}>黃金回收計算機</a>。</p>
 

@@ -75,6 +75,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金回收常見問題：需帶身份證、不限品牌款式、當場現金支付、K金也能回收。巧品珠寶免費估價不強迫交易。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：第一次賣黃金？不知道流程怎麼跑？這篇FAQ讓你一次搞懂！</h2>
       <p>很多人第一次要賣黃金，對整個流程感到陌生甚至擔心被騙。本文整理了最常見的黃金回收問題，讓您在到店前就能充分了解，安心順利完成交易。如果您想先查今日金價，可參考<a href="/today-gold-price" style={{ color: '#B8860B' }}>今日黃金回收價</a>。</p>
 

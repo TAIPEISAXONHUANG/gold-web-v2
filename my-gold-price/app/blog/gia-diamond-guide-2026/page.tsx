@@ -96,6 +96,19 @@ export default function Page() {
           <strong>重點摘要：</strong> GIA 是全球最權威的鑽石鑑定機構，有 GIA 證書的鑽石比較好賣、比較好估價。但「有 GIA」不等於「保值」——二手鑽石市場普遍以零售價 3–5 折成交，這是正常市場現實。
         </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
         <h2>GIA 是什麼機構？</h2>
         <p>
           GIA（Gemological Institute of America，美國寶石學院）成立於 1931 年，是全球公認最嚴格、最具公信力的鑽石鑑定機構。許多台灣珠寶業者、銀行、保險公司在評估鑽石價值時，都以 GIA 證書作為標準依據。

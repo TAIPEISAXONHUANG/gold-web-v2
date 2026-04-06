@@ -59,6 +59,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 辨識黃金真偽的方法：看印記標示、磁鐵測試、比重測試（水測法）、XRF螢光分析。建議到專業店家使用儀器鑑定最準確。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：掌握這幾招，黃金真假輕鬆辨識</h2>
       <p>市面上有鍍金、包金等各種黃金仿品，外觀與真金非常相似，不具備專業知識很難分辨。本文介紹從簡單到專業的黃金辨識方法，幫助您購買或出售黃金時保障自身權益。如果您想了解黃金回收，可先查看<a href="/blog/gold-purity" style={{ color: '#B8860B' }}>黃金純度說明</a>，了解不同純度的含金量。</p>
 

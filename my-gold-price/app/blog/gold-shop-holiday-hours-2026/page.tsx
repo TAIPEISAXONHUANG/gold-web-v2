@@ -96,6 +96,19 @@ export default function Page() {
           <strong>重點摘要：</strong> 台灣銀樓假日大多開，但農曆春節是大例外。週末通常照常，國定假日視店家而定。想確保不白跑，出發前 10 分鐘打一通電話比搜尋任何資訊都可靠。
         </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
         <h2>台灣銀樓假日有開嗎？整體規律說明</h2>
         <p>
           台灣的銀樓和黃金回收店，本質上是零售服務業，假日客流量往往比平日更高。因此，絕大多數銀樓在假日是<strong>開門的</strong>——這跟很多人的直覺相反。

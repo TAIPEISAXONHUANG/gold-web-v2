@@ -101,7 +101,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 台北哪裡買黃金最划算？2026年黃金高點行情下，買金條、金豆、金飾前必讀。本文整理台北購金管道比較、購買流程與常見陷阱，選對地方才不會多花冤枉錢。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
 
+
+      
         <p>
           2026年國際金價創歷史新高，台灣一堆人開始問：「台北哪裡買黃金比較好？」
           銀樓、銀行、網路平台都有賣，但價格和服務差很多。

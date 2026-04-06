@@ -81,6 +81,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 台灣傳統金飾文化：婚嫁四金（金項鍊、金手鍊、金戒指、金耳環）、彌月金飾、過年金幣等，都承載著祝福與傳承。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你想知道如何賣黃金 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>黃金回收完整流程</a></li>
+        <li>你的黃金是K金 → <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>K金說明與回收</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：黃金在台灣傳統文化中不可或缺</h2>
       <p>黃金在台灣人的生命禮俗中扮演重要角色，從出生到婚嫁到身後，每個重要時刻都可能有黃金的身影。了解這些傳統，讓我們更珍視手中的黃金。</p>
 

@@ -101,7 +101,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 今日金價台灣2026最新行情：黃金一錢多少錢？一兩多少？每克幾元？本文整理2026年3月最新金價數據、計算方式與回收報價，5秒看懂今天金價。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
 
+
+      
         <p>
           想知道今天台灣黃金多少錢？一錢幾元、一兩多少、每克幾塊？
           這篇把2026年3月的最新行情、換算方式和注意事項全部整理清楚，看完5分鐘你就懂了。

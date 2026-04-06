@@ -59,6 +59,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 黃金回收流程只需15分鐘：攜帶金飾+身份證→專業儀器鑑定純度→電子秤秤重→依當日牌價報價→現場現金支付。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p>很多人手邊有黃金想變現，但從來沒賣過，不知道「黃金回收」到底是怎麼一回事。其實整個流程非常簡單，本文帶你從頭到尾走一遍，看完就懂！</p>
 
       <h2>第一步：準備好要出售的黃金</h2>

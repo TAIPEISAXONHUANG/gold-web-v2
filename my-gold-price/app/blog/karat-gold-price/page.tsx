@@ -68,6 +68,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> K金回收價計算：當日黃金牌價 × K金含金比例 × 重量。例如18K：牌價×75%×重量。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>各種K數都高價回收，當場現金付款。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>K金回收計算公式是什麼？</h2>
       <p><strong>K金回收價格 = 當日純金牌價（元/台錢）× 重量（台錢）× K金含金比例</strong></p>
       <p>這個公式看起來簡單，但很多人不知道自己的K金含金量是多少，導致回收時無法核對報價是否合理。本文提供完整的對照表和計算範例，讓您在賣K金時不吃虧。也可使用<a href="/blog/gold-calculator" style={{color:'#B8860B'}}>黃金回收計算機</a>輕鬆試算。</p>

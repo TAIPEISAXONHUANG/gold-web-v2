@@ -96,6 +96,19 @@ export default function Page() {
           <strong>重點摘要：</strong> 結婚金飾不只是「買漂亮的」，背後有習俗邏輯和金價考量。龍鳳鐲是核心，純度選 9999，重量至少 2 錢一支，其餘依預算彈性搭配。
         </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
         <h2>台灣結婚金飾習俗：哪些是必備、哪些可以省？</h2>
         <p>
           台灣婚禮金飾的傳統來自閩南文化，核心概念是「女方帶金入門，代表富足與吉祥」。但不同家庭、南北地區，規矩差異很大。

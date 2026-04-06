@@ -87,6 +87,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 為什麼別人賣金價格比你高？關鍵差異：選對時機（金價高點）、選對店家（不扣耗損）、多家比價、了解純度差異。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p>「同樣一條金鍊，我賣2萬，朋友卻賣了2萬5！」你是否也聽過這樣的故事？其實黃金的回收價格並不是固定的，懂得技巧的人確實可以賣得比別人高。本文告訴你原因。</p>
 
       <h2>原因一：選對了回收店家</h2>

@@ -52,6 +52,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 舊金飾回收不看新舊，只看純度和重量。祖傳金飾、變色氧化的金飾都能回收，巧品珠寶專業鑑定讓舊金發揮最大價值。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：舊金也能賣好價，不看年份看純度</h2>
       <p>很多人家中有多年未佩戴的舊金飾，不確定能否回收，或擔心款式過時影響價格。事實上，黃金回收完全不看款式新舊，只看<strong>純度和重量</strong>。一個30年前購買的老金飾，只要純度相同，回收價格與今天購買的新品完全一樣。</p>
 

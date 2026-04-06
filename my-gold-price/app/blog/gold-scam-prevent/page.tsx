@@ -67,6 +67,19 @@ export default function Page() {
         </ul>
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>黃金回收詐騙有多嚴重？</h2>
       <p>隨著<a href="/blog/gold-price-2026" style={{color:'#B8860B'}}>2026年金價持續走高</a>，黃金回收市場交易量大增，詐騙案件也隨之攀升。根據消費者保護會統計，每年黃金交易糾紛達數百件，其中以秤重不實與報價不透明為最大宗。許多民眾因缺乏經驗，在第一次賣黃金時就遭遇不良業者，損失金額從數千到數萬元不等。了解常見手法並做好防範，才能確保你辛苦存下的黃金不被低估或騙走。</p>
 

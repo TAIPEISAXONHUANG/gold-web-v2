@@ -77,6 +77,19 @@ export default function Page() {
         </ul>
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：直接找銀樓回收比拍賣平台更划算</h2>
       <p>許多人想透過拍賣平台賣黃金，期望能賣到比行情更高的價格。然而實際上，拍賣平台要扣除 5-15{'%'} 的手續費，加上等待競標的時間成本、買家可能惡意棄標、交易糾紛處理困難等風險，最終到手的金額往往不如直接找<a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B' }}>專業回收店家</a>來得划算。直接到店回收，當天現金入袋、零手續費，才是大多數人最實惠的選擇。</p>
 

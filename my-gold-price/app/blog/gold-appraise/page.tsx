@@ -85,6 +85,19 @@ export default function Page() {
         </ul>
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：估價完全免費，不賣也沒關係</h2>
       <p>很多人想知道自己的黃金值多少錢，但擔心去估價就要被迫賣出。巧品珠寶提供完全免費的黃金估價服務，估完不滿意可以直接帶回，絕不強迫銷售。我們鼓勵客戶多方比價，對自己的黃金價值有清楚了解後再做決定。每天都有客人專程來估價、了解行情後帶回，這是很正常的事。</p>
 

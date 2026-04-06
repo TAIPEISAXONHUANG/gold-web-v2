@@ -68,6 +68,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 金幣回收看純度、重量和品牌。投資型金幣按金價計算，紀念幣可能有額外收藏溢價。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>免費鑑定估價，當場現金付款。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>收藏金幣怎麼回收變現？</h2>
       <p>不論是投資型金幣、各國官方金幣，還是台灣銀行發行的紀念金幣，都可以在<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>進行回收。金幣的回收價格主要依據當日國際金價、幣的純度與重量計算，部分稀有紀念版還會有額外的收藏溢價。</p>
 

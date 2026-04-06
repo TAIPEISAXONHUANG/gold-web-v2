@@ -87,6 +87,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 影響金價的關鍵因素：美元指數、聯準會利率、全球通膨率、地緣政治風險、央行購金量。掌握這五點就能判斷金價走勢。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p>你有沒有納悶過：今天黃金價格和上週差那麼多，到底是誰在控制金價？其實黃金的定價機制非常透明，主要由幾個全球性因素共同決定。本文帶你搞懂這 5 個關鍵因素，讓你在買賣黃金時不再霧煞煞。</p>
 
       <h2>黃金定價的基礎是什麼？</h2>

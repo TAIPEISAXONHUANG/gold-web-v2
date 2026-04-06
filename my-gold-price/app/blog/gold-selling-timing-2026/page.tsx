@@ -96,6 +96,19 @@ export default function Page() {
           <strong>重點摘要：</strong> 沒有人能準確抓到黃金最高點。真正的問題不是「何時金價最高」，而是「你的需求和當前金價之間，有沒有達到值得出手的平衡」。本文從三個角度幫你判斷。
         </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
         <h2>判斷賣金時機有哪些維度？</h2>
         <p>
           很多人把「賣黃金時機」想得太複雜，以為要看懂美元指數、聯準會政策、全球通膨。這些都有影響，但對一般持有少量黃金的人來說，下面三個維度更實用：

@@ -80,6 +80,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 2026年黃金回收最新FAQ：目前回收價行情、需要什麼證件、K金怎麼計價、哪裡回收最划算，一次解答。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：第一次賣黃金？所有常見問題這篇都有答案！</h2>
       <p>2026年黃金價格持續維持在歷史高位，是賣黃金的好時機。無論您有多少黃金首飾、金條、舊金需要變現，本篇FAQ將解答所有疑問，讓您安心到巧品珠寶完成交易。更多金價資訊可參考<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>2026年黃金行情</a>。</p>
 

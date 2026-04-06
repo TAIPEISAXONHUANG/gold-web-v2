@@ -95,7 +95,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 黃金品質怎麼看？除了K數以外，工藝水平、品牌譽、產地來源都影響黃金飾品價值。本篇詳細說明義大利金飾、中國金飾、台灣金飾的工藝差異與品質辨識方法。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
 
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金品質不是只看K數。同一個K數的金飾，工藝水平可以差很多：義大利金飾以精細鍛造聞名，泰國金飾以厚重古法金工藝著稱，台灣本地師傅的工藝也有穩定水準。購買前了解這些差異，可以幫助你判斷價格是否合理。
         </div>

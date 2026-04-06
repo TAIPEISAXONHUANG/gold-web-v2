@@ -96,6 +96,19 @@ export default function Page() {
           <strong>重點摘要：</strong> 純金（9999）相對好養，K金和Pt900需要更細心。三個核心原則：避開化學品、分開存放、定期清潔。
         </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
         <h2>不同純度黃金飾品保養有什麼差異？</h2>
         <p>
           很多人把「黃金飾品」當成一個類別統一保養，其實 9999 純金、18K 金、14K 金的保養需求差很多。搞清楚你手上的飾品屬於哪類，才能正確保養。

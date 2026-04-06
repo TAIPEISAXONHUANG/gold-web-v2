@@ -101,7 +101,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 2026年今日黃金賣出價一錢多少？搞清楚「賣出價」和「買入價」的差異，才不會白白少領幾百塊。巧品珠寶不扣耗損、秤重透明，當場現金，電洽即時報價。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
 
+
+      
         <p>
           很多人拿著黃金去賣，回家才發現拿到的錢比預期少了好幾百。原因通常不是店家報錯——
           而是你搞混了「賣出價」和「買入價」，或者沒搞清楚有沒有扣耗損。

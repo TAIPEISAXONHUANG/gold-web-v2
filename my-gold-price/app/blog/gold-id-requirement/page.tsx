@@ -135,6 +135,19 @@ export default function Page() {
         <strong>重點摘要：</strong> 賣黃金必須攜帶身分證正本，這是台灣《洗錢防制法》的法定要求。合法業者都會登記，這是保護買賣雙方的重要程序，不是刁難消費者。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p style={{ fontSize: '1.05rem', color: '#444', lineHeight: '1.8' }}>
         很多人第一次賣黃金時都會疑惑：「我只是賣金飾，為什麼要給身分證？」這是一個非常合理的問題。本文將完整說明台灣對黃金回收實名制的法律依據、需要準備的文件、流程，以及常見疑問解答。
       </p>

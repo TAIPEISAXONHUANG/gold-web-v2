@@ -89,6 +89,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 古董金飾除了黃金價值外，可能有額外的收藏價值。建議先鑑定純度與歷史價值，再決定回收或收藏保存。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：古早黃金一樣有高價值，純度才是關鍵</h2>
       <p>很多人家中都有祖傳的古早金飾。早期台灣金飾多為916或990以上高純度，只要是真金，就有回收價值。巧品珠寶專業鑑定各類古早黃金，依純度和重量給出公道價格。</p>
 

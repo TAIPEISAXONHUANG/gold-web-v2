@@ -99,6 +99,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 今日黃金一錢賣出價格是多少？銀樓公告的賣出價、買入價差在哪？巧品珠寶說清楚：一錢換算3.75克、實際拿到的現金怎麼算。電話 0986-821-626。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜台北大安區黃金收購｜一錢換算、買賣差說清楚</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

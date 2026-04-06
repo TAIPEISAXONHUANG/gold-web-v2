@@ -97,6 +97,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 台灣賣黃金的稅務規定：個人出售黃金免課營業稅，但若有獲利需申報財產交易所得。大額交易（50萬以上）可能需申報。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>結論：一般個人賣黃金通常不需繳所得稅</h2>
       <p>很多人賣黃金時擔心要繳稅。根據台灣現行法規，個人出售黃金的財產交易所得，原則上需申報，但實務上只要有購買憑證且非以交易黃金為業，稅負通常很低甚至為零。想了解賣黃金前的準備事項，可參考<a href="/blog/before-selling-gold" style={{ color: '#B8860B' }}>賣黃金前必知事項</a>。</p>
 

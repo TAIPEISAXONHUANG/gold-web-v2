@@ -93,7 +93,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
 
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點先說：</strong> 黃金純度決定你能拿到多少錢。同樣重量的飾品，999 純金和 14K 的報價可以差到一倍以上。帶去有 XRF 儀器的銀樓，30 秒就能知道確切成色，不用靠猜。
         </div>

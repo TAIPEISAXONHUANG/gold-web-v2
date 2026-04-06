@@ -68,6 +68,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 金條回收依國際金價×重量計算，需確認金條品牌、純度標示及序號。知名品牌金條（如台銀、PAMP）回收速度最快。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>當日現金付款。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <h2>黃金條塊怎麼回收？</h2>
       <p>黃金條塊（俗稱金條）是投資者最常見的持有形式。因為純度固定、重量明確，金條的回收過程往往比金飾更簡單快速。<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>收購各種品牌與規格的金條，依當日市場金價報價，當場現金付款。</p>
 

@@ -91,7 +91,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 黃金如何寫進遺囑？如何傳承給下一代？黃金遺產的遺產稅計算、繼承流程、以及黃金作為傳家寶的規劃策略。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
 
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金是華人社會最受歡迎的傳家資產之一，但黃金遺產規劃需要提前安排。生前贈與和遺產繼承各有稅務優劣：生前贈與有每年244萬元的免稅額，遺產繼承則有1,333萬元的免稅額。提前寫好遺囑，清楚記載黃金分配方式，是避免家庭糾紛的最好方法。
         </div>

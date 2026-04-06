@@ -107,6 +107,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 2026年賣黃金必帶：①身份證正本（必備）②要出售的金飾 ③購買證明/保證書（加分項）。未滿18歲需家長陪同。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p>很多人拿著黃金準備去賣，才到門口發現忘了帶身份證，白跑一趟！為了讓你一次搞定，本文整理 2026 年最新規定，告訴你賣黃金必帶、建議帶、以及可加分的物品清單。</p>
 
       <h2>【必帶】身份證件（法規要求）</h2>

@@ -94,7 +94,17 @@ export default function Page() {
         <strong>重點摘要：</strong> 2026年台灣黃金回收價格完整指南！最新各純度(K金/9999/995)回收報價，影響價格因素專業解析，幫您賣出最優惠價格。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
 
+
+      
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 結論：</strong> 2026年黃金回收市場火熱，目前回收價格區間約為每錢 <strong>9,800-10,200元</strong>。不同純度、K數的黃金回收價差可達30%以上，本文提供完整價格表與選擇建議。
       </div>

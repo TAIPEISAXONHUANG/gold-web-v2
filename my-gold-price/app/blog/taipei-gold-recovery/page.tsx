@@ -86,6 +86,19 @@ export default function Page() {
         <strong>📌 重點摘要：</strong> 台北黃金回收首選巧品珠寶：大安區實體店面、每日公開報價、不扣秤不扣耗損、現場現金支付。電話 0986-821-626。
       </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p style={{ fontSize: '1.1rem', color: '#555', borderLeft: '4px solid #B8860B', paddingLeft: '1rem', margin: '1.5rem 0' }}>
         台北黃金回收業者很多，但價格差距可能高達每台錢 500-1,000 元。這篇告訴你怎麼選、怎麼比、怎麼拿到最高價。
       </p>
