@@ -29,7 +29,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: '鈀金與銠金投資2026｜兩種稀有貴金屬的特性、用途與投資分析',
             description: '鈀金和銠金是什麼？可以投資嗎？2026年鈀金和銠金的用途、價格驅動因素、以及與黃金的投資比較。兩種最稀有的貴金屬完整解析。',
             author: { '@type': 'Person', name: '巧品珠寶' },

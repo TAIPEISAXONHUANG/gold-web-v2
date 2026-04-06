@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: '白金回收價格2026｜Pt900、Pt950即時行情與收購流程',
@@ -12,93 +11,75 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLdBlogPosting = {
-  '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: '白金回收價格2026｜Pt900、Pt950即時行情與收購流程',
-  description: '白金（鉑金）回收行情完整說明。Pt900、Pt950目前收購價格、計算方式、與黃金差異，台北巧品珠寶24小時收購，不扣耗損、秤重全程透明。',
-  author: { '@type': 'Organization', name: '巧品珠寶' },
-  publisher: { '@type': 'Organization', name: '巧品珠寶' },
-  datePublished: '2026-04-06',
-  dateModified: '2026-04-06',
-  inLanguage: 'zh-TW',
-  mainEntityOfPage: 'https://gold-web-v2.vercel.app/blog/platinum-recovery-price-2026',
-}
-
-const jsonLdBreadcrumb = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-web-v2.vercel.app' },
-    { '@type': 'ListItem', position: 2, name: '部落格', item: 'https://gold-web-v2.vercel.app/blog' },
-    { '@type': 'ListItem', position: 3, name: '白金回收價格2026', item: 'https://gold-web-v2.vercel.app/blog/platinum-recovery-price-2026' },
-  ],
-}
-
-const jsonLdFAQ = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: '白金和黃金哪個回收價值更高？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '目前（2026年）白金國際現貨價約每盎司1,050-1,100美元，而黃金約3,100-3,200美元，黃金回收價值明顯高於白金。但白金的工藝加工品質好、密度高，同重量的白金飾品往往純度更穩定。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Pt900和Pt950差在哪裡？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Pt900表示鉑金純度90%，Pt950純度95%。日本製銀樓飾品多用Pt900，歐美高端珠寶較常見Pt950。回收時Pt950每克收購價比Pt900高約5-8%。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '白金戒指上面沒有刻字還能回收嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '可以。沒有刻字的白金飾品我們會現場用XRF螢光儀器測試純度，測完才報價，整個過程5分鐘，不需要你先說是幾K或Pt幾。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '白金回收需要帶身分證嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '根據貴金屬回收相關法規，回收金額達一定門檻需登記身分。帶身分證、健保卡或駕照任一種即可，現場登記流程3分鐘完成。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '白金混搭了鑽石或寶石，回收時怎麼算？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '鑲嵌飾品的回收價以金屬本體計算，鑽石和寶石會另外鑑定報價。如果鑽石有GIA證書，溢價空間更大。兩個都算，都給你報價，不強迫拆開賣。',
-      },
-    },
-  ],
-}
-
 export default function PlatinumRecoveryPrice2026() {
   return (
     <>
-      <Script
-        id="ld-blogposting"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBlogPosting) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '白金回收價格2026｜Pt900、Pt950即時行情與收購流程',
+            description: '白金（鉑金）回收行情完整說明。Pt900、Pt950目前收購價格、計算方式、與黃金差異，台北巧品珠寶24小時收購，不扣耗損、秤重全程透明。',
+            author: { '@type': 'Organization', name: '巧品珠寶' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶' },
+            datePublished: '2026-04-06',
+            dateModified: '2026-04-06',
+            inLanguage: 'zh-TW',
+            mainEntityOfPage: 'https://www.gold-tw.com/blog/platinum-recovery-price-2026',
+          }),
+        }}
       />
-      <Script
-        id="ld-breadcrumb"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://www.gold-tw.com/' },
+              { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://www.gold-tw.com/blog' },
+              { '@type': 'ListItem', position: 3, name: '白金回收價格2026', item: 'https://www.gold-tw.com/blog/platinum-recovery-price-2026' },
+            ],
+          }),
+        }}
       />
-      <Script
-        id="ld-faq"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: '白金和黃金哪個回收價值更高？',
+                acceptedAnswer: { '@type': 'Answer', text: '目前（2026年）白金國際現貨價約每盎司1,050-1,100美元，而黃金約3,100-3,200美元，黃金回收價值明顯高於白金。但白金的工藝加工品質好、密度高，同重量的白金飾品往往純度更穩定。' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Pt900和Pt950差在哪裡？',
+                acceptedAnswer: { '@type': 'Answer', text: 'Pt900表示鉑金純度90%，Pt950純度95%。日本製銀樓飾品多用Pt900，歐美高端珠寶較常見Pt950。回收時Pt950每克收購價比Pt900高約5-8%。' },
+              },
+              {
+                '@type': 'Question',
+                name: '白金戒指上面沒有刻字還能回收嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '可以。沒有刻字的白金飾品我們會現場用XRF螢光儀器測試純度，測完才報價，整個過程5分鐘，不需要你先說是幾K或Pt幾。' },
+              },
+              {
+                '@type': 'Question',
+                name: '白金回收需要帶身分證嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '根據貴金屬回收相關法規，回收金額達一定門檻需登記身分。帶身分證、健保卡或駕照任一種即可，現場登記流程3分鐘完成。' },
+              },
+              {
+                '@type': 'Question',
+                name: '白金混搭了鑽石或寶石，回收時怎麼算？',
+                acceptedAnswer: { '@type': 'Answer', text: '鑲嵌飾品的回收價以金屬本體計算，鑽石和寶石會另外鑑定報價。如果鑽石有GIA證書，溢價空間更大。兩個都算，都給你報價，不強迫拆開賣。' },
+              },
+            ],
+          }),
+        }}
       />
 
       <main style={{ maxWidth: '800px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>

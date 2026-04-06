@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: '黃金戒指回收2026｜各K數報價、流程與注意事項完整說明',
@@ -12,93 +11,75 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLdBlogPosting = {
-  '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: '黃金戒指回收2026｜各K數報價、流程與注意事項完整說明',
-  description: '黃金戒指回收完整指南。24K純金戒、18K戒指、鑲鑽金戒怎麼算？帶什麼去、要注意什麼、哪裡收購最划算，巧品珠寶台北大安24小時收購。',
-  author: { '@type': 'Organization', name: '巧品珠寶' },
-  publisher: { '@type': 'Organization', name: '巧品珠寶' },
-  datePublished: '2026-04-06',
-  dateModified: '2026-04-06',
-  inLanguage: 'zh-TW',
-  mainEntityOfPage: 'https://gold-web-v2.vercel.app/blog/gold-ring-recycling-2026',
-}
-
-const jsonLdBreadcrumb = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-web-v2.vercel.app' },
-    { '@type': 'ListItem', position: 2, name: '部落格', item: 'https://gold-web-v2.vercel.app/blog' },
-    { '@type': 'ListItem', position: 3, name: '黃金戒指回收2026', item: 'https://gold-web-v2.vercel.app/blog/gold-ring-recycling-2026' },
-  ],
-}
-
-const jsonLdFAQ = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: '黃金戒指回收需要帶什麼？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '帶戒指本身和一張身分證明文件（身分證、健保卡或駕照擇一）即可。不需要購買憑證、原廠盒或收據。若有鑑定書或GIA證書，帶來可以加快流程、提升報價準確性。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '婚戒可以回收嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '可以。婚戒的回收方式和一般戒指完全相同，按材質（黃金含量或白金含量）和重量計算報價。如果婚戒上有刻字，不影響報價，也不需要特別打磨。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '鑲鑽石的黃金戒指怎麼回收？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '金屬戒台和鑽石分開計算。戒台按黃金克重和K數報價；鑽石另外用4C（克拉、切工、顏色、淨度）鑑定報價。有GIA等國際證書的鑽石，溢價空間更高。不強迫拆開，兩個都給你報價。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '戒指變形或有刮痕，回收價會受影響嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '黃金和K金的回收按材質和重量計算，外觀損傷不影響報價。壓扁、刮花、氧化變黑的戒指都可以正常回收，不會因為「外觀不好」而扣價。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '黃金戒指回收和銀樓收購有什麼差別？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '傳統銀樓的收購報價通常比專業回收商低10%-20%，因為銀樓主要做零售，回收是附帶服務。專業黃金回收商的折扣率較高（92%-93%），報價更接近市場價。建議多問幾家比較。',
-      },
-    },
-  ],
-}
-
 export default function GoldRingRecycling2026() {
   return (
     <>
-      <Script
-        id="ld-blogposting"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBlogPosting) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: '黃金戒指回收2026｜各K數報價、流程與注意事項完整說明',
+            description: '黃金戒指回收完整指南。24K純金戒、18K戒指、鑲鑽金戒怎麼算？帶什麼去、要注意什麼、哪裡收購最划算，巧品珠寶台北大安24小時收購。',
+            author: { '@type': 'Organization', name: '巧品珠寶' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶' },
+            datePublished: '2026-04-06',
+            dateModified: '2026-04-06',
+            inLanguage: 'zh-TW',
+            mainEntityOfPage: 'https://www.gold-tw.com/blog/gold-ring-recycling-2026',
+          }),
+        }}
       />
-      <Script
-        id="ld-breadcrumb"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://www.gold-tw.com/' },
+              { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://www.gold-tw.com/blog' },
+              { '@type': 'ListItem', position: 3, name: '黃金戒指回收2026', item: 'https://www.gold-tw.com/blog/gold-ring-recycling-2026' },
+            ],
+          }),
+        }}
       />
-      <Script
-        id="ld-faq"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: '黃金戒指回收需要帶什麼？',
+                acceptedAnswer: { '@type': 'Answer', text: '帶戒指本身和一張身分證明文件（身分證、健保卡或駕照擇一）即可。不需要購買憑證、原廠盒或收據。若有鑑定書或GIA證書，帶來可以加快流程、提升報價準確性。' },
+              },
+              {
+                '@type': 'Question',
+                name: '婚戒可以回收嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '可以。婚戒的回收方式和一般戒指完全相同，按材質（黃金含量或白金含量）和重量計算報價。如果婚戒上有刻字，不影響報價，也不需要特別打磨。' },
+              },
+              {
+                '@type': 'Question',
+                name: '鑲鑽石的黃金戒指怎麼回收？',
+                acceptedAnswer: { '@type': 'Answer', text: '金屬戒台和鑽石分開計算。戒台按黃金克重和K數報價；鑽石另外用4C（克拉、切工、顏色、淨度）鑑定報價。有GIA等國際證書的鑽石，溢價空間更高。不強迫拆開，兩個都給你報價。' },
+              },
+              {
+                '@type': 'Question',
+                name: '戒指變形或有刮痕，回收價會受影響嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '黃金和K金的回收按材質和重量計算，外觀損傷不影響報價。壓扁、刮花、氧化變黑的戒指都可以正常回收，不會因為「外觀不好」而扣價。' },
+              },
+              {
+                '@type': 'Question',
+                name: '黃金戒指回收和銀樓收購有什麼差別？',
+                acceptedAnswer: { '@type': 'Answer', text: '傳統銀樓的收購報價通常比專業回收商低10%-20%，因為銀樓主要做零售，回收是附帶服務。專業黃金回收商的折扣率較高（92%-93%），報價更接近市場價。建議多問幾家比較。' },
+              },
+            ],
+          }),
+        }}
       />
 
       <main style={{ maxWidth: '800px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>

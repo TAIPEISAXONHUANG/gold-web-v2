@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'K金回收價格怎麼算？2026最新14K/18K每克行情表',
@@ -12,93 +11,75 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLdBlogPosting = {
-  '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: 'K金回收價格怎麼算？2026最新14K/18K每克行情表',
-  description: 'K金回收價格計算方式完整說明。14K、18K、22K每克收購行情、計算公式、常見扣分項目，台北巧品珠寶報價透明、不扣耗損。',
-  author: { '@type': 'Organization', name: '巧品珠寶' },
-  publisher: { '@type': 'Organization', name: '巧品珠寶' },
-  datePublished: '2026-04-06',
-  dateModified: '2026-04-06',
-  inLanguage: 'zh-TW',
-  mainEntityOfPage: 'https://gold-web-v2.vercel.app/blog/k-gold-price-per-gram-2026',
-}
-
-const jsonLdBreadcrumb = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://gold-web-v2.vercel.app' },
-    { '@type': 'ListItem', position: 2, name: '部落格', item: 'https://gold-web-v2.vercel.app/blog' },
-    { '@type': 'ListItem', position: 3, name: 'K金回收價格2026', item: 'https://gold-web-v2.vercel.app/blog/k-gold-price-per-gram-2026' },
-  ],
-}
-
-const jsonLdFAQ = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'K金回收價格怎麼算？有公式嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '基本公式：K金回收價 = 當日黃金現貨價（每克）× K數純度係數 × 收購折扣率。以18K為例：3,100元/克 × 0.75 × 0.92 = 約2,139元/克。實際收購時各店折扣率不同，通常在88%-93%之間。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '18K和14K回收價差多少？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '18K純度75%，14K純度58.5%。以2026年4月黃金約3,100元/克計算，18K每克收購約2,100-2,300元，14K每克約1,650-1,800元，差距約450-500元/克。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '白K金的回收價和黃K金一樣嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '一樣。白K金是黃金加入鈀或銀等金屬，外層電鍍白銠。回收時只算黃金含量，白色外觀不影響報價。18K白金和18K黃金回收價格相同。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'K金飾品有損傷或斷掉，還能回收嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '可以。K金回收按重量和純度計算，外觀損傷不影響報價。斷鍊、壓扁的戒指、缺少搭扣的手環都能正常收購，不會因為「壞掉」就扣價。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '沒有購買憑證，K金還能回收嗎？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '可以。現場用XRF儀器測純度，不需要購買憑證或原廠包裝。測完純度再報價，確認後才交易，不強迫。',
-      },
-    },
-  ],
-}
-
 export default function KGoldPricePerGram2026() {
   return (
     <>
-      <Script
-        id="ld-blogposting"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBlogPosting) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'K金回收價格怎麼算？2026最新14K/18K每克行情表',
+            description: 'K金回收價格計算方式完整說明。14K、18K、22K每克收購行情、計算公式、常見扣分項目，台北巧品珠寶報價透明、不扣耗損。',
+            author: { '@type': 'Organization', name: '巧品珠寶' },
+            publisher: { '@type': 'Organization', name: '巧品珠寶' },
+            datePublished: '2026-04-06',
+            dateModified: '2026-04-06',
+            inLanguage: 'zh-TW',
+            mainEntityOfPage: 'https://www.gold-tw.com/blog/k-gold-price-per-gram-2026',
+          }),
+        }}
       />
-      <Script
-        id="ld-breadcrumb"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: '首頁', item: 'https://www.gold-tw.com/' },
+              { '@type': 'ListItem', position: 2, name: '黃金知識', item: 'https://www.gold-tw.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'K金回收價格2026', item: 'https://www.gold-tw.com/blog/k-gold-price-per-gram-2026' },
+            ],
+          }),
+        }}
       />
-      <Script
-        id="ld-faq"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'K金回收價格怎麼算？有公式嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '基本公式：K金回收價 = 當日黃金現貨價（每克）× K數純度係數 × 收購折扣率。以18K為例：3,100元/克 × 0.75 × 0.92 = 約2,139元/克。實際收購時各店折扣率不同，通常在88%-93%之間。' },
+              },
+              {
+                '@type': 'Question',
+                name: '18K和14K回收價差多少？',
+                acceptedAnswer: { '@type': 'Answer', text: '18K純度75%，14K純度58.5%。以2026年4月黃金約3,100元/克計算，18K每克收購約2,100-2,300元，14K每克約1,650-1,800元，差距約450-500元/克。' },
+              },
+              {
+                '@type': 'Question',
+                name: '白K金的回收價和黃K金一樣嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '一樣。白K金是黃金加入鈀或銀等金屬，外層電鍍白銠。回收時只算黃金含量，白色外觀不影響報價。18K白金和18K黃金回收價格相同。' },
+              },
+              {
+                '@type': 'Question',
+                name: 'K金飾品有損傷或斷掉，還能回收嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '可以。K金回收按重量和純度計算，外觀損傷不影響報價。斷鍊、壓扁的戒指、缺少搭扣的手環都能正常收購，不會因為「壞掉」就扣價。' },
+              },
+              {
+                '@type': 'Question',
+                name: '沒有購買憑證，K金還能回收嗎？',
+                acceptedAnswer: { '@type': 'Answer', text: '可以。現場用XRF儀器測純度，不需要購買憑證或原廠包裝。測完純度再報價，確認後才交易，不強迫。' },
+              },
+            ],
+          }),
+        }}
       />
 
       <main style={{ maxWidth: '800px', margin: '0 auto', padding: '24px 16px', fontFamily: 'sans-serif', color: '#1a1a1a' }}>

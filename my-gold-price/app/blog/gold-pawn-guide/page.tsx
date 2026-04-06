@@ -29,7 +29,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: '黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項',
             description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。',
             author: { '@type': 'Person', name: '巧品珠寶' },

@@ -29,7 +29,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: '黃金遺產規劃2026｜黃金傳承、遺產繼承與過戶完整指南',
             description: '黃金如何寫進遺囑？如何傳承給下一代？黃金遺產的遺產稅計算、繼承流程、以及黃金作為傳家寶的規劃策略。',
             author: { '@type': 'Person', name: '巧品珠寶' },
