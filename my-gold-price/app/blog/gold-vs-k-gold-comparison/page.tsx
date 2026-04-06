@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金vs K金怎麼選？回收價差一次搞懂｜巧品珠寶',
-  description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。',
+  description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金與K金比較,24K黃金,18K金,14K金,純度比較,黃金vs K金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',
@@ -86,6 +86,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金與K金最大的差異在於「純度」！24K是99.99{'$'}{'%'}純金，18K是75{'$'}{'%'}，14K是58.5{'$'}{'%'}。純度越高越保值，K金硬度較高更適合日常配戴。選對種類才能兼顧價值與實用！
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
       
       <h2>結論：了解黃金與K金的差異，才能做出正確選擇！</h2>
 

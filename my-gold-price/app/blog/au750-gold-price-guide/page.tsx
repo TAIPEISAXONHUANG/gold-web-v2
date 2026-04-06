@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Au750是什麼金？等於18K嗎？2026年Au750價格與K金市場分析',
-  description: 'Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。',
+  description: 'Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'Au750是什麼,Au750等於18K嗎,Au750價格,750黃金,K金刻印,18K金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/au750-gold-price-guide',
@@ -98,6 +98,23 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>Au750是什麼金？等於18K嗎？2026年Au750價格與K金市場分析</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> Au750 = 含金量75% = 18K金，兩者完全相同。歐洲市場用Au750標示，亞洲市場用K數。2026年3月底，Au750（18K）回收行情約 <strong>13,100–13,500 元/錢</strong>（9999牌價17,500元 × 75%）。

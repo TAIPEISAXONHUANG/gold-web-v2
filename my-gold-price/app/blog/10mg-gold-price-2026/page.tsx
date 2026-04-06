@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '10mg黃金多少錢？2026換算公式與即時參考價格',
-  description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
+  description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   openGraph: {
     locale: 'zh_TW',
     type: 'article',
@@ -82,6 +82,21 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         10mg黃金多少錢？2026換算公式與即時參考價格
       </h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', fontSize: '15px', marginBottom: '24px' }}>更新日期：2026-04-05｜作者：鑑定師L</p>
 
       <p>有人拿著一小塊黃金飾品來問：「這個10幾毫克，到底值多少錢？」</p>

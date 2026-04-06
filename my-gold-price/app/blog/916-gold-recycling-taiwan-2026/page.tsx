@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '916黃金回收2026｜台灣916金價行情與18K差異完整解析',
-  description: '916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。',
+  description: '916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '916黃金回收,916金回收,916黃金價格,916 K金,22K黃金回收台灣,916 gold recycling',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/916-gold-recycling-taiwan-2026',
@@ -99,7 +99,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>916黃金回收2026｜台灣916金價行情與18K差異完整解析</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，916黃金（22K）每錢回收行情約 <strong>16,000–16,500 元</strong>（以9999純金17,500元/錢 × 91.67%計算）。916比9999純金便宜約1,000–1,500元/錢，但比18K金高約2,000元/錢以上。
         </div>

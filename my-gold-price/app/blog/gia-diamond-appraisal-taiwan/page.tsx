@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'GIA鑽石鉴定证书怎么看？2026年台湾GIA钻石估价与回收完整攻略',
-  description: 'GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。',
+  description: 'GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'GIA鑽石,GIA鑽石鉴定,GIA钻石证书怎么看,钻石估价,gia钻石价格,钻石回收台湾',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-appraisal-taiwan',
@@ -98,6 +98,23 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>GIA鑽石鉴定证书怎么看？2026年台灣GIA鑽石估价与回收完整攻略</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接给答案：</strong> GIA证书重点看：1) 克拉数；2) 颜色等级；3) 净度等级；4) 切工等级。四个维度综合决定钻石价值。钻石回收比黄金分散，建议先了解自己的钻石等级再出门询价。
@@ -273,6 +290,15 @@ export default function Page() {
           <li><a href="/blog/gold-appraise">黃金珠宝鉴定与估价｜銀楼估价流程说明</a></li>
         </ul>
       </article>
-    </>
+          <div style={{ marginTop: '2rem', padding: '1.5rem', backgroundColor: '#fdf8e8', borderRadius: '8px', borderLeft: '4px solid #B8860B' }}>
+        <h3 style={{ color: '#B8860B', marginBottom: '1rem', fontSize: '1.1rem' }}>延伸閱讀</h3>
+        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/gia-diamond-guide-2026" style={{ color: '#B8860B', textDecoration: 'none' }}>GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/diamond-jewelry" style={{ color: '#B8860B', textDecoration: 'none' }}>鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/gold-recycling-precautions-guide" style={{ color: '#B8860B', textDecoration: 'none' }}>黃金回收要注意什麼？2026年完整攻略｜避開5大常見陷阱</a></li>
+          <li style={{ marginBottom: '0.5rem' }}><a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B', textDecoration: 'none' }}>台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價</a></li>
+        </ul>
+      </div>
+</>
   );
 }

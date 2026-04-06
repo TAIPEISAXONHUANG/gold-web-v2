@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026年黃金價格走勢｜黃金會漲嗎｜巧品珠寶',
-  description: '2026年黃金行情分析！了解金價走勢、影響因素，掌握最佳賣出時機。台北巧品珠寶即時報價，免費估價，電話 0986-821-626。',
+  description: '2026年黃金行情分析！了解金價走勢、影響因素，掌握最佳賣出時機。台北巧品珠寶即時報價，免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '2026黃金走勢,黃金會漲嗎,金價預測',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-2026',
@@ -67,6 +67,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026年金價持續受美聯儲政策、地緣政治及通膨影響。根據台灣銀行牌價，黃金回收價維持在歷史高檔區間，是變現的好時機。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>2026年黃金市場概況是什麼？</h2>
       <p>2025年黃金價格創下歷史新高，進入2026年後市場情緒仍然偏多。受到全球央行持續增持黃金、美元相對走弱以及地緣政治風險持續的影響，黃金價格整體仍在高檔盤整。對於持有黃金的消費者而言，這是相對有利的變現環境。如需更詳細的價格走勢分析，可參考<a href="/blog/gold-price-guide-2026" style={{color:'#B8860B'}}>2026年黃金價格完整指南</a>。</p>

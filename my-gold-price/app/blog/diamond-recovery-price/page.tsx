@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '鑽石回收行情2026｜台北鑽石收購價格怎麼算？',
-  description: '鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。',
+  description: '鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '鑽石回收行情,鑽石回收,鑽石收購,台北鑽石回收,鑽石回收價格,GIA鑽石回收,鑽戒回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/diamond-recovery-price',
@@ -95,6 +95,23 @@ export default function Page() {
       />
 
       <h1>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
+
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜GIA裸鑽、鑲嵌鑽戒、小鑽全收，依4C評估，當場現金</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

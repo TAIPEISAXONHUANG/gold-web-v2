@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收怎麼定價？專家告訴你影響價格的關鍵因素',
-  description: '黃金回收價格怎麼決定的？解析影響回收報價的5大因素：當日金價、純度、重量、店家政策、匯率，讓你拿到最高價。',
+  description: '黃金回收價格怎麼決定的？解析影響回收報價的5大因素：當日金價、純度、重量、店家政策、匯率，讓你拿到最高價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收定價,黃金回收價格怎麼算,影響黃金價格因素,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-factors',
@@ -86,6 +86,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 影響黃金回收價格的因素：國際金價、純度、重量、店家利潤。同一天不同店家報價可能差數百元，建議比價。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：回收定價主要看這5個因素</h2>
       <p>許多民眾想知道「我的黃金能賣多少？」其實黃金回收價格有固定的計算方式，本文帶您一次搞懂！</p>

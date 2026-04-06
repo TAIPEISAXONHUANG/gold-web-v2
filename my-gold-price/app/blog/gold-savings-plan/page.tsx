@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略',
-  description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。',
+  description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金儲蓄,定期定額買黃金,黃金存摺,小額黃金投資,黃金累積計劃',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-savings-plan',
@@ -102,7 +102,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金可以定期定額買，就像買基金一樣。台灣主要銀行（台灣銀行、土地銀行等）都有黃金存摺服務，1公克就能開始，每月固定日期扣款。建議每月投入閒置資金的10%–20%，以3–5年為一個檢視週期。
         </div>

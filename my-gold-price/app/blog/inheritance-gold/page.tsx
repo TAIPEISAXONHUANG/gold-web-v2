@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '遺產黃金回收｜祖先留下黃金變現｜巧品珠寶',
-  description: '繼承長輩黃金如何處理？完整說明清點、鑑定、回收流程，台北巧品珠寶老闆親自估價，當場現金，電話 0986-821-626。',
+  description: '繼承長輩黃金如何處理？完整說明清點、鑑定、回收流程，台北巧品珠寶老闆親自估價，當場現金，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '遺產黃金回收,祖先黃金,黃金繼承',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/inheritance-gold',
@@ -51,6 +51,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 繼承的黃金飾品可以直接回收，不需要原購買證明。攜帶身份證到店即可，依當日牌價×純度×重量計算回收價。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：遺產黃金變現這樣做最安全</h2>
       <p>長輩離世後，家中往往留有黃金首飾、金條或金幣等遺產。如何妥善處理這些黃金，是許多家庭面臨的實際問題。本文帶您了解遺產黃金回收的完整流程與注意事項，讓您安心、安全地完成變現。</p>

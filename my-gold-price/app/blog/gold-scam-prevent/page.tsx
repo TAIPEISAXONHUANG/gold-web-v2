@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金詐騙防範｜常見黃金騙局攻略｜巧品珠寶',
-  description: '黃金回收詐騙防範完整指南！識破話術、假牌價、扣耗損等手法，教你如何選擇誠信店家，安全賣黃金不吃虧。',
+  description: '黃金回收詐騙防範完整指南！識破話術、假牌價、扣耗損等手法，教你如何選擇誠信店家，安全賣黃金不吃虧。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金詐騙,黃金防騙,黑心銀樓,黃金回收騙局',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-scam-prevent',
@@ -66,6 +66,19 @@ export default function Page() {
           <li>比較至少3家報價，價差超過5{'%'}應提高警覺</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>黃金回收詐騙有多嚴重？</h2>
       <p>隨著<a href="/blog/gold-price-2026" style={{color:'#B8860B'}}>2026年金價持續走高</a>，黃金回收市場交易量大增，詐騙案件也隨之攀升。根據消費者保護會統計，每年黃金交易糾紛達數百件，其中以秤重不實與報價不透明為最大宗。許多民眾因缺乏經驗，在第一次賣黃金時就遭遇不良業者，損失金額從數千到數萬元不等。了解常見手法並做好防範，才能確保你辛苦存下的黃金不被低估或騙走。</p>

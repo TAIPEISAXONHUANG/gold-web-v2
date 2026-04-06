@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
-  description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
+  description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收FAQ,黃金回收問題,黃金秤重,扣耗損,黃金証件,2026黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq-guide',
@@ -79,6 +79,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 賣黃金不再霧煞煞！本篇整理2026年最完整的黃金回收FAQ，涵蓋秤重、扣耗損、証件准備、防詐騙等20個常見問題，讓您安心變現不吃虧。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       
       <h2>結論：賣黃金前先看這篇，疑難雜症一次解惑！</h2>
 

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金要注意什麼？5個不被坑的必知技巧',
-  description: '賣黃金完整攻略！5大技巧讓你不吃虧，了解計價方式、避開扣耗損話術，選對店家每台錢多拿500元。巧品珠寶免費估價。',
+  description: '賣黃金完整攻略！5大技巧讓你不吃虧，了解計價方式、避開扣耗損話術，選對店家每台錢多拿500元。巧品珠寶免費估價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金注意,黃金回收注意事項,黃金買賣技巧,不被坑',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/sell-gold-tips',
@@ -58,6 +58,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 賣黃金五大技巧：①觀察金價走勢選高點 ②多家比價 ③選不扣耗損的店 ④確認秤重過程 ⑤保留交易明細。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <h2>5個不被坑的必知有哪些方法？</h2>
 
       <h2>結論：記住這5點，賣黃金不吃虧</h2>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '白金回收｜鉑金回收｜巧品珠寶',
-  description: '白金、鉑金高價回收！Pt950、Pt900各純度均可，按重量現金付款。台北大安區巧品珠寶免費估價，電話 0986-821-626。',
+  description: '白金、鉑金高價回收！Pt950、Pt900各純度均可，按重量現金付款。台北大安區巧品珠寶免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '白金回收,鉑金回收,Pt950回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-recovery',
@@ -51,6 +51,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 白金（鉑金）回收價依國際鉑金價×純度×重量計算。Pt950純度95%、Pt900純度90%。目前鉑金回收價約為黃金的一半，但仍有相當價值。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：白金回收選對管道很重要</h2>
       <p>白金（鉑金，英文Platinum）是稀有的貴金屬，比黃金更稀少，歷史上曾一度比黃金更昂貴。目前國際市場上鉑金價格約為黃金的50-70%，但仍有相當的回收價值。如果你手中有白金飾品，選擇專業可靠的回收商非常重要。許多人容易混淆白金與K白金，了解兩者差異對於正確估價至關重要。</p>

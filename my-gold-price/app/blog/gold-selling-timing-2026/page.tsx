@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '什麼時候賣黃金最划算？2026年賣金時機完整分析',
-  description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。',
+  description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '什麼時候賣黃金,賣黃金時機,黃金變現時機,黃金什麼時候賣最好,2026賣金,黃金高點賣出',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-2026',
@@ -95,6 +95,19 @@ export default function Page() {
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> 沒有人能準確抓到黃金最高點。真正的問題不是「何時金價最高」，而是「你的需求和當前金價之間，有沒有達到值得出手的平衡」。本文從三個角度幫你判斷。
         </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
         <h2>判斷賣金時機有哪些維度？</h2>
         <p>

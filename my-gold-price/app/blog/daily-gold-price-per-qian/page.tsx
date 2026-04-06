@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '今日金價一錢多少？台灣黃金一錢價格即時查詢｜巧品珠寶',
-  description: '今日台灣黃金一錢價格查詢！一錢等於3.75克，了解金價換算方式、999/916一錢價格差異，以及回收變現的最佳時機。巧品珠寶電話 0986-821-626。',
+  description: '今日台灣黃金一錢價格查詢！一錢等於3.75克，了解金價換算方式、999/916一錢價格差異，以及回收變現的最佳時機。巧品珠寶電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '今日金價一錢,今日金價一錢多少,台灣黃金一錢,一錢黃金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/daily-gold-price-per-qian',
@@ -120,6 +120,19 @@ export default function Page() {
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 一台錢 = 3.75克。台灣金價每日依國際金價+匯率浮動，2026年3月約每台錢9,500–10,500元。999純金和916含金量不同，同一錢回收價差約8–10%。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>「一錢」是多少？先搞懂單位</h2>
       <p>在銀樓買賣黃金，你最常聽到的單位是「一錢」，這是台灣的傳統重量單位。<strong>1台錢 = 3.75克</strong>，不是「一點點」，是實實在在將近4克的黃金。</p>

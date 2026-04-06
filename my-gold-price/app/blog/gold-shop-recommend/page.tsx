@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收推薦｜誠信店家｜巧品珠寶',
-  description: '台北黃金回收店推薦！如何選擇誠信、高價的黃金回收商？巧品珠寶老闆親自估價，公開透明，電話 0986-821-626。',
+  description: '台北黃金回收店推薦！如何選擇誠信、高價的黃金回收商？巧品珠寶老闆親自估價，公開透明，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收推薦,誠信黃金,可信賴店家',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-recommend',
@@ -57,6 +57,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 選擇黃金回收店推薦標準：有實體店面、公開每日牌價、不扣耗損、現場秤重透明、當場現金付款。<a href="/" style={{color:'#92400e'}}>巧品珠寶</a>符合所有標準。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>為什麼選對店家如此重要？</h2>
       <p>同一件黃金飾品，在不同店家的報價可能差距數百到數千元。差距來自各店家的損耗費計算、報價基準（是否貼近市場牌價）以及透明度。選對店家，不只是省錢，更是保障自己的權益。賣前可先參考<a href="/blog/before-selling-gold" style={{color:'#B8860B'}}>賣黃金前必知事項</a>做好準備。</p>

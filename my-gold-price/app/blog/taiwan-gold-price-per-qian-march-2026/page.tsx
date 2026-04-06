@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '台灣今日金價一錢2026年3月｜每錢黃金買賣行情完整紀錄',
-  description: '2026年3月台灣黃金一錢價格是多少？買進價、賣出價各是多少？本文整理3月完整行情數據、換算公式、與2月相比的漲跌，讓你一眼掌握這波高點。',
+  description: '2026年3月台灣黃金一錢價格是多少？買進價、賣出價各是多少？本文整理3月完整行情數據、換算公式、與2月相比的漲跌，讓你一眼掌握這波高點。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-per-qian-march-2026',
   },
@@ -98,7 +98,21 @@ export default function TaiwanGoldPricePerQianMarch2026() {
 
       <article>
         <h1>台灣今日金價一錢2026年3月｜每錢黃金行情、換算方式完整整理</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年3月台灣黃金一錢價格是多少？買進價、賣出價各是多少？本文整理3月完整行情數據、換算公式、與2月相比的漲跌，讓你一眼掌握這波高點。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <p>
           2026年3月黃金走了一波強勁漲勢，不少人在查「台灣今日金價一錢」——
           不管是想賣黃金鎖利，還是想趁高點評估持倉，這篇幫你把3月行情和算法整理清楚。

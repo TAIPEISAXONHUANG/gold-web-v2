@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南｜巧品珠寶',
-  description: '2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。',
+  description: '2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣今日金價一兩2026,今日金價一兩,金價一兩台灣,黃金一兩多少錢2026,台灣今日金價一錢一兩',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-liang-taiwan-2026',
@@ -93,7 +93,21 @@ export default function Page() {
       />
 
       <h1>2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>📌 直接給答案：</strong> 2026年3月台灣9999純金，<strong>一兩（5錢＝18.75克）回收價約 80,000–87,500 元</strong>，一錢約 16,000–17,500 元。每天隨國際金價浮動，本文教你怎麼算、對照哪個牌價才不吃虧。
       </div>

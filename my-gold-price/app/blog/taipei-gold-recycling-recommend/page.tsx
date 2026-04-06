@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦｜2026年哪家銀樓價格最好？大安/中山/士林攻略',
-  description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。',
+  description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北黃金回收,黃金回收推薦,台北銀樓,大安區黃金回收,中山區黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recycling-recommend',
@@ -82,7 +82,21 @@ export default function Page() {
         }}
       />
       <h1>台北黃金回收推薦｜2026年哪家銀樓價格最好？</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 結論：</strong> 台北黃金回收推薦選擇<strong>大安區</strong>與<strong>中山區</strong>，銀樓密度高、選擇多、價格競爭激烈。本文整理各區特色與推薦店家，幫您快速找到最優報價。
       </div>

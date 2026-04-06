@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收流程是什麼？5分鐘讓你搞懂整個過程',
-  description: '黃金回收完整流程說明！從攜帶物品、秤重估價到現金付款，全程約15分鐘。台北巧品珠寶安全透明，電話 0986-821-626。',
+  description: '黃金回收完整流程說明！從攜帶物品、秤重估價到現金付款，全程約15分鐘。台北巧品珠寶安全透明，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收流程,賣黃金步驟,黃金回收怎麼賣,黃金回收注意事項,黃金回收教學',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-process',
@@ -58,6 +58,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金回收流程只需15分鐘：攜帶金飾+身份證→專業儀器鑑定純度→電子秤秤重→依當日牌價報價→現場現金支付。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <p>很多人手邊有黃金想變現，但從來沒賣過，不知道「黃金回收」到底是怎麼一回事。其實整個流程非常簡單，本文帶你從頭到尾走一遍，看完就懂！</p>
 

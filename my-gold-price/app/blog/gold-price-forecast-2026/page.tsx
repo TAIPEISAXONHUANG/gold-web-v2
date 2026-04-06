@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026年黃金價格走勢分析，現在是賣出的好時機嗎？',
-  description: '2026年黃金價格預測分析！專家預測金價走勢，解析Fed利率、地緣政治對金價的影響，幫你判斷黃金回收的最佳時機。',
+  description: '2026年黃金價格預測分析！專家預測金價走勢，解析Fed利率、地緣政治對金價的影響，幫你判斷黃金回收的最佳時機。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '2026黃金價格,金價走勢分析,現在賣黃金好嗎,黃金投資',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-forecast-2026',
@@ -86,6 +86,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026年金價預測：多數機構看好黃金長線走勢，主要因全球央行持續增持黃金、地緣政治不確定性升高。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <h2>現在是賣出的好時機嗎？專家告訴你</h2>
 
       <h2>結論：取決於您的需求與風險承受度</h2>

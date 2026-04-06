@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '賣黃金防被騙！5大回收陷阱破解｜巧品珠寶',
-  description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。',
+  description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收注意,黃金回收防騙,賣黃金注意事項,黃金回收陷阱,黃金回收指南,賣黃金防詐',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions',
@@ -60,6 +60,21 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收注意事項2026｜防詐騙完整指南"}]}) }} />
 
       <h1>黃金回收注意事項2026｜防詐騙完整指南</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>台北巧品珠寶｜10年業界經驗整理，幫你每台錢多拿 500-1,000 元</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收價格2026年4月｜18K、14K、10K最新行情與計算方式',
-  description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。',
+  description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收價格,18K回收價,14K回收價,K金回收行情2026,k金回收多少錢,K金收購台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-price-april-2026',
@@ -99,7 +99,21 @@ export default function KGoldRecyclePriceApril2026Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收價格2026年4月｜18K、14K、10K最新行情與計算方式</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>4月初即時行情（以9999牌價17,500元/錢為基準）：</strong>
           <br />18K → 約 <strong>13,100元/錢</strong>｜14K → 約 <strong>10,200元/錢</strong>｜10K → 約 <strong>7,300元/錢</strong>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金拍賣｜黃金買賣市場行情｜巧品珠寶',
-  description: '黃金拍賣 vs 直接回收，哪個更划算？台北巧品珠寶比較兩種變現方式的優缺點，幫你選出最適合的黃金處理方式。',
+  description: '黃金拍賣 vs 直接回收，哪個更划算？台北巧品珠寶比較兩種變現方式的優缺點，幫你選出最適合的黃金處理方式。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金拍賣,黃金買賣,黃金市場,黃金交易台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-auction',
@@ -76,6 +76,19 @@ export default function Page() {
           <li>無論選擇哪種方式，都應先查詢<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>當日國際金價</a>作為基準</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：直接找銀樓回收比拍賣平台更划算</h2>
       <p>許多人想透過拍賣平台賣黃金，期望能賣到比行情更高的價格。然而實際上，拍賣平台要扣除 5-15{'%'} 的手續費，加上等待競標的時間成本、買家可能惡意棄標、交易糾紛處理困難等風險，最終到手的金額往往不如直接找<a href="/blog/taipei-gold-recovery-recommend" style={{ color: '#B8860B' }}>專業回收店家</a>來得划算。直接到店回收，當天現金入袋、零手續費，才是大多數人最實惠的選擇。</p>

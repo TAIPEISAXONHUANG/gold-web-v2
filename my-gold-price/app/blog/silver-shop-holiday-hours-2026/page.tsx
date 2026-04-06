@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '銀樓假日有開嗎？2026年台灣銀樓營業時間完整指南',
-  description: '銀樓假日到底開不開？台灣各類型銀樓假日營業時間一次整理，含連假、春節、國定假日。賣黃金前先確認，免得白跑。',
+  description: '銀樓假日到底開不開？台灣各類型銀樓假日營業時間一次整理，含連假、春節、國定假日。賣黃金前先確認，免得白跑。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '銀樓假日有開嗎,銀樓假日營業,銀樓假日,台灣銀樓假日,銀樓週末有開嗎,銀樓連假,黃金回收假日',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/silver-shop-holiday-hours-2026',
@@ -103,6 +103,19 @@ export default function Page() {
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> 傳統銀樓假日大多照常開，但春節例外。黃金回收店依店而異——想賣金前，打一通電話確認最快，免得白跑。
         </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
         <h2>銀樓假日有沒有開？先分清楚有哪些種類？</h2>
         <p>

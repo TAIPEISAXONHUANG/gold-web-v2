@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '賣黃金現金支付2026｜哪裡現場收金、當場付現最可靠？',
-  description: '賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？附：避免被拖延付款的3個技巧。',
+  description: '賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？附：避免被拖延付款的3個技巧。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金現金,黃金回收現金付款,黃金現場現金,台北賣黃金當場付現,黃金回收不等款',
   openGraph: {
     locale: 'zh_TW',
@@ -146,6 +146,21 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
           賣黃金現金支付2026｜哪裡現場收金、當場付現最可靠？
         </h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？附：避免被拖延付款的3個技巧。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <p className="text-gray-500 text-sm mb-6">更新日期：2026年4月4日｜巧品珠寶</p>
 
         <p className="text-lg text-gray-700 mb-6">

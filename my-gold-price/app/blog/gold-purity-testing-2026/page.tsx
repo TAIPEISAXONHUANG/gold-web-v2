@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金純度鑑定2026｜999、18K、14K怎麼測？方法與注意事項完整說明',
-  description: '黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。',
+  description: '黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金純度鑑定,黃金鑑定,黃金成色,K金純度,黃金純度測試,999黃金,18K純度,14K純度,黃金真假',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-purity-testing-2026',
@@ -89,7 +89,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金純度鑑定2026｜999、18K、14K怎麼測？方法與注意事項完整說明</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點先說：</strong> 黃金純度決定你能拿到多少錢。同樣重量的飾品，999 純金和 14K 的報價可以差到一倍以上。帶去有 XRF 儀器的銀樓，30 秒就能知道確切成色，不用靠猜。
         </div>

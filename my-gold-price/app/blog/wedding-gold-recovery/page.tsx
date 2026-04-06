@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '結婚金飾變現攻略｜結婚金飾回收價格｜巧品珠寶',
-  description: '嫁妝黃金回收推薦！婚戒、金飾、長輩贈金均可，按實際重量計價不打折。台北巧品珠寶免費估價，電話 0986-821-626。',
+  description: '嫁妝黃金回收推薦！婚戒、金飾、長輩贈金均可，按實際重量計價不打折。台北巧品珠寶免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '結婚金飾回收,結婚金飾變現,金飾回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-recovery',
@@ -51,6 +51,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 婚嫁金飾回收完全可以！結婚金項鍊、金手鍊、金戒指等都依純度重量計價。款式或刻字不影響回收價格。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：結婚金飾變現這樣做最划算</h2>
       <p>結婚時購買的金飾除了具有紀念價值外，若有變現需求，透過正確管道可獲得最優價格。台灣的婚嫁傳統中，金飾不僅是愛的象徵，更是實際的財富儲存。了解<a href="/blog/gold-tradition" style={{ color: '#B8860B' }}>台灣黃金婚嫁傳統</a>，有助於更了解手中金飾的文化價值。</p>

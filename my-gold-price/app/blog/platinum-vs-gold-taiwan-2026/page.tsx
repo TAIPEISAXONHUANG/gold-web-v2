@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '白金和黃金有什麼不同？2026年台灣白金回收價格與選購指南',
-  description: '白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。',
+  description: '白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '白金,白金回收,白金vs黃金,鉑金價格台灣,Pt950回收,白金多少錢,白金黃金差別',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-vs-gold-taiwan-2026',
@@ -99,7 +99,21 @@ export default function PlatinumVsGoldTaiwan2026Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>白金和黃金有什麼不同？2026年台灣白金回收價格與選購指南</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>先澄清一個超常見的誤解：</strong>「白K金」不等於「白金（鉑金）」。
           <br />白K金是黃金做的，白金是鉑金（Platinum）。兩者是完全不同的金屬，回收方式和價格也完全不同。

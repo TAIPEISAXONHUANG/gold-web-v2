@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '今日即時金價2026｜一錢、一兩台灣黃金報價即時查詢',
-  description: '想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。',
+  description: '想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/real-time-gold-price-today-2026',
   },
@@ -98,7 +98,21 @@ export default function RealTimeGoldPriceToday2026() {
 
       <article>
         <h1>今日即時金價2026｜台灣一錢、一兩黃金報價即時更新</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <p>
           要查今日金價，直接看數字最快。以下是2026年4月初的台灣市場參考行情，
           每個工作日更新。<strong>實際交易前，請再向店家確認當日報價——金價每天變動，

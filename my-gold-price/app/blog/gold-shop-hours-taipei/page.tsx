@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北銀樓營業時間｜假日有開嗎？2026最新銀樓地點與營業時間整理',
-  description: '台北銀樓營業時間整理：銀樓假日有開嗎？台北24小時銀樓有嗎？各大銀樓、公會營業時間、預約方式，以及緊急變現時的替代方案。',
+  description: '台北銀樓營業時間整理：銀樓假日有開嗎？台北24小時銀樓有嗎？各大銀樓、公會營業時間、預約方式，以及緊急變現時的替代方案。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北銀樓營業時間,銀樓假日有開嗎,24小時銀樓台北,台北銀樓地點,銀樓幾點開,銀樓幾點關',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-hours-taipei',
@@ -99,7 +99,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台北銀樓營業時間｜假日有開嗎？2026最新銀樓地點與營業時間整理</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 台北銀樓營業時間整理：銀樓假日有開嗎？台北24小時銀樓有嗎？各大銀樓、公會營業時間、預約方式，以及緊急變現時的替代方案。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 多數台北銀樓週日休息，週六部分有開。沒有真正24小時的銀樓。若急需在非標準時間變現：可選當鋪（利率高），或<strong>致電巧品珠寶安排彈性時間</strong>（0986-821-626）。
         </div>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金、白金、K金有何不同？一篇搞懂',
-  description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。',
+  description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金vs白金,K金是什麼,珠寶材質比較',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum',
@@ -67,6 +67,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金vs白金：黃金回收價較高且流通性強，白金（鉑金）硬度高適合鑲嵌鑽石但回收價較低。K金是黃金合金，不是鉑金。投資保值選黃金，飾品佩戴看個人需求。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>這三種材質有什麼基本差異？</h2>
       <p>在台灣購買珠寶飾品時，常見的金屬材質有三種：黃金（純金）、白金（鉑金，Platinum）、以及K金（黃金合金）。很多消費者容易將白K金和白金（鉑金）混淆，以下逐一說明。</p>

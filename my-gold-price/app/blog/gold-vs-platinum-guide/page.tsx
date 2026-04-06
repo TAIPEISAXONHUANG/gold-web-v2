@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金 vs 白金 vs K金：2026年完整比較｜成分・價格・投資價值',
-  description: '黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值一次看清楚。巧品珠寶10年經驗整理。',
+  description: '黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值一次看清楚。巧品珠寶10年經驗整理。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金白金比較,黃金K金白金差別,鉑金黃金比較,白金值錢還是黃金值錢',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-guide',
@@ -102,6 +102,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金與白金完整比較指南：從價格、保值性、硬度、用途到回收行情，幫你做出最適合的選擇。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年鑑定經驗整理</p>
 
       <h2>成分與基本差異在哪裡？</h2>

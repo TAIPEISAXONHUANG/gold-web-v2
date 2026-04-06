@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '2026年台灣黃金回收完整指南｜價格表・計算公式・避坑攻略',
-  description: '2026年最完整的台灣黃金回收指南！含各純度回收價格表、計算公式、常見詐騙手法、店家比較。巧品珠寶10年經驗整理，電話 0986-821-626。',
+  description: '2026年最完整的台灣黃金回收指南！含各純度回收價格表、計算公式、常見詐騙手法、店家比較。巧品珠寶10年經驗整理，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收指南2026,台灣黃金回收,黃金回收價格表,黃金回收計算',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-guide-2026',
@@ -102,6 +102,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026年金價完整指南：了解國際金價換算台灣牌價的方法、影響金價的五大因素，以及最佳買賣時機判斷。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜巧品珠寶10年經驗整理</p>
 
       <div style={{ background: '#FEF3C7', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0' }}>

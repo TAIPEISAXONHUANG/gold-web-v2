@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
-  description: '台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。',
+  description: '台北黃金回收每錢約NT$17,350-17,620，純金不扣重。比較銀樓、銀行、當鋪三大管道，含扣重公式與稅務須知。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收 台北,台北黃金回收推薦,黃金回收價格,台北銀樓推薦,金飾回收,黃金回收不扣重,賣黃金台北,金條回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-taipei',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-25T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
-    images: [{ url: '/blog/gold-recycling-taipei/cover.webp', width: 1280, height: 720, alt: '台北黃金回收 - 金飾放在專業磅秤上進行鑑定' }],
+    images: [{ url: '/blog/gold-recycling-taipei-cover.webp', width: 1200, height: 630, alt: '台北黃金回收：金飾與金條在專業磅秤上等待鑑定估價' }],
 
   },
 };
@@ -63,13 +63,13 @@ export default function Page() {
 
       <h1>台北黃金回收：今日金價、回收流程與高價銀樓實測比較 [2026]</h1>
 
-      <div style={{ margin: '1.5rem 0', borderRadius: '8px', overflow: 'hidden' }}>
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
         <Image
-          src="/blog/gold-recycling-taipei/cover.webp"
-          alt="台北黃金回收 - 金飾放在專業磅秤上，巧品珠寶提供黃金鑑定回收服務"
-          width={1280}
-          height={720}
-          style={{ width: '100%', height: 'auto', display: 'block' }}
+          src="/blog/gold-recycling-taipei-cover.webp"
+          alt="台北黃金回收：金飾與金條在專業磅秤上等待鑑定估價，巧品珠寶大安區銀樓"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
           priority
         />
       </div>
@@ -77,6 +77,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>AI 摘要：</strong> 台北黃金回收行情：9999 金條回收約 NT$17,620/錢、飾金約 NT$17,500/錢（2026-03-25）。純度 999 以上免扣重，飾金扣重 2-5%。銀樓、銀行、當鋪三管道各有利弊，年售逾 NT$70,000 須申報一時貿易所得。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <p>台北黃金回收每錢價格落在 NT$17,350 至 NT$17,620 之間，取決於純度與管道選擇。9999 純金金條在多數銀樓可獲「不扣重、免耗損」待遇；飾金因含焊料與扣件，回收時通常扣重 2% 至 5%。本文以實際走訪台北五家銀樓的數據為基礎，拆解回收公式、比較三大管道損益，並計算稅務成本，讓你在出售黃金前有明確的數字依據。</p>
 

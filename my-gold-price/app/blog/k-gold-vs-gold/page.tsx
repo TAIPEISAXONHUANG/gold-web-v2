@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金與黃金的差異｜一篇讓你搞懂貴金屬',
-  description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！',
+  description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！ 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金與黃金的差異,K金是什麼,黃金純度,18K,24K',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-vs-gold',
@@ -71,6 +71,19 @@ export default function Page() {
           <li>購買前認明印記（999、750、585），回收時用<a href="/blog/gold-identification" style={{color:'#B8860B'}}>XRF儀器精確鑑定</a></li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>🔰 什麼是K金？</h2>
       <p>K金（Karat Gold）是黃金與其他金屬的合金。「1K」代表黃金含量為1/24，因此：</p>

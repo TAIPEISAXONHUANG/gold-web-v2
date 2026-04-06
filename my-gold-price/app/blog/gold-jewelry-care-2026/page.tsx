@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金飾品保養完整指南2026｜清潔、存放與常見損傷預防',
-  description: '黃金飾品怎麼保養才對？9999純金、K金、Pt900保養方式各不同。清潔步驟、存放禁忌、常見刮損問題一次解決。',
+  description: '黃金飾品怎麼保養才對？9999純金、K金、Pt900保養方式各不同。清潔步驟、存放禁忌、常見刮損問題一次解決。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金飾品保養,黃金清潔,金飾保養,K金保養,黃金手鍊保養,黃金項鍊變色,黃金戒指保養',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-care-2026',
@@ -95,6 +95,19 @@ export default function Page() {
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> 純金（9999）相對好養，K金和Pt900需要更細心。三個核心原則：避開化學品、分開存放、定期清潔。
         </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
         <h2>不同純度黃金飾品保養有什麼差異？</h2>
         <p>

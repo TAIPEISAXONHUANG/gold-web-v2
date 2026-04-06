@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '鑽石珠寶收購｜GIA鑽石估價｜巧品珠寶',
-  description: '台北鑽石珠寶高價收購！GIA鑽石、名品珠寶免費估價，10年經驗老闆親自鑑定，當場現金付款，不強迫成交。電話 0986-821-626。',
+  description: '台北鑽石珠寶高價收購！GIA鑽石、名品珠寶免費估價，10年經驗老闆親自鑑定，當場現金付款，不強迫成交。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '鑽石收購,珠寶收購,GIA鑽石,鑽石回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/diamond-jewelry',
@@ -112,6 +112,19 @@ export default function Page() {
           <li>免費估價、當場現金付款，不強迫成交</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：鑽石珠寶也能高價變現，關鍵在選對店家</h2>
       <p>很多人不知道，鑽石和珠寶首飾也可以高價回收變現。巧品珠寶提供專業的鑽石珠寶收購服務，無論是GIA裸鑽、彩鑽、鑽戒還是各種珠寶首飾，我們都能給出市場上最合理的價格。與<a href="/blog/gold-ring-recovery" style={{ color: '#B8860B' }}>黃金飾品回收</a>不同，鑽石的估價更依賴專業鑑定能力，選擇有經驗的店家至關重要。</p>

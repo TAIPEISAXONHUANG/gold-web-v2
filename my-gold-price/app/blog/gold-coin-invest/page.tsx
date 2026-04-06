@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金投資｜金幣金條買賣入門｜巧品珠寶',
-  description: '黃金硬幣投資完整指南！比較金幣、金條、黃金ETF的優缺點，了解台灣黃金投資管道，掌握2026年黃金行情走勢。',
+  description: '黃金硬幣投資完整指南！比較金幣、金條、黃金ETF的優缺點，了解台灣黃金投資管道，掌握2026年黃金行情走勢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金投資,金幣投資,金條買賣,黃金理財',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-coin-invest',
@@ -77,6 +77,19 @@ export default function Page() {
           <li>保留購買憑證與原裝包裝，未來回收時可取得更好價格</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：實體黃金是最穩健的避險投資</h2>
       <p>在全球通膨壓力持續、地緣政治風險升高、各國央行大量增持黃金儲備的背景下，實體黃金一直是最受信賴的避險資產。根據世界黃金協會數據，過去 20 年國際金價漲幅超過 500{'%'}，遠優於多數傳統投資工具。本文將帶您深入了解黃金投資的各種方式、比較金幣與金條的優缺點，並提供實用的投資建議與注意事項，幫助您做出最適合自己的<a href="/blog/gold-price-2026" style={{ color: '#B8860B' }}>黃金投資決策</a>。</p>

@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '賣黃金前必看清單2026｜5分鐘搞懂流程・證件・避坑｜巧品珠寶',
-  description: '賣黃金前5分鐘必讀！需帶身分證、黃金物品，全程約15分鐘拿現金。台北巧品珠寶不扣耗損，老闆親自鑑定。電話 0986-821-626。',
+  description: '賣黃金前5分鐘必讀！需帶身分證、黃金物品，全程約15分鐘拿現金。台北巧品珠寶不扣耗損，老闆親自鑑定。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金流程,賣黃金要帶什麼,賣黃金前準備,賣黃金注意事項2026',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/sell-gold-checklist-2026',
@@ -120,6 +120,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026賣金檢查清單：✓確認當日金價 ✓攜帶身份證 ✓整理所有金飾 ✓比較至少3家報價 ✓確認不扣耗損 ✓索取收據。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年3月17日｜適用台北、新北地區</p>
 
       <div style={{ background: '#d4edda', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0', border: '1px solid #c3e6cb' }}>

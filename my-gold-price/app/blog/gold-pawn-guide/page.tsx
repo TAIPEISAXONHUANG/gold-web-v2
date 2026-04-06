@@ -2,10 +2,19 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項',
-  description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。',
+  description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金典當,黃金借款,當鋪黃金,黃金質借,飾金借款',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pawn-guide',
+  },
+  openGraph: {
+    locale: 'zh_TW',
+    type: 'article',
+    title: '黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項',
+    description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。',
+    url: 'https://www.gold-tw.com/blog/gold-pawn-guide',
+    siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
   },
 };
 
@@ -83,7 +92,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想要即時黃金報價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你已經是黃金老手，熟悉所有術語 → 本文偏向基礎說明</li>
+        <li>你想賣黃金而非買 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金飾品可以在當鋪借款，額度約市價的50%–80%。當鋪vs銀樓的黃金借款：當鋪速度更快（當天放款），銀行利率較低（需審核）。典當不等於賣斷——付清利息和本金就能贖回飾品。重要原則：還想留著 → 典當；確定不要了 → 直接賣給銀樓。
         </div>

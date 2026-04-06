@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議',
-  description: '黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。',
+  description: '黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金vs白銀,黃金白銀投資,白銀投資,貴金屬投資比較,黃金白銀比率',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-silver-investment',
@@ -102,7 +102,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金和白銀不是同一種資產。黃金是貨幣保證（央行儲備），白銀同時是工業金屬和投資品。黃金波動低、流動性極佳；白銀波動大、報酬潛力高但風險也高。2026年，金銀比約80–90倍，處於歷史偏高，理論上白銀相對便宜。
         </div>

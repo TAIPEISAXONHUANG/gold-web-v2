@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價',
-  description: '找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。',
+  description: '找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北黃金回收推薦,黃金回收推薦台北,台北黃金回收,大安區黃金回收,黃金高價收購台北,巧品珠寶推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery-recommend',
@@ -95,6 +95,21 @@ export default function Page() {
       />
 
       <h1>台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜XRF儀器現場驗金，秤重透明，當場現金付款</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

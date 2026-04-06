@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點',
-  description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。',
+  description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '金飾回收,金項鍊回收,金戒指回收,金手鍊回收,金耳環回收,黃金飾品回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery',
@@ -99,7 +99,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金飾品回收，<strong>含金量和重量</strong>是決定價格的核心變數，款式本身不影響回收報價。但不同金飾類型要注意不同細節：項鍊注意扣頭，耳環注意前後桿，寶石鑲嵌件要先拆寶石。古法金和3D硬金買的時候工藝費不退，回收時只算金料錢。
         </div>

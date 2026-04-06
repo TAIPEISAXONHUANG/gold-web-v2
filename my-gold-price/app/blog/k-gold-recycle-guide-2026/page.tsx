@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收完整指南2026｜14K、18K、Pt900收購流程與報價邏輯',
-  description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。',
+  description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收,k金回收,回收k金,K金回收價格,14K回收,18K回收,k金怎麼賣,k金收購',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-guide-2026',
@@ -95,6 +95,19 @@ export default function Page() {
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> K金回收不難，但很多人不知道自己被扣了耗損、算錯了純度。本文把 14K、18K、Pt900 的計算邏輯、現場流程、避坑重點全部列出來，帶著看就不會虧。
         </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
         <h2>K金是什麼？純度怎麼換算？</h2>
         <p>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
-  description: '台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。',
+  description: '台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣黃金每公克價格,金價每公克,黃金一公克多少錢,錢轉公克,公克轉錢',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026',
@@ -121,7 +121,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你想知道如何賣黃金 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>黃金回收完整流程</a></li>
+        <li>你的黃金是K金 → <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>K金說明與回收</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，台灣9999純金每公克參考報價約 <strong>4,670–4,800 元/公克</strong>。台灣銀樓主要用「每錢」計價，1錢 = 3.75公克，每錢約17,500–18,000元。若看到「每公克」報價，請先確認純度。
         </div>

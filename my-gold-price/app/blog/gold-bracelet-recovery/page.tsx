@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金手鐲回收｜金手鐲高價變現｜巧品珠寶',
-  description: '黃金手鍊、手環高價回收！各款式K金手鍊均可，按重量計價不扣耗損。台北巧品珠寶當場現金付款，電話 0986-821-626。',
+  description: '黃金手鍊、手環高價回收！各款式K金手鍊均可，按重量計價不扣耗損。台北巧品珠寶當場現金付款，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金手鐲回收,金手鐲變現,手鐲回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-bracelet-recovery',
@@ -80,6 +80,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金手鍊回收依純度×重量計價。K金手鍊依含金比例換算。攜帶身份證到店，約15分鐘完成鑑定與付款。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：黃金手鐲回收，重量就是你的錢</h2>
       <p>黃金手鐲是許多家庭的傳家之寶，也是最常見的黃金首飾之一。無論是嫁妝手鐲、長輩贈送的金鐲，或是自己購買的投資型手鐲，都可以在巧品珠寶以最高市場價回收變現。</p>

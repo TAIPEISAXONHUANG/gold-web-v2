@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金手錶回收｜勞力士等名錶收購｜巧品珠寶',
-  description: '黃金、名錶高價回收！勞力士、OMEGA等品牌黃金錶殼均可估價。台北巧品珠寶老闆親自鑑定，免費估價，電話 0986-821-626。',
+  description: '黃金、名錶高價回收！勞力士、OMEGA等品牌黃金錶殼均可估價。台北巧品珠寶老闆親自鑑定，免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金手錶回收,勞力士回收,名錶收購,金錶回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-watch-recovery',
@@ -80,6 +80,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金手錶回收需分開估價：錶殼貴金屬部分按純度重量計算，機芯品牌另計。名牌金錶（如勞力士）可能有品牌溢價，整體回收價值往往高於黃金材質本身。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：黃金手錶的黃金部分可以高價回收</h2>
       <p>名牌黃金手錶不只是計時工具，更是貴重資產。無論是整支黃金錶、黃金錶殼還是黃金錶帶，巧品珠寶都提供專業的黃金材質回收服務。黃金手錶的估價比一般金飾複雜，因為它包含黃金材質和品牌價值兩個部分，需要分別評估。</p>

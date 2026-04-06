@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: '賣黃金流程2026年完整攻略｜從估價到拿現金全步驟說明',
-    description: '第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。',
+    description: '第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/k-gold-sell-process-2026',
     siteName: '巧品珠寶',
@@ -176,6 +176,21 @@ export default function KGoldSellProcess2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           賣黃金流程2026年完整攻略｜從估價到拿現金全步驟說明
         </h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

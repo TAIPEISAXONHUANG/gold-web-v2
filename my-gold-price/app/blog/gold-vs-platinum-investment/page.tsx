@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金vs白金投資｜哪個更值得買？',
-  description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。',
+  description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金投資,白金投資,黃金vs白金,貴金屬投資',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-investment',
@@ -75,6 +75,19 @@ export default function Page() {
           <li>資產配置建議以黃金為主（70-80{'%'}），白金為輔</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：黃金是避險首選，白金則有工業需求。根據10年經驗，黃金保值性較高！</h2>
 

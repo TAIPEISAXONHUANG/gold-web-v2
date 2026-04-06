@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金重量怎麼算？台錢vs公克換算｜巧品珠寶',
-  description: '黃金重量單位完整說明！台錢、公克、英兩換算對照表，了解台灣黃金交易慣用單位，計算回收金額不再被搞混。',
+  description: '黃金重量單位完整說明！台錢、公克、英兩換算對照表，了解台灣黃金交易慣用單位，計算回收金額不再被搞混。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金重量,台錢換算,黃金公克,黃金單位換算',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-weight',
@@ -53,6 +53,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金重量單位換算：1台錢=3.75公克、1兩=10台錢=37.5公克、1盎司=31.1公克。回收報價通常以「台錢」為單位。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：搞懂重量單位，讓你不被坑</h2>
       <p>黃金報價使用的重量單位有好幾種，台灣常用「台錢」，國際則用「公克」或「盎司」。搞清楚換算關係，才能正確計算你的黃金值多少錢。</p>

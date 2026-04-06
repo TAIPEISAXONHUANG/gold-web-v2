@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '新北黃金回收推薦｜板橋、中和、新莊哪家價格最高？',
-  description: '新北市黃金回收推薦！板橋、中和、永和、三重居民捷運可達台北巧品珠寶，老闆親自鑑定，不扣耗損，電話 0986-821-626。',
+  description: '新北市黃金回收推薦！板橋、中和、永和、三重居民捷運可達台北巧品珠寶，老闆親自鑑定，不扣耗損，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '新北黃金回收,板橋黃金回收,中和黃金回收,新莊黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/new-taipei-gold-recovery',
@@ -117,6 +117,19 @@ export default function Page() {
           <li>先LINE詢價免費估價，不賣也沒關係</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：新北黃金回收首選巧品珠寶，不扣耗損價格最實在</h2>
       <p>新北市擁有超過400萬人口，各區都有銀樓和金飾店，但回收價格和服務品質參差不齊。許多新北居民在比較後發現，與其在當地接受扣耗5-10{'%'}的條件，不如多花20-30分鐘搭捷運到台北巧品珠寶，省下的扣耗金額遠超交通費。根據我們的<a href="/blog/gold-recycling-price-factors" style={{ color: '#B8860B' }}>回收價格分析</a>，不扣耗損的店家實際到手金額可高出數千元。</p>

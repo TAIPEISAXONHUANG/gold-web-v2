@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '台北銀樓推薦2026｜回收、購買黃金選哪家？三個選店標準直接說',
-  description: '台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。',
+  description: '台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-silver-shop-recommend-2026',
   },
@@ -98,7 +98,21 @@ export default function TaipeiSilverShopRecommend2026() {
 
       <article>
         <h1>台北銀樓推薦2026｜選店三個標準，比口碑評分更直接</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <p>
           「台北銀樓推薦」這個關鍵字搜出來一堆，大多是廣告或沒有根據的排名。
           這篇不做排名，直接告訴你選店應該看哪三個標準——

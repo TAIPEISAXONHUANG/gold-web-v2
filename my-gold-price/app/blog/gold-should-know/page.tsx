@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收必知｜新手必看｜巧品珠寶',
-  description: '賣黃金必知5件事！了解計價方式、常見陷阱、所需證件，選對店家讓你每台錢多拿 500 元。台北巧品珠寶免費估價。',
+  description: '賣黃金必知5件事！了解計價方式、常見陷阱、所需證件，選對店家讓你每台錢多拿 500 元。台北巧品珠寶免費估價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收必知,第一次賣黃金,黃金新手',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-should-know',
@@ -67,6 +67,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 買賣黃金必知：了解純度標示、學會看當日牌價、知道台錢與公克換算（1台錢=3.75公克）、攜帶身份證、多家比價。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>第一次賣黃金要知道哪些事？</h2>
       <p>很多人手上有閒置的黃金飾品，卻不知道從哪裡開始。賣黃金並不複雜，但若不了解基本規則，很容易讓自己少拿幾千元。以下是<a href="/" style={{color:'#B8860B'}}>巧品珠寶</a>整理的新手必知重點，讓您賣得安心、賣得划算。</p>

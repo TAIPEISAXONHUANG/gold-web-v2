@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '銀樓與黃金回收店差異｜賣金前必看攻略',
-  description: '銀樓 vs 黃金回收商哪個價格更高？一篇比較兩者差異，分析服務、報價、流程，幫你選出最適合自己的黃金變現管道。',
+  description: '銀樓 vs 黃金回收商哪個價格更高？一篇比較兩者差異，分析服務、報價、流程，幫你選出最適合自己的黃金變現管道。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '銀樓黃金回收,黃金變現,賣黃金,銀樓回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-recycling-shop',
@@ -67,6 +67,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 銀樓 vs 回收店比較：銀樓兼營買賣價格較穩定，專門回收店速度快但需注意報價透明度。建議選有實體店面、誠信口碑的店家，並參考<a href="/blog/gold-recycling-precautions" style={{color:'#92400e'}}>黃金回收注意事項</a>避免陷阱。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>銀樓 vs 黃金回收店：哪個更適合你？</h2>
       <p>想要變賣黃金，不知道該找銀樓還是黃金回收店？這兩種管道各有特色和適用情境。本文帶您深入了解兩者差異，幫助您做出最有利的選擇。在閱讀前，您也可以先了解<a href="/blog/before-selling-gold" style={{color:'#B8860B'}}>賣黃金前的準備事項</a>，讓整個過程更順利。</p>

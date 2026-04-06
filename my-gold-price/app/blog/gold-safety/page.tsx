@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金保存安全指南｜如何安全存放黃金｜巧品珠寶',
-  description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。',
+  description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金保存,黃金安全存放,黃金保管方法',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-safety',
@@ -78,6 +78,19 @@ export default function Page() {
           <li>金飾與金條分開存放，各用軟布包裹避免刮傷</li>
         </ul>
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>黃金存放有哪些方式可以選擇？</h2>
       <p>擁有實體黃金最重要的課題就是安全存放。目前常見的存放方式有三種：<strong>家用保險箱</strong>適合存放價值10萬元以下的少量金飾，選購時建議挑選防火防水等級、重量50公斤以上的款式，並以膨脹螺絲固定於牆壁或地板，避免被整台搬走。<strong>銀行保管箱</strong>是最安全的選擇，年租金約1,500至5,000元（依尺寸不同），保管箱位於銀行金庫內，有24小時監控與多重門禁，適合存放大量黃金或<a href="/blog/gold-bar-recovery" style={{ color: '#B8860B' }}>金條</a>。第三種是<strong>黃金存摺</strong>，完全不需擔心實體保管問題，但無法持有實體黃金。根據您的黃金數量與需求，選擇最適合的方式。</p>

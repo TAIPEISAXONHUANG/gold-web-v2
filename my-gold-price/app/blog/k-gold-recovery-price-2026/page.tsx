@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'K金回收價格2026｜18K、14K、10K今日行情＋計算公式完整版',
-  description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。',
+  description: '2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-price-2026',
   },
@@ -97,7 +97,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收價格2026｜18K、14K、10K今日行情＋計算公式完整版</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年K金回收行情整理：18K回收每錢多少？14K、10K怎麼算？硬度對回收有沒有影響？巧品珠寶儀器驗成色，不扣耗損，當場報價現金。電洽0986-821-626。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
         <p>
           K金回收最常遇到兩個問題：「這個到底是幾K？」和「幾K可以回收多少錢？」
           這篇把2026年K金回收的計算邏輯、各K數行情、常見疑問全部講清楚。

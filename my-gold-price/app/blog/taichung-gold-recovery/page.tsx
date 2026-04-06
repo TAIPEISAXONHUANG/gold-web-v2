@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？',
-  description: '台中人賣黃金推薦！雖距離較遠，但台北巧品珠寶的高透明度和公平報價值得信賴，LINE 詢價也可。電話 0986-821-626。',
+  description: '台中人賣黃金推薦！雖距離較遠，但台北巧品珠寶的高透明度和公平報價值得信賴，LINE 詢價也可。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台中黃金回收,一中黃金回收,逢甲黃金回收,大里黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taichung-gold-recovery',
@@ -86,6 +86,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 台中黃金回收資訊：台中地區也有許多合法回收店家。建議選擇有實體店面、公開報價的店家，或聯繫巧品珠寶遠距估價。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>結論：台中黃金回收要找哪家？本文告訴你哪裡價格最高、最誠信！</h2>
       <p>台中市是台灣第二大城市，黃金回收市場相當活躍。無論您在一中商圈、逢甲夜市周邊，還是大里、太平等地，都能找到黃金回收店。本文提供選擇回收店家的重要建議，幫助台中朋友找到最誠信、報價最高的選擇。</p>

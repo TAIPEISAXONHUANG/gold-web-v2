@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '黃金漲跌原因2026｜為什麼金價每天都在變？5個核心驅動力',
-  description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。',
+  description: '金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金漲跌原因,金價為什麼漲,黃金為什麼跌,影響金價原因,2026金價走勢,黃金上漲原因',
   openGraph: {
     locale: 'zh_TW',
@@ -146,6 +146,21 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
           黃金漲跌原因2026｜為什麼金價每天都在變？5個核心驅動力
         </h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <p className="text-gray-500 text-sm mb-6">更新日期：2026年4月4日｜巧品珠寶</p>
 
         <p className="text-lg text-gray-700 mb-6">

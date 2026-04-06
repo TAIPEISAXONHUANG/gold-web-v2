@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜哪家價格最高？大安區巧品珠寶',
-  description: '台北黃金回收推薦！大安區巧品珠寶，老闆親自鑑定，不扣耗損，當場現金。捷運忠孝新生站步行5分鐘，電話 0986-821-626。',
+  description: '台北黃金回收推薦！大安區巧品珠寶，老闆親自鑑定，不扣耗損，當場現金。捷運忠孝新生站步行5分鐘，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北黃金回收,台北黃金回收推薦,大安區黃金回收,台北賣黃金,台北黃金估價,黃金回收台北推薦2026',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery',
@@ -85,6 +85,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 台北黃金回收首選巧品珠寶：大安區實體店面、每日公開報價、不扣秤不扣耗損、現場現金支付。電話 0986-821-626。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <p style={{ fontSize: '1.1rem', color: '#555', borderLeft: '4px solid #B8860B', paddingLeft: '1rem', margin: '1.5rem 0' }}>
         台北黃金回收業者很多，但價格差距可能高達每台錢 500-1,000 元。這篇告訴你怎麼選、怎麼比、怎麼拿到最高價。

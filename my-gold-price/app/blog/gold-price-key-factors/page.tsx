@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金價格誰說了算？影響金價的5個關鍵因素',
-  description: '黃金價格每天為何不同？深度解析影響金價的5大關鍵因素：美元、通膨、央行、地緣政治、供需，掌握金價規律更划算。',
+  description: '黃金價格每天為何不同？深度解析影響金價的5大關鍵因素：美元、通膨、央行、地緣政治、供需，掌握金價規律更划算。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '影響金價因素,黃金價格決定,黃金漲跌原因,金價走勢分析,黃金投資時機',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-key-factors',
@@ -86,6 +86,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 影響金價的關鍵因素：美元指數、聯準會利率、全球通膨率、地緣政治風險、央行購金量。掌握這五點就能判斷金價走勢。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <p>你有沒有納悶過：今天黃金價格和上週差那麼多，到底是誰在控制金價？其實黃金的定價機制非常透明，主要由幾個全球性因素共同決定。本文帶你搞懂這 5 個關鍵因素，讓你在買賣黃金時不再霧煞煞。</p>
 

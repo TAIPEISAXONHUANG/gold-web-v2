@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '回收K金攻略2026｜18K/14K/10K收購流程與避坑指南',
-  description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。',
+  description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '回收K金,K金回收,18K回收,14K回收,K金收購,回收K金哪裡好,台北K金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-tips',
@@ -94,6 +94,21 @@ export default function Page() {
       />
 
       <h1>回收K金攻略2026｜18K / 14K / 10K 收購流程與避坑指南</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜台北大安區，XRF儀器測純度，不靠眼力猜</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

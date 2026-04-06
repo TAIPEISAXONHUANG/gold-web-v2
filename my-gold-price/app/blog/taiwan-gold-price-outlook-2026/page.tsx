@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣2026金價行情｜今日金價走勢與未來預測完整分析',
-  description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。',
+  description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣金價2026,今日金價走勢,2026黃金預測,台灣黃金行情,金價2026展望',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026',
@@ -99,7 +99,21 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台灣2026金價行情｜今日金價走勢與未來預測完整分析</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。
+      </div>
 
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，台灣9999純金回收行情 <strong>17,500–18,000 元/錢</strong>。2026年第一季累計漲幅約15%–20%，目前處於歷史高檔區間，後市取決於聯準會利率動向與地緣政治局势。
         </div>

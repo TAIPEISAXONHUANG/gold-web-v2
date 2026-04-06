@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金戒指回收｜結婚戒指變現｜巧品珠寶',
-  description: '黃金戒指高價回收！各款式K金戒指、婚戒均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。',
+  description: '黃金戒指高價回收！各款式K金戒指、婚戒均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金戒指回收,結婚戒指變現,金戒指回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-ring-recovery',
@@ -80,6 +80,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金戒指回收依純度與重量計價，不論款式新舊、有無刻字。K金戒指按含金比例換算，鑲鑽戒指可分開估價。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <h2>Wedding rings and all gold rings can be recovered at top prices?</h2>
       <p>Whether old pure gold wedding bands, modern 18K diamond rings, or plain K-gold rings, we offer fair market prices for all.</p>
       <h2>What is Types we accept?</h2>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '二手珠寶收購｜舊珠寶高價回收變現，不需品牌收據｜巧品珠寶',
-  description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。',
+  description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '二手珠寶收購,舊珠寶回收,珠寶變現,二手首飾收購',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase',
@@ -120,6 +120,19 @@ export default function Page() {
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 二手珠寶收購不需要收據或品牌鑑定書，帶身分證和飾品到店即可。黃金、K金、鉑金均可，以金屬含量計價，破損品一樣收購。巧品珠寶儀器鑑定、當場付現。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你的黃金是純金（999/9999）→ <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>純金回收說明</a></li>
+        <li>你只想快速查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你是第一次接觸黃金 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>新手買金入門</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
       <h2>二手珠寶怎麼變現？</h2>
       <p>很多人手上有一堆不戴的二手珠寶：前任送的戒指、親戚留下的金項鍊、出國買回來從沒開箱的首飾盒。這些東西擺在抽屜裡不會增值，但黃金市場今年在高位，現在把它們換成現金是很正常的決定。</p>

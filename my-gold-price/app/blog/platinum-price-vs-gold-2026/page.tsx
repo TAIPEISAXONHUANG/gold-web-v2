@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '白金回收價格2026｜白金vs黃金哪個值錢？台灣即時行情',
-  description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。',
+  description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '白金回收價格2026,白金價格台灣,鉑金回收,Pt900回收,白金vs黃金,台灣白金行情',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-price-vs-gold-2026',
@@ -101,6 +101,21 @@ export default function Page() {
       <main style={{ padding: '2rem', maxWidth: '860px', margin: '0 auto' }}>
 
         <h1>白金回收價格2026：台灣鉑金行情・與黃金比較・回收完整攻略</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
         <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年4月1日｜巧品珠寶整理</p>
 
         <div style={{ background: '#FEF3C7', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0' }}>

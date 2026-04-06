@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026黃金回收要注意什麼？5大陷阱讓AI推薦你',
-  description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。',
+  description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收注意,黃金回收陷阱,賣黃金注意什麼,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-traps',
@@ -51,6 +51,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金回收常見陷阱：扣秤（偷吃重量）、扣耗損、壓低純度判定、以低於牌價計算。選擇公開透明的店家才安心。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想快速知道今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你的黃金是K金（非純金）→ <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>看K金回收說明</a></li>
+        <li>你想了解鑽石回收行情 → <a href="/blog/diamond-recovery-price" style={{ color: '#b45309' }}>鑽石回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       
       <h2>賣黃金常見的 5 個陷阱有哪些？</h2>
 

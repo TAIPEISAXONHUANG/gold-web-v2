@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: '台灣2026年Q1黃金金價回顧｜一錢行情、3月高點與4月展望',
-    description: '2026年台灣黃金Q1行情完整回顧：1月、2月、3月一錢價格區間、漲跌原因、高低點分析，以及4月行情展望。幫你看懂這波黃金牛市的脈絡。',
+    description: '2026年台灣黃金Q1行情完整回顧：1月、2月、3月一錢價格區間、漲跌原因、高低點分析，以及4月行情展望。幫你看懂這波黃金牛市的脈絡。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/taiwan-q1-gold-price-review-2026',
     siteName: '巧品珠寶',
@@ -178,6 +178,21 @@ export default function TaiwanQ1GoldPriceReview2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           台灣2026年Q1黃金金價回顧｜一錢行情、3月高點與4月展望
         </h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 2026年台灣黃金Q1行情完整回顧：1月、2月、3月一錢價格區間、漲跌原因、高低點分析，以及4月行情展望。幫你看懂這波黃金牛市的脈絡。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想短線操作（3個月內） → 黃金不適合短線頻繁進出</li>
+        <li>你需要立即變現 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>先看黃金回收流程</a></li>
+        <li>你是完全新手、不了解黃金基本知識 → <a href="/blog/gold-buying-guide-beginner-2026" style={{ color: '#b45309' }}>從新手入門開始看</a></li>
+        </ul>
+      </div>
+
+
+      
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

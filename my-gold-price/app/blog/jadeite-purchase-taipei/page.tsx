@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？',
-  description: '台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。',
+  description: '台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '翡翠收購台北,翡翠回收,翡翠手鐲收購,台北翡翠估價,翡翠收購推薦,老翡翠回收,A貨翡翠回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/jadeite-purchase-taipei',
@@ -95,6 +95,21 @@ export default function Page() {
       />
 
       <h1>翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？</h1>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
+        <strong>重點摘要：</strong> 台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。
+      </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你只想查今天金價 → <a href="/daily-gold-price" style={{ color: '#b45309' }}>直接看今日金價</a></li>
+        <li>你想知道如何賣黃金 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>黃金回收完整流程</a></li>
+        <li>你的黃金是K金 → <a href="/blog/karat-gold-guide" style={{ color: '#b45309' }}>K金說明與回收</a></li>
+        </ul>
+      </div>
+
+
+      
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜台北大安區翡翠估價收購｜A貨翡翠、老坑種手鐲、翠玉吊墜</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

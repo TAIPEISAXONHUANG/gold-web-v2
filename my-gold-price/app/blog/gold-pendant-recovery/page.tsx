@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金墜子回收｜金吊墜高價變現｜巧品珠寶',
-  description: '黃金、鑽石吊墜高價回收！各款式吊墜、寶石墜子均可估價。台北巧品珠寶免費專業鑑定，當場現金付款，電話 0986-821-626。',
+  description: '黃金、鑽石吊墜高價回收！各款式吊墜、寶石墜子均可估價。台北巧品珠寶免費專業鑑定，當場現金付款，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金墜子回收,金吊墜變現,金墜回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pendant-recovery',
@@ -80,6 +80,19 @@ export default function Page() {
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金墜子回收不看款式只看純度和重量。鑲嵌寶石的墜子可分開估價。攜帶身份證到店約15分鐘完成。
       </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
       <h2>All gold pendant styles accepted, purity and weight determine value?</h2>
       <p>From religious pendants to modern designs, we accept all gold pendant types at fair market prices.</p>
       <h2>What is Types we accept?</h2>

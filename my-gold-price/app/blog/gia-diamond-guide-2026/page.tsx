@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明',
-  description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。',
+  description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'GIA鑽石,gia鑽石,GIA證書,鑽石收購,二手鑽石,鑽石估價,GIA台灣,鑽石回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-guide-2026',
@@ -95,6 +95,19 @@ export default function Page() {
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> GIA 是全球最權威的鑽石鑑定機構，有 GIA 證書的鑽石比較好賣、比較好估價。但「有 GIA」不等於「保值」——二手鑽石市場普遍以零售價 3–5 折成交，這是正常市場現實。
         </div>
+
+      <div style={{ background: '#fff3f3', border: '1px solid #fca5a5', borderRadius: '8px', padding: '16px 20px', margin: '24px 0' }}>
+        <strong style={{ color: '#dc2626' }}>這篇不適合你，如果…</strong>
+        <ul style={{ margin: '8px 0 0', paddingLeft: '20px', color: '#374151' }}>
+        <li>你想查鑽石即時公開報價 → 鑽石沒有統一公開報價，依4C個別估算</li>
+        <li>你的鑽石預算在3萬以下 → 本文討論的是標準克拉以上等級</li>
+        <li>你想了解黃金回收行情 → <a href="/blog/gold-recycling-taipei" style={{ color: '#b45309' }}>台北黃金回收說明</a></li>
+        </ul>
+      </div>
+
+
+      
+
 
         <h2>GIA 是什麼機構？</h2>
         <p>
