@@ -95,7 +95,7 @@ export default function Page() {
       />
 
       <h1>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。
       </div>
 
