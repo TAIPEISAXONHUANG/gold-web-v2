@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '台北黃金回收：今日金價、回收流程與5家高價銀樓實測比較 [2026]｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-25T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: '/blog/gold-recycling-taipei/cover.webp', width: 1280, height: 720, alt: '台北黃金回收 - 金飾放在專業磅秤上進行鑑定' }],
 
   },
 };
@@ -61,6 +62,17 @@ export default function Page() {
       />
 
       <h1>台北黃金回收：今日金價、回收流程與高價銀樓實測比較 [2026]</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '8px', overflow: 'hidden' }}>
+        <Image
+          src="/blog/gold-recycling-taipei/cover.webp"
+          alt="台北黃金回收 - 金飾放在專業磅秤上，巧品珠寶提供黃金鑑定回收服務"
+          width={1280}
+          height={720}
+          style={{ width: '100%', height: 'auto', display: 'block' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>AI 摘要：</strong> 台北黃金回收行情：9999 金條回收約 NT$17,620/錢、飾金約 NT$17,500/錢（2026-03-25）。純度 999 以上免扣重，飾金扣重 2-5%。銀樓、銀行、當鋪三管道各有利弊，年售逾 NT$70,000 須申報一時貿易所得。
