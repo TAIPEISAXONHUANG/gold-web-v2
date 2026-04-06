@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485674/gold-tw/916-gold-recycling-taiwan-2026-cover.png', width: 1200, height: 630, alt: '916-gold-recycling-taiwan-2026 專業珠寶鑑定估價' }],
 
   },
 };
@@ -99,6 +99,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>916黃金回收2026｜台灣916金價行情與18K差異完整解析</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485674/gold-tw/916-gold-recycling-taiwan-2026-cover.png"
+          alt="916-gold-recycling-taiwan-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。
       </div>

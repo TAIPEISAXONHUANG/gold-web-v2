@@ -1,4 +1,5 @@
 ﻿import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '賣黃金前必看清單2026｜5分鐘搞懂流程・證件・避坑｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486960/gold-tw/sell-gold-checklist-2026-cover.png', width: 1200, height: 630, alt: '2026賣黃金前準備清單｜出售黃金必備事項' }],
 
   },
 };
@@ -116,6 +117,17 @@ export default function Page() {
       />
 
       <h1>賣黃金前必看清單2026｜5分鐘搞懂流程、證件、避坑</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486960/gold-tw/sell-gold-checklist-2026-cover.png"
+          alt="2026賣黃金前準備清單｜出售黃金必備事項"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026賣金檢查清單：✓確認當日金價 ✓攜帶身份證 ✓整理所有金飾 ✓比較至少3家報價 ✓確認不扣耗損 ✓索取收據。

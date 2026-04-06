@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-04T14:30:00+08:00',
     modifiedTime: '2026-04-04T14:30:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486634/gold-tw/gold-selling-timing-2026-cover.png', width: 1200, height: 630, alt: '2026賣黃金最佳時機｜何時出售黃金最划算' }],
 
   },
 };
@@ -91,6 +91,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>什麼時候賣黃金最划算？2026年賣金時機完整分析</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486634/gold-tw/gold-selling-timing-2026-cover.png"
+          alt="2026賣黃金最佳時機｜何時出售黃金最划算"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> 沒有人能準確抓到黃金最高點。真正的問題不是「何時金價最高」，而是「你的需求和當前金價之間，有沒有達到值得出手的平衡」。本文從三個角度幫你判斷。

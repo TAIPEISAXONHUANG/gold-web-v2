@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '舊金回收｜老舊黃金變現｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486938/gold-tw/old-gold-recovery-cover.png', width: 1200, height: 630, alt: '舊黃金回收｜古早金飾與老金首飾高價收購' }],
 
   },
 };
@@ -47,6 +48,17 @@ export default function Page() {
         }}
       />
       <h1>舊金回收｜老舊黃金高價變現</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486938/gold-tw/old-gold-recovery-cover.png"
+          alt="舊黃金回收｜古早金飾與老金首飾高價收購"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 舊金飾回收不看新舊，只看純度和重量。祖傳金飾、變色氧化的金飾都能回收，巧品珠寶專業鑑定讓舊金發揮最大價值。

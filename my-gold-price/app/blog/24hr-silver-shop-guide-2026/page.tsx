@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: '想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/24hr-silver-shop-guide-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485424/gold-tw/24hr-silver-shop-guide-2026-cover.png', width: 1200, height: 630, alt: '24hr-silver-shop-guide-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -111,6 +111,17 @@ export default function Page() {
   }) }} />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">台北24小時銀樓2026｜哪些銀樓深夜也能賣黃金？</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485424/gold-tw/24hr-silver-shop-guide-2026-cover.png"
+          alt="24hr-silver-shop-guide-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。
       </div>

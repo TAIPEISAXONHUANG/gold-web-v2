@@ -1,4 +1,5 @@
 ﻿import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775484856/gold-tw/gold-recovery-faq-guide-cover.png', width: 1200, height: 630, alt: '黃金回收FAQ指南｜金飾回收注意事項與流程' }],
 
   },
 };
@@ -75,6 +76,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收FAQ攻略｜2026年新手必看</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775484856/gold-tw/gold-recovery-faq-guide-cover.png"
+          alt="黃金回收FAQ指南｜金飾回收注意事項與流程"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 賣黃金不再霧煞煞！本篇整理2026年最完整的黃金回收FAQ，涵蓋秤重、扣耗損、証件准備、防詐騙等20個常見問題，讓您安心變現不吃虧。

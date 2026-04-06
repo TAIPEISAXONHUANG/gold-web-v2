@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: '台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/24hr-gold-shop-taipei-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485405/gold-tw/24hr-gold-shop-taipei-2026-cover.png', width: 1200, height: 630, alt: '24hr-gold-shop-taipei-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -98,6 +98,17 @@ export default function TwentyFourHrGoldShopTaipei2026() {
 
       <article>
         <h1>24小時銀樓台北2026｜半夜能賣黃金嗎？最新實況</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485405/gold-tw/24hr-gold-shop-taipei-2026-cover.png"
+          alt="24hr-gold-shop-taipei-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。
       </div>

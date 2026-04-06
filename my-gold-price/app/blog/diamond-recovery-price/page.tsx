@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T00:00:00+08:00',
     modifiedTime: '2026-03-28T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485937/gold-tw/diamond-recovery-price-cover.png', width: 1200, height: 630, alt: 'diamond-recovery-price 專業珠寶鑑定估價' }],
 
   },
 };
@@ -95,6 +96,17 @@ export default function Page() {
       />
 
       <h1>鑽石回收行情2026｜台北鑽石收購價格怎麼算？</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485937/gold-tw/diamond-recovery-price-cover.png"
+          alt="diamond-recovery-price 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。
       </div>

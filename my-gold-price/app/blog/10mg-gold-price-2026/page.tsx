@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: '想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/10mg-gold-price-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485292/gold-tw/10mg-gold-price-2026-cover.png', width: 1200, height: 630, alt: '10mg-gold-price-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -82,6 +82,17 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         10mg黃金多少錢？2026換算公式與即時參考價格
       </h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485292/gold-tw/10mg-gold-price-2026-cover.png"
+          alt="10mg-gold-price-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 想知道10mg黃金值多少錢？本文提供2026年台灣黃金換算公式、克重行情對照表，一次搞懂10毫克黃金的實際價值與回收參考價。
       </div>

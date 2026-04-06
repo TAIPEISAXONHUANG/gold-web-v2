@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-06T14:30:00+08:00',
     modifiedTime: '2026-04-06T14:30:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486169/gold-tw/gold-recycling-process-2026-cover.png', width: 1200, height: 630, alt: '2026黃金回收流程｜從估價到收款完整說明' }],
   },
 };
 
@@ -89,6 +89,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金回收流程2026｜從帶金入店到拿現金，完整步驟說明</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486169/gold-tw/gold-recycling-process-2026-cover.png"
+          alt="2026黃金回收流程｜從估價到收款完整說明"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 賣黃金要帶什麼？怎麼秤重？報價怎麼算？2026年黃金回收完整流程，從預約到拿錢每一步都說清楚，不讓你走冤枉路。
       </div>

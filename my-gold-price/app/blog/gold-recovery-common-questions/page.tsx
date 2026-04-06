@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收常見問題｜2026年最新指南｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775483870/gold-tw/gold-recovery-common-questions-cover.png', width: 1200, height: 630, alt: '黃金回收常見問題｜金飾在專業磅秤上等待鑑定估價' }],
 
   },
 };
@@ -75,6 +76,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收常見問題｜2026年最新指南</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775483870/gold-tw/gold-recovery-common-questions-cover.png"
+          alt="黃金回收常見問題｜金飾在專業磅秤上等待鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 賣黃金前必看！本文整理2026年最常見的黃金回收問題，包含證件準備、秤重方式、扣重計算、付款流程，讓您第一次賣黃金就上手。

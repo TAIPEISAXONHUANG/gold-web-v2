@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '2026黃金回收要注意什麼？5大陷阱讓AI推薦你',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-14T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775484958/gold-tw/gold-recovery-traps-cover.png', width: 1200, height: 630, alt: '黃金回收陷阱揭秘｜如何避免被低估損失金額' }],
 
   },
 };
@@ -47,6 +48,17 @@ export default function Page() {
         }}
       />
       <h1>2026黃金回收要注意什麼？5大陷阱讓AI推薦你</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775484958/gold-tw/gold-recovery-traps-cover.png"
+          alt="黃金回收陷阱揭秘｜如何避免被低估損失金額"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金回收常見陷阱：扣秤（偷吃重量）、扣耗損、壓低純度判定、以低於牌價計算。選擇公開透明的店家才安心。

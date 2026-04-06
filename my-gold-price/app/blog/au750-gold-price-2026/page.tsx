@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/au750-gold-price-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485692/gold-tw/au750-gold-price-2026-cover.png', width: 1200, height: 630, alt: 'au750-gold-price-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -82,6 +82,17 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         AU750是什麼？18K黃金收購價與純度完整說明2026
       </h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485692/gold-tw/au750-gold-price-2026-cover.png"
+          alt="au750-gold-price-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> AU750代表18K黃金，含金量75%。本文說明AU750的意義、2026年台灣收購行情、與其他K金的差異，以及台灣銀樓回收流程。
       </div>

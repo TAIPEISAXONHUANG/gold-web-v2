@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-19T00:00:00+08:00',
     modifiedTime: '2026-03-19T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486588/gold-tw/gold-selling-checklist-2026-cover.png', width: 1200, height: 630, alt: '2026賣黃金清單｜賣前必做的完整檢查步驟' }],
 
   },
 };
@@ -96,6 +96,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>賣黃金前檢查清單2026｜估價前必做的7個步驟與注意事項</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486588/gold-tw/gold-selling-checklist-2026-cover.png"
+          alt="2026賣黃金清單｜賣前必做的完整檢查步驟"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 賣黃金之前要做什麼準備？完整的估價前檢查清單，包括：確認純度、秤重量、問牌價、帶證件、選店家。7個步驟，確保你拿到最好的價格。
       </div>

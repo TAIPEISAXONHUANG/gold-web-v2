@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金戒指回收｜結婚戒指變現｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486185/gold-tw/gold-ring-recovery-cover.png', width: 1200, height: 630, alt: '黃金戒指回收｜金戒指估價與變現指南' }],
 
   },
 };
@@ -76,6 +77,17 @@ export default function Page() {
         }}
       />
       <h1>黃金戒指回收｜各式金戒高價變現</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486185/gold-tw/gold-ring-recovery-cover.png"
+          alt="黃金戒指回收｜金戒指估價與變現指南"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金戒指回收依純度與重量計價，不論款式新舊、有無刻字。K金戒指按含金比例換算，鑲鑽戒指可分開估價。

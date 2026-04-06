@@ -1,4 +1,5 @@
 ﻿import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '賣黃金防被騙！5大回收陷阱破解｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-12T00:00:00+08:00',
     modifiedTime: '2026-03-23T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485157/gold-tw/gold-recycling-precautions-cover.png', width: 1200, height: 630, alt: '黃金回收注意事項｜避免扣重損失的完整攻略' }],
 
   },
 };
@@ -60,6 +61,17 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收注意事項2026｜防詐騙完整指南"}]}) }} />
 
       <h1>黃金回收注意事項2026｜防詐騙完整指南</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485157/gold-tw/gold-recycling-precautions-cover.png"
+          alt="黃金回收注意事項｜避免扣重損失的完整攻略"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。
       </div>

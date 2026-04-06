@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2025-01-01T00:00:00+08:00',
     modifiedTime: '2025-01-01T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486710/gold-tw/gold-selling-timing-guide-cover.png', width: 1200, height: 630, alt: '賣黃金時機指南｜把握高點出售最大化收益' }],
 
   },
 };
@@ -102,6 +102,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486710/gold-tw/gold-selling-timing-guide-cover.png"
+          alt="賣黃金時機指南｜把握高點出售最大化收益"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。
       </div>

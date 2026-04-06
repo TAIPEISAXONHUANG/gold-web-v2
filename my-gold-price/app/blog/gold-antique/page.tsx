@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '古早黃金回收｜老金飾變現｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486890/gold-tw/gold-antique-cover.png', width: 1200, height: 630, alt: 'gold-antique 專業珠寶鑑定估價' }],
 
   },
 };
@@ -84,6 +85,17 @@ export default function Page() {
         }}
       />
       <h1>古早黃金回收｜老金飾高價變現</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486890/gold-tw/gold-antique-cover.png"
+          alt="gold-antique 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 古董金飾除了黃金價值外，可能有額外的收藏價值。建議先鑑定純度與歷史價值，再決定回收或收藏保存。

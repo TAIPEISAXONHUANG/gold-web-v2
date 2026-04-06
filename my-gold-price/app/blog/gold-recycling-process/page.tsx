@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收流程是什麼？5分鐘讓你搞懂整個過程',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486037/gold-tw/gold-recycling-process-cover.png', width: 1200, height: 630, alt: '黃金回收流程說明｜巧品珠寶透明公正估價' }],
 
   },
 };
@@ -54,6 +55,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收流程是什麼？5分鐘讓你搞懂整個過程</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486037/gold-tw/gold-recycling-process-cover.png"
+          alt="黃金回收流程說明｜巧品珠寶透明公正估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 黃金回收流程只需15分鐘：攜帶金飾+身份證→專業儀器鑑定純度→電子秤秤重→依當日牌價報價→現場現金支付。

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-04-01T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486053/gold-tw/gia-diamond-appraisal-taiwan-cover.png', width: 1200, height: 630, alt: 'gia-diamond-appraisal-taiwan 專業珠寶鑑定估價' }],
 
   },
 };
@@ -98,6 +98,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>GIA鑽石鉴定证书怎么看？2026年台灣GIA鑽石估价与回收完整攻略</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486053/gold-tw/gia-diamond-appraisal-taiwan-cover.png"
+          alt="gia-diamond-appraisal-taiwan 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。
       </div>

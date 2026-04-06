@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/916-gold-price-today-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485554/gold-tw/916-gold-price-today-2026-cover.png', width: 1200, height: 630, alt: '916-gold-price-today-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -98,6 +98,17 @@ export default function GoldPrice916Today2026() {
 
       <article>
         <h1>916黃金今日金價2026｜含金量91.6%，行情、回收價一次搞懂</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485554/gold-tw/916-gold-price-today-2026-cover.png"
+          alt="916-gold-price-today-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。
       </div>

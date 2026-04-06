@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ｜賣黃金常見問題一篇搞懂',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775483936/gold-tw/gold-recovery-faq-2026-cover.png', width: 1200, height: 630, alt: '2026黃金回收FAQ｜專業鑑定師回答常見回收問題' }],
 
   },
 };
@@ -75,6 +76,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收FAQ｜賣黃金常見問題一篇搞懂</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775483936/gold-tw/gold-recovery-faq-2026-cover.png"
+          alt="2026黃金回收FAQ｜專業鑑定師回答常見回收問題"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 2026年黃金回收最新FAQ：目前回收價行情、需要什麼證件、K金怎麼計價、哪裡回收最划算，一次解答。

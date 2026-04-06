@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。',
     siteName: '巧品珠寶',
     url: 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485387/gold-tw/14k-gold-recovery-price-2026-cover.png', width: 1200, height: 630, alt: '14k-gold-recovery-price-2026 專業珠寶鑑定估價' }],
   },
 }
 
@@ -97,6 +97,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>14K金回收價格2026｜當日行情、計算公式與避坑指南</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485387/gold-tw/14k-gold-recovery-price-2026-cover.png"
+          alt="14k-gold-recovery-price-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。
       </div>

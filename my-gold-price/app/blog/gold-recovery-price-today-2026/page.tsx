@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '今日黃金回收價格2026｜台灣黃金收購報價即時查詢',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-28T14:00:00+08:00',
     modifiedTime: '2026-03-28T14:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485096/gold-tw/gold-recovery-price-today-2026-cover.png', width: 1200, height: 630, alt: '今日黃金回收價格2026｜當日最新金飾回收行情' }],
 
   },
 };
@@ -94,6 +95,17 @@ export default function Page() {
       />
 
       <h1>今日黃金回收價格2026｜台灣黃金收購報價即時查詢</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485096/gold-tw/gold-recovery-price-today-2026-cover.png"
+          alt="今日黃金回收價格2026｜當日最新金飾回收行情"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 今日黃金回收價格多少？2026年台灣各類型黃金（24K、18K、金條、金幣）收購報價一次看懂。巧品珠寶當場現金，不扣耗損，公正秤重。電話 0986-821-626。
       </div>

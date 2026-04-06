@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收店怎麼選？10年經驗老師傅不藏私分享',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-14T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486914/gold-tw/how-to-choose-gold-shop-cover.png', width: 1200, height: 630, alt: '如何選擇銀樓｜評估黃金回收店的重要指標' }],
 
   },
 };
@@ -47,6 +48,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收店怎麼選？10年經驗老師傅不藏私分享</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486914/gold-tw/how-to-choose-gold-shop-cover.png"
+          alt="如何選擇銀樓｜評估黃金回收店的重要指標"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 選擇黃金回收店5大標準：①有實體店面 ②公開每日報價 ③現場秤重透明 ④不扣耗損 ⑤Google評論良好。

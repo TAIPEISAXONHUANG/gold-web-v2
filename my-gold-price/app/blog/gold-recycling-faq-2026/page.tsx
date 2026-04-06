@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '第一次賣黃金？2026回收QA十問｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-01T00:00:00+08:00',
     modifiedTime: '2026-03-31T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775485008/gold-tw/gold-recycling-faq-2026-cover.png', width: 1200, height: 630, alt: '2026黃金回收問答集｜專業鑑定師解答疑問' }],
 
   },
 };
@@ -139,6 +140,17 @@ export default function Page() {
         }}
       />
       <h1>2026年黃金回收常見問題完整解答</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775485008/gold-tw/gold-recycling-faq-2026-cover.png"
+          alt="2026黃金回收問答集｜專業鑑定師解答疑問"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 賣黃金前必看！本篇整理2026年最新、最完整的黃金回收常見問題，幫助您第一次賣黃金就上手，避免落入不良業者的陷阱。

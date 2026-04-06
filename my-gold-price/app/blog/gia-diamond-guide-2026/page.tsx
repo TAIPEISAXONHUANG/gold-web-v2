@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-04-05T14:20:00+08:00',
     modifiedTime: '2026-04-05T14:20:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486120/gold-tw/gia-diamond-guide-2026-cover.png', width: 1200, height: 630, alt: 'gia-diamond-guide-2026 專業珠寶鑑定估價' }],
 
   },
 };
@@ -91,6 +91,17 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486120/gold-tw/gia-diamond-guide-2026-cover.png"
+          alt="gia-diamond-guide-2026 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點摘要：</strong> GIA 是全球最權威的鑽石鑑定機構，有 GIA 證書的鑽石比較好賣、比較好估價。但「有 GIA」不等於「保值」——二手鑽石市場普遍以零售價 3–5 折成交，這是正常市場現實。

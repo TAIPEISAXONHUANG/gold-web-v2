@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '黃金回收怎麼定價？專家告訴你影響價格的關鍵因素',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-16T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486018/gold-tw/gold-recycling-price-factors-cover.png', width: 1200, height: 630, alt: '影響黃金回收價格因素｜成色重量與時機分析' }],
 
   },
 };
@@ -82,6 +83,17 @@ export default function Page() {
         }}
       />
       <h1>黃金回收怎麼定價？專家告訴你影響價格的關鍵因素</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486018/gold-tw/gold-recycling-price-factors-cover.png"
+          alt="影響黃金回收價格因素｜成色重量與時機分析"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 影響黃金回收價格的因素：國際金價、純度、重量、店家利潤。同一天不同店家報價可能差數百元，建議比價。

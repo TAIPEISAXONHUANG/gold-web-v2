@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '9999純金回收｜24K黃金高價收購｜巧品珠寶',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-15T00:00:00+08:00',
     modifiedTime: '2026-03-16T00:00:00+08:00',
-    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/v1775486203/gold-tw/gold-9999-recovery-cover.png', width: 1200, height: 630, alt: 'gold-9999-recovery 專業珠寶鑑定估價' }],
 
   },
 };
@@ -49,6 +50,17 @@ export default function Page() {
         }}
       />
       <h1>9999純金回收｜24K黃金高價收購</h1>
+
+      <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <Image
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/v1775486203/gold-tw/gold-9999-recovery-cover.png"
+          alt="gold-9999-recovery 專業珠寶鑑定估價"
+          width={1200}
+          height={630}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </div>
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 重點摘要：</strong> 9999純金（24K）回收價最高，因純度達99.99{'%'}。回收時以當日國際金價×重量計算，巧品珠寶不扣耗損、不扣秤。
