@@ -114,6 +114,10 @@ export default function PlatinumRecoveryPrice2026() {
         <h1 style={{ fontSize: '28px', fontWeight: 'bold', lineHeight: '1.4', marginBottom: '16px' }}>
           白金回收價格2026｜Pt900、Pt950即時行情與收購流程
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 白金（鉑金）回收行情完整說明。Pt900、Pt950目前收購價格、計算方式、與黃金差異，台北巧品珠寶24小時收購，不扣耗損、秤重全程透明。
+      </div>
+
 
         <p style={{ fontSize: '16px', color: '#555', marginBottom: '32px', lineHeight: '1.8' }}>
           更新：2026年4月6日。白金（鉑金）這兩年價格走勢和黃金完全不同，很多人以為白金更貴，但目前國際現貨價白金其實比黃金便宜不少。這篇說清楚白金回收怎麼算、Pt900和Pt950差在哪、拿來收購能拿多少。

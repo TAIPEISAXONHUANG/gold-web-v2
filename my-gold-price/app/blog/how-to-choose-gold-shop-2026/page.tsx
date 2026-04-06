@@ -89,6 +89,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台北銀樓怎麼選2026｜賣黃金前必看的4個判斷指標</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台北這麼多銀樓，哪家報價高？哪家不扣耗損？4個實用指標幫你在賣金前判斷業者是否可信，不再靠運氣。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>核心觀念：</strong> 銀樓報價沒有「查表就知道誰最好」這種事。但有 4 個指標可以在事前篩掉不合理的業者——不是靠口碑，是靠具體行為。

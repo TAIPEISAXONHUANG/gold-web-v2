@@ -114,6 +114,10 @@ export default function GoldRingRecycling2026() {
         <h1 style={{ fontSize: '28px', fontWeight: 'bold', lineHeight: '1.4', marginBottom: '16px' }}>
           黃金戒指回收2026｜各K數報價、流程與注意事項完整說明
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金戒指回收完整指南。24K純金戒、18K戒指、鑲鑽金戒怎麼算？帶什麼去、要注意什麼、哪裡收購最划算，巧品珠寶台北大安24小時收購。
+      </div>
+
 
         <p style={{ fontSize: '16px', color: '#555', marginBottom: '32px', lineHeight: '1.8' }}>
           更新：2026年4月6日。黃金戒指是最常見的黃金回收品項之一，從24K純金戒、18K鑲鑽婚戒、到14K K金飾戒都有人拿來收購。這篇說清楚不同類型黃金戒指的報價方式、帶什麼去、哪些地方容易被坑。

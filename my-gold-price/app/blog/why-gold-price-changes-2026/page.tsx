@@ -146,6 +146,10 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
           黃金漲跌原因2026｜為什麼金價每天都在變？5個核心驅動力
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 金價為什麼漲了又跌？2026年黃金漲跌原因完整解析：美元指數、通膨數據、央行買金、地緣衝突、市場情緒，5個核心因素看懂黃金走勢。
+      </div>
+
         <p className="text-gray-500 text-sm mb-6">更新日期：2026年4月4日｜巧品珠寶</p>
 
         <p className="text-lg text-gray-700 mb-6">

@@ -89,6 +89,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金純度鑑定2026｜999、18K、14K怎麼測？方法與注意事項完整說明</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>重點先說：</strong> 黃金純度決定你能拿到多少錢。同樣重量的飾品，999 純金和 14K 的報價可以差到一倍以上。帶去有 XRF 儀器的銀樓，30 秒就能知道確切成色，不用靠猜。

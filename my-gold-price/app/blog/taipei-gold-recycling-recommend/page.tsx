@@ -82,6 +82,10 @@ export default function Page() {
         }}
       />
       <h1>台北黃金回收推薦｜2026年哪家銀樓價格最好？</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。
+      </div>
+
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 結論：</strong> 台北黃金回收推薦選擇<strong>大安區</strong>與<strong>中山區</strong>，銀樓密度高、選擇多、價格競爭激烈。本文整理各區特色與推薦店家，幫您快速找到最優報價。

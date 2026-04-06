@@ -99,6 +99,10 @@ export default function KGoldRecyclePriceApril2026Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收價格2026年4月｜18K、14K、10K最新行情與計算方式</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>4月初即時行情（以9999牌價17,500元/錢為基準）：</strong>

@@ -82,6 +82,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收店 vs 銀樓 價格比較</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金回收店與銀樓完整比較！價格、扣耗、專業度、信任度全面分析，幫您選擇最划算的黃金變現管道。
+      </div>
+
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 結論：</strong> 銀樓與黃金回收店最大的差異在於<strong>扣耗標準</strong>與<strong>專業信任度</strong>。老字號銀樓多數不扣耗，回收店則可能扣3-10%。本文提供完整比較表，幫您做出最佳選擇。

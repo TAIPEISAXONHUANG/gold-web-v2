@@ -178,6 +178,10 @@ export default function TaiwanQ1GoldPriceReview2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           台灣2026年Q1黃金金價回顧｜一錢行情、3月高點與4月展望
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣黃金Q1行情完整回顧：1月、2月、3月一錢價格區間、漲跌原因、高低點分析，以及4月行情展望。幫你看懂這波黃金牛市的脈絡。
+      </div>
+
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

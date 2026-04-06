@@ -102,6 +102,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>結婚金飾習俗與預算2026｜龍鳳鐲、項鍊、耳環習俗與行情</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 台灣結婚金飾習俗核心是「送好命婆的金飾」——傳統上婆家送新娘金飾作為尊重。2026年行情：龍鳳鐲一對（15–30錢）約 <strong>87,500–175,000元</strong>（不含工藝費）。沒有絕對標準，雙方協商最重要。

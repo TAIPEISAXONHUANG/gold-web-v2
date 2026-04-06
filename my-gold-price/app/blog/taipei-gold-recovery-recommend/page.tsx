@@ -95,6 +95,10 @@ export default function Page() {
       />
 
       <h1>台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。
+      </div>
+
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜XRF儀器現場驗金，秤重透明，當場現金付款</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

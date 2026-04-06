@@ -101,6 +101,10 @@ export default function Page() {
       <main style={{ padding: '2rem', maxWidth: '860px', margin: '0 auto' }}>
 
         <h1>台灣今日金價每錢2026：最新報價・換算教學・回收行情</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣黃金每台錢即時報價。一台錢等於3.75公克，今日9999純金每錢約19,000-19,500元。含計算公式、各純度換算表，巧品珠寶免費估價0986-821-626。
+      </div>
+
         <p style={{ color: '#666', fontSize: '0.9rem' }}>最後更新：2026年4月1日｜巧品珠寶整理</p>
 
         <div style={{ background: '#FEF3C7', padding: '1rem 1.5rem', borderRadius: '8px', margin: '1.5rem 0' }}>

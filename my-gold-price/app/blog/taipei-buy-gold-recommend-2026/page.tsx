@@ -97,6 +97,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台北買黃金推薦2026｜在哪裡買、怎麼買、哪些坑要避開</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台北哪裡買黃金最划算？2026年黃金高點行情下，買金條、金豆、金飾前必讀。本文整理台北購金管道比較、購買流程與常見陷阱，選對地方才不會多花冤枉錢。
+      </div>
+
 
         <p>
           2026年國際金價創歷史新高，台灣一堆人開始問：「台北哪裡買黃金比較好？」

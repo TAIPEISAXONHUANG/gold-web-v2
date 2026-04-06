@@ -154,6 +154,10 @@ export default function GoldPriceTodayTaiwanAprilTracker2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           2026年4月台灣今日金價走勢追蹤｜Q1漲幅與四月行情分析
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年4月台灣今日金價多少？本文追蹤Q1完整走勢、每週金價區間、四月開盤行情，並說明哪些因素決定台灣每日金價高低，幫你掌握最佳賣出時機。
+      </div>
+
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

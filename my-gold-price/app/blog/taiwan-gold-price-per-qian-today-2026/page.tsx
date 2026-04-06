@@ -93,6 +93,10 @@ export default function Page() {
       />
 
       <h1>台灣今日金價每錢2026｜即時報價＋換算公式一次看懂</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣今日黃金每錢最新報價。9999純金一錢今日回收多少錢？附各純度換算表、台銀牌價對照、不扣耗損回收流程。台北大安巧品珠寶當日牌價最透明。
+      </div>
+
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>直接給答案：</strong> 2026年3月底，台灣9999純金<strong>每錢（3.75克）回收行情約 16,500–18,000 元</strong>。換算公式、各純度對照表、不被坑的防踩雷指南——本文一次整理完。

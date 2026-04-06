@@ -97,6 +97,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>今日金價台灣2026｜一錢、一兩、每克即時報價查詢</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 今日金價台灣2026最新行情：黃金一錢多少錢？一兩多少？每克幾元？本文整理2026年3月最新金價數據、計算方式與回收報價，5秒看懂今天金價。
+      </div>
+
 
         <p>
           想知道今天台灣黃金多少錢？一錢幾元、一兩多少、每克幾塊？

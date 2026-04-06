@@ -146,6 +146,10 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
           黃金一錢等於幾公克？2026換算公式與實用計算表
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金一錢等於多少公克？台灣錢、兩、克、盎司完整換算公式。10mg黃金多少錢？附2026年最新即時金價對照表，秒算你的黃金值多少。
+      </div>
+
         <p className="text-gray-500 text-sm mb-6">更新日期：2026年4月4日｜巧品珠寶</p>
 
         <p className="text-lg text-gray-700 mb-6">

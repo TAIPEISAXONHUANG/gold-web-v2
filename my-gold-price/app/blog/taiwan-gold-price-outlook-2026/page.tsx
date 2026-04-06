@@ -99,6 +99,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台灣2026金價行情｜今日金價走勢與未來預測完整分析</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，台灣9999純金回收行情 <strong>17,500–18,000 元/錢</strong>。2026年第一季累計漲幅約15%–20%，目前處於歷史高檔區間，後市取決於聯準會利率動向與地緣政治局势。

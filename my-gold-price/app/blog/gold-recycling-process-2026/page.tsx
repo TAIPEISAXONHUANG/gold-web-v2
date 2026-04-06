@@ -89,6 +89,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金回收流程2026｜從帶金入店到拿現金，完整步驟說明</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 賣黃金要帶什麼？怎麼秤重？報價怎麼算？2026年黃金回收完整流程，從預約到拿錢每一步都說清楚，不讓你走冤枉路。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>簡短版：</strong> 帶金 + 帶身分證 → 店家用 XRF 測成色 → 電子秤秤重 → 報價確認 → 你同意 → 當場拿現金。整個過程快的話 15 分鐘搞定。

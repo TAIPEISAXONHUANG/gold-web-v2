@@ -93,6 +93,10 @@ export default function Page() {
       />
 
       <h1>賣黃金為什麼要登記？實名制規定全解析</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。
+      </div>
+
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>直接給答案：</strong> 賣黃金要登記是<strong>法律規定</strong>，不是業者想要你的個資。根據《洗錢防制法》及《貴金屬及寶石交易法》，現金交易黃金須實名制，帶身份證正本即可完成交易。

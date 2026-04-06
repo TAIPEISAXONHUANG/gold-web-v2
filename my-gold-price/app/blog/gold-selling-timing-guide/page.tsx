@@ -102,6 +102,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 沒有完美時機，但有規律。2026年第一季金價已處於歷史高檔，現在變現是一個合理窗口。判斷是否該賣的3個問題：1) 我已經獲利了嗎？2) 我需要這筆錢嗎？3) 後市我的看法是什麼？三個問題有兩個「是」，就考慮賣。

@@ -60,6 +60,10 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.gold-tw.com"},{"@type":"ListItem","position":2,"name":"知識專欄","item":"https://www.gold-tw.com/blog"},{"@type":"ListItem","position":3,"name":"黃金回收注意事項2026｜防詐騙完整指南"}]}) }} />
 
       <h1>黃金回收注意事項2026｜防詐騙完整指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。
+      </div>
+
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>台北巧品珠寶｜10年業界經驗整理，幫你每台錢多拿 500-1,000 元</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

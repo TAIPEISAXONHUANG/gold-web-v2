@@ -155,6 +155,10 @@ export default function TaiwanGoldQianPriceSellGuideApril2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           台灣黃金一錢賣出實戰攻略2026年4月｜拿到最高收購價的5個關鍵
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台灣黃金一錢怎麼賣才最划算？2026年4月最新行情加上實戰攻略：選對銀樓、確認不扣耗損、懂得看牌價，5個步驟讓你多拿數百元到上千元。
+      </div>
+
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

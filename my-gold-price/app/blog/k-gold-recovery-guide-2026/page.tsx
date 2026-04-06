@@ -97,6 +97,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收攻略2026｜14K、18K、9K哪家收？怎麼算最划算？</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> K金怎麼回收才不吃虧？本文說清楚14K、18K、9K金的回收計算方式、2026年行情、要避開的坑，以及台北哪裡回收K金給價最高。
+      </div>
+
 
         <p>
           K金回收最容易搞不清楚的是：我這條項鍊是18K，到底能賣多少？

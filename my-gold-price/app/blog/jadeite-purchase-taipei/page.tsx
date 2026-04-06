@@ -95,6 +95,10 @@ export default function Page() {
       />
 
       <h1>翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。
+      </div>
+
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜台北大安區翡翠估價收購｜A貨翡翠、老坑種手鐲、翠玉吊墜</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

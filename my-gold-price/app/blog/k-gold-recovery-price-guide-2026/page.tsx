@@ -98,6 +98,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收價格2026｜18K/14K/10K回收行情、計算方式與店家選擇</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> K金回收價格多少？2026年18K、14K、10K回收行情表＋計算方式。k金回收價格怎麼算？不同店家報價差異原因與選擇建議。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，K金回收參考行情：18K約 <strong>13,100–13,500 元/錢</strong>、14K約 <strong>10,200–10,500 元/錢</strong>、10K約 <strong>7,200–7,500 元/錢</strong>（9999牌價17,500元/錢 × 各K數含金量）。選店家重點：問清楚有沒有扣耗損。

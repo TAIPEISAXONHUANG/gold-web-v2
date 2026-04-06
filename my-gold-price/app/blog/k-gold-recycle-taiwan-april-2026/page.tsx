@@ -149,6 +149,10 @@ export default function KGoldRecycleTaiwanApril2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           K金回收台灣2026年4月｜18K、14K、10K收購流程與即時行情
         </h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> K金回收怎麼賣最划算？2026年4月台灣K金回收行情、計算方式與注意事項一次說清楚。18K、14K、10K不扣耗損，秤重全程透明。
+      </div>
+
         <p style={{ fontSize: "14px", color: "#888", marginBottom: "32px" }}>
           更新日期：{today} ｜ 巧品珠寶
         </p>

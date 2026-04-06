@@ -121,6 +121,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>第一次買黃金就上手2026｜新手買金注意事項、管道比較與防騙指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 第一次買黃金要注意什麼？2026年台灣買黃金管道、價格陷阱、純度識別，以及新手最常問的5個問題。買黃金不後悔，先看這篇。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 第一次買黃金，最重要三件事：1) 搞懂「工費」的意義；2) 不要被業務員催促下決定；3) 買之前先問：「如果明天就要賣，能拿回多少錢？」知道這個數字再掏錢。

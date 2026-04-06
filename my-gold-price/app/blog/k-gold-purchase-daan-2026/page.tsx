@@ -98,6 +98,10 @@ export default function KGoldPurchaseDaan2026() {
 
       <article>
         <h1>大安K金收購2026｜18K、14K、PT900當場報價，不扣耗損</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台北大安K金收購哪裡最划算？2026年K金回收行情、計算方式、注意事項一次說清楚。18K金、14K金、PT900當場報價、XRF驗成色，不扣耗損。
+      </div>
+
 
         <p>
           手上有K金要出清？不管是戒指、項鍊、手鍊還是一堆散件，拿到大安收購最快——

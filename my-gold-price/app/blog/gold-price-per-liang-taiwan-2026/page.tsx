@@ -93,6 +93,10 @@ export default function Page() {
       />
 
       <h1>2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。
+      </div>
+
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>📌 直接給答案：</strong> 2026年3月台灣9999純金，<strong>一兩（5錢＝18.75克）回收價約 80,000–87,500 元</strong>，一錢約 16,000–17,500 元。每天隨國際金價浮動，本文教你怎麼算、對照哪個牌價才不吃虧。

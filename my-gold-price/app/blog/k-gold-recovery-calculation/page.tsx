@@ -99,6 +99,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收計算公式｜18K/14K/10K多少錢？線上試算方法完整教學</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> K金回收多少錢？18K、14K、10K怎麼算？用簡單公式自己算，附線上試算範例。含K數刻印識別、回收店家比較、以及為何有些店家報價特別低的常見原因。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> K金回收價 = <strong>當日9999純金每錢報價 × 含金量%</strong>。2026年3月底行情：18K約 <strong>13,100–13,500 元/錢</strong>、14K約 <strong>10,200–10,500 元/錢</strong>、10K約 <strong>7,200–7,500 元/錢</strong>。本文提供完整試算教學，幫你在進店前心裡有數。

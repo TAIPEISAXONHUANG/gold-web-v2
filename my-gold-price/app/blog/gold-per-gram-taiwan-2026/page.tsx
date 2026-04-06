@@ -121,6 +121,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 2026年3月底，台灣9999純金每公克參考報價約 <strong>4,670–4,800 元/公克</strong>。台灣銀樓主要用「每錢」計價，1錢 = 3.75公克，每錢約17,500–18,000元。若看到「每公克」報價，請先確認純度。

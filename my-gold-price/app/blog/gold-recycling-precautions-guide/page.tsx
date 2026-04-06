@@ -82,6 +82,10 @@ export default function Page() {
         }}
       />
       <h1>黃金回收要注意什麼？2026年完整攻略</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金回收必讀攻略！了解回收流程、證件準備、價格談判技巧，以及如何避開常見陷阱，賣出最有利的價格。
+      </div>
+
 
       <div style={{background:'#fffbeb', borderLeft:'4px solid #f59e0b', padding:'16px', margin:'16px 0', borderRadius:'8px'}}>
         <strong>📌 結論：</strong> 黃金回收眉角多！本篇整理<strong>5大必須注意的事項</strong>，從證件準備、價格談判到常見陷阱，幫您避免損失數千元。

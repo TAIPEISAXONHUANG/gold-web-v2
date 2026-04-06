@@ -95,6 +95,10 @@ export default function Page() {
       />
 
       <h1>今日黃金回收價格2026｜台北當場現金，不扣耗損</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 想知道今日黃金回收價格？巧品珠寶依據國際金價即時報價，24K、18K、14K全收，不扣5%火耗，秤重全程透明。台北大安電話 0986-821-626。
+      </div>
+
       <p style={{ color: '#666', marginBottom: '1.5rem' }}>巧品珠寶｜即時金價報價，24K/18K/14K全收，秤重透明</p>
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>

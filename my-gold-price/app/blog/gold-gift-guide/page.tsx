@@ -102,6 +102,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金送禮習俗與場合｜生日、婚禮、滿月、春節黃金禮品完整指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金送禮有哪些習俗？結婚要送多少？滿月送金飾好嗎？生日、春節該送什麼黃金？台灣傳統與現代黃金送禮場合、行情參考與選擇建議。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金送禮沒有硬性金額標準，習俗上取決於關係和場合。結婚由婆家負責金飾（龍鳳鐲為主）；滿月送輕量金飾（1–5錢）；生日和春節則看預算和關係。新習俗：直接包「黃金存摺」或「黃金ETF份額」，收禮者有彈性又保值。

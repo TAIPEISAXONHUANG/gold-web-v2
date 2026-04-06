@@ -102,6 +102,10 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>直接給答案：</strong> 黃金可以定期定額買，就像買基金一樣。台灣主要銀行（台灣銀行、土地銀行等）都有黃金存摺服務，1公克就能開始，每月固定日期扣款。建議每月投入閒置資金的10%–20%，以3–5年為一個檢視週期。

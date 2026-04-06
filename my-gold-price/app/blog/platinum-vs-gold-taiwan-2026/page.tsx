@@ -99,6 +99,10 @@ export default function PlatinumVsGoldTaiwan2026Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>白金和黃金有什麼不同？2026年台灣白金回收價格與選購指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。
+      </div>
+
 
         <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
           <strong>先澄清一個超常見的誤解：</strong>「白K金」不等於「白金（鉑金）」。

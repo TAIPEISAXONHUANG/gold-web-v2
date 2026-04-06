@@ -95,6 +95,10 @@ export default function Page() {
       />
 
       <h1>台灣黃金回收價一錢多少？2026年最新行情完整指南</h1>
+      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+        <strong>重點摘要：</strong> 2026年台灣黃金回收價一錢行情即時更新。9999純金每錢回收價計算方式、各純度換算、台北大安區巧品珠寶當日牌價查詢。免費估價，當場現金付款。
+      </div>
+
 
       <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>📌 直接給答案：</strong> 2026年3月台灣9999純金回收價約每錢 <strong>16,000–17,500元</strong>，隨國際金價每日浮動。本文教你怎麼算、怎麼比、去哪裡賣最划算。
