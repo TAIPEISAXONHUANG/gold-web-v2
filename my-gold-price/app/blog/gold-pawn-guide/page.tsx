@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pawn-guide',
   },
+  openGraph: {
+    locale: 'zh_TW',
+    type: 'article',
+    title: '黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項',
+    description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。',
+    url: 'https://www.gold-tw.com/blog/gold-pawn-guide',
+    siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+  },
 };
 
 export default function Page() {

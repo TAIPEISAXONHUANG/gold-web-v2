@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-inheritance-guide',
   },
+  openGraph: {
+    locale: 'zh_TW',
+    type: 'article',
+    title: '黃金遺產規劃2026｜黃金傳承、遺產繼承與過戶完整指南',
+    description: '黃金如何寫進遺囑？如何傳承給下一代？黃金遺產的遺產稅計算、繼承流程、以及黃金作為傳家寶的規劃策略。',
+    url: 'https://www.gold-tw.com/blog/gold-inheritance-guide',
+    siteName: '巧品珠寶',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '巧品珠寶' }],
+  },
 };
 
 export default function Page() {
