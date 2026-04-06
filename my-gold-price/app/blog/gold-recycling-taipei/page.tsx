@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: '巧品珠寶',
     publishedTime: '2026-03-25T00:00:00+08:00',
     modifiedTime: '2026-03-01T00:00:00+08:00',
-    images: [{ url: '/blog/gold-recycling-taipei-cover.webp', width: 1200, height: 630, alt: '台北黃金回收：金飾與金條在專業磅秤上等待鑑定估價' }],
+    images: [{ url: 'https://res.cloudinary.com/dakafmdhy/image/upload/gold-tw/gold-recycling-taipei-cover.webp', width: 1200, height: 630, alt: '台北黃金回收：金飾與金條在專業磅秤上等待鑑定估價' }],
 
   },
 };
@@ -65,7 +65,7 @@ export default function Page() {
 
       <div style={{ margin: '1.5rem 0', borderRadius: '12px', overflow: 'hidden' }}>
         <Image
-          src="/blog/gold-recycling-taipei-cover.webp"
+          src="https://res.cloudinary.com/dakafmdhy/image/upload/gold-tw/gold-recycling-taipei-cover.webp"
           alt="台北黃金回收：金飾與金條在專業磅秤上等待鑑定估價，巧品珠寶大安區銀樓"
           width={1200}
           height={630}
