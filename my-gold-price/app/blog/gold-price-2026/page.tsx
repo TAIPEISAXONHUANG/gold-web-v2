@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026年黃金價格走勢｜黃金會漲嗎｜巧品珠寶',
-  description: '2026年黃金行情分析！了解金價走勢、影響因素，掌握最佳賣出時機。台北巧品珠寶即時報價，免費估價，電話 0986-821-626。',
+  description: '2026年黃金行情分析！了解金價走勢、影響因素，掌握最佳賣出時機。台北巧品珠寶即時報價，免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '2026黃金走勢,黃金會漲嗎,金價預測',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-2026',

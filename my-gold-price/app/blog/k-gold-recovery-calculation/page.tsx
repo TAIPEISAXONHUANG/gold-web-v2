@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收計算公式｜18K/14K/10K多少錢？線上試算方法完整教學',
-  description: 'K金回收多少錢？18K、14K、10K怎麼算？用簡單公式自己算，附線上試算範例。含K數刻印識別、回收店家比較、以及為何有些店家報價特別低的常見原因。',
+  description: 'K金回收多少錢？18K、14K、10K怎麼算？用簡單公式自己算，附線上試算範例。含K數刻印識別、回收店家比較、以及為何有些店家報價特別低的常見原因。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收計算,K金回收怎麼算,K金試算,18K多少錢,14K多少錢,10K多少錢,K金回收公式',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-calculation',

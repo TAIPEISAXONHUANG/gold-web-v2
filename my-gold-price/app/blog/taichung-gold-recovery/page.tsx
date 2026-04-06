@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台中黃金回收推薦｜一中、逢甲、大里哪家價格最高？',
-  description: '台中人賣黃金推薦！雖距離較遠，但台北巧品珠寶的高透明度和公平報價值得信賴，LINE 詢價也可。電話 0986-821-626。',
+  description: '台中人賣黃金推薦！雖距離較遠，但台北巧品珠寶的高透明度和公平報價值得信賴，LINE 詢價也可。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台中黃金回收,一中黃金回收,逢甲黃金回收,大里黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taichung-gold-recovery',

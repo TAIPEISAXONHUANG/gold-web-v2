@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收店怎麼選？10年經驗老師傅不藏私分享',
-  description: '如何選擇可信賴的黃金回收店？5大評估標準讓你避開黑心業者，10年老闆親授選店技巧，安心賣黃金拿現金。',
+  description: '如何選擇可信賴的黃金回收店？5大評估標準讓你避開黑心業者，10年老闆親授選店技巧，安心賣黃金拿現金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收店推薦,黃金回收怎麼選,黃金回收店家比較,誠信黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/how-to-choose-gold-shop',

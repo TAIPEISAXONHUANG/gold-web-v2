@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金要帶什麼？2026年最新規定告訴你',
-  description: '2026年賣黃金完整攜帶清單！身分證、黃金物品、購買憑證（選備）。台北巧品珠寶10分鐘搞定，當場現金，電話 0986-821-626。',
+  description: '2026年賣黃金完整攜帶清單！身分證、黃金物品、購買憑證（選備）。台北巧品珠寶10分鐘搞定，當場現金，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金要帶什麼,黃金回收需要什麼證件,賣黃金規定2026,黃金回收身份證,黃金回收流程文件',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/what-to-bring-when-selling-gold-2026',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣今日金價一錢2026｜最新黃金牌價即時查詢',
-  description: '台灣今日金價一錢多少錢？2026年即時黃金牌價、每錢報價、走勢解析一次看懂。巧品珠寶提供最透明收購報價，不扣耗損，當場現金。',
+  description: '台灣今日金價一錢多少錢？2026年即時黃金牌價、每錢報價、走勢解析一次看懂。巧品珠寶提供最透明收購報價，不扣耗損，當場現金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣今日金價,金價一錢2026,今日黃金價格台灣,台灣金價一錢,黃金牌價2026,今日金價台灣',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-daily-2026',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金投資｜金幣金條買賣入門｜巧品珠寶',
-  description: '黃金硬幣投資完整指南！比較金幣、金條、黃金ETF的優缺點，了解台灣黃金投資管道，掌握2026年黃金行情走勢。',
+  description: '黃金硬幣投資完整指南！比較金幣、金條、黃金ETF的優缺點，了解台灣黃金投資管道，掌握2026年黃金行情走勢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金投資,金幣投資,金條買賣,黃金理財',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-coin-invest',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '9999純金回收｜24K黃金高價收購｜巧品珠寶',
-  description: '台北9999純金（24K黃金）高價回收！巧品珠寶按當日國際金價報價，不扣耗損，當場現金。免費估價電話 0986-821-626。',
+  description: '台北9999純金（24K黃金）高價回收！巧品珠寶按當日國際金價報價，不扣耗損，當場現金。免費估價電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '9999黃金回收,24K黃金回收,純金回收,黃金條塊回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-9999-recovery',

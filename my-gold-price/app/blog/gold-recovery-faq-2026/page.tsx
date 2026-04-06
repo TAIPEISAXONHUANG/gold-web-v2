@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ｜賣黃金常見問題一篇搞懂',
-  description: '2026年黃金回收常見問題集！最新金價行情、估價流程、證件要求，一篇搞懂所有疑問，讓你放心到台北巧品珠寶賣黃金。',
+  description: '2026年黃金回收常見問題集！最新金價行情、估價流程、證件要求，一篇搞懂所有疑問，讓你放心到台北巧品珠寶賣黃金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收 FAQ,黃金回收問題,賣黃金問題',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq-2026',

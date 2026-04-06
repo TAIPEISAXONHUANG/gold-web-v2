@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '大安K金收購2026｜回收18K、14K、PT900，當場現金不拖延',
-  description: '台北大安K金收購哪裡最划算？2026年K金回收行情、計算方式、注意事項一次說清楚。18K金、14K金、PT900當場報價、XRF驗成色，不扣耗損。',
+  description: '台北大安K金收購哪裡最划算？2026年K金回收行情、計算方式、注意事項一次說清楚。18K金、14K金、PT900當場報價、XRF驗成色，不扣耗損。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-purchase-daan-2026',
   },

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Au750是什麼金？等於18K嗎？2026年Au750價格與K金市場分析',
-  description: 'Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。',
+  description: 'Au750是什麼？等於18K金嗎？含金量75%的K金，2026年台灣Au750回收與購買價格行情。含金刻印解讀、與24K/22K差異、以及市場現況分析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'Au750是什麼,Au750等於18K嗎,Au750價格,750黃金,K金刻印,18K金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/au750-gold-price-guide',

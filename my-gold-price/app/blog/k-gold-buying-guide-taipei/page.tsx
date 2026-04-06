@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金收購指南2026｜台北18K/14K/10K收購行情與店家選擇重點',
-  description: '台北K金收購行情整理：18K、14K、10K收購怎麼算？大安、板橋、北投K金收購推薦哪裡？K金收購注意事項、估價標準、為何不扣耗損才是合理的店家。',
+  description: '台北K金收購行情整理：18K、14K、10K收購怎麼算？大安、板橋、北投K金收購推薦哪裡？K金收購注意事項、估價標準、為何不扣耗損才是合理的店家。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金收購,K金收購台北,18K收購,14K收購,10K收購,台北K金收購推薦,大安K金收購,板橋K金收購',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-buying-guide-taipei',

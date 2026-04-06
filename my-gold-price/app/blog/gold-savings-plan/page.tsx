@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金儲蓄計劃2026｜小額定期定額買金、黃金存摺與累積策略',
-  description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。',
+  description: '黃金可以像基金一樣定期定額買嗎？小額每個月固定買黃金的策略。黃金儲蓄與定期定額買金的優缺點、以及台灣的實際操作方式。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金儲蓄,定期定額買黃金,黃金存摺,小額黃金投資,黃金累積計劃',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-savings-plan',

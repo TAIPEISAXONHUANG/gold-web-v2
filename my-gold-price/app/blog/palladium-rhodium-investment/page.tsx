@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '鈀金與銠金投資2026｜兩種稀有貴金屬的特性、用途與投資分析',
-  description: '鈀金和銠金是什麼？可以投資嗎？2026年鈀金和銠金的用途、價格驅動因素、以及與黃金的投資比較。兩種最稀有的貴金屬完整解析。',
+  description: '鈀金和銠金是什麼？可以投資嗎？2026年鈀金和銠金的用途、價格驅動因素、以及與黃金的投資比較。兩種最稀有的貴金屬完整解析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '鈀金投資,銠金投資,palladium,rhodium,貴金屬投資,稀有金屬',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/palladium-rhodium-investment',

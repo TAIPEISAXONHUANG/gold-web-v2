@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: 'K金回收台灣2026年4月｜18K、14K、10K收購流程與即時行情',
-    description: 'K金回收怎麼賣最划算？2026年4月台灣K金回收行情、計算方式與注意事項一次說清楚。18K、14K、10K不扣耗損，秤重全程透明。',
+    description: 'K金回收怎麼賣最划算？2026年4月台灣K金回收行情、計算方式與注意事項一次說清楚。18K、14K、10K不扣耗損，秤重全程透明。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/k-gold-recycle-taiwan-april-2026',
     siteName: '巧品珠寶',

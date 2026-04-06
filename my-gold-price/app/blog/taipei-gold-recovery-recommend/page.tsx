@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦2026｜大安區巧品珠寶，不扣耗損全台最高收價',
-  description: '找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。',
+  description: '找台北黃金回收推薦？巧品珠寶位於大安區，24K/18K/K金全收，不扣5%火耗，XRF儀器現場檢測，當場現金付款。電話 0986-821-626 立即詢問。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北黃金回收推薦,黃金回收推薦台北,台北黃金回收,大安區黃金回收,黃金高價收購台北,巧品珠寶推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recovery-recommend',

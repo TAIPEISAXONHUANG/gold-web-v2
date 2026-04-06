@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金傳統習俗｜台灣黃金文化習俗｜巧品珠寶',
-  description: '台灣黃金傳統文化完整介紹！婚嫁、長壽禮、年節習俗中的黃金意義，了解各種金飾的文化背景，讀懂長輩給黃金的心意。',
+  description: '台灣黃金傳統文化完整介紹！婚嫁、長壽禮、年節習俗中的黃金意義，了解各種金飾的文化背景，讀懂長輩給黃金的心意。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金傳統,黃金習俗,嫁妝金飾,彌月黃金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-tradition',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金收購台北大安2026｜大安區K金回收報價與找店攻略',
-  description: '台北大安K金收購，18K、14K、10K當場XRF驗成色、不扣火耗、現金結清。巧品珠寶大安館地址、交通、報價方式完整說明。',
+  description: '台北大安K金收購，18K、14K、10K當場XRF驗成色、不扣火耗、現金結清。巧品珠寶大安館地址、交通、報價方式完整說明。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金收購大安,台北大安K金回收,大安區回收K金,k金收購台北大安,18K收購大安,巧品珠寶大安',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-purchase-daan-district-2026',

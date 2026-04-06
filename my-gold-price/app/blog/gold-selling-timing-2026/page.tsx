@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '什麼時候賣黃金最划算？2026年賣金時機完整分析',
-  description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。',
+  description: '到底什麼時候賣黃金最好？從國際金價週期、季節性規律到個人資金需求，用數據說清楚賣金時機的判斷邏輯。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '什麼時候賣黃金,賣黃金時機,黃金變現時機,黃金什麼時候賣最好,2026賣金,黃金高點賣出',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-2026',

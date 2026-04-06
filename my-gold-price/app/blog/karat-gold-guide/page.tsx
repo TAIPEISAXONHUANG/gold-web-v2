@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收完全攻略｜18K/14K多少錢｜巧品珠寶',
-  description: 'K金完整指南！18K、14K、10K含金量差異、辨識方法、回收價格計算，一篇搞懂K金，讓你賣K金不被低估。',
+  description: 'K金完整指南！18K、14K、10K含金量差異、辨識方法、回收價格計算，一篇搞懂K金，讓你賣K金不被低估。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收,18K回收,14K回收,K金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-guide',

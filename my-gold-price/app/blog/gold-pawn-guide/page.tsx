@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項',
-  description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。',
+  description: '黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金典當,黃金借款,當鋪黃金,黃金質借,飾金借款',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pawn-guide',

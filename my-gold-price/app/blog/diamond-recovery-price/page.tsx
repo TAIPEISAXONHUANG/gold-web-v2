@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '鑽石回收行情2026｜台北鑽石收購價格怎麼算？',
-  description: '鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。',
+  description: '鑽石回收行情完整說明。GIA裸鑽、鑲嵌鑽戒、小鑽全收。台北巧品珠寶依4C評估現金報價，流程透明，當場付款。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '鑽石回收行情,鑽石回收,鑽石收購,台北鑽石回收,鑽石回收價格,GIA鑽石回收,鑽戒回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/diamond-recovery-price',

@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金vs K金怎麼選？回收價差一次搞懂｜巧品珠寶',
-  description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。',
+  description: '24K黃金和18K金回收價差多少？哪個保值？台北巧品珠寶用實際報價比較純度、價格與回收價值，幫你選對不吃虧。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金與K金比較,24K黃金,18K金,14K金,純度比較,黃金vs K金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-comparison',

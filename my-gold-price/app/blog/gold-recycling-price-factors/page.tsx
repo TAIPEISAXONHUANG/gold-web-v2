@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收怎麼定價？專家告訴你影響價格的關鍵因素',
-  description: '黃金回收價格怎麼決定的？解析影響回收報價的5大因素：當日金價、純度、重量、店家政策、匯率，讓你拿到最高價。',
+  description: '黃金回收價格怎麼決定的？解析影響回收報價的5大因素：當日金價、純度、重量、店家政策、匯率，讓你拿到最高價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收定價,黃金回收價格怎麼算,影響黃金價格因素,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-factors',

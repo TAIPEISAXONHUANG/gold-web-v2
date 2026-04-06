@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026年台灣黃金回收價格完整指南｜各純度回收價差比較表',
-  description: '2026年台灣黃金回收價格完整指南！最新各純度(K金/9999/995)回收報價，影響價格因素專業解析，幫您賣出最優惠價格。',
+  description: '2026年台灣黃金回收價格完整指南！最新各純度(K金/9999/995)回收報價，影響價格因素專業解析，幫您賣出最優惠價格。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收價格,2026黃金回收,K金回收價格,9999黃金回收,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-price-guide-2026',

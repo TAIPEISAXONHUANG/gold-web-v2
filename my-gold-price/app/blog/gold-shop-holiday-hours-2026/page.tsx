@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '銀樓假日有開嗎？2026台灣銀樓節假日營業時間完整說明',
-  description: '銀樓假日開嗎？週末、國定假日、農曆春節銀樓幾點開門？本文整理台灣銀樓節假日營業規律，讓你不白跑一趟。',
+  description: '銀樓假日開嗎？週末、國定假日、農曆春節銀樓幾點開門？本文整理台灣銀樓節假日營業規律，讓你不白跑一趟。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '銀樓假日有開嗎,銀樓假日營業,銀樓週末開嗎,銀樓節日有開,銀樓春節,銀樓假日,台灣銀樓營業時間',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-holiday-hours-2026',

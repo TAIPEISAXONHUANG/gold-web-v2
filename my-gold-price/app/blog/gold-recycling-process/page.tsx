@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收流程是什麼？5分鐘讓你搞懂整個過程',
-  description: '黃金回收完整流程說明！從攜帶物品、秤重估價到現金付款，全程約15分鐘。台北巧品珠寶安全透明，電話 0986-821-626。',
+  description: '黃金回收完整流程說明！從攜帶物品、秤重估價到現金付款，全程約15分鐘。台北巧品珠寶安全透明，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收流程,賣黃金步驟,黃金回收怎麼賣,黃金回收注意事項,黃金回收教學',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-process',

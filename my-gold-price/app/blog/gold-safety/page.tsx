@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金保存安全指南｜如何安全存放黃金｜巧品珠寶',
-  description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。',
+  description: '黃金交易安全指南！如何選擇可信賴的回收商、避免詐騙，了解合法黃金回收的標準流程，保障自身權益。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金保存,黃金安全存放,黃金保管方法',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-safety',

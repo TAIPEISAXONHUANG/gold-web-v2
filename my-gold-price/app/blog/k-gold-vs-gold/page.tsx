@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金與黃金的差異｜一篇讓你搞懂貴金屬',
-  description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！',
+  description: 'K金、黃金、白金有什麼不同？一篇讓你搞懂含金量、顏色、價格與保值性。買金飾前必看！ 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金與黃金的差異,K金是什麼,黃金純度,18K,24K',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-vs-gold',

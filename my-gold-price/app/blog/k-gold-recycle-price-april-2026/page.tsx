@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收價格2026年4月｜18K、14K、10K最新行情與計算方式',
-  description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。',
+  description: '2026年4月K金回收價格行情。18K、14K、10K每錢收購價格即時查詢，含金量換算公式、不扣耗損說明，台北大安巧品珠寶當日報價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收價格,18K回收價,14K回收價,K金回收行情2026,k金回收多少錢,K金收購台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-price-april-2026',

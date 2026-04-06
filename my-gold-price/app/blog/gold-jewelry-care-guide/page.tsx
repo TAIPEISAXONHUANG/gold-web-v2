@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金飾品保養、清潔與保存｜K金、9999、22K各類型完整指南',
-  description: '黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。',
+  description: '黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金飾品保養,黃金保養,黃金清潔,K金保養,純金飾品保存,黃金飾品注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-care-guide',

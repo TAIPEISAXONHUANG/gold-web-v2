@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金變現時機2026｜什麼時候賣金最好？季節性分析與進出场策略',
-  description: '什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。',
+  description: '什麼時候賣黃金最好？2026年黃金變現時機分析，包括季節性規律、年度高點統計、以及影響金價的關鍵事件。附：判斷是不是好時機的3個指標。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '什麼時候賣黃金,黃金變現時機,賣黃金時機,金價季節性,黃金高點,黃金進場時機',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-selling-timing-guide',

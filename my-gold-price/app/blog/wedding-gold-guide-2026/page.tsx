@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '結婚金飾選購完整攻略2026｜龍鳳鐲、項鍊、耳環習俗與行情',
-  description: '結婚金飾怎麼買？龍鳳鐲幾錢最合適、婚禮必備金飾清單、2026年行情與挑選技巧一次整理。不懂習俗，白花冤枉錢。',
+  description: '結婚金飾怎麼買？龍鳳鐲幾錢最合適、婚禮必備金飾清單、2026年行情與挑選技巧一次整理。不懂習俗，白花冤枉錢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '結婚金飾,結婚黃金,龍鳳鐲,婚嫁金飾,結婚買金,台灣結婚金飾習俗,黃金嫁妝,2026結婚金飾',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-guide-2026',

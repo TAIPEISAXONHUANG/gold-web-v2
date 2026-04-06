@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '影響黃金回收價格的關鍵因素｜台北黃金回收必看',
-  description: '了解影響黃金價格的5大關鍵因素：美元匯率、通膨、央行儲備、地緣政治、市場情緒。掌握金價走勢，選對時機賣黃金更划算。',
+  description: '了解影響黃金價格的5大關鍵因素：美元匯率、通膨、央行儲備、地緣政治、市場情緒。掌握金價走勢，選對時機賣黃金更划算。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收,黃金價格,影響黃金價格因素,台北黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/factors-affecting-gold-price',

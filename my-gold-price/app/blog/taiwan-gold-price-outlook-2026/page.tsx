@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣2026金價行情｜今日金價走勢與未來預測完整分析',
-  description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。',
+  description: '2026年台灣金價行情：今日金價一錢多少？走勢回顧與未來預測。含與歷史高點比較、與其他投資工具比較、以及現在是否該進場的分析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣金價2026,今日金價走勢,2026黃金預測,台灣黃金行情,金價2026展望',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-outlook-2026',

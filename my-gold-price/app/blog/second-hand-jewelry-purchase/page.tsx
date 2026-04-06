@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '二手珠寶收購｜舊珠寶高價回收變現，不需品牌收據｜巧品珠寶',
-  description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。',
+  description: '二手珠寶收購推薦！黃金、K金、白金珠寶均可，不需原廠收據、不扣耗損。台北巧品珠寶儀器鑑定，當場出價當場付現，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '二手珠寶收購,舊珠寶回收,珠寶變現,二手首飾收購',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/second-hand-jewelry-purchase',

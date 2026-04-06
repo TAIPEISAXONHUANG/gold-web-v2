@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '916黃金今日金價2026｜含金量91.6%的K金行情與回收價一次看清楚',
-  description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。',
+  description: '916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/916-gold-price-today-2026',
   },

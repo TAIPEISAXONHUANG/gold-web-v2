@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金vs白金投資｜哪個更值得買？',
-  description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。',
+  description: '黃金 vs 白金投資比較！哪個更保值？10年歷史數據分析，比較報酬率、流動性、風險，幫你選出最適合的貴金屬投資標的。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金投資,白金投資,黃金vs白金,貴金屬投資',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-investment',

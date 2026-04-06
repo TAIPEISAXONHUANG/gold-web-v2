@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北銀樓怎麼選2026｜賣黃金前必看的4個判斷指標',
-  description: '台北這麼多銀樓，哪家報價高？哪家不扣耗損？4個實用指標幫你在賣金前判斷業者是否可信，不再靠運氣。',
+  description: '台北這麼多銀樓，哪家報價高？哪家不扣耗損？4個實用指標幫你在賣金前判斷業者是否可信，不再靠運氣。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '銀樓選擇,台北銀樓推薦,哪家銀樓好,銀樓比較,賣黃金哪裡好,黃金回收選哪家,台北收金銀樓,巧品珠寶',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/how-to-choose-gold-shop-2026',

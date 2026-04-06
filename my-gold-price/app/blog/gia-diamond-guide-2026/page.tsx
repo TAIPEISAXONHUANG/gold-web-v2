@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'GIA鑽石是什麼？2026台灣GIA證書鑽石收購與鑑定完整說明',
-  description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。',
+  description: 'GIA鑽石比較保值嗎？GIA證書看哪幾項？台灣收購GIA鑽石行情、二手鑽石估價邏輯，以及舊鑽石能賣多少錢的完整解答。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'GIA鑽石,gia鑽石,GIA證書,鑽石收購,二手鑽石,鑽石估價,GIA台灣,鑽石回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-guide-2026',

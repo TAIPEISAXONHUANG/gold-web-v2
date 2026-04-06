@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '第一次賣黃金？2026回收QA十問｜巧品珠寶',
-  description: '要帶什麼證件？秤重會被扣嗎？2026最新版黃金回收10大問題，台北巧品珠寶逐題解答，新手看完就能安心賣金。',
+  description: '要帶什麼證件？秤重會被扣嗎？2026最新版黃金回收10大問題，台北巧品珠寶逐題解答，新手看完就能安心賣金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收問題,黃金回收新手,2026黃金回收,黃金回收準備,黃金回收流程',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-faq-2026',

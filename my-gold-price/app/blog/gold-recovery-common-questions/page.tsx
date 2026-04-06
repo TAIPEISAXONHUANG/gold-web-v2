@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收常見問題｜2026年最新指南｜巧品珠寶',
-  description: '黃金回收必看！2026年最新常見問題解答：回收流程、秤重扣重、證件準備、防詐騙技巧。10年經驗老闆親自解答，讓您安心變現。',
+  description: '黃金回收必看！2026年最新常見問題解答：回收流程、秤重扣重、證件準備、防詐騙技巧。10年經驗老闆親自解答，讓您安心變現。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收常見問題,黃金回收流程,黃金秤重,黃金扣重,2026黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-common-questions',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '白金價格台灣2026｜鉑金 vs 黃金收購行情完整比較',
-  description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。',
+  description: '2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   openGraph: {
     locale: 'zh_TW',
     type: 'article',

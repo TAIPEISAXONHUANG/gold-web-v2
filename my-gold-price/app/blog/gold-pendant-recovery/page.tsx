@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金墜子回收｜金吊墜高價變現｜巧品珠寶',
-  description: '黃金、鑽石吊墜高價回收！各款式吊墜、寶石墜子均可估價。台北巧品珠寶免費專業鑑定，當場現金付款，電話 0986-821-626。',
+  description: '黃金、鑽石吊墜高價回收！各款式吊墜、寶石墜子均可估價。台北巧品珠寶免費專業鑑定，當場現金付款，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金墜子回收,金吊墜變現,金墜回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-pendant-recovery',

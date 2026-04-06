@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'GIA鑽石鉴定证书怎么看？2026年台湾GIA钻石估价与回收完整攻略',
-  description: 'GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。',
+  description: 'GIA鑽石鉴定证书怎麼看？4C是什麼？2026年台灣GIA钻石估价与回收价格估算。附带钻石回收管道与注意事项。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'GIA鑽石,GIA鑽石鉴定,GIA钻石证书怎么看,钻石估价,gia钻石价格,钻石回收台湾',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gia-diamond-appraisal-taiwan',

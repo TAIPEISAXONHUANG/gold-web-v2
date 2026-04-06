@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金為什麼要登記？實名制規定全解析｜巧品珠寶',
-  description: '賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。',
+  description: '賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金為什麼要登記,黃金交易實名制,賣黃金要登記嗎,賣黃金身份證,黃金回收登記規定',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/why-register-when-selling-gold',

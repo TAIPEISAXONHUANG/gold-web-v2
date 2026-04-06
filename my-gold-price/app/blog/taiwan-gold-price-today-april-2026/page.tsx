@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '今日黃金價格台灣 2026年4月——每日更新金價查詢指南',
-  description: '2026年台灣今日黃金價格怎麼查？銀行牌告、國際金價、回收價差在哪？本篇整理黃金價格查詢管道與判讀方式，讓你每天看懂金價。',
+  description: '2026年台灣今日黃金價格怎麼查？銀行牌告、國際金價、回收價差在哪？本篇整理黃金價格查詢管道與判讀方式，讓你每天看懂金價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '今日黃金價格台灣2026,台灣黃金價格,今日金價台灣,台灣黃金今日行情,黃金價格2026,台灣黃金報價',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-today-april-2026',

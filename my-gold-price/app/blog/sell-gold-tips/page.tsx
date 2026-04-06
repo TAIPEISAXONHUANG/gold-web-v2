@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金要注意什麼？5個不被坑的必知技巧',
-  description: '賣黃金完整攻略！5大技巧讓你不吃虧，了解計價方式、避開扣耗損話術，選對店家每台錢多拿500元。巧品珠寶免費估價。',
+  description: '賣黃金完整攻略！5大技巧讓你不吃虧，了解計價方式、避開扣耗損話術，選對店家每台錢多拿500元。巧品珠寶免費估價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金注意,黃金回收注意事項,黃金買賣技巧,不被坑',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/sell-gold-tips',

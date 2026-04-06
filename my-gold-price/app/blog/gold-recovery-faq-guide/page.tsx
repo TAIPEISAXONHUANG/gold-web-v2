@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金回收FAQ攻略｜2026年新手必看｜巧品珠寶',
-  description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。',
+  description: '黃金回收免踩雷！2026年最新FAQ攻略，專治各種疑難雜症。金飾秤重怎麼看？扣耗損怎麼算？証件准沒？一次解答20個常見問題。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收FAQ,黃金回收問題,黃金秤重,扣耗損,黃金証件,2026黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq-guide',

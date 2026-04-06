@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 // 黃金與K金的差異頁面
 export const metadata: Metadata = {
   title: '黃金與K金的差異｜純度、價格、回收一篇搞懂｜巧品珠寶',
-  description: '黃金與K金有什麼不同？一篇讓您搞懂純度差異、價格計算、回收價值。了解24K、18K、14K的差別，買金飾或賣黃金都不吃虧。',
+  description: '黃金與K金有什麼不同？一篇讓您搞懂純度差異、價格計算、回收價值。了解24K、18K、14K的差別，買金飾或賣黃金都不吃虧。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金與K金差異,24K黃金,18K金,14K金,純度比較,黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-difference',

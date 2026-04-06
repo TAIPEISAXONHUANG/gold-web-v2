@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金送禮習俗與場合｜生日、婚禮、滿月、春節黃金禮品完整指南',
-  description: '黃金送禮有哪些習俗？結婚要送多少？滿月送金飾好嗎？生日、春節該送什麼黃金？台灣傳統與現代黃金送禮場合、行情參考與選擇建議。',
+  description: '黃金送禮有哪些習俗？結婚要送多少？滿月送金飾好嗎？生日、春節該送什麼黃金？台灣傳統與現代黃金送禮場合、行情參考與選擇建議。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金送禮,結婚禮金,滿月送金飾,生日禮物黃金,春節送黃金,黃金禮品習俗',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-gift-guide',

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '今日金價一錢賣出價格2026｜銀樓買入賣出差多少？',
-  description: '今日黃金一錢賣出價格是多少？銀樓公告的賣出價、買入價差在哪？巧品珠寶說清楚：一錢換算3.75克、實際拿到的現金怎麼算。電話 0986-821-626。',
+  description: '今日黃金一錢賣出價格是多少？銀樓公告的賣出價、買入價差在哪？巧品珠寶說清楚：一錢換算3.75克、實際拿到的現金怎麼算。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '今日金價一錢賣出,金價一錢賣出,黃金一錢賣出價,今日金價一錢,金價買賣差,銀樓金價',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-per-qian-buy-vs-sell',

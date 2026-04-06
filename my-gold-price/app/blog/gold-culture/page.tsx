@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金文化｜黃金的象徵意義與歷史｜巧品珠寶',
-  description: '探索黃金在台灣的文化意義！從嫁妝、長壽禮到年節禮俗，了解黃金在台灣社會中的重要地位，讀懂黃金背後的文化故事。',
+  description: '探索黃金在台灣的文化意義！從嫁妝、長壽禮到年節禮俗，了解黃金在台灣社會中的重要地位，讀懂黃金背後的文化故事。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金文化,黃金意義,黃金習俗,黃金傳統文化',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-culture',

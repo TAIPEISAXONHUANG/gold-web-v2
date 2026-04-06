@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金保險｜黃金保障規劃指南｜巧品珠寶',
-  description: '黃金保險完整說明！了解如何保障黃金資產安全，比較各種保管方式的風險。台北巧品珠寶提供安全的黃金回收服務。',
+  description: '黃金保險完整說明！了解如何保障黃金資產安全，比較各種保管方式的風險。台北巧品珠寶提供安全的黃金回收服務。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金保險,黃金保管,黃金安全,黃金保障',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-insurance',

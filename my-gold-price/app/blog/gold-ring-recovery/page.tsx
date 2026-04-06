@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金戒指回收｜結婚戒指變現｜巧品珠寶',
-  description: '黃金戒指高價回收！各款式K金戒指、婚戒均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。',
+  description: '黃金戒指高價回收！各款式K金戒指、婚戒均可，按重量計價不扣耗損。台北巧品珠寶老闆親自鑑定，當場現金，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金戒指回收,結婚戒指變現,金戒指回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-ring-recovery',

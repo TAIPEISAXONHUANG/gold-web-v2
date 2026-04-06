@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收流程2026｜從帶金入店到拿現金，完整步驟說明',
-  description: '賣黃金要帶什麼？怎麼秤重？報價怎麼算？2026年黃金回收完整流程，從預約到拿錢每一步都說清楚，不讓你走冤枉路。',
+  description: '賣黃金要帶什麼？怎麼秤重？報價怎麼算？2026年黃金回收完整流程，從預約到拿錢每一步都說清楚，不讓你走冤枉路。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收流程,黃金回收步驟,賣黃金流程,黃金回收怎麼賣,黃金收購流程,黃金回收需要什麼,台北黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-process-2026',

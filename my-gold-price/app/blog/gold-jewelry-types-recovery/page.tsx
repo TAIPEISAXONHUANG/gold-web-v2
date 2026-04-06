@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點',
-  description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。',
+  description: '金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '金飾回收,金項鍊回收,金戒指回收,金手鍊回收,金耳環回收,黃金飾品回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-types-recovery',

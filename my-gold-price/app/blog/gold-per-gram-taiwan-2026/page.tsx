@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明',
-  description: '台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。',
+  description: '台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台灣黃金每公克價格,金價每公克,黃金一公克多少錢,錢轉公克,公克轉錢',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-per-gram-taiwan-2026',

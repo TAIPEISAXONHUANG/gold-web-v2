@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金與K金的差異分析｜純度、價格、回收價值一次看懂｜巧品珠寶',
-  description: '黃金與K金哪個更值得買？24K、18K、14K差在哪？一篇搞懂純度、價格計算方式、回收價值，買金飾不吃虧、賣黃金更值錢。',
+  description: '黃金與K金哪個更值得買？24K、18K、14K差在哪？一篇搞懂純度、價格計算方式、回收價值，買金飾不吃虧、賣黃金更值錢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金與K金差異,24K與18K差異,黃金純度,K金價格計算,黃金回收知識',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-difference-guide',

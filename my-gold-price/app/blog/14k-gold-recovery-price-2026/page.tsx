@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '14K金回收價格2026｜當日行情、計算公式與避坑指南',
-  description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。',
+  description: '2026年14K金回收價格怎麼算？每錢大概多少？本文給出完整公式、當日行情區間，還有去銀樓前你必須知道的3個避坑重點。巧品珠寶不扣耗損、XRF驗成色。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/14k-gold-recovery-price-2026',
   },

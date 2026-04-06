@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '賣黃金要繳稅嗎？黃金稅務完整說明｜巧品珠寶',
-  description: '賣黃金要繳稅嗎？台灣黃金交易稅務規定完整說明，個人黃金回收的課稅情況、申報方式，讓你賣黃金不踩法律紅線。',
+  description: '賣黃金要繳稅嗎？台灣黃金交易稅務規定完整說明，個人黃金回收的課稅情況、申報方式，讓你賣黃金不踩法律紅線。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金稅務,賣黃金繳稅,黃金所得稅,遺產稅黃金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-tax',

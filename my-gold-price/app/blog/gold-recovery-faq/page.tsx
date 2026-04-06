@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收常見問題｜秤重、扣重、流程一篇搞懂',
-  description: '黃金回收最常見問題全解答！包含計價方式、流程、所需證件、詐騙防範，10年經驗老闆直接回答，讓你安心賣黃金。',
+  description: '黃金回收最常見問題全解答！包含計價方式、流程、所需證件、詐騙防範，10年經驗老闆直接回答，讓你安心賣黃金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收 FAQ,黃金回收流程,黃金秤重,黃金扣重,黃金回收問題',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-faq',

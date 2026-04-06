@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '白金回收價格2026｜白金vs黃金哪個值錢？台灣即時行情',
-  description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。',
+  description: '2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '白金回收價格2026,白金價格台灣,鉑金回收,Pt900回收,白金vs黃金,台灣白金行情',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-price-vs-gold-2026',

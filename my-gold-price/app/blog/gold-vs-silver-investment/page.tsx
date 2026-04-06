@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議',
-  description: '黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。',
+  description: '黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金vs白銀,黃金白銀投資,白銀投資,貴金屬投資比較,黃金白銀比率',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-silver-investment',

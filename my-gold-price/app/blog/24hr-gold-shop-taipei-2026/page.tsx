@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '24小時銀樓台北2026｜哪裡能半夜賣黃金？實況整理',
-  description: '台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。',
+  description: '台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/24hr-gold-shop-taipei-2026',
   },

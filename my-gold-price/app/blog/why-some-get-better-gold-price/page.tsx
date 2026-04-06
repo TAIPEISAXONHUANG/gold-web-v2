@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '為什麼有些人賣黃金比較值錢？原來是這個原因',
-  description: '為什麼同樣的黃金，有人拿到高價、有人拿到低價？揭秘3大關鍵因素：選店技巧、時機、談判方式，讓你拿到最高回收價。',
+  description: '為什麼同樣的黃金，有人拿到高價、有人拿到低價？揭秘3大關鍵因素：選店技巧、時機、談判方式，讓你拿到最高回收價。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '賣黃金技巧,黃金回收更值錢,黃金賣高價方法,黃金回收選哪家,黃金回收注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/why-some-get-better-gold-price',

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收行情報告｜18K、14K多少錢？',
-  description: 'K金回收現場報告！18K、14K黃金實際估價流程，2026年最新K金行情揭露，讓你了解K金到底值多少錢。',
+  description: 'K金回收現場報告！18K、14K黃金實際估價流程，2026年最新K金行情揭露，讓你了解K金到底值多少錢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收,18K多少錢,14K回收行情,K金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/karat-gold-report',

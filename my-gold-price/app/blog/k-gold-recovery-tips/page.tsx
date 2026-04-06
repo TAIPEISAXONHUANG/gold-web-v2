@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '回收K金攻略2026｜18K/14K/10K收購流程與避坑指南',
-  description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。',
+  description: '想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '回收K金,K金回收,18K回收,14K回收,K金收購,回收K金哪裡好,台北K金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recovery-tips',

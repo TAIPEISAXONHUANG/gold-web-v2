@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '結婚金飾習俗與預算2026｜龍鳳鐲、項鍊、耳環習俗與行情',
-  description: '結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。',
+  description: '結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '結婚金飾,結婚金飾習俗,龍鳳鐲,結婚金飾預算,台灣結婚金飾,婚禮黃金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/wedding-gold-guide',

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: '今日即時金價2026年4月｜台灣黃金現貨報價查詢與解讀方式',
-    description: '怎麼看台灣即時金價？2026年4月黃金每錢現貨報價、買進賣出價差說明，以及哪裡查最快、最準。不廢話直接說清楚。',
+    description: '怎麼看台灣即時金價？2026年4月黃金每錢現貨報價、買進賣出價差說明，以及哪裡查最快、最準。不廢話直接說清楚。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/realtime-gold-price-april-2026',
     siteName: '巧品珠寶',

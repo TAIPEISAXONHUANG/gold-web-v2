@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '第一次買黃金就上手2026｜新手買金注意事項、管道比較與防騙指南',
-  description: '第一次買黃金要注意什麼？2026年台灣買黃金管道、價格陷阱、純度識別，以及新手最常問的5個問題。買黃金不後悔，先看這篇。',
+  description: '第一次買黃金要注意什麼？2026年台灣買黃金管道、價格陷阱、純度識別，以及新手最常問的5個問題。買黃金不後悔，先看這篇。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '第一次買黃金,新手買黃金,買黃金注意事項,台灣買黃金管道,買黃金教學',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-buying-guide-beginner-2026',

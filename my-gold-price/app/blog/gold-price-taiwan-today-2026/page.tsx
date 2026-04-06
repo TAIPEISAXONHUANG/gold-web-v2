@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '今日黃金價格台灣2026｜一錢、一兩、一克即時行情查詢',
-  description: '查詢2026年台灣今日黃金價格，包含一錢、一兩、一克實時報價，銀樓收購與賣出差價說明，以及影響金價的關鍵因素分析。',
+  description: '查詢2026年台灣今日黃金價格，包含一錢、一兩、一克實時報價，銀樓收購與賣出差價說明，以及影響金價的關鍵因素分析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   openGraph: {
     locale: 'zh_TW',
     type: 'article',

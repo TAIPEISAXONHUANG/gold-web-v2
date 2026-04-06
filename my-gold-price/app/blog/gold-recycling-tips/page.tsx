@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收注意事項｜賣黃金不被坑｜巧品珠寶',
-  description: '賣黃金不吃虧！黃金回收實用技巧大全，選對時機、選對店家，讓你每次賣黃金都能拿到最划算的價格。',
+  description: '賣黃金不吃虧！黃金回收實用技巧大全，選對時機、選對店家，讓你每次賣黃金都能拿到最划算的價格。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收注意,賣黃金不被坑,黃金回收陷阱',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-tips',

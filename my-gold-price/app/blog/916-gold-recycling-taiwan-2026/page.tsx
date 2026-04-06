@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '916黃金回收2026｜台灣916金價行情與18K差異完整解析',
-  description: '916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。',
+  description: '916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '916黃金回收,916金回收,916黃金價格,916 K金,22K黃金回收台灣,916 gold recycling',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/916-gold-recycling-taiwan-2026',

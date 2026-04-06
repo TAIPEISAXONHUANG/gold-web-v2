@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金飾品保養完整指南2026｜清潔、存放與常見損傷預防',
-  description: '黃金飾品怎麼保養才對？9999純金、K金、Pt900保養方式各不同。清潔步驟、存放禁忌、常見刮損問題一次解決。',
+  description: '黃金飾品怎麼保養才對？9999純金、K金、Pt900保養方式各不同。清潔步驟、存放禁忌、常見刮損問題一次解決。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金飾品保養,黃金清潔,金飾保養,K金保養,黃金手鍊保養,黃金項鍊變色,黃金戒指保養',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-jewelry-care-2026',

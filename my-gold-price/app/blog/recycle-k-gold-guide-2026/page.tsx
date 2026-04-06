@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '回收K金怎麼算？2026年K金收購價格完整攻略',
-  description: '回收K金前必看：18K、14K、10K收購價怎麼算？扣耗損是什麼陷阱？實際到手金額怎麼估？一篇說清楚。',
+  description: '回收K金前必看：18K、14K、10K收購價怎麼算？扣耗損是什麼陷阱？實際到手金額怎麼估？一篇說清楚。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '回收k金,k金回收,k金收購,回收黃金k金,k金回收價格2026,18k金回收,14k金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/recycle-k-gold-guide-2026',

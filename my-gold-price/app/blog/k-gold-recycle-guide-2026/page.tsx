@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金回收完整指南2026｜14K、18K、Pt900收購流程與報價邏輯',
-  description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。',
+  description: '想賣K金不知道從哪開始？14K、18K、24K回收計算方式、現場流程、報價陷阱，一次說清楚。台北大安區巧品珠寶不扣耗損。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金回收,k金回收,回收k金,K金回收價格,14K回收,18K回收,k金怎麼賣,k金收購',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/k-gold-recycle-guide-2026',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '白金和黃金有什麼不同？2026年台灣白金回收價格與選購指南',
-  description: '白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。',
+  description: '白金（鉑金）vs 黃金，2026年台灣行情大比較。Pt950 vs 9999含量差異、價格走勢、回收行情，以及哪個更保值的完整解析。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '白金,白金回收,白金vs黃金,鉑金價格台灣,Pt950回收,白金多少錢,白金黃金差別',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/platinum-vs-gold-taiwan-2026',

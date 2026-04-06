@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金單位換算｜錢/兩/盎司/公克完整對照表與實用試算',
-  description: '黃金單位怎麼算？1錢多少克？1兩、1盎司、1公克之間的換算關係。附線上試算範例與2026年台灣金價行情參考。',
+  description: '黃金單位怎麼算？1錢多少克？1兩、1盎司、1公克之間的換算關係。附線上試算範例與2026年台灣金價行情參考。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金單位換算,黃金錢兩換算,1錢多少克,黃金盎司換算,金衡盎司,台灣黃金單位',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-measurement-unit-converter',

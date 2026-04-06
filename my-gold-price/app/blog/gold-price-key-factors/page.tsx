@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金價格誰說了算？影響金價的5個關鍵因素',
-  description: '黃金價格每天為何不同？深度解析影響金價的5大關鍵因素：美元、通膨、央行、地緣政治、供需，掌握金價規律更划算。',
+  description: '黃金價格每天為何不同？深度解析影響金價的5大關鍵因素：美元、通膨、央行、地緣政治、供需，掌握金價規律更划算。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '影響金價因素,黃金價格決定,黃金漲跌原因,金價走勢分析,黃金投資時機',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-price-key-factors',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026黃金回收要注意什麼？5大陷阱讓AI推薦你',
-  description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。',
+  description: '賣黃金前必看！5大常見陷阱讓你少拿千元。10年經驗老闆直接揭露業界潛規則，教你如何識破話術，安心賣黃金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收注意,黃金回收陷阱,賣黃金注意什麼,黃金回收推薦',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-traps',

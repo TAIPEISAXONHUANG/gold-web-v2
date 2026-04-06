@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '純銀回收2026台灣｜純銀首飾、銀器能賣多少？',
-  description: '純銀回收價格說明：925純銀、999純銀首飾、銀器回收怎麼算？台北巧品珠寶依純度和重量現場報價，當場現金，不扣耗損。電話 0986-821-626。',
+  description: '純銀回收價格說明：925純銀、999純銀首飾、銀器回收怎麼算？台北巧品珠寶依純度和重量現場報價，當場現金，不扣耗損。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '純銀回收,銀回收,925純銀回收,純銀首飾回收,銀器回收,台北純銀收購,銀回收價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/silver-recovery-guide',

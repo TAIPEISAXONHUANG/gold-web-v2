@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026年黃金與K金的差異｜買金飾前必看的純度攻略｜巧品珠寶',
-  description: '黃金與K金哪個好？一篇搞懂24K、18K、14K的純度差異、價格計算、優缺點比較。2026年最新數據，買金飾或賣黃金都適用。',
+  description: '黃金與K金哪個好？一篇搞懂24K、18K、14K的純度差異、價格計算、優缺點比較。2026年最新數據，買金飾或賣黃金都適用。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金與K金差異,24K,18K,14K,K金純度,黃金K金比較,2026黃金',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-2026',

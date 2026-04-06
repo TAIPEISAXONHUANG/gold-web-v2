@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收常見問題總整理｜2026年必看攻略',
-  description: '黃金回收常見問題解答：流程、證件、費用、注意事項。專業珠寶店親自告訴你如何賣出好價格。',
+  description: '黃金回收常見問題解答：流程、證件、費用、注意事項。專業珠寶店親自告訴你如何賣出好價格。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收常見問題,黃金回收流程,黃金回收證件,黃金回收注意',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-faq',

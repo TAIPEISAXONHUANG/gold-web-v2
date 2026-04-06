@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '翡翠收購台北2026｜舊翡翠手鐲戒指能賣多少？',
-  description: '台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。',
+  description: '台北翡翠收購，老翡翠手鐲、A貨翡翠戒指、翡翠吊墜都收。巧品珠寶大安區專業估價，依成色種水透明度報價，不說廢話。電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '翡翠收購台北,翡翠回收,翡翠手鐲收購,台北翡翠估價,翡翠收購推薦,老翡翠回收,A貨翡翠回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/jadeite-purchase-taipei',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金手錶回收｜勞力士等名錶收購｜巧品珠寶',
-  description: '黃金、名錶高價回收！勞力士、OMEGA等品牌黃金錶殼均可估價。台北巧品珠寶老闆親自鑑定，免費估價，電話 0986-821-626。',
+  description: '黃金、名錶高價回收！勞力士、OMEGA等品牌黃金錶殼均可估價。台北巧品珠寶老闆親自鑑定，免費估價，電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金手錶回收,勞力士回收,名錶收購,金錶回收台北',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-watch-recovery',

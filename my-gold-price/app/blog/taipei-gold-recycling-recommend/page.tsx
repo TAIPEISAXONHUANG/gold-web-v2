@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '台北黃金回收推薦｜2026年哪家銀樓價格最好？大安/中山/士林攻略',
-  description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。',
+  description: '台北黃金回收推薦！整理大安區、中山區、士林區等熱門銀樓推薦，價格比較與選擇攻略。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '台北黃金回收,黃金回收推薦,台北銀樓,大安區黃金回收,中山區黃金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taipei-gold-recycling-recommend',

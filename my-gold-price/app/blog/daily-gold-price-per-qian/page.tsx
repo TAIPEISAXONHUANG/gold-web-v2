@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '今日金價一錢多少？台灣黃金一錢價格即時查詢｜巧品珠寶',
-  description: '今日台灣黃金一錢價格查詢！一錢等於3.75克，了解金價換算方式、999/916一錢價格差異，以及回收變現的最佳時機。巧品珠寶電話 0986-821-626。',
+  description: '今日台灣黃金一錢價格查詢！一錢等於3.75克，了解金價換算方式、999/916一錢價格差異，以及回收變現的最佳時機。巧品珠寶電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '今日金價一錢,今日金價一錢多少,台灣黃金一錢,一錢黃金價格',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/daily-gold-price-per-qian',

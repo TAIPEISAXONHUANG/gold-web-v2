@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收秤重陷阱｜怎麼判斷秤有沒有動手腳？',
-  description: '賣黃金最常見的秤重陷阱！揭露業者如何在秤重上動手腳，教你如何現場確認重量，避免被少算黃金重量而損失金錢。',
+  description: '賣黃金最常見的秤重陷阱！揭露業者如何在秤重上動手腳，教你如何現場確認重量，避免被少算黃金重量而損失金錢。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金秤重,秤重陷阱,黃金回收注意事項',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-scale-trap',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '台灣黃金一兩價格2026｜一兩等於幾錢幾克？換算表＋今日行情',
-  description: '2026年台灣黃金一兩價格多少？1兩＝10錢＝37.5克，今日行情、換算公式、與「一錢」的差異全部一次說清楚。巧品珠寶不扣耗損，透明報價，當場現金。',
+  description: '2026年台灣黃金一兩價格多少？1兩＝10錢＝37.5克，今日行情、換算公式、與「一錢」的差異全部一次說清楚。巧品珠寶不扣耗損，透明報價，當場現金。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/taiwan-gold-price-liang-vs-qian-2026',
   },

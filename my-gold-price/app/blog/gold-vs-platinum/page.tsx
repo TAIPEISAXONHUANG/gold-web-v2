@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金、白金、K金有何不同？一篇搞懂',
-  description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。',
+  description: '黃金 vs 白金：哪個更值得投資？比較兩者的價格走勢、稀有度、工業需求，2026年行情分析，讓你做出更聰明的投資決策。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金vs白金,K金是什麼,珠寶材質比較',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum',

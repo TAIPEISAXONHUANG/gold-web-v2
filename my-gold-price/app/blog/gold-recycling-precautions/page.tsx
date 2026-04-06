@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '賣黃金防被騙！5大回收陷阱破解｜巧品珠寶',
-  description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。',
+  description: '扣秤、灌耗損、壓低純度…賣金常見5種手法全拆解。台北巧品珠寶教你自保，每台錢多拿500-1000元。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收注意,黃金回收防騙,賣黃金注意事項,黃金回收陷阱,黃金回收指南,賣黃金防詐',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recycling-precautions',

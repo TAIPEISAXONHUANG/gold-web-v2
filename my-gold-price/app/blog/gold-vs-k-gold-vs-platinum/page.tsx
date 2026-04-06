@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'K金、黃金、白金有什麼不同？一篇讓你搞懂貴金屬',
-  description: '黃金、K金、白金有什麼不同？一篇比較三者的成分、顏色、價值、回收行情，幫你分清楚手上的首飾是哪種材質。',
+  description: '黃金、K金、白金有什麼不同？一篇比較三者的成分、顏色、價值、回收行情，幫你分清楚手上的首飾是哪種材質。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: 'K金,黃金,白金,貴金屬比較,黃金回收,K金回收,白金回收',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-k-gold-vs-platinum',

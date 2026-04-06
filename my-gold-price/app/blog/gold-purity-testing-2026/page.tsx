@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金純度鑑定2026｜999、18K、14K怎麼測？方法與注意事項完整說明',
-  description: '黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。',
+  description: '黃金純度怎麼鑑定？火試法、X光螢光儀、酸測三種方法各有什麼差異？2026年帶你看清楚黃金純度標記與鑑定實務，賣金前先看這篇。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金純度鑑定,黃金鑑定,黃金成色,K金純度,黃金純度測試,999黃金,18K純度,14K純度,黃金真假',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-purity-testing-2026',

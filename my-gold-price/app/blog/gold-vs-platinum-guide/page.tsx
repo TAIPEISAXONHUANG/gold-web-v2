@@ -2,7 +2,7 @@
 
 export const metadata: Metadata = {
   title: '黃金 vs 白金 vs K金：2026年完整比較｜成分・價格・投資價值',
-  description: '黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值一次看清楚。巧品珠寶10年經驗整理。',
+  description: '黃金、白金（鉑金）、K金完整比較！成分差異、2026年價格行情、投資報酬率、回收價值一次看清楚。巧品珠寶10年經驗整理。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金白金比較,黃金K金白金差別,鉑金黃金比較,白金值錢還是黃金值錢',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-vs-platinum-guide',

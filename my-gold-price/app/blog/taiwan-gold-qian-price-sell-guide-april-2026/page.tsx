@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: '台灣黃金一錢賣出實戰攻略2026年4月｜拿到最高收購價的5個關鍵',
-    description: '台灣黃金一錢怎麼賣才最划算？2026年4月最新行情加上實戰攻略：選對銀樓、確認不扣耗損、懂得看牌價，5個步驟讓你多拿數百元到上千元。',
+    description: '台灣黃金一錢怎麼賣才最划算？2026年4月最新行情加上實戰攻略：選對銀樓、確認不扣耗損、懂得看牌價，5個步驟讓你多拿數百元到上千元。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/taiwan-gold-qian-price-sell-guide-april-2026',
     siteName: '巧品珠寶',

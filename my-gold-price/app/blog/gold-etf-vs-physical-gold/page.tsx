@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金ETF vs 實體黃金2026｜哪個更值得？費用、流動性、稅務比較',
-  description: '黃金ETF和實體黃金（金條、金飾）哪個好？2026年完整比較包括：費用結構、流動性、風險、稅務，以及台灣投資人的實際操作方式。',
+  description: '黃金ETF和實體黃金（金條、金飾）哪個好？2026年完整比較包括：費用結構、流動性、風險、稅務，以及台灣投資人的實際操作方式。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金ETF,實體黃金,黃金投資比較,黃金ETF推薦,黃金存摺',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-etf-vs-physical-gold',

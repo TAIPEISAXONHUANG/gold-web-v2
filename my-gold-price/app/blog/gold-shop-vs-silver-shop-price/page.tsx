@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金回收店 vs 銀樓 價格比較｜2026年哪裡賣黃金最划算？',
-  description: '黃金回收店與銀樓完整比較！價格、扣耗、專業度、信任度全面分析，幫您選擇最划算的黃金變現管道。',
+  description: '黃金回收店與銀樓完整比較！價格、扣耗、專業度、信任度全面分析，幫您選擇最划算的黃金變現管道。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金回收店比較,銀樓回收,哪裡賣黃金最划算,黃金回收管道',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-shop-vs-silver-shop-price',

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: 'zh_TW',
     title: '賣黃金流程2026年完整攻略｜從估價到拿現金全步驟說明',
-    description: '第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。',
+    description: '第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
     type: 'article',
     url: 'https://www.gold-tw.com/blog/k-gold-sell-process-2026',
     siteName: '巧品珠寶',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '台北24小時銀樓2026｜哪些銀樓深夜也能賣黃金？',
-  description: '想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。',
+  description: '想知道台灣哪裡有24小時銀樓嗎？本文整理2026年台北及全台黃金回收服務時間，深夜緊急賣金的選項與注意事項。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   openGraph: {
     locale: 'zh_TW',
     type: 'article',

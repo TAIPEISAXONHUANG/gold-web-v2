@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '今日黃金回收價格2026｜台北當場現金，不扣耗損',
-  description: '想知道今日黃金回收價格？巧品珠寶依據國際金價即時報價，24K、18K、14K全收，不扣5%火耗，秤重全程透明。台北大安電話 0986-821-626。',
+  description: '想知道今日黃金回收價格？巧品珠寶依據國際金價即時報價，24K、18K、14K全收，不扣5%火耗，秤重全程透明。台北大安電話 0986-821-626。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '今日黃金回收價格,黃金回收價格,黃金回收行情,今日金價回收,黃金回收台北,巧品珠寶',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-recovery-price-today',

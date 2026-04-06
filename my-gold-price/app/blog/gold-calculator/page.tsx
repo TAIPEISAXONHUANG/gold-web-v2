@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '黃金重量計算機｜線上黃金秤重｜巧品珠寶',
-  description: '黃金回收價格計算教學：重量（台錢）× 當日牌價 = 你能拿到的金額。巧品珠寶按公開金價報價，絕不偷斤減兩。',
+  description: '黃金回收價格計算教學：重量（台錢）× 當日牌價 = 你能拿到的金額。巧品珠寶按公開金價報價，絕不偷斤減兩。 台北巧品珠寶鑑定師L親自鑑定，10年以上珠寶鑑定資歷，透明報價不扣耗損，台北大安區濟南路三段62-1號，提供免費估價與諮詢服務。',
   keywords: '黃金計算機,黃金秤重,黃金重量計算',
   alternates: {
     canonical: 'https://www.gold-tw.com/blog/gold-calculator',
