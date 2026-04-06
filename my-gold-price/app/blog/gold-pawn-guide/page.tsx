@@ -92,7 +92,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金典當借款指南2026｜黃金飾品可以當鋪借錢嗎？利息、流程與注意事項</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金飾品可以典當借錢嗎？當鋪用黃金借款的利息、流程與注意事項。黃金典當vs賣斷哪個好？比較當鋪、銀樓、銀行的黃金借款方案。
       </div>
 

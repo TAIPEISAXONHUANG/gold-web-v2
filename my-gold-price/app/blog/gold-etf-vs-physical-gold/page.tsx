@@ -96,7 +96,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金ETF vs 實體黃金2026｜哪個更值得？費用、流動性、稅務比較</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金ETF和實體黃金（金條、金飾）哪個好？2026年完整比較包括：費用結構、流動性、風險、稅務，以及台灣投資人的實際操作方式。
       </div>
 

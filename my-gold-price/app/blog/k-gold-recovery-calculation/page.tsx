@@ -99,7 +99,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收計算公式｜18K/14K/10K多少錢？線上試算方法完整教學</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> K金回收多少錢？18K、14K、10K怎麼算？用簡單公式自己算，附線上試算範例。含K數刻印識別、回收店家比較、以及為何有些店家報價特別低的常見原因。
       </div>
 

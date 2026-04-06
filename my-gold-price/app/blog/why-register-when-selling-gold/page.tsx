@@ -93,7 +93,7 @@ export default function Page() {
       />
 
       <h1>賣黃金為什麼要登記？實名制規定全解析</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 賣黃金為什麼要登記？台灣黃金交易實名制規定詳解：哪些情況需要登記、要提供什麼資料、超過多少金額要申報？2026年最新法規說清楚，不是業者想要你的資料。
       </div>
 

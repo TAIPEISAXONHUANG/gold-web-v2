@@ -102,7 +102,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金飾品保養、清潔與保存｜K金、9999、22K各類型完整指南</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金飾品怎麼保養？K金、9999純金、22K金的清潔與保存方法。戴著洗澡可以嗎？要注意什麼？附常見保養疑問解答。
       </div>
 

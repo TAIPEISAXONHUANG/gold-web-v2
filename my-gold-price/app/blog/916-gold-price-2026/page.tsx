@@ -82,7 +82,7 @@ export default function Page() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, lineHeight: 1.4, marginBottom: '12px' }}>
         916黃金是什麼？純度、價格與收購行情完整說明2026
       </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 916黃金代表22K黃金，含金量91.6%。本文說明916黃金的純度定義、2026年台灣收購價、與24K的差異，以及賣出時要注意什麼。
       </div>
 

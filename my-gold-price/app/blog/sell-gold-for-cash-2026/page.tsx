@@ -146,7 +146,7 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-gray-900">
           賣黃金現金支付2026｜哪裡現場收金、當場付現最可靠？
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 賣黃金要現金？2026年台灣銀樓、回收商現場現金付款完整攻略。哪些店當場結算、哪些用匯款？附：避免被拖延付款的3個技巧。
       </div>
 

@@ -97,7 +97,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>今日黃金價格台灣2026｜每日報價查詢、漲跌原因與回收建議</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 今日黃金價格台灣2026：每日更新的黃金報價、漲跌分析、一錢一兩換算，以及黃金回收最佳時機判斷。看這一篇就夠了。
       </div>
 

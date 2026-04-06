@@ -97,7 +97,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>今日金價一錢賣出2026｜賣黃金前必看的報價邏輯與避坑指南</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年今日黃金賣出價一錢多少？搞清楚「賣出價」和「買入價」的差異，才不會白白少領幾百塊。巧品珠寶不扣耗損、秤重透明，當場現金，電洽即時報價。
       </div>
 

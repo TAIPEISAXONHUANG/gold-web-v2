@@ -98,7 +98,7 @@ export default function TaipeiSilverShopRecommend2026() {
 
       <article>
         <h1>台北銀樓推薦2026｜選店三個標準，比口碑評分更直接</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北哪家銀樓值得推薦？2026年選銀樓不是看外觀，要看XRF有沒有、報價透不透明、有沒有扣火耗。本文直接說選店標準，附巧品珠寶實際服務說明。
       </div>
 

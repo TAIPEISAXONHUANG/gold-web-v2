@@ -95,7 +95,7 @@ export default function Page() {
       />
 
       <h1>今日金價一錢賣出價格2026｜銀樓買入賣出差多少？</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 今日黃金一錢賣出價格是多少？銀樓公告的賣出價、買入價差在哪？巧品珠寶說清楚：一錢換算3.75克、實際拿到的現金怎麼算。電話 0986-821-626。
       </div>
 

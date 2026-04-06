@@ -101,7 +101,7 @@ export default function Page() {
       <main style={{ padding: '2rem', maxWidth: '860px', margin: '0 auto' }}>
 
         <h1>白金回收價格2026：台灣鉑金行情・與黃金比較・回收完整攻略</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年白金（鉑金Pt900/Pt950）回收行情，每台錢約14,000-16,000元。白金和黃金哪個更值錢？本文完整比較，巧品珠寶收白金、鑽戒、Pt飾品，電話0986-821-626。
       </div>
 

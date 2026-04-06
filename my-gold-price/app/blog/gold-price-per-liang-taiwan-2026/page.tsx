@@ -93,7 +93,7 @@ export default function Page() {
       />
 
       <h1>2026台灣今日金價一兩多少錢？一錢一兩黃金換算完整指南</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年台灣今日金價一兩即時行情查詢。一兩黃金等於幾克？9999純金一兩回收多少錢？附完整計算公式與各純度對照表，台北大安巧品珠寶當日牌價最透明。
       </div>
 

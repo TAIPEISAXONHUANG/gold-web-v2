@@ -114,7 +114,7 @@ export default function PlatinumRecoveryPrice2026() {
         <h1 style={{ fontSize: '28px', fontWeight: 'bold', lineHeight: '1.4', marginBottom: '16px' }}>
           白金回收價格2026｜Pt900、Pt950即時行情與收購流程
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 白金（鉑金）回收行情完整說明。Pt900、Pt950目前收購價格、計算方式、與黃金差異，台北巧品珠寶24小時收購，不扣耗損、秤重全程透明。
       </div>
 

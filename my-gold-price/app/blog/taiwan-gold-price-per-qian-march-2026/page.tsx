@@ -98,7 +98,7 @@ export default function TaiwanGoldPricePerQianMarch2026() {
 
       <article>
         <h1>台灣今日金價一錢2026年3月｜每錢黃金行情、換算方式完整整理</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年3月台灣黃金一錢價格是多少？買進價、賣出價各是多少？本文整理3月完整行情數據、換算公式、與2月相比的漲跌，讓你一眼掌握這波高點。
       </div>
 

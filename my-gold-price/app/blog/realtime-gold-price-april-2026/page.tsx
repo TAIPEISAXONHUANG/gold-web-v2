@@ -148,7 +148,7 @@ export default function RealtimeGoldPriceApril2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           今日即時金價2026年4月｜台灣黃金現貨報價查詢與解讀方式
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 怎麼看台灣即時金價？2026年4月黃金每錢現貨報價、買進賣出價差說明，以及哪裡查最快、最準。不廢話直接說清楚。
       </div>
 

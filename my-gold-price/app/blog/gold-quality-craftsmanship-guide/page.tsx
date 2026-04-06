@@ -91,7 +91,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金品質與工藝指南2026｜如何判斷好壞？工藝、品牌、產地差異</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金品質怎麼看？除了K數以外，工藝水平、品牌譽、產地來源都影響黃金飾品價值。本篇詳細說明義大利金飾、中國金飾、台灣金飾的工藝差異與品質辨識方法。
       </div>
 

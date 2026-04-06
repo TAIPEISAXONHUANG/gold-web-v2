@@ -98,7 +98,7 @@ export default function RealTimeGoldPriceToday2026() {
 
       <article>
         <h1>今日即時金價2026｜台灣一錢、一兩黃金報價即時更新</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 想查今日即時金價？2026年台灣黃金買入、賣出報價每天更新，一錢、一兩換算一次搞懂。附今日行情參考、走勢說明、哪裡可以查到最即時的金價。
       </div>
 

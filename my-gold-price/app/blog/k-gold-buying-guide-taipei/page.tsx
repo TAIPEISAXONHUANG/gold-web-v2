@@ -99,7 +99,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金收購指南2026｜台北18K/14K/10K收購行情與店家選擇重點</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北K金收購行情整理：18K、14K、10K收購怎麼算？大安、板橋、北投K金收購推薦哪裡？K金收購注意事項、估價標準、為何不扣耗損才是合理的店家。
       </div>
 

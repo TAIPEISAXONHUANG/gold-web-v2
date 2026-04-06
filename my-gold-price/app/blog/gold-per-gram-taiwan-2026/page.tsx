@@ -121,7 +121,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台灣黃金每公克價格2026｜每錢與每公克換算公式完整說明</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台灣黃金每公克多少錢？2026年最新行情。每公克與每錢怎麼換算？附線上試算公式，以及為何台灣不用公克報價的原因。
       </div>
 

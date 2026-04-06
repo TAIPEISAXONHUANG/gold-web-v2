@@ -99,7 +99,7 @@ export default function KGoldPurchaseDaanDistrict2026Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金收購台北大安2026｜大安區K金回收報價與找店攻略</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北大安K金收購，18K、14K、10K當場XRF驗成色、不扣火耗、現金結清。巧品珠寶大安館地址、交通、報價方式完整說明。
       </div>
 

@@ -111,7 +111,7 @@ export default function Page() {
   }) }} />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">今日黃金價格台灣2026｜一錢、一兩、一克即時行情查詢</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 查詢2026年台灣今日黃金價格，包含一錢、一兩、一克實時報價，銀樓收購與賣出差價說明，以及影響金價的關鍵因素分析。
       </div>
 

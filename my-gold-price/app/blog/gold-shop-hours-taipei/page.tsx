@@ -99,7 +99,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>台北銀樓營業時間｜假日有開嗎？2026最新銀樓地點與營業時間整理</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北銀樓營業時間整理：銀樓假日有開嗎？台北24小時銀樓有嗎？各大銀樓、公會營業時間、預約方式，以及緊急變現時的替代方案。
       </div>
 

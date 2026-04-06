@@ -99,7 +99,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>金飾類型回收指南｜金項鍊、金戒指、金手鍊回收行情與估價重點</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 金項鍊、金戒指、金手鍊、金耳環——不同金飾類型回收價格怎麼算？哪種金飾回收最划算？附估價重點與選擇店家建議。
       </div>
 

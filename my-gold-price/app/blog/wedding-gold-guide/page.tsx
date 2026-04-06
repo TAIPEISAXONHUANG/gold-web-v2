@@ -102,7 +102,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>結婚金飾習俗與預算2026｜龍鳳鐲、項鍊、耳環習俗與行情</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 結婚金飾習俗有哪些？2026年龍鳳鐲、項鍊、耳環預算怎麼抓？台灣傳統結婚金飾習俗由來、款式選擇，以及現在的行情參考。
       </div>
 

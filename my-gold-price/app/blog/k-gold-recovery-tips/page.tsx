@@ -94,7 +94,7 @@ export default function Page() {
       />
 
       <h1>回收K金攻略2026｜18K / 14K / 10K 收購流程與避坑指南</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 想回收K金？這篇說清楚18K、14K、10K金怎麼算回收價、哪些地方會坑你、怎麼找到真正公道的回收商。巧品珠寶儀器測試，不扣耗損，當場現金。
       </div>
 

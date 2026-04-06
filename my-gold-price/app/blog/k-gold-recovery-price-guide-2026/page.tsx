@@ -98,7 +98,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>K金回收價格2026｜18K/14K/10K回收行情、計算方式與店家選擇</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> K金回收價格多少？2026年18K、14K、10K回收行情表＋計算方式。k金回收價格怎麼算？不同店家報價差異原因與選擇建議。
       </div>
 

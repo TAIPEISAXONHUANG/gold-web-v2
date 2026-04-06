@@ -98,7 +98,7 @@ export default function GoldPrice916Today2026() {
 
       <article>
         <h1>916黃金今日金價2026｜含金量91.6%，行情、回收價一次搞懂</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 916黃金是什麼成色？今日916金價多少錢一克、一錢、一兩？2026年最新行情、與9999純金差多少、適不適合投資回收，這篇都說清楚。
       </div>
 

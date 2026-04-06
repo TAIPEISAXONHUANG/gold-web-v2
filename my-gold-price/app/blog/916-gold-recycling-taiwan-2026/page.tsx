@@ -99,7 +99,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>916黃金回收2026｜台灣916金價行情與18K差異完整解析</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 916黃金是什麼？和9999純金差多少？2026年台灣916金回收價格怎麼算？含金量91.6%的K金回收行情、與18K比較、為何916受欢迎？一篇整理。
       </div>
 

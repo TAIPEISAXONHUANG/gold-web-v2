@@ -114,7 +114,7 @@ export default function KGoldPricePerGram2026() {
         <h1 style={{ fontSize: '28px', fontWeight: 'bold', lineHeight: '1.4', marginBottom: '16px' }}>
           K金回收價格怎麼算？2026最新14K/18K每克行情表
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> K金回收價格計算方式完整說明。14K、18K、22K每克收購行情、計算公式、常見扣分項目，台北巧品珠寶報價透明、不扣耗損。
       </div>
 

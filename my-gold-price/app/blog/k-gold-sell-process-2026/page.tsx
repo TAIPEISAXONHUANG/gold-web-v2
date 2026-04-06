@@ -176,7 +176,7 @@ export default function KGoldSellProcess2026() {
         <h1 style={{ fontSize: "28px", fontWeight: "700", color: "#1a1a1a", marginBottom: "8px", lineHeight: "1.4" }}>
           賣黃金流程2026年完整攻略｜從估價到拿現金全步驟說明
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 第一次賣黃金不知道怎麼辦？2026年台灣賣黃金完整流程：帶什麼、怎麼估價、如何比價，以及哪些坑要避開。一篇看懂。
       </div>
 

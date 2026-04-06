@@ -96,7 +96,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>賣黃金前檢查清單2026｜估價前必做的7個步驟與注意事項</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 賣黃金之前要做什麼準備？完整的估價前檢查清單，包括：確認純度、秤重量、問牌價、帶證件、選店家。7個步驟，確保你拿到最好的價格。
       </div>
 

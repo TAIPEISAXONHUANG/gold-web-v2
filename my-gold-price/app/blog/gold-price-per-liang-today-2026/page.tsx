@@ -93,7 +93,7 @@ export default function Page() {
       />
 
       <h1>今日金價一兩多少錢？2026台灣即時行情與換算指南</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年今日金價一兩最新行情。台灣黃金一兩等於5錢＝18.75克，9999純金一兩回收今日報價、各純度換算公式一次看懂。台北大安巧品珠寶不扣耗損、當場秤重報價。
       </div>
 

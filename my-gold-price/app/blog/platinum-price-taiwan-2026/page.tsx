@@ -111,7 +111,7 @@ export default function Page() {
   }) }} />
       <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">白金價格台灣2026｜鉑金 vs 黃金收購行情完整比較</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 2026年台灣白金（鉑金Pt950/Pt900）今日收購價格查詢，白金與黃金的差異、鑑別方法，以及台灣銀樓白金回收行情說明。
       </div>
 

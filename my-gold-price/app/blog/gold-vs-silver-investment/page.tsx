@@ -102,7 +102,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金vs白銀投資2026｜兩種貴金屬的特性、流動性與配置建議</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金和白銀哪個更值得投資？2026年黃金和白銀的價格表現、特性比較、流動性差異、以及如何根據投資目標選擇。
       </div>
 

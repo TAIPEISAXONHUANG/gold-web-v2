@@ -114,7 +114,7 @@ export default function GoldRingRecycling2026() {
         <h1 style={{ fontSize: '28px', fontWeight: 'bold', lineHeight: '1.4', marginBottom: '16px' }}>
           黃金戒指回收2026｜各K數報價、流程與注意事項完整說明
         </h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金戒指回收完整指南。24K純金戒、18K戒指、鑲鑽金戒怎麼算？帶什麼去、要注意什麼、哪裡收購最划算，巧品珠寶台北大安24小時收購。
       </div>
 

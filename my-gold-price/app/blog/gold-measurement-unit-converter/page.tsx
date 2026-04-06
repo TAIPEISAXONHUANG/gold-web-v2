@@ -121,7 +121,7 @@ export default function Page() {
       />
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>黃金單位換算｜錢/兩/盎司/公克完整對照表與實用試算</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 黃金單位怎麼算？1錢多少克？1兩、1盎司、1公克之間的換算關係。附線上試算範例與2026年台灣金價行情參考。
       </div>
 

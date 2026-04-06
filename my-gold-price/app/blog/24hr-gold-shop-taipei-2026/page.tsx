@@ -98,7 +98,7 @@ export default function TwentyFourHrGoldShopTaipei2026() {
 
       <article>
         <h1>24小時銀樓台北2026｜半夜能賣黃金嗎？最新實況</h1>
-      <div style={ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }>
+      <div style={{ background: '#fffbeb', borderLeft: '4px solid #f59e0b', padding: '16px', margin: '16px 0', borderRadius: '8px' }}>
         <strong>重點摘要：</strong> 台北有沒有24小時銀樓？半夜能去哪裡賣黃金或K金？2026年最新整理：哪些店有延長營業、哪些平台可以線上詢價，緊急用錢的最快方式一次說清楚。
       </div>
 
